@@ -1,27 +1,8 @@
 __author__ = 'hadyelsahar'
 
-from IPython.core.debugger import Tracer; debug_here = Tracer()
-
 import numpy as np
 from sklearn.base import BaseEstimator, ClassifierMixin
-from sklearn.metrics import classification_report
-import input_data
 import tensorflow as tf
-
-
-class Batcher:
-    def __init__(self, X, y, batchsize=50):
-        self.X = X
-        self.y = y
-        self.iterator = 0
-        self.batchsize = batchsize
-
-
-    def next_batch(self):
-        start = self.iterator
-        end = self.iterator+self.batchsize
-        self.iterator = end if end < len(self.X) else 0
-        return self.X[start:end], self.y[start:end]
 
 
 class CNN(BaseEstimator, ClassifierMixin):
@@ -134,7 +115,7 @@ class CNN(BaseEstimator, ClassifierMixin):
                     n : size of each vector representation of each input to layer 0
                     c : number of input channels  (3 for images rgb,  1 or more for text)
 
-        :param y:  array of size n : correct labels for each training data
+        :param y:  array of size d : correct labels for each training data
         :return: trained CNN Class = self
         """
 
@@ -167,8 +148,11 @@ class CNN(BaseEstimator, ClassifierMixin):
 
     def predict(self, X):
         """
-
-        :param X:
+        :param X:   4d tensor of inputs to predict [d, m, n, c]
+                    d : the size of the training data
+                    m : number of inputs  layer0 (+ padding)
+                    n : size of each vector representation of each input to layer 0
+                    c : number of input channels  (3 for images rgb,  1 or more for text)
         :return:
         """
 
@@ -177,31 +161,31 @@ class CNN(BaseEstimator, ClassifierMixin):
         return y_pred
 
 
-    def check(self):
 
-        # Reading Mnist Data :
-        ######################
-        mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
+class Batcher:
+    """
+    a helper class to create batches given a dataset
+    """
+    def __init__(self, X, y, batchsize=50):
+        """
 
-        # Training :
-        ############
-        x_train = np.reshape(mnist.train.images, [-1, 14, 56, 1])
+        :param X: array(any) : array of whole training inputs
+        :param y: array(any) : array of correct training labels
+        :param batchsize: integer : default = 50,
+        :return: self
+        """
+        self.X = X
+        self.y = y
+        self.iterator = 0
+        self.batchsize = batchsize
 
-        # converting mnist correct labels 1 hot vectors into data into ids of correct labels
-        y_train = mnist.train.labels
-        y_train = [np.where(i == 1) for i in y_train]
-
-        self.fit(x_train, y_train)
-
-        # Testing :
-        ###########
-        x_test = np.reshape(mnist.test.images, [-1, 14, 56, 1])
-        y_pred = self.predict(x_test)
-
-        y_true = mnist.test.labels
-        y_true = [list(i).index(1) for i in y_true]
-
-        print classification_report(y_true, y_pred)
-
-
+    def next_batch(self):
+        """
+        return the next training batch
+        :return: the next batch inform of a tuple (input, label)
+        """
+        start = self.iterator
+        end = self.iterator+self.batchsize
+        self.iterator = end if end < len(self.X) else 0
+        return self.X[start:end], self.y[start:end]
 
