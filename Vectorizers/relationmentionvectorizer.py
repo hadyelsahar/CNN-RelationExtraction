@@ -79,8 +79,6 @@ class RelationMentionVectorizer(TransformerMixin):
         # array index    = 0,.......,(l-1),...(2xl)-1
         self.Wposition = np.random.rand((2*l)-1, self.Wposition_size)
 
-
-
         return self
 
     def Wposlookup(self, p):
