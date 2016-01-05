@@ -10,7 +10,6 @@ from wordvectorizer import WordVectorizer
 # segments            : array of strings of max length m (padding smaller sizes sequences with zeros)
 # segments labels     : array of strings
 # ent1,ent2 : position of entity1 and entity2 in segments    0 <= ent1, ent2 < m
-
 # outputs :
 # vector representation of each segment   : mxn martix  m = len(segments+padding), n = len(Wvec + position_vec + features)
 
