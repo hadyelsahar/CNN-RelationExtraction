@@ -1,0 +1,32 @@
+T1	Subject 9 19	a producer
+T2	Predicate 41 44	met
+T3	Object 45 48	Ray
+T4	Context-Obj 3 7	1919
+A1	Time T4
+T5	Context-Prep 0 2	In
+R1	c_co Arg1:T5 Arg2:T4	
+T6	Predicate 20 28	visiting
+T7	Context-Prep 29 40	San Antonio
+R2	s_p Arg1:T1 Arg2:T6	
+R3	p_c Arg1:T6 Arg2:T7	
+R4	s_p Arg1:T1 Arg2:T2	
+R5	p_o Arg1:T2 Arg2:T3	
+T8	Conj 49 52	and
+R6	conj Arg1:T8 Arg2:T2	
+T9	Predicate 53 61	insisted
+R7	conj Arg1:T8 Arg2:T9	
+T11	Predicate 66 70	take
+T12	Object 71 77	a part
+R10	p_o Arg1:T11 Arg2:T12	
+R11	s_p Arg1:T1 Arg2:T9	
+T13	Context-Obj 62 65	she
+T10	Context-Obj 81 87	a film
+T14	Context-Prep 78 80	in
+R8	c_co Arg1:T14 Arg2:T10	
+R9	is-specialized-by Arg1:T12 Arg2:T14	
+T15	Subject 88 90	he
+R12	coref Arg1:T15 Arg2:T1	
+T16	Predicate 91 94	was
+T17	Object 95 101	making
+R13	s_p Arg1:T15 Arg2:T16	
+R14	p_o Arg1:T16 Arg2:T17	

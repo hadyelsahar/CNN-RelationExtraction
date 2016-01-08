@@ -1,0 +1,25 @@
+T1	Subject 0 7	Lincoln
+T2	Predicate 8 17	continued
+T3	Object 27 33	policy
+T4	Seg 18 26	the army
+R1	is-specialized-by Arg1:T3 Arg2:T4	
+R2	s_p Arg1:T1 Arg2:T2	
+R3	p_o Arg1:T2 Arg2:T3	
+T5	Subject 39 47	the writ
+T6	Predicate 48 61	was suspended
+T7	Context-Prep 62 64	in
+T8	Context-Obj 73 78	areas
+T9	Seg 65 72	limited
+R4	is-specialized-by Arg1:T8 Arg2:T9	
+R5	c_co Arg1:T7 Arg2:T8	
+R6	p_c Arg1:T6 Arg2:T7	
+R7	s_p Arg1:T5 Arg2:T6	
+T10	Context-Prep 34 38	that
+R8	is-specialized-by Arg1:T3 Arg2:T10	
+R9	c_p Arg1:T10 Arg2:T6	
+T11	Context-Prep 79 86	despite
+T12	Seg 87 108	the Ex parte Merryman
+T13	Context-Obj 109 115	ruling
+R10	c_co Arg1:T11 Arg2:T13	
+R11	is-specialized-by Arg1:T13 Arg2:T12	
+R12	p_c Arg1:T2 Arg2:T11	

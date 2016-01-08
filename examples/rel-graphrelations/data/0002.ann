@@ -1,0 +1,26 @@
+T1	Subject 0 8	Michalka
+T2	Predicate 9 12	was
+T3	Context-Prep 13 15	in
+T4	Context-Obj 36 47	productions
+R1	c_co Arg1:T3 Arg2:T4	
+R2	s_p Arg1:T1 Arg2:T2	
+R3	p_c Arg1:T2 Arg2:T3	
+T5	Seg 28 35	musical
+R4	is-specialized-by Arg1:T4 Arg2:T5	
+T6	Seg 16 27	a number of
+R5	is-specialized-by Arg1:T4 Arg2:T6	
+T7	Context-Prep 75 77	as
+T8	Context-Obj 86 91	adult
+T10	Seg 78 85	a young
+R6	is-specialized-by Arg1:T8 Arg2:T10	
+R7	c_p Arg1:T7 Arg2:T8	
+R8	p_c Arg1:T2 Arg2:T7	
+T9	Context-Prep 48 50	at
+R12	p_c Arg1:T2 Arg2:T9	
+T11	Context-Obj 55 61	school
+R9	c_p Arg1:T9 Arg2:T11	
+T12	Seg 51 54	her
+R10	poss Arg1:T11 Arg2:T12	
+R11	coref Arg1:T12 Arg2:T1	
+T13	Seg 62 74	in Milwaukee
+R13	is-specialized-by Arg1:T11 Arg2:T13	

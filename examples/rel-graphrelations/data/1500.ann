@@ -1,0 +1,32 @@
+T1	Subject 98 101	she
+T2	Predicate 102 110	accepted
+T3	Object 111 119	the role
+R1	s_p Arg1:T1 Arg2:T2	
+R2	p_o Arg1:T2 Arg2:T3	
+T4	Subject 10 19	Dickinson
+T5	Predicate 20 23	was
+T6	Object 24 33	reluctant
+R3	s_p Arg1:T4 Arg2:T5	
+R4	p_o Arg1:T5 Arg2:T6	
+R5	coref Arg1:T1 Arg2:T4	
+T7	Subject 44 53	producers
+T8	Predicate 54 58	told
+T9	Object 59 62	her
+T10	Conj 35 38	but
+R6	conj Arg1:T10 Arg2:T5	
+R7	conj Arg1:T10 Arg2:T2	
+T11	Context-Prep 39 43	when
+R8	c_p Arg1:T11 Arg2:T8	
+R9	s_p Arg1:T7 Arg2:T8	
+R10	p_o Arg1:T8 Arg2:T9	
+R11	coref Arg1:T9 Arg2:T4	
+T12	Subject 63 66	she
+T13	Predicate 67 79	could become
+T14	Object 80 96	a household name
+R12	s_p Arg1:T12 Arg2:T13	
+R13	p_o Arg1:T13 Arg2:T14	
+R14	p_p Arg1:T8 Arg2:T13	
+T15	Context-Obj 3 8	first
+T16	Context-Prep 0 2	At
+R15	c_co Arg1:T16 Arg2:T15	
+R16	p_c Arg1:T5 Arg2:T16	

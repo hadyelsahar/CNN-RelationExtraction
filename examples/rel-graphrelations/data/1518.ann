@@ -1,0 +1,19 @@
+T1	Subject 19 25	Harmon
+T2	Predicate 26 32	became
+T3	Object 33 40	engaged
+T4	Context-Prep 41 43	to
+T5	Context-Obj 62 74	Jason Sehorn
+T6	Seg 55 61	player
+T7	Seg 51 54	NFL
+T8	Seg 44 50	former
+R1	is-specialized-by Arg1:T6 Arg2:T7	
+R2	is-specialized-by Arg1:T6 Arg2:T8	
+R3	is-specialized-by Arg1:T5 Arg2:T6	
+R4	c_co Arg1:T4 Arg2:T5	
+R5	s_p Arg1:T1 Arg2:T2	
+R6	p_o Arg1:T2 Arg2:T3	
+R7	is-specialized-by Arg1:T3 Arg2:T4	
+T9	Context-Prep 0 2	On
+T10	Context-Obj 3 17	March 13, 2000
+R8	c_co Arg1:T9 Arg2:T10	
+R9	p_c Arg1:T2 Arg2:T9	

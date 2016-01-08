@@ -1,0 +1,30 @@
+T1	Subject 14 21	Lincoln
+T2	Predicate 22 28	agreed
+R1	s_p Arg1:T1 Arg2:T2	
+T3	Context-Prep 50 52	if
+T4	Subject 53 56	she
+T5	Predicate 57 65	returned
+T6	Context-Prep 66 68	to
+T7	Context-Obj 69 78	New Salem
+R2	c_co Arg1:T6 Arg2:T7	
+A1	Location T6
+A2	Location T7
+R3	s_p Arg1:T4 Arg2:T5	
+R4	p_c Arg1:T5 Arg2:T6	
+R5	c_p Arg1:T3 Arg2:T5	
+T8	Context-Prep 29 31	to
+T9	Context-Obj 32 39	a match
+T10	Context-Prep 40 44	with
+T11	Context-Obj 45 49	Mary
+R6	coref Arg1:T4 Arg2:T11	
+R7	p_c Arg1:T2 Arg2:T3	
+R8	c_co Arg1:T8 Arg2:T9	
+R9	c_co Arg1:T10 Arg2:T11	
+R10	is-specialized-by Arg1:T9 Arg2:T10	
+R11	p_c Arg1:T2 Arg2:T8	
+T12	Context-Obj 8 12	1836
+A3	Time T12
+T13	Context-Prep 5 7	in
+R12	c_co Arg1:T13 Arg2:T12	
+A4	Time T13
+R13	p_c Arg1:T2 Arg2:T13	

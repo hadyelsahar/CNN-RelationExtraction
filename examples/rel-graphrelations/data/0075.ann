@@ -1,0 +1,25 @@
+T1	Subject 0 7	Turnout
+T2	Predicate 8 11	was
+R2	s_p Arg1:T1 Arg2:T2	
+T3	Object 12 16	82.2
+T4	Seg 17 24	percent
+R1	is-specialized-by Arg1:T3 Arg2:T4	
+R3	p_o Arg1:T2 Arg2:T3	
+T5	Subject 31 38	Lincoln
+T6	Predicate 39 46	winning
+T7	Object 47 71	the free Northern states
+T8	Conj 73 83	as well as
+T9	Object 84 94	California
+T10	Conj 95 98	and
+T11	Object 99 105	Oregon
+R4	s_p Arg1:T5 Arg2:T6	
+R5	p_o Arg1:T6 Arg2:T7	
+R6	p_o Arg1:T6 Arg2:T9	
+R7	p_o Arg1:T6 Arg2:T11	
+R8	conj Arg1:T10 Arg2:T11	
+R9	conj Arg1:T10 Arg2:T9	
+R10	conj Arg1:T8 Arg2:T9	
+R11	conj Arg1:T8 Arg2:T7	
+T12	Context-Prep 26 30	with
+R12	p_c Arg1:T2 Arg2:T12	
+R13	c_p Arg1:T12 Arg2:T6	

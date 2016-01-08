@@ -1,0 +1,27 @@
+T1	Subject 0 7	Lincoln
+T2	Predicate 8 17	denounced
+T3	Object 18 30	the decision
+R1	s_p Arg1:T1 Arg2:T2	
+R2	p_o Arg1:T2 Arg2:T3	
+T4	Context-Prep 32 40	alleging
+T5	Subject 41 43	it
+T6	Predicate 44 47	was
+T7	Object 48 59	the product
+R3	s_p Arg1:T5 Arg2:T6	
+R4	p_o Arg1:T6 Arg2:T7	
+R5	c_p Arg1:T4 Arg2:T6	
+R6	p_c Arg1:T2 Arg2:T4	
+T8	Context-Prep 60 62	of
+T9	Context-Obj 63 75	a conspiracy
+T10	Context-Prep 76 78	of
+T11	Context-Obj 79 88	Democrats
+R7	c_co Arg1:T8 Arg2:T9	
+R8	is-specialized-by Arg1:T9 Arg2:T10	
+R9	c_co Arg1:T10 Arg2:T11	
+R10	is-specialized-by Arg1:T7 Arg2:T8	
+T12	Context-Prep 89 91	to
+T13	Predicate 92 99	support
+R11	c_p Arg1:T12 Arg2:T13	
+R12	is-specialized-by Arg1:T9 Arg2:T12	
+T14	Object 100 115	the Slave Power
+R13	p_o Arg1:T13 Arg2:T14	

@@ -1,0 +1,25 @@
+T1	Subject 0 7	Lincoln
+T2	Predicate 8 11	was
+T3	Object 12 16	open
+T4	Context-Prep 17 19	to
+R1	s_p Arg1:T1 Arg2:T2	
+R2	p_o Arg1:T2 Arg2:T3	
+R3	is-specialized-by Arg1:T3 Arg2:T4	
+T5	Context-Obj 20 35	the possibility
+T6	Context-Prep 36 38	of
+T7	Context-Obj 39 66	a constitutional convention
+R4	c_co Arg1:T4 Arg2:T5	
+R5	is-specialized-by Arg1:T5 Arg2:T6	
+R6	c_co Arg1:T6 Arg2:T7	
+T8	Context-Prep 67 69	to
+T9	Predicate 70 74	make
+T10	Object 83 93	amendments
+T11	Seg 75 82	further
+R7	p_c Arg1:T2 Arg2:T8	
+R8	c_p Arg1:T8 Arg2:T9	
+R9	coref Arg1:T10 Arg2:T11	
+R10	p_o Arg1:T9 Arg2:T10	
+T12	Context-Prep 94 96	to
+T13	Context-Obj 97 113	the Constitution
+R11	c_co Arg1:T12 Arg2:T13	
+R12	is-specialized-by Arg1:T10 Arg2:T12	

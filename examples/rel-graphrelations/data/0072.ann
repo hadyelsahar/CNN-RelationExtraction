@@ -1,0 +1,21 @@
+T1	Subject 19 34	Hannibal Hamlin
+T2	Predicate 45 58	was nominated
+T3	Context-Prep 59 62	for
+T4	Context-Obj 63 77	Vice President
+R1	c_co Arg1:T3 Arg2:T4	
+R2	s_p Arg1:T1 Arg2:T2	
+R3	p_c Arg1:T2 Arg2:T3	
+T5	Context-Prep 78 80	to
+T6	Predicate 81 88	balance
+T7	Object 89 99	the ticket
+R4	p_o Arg1:T6 Arg2:T7	
+R5	p_c Arg1:T2 Arg2:T5	
+R6	c_p Arg1:T5 Arg2:T6	
+T8	Context-Prep 35 37	of
+T9	Context-Obj 38 43	Maine
+R7	is-specialized-by Arg1:T1 Arg2:T8	
+R8	c_co Arg1:T8 Arg2:T9	
+T10	Seg 9 17	Democrat
+R9	is-specialized-by Arg1:T1 Arg2:T10	
+T11	Seg 0 8	A former
+R10	is-specialized-by Arg1:T10 Arg2:T11	

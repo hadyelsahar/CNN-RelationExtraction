@@ -1,0 +1,36 @@
+T1	Subject 0 4	Mann
+T2	Predicate 15 20	lives
+T3	Context 5 14	currently
+R1	s_p Arg1:T1 Arg2:T2	
+R2	p_c Arg1:T2 Arg2:T3	
+T5	Context-Prep 36 40	with
+T6	Context-Obj 45 53	daughter
+T7	Seg 54 60	Nikita
+T8	Seg 41 44	her
+R3	poss Arg1:T6 Arg2:T8	
+R4	coref Arg1:T8 Arg2:T1	
+R5	c_p Arg1:T5 Arg2:T6	
+R6	p_c Arg1:T2 Arg2:T5	
+T9	Conj 61 64	and
+R7	conj Arg1:T9 Arg2:T6	
+T10	Seg 69 76	husband
+T11	Seg 65 68	her
+T12	Seg 77 84	Purvesh
+R8	coref Arg1:T12 Arg2:T10	
+R9	poss Arg1:T10 Arg2:T11	
+R10	coref Arg1:T11 Arg2:T1	
+T13	Subject 86 89	who
+T14	Predicate 90 95	works
+R12	s_p Arg1:T13 Arg2:T14	
+R13	coref Arg1:T13 Arg2:T10	
+R14	coref Arg1:T7 Arg2:T6	
+T4	Context-Prep 21 23	in
+T16	Context-Obj 24 35	Los Angeles
+R15	c_p Arg1:T4 Arg2:T16	
+R16	p_c Arg1:T2 Arg2:T4	
+A1	Location T4
+T15	Context-Prep 96 98	in
+T17	Context-Obj 99 106	finance
+R11	p_c Arg1:T14 Arg2:T15	
+R17	c_p Arg1:T15 Arg2:T17	
+A2	Time T3

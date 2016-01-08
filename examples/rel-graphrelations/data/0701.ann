@@ -1,0 +1,28 @@
+T1	Subject 18 21	she
+T2	Predicate 22 28	played
+T3	Object 43 47	girl
+T4	Seg 31 42	16-year-old
+R1	is-specialized-by Arg1:T3 Arg2:T4	
+R2	p_o Arg1:T2 Arg2:T3	
+T6	Subject 48 51	who
+T7	Predicate 52 61	befriends
+T8	Object 69 76	mustang
+T9	Seg 64 68	wild
+R5	is-specialized-by Arg1:T8 Arg2:T9	
+T10	Context-Prep 77 79	in
+T11	Context-Obj 80 88	the film
+R7	c_co Arg1:T10 Arg2:T11	
+T12	Context-Prep 0 2	At
+T14	Context-Prep 11 13	of
+T15	Context-Obj 14 16	25
+T16	Context-Obj 3 10	the age
+R10	c_co Arg1:T14 Arg2:T16	
+R11	c_co Arg1:T12 Arg2:T16	
+R12	s_p Arg1:T1 Arg2:T2	
+R9	c_co Arg1:T14 Arg2:T15	
+R3	coref Arg1:T6 Arg2:T1	
+R4	s_p Arg1:T6 Arg2:T7	
+R8	p_o Arg1:T7 Arg2:T8	
+R6	p_c Arg1:T7 Arg2:T10	
+R13	is-specialized-by Arg1:T1 Arg2:T12	
+R14	p_c Arg1:T2 Arg2:T10	

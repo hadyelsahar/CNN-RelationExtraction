@@ -1,0 +1,17 @@
+T1	Context-Prep 0 2	On
+T2	Context-Obj 3 17	May 9–10, 1860
+T3	Subject 32 59	Republican State Convention
+T4	Predicate 60 68	was held
+T5	Seg 19 31	the Illinois
+R1	is-specialized-by Arg1:T3 Arg2:T5	
+R2	s_p Arg1:T3 Arg2:T4	
+T6	Context-Prep 69 71	in
+T7	Context-Obj 72 79	Decatur
+A1	Location T6
+A2	Location T7
+R3	p_c Arg1:T4 Arg2:T6	
+R4	c_co Arg1:T6 Arg2:T7	
+R5	p_c Arg1:T4 Arg2:T1	
+R6	c_co Arg1:T1 Arg2:T2	
+A4	Time T2
+A3	Time T1

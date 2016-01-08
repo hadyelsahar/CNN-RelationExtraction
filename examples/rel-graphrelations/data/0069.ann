@@ -1,0 +1,9 @@
+T1	Subject 0 1	I
+T2	Predicate 2 15	do not expect
+T3	Object 16 25	the Union
+T4	Context-Prep 26 28	to
+T5	Predicate 29 41	be dissolved
+R1	s_p Arg1:T1 Arg2:T2	
+R2	p_o Arg1:T2 Arg2:T3	
+R3	p_c Arg1:T2 Arg2:T4	
+R4	c_p Arg1:T4 Arg2:T5	

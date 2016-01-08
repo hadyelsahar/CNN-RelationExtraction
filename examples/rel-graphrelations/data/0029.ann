@@ -1,0 +1,28 @@
+T1	Subject 0 2	He
+T2	Predicate 3 5	is
+T3	Object 6 18	a descendant
+T4	Context-Prep 19 21	of
+T5	Context-Obj 22 36	Samuel Lincoln
+R1	c_co Arg1:T4 Arg2:T5	
+R2	is-specialized-by Arg1:T3 Arg2:T4	
+R3	p_o Arg1:T2 Arg2:T3	
+R4	s_p Arg1:T1 Arg2:T2	
+T6	Subject 38 41	who
+T7	Predicate 42 50	migrated
+T8	Context-Prep 51 55	from
+T9	Context-Obj 56 72	Norfolk, England
+T10	Context-Prep 73 75	to
+T11	Context-Obj 76 98	Hingham, Massachusetts
+R5	c_co Arg1:T10 Arg2:T11	
+R6	c_co Arg1:T8 Arg2:T9	
+R7	p_c Arg1:T7 Arg2:T8	
+R8	p_c Arg1:T7 Arg2:T10	
+T12	Context-Prep 101 102	n
+T13	Context-Obj 103 107	1638
+R9	c_co Arg1:T12 Arg2:T13	
+R10	p_c Arg1:T7 Arg2:T12	
+R11	s_p Arg1:T6 Arg2:T7	
+R12	coref Arg1:T6 Arg2:T1	
+A1	Location T8
+A2	Location T10
+A3	Time T12

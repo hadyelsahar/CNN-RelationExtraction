@@ -1,0 +1,19 @@
+T1	Context-Prep 0 2	In
+A1	Time T1
+T2	Context-Obj 3 7	2010
+A2	Time T2
+T3	Subject 9 13	Mann
+T4	Predicate 14 20	joined
+T5	Object 21 74	The 9th Annual Independent Music Awards judging panel
+T6	Context-Prep 75 77	to
+T7	Predicate 78 85	promote
+T8	Context-Prep 86 97	independent
+T9	Context-Obj 98 107	musicians
+R1	c_co Arg1:T1 Arg2:T2	
+R2	s_p Arg1:T3 Arg2:T4	
+R3	p_o Arg1:T4 Arg2:T5	
+R4	is-specialized-by Arg1:T5 Arg2:T6	
+R5	c_p Arg1:T6 Arg2:T7	
+R6	c_co Arg1:T8 Arg2:T9	
+R7	c_p Arg1:T1 Arg2:T4	
+R8	p_c Arg1:T7 Arg2:T8	

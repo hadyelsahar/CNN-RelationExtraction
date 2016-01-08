@@ -1,0 +1,32 @@
+T1	Subject 0 11	Her parents
+T2	Predicate 12 21	emigrated
+R1	s_p Arg1:T1 Arg2:T2	
+T3	Context-Obj 25 42	the United States
+T4	Context-Prep 22 24	to
+T5	Conj 51 54	and
+T6	Predicate 55 62	settled
+R3	conj Arg1:T5 Arg2:T2	
+R4	conj Arg1:T5 Arg2:T6	
+T7	Context-Prep 63 65	in
+T9	Subject 95 99	they
+R5	coref Arg1:T9 Arg2:T1	
+T10	Predicate 100 104	died
+R6	s_p Arg1:T9 Arg2:T10	
+R7	p_c Arg1:T6 Arg2:T7	
+R10	p_c Arg1:T2 Arg2:T4	
+R11	c_co Arg1:T4 Arg2:T3	
+T11	Object 43 50	as well
+R13	p_o Arg1:T2 Arg2:T11	
+R14	is-specialized-by Arg1:T11 Arg2:T4	
+T8	Context-Obj 66 81	Cleveland, Ohio
+R2	c_co Arg1:T7 Arg2:T8	
+T12	Object 83 93	for a time
+R8	p_o Arg1:T6 Arg2:T12	
+R9	is-specialized-by Arg1:T12 Arg2:T7	
+T13	Context-Prep 105 107	in
+T14	Context-Obj 108 117	the 1970s
+A1	Time T14
+R12	c_co Arg1:T13 Arg2:T14	
+R15	p_c Arg1:T10 Arg2:T13	
+A2	Location T8
+A3	Location T3

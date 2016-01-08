@@ -1,0 +1,25 @@
+T1	Subject 22 29	Lincoln
+T2	Predicate 30 39	continued
+T3	Object 44 52	campaign
+T4	Seg 40 43	his
+R1	poss Arg1:T3 Arg2:T4	
+R2	coref Arg1:T4 Arg2:T1	
+R3	s_p Arg1:T1 Arg2:T2	
+R4	p_o Arg1:T2 Arg2:T3	
+T5	Context-Prep 53 56	for
+T6	Context-Obj 70 78	election
+T7	Seg 57 69	the August 6
+R5	is-specialized-by Arg1:T6 Arg2:T7	
+R6	c_co Arg1:T5 Arg2:T6	
+R7	p_c Arg1:T2 Arg2:T5	
+T8	Context-Prep 79 82	for
+T9	Context-Obj 83 112	the Illinois General Assembly
+R8	c_co Arg1:T8 Arg2:T9	
+R9	is-specialized-by Arg1:T6 Arg2:T8	
+T10	Predicate 0 9	Following
+T11	Object 14 20	return
+T12	Seg 10 13	his
+R10	poss Arg1:T11 Arg2:T12	
+R11	coref Arg1:T12 Arg2:T1	
+R12	p_o Arg1:T10 Arg2:T11	
+R13	p_p Arg1:T2 Arg2:T10	

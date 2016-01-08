@@ -1,0 +1,26 @@
+T1	Subject 0 3	She
+T2	Predicate 4 12	returned
+T3	Context 13 25	sporadically
+T4	Context-Prep 26 32	during
+T5	Context-Obj 53 60	seasons
+T6	Seg 47 52	sixth
+T7	Conj 43 46	and
+T8	Seg 33 42	the fifth
+R1	is-specialized-by Arg1:T5 Arg2:T6	
+R2	conj Arg1:T7 Arg2:T6	
+R3	conj Arg1:T7 Arg2:T8	
+R4	c_p Arg1:T4 Arg2:T5	
+R5	p_c Arg1:T2 Arg2:T3	
+R6	p_c Arg1:T2 Arg2:T4	
+R7	s_p Arg1:T1 Arg2:T2	
+T9	Predicate 66 82	did not reappear
+T10	Context-Prep 83 88	after
+T11	Context-Obj 89 93	1986
+A1	Time T11
+R8	c_p Arg1:T10 Arg2:T11	
+R9	p_c Arg1:T9 Arg2:T10	
+R10	is-specialized-by Arg1:T5 Arg2:T8	
+T12	Conj 62 65	but
+R11	conj Arg1:T12 Arg2:T2	
+R12	conj Arg1:T12 Arg2:T9	
+R13	s_p Arg1:T1 Arg2:T9	

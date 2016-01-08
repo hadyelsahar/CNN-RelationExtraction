@@ -1,0 +1,29 @@
+T2	Predicate 22 24	is
+T3	Object 25 37	a journalist
+R2	p_o Arg1:T2 Arg2:T3	
+T4	Subject 7 14	brother
+T1	Seg 15 21	Nishad
+R1	coref Arg1:T1 Arg2:T4	
+T5	Seg 0 6	Mann's
+R3	poss Arg1:T4 Arg2:T5	
+R4	s_p Arg1:T4 Arg2:T2	
+R5	p_o Arg1:T2 Arg2:T3	
+T6	Seg 42 45	her
+T10	Object 80 88	decision
+T11	Context-Prep 89 91	to
+T12	Predicate 92 101	switch to
+T13	Object 102 108	acting
+R6	s_p Arg1:T13 Arg2:T12	
+R7	c_p Arg1:T11 Arg2:T12	
+T14	Seg 53 58	Kruti
+T15	Subject 46 52	sister
+R9	coref Arg1:T14 Arg2:T15	
+R10	poss Arg1:T15 Arg2:T6	
+R11	coref Arg1:T6 Arg2:T5	
+T7	Predicate 59 75	helped influence
+R8	s_p Arg1:T15 Arg2:T7	
+R12	p_o Arg1:T7 Arg2:T10	
+T8	Seg 76 79	her
+R13	coref Arg1:T8 Arg2:T5	
+R14	poss Arg1:T10 Arg2:T8	
+R15	is-specialized-by Arg1:T10 Arg2:T11	

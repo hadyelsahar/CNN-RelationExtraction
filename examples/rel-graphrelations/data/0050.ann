@@ -1,0 +1,36 @@
+T1	Subject 20 27	Lincoln
+T2	Conj 28 31	and
+T3	Subject 32 41	a partner
+T4	Predicate 42 48	bought
+T5	Object 65 70	store
+T6	Seg 57 64	general
+T7	Seg 49 56	a small
+R1	coref Arg1:T5 Arg2:T6	
+R2	coref Arg1:T5 Arg2:T7	
+R3	p_o Arg1:T4 Arg2:T5	
+R4	s_p Arg1:T3 Arg2:T4	
+R5	conj Arg1:T2 Arg2:T3	
+R6	conj Arg1:T2 Arg2:T1	
+R7	s_p Arg1:T1 Arg2:T4	
+T8	Context-Prep 81 83	in
+T9	Context-Obj 84 103	New Salem, Illinois
+R8	c_co Arg1:T8 Arg2:T9	
+T10	Context-Prep 71 73	on
+T11	Context-Obj 74 80	credit
+R9	c_co Arg1:T10 Arg2:T11	
+R11	is-specialized-by Arg1:T5 Arg2:T8	
+T12	Context-Prep 9 11	at
+T13	Context-Obj 12 18	age 23
+R12	c_co Arg1:T12 Arg2:T13	
+T14	Context-Prep 0 2	In
+T15	Context-Obj 3 7	1832
+R13	c_co Arg1:T14 Arg2:T15	
+R14	p_c Arg1:T4 Arg2:T12	
+R15	p_c Arg1:T4 Arg2:T14	
+R10	is-specialized-by Arg1:T5 Arg2:T10	
+A1	Time T14
+A2	Time T15
+A3	Time T12
+A4	Time T13
+A5	Location T8
+A6	Location T9

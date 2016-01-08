@@ -1,0 +1,32 @@
+T1	Subject 0 8	Michalka
+T2	Predicate 9 25	has been playing
+T3	Object 26 35	the piano
+T4	Context-Prep 36 41	since
+T5	Subject 42 45	she
+T6	Predicate 46 49	was
+T7	Object 50 54	four
+R1	p_o Arg1:T2 Arg2:T3	
+R2	s_p Arg1:T1 Arg2:T2	
+R3	p_c Arg1:T2 Arg2:T4	
+R4	c_p Arg1:T4 Arg2:T6	
+R5	s_p Arg1:T5 Arg2:T6	
+R6	p_o Arg1:T6 Arg2:T7	
+T8	Predicate 59 66	started
+T10	Object 67 74	playing
+T11	Seg 75 85	the guitar
+R7	p_o Arg1:T8 Arg2:T10	
+T12	Conj 55 58	and
+R10	conj Arg1:T12 Arg2:T8	
+R8	is-specialized-by Arg1:T10 Arg2:T11	
+T9	Seg 89 92	her
+T13	Seg 93 98	early
+R12	coref Arg1:T5 Arg2:T1	
+R13	coref Arg1:T9 Arg2:T5	
+T14	Context-Obj 99 104	teens
+T15	Context-Prep 86 88	in
+R9	poss Arg1:T14 Arg2:T9	
+R14	is-specialized-by Arg1:T14 Arg2:T13	
+R15	c_co Arg1:T15 Arg2:T14	
+R16	p_c Arg1:T8 Arg2:T15	
+R11	conj Arg1:T12 Arg2:T2	
+R17	s_p Arg1:T1 Arg2:T8	

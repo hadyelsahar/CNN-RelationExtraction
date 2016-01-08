@@ -1,0 +1,23 @@
+T1	Subject 18 25	leaders
+T2	Seg 15 17	no
+R1	is-specialized-by Arg1:T1 Arg2:T2	
+T3	Context-Prep 26 28	of
+T4	Context-Obj 29 45	the insurrection
+R2	c_co Arg1:T3 Arg2:T4	
+R3	is-specialized-by Arg1:T1 Arg2:T3	
+T5	Predicate 46 58	had proposed
+T6	Predicate 59 68	rejoining
+R4	s_p Arg1:T1 Arg2:T5	
+R5	p_p Arg1:T5 Arg2:T6	
+T7	Context-Prep 0 2	By
+T8	Context-Obj 3 13	March 1861
+R6	c_co Arg1:T7 Arg2:T8	
+R7	p_c Arg1:T5 Arg2:T7	
+T9	Object 69 78	the Union
+R8	p_o Arg1:T6 Arg2:T9	
+T10	Context-Prep 79 81	on
+R9	p_c Arg1:T6 Arg2:T10	
+T11	Context-Obj 86 91	terms
+T12	Seg 82 85	any
+R10	poss Arg1:T11 Arg2:T12	
+R11	c_co Arg1:T10 Arg2:T11	

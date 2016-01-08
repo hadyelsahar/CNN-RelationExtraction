@@ -1,0 +1,25 @@
+T1	Subject 1 26	Aarti Mann Aarti Majumdar
+T2	Predicate 29 41	better known
+T3	Predicate 72 74	is
+T4	Object 87 94	actress
+T5	Seg 75 86	an American
+R1	is-specialized-by Arg1:T4 Arg2:T5	
+R2	p_o Arg1:T3 Arg2:T4	
+R3	s_p Arg1:T1 Arg2:T3	
+R4	s_p Arg1:T1 Arg2:T2	
+T6	Context-Prep 95 97	of
+T7	Context-Obj 105 111	origin
+T8	Seg 98 104	Indian
+R5	is-specialized-by Arg1:T7 Arg2:T8	
+R6	is-specialized-by Arg1:T4 Arg2:T6	
+R8	c_p Arg1:T6 Arg2:T7	
+T13	Context-Prep 42 44	by
+T9	Seg 45 48	her
+T10	Context-Obj 55 59	name
+T11	Seg 60 70	Aarti Mann
+T12	Seg 49 54	stage
+R7	is-specialized-by Arg1:T10 Arg2:T12	
+R9	poss Arg1:T10 Arg2:T9	
+R10	coref Arg1:T9 Arg2:T1	
+R11	p_c Arg1:T2 Arg2:T13	
+R12	coref Arg1:T11 Arg2:T10	

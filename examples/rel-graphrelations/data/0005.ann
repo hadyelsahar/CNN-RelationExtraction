@@ -1,0 +1,26 @@
+T1	Context-Prep 0 2	In
+T2	Subject 26 32	sister
+T3	Conj 18 21	and
+T4	Subject 14 17	she
+T5	Seg 22 25	her
+R2	conj Arg1:T3 Arg2:T4	
+R3	poss Arg1:T2 Arg2:T5	
+R4	coref Arg1:T5 Arg2:T4	
+T6	Seg 34 46	Aly Michalka
+R5	coref Arg1:T6 Arg2:T2	
+T7	Predicate 47 53	filmed
+T8	Object 66 71	drama
+T9	Seg 54 65	an untitled
+R6	is-specialized-by Arg1:T8 Arg2:T9	
+R7	p_o Arg1:T7 Arg2:T8	
+R8	s_p Arg1:T4 Arg2:T7	
+T10	Context-Prep 72 74	in
+R9	p_c Arg1:T7 Arg2:T10	
+R10	p_c Arg1:T7 Arg2:T1	
+A1	Location T10
+T11	Context-Obj 75 100	Laurel Canyon, California
+R11	c_co Arg1:T10 Arg2:T11	
+T12	Context-Obj 3 12	July 2014
+R12	c_co Arg1:T1 Arg2:T12	
+R1	conj Arg1:T3 Arg2:T2	
+R13	s_p Arg1:T2 Arg2:T7	

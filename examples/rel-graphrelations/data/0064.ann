@@ -1,0 +1,19 @@
+T1	Subject 0 12	The decision
+T2	Predicate 43 57	has been cited
+T3	Context-Prep 58 60	by
+T4	Context-Obj 76 82	courts
+T5	Seg 70 75	other
+T6	Seg 61 69	numerous
+T7	Context-Prep 83 85	in
+T8	Context-Obj 86 96	the nation
+R1	c_co Arg1:T7 Arg2:T8	
+R2	is-specialized-by Arg1:T4 Arg2:T5	
+R3	is-specialized-by Arg1:T4 Arg2:T6	
+R4	is-specialized-by Arg1:T4 Arg2:T7	
+R5	c_co Arg1:T3 Arg2:T4	
+R6	p_c Arg1:T2 Arg2:T3	
+R7	s_p Arg1:T1 Arg2:T2	
+T9	Context-Prep 13 15	by
+T10	Context-Obj 16 42	the Illinois Supreme Court
+R8	c_co Arg1:T9 Arg2:T10	
+R9	is-specialized-by Arg1:T1 Arg2:T9	

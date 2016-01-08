@@ -1,0 +1,19 @@
+T1	Subject 11 18	Lincoln
+T2	Predicate 19 28	concluded
+T3	Context-Prep 29 31	at
+T4	Context-Obj 37 42	point
+T5	Seg 32 36	this
+R1	is-specialized-by Arg1:T4 Arg2:T5	
+R2	c_co Arg1:T3 Arg2:T4	
+R3	s_p Arg1:T1 Arg2:T2	
+R4	p_c Arg1:T2 Arg2:T3	
+T6	Subject 48 62	the slave base
+T7	Context-Prep 63 65	of
+T8	Context-Obj 66 81	the Confederacy
+R5	c_co Arg1:T7 Arg2:T8	
+R6	is-specialized-by Arg1:T6 Arg2:T7	
+T9	Predicate 82 88	had to
+T10	Predicate 89 102	be eliminated
+R7	s_p Arg1:T6 Arg2:T9	
+R8	p_p Arg1:T9 Arg2:T10	
+R9	p_p Arg1:T2 Arg2:T9	

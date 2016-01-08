@@ -1,0 +1,29 @@
+T1	Subject 20 27	Lincoln
+T2	Predicate 28 33	wrote
+T3	Object 34 38	Mary
+T4	Object 39 47	a letter
+R1	s_p Arg1:T1 Arg2:T2	
+R2	p_o Arg1:T2 Arg2:T3	
+R3	p_o Arg1:T2 Arg2:T4	
+T5	Predicate 48 58	suggesting
+T6	Context-Obj 3 18	August 16, 1837
+T7	Context-Prep 0 2	On
+R4	c_co Arg1:T7 Arg2:T6	
+R5	p_c Arg1:T2 Arg2:T7	
+T8	Subject 59 61	he
+T9	Predicate 62 77	would not blame
+T10	Object 78 81	her
+R6	s_p Arg1:T8 Arg2:T9	
+R7	p_o Arg1:T9 Arg2:T10	
+R8	coref Arg1:T10 Arg2:T3	
+R9	coref Arg1:T8 Arg2:T1	
+T11	Context-Prep 82 84	if
+T12	Subject 85 88	she
+T13	Predicate 89 94	ended
+T14	Object 95 111	the relationship
+R10	s_p Arg1:T12 Arg2:T13	
+R11	p_o Arg1:T13 Arg2:T14	
+R12	c_p Arg1:T11 Arg2:T13	
+R13	p_c Arg1:T9 Arg2:T11	
+R14	p_p Arg1:T5 Arg2:T9	
+R15	p_p Arg1:T2 Arg2:T5	

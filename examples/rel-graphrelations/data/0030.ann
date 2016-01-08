@@ -1,0 +1,19 @@
+T1	Subject 4 12	children
+T2	Seg 0 3	His
+R1	poss Arg1:T1 Arg2:T2	
+T3	Predicate 76 85	witnessed
+T4	Object 86 96	the attack
+R2	p_o Arg1:T3 Arg2:T4	
+R3	s_p Arg1:T1 Arg2:T3	
+T5	Context-Prep 14 23	including
+T6	Context-Obj 37 43	Thomas
+T7	Seg 24 36	six-year-old
+R4	is-specialized-by Arg1:T6 Arg2:T7	
+R5	c_p Arg1:T5 Arg2:T6	
+R6	is-specialized-by Arg1:T1 Arg2:T5	
+T8	Seg 68 74	father
+T9	Seg 56 67	president's
+T10	Seg 45 55	the future
+R7	poss Arg1:T8 Arg2:T9	
+R8	is-specialized-by Arg1:T9 Arg2:T10	
+R9	coref Arg1:T8 Arg2:T6	

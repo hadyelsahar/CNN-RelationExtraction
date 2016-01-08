@@ -1,0 +1,25 @@
+T1	Subject 0 6	Lohman
+T2	Predicate 7 14	married
+T3	Object 25 39	Mark Neveldine
+T4	Seg 15 24	filmmaker
+R1	is-specialized-by Arg1:T3 Arg2:T4	
+R2	s_p Arg1:T1 Arg2:T2	
+R3	p_o Arg1:T2 Arg2:T3	
+T5	Context-Prep 40 42	in
+T8	Context-Prep 63 65	on
+R6	p_c Arg1:T2 Arg2:T8	
+T9	Context-Obj 66 81	August 19, 2009
+A1	Time T9
+R7	c_co Arg1:T8 Arg2:T9	
+T10	Context-Prep 83 85	at
+T12	Seg 86 99	St. Anthony's
+R10	p_c Arg1:T2 Arg2:T5	
+T6	Context-Obj 43 62	Watertown, New York
+R4	c_co Arg1:T5 Arg2:T6	
+A2	Location T6
+R5	p_c Arg1:T2 Arg2:T10	
+T7	Context-Obj 109 115	Church
+T11	Seg 100 108	Catholic
+R8	is-specialized-by Arg1:T7 Arg2:T11	
+R9	c_co Arg1:T10 Arg2:T7	
+R11	poss Arg1:T7 Arg2:T12	

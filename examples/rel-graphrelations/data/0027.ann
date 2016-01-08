@@ -1,0 +1,36 @@
+T1	Subject 66 68	he
+T2	Predicate 69 74	swept
+T3	Object 75 84	the North
+T4	Conj 85 88	and
+T5	Predicate 89 100	was elected
+T6	Context 101 110	president
+T7	Context-Prep 111 113	in
+T8	Context-Obj 114 118	1860
+R1	c_co Arg1:T7 Arg2:T8	
+R2	p_c Arg1:T5 Arg2:T6	
+R3	p_c Arg1:T5 Arg2:T7	
+R4	p_o Arg1:T2 Arg2:T3	
+R5	s_p Arg1:T1 Arg2:T2	
+T9	Context-Prep 0 4	With
+T10	Context-Obj 17 24	support
+T11	Seg 5 16	very little
+R6	is-specialized-by Arg1:T10 Arg2:T11	
+R7	c_co Arg1:T9 Arg2:T10	
+T12	Context-Prep 25 27	in
+T13	Context-Obj 45 51	states
+T14	Seg 28 44	the slaveholding
+R8	is-specialized-by Arg1:T13 Arg2:T14	
+R9	c_co Arg1:T12 Arg2:T13	
+R10	is-specialized-by Arg1:T10 Arg2:T12	
+R11	p_c Arg1:T2 Arg2:T9	
+R12	conj Arg1:T4 Arg2:T5	
+R13	s_p Arg1:T1 Arg2:T5	
+R14	conj Arg1:T4 Arg2:T2	
+T15	Context-Prep 52 54	of
+T16	Context-Obj 55 64	the South
+R15	c_co Arg1:T15 Arg2:T16	
+R16	is-specialized-by Arg1:T13 Arg2:T15	
+A1	Time T7
+R17	p_c Arg1:T5 Arg2:T9	
+A2	Location T15
+A3	Location T12

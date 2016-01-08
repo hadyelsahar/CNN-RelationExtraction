@@ -1,0 +1,22 @@
+T1	Subject 9 11	he
+T2	Predicate 12 21	monitored
+T3	Object 22 34	the campaign
+T4	Context 35 42	closely
+T5	Conj 43 46	and
+T6	Predicate 47 53	relied
+T7	Context-Prep 54 56	on
+R1	s_p Arg1:T1 Arg2:T2	
+R2	p_o Arg1:T2 Arg2:T3	
+R3	p_c Arg1:T2 Arg2:T4	
+R4	s_p Arg1:T1 Arg2:T6	
+R5	conj Arg1:T5 Arg2:T6	
+R6	conj Arg1:T5 Arg2:T2	
+R7	p_c Arg1:T6 Arg2:T7	
+T8	Context-Obj 57 71	the enthusiasm
+R8	c_co Arg1:T7 Arg2:T8	
+T9	Context-Prep 72 74	of
+T10	Context-Obj 90 95	Party
+T11	Seg 75 89	the Republican
+R9	is-specialized-by Arg1:T10 Arg2:T11	
+R10	c_co Arg1:T9 Arg2:T10	
+R11	is-specialized-by Arg1:T8 Arg2:T9	

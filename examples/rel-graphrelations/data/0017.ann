@@ -1,0 +1,25 @@
+T1	Predicate 33 46	guest starred
+T2	Subject 18 32	Anthony George
+T3	Subject 0 13	Jack Kruschen
+T4	Conj 14 17	and
+T5	Context-Prep 47 51	with
+T6	Context-Obj 52 58	Dalton
+R1	c_co Arg1:T5 Arg2:T6	
+R2	p_c Arg1:T1 Arg2:T5	
+T7	Context-Prep 59 61	in
+T8	Context-Obj 62 74	this episode
+R3	c_p Arg1:T7 Arg2:T8	
+R4	p_c Arg1:T1 Arg2:T7	
+R5	s_p Arg1:T2 Arg2:T1	
+R6	conj Arg1:T4 Arg2:T2	
+R7	conj Arg1:T4 Arg2:T3	
+T9	Context-Prep 75 77	as
+T10	Context-Obj 78 86	Sam Bolt
+T11	Conj 87 90	and
+T12	Context-Obj 91 101	Padre John
+R8	conj Arg1:T11 Arg2:T12	
+R9	conj Arg1:T11 Arg2:T10	
+R10	c_co Arg1:T9 Arg2:T10	
+R11	p_c Arg1:T1 Arg2:T9	
+R12	s_p Arg1:T3 Arg2:T1	
+R13	c_co Arg1:T9 Arg2:T12	

@@ -1,0 +1,20 @@
+T1	Subject 0 3	She
+T2	Object 7 13	signed
+T3	Predicate 4 6	is
+R1	s_p Arg1:T1 Arg2:T3	
+R2	p_o Arg1:T3 Arg2:T2	
+T4	Context-Prep 14 16	to
+T5	Context-Obj 40 48	Models 1
+T6	Seg 33 39	agency
+R3	coref Arg1:T6 Arg2:T5	
+T7	Seg 24 32	modeling
+R4	is-specialized-by Arg1:T6 Arg2:T7	
+T8	Seg 17 23	London
+R5	is-specialized-by Arg1:T6 Arg2:T8	
+T9	Conj 50 53	and
+R6	conj Arg1:T9 Arg2:T5	
+R7	c_co Arg1:T4 Arg2:T5	
+R8	p_c Arg1:T3 Arg2:T4	
+T10	Context-Obj 54 79	New York Model Management
+R9	conj Arg1:T9 Arg2:T10	
+R10	c_co Arg1:T4 Arg2:T10	

@@ -1,0 +1,23 @@
+T1	Subject 6 14	daughter
+T2	Predicate 43 50	arrived
+T3	Subject 64 68	they
+T4	Predicate 69 73	were
+T5	Object 74 81	married
+R1	s_p Arg1:T3 Arg2:T4	
+R2	p_o Arg1:T4 Arg2:T5	
+T6	Context-Prep 58 63	after
+A1	Time T6
+R3	c_p Arg1:T6 Arg2:T4	
+R4	p_c Arg1:T2 Arg2:T6	
+R5	s_p Arg1:T1 Arg2:T2	
+T7	Context-Obj 51 57	a year
+A2	Time T7
+R6	c_co Arg1:T6 Arg2:T7	
+T8	Seg 0 5	Their
+R7	poss Arg1:T1 Arg2:T8	
+T9	Subject 16 25	Lea Nikki
+R8	coref Arg1:T9 Arg2:T1	
+T10	Predicate 27 32	known
+T11	Context-Prep 33 35	as
+T12	Object 36 41	Nikki
+R9	s_p Arg1:T9 Arg2:T10	

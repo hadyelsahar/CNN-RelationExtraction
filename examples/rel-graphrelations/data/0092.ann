@@ -1,0 +1,24 @@
+T1	Subject 14 16	he
+T2	Predicate 17 23	worked
+R1	s_p Arg1:T1 Arg2:T2	
+T4	Conj 35 38	and
+T6	Context-Prep 52 56	with
+T7	Context-Obj 57 64	Lincoln
+T8	Context-Prep 65 69	than
+T3	Context-Prep 24 28	more
+T5	Context-Obj 29 34	often
+R2	p_c Arg1:T2 Arg2:T3	
+R3	c_co Arg1:T3 Arg2:T5	
+T9	Context-Prep 39 43	more
+T10	Context-Obj 44 51	closely
+R4	c_co Arg1:T9 Arg2:T10	
+R5	c_co Arg1:T6 Arg2:T7	
+R6	is-specialized-by Arg1:T10 Arg2:T6	
+T11	Context-Obj 87 95	official
+T12	Seg 80 86	senior
+T13	Seg 74 79	other
+T14	Seg 70 73	any
+R7	is-specialized-by Arg1:T11 Arg2:T12	
+R9	is-specialized-by Arg1:T13 Arg2:T14	
+R10	c_co Arg1:T8 Arg2:T11	
+R8	is-specialized-by Arg1:T12 Arg2:T13	

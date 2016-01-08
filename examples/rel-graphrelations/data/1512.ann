@@ -1,0 +1,30 @@
+T1	Subject 0 18	Sylvester Stallone
+T2	Subject 23 37	Angie Everhart
+T3	Conj 19 22	and
+R1	conj Arg1:T3 Arg2:T1	
+R2	conj Arg1:T3 Arg2:T2	
+T4	Predicate 38 42	were
+T5	Object 51 58	engaged
+T6	Context 43 50	briefly
+A1	Time T6
+R3	p_o Arg1:T4 Arg2:T5	
+R4	p_c Arg1:T4 Arg2:T6	
+R5	s_p Arg1:T2 Arg2:T4	
+R6	s_p Arg1:T1 Arg2:T4	
+T7	Context-Prep 59 61	in
+T8	Context-Obj 62 66	1995
+R7	c_co Arg1:T7 Arg2:T8	
+R8	p_c Arg1:T4 Arg2:T7	
+T9	Subject 72 76	they
+T10	Predicate 83 87	made
+T11	Conj 68 71	but
+R9	s_p Arg1:T9 Arg2:T10	
+T12	Object 88 90	it
+R10	p_o Arg1:T10 Arg2:T12	
+T13	Context 77 82	never
+A2	Time T13
+R11	p_c Arg1:T10 Arg2:T13	
+T14	Object 91 105	down the aisle
+R12	coref Arg1:T14 Arg2:T12	
+R13	conj Arg1:T11 Arg2:T4	
+R14	conj Arg1:T11 Arg2:T10	

@@ -1,0 +1,21 @@
+T1	Predicate 4 17	was presented
+T2	Subject 0 3	She
+T3	Object 29 47	Golden Boot Awards
+T4	Context-Prep 48 50	in
+T5	Context-Obj 51 55	1989
+R1	c_co Arg1:T4 Arg2:T5	
+R2	s_p Arg1:T2 Arg2:T1	
+R3	p_o Arg1:T1 Arg2:T3	
+R4	p_c Arg1:T1 Arg2:T4	
+T6	Context-Obj 64 77	contributions
+T7	Seg 60 63	her
+T8	Context-Prep 78 80	to
+T9	Context-Obj 89 95	cinema
+R5	c_co Arg1:T8 Arg2:T9	
+T10	Seg 81 88	western
+R6	is-specialized-by Arg1:T9 Arg2:T10	
+T11	Context-Prep 56 59	for
+R7	c_co Arg1:T11 Arg2:T6	
+R8	poss Arg1:T6 Arg2:T7	
+R9	is-specialized-by Arg1:T6 Arg2:T8	
+R10	p_c Arg1:T1 Arg2:T11	

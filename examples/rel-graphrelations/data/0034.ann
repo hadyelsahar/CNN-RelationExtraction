@@ -1,0 +1,30 @@
+T1	Subject 51 65	Thomas Lincoln
+T2	Predicate 66 72	worked
+T3	Context-Prep 73 75	as
+T4	Context-Obj 76 84	a farmer
+T5	Context-Obj 86 98	cabinetmaker
+T6	Context-Obj 104 113	carpenter
+T7	Conj 100 103	and
+R1	conj Arg1:T7 Arg2:T6	
+R2	conj Arg1:T7 Arg2:T5	
+R3	conj Arg1:T7 Arg2:T4	
+R4	c_p Arg1:T3 Arg2:T4	
+R5	c_p Arg1:T3 Arg2:T5	
+R6	c_p Arg1:T3 Arg2:T6	
+R7	p_c Arg1:T2 Arg2:T3	
+R8	s_p Arg1:T1 Arg2:T2	
+T8	Context-Prep 0 6	During
+T9	Context-Obj 20 25	years
+T10	Seg 7 19	the family's
+T11	Context-Prep 26 28	in
+T12	Context-Obj 29 37	Kentucky
+T13	Context-Obj 42 49	Indiana
+T14	Conj 38 41	and
+R9	conj Arg1:T14 Arg2:T13	
+R10	conj Arg1:T14 Arg2:T12	
+R11	c_p Arg1:T11 Arg2:T12	
+R12	c_p Arg1:T11 Arg2:T13	
+R13	poss Arg1:T9 Arg2:T10	
+R14	c_p Arg1:T8 Arg2:T9	
+R15	is-specialized-by Arg1:T9 Arg2:T11	
+R16	p_c Arg1:T2 Arg2:T8	

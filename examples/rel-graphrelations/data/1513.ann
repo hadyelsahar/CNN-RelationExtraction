@@ -1,0 +1,21 @@
+T1	Subject 14 22	Everhart
+T2	Seg 0 13	Single-parent
+R1	is-specialized-by Arg1:T1 Arg2:T2	
+T3	Predicate 23 33	gave birth
+T4	Context-Prep 34 36	to
+T5	Context-Obj 47 52	child
+R2	p_c Arg1:T3 Arg2:T4	
+R3	c_co Arg1:T4 Arg2:T5	
+T6	Seg 41 46	first
+R4	is-specialized-by Arg1:T5 Arg2:T6	
+T7	Seg 37 40	her
+R5	poss Arg1:T5 Arg2:T7	
+R6	coref Arg1:T7 Arg2:T1	
+T8	Seg 58 79	Kayden Bobby Everhart
+T9	Seg 54 57	son
+R7	is-specialized-by Arg1:T5 Arg2:T9	
+R8	coref Arg1:T9 Arg2:T8	
+T10	Context-Prep 81 83	on
+T11	Context-Obj 84 97	July 24, 2009
+R9	c_co Arg1:T10 Arg2:T11	
+R10	p_c Arg1:T3 Arg2:T10	

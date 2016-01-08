@@ -1,0 +1,22 @@
+T1	Subject 0 3	She
+T2	Predicate 4 7	was
+T3	Object 8 16	a member
+T4	Context-Prep 17 19	of
+T5	Seg 20 25	Job's
+T6	Context-Obj 26 49	Daughters International
+R1	s_p Arg1:T1 Arg2:T2	
+R3	c_co Arg1:T4 Arg2:T6	
+R4	poss Arg1:T6 Arg2:T5	
+T7	Conj 50 53	and
+R5	conj Arg1:T7 Arg2:T2	
+T8	Predicate 54 56	is
+R6	conj Arg1:T7 Arg2:T8	
+T9	Context-Prep 78 80	of
+T10	Context-Obj 81 90	Bethel No
+R7	c_co Arg1:T9 Arg2:T10	
+R2	p_o Arg1:T2 Arg2:T3	
+R8	is-specialized-by Arg1:T3 Arg2:T4	
+T11	Seg 57 71	a Past Honored
+T12	Object 72 77	Queen
+R9	p_o Arg1:T8 Arg2:T12	
+R10	is-specialized-by Arg1:T12 Arg2:T11	

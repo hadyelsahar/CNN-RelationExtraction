@@ -1,0 +1,22 @@
+T1	Subject 13 18	Julia
+T2	Predicate 19 21	is
+T3	Object 22 34	the daughter
+T4	Context-Prep 35 37	of
+T5	Context-Obj 38 53	Angela Channing
+R1	c_co Arg1:T4 Arg2:T5	
+R2	is-specialized-by Arg1:T3 Arg2:T4	
+R3	s_p Arg1:T1 Arg2:T2	
+R4	p_o Arg1:T2 Arg2:T3	
+T6	Context-Prep 0 2	In
+T7	Context-Obj 3 11	the show
+R5	c_co Arg1:T6 Arg2:T7	
+R6	p_c Arg1:T2 Arg2:T6	
+T8	Conj 54 57	and
+T9	Object 58 68	the mother
+R7	conj Arg1:T8 Arg2:T9	
+R8	conj Arg1:T8 Arg2:T3	
+T10	Context-Prep 69 71	of
+T11	Context-Obj 72 84	Lance Cumson
+R9	is-specialized-by Arg1:T9 Arg2:T10	
+R10	c_co Arg1:T10 Arg2:T11	
+R11	p_o Arg1:T2 Arg2:T9	

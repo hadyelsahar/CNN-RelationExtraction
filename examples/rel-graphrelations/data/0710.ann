@@ -1,0 +1,23 @@
+T1	Subject 15 18	she
+T2	Predicate 19 28	performed
+T3	Context-Prep 29 32	for
+T4	Context-Obj 33 61	Ballet Celeste International
+R1	c_co Arg1:T3 Arg2:T4	
+R2	s_p Arg1:T1 Arg2:T2	
+R3	p_c Arg1:T2 Arg2:T3	
+T5	Context-Prep 0 6	Before
+T6	Context-Obj 7 13	acting
+R4	c_co Arg1:T5 Arg2:T6	
+R5	p_c Arg1:T2 Arg2:T5	
+T7	Context-Prep 62 66	with
+T8	Seg 67 70	her
+T9	Context-Obj 71 77	family
+R6	poss Arg1:T9 Arg2:T8	
+R7	p_c Arg1:T2 Arg2:T7	
+R8	c_co Arg1:T7 Arg2:T9	
+T10	Context-Prep 78 81	for
+T11	Context-Obj 86 91	years
+T12	Seg 82 85	six
+R9	is-specialized-by Arg1:T11 Arg2:T12	
+R10	c_co Arg1:T10 Arg2:T11	
+R11	p_c Arg1:T2 Arg2:T10	

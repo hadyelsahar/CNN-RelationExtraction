@@ -1,0 +1,21 @@
+T1	Subject 0 3	She
+T2	Predicate 4 11	started
+T3	Object 12 18	acting
+T4	Context-Prep 19 23	when
+T5	Subject 24 27	she
+T6	Predicate 28 31	was
+R1	s_p Arg1:T5 Arg2:T6	
+T7	Object 37 46	years old
+T8	Seg 32 36	five
+R2	is-specialized-by Arg1:T7 Arg2:T8	
+R3	p_o Arg1:T6 Arg2:T7	
+R4	s_p Arg1:T1 Arg2:T2	
+R5	p_o Arg1:T2 Arg2:T3	
+R6	p_c Arg1:T2 Arg2:T4	
+T9	Context-Prep 55 57	in
+R7	c_p Arg1:T4 Arg2:T6	
+T10	Context-Obj 70 81	productions
+T11	Seg 58 69	church play
+R8	is-specialized-by Arg1:T10 Arg2:T11	
+R9	c_co Arg1:T9 Arg2:T10	
+R10	p_c Arg1:T2 Arg2:T9	

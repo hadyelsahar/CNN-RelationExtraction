@@ -1,0 +1,25 @@
+T1	Subject 0 8	Everhart
+T2	Predicate 9 12	was
+T3	Object 13 20	married
+T4	Context-Prep 21 23	to
+T5	Context-Obj 24 39	Ashley Hamilton
+T6	Context-Prep 40 44	from
+T7	Context-Obj 45 61	December 1, 1996
+R1	s_p Arg1:T1 Arg2:T2	
+R2	p_o Arg1:T2 Arg2:T3	
+R3	c_co Arg1:T4 Arg2:T5	
+R4	p_c Arg1:T2 Arg2:T4	
+R5	c_co Arg1:T6 Arg2:T7	
+R6	p_c Arg1:T2 Arg2:T6	
+T8	Context-Prep 63 68	until
+T9	Seg 69 74	their
+T10	Context-Obj 75 82	divorce
+R7	poss Arg1:T10 Arg2:T9	
+T11	Context-Prep 83 85	in
+T12	Context-Obj 86 96	March 1997
+R8	c_co Arg1:T11 Arg2:T12	
+A1	Time T7
+A2	Time T12
+R9	p_c Arg1:T2 Arg2:T8	
+R10	c_co Arg1:T8 Arg2:T10	
+R11	is-specialized-by Arg1:T10 Arg2:T11	

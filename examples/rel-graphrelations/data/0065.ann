@@ -1,0 +1,21 @@
+T1	Predicate 56 59	was
+T2	Object 60 89	the Illinois Central Railroad
+T3	Context-Prep 0 4	From
+T4	Context-Prep 10 12	to
+T5	Context-Obj 5 9	1853
+T6	Context-Obj 13 17	1860
+T7	Subject 48 55	clients
+R1	s_p Arg1:T7 Arg2:T1	
+R2	p_o Arg1:T1 Arg2:T2	
+T8	Seg 40 47	largest
+T9	Seg 30 39	Lincoln's
+R3	poss Arg1:T7 Arg2:T9	
+R4	is-specialized-by Arg1:T7 Arg2:T8	
+R5	c_co Arg1:T3 Arg2:T5	
+R6	c_co Arg1:T4 Arg2:T6	
+R7	p_c Arg1:T1 Arg2:T4	
+R8	p_c Arg1:T1 Arg2:T3	
+A1	Time T3
+A2	Time T5
+A3	Time T4
+A4	Time T6

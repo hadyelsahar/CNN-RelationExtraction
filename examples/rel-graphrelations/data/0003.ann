@@ -1,0 +1,26 @@
+T1	Subject 0 3	She
+T2	Predicate 4 9	plays
+T3	Object 23 34	instruments
+T4	Seg 10 22	a variety of
+R1	is-specialized-by Arg1:T3 Arg2:T4	
+T5	Context-Prep 35 42	such as
+T6	Conj 84 87	and
+T7	Context-Obj 52 58	guitar
+T8	Seg 43 51	acoustic
+R2	is-specialized-by Arg1:T7 Arg2:T8	
+T9	Context-Obj 69 75	guitar
+T10	Seg 60 68	electric
+T11	Context-Obj 77 82	piano
+T12	Context-Obj 88 94	bongos
+R3	conj Arg1:T6 Arg2:T12	
+R4	conj Arg1:T6 Arg2:T11	
+R5	conj Arg1:T6 Arg2:T9	
+R7	is-specialized-by Arg1:T9 Arg2:T10	
+R8	c_co Arg1:T5 Arg2:T7	
+R9	is-specialized-by Arg1:T3 Arg2:T5	
+R10	s_p Arg1:T1 Arg2:T2	
+R11	p_o Arg1:T2 Arg2:T3	
+R6	conj Arg1:T6 Arg2:T7	
+R12	c_co Arg1:T5 Arg2:T9	
+R13	c_co Arg1:T5 Arg2:T11	
+R14	c_co Arg1:T5 Arg2:T12	

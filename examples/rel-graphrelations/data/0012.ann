@@ -1,0 +1,25 @@
+T1	Subject 0 3	She
+T2	Predicate 4 7	has
+T3	Object 8 14	a star
+T4	Context-Prep 45 47	at
+T5	Context-Prep 15 17	on
+T6	Context-Obj 32 44	Walk of Fame
+T7	Seg 18 31	the Hollywood
+R1	is-specialized-by Arg1:T6 Arg2:T7	
+R2	c_p Arg1:T5 Arg2:T6	
+R3	s_p Arg1:T1 Arg2:T2	
+R4	p_o Arg1:T2 Arg2:T3	
+R5	p_c Arg1:T2 Arg2:T5	
+R6	p_c Arg1:T2 Arg2:T4	
+T8	Context-Prep 73 76	for
+T9	Context-Obj 81 93	contribution
+T10	Seg 77 80	her
+R7	poss Arg1:T9 Arg2:T10	
+R8	coref Arg1:T10 Arg2:T1	
+R9	c_p Arg1:T8 Arg2:T9	
+T11	Seg 94 107	to television
+R10	is-specialized-by Arg1:T9 Arg2:T11	
+T12	Context-Obj 48 72	6381 Hollywood Boulevard
+R11	c_p Arg1:T4 Arg2:T12	
+A1	Location T4
+A2	Location T5

@@ -1,0 +1,22 @@
+T1	Subject 0 7	Lincoln
+T2	Predicate 8 16	resolved
+T3	Object 17 26	the issue
+T4	Context-Prep 27 29	by
+T5	Predicate 30 39	releasing
+R1	s_p Arg1:T1 Arg2:T2	
+R2	p_o Arg1:T2 Arg2:T3	
+R3	p_c Arg1:T2 Arg2:T4	
+R4	c_p Arg1:T4 Arg2:T5	
+T9	Subject 56 59	war
+T10	Predicate 77 84	averted
+R7	s_p Arg1:T9 Arg2:T10	
+T11	Context 64 76	successfully
+R8	p_c Arg1:T10 Arg2:T11	
+T12	Context-Prep 85 89	with
+T13	Context-Obj 90 97	Britain
+R9	p_c Arg1:T10 Arg2:T12	
+R10	c_co Arg1:T12 Arg2:T13	
+T6	Object 48 51	men
+T7	Seg 40 47	the two
+R5	is-specialized-by Arg1:T6 Arg2:T7	
+R6	p_o Arg1:T5 Arg2:T6	

@@ -1,0 +1,25 @@
+T1	Subject 0 15	The Republicans
+T2	Predicate 16 28	did maintain
+T3	Object 35 45	majorities
+T4	Seg 29 34	their
+R1	poss Arg1:T3 Arg2:T4	
+R2	coref Arg1:T4 Arg2:T1	
+R3	s_p Arg1:T1 Arg2:T2	
+R4	p_o Arg1:T2 Arg2:T3	
+T5	Context-Prep 46 48	in
+T6	Context-Obj 49 57	Congress
+R5	is-specialized-by Arg1:T3 Arg2:T5	
+R6	c_co Arg1:T5 Arg2:T6	
+T7	Conj 58 61	and
+T8	Context-Prep 62 64	in
+T9	Context-Obj 75 81	states
+T10	Seg 65 74	the major
+R7	is-specialized-by Arg1:T9 Arg2:T10	
+R8	c_co Arg1:T8 Arg2:T9	
+T11	Context-Prep 83 89	except
+T12	Context-Obj 90 98	New York
+R9	c_co Arg1:T11 Arg2:T12	
+R10	is-specialized-by Arg1:T9 Arg2:T11	
+R11	is-specialized-by Arg1:T3 Arg2:T8	
+R12	conj Arg1:T7 Arg2:T5	
+R13	conj Arg1:T7 Arg2:T8	

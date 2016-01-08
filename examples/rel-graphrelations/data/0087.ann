@@ -1,0 +1,28 @@
+T1	Subject 13 20	the law
+T2	Predicate 21 24	had
+T3	Object 32 38	effect
+T4	Seg 25 31	little
+R1	is-specialized-by Arg1:T3 Arg2:T4	
+R2	p_o Arg1:T2 Arg2:T3	
+R3	s_p Arg1:T1 Arg2:T2	
+T5	Context 0 11	In practice
+R4	p_c Arg1:T2 Arg2:T5	
+T6	Conj 40 43	but
+T7	Subject 44 46	it
+R5	coref Arg1:T7 Arg2:T1	
+T8	Predicate 47 57	did signal
+T9	Object 68 75	support
+T10	Seg 58 67	political
+R6	is-specialized-by Arg1:T9 Arg2:T10	
+R7	p_o Arg1:T8 Arg2:T9	
+R8	s_p Arg1:T7 Arg2:T8	
+T11	Context-Prep 76 79	for
+T12	Predicate 80 90	abolishing
+T13	Object 91 98	slavery
+T14	Context-Prep 99 101	in
+T15	Context-Obj 102 117	the Confederacy
+R9	c_co Arg1:T14 Arg2:T15	
+R10	p_o Arg1:T12 Arg2:T13	
+R11	is-specialized-by Arg1:T13 Arg2:T14	
+R12	c_p Arg1:T11 Arg2:T12	
+R13	is-specialized-by Arg1:T9 Arg2:T11	

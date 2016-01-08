@@ -1,0 +1,20 @@
+T1	Subject 0 3	She
+T2	Predicate 9 17	parodied
+T3	Object 18 26	the part
+R1	s_p Arg1:T1 Arg2:T2	
+R2	p_o Arg1:T2 Arg2:T3	
+T4	Context-Obj 48 75	Bob Hope Christmas specials
+T5	Context-Prep 76 79	for
+T6	Context-Obj 80 83	NBC
+R3	c_co Arg1:T5 Arg2:T6	
+T7	Context-Prep 27 29	in
+R4	c_co Arg1:T7 Arg2:T4	
+R5	p_c Arg1:T2 Arg2:T7	
+T8	Context 34 38	1975
+A1	Time T8
+T9	Context 43 47	1979
+A2	Time T9
+T10	Conj 39 42	and
+R6	conj Arg1:T10 Arg2:T8	
+R7	conj Arg1:T10 Arg2:T9	
+R8	p_c Arg1:T2 Arg2:T5	

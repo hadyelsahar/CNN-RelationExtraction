@@ -1,0 +1,30 @@
+T1	Context-Prep 0 2	As
+T2	Subject 3 11	the show
+T3	Predicate 12 21	premiered
+T4	Context-Prep 22 24	on
+T5	Context-Obj 25 43	September 15, 1962
+R1	c_co Arg1:T4 Arg2:T5	
+R2	p_c Arg1:T3 Arg2:T4	
+R3	s_p Arg1:T2 Arg2:T3	
+R4	c_p Arg1:T1 Arg2:T3	
+T6	Subject 56 62	Bishop
+T7	Predicate 63 72	are shown
+T8	Context-Prep 73 75	as
+T9	Context-Obj 86 91	Ellie
+T10	Conj 92 95	and
+T11	Context-Obj 96 107	Joey Barnes
+R5	conj Arg1:T10 Arg2:T11	
+R6	conj Arg1:T10 Arg2:T9	
+T12	Seg 76 85	newlyweds
+R7	is-specialized-by Arg1:T9 Arg2:T12	
+R8	s_p Arg1:T6 Arg2:T7	
+R9	c_p Arg1:T8 Arg2:T9	
+R10	p_c Arg1:T7 Arg2:T8	
+R11	p_c Arg1:T7 Arg2:T1	
+T14	Subject 45 51	Dalton
+T13	Conj 52 55	and
+R12	conj Arg1:T13 Arg2:T6	
+R13	conj Arg1:T13 Arg2:T14	
+R14	s_p Arg1:T14 Arg2:T7	
+R15	is-specialized-by Arg1:T11 Arg2:T12	
+R16	c_co Arg1:T8 Arg2:T11	

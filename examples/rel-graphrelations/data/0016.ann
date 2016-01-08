@@ -1,0 +1,24 @@
+T1	Subject 0 6	Dalton
+T2	Predicate 7 10	has
+T3	Object 17 25	children
+T4	Seg 11 16	three
+R1	is-specialized-by Arg1:T3 Arg2:T4	
+R2	p_o Arg1:T2 Arg2:T3	
+R3	s_p Arg1:T1 Arg2:T2	
+T5	Context-Prep 26 28	by
+T6	Context-Obj 33 41	marriage
+T9	Seg 29 32	her
+R5	coref Arg1:T9 Arg2:T1	
+R6	poss Arg1:T6 Arg2:T9	
+R7	c_p Arg1:T5 Arg2:T6	
+R8	p_c Arg1:T2 Arg2:T5	
+T7	Context-Prep 42 44	to
+T8	Context-Obj 45 55	Jack Smith
+R4	is-specialized-by Arg1:T6 Arg2:T7	
+R9	c_p Arg1:T7 Arg2:T8	
+T10	Context-Prep 58 67	including
+R10	is-specialized-by Arg1:T3 Arg2:T10	
+T11	Context-Obj 76 92	Kathleen Kinmont
+T12	Seg 68 75	actress
+R11	is-specialized-by Arg1:T11 Arg2:T12	
+R12	c_p Arg1:T10 Arg2:T11	

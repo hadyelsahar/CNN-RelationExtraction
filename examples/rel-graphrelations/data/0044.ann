@@ -1,0 +1,42 @@
+T1	Subject 0 4	They
+T2	Predicate 11 14	met
+T3	Context 5 10	later
+T4	Context 15 20	again
+T5	Context-Prep 21 23	at
+T6	Context-Obj 24 31	a party
+A1	Location T5
+A2	Location T6
+A3	Time T4
+A4	Time T3
+R1	s_p Arg1:T1 Arg2:T2	
+R2	p_c Arg1:T2 Arg2:T5	
+R3	c_co Arg1:T5 Arg2:T6	
+R4	p_c Arg1:T2 Arg2:T4	
+R5	p_c Arg1:T2 Arg2:T3	
+T7	Conj 32 35	and
+T8	Predicate 36 43	married
+T9	Context-Prep 44 46	on
+T10	Context-Obj 47 63	November 4, 1842
+T11	Context-Prep 65 67	in
+T12	Context-Obj 84 91	mansion
+T13	Seg 68 83	the Springfield
+T14	Context-Prep 92 94	of
+T15	Context-Obj 110 116	sister
+T16	Seg 102 109	married
+T17	Seg 95 101	Mary's
+R6	is-specialized-by Arg1:T15 Arg2:T16	
+R7	poss Arg1:T15 Arg2:T17	
+R8	c_co Arg1:T14 Arg2:T15	
+R9	c_co Arg1:T11 Arg2:T12	
+A5	Location T11
+A6	Location T12
+R10	is-specialized-by Arg1:T12 Arg2:T13	
+R11	p_c Arg1:T8 Arg2:T11	
+R12	is-specialized-by Arg1:T12 Arg2:T14	
+R13	p_c Arg1:T8 Arg2:T9	
+R14	c_co Arg1:T9 Arg2:T10	
+A7	Time T9
+A8	Time T10
+R15	conj Arg1:T7 Arg2:T8	
+R16	conj Arg1:T7 Arg2:T2	
+R17	s_p Arg1:T1 Arg2:T8	

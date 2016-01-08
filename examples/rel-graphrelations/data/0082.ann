@@ -1,0 +1,18 @@
+T1	Predicate 49 55	agreed
+T2	Subject 61 76	the dismantling
+T3	Predicate 90 102	could not be
+T4	Object 103 112	tolerated
+R1	p_p Arg1:T1 Arg2:T3	
+R2	p_o Arg1:T3 Arg2:T4	
+R3	s_p Arg1:T2 Arg2:T3	
+T5	Context-Prep 77 79	of
+T6	Context-Obj 80 89	the Union
+R4	c_co Arg1:T5 Arg2:T6	
+R5	is-specialized-by Arg1:T2 Arg2:T5	
+T7	Subject 11 18	Lincoln
+T8	Subject 23 48	the Republican leadership
+T9	Conj 19 22	and
+R6	conj Arg1:T9 Arg2:T8	
+R7	conj Arg1:T9 Arg2:T7	
+R8	s_p Arg1:T8 Arg2:T1	
+R9	s_p Arg1:T7 Arg2:T1	

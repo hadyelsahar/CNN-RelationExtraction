@@ -1,0 +1,35 @@
+T1	Subject 8 18	the family
+T2	Predicate 19 28	relocated
+T3	Context-Prep 0 2	In
+T4	Context-Obj 3 7	1811
+T5	Context-Prep 68 73	where
+T6	Subject 74 80	Thomas
+T7	Predicate 81 89	acquired
+T8	Object 90 95	title
+T9	Context-Prep 96 98	to
+T10	Context-Obj 103 108	acres
+T11	Seg 99 102	230
+R1	is-specialized-by Arg1:T10 Arg2:T11	
+R2	c_co Arg1:T9 Arg2:T10	
+R3	is-specialized-by Arg1:T8 Arg2:T9	
+R4	p_o Arg1:T7 Arg2:T8	
+R5	s_p Arg1:T6 Arg2:T7	
+T12	Context-Prep 109 111	of
+T13	Context-Obj 112 116	land
+R6	c_co Arg1:T12 Arg2:T13	
+R7	is-specialized-by Arg1:T10 Arg2:T12	
+T14	Context-Prep 48 50	to
+T15	Context-Obj 62 66	Farm
+T16	Seg 51 61	Knob Creek
+R8	is-specialized-by Arg1:T15 Arg2:T16	
+R9	c_co Arg1:T14 Arg2:T15	
+T17	Context 41 46	north
+T18	Seg 29 40	eight miles
+R10	is-specialized-by Arg1:T17 Arg2:T18	
+R11	p_c Arg1:T2 Arg2:T17	
+R12	s_p Arg1:T1 Arg2:T2	
+R13	c_co Arg1:T3 Arg2:T4	
+R14	p_c Arg1:T2 Arg2:T3	
+R15	p_c Arg1:T2 Arg2:T5	
+R16	p_c Arg1:T2 Arg2:T14	
+R17	c_p Arg1:T5 Arg2:T7	

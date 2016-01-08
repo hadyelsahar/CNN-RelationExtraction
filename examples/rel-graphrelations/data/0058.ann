@@ -1,0 +1,24 @@
+T1	Subject 9 16	Lincoln
+T2	Predicate 17 28	was elected
+T3	Context-Prep 29 31	to
+T4	Context-Obj 32 65	the U.S. House of Representatives
+T5	Context-Prep 0 2	In
+T6	Context-Obj 3 7	1846
+R1	c_co Arg1:T5 Arg2:T6	
+R2	p_c Arg1:T2 Arg2:T5	
+R3	p_c Arg1:T2 Arg2:T3	
+R4	s_p Arg1:T1 Arg2:T2	
+R5	c_co Arg1:T3 Arg2:T4	
+T7	Context-Prep 67 72	where
+T8	Subject 73 75	he
+T9	Predicate 76 82	served
+T10	Object 96 100	term
+T11	Seg 87 95	two-year
+T12	Seg 83 86	one
+R6	s_p Arg1:T8 Arg2:T9	
+R7	p_o Arg1:T9 Arg2:T10	
+R8	c_p Arg1:T7 Arg2:T9	
+R9	is-specialized-by Arg1:T4 Arg2:T7	
+R10	coref Arg1:T8 Arg2:T1	
+R11	is-specialized-by Arg1:T10 Arg2:T11	
+R12	is-specialized-by Arg1:T10 Arg2:T12	

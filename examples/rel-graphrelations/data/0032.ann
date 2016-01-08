@@ -1,0 +1,25 @@
+T1	Subject 8 18	a claimant
+T2	Context-Prep 0 2	In
+T3	Context-Obj 3 7	1815
+A2	Time T2
+A1	Time T3
+R1	c_co Arg1:T2 Arg2:T3	
+T4	Predicate 43 49	sought
+T5	Predicate 53 58	eject
+T6	Object 59 69	the family
+T7	Context-Prep 70 74	from
+T8	Context-Obj 75 83	the farm
+R2	c_co Arg1:T7 Arg2:T8	
+R3	p_o Arg1:T5 Arg2:T6	
+R4	p_c Arg1:T5 Arg2:T7	
+R5	p_p Arg1:T4 Arg2:T5	
+T9	Context-Prep 19 21	in
+T10	Context-Obj 35 42	dispute
+T11	Seg 30 34	land
+T12	Seg 22 29	another
+R6	c_co Arg1:T9 Arg2:T10	
+R7	is-specialized-by Arg1:T10 Arg2:T11	
+R8	is-specialized-by Arg1:T11 Arg2:T12	
+R9	is-specialized-by Arg1:T1 Arg2:T9	
+R10	p_c Arg1:T4 Arg2:T2	
+R11	s_p Arg1:T1 Arg2:T4	

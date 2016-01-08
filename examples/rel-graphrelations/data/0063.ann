@@ -1,0 +1,16 @@
+T1	Subject 0 8	The idea
+T2	Predicate 9 33	was never commercialized
+R1	s_p Arg1:T1 Arg2:T2	
+T3	Subject 39 46	Lincoln
+T4	Predicate 47 49	is
+T5	Object 59 68	president
+T6	Seg 50 58	the only
+T7	Context-Prep 69 71	to
+R2	s_p Arg1:T3 Arg2:T4	
+R3	p_o Arg1:T4 Arg2:T5	
+T8	Predicate 72 76	hold
+T9	Object 77 85	a patent
+R4	c_p Arg1:T7 Arg2:T8	
+R5	p_o Arg1:T8 Arg2:T9	
+R6	is-specialized-by Arg1:T5 Arg2:T6	
+R7	is-specialized-by Arg1:T5 Arg2:T7	

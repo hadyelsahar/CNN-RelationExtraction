@@ -1,0 +1,27 @@
+T1	Subject 21 26	songs
+T2	Predicate 27 41	were performed
+T3	Context-Prep 42 44	by
+R1	s_p Arg1:T1 Arg2:T2	
+R2	p_c Arg1:T2 Arg2:T3	
+T4	Seg 17 20	her
+R3	poss Arg1:T1 Arg2:T4	
+T6	Predicate 72 80	recorded
+T7	Object 85 90	songs
+T8	Seg 81 84	her
+R4	poss Arg1:T7 Arg2:T8	
+T5	Subject 61 65	Lane
+R5	s_p Arg1:T5 Arg2:T6	
+R6	p_o Arg1:T6 Arg2:T7	
+T9	Context-Prep 91 93	on
+T10	Context-Obj 101 106	album
+T11	Seg 94 100	a solo
+R7	is-specialized-by Arg1:T10 Arg2:T11	
+R8	c_p Arg1:T9 Arg2:T10	
+R9	p_c Arg1:T6 Arg2:T9	
+T12	Context-Prep 0 2	On
+R10	p_c Arg1:T2 Arg2:T12	
+R11	coref Arg1:T8 Arg2:T5	
+T13	Context-Obj 3 16	the recording
+R12	c_p Arg1:T12 Arg2:T13	
+T14	Context-Obj 45 59	Eileen Rodgers
+R13	c_p Arg1:T3 Arg2:T14	

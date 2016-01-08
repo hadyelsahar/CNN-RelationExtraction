@@ -1,0 +1,23 @@
+T1	Subject 0 7	Lincoln
+T2	Predicate 30 36	ranked
+T3	Context 17 29	consistently
+T4	Context-Prep 42 44	by
+T5	Context-Obj 45 53	scholars
+T6	Conj 54 57	and
+T7	Seg 58 68	the public
+R1	conj Arg1:T6 Arg2:T7	
+R2	conj Arg1:T6 Arg2:T5	
+R3	c_co Arg1:T4 Arg2:T5	
+R4	p_c Arg1:T2 Arg2:T4	
+R5	p_c Arg1:T2 Arg2:T3	
+R6	s_p Arg1:T1 Arg2:T2	
+T8	Context-Prep 69 71	as
+T9	Context-Obj 103 113	presidents
+T10	Seg 98 102	U.S.
+T11	Seg 72 88	one of the three
+T12	Seg 89 97	greatest
+R7	is-specialized-by Arg1:T9 Arg2:T10	
+R10	c_co Arg1:T8 Arg2:T9	
+R11	p_c Arg1:T2 Arg2:T8	
+R8	is-specialized-by Arg1:T10 Arg2:T12	
+R9	is-specialized-by Arg1:T12 Arg2:T11	

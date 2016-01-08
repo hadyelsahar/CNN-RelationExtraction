@@ -1,0 +1,34 @@
+T1	Subject 0 3	Gur
+T2	Subject 74 77	she
+R1	coref Arg1:T2 Arg2:T1	
+T3	Predicate 15 19	went
+T4	Context-Obj 23 40	the United States
+T5	Predicate 45 52	settled
+T6	Conj 41 44	and
+R2	s_p Arg1:T1 Arg2:T3	
+R3	conj Arg1:T6 Arg2:T3	
+R4	conj Arg1:T6 Arg2:T5	
+T8	Context-Obj 56 66	California
+T9	Context-Prep 53 55	in
+R5	p_c Arg1:T5 Arg2:T9	
+R6	c_co Arg1:T9 Arg2:T8	
+T10	Context-Prep 20 22	to
+T11	Seg 68 73	where
+R8	coref Arg1:T11 Arg2:T8	
+T12	Predicate 78 83	began
+T13	Object 108 114	career
+T14	Seg 97 107	television
+T15	Seg 88 92	film
+T16	Conj 93 96	and
+R9	is-specialized-by Arg1:T13 Arg2:T14	
+R11	conj Arg1:T16 Arg2:T14	
+R12	conj Arg1:T16 Arg2:T15	
+T17	Seg 84 87	her
+R14	s_p Arg1:T2 Arg2:T12	
+T18	Context 4 14	eventually
+R17	s_p Arg1:T1 Arg2:T5	
+R18	c_co Arg1:T10 Arg2:T4	
+R7	p_c Arg1:T3 Arg2:T10	
+R10	poss Arg1:T13 Arg2:T17	
+R13	is-specialized-by Arg1:T13 Arg2:T15	
+R15	p_o Arg1:T12 Arg2:T13	

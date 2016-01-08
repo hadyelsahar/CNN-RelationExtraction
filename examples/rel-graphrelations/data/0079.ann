@@ -1,0 +1,25 @@
+T1	Subject 39 46	Lincoln
+T2	Predicate 47 56	addressed
+T3	Object 57 63	crowds
+T4	Conj 64 67	and
+T5	Object 68 80	legislatures
+R1	conj Arg1:T4 Arg2:T5	
+R2	conj Arg1:T4 Arg2:T3	
+R3	s_p Arg1:T1 Arg2:T2	
+R4	p_o Arg1:T2 Arg2:T3	
+R5	p_o Arg1:T2 Arg2:T5	
+T6	Context-Prep 81 87	across
+T7	Context-Obj 88 97	the North
+R6	c_co Arg1:T6 Arg2:T7	
+R7	is-specialized-by Arg1:T5 Arg2:T6	
+R8	is-specialized-by Arg1:T3 Arg2:T6	
+T8	Context-Prep 0 11	En route to
+T9	Context-Obj 16 28	inauguration
+T10	Context-Prep 29 31	by
+T11	Context-Obj 32 37	train
+T12	Seg 12 15	his
+R9	poss Arg1:T9 Arg2:T12	
+R10	coref Arg1:T12 Arg2:T1	
+R11	c_co Arg1:T8 Arg2:T9	
+R12	is-specialized-by Arg1:T9 Arg2:T10	
+R13	c_co Arg1:T10 Arg2:T11	

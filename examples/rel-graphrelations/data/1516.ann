@@ -1,0 +1,22 @@
+T1	Subject 0 3	She
+T2	Predicate 4 12	attended
+T3	Object 13 38	Highland Park High School
+T4	Context-Prep 39 44	until
+T5	Context-Obj 45 49	1990
+A1	Time T5
+T6	Context-Prep 51 56	where
+T7	Subject 57 60	she
+T8	Predicate 61 64	was
+T9	Object 65 73	a member
+T10	Context-Prep 74 76	of
+T11	Context-Obj 77 96	the Highland Belles
+R1	s_p Arg1:T1 Arg2:T2	
+R2	p_o Arg1:T2 Arg2:T3	
+R3	p_c Arg1:T2 Arg2:T4	
+R4	c_co Arg1:T4 Arg2:T5	
+R5	is-specialized-by Arg1:T3 Arg2:T6	
+R6	c_p Arg1:T6 Arg2:T8	
+R7	s_p Arg1:T7 Arg2:T8	
+R8	p_o Arg1:T8 Arg2:T9	
+R9	is-specialized-by Arg1:T9 Arg2:T10	
+R10	c_co Arg1:T10 Arg2:T11	

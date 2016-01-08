@@ -1,0 +1,28 @@
+T1	Subject 0 6	Hooker
+T2	Predicate 7 17	was routed
+T3	Context-Prep 18 20	by
+T4	Context-Obj 21 24	Lee
+R1	s_p Arg1:T1 Arg2:T2	
+R2	p_c Arg1:T2 Arg2:T3	
+R3	c_co Arg1:T3 Arg2:T4	
+T5	Context-Prep 25 27	at
+T6	Context-Obj 28 58	the Battle of Chancellorsville
+R4	c_co Arg1:T5 Arg2:T6	
+R5	p_c Arg1:T2 Arg2:T5	
+T7	Context-Prep 59 61	in
+T8	Context-Obj 62 65	May
+R6	c_co Arg1:T7 Arg2:T8	
+R7	p_c Arg1:T2 Arg2:T7	
+T9	Predicate 71 80	continued
+T10	Predicate 84 91	command
+T11	Object 96 102	troops
+T12	Seg 92 95	his
+R8	poss Arg1:T11 Arg2:T12	
+R9	coref Arg1:T12 Arg2:T1	
+R10	p_p Arg1:T9 Arg2:T10	
+R11	p_o Arg1:T10 Arg2:T11	
+T13	Context-Prep 103 106	for
+T14	Context-Obj 107 111	some
+T15	Seg 112 117	weeks
+R12	poss Arg1:T14 Arg2:T15	
+R13	c_co Arg1:T13 Arg2:T14	

@@ -1,0 +1,28 @@
+T1	Subject 20 25	Nikki
+T2	Predicate 26 32	killed
+T3	Object 33 40	herself
+T4	Context-Prep 41 43	by
+T5	Context-Obj 44 55	suffocation
+R1	c_co Arg1:T4 Arg2:T5	
+R2	p_c Arg1:T2 Arg2:T4	
+R3	s_p Arg1:T1 Arg2:T2	
+R4	p_o Arg1:T2 Arg2:T3	
+T6	Context-Prep 56 58	in
+T7	Context-Obj 63 72	apartment
+T8	Seg 59 62	her
+R5	poss Arg1:T7 Arg2:T8	
+R6	c_co Arg1:T6 Arg2:T7	
+R7	p_c Arg1:T2 Arg2:T6	
+T9	Context-Prep 73 75	in
+T10	Context-Obj 95 101	suburb
+R8	c_co Arg1:T9 Arg2:T10	
+R9	is-specialized-by Arg1:T7 Arg2:T9	
+T11	Seg 80 94	Ventura County
+R10	is-specialized-by Arg1:T10 Arg2:T11	
+T12	Context-Prep 102 104	of
+T13	Context-Obj 105 118	Thousand Oaks
+R11	is-specialized-by Arg1:T10 Arg2:T12	
+T14	Context-Prep 0 2	On
+T15	Context-Obj 3 18	January 4, 2007
+R12	c_co Arg1:T14 Arg2:T15	
+R13	p_c Arg1:T2 Arg2:T14	

@@ -1,0 +1,28 @@
+T1	Subject 10 19	sentiment
+T2	Predicate 20 23	was
+T3	Object 24 30	strong
+T4	Context-Prep 31 33	in
+T5	Context-Obj 34 42	Missouri
+T6	Context-Obj 47 55	Maryland
+T7	Conj 43 46	and
+R1	conj Arg1:T7 Arg2:T5	
+R2	conj Arg1:T7 Arg2:T6	
+R3	s_p Arg1:T1 Arg2:T2	
+R4	p_o Arg1:T2 Arg2:T3	
+R5	p_c Arg1:T2 Arg2:T4	
+R6	c_co Arg1:T4 Arg2:T5	
+R7	c_co Arg1:T4 Arg2:T6	
+T8	Seg 0 9	Secession
+R8	is-specialized-by Arg1:T1 Arg2:T8	
+T9	Conj 57 60	but
+T10	Predicate 61 76	did not prevail
+R9	s_p Arg1:T1 Arg2:T10	
+T11	Subject 78 86	Kentucky
+T12	Predicate 87 92	tried
+T13	Predicate 96 98	be
+T14	Context-Prep 93 95	to
+R10	c_p Arg1:T14 Arg2:T13	
+R11	s_p Arg1:T11 Arg2:T12	
+R12	p_c Arg1:T12 Arg2:T14	
+T15	Object 99 106	neutral
+R13	p_o Arg1:T13 Arg2:T15	

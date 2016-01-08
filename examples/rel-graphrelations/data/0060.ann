@@ -1,0 +1,22 @@
+T1	Subject 0 18	The administration
+T2	Predicate 19 26	offered
+T3	Object 27 30	him
+T4	Object 47 52	prize
+T5	Seg 31 46	the consolation
+T6	Context-Prep 53 55	of
+T7	Context-Obj 56 65	secretary
+R1	p_o Arg1:T2 Arg2:T3	
+R2	p_o Arg1:T2 Arg2:T4	
+R3	s_p Arg1:T1 Arg2:T2	
+R4	is-specialized-by Arg1:T4 Arg2:T5	
+R5	is-specialized-by Arg1:T4 Arg2:T6	
+R6	c_co Arg1:T6 Arg2:T7	
+T8	Conj 66 68	or
+T9	Context-Obj 69 77	governor
+T10	Context-Prep 78 80	of
+T11	Context-Obj 81 101	the Oregon Territory
+R8	c_co Arg1:T10 Arg2:T11	
+R7	is-specialized-by Arg1:T9 Arg2:T10	
+R9	conj Arg1:T8 Arg2:T9	
+R10	conj Arg1:T8 Arg2:T7	
+R11	c_co Arg1:T6 Arg2:T9	

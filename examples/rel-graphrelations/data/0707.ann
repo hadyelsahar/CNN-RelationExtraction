@@ -1,0 +1,31 @@
+T1	Subject 0 9	Aliza Gur
+T2	Predicate 10 18	has been
+T3	Object 19 26	married
+T4	Context 27 32	twice
+R1	s_p Arg1:T1 Arg2:T2	
+R2	p_c Arg1:T2 Arg2:T4	
+R3	p_o Arg1:T2 Arg2:T3	
+T5	Context-Obj 43 53	Sy Shulman
+T6	Context-Obj 67 83	Sheldon Schrager
+T7	Context-Prep 64 66	to
+T8	Context-Prep 40 42	to
+T9	Conj 55 58	and
+R4	conj Arg1:T9 Arg2:T5	
+R5	conj Arg1:T9 Arg2:T6	
+R6	c_co Arg1:T7 Arg2:T6	
+R7	c_co Arg1:T8 Arg2:T5	
+T10	Predicate 89 92	has
+R8	s_p Arg1:T1 Arg2:T10	
+T11	Object 96 104	children
+T12	Seg 93 95	no
+R9	is-specialized-by Arg1:T11 Arg2:T12	
+R10	p_o Arg1:T10 Arg2:T11	
+R11	is-specialized-by Arg1:T3 Arg2:T8	
+R12	is-specialized-by Arg1:T3 Arg2:T7	
+T13	Seg 34 39	first
+R13	is-specialized-by Arg1:T4 Arg2:T13	
+T14	Seg 59 63	next
+R14	is-specialized-by Arg1:T4 Arg2:T14	
+T15	Conj 85 88	but
+R15	conj Arg1:T15 Arg2:T3	
+R16	conj Arg1:T15 Arg2:T10	

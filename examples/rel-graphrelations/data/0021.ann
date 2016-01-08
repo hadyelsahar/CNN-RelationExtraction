@@ -1,0 +1,13 @@
+T1	Subject 0 7	Spencer
+T2	Predicate 8 16	was born
+T3	Predicate 21 27	raised
+T4	Conj 17 20	and
+R1	conj Arg1:T4 Arg2:T3	
+R2	conj Arg1:T4 Arg2:T2	
+T5	Context-Prep 28 30	in
+T6	Context-Obj 31 51	Gulf Breeze, Florida
+R3	c_co Arg1:T5 Arg2:T6	
+R4	p_c Arg1:T3 Arg2:T5	
+R5	p_c Arg1:T2 Arg2:T5	
+R6	s_p Arg1:T1 Arg2:T2	
+R7	s_p Arg1:T1 Arg2:T3	

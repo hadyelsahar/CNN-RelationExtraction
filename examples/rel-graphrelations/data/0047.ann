@@ -1,0 +1,26 @@
+T1	Predicate 54 58	were
+T2	Conj 79 81	or
+T3	Object 72 78	owners
+T4	Object 88 95	traders
+T5	Conj 24 27	and
+T6	Subject 28 34	others
+T7	Subject 10 23	father-in-law
+T8	Seg 0 9	Lincoln's
+R1	poss Arg1:T7 Arg2:T8	
+R2	conj Arg1:T5 Arg2:T6	
+R3	conj Arg1:T5 Arg2:T7	
+R4	s_p Arg1:T6 Arg2:T1	
+R5	s_p Arg1:T7 Arg2:T1	
+T9	Context-Prep 35 37	of
+T10	Context-Obj 47 53	family
+T11	Seg 38 46	the Todd
+R6	is-specialized-by Arg1:T10 Arg2:T11	
+R7	c_co Arg1:T9 Arg2:T10	
+R8	p_o Arg1:T1 Arg2:T3	
+R9	p_o Arg1:T1 Arg2:T4	
+R10	conj Arg1:T2 Arg2:T4	
+R11	conj Arg1:T2 Arg2:T3	
+T12	Seg 82 87	slave
+R12	is-specialized-by Arg1:T4 Arg2:T12	
+T13	Seg 66 71	slave
+R13	is-specialized-by Arg1:T3 Arg2:T13	

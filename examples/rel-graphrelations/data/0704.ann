@@ -1,0 +1,21 @@
+T1	Subject 1 20	Aliza Gur Aliza Gur
+T2	Predicate 21 24	was
+T3	Object 25 36	Miss Israel
+T4	Context-Prep 37 39	of
+T5	Context-Obj 40 44	1960
+A1	Time T5
+R1	c_co Arg1:T4 Arg2:T5	
+R2	s_p Arg1:T1 Arg2:T2	
+R3	p_o Arg1:T2 Arg2:T3	
+T6	Conj 45 48	and
+T7	Object 49 64	a semi-finalist
+R5	conj Arg1:T6 Arg2:T3	
+T8	Context-Obj 68 93	the Miss Universe pageant
+T9	Context-Prep 65 67	in
+T10	Seg 99 108	same year
+R4	is-specialized-by Arg1:T3 Arg2:T4	
+R6	conj Arg1:T6 Arg2:T7	
+R7	c_co Arg1:T9 Arg2:T8	
+R8	is-specialized-by Arg1:T7 Arg2:T9	
+R9	p_o Arg1:T2 Arg2:T7	
+R10	coref Arg1:T10 Arg2:T5	
