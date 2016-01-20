@@ -1,0 +1,54 @@
+T1	Subject 0 9	The March
+T2	Subject 13 24	Margraviate
+T3	Conj 10 12	or
+R1	conj Arg1:T3 Arg2:T2	
+R2	conj Arg1:T3 Arg2:T1	
+T4	Context-Prep 25 27	of
+T5	Context-Obj 28 35	Lusatia
+R3	c_co Arg1:T4 Arg2:T5	
+R4	is-specialized-by Arg1:T2 Arg2:T4	
+R5	is-specialized-by Arg1:T1 Arg2:T4	
+T6	Predicate 36 39	was
+T7	Object 49 54	march
+T8	Seg 40 48	a border
+R6	is-specialized-by Arg1:T7 Arg2:T8	
+R7	p_o Arg1:T6 Arg2:T7	
+R8	s_p Arg1:T2 Arg2:T6	
+R9	s_p Arg1:T1 Arg2:T6	
+T9	Context-Prep 55 57	of
+T10	Context-Obj 58 79	the Holy Roman Empire
+R10	c_co Arg1:T9 Arg2:T10	
+R11	is-specialized-by Arg1:T7 Arg2:T9	
+T11	Context-Prep 80 82	at
+R12	p_c Arg1:T6 Arg2:T11	
+T12	Context-Obj 101 107	border
+R13	c_co Arg1:T11 Arg2:T12	
+T13	Seg 95 100	Bober
+T14	Seg 87 94	eastern
+R14	is-specialized-by Arg1:T12 Arg2:T13	
+R15	poss Arg1:T12 Arg2:T14	
+T15	Seg 83 86	its
+R16	poss Arg1:T12 Arg2:T15	
+R17	coref Arg1:T15 Arg2:T10	
+T16	Context-Prep 108 112	with
+T17	Context-Obj 113 119	Poland
+R18	is-specialized-by Arg1:T12 Arg2:T16	
+R19	c_co Arg1:T16 Arg2:T17	
+T18	Conj 120 123	and
+R20	conj Arg1:T18 Arg2:T17	
+T19	Context-Obj 134 141	duchies
+R21	c_co Arg1:T16 Arg2:T19	
+T20	Seg 124 133	the later
+R22	is-specialized-by Arg1:T19 Arg2:T20	
+T21	Context-Prep 142 144	of
+T22	Context-Obj 145 152	Silesia
+R23	is-specialized-by Arg1:T19 Arg2:T21	
+R24	c_co Arg1:T21 Arg2:T22	
+T23	Context-Prep 153 157	from
+T24	Context-Obj 158 174	the 10th century
+R25	c_co Arg1:T23 Arg2:T24	
+R26	p_c Arg1:T6 Arg2:T23	
+T25	Context-Prep 175 180	until
+T26	Context-Obj 181 200	the 14th century AD
+R27	c_co Arg1:T25 Arg2:T26	
+R28	p_c Arg1:T6 Arg2:T25	

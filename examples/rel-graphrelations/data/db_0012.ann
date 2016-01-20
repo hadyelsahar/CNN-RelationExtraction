@@ -1,0 +1,33 @@
+T1	Subject 0 14	Dnipropetrovsk
+T2	Predicate 15 18	has
+T3	Object 19 31	a population
+R1	s_p Arg1:T1 Arg2:T2	
+R2	p_o Arg1:T2 Arg2:T3	
+T5	Context-Obj 41 50	3,307,795
+T4	Context-Prep 32 34	of
+R3	c_co Arg1:T4 Arg2:T5	
+R4	is-specialized-by Arg1:T3 Arg2:T4	
+T6	Context-Obj 73 77	whom
+T7	Predicate 78 82	live
+T8	Context 83 92	centering
+R5	p_c Arg1:T7 Arg2:T8	
+T9	Context-Prep 93 95	on
+R7	p_c Arg1:T7 Arg2:T9	
+T10	Context-Obj 96 117	administrative center
+R8	c_co Arg1:T9 Arg2:T10	
+T11	Context-Prep 118 120	of
+T12	Context-Obj 121 135	Dnipropetrovsk
+R9	c_co Arg1:T11 Arg2:T12	
+R10	is-specialized-by Arg1:T10 Arg2:T11	
+T13	Seg 137 147	Kryvyi Rih
+T14	Seg 149 165	Dniprodzerzhynsk
+T15	Seg 167 174	Nikopol
+R11	is-specialized-by Arg1:T12 Arg2:T13	
+R12	is-specialized-by Arg1:T13 Arg2:T14	
+R13	is-specialized-by Arg1:T14 Arg2:T15	
+T16	Context-Prep 70 72	of
+T17	Object 66 69	80%
+R14	p_o Arg1:T2 Arg2:T17	
+R15	is-specialized-by Arg1:T17 Arg2:T16	
+R16	c_co Arg1:T16 Arg2:T6	
+R6	is-specialized-by Arg1:T6 Arg2:T7	

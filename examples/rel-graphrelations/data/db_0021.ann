@@ -1,0 +1,33 @@
+T1	Subject 0 27	Community Newspaper Company
+T2	Predicate 37 40	was
+T3	Conj 29 31	or
+T4	Subject 32 35	CNC
+R1	s_p Arg1:T4 Arg2:T2	
+R2	s_p Arg1:T1 Arg2:T2	
+R3	conj Arg1:T3 Arg2:T4	
+R4	conj Arg1:T3 Arg2:T1	
+T5	Object 53 62	publisher
+T6	Seg 41 52	the largest
+R5	is-specialized-by Arg1:T5 Arg2:T6	
+R6	p_o Arg1:T2 Arg2:T5	
+T7	Context-Prep 63 65	of
+T8	Context-Obj 73 83	newspapers
+T9	Seg 66 72	weekly
+R7	is-specialized-by Arg1:T8 Arg2:T9	
+R8	c_co Arg1:T7 Arg2:T8	
+R9	is-specialized-by Arg1:T5 Arg2:T7	
+T10	Context-Prep 84 86	in
+T11	Context-Obj 95 108	Massachusetts
+T12	Seg 87 94	eastern
+R10	is-specialized-by Arg1:T11 Arg2:T12	
+R11	c_co Arg1:T10 Arg2:T11	
+T13	Context-Prep 109 111	in
+T14	Context-Obj 112 121	the 1990s
+T15	Context-Obj 126 158	first decade of the 21st century
+R13	c_co Arg1:T13 Arg2:T14	
+T16	Conj 122 125	and
+R14	conj Arg1:T16 Arg2:T15	
+R15	conj Arg1:T16 Arg2:T14	
+R16	c_co Arg1:T13 Arg2:T15	
+R12	p_c Arg1:T2 Arg2:T10	
+R17	p_c Arg1:T2 Arg2:T13	

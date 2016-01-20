@@ -1,0 +1,27 @@
+T1	Subject 0 10	Wave Music
+T2	Predicate 11 13	is
+T3	Object 41 53	record label
+T4	Seg 35 40	music
+T5	Seg 29 34	dance
+T6	Seg 14 28	an independent
+R1	is-specialized-by Arg1:T3 Arg2:T4	
+R2	is-specialized-by Arg1:T4 Arg2:T5	
+R3	is-specialized-by Arg1:T4 Arg2:T6	
+R4	s_p Arg1:T1 Arg2:T2	
+R5	p_o Arg1:T2 Arg2:T3	
+T7	Predicate 54 61	founded
+T8	Context-Prep 62 64	in
+T9	Context-Obj 65 69	1995
+R6	c_co Arg1:T8 Arg2:T9	
+R7	p_c Arg1:T7 Arg2:T8	
+T10	Context-Prep 70 72	by
+T11	Context-Obj 73 91	François Kevorkian
+R8	c_co Arg1:T10 Arg2:T11	
+R9	p_c Arg1:T7 Arg2:T10	
+T12	Predicate 93 106	headquartered
+T13	Context-Prep 107 109	in
+T14	Context-Obj 110 123	New York City
+R10	c_co Arg1:T13 Arg2:T14	
+R11	p_c Arg1:T12 Arg2:T13	
+R12	s_p Arg1:T1 Arg2:T7	
+R13	s_p Arg1:T1 Arg2:T12	

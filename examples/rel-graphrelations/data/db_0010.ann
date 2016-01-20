@@ -1,0 +1,7 @@
+T1	Subject 0 17	The Dnieper River
+T2	Predicate 18 22	runs
+T3	Context-Prep 23 30	through
+T4	Context-Obj 31 41	the oblast
+R1	c_co Arg1:T3 Arg2:T4	
+R2	s_p Arg1:T1 Arg2:T2	
+R3	p_c Arg1:T2 Arg2:T3	

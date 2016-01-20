@@ -1,0 +1,45 @@
+T1	Subject 0 27	The British Leeward Islands
+T2	Predicate 28 31	was
+T3	Object 42 48	colony
+T4	Seg 32 41	a British
+R1	s_p Arg1:T1 Arg2:T2	
+R2	p_o Arg1:T2 Arg2:T3	
+R3	coref Arg1:T3 Arg2:T4	
+T5	Predicate 49 57	existing
+T6	Context-Prep 58 65	between
+T7	Context-Obj 66 70	1833
+T8	Context-Obj 75 79	1960
+T9	Conj 71 74	and
+R4	conj Arg1:T9 Arg2:T8	
+R5	conj Arg1:T9 Arg2:T7	
+R6	c_co Arg1:T6 Arg2:T7	
+R7	c_co Arg1:T6 Arg2:T8	
+R8	p_c Arg1:T5 Arg2:T6	
+T10	Predicate 85 98	consisting of
+T11	Object 99 106	Antigua
+T12	Object 108 115	Barbuda
+T13	Object 117 143	the British Virgin Islands
+T14	Object 145 155	Montserrat
+T15	Object 157 168	Saint Kitts
+T16	Object 170 175	Nevis
+T17	Object 177 185	Anguilla
+T18	Object 191 199	Dominica
+T19	Conj 187 190	and
+R9	conj Arg1:T19 Arg2:T18	
+R10	conj Arg1:T19 Arg2:T17	
+R11	conj Arg1:T19 Arg2:T16	
+R12	conj Arg1:T19 Arg2:T15	
+R13	conj Arg1:T19 Arg2:T14	
+R14	conj Arg1:T19 Arg2:T13	
+R15	conj Arg1:T19 Arg2:T12	
+R16	conj Arg1:T19 Arg2:T11	
+R17	p_o Arg1:T10 Arg2:T11	
+R18	p_o Arg1:T10 Arg2:T12	
+R19	p_o Arg1:T10 Arg2:T13	
+R20	p_o Arg1:T10 Arg2:T14	
+R21	p_o Arg1:T10 Arg2:T15	
+R22	p_o Arg1:T10 Arg2:T16	
+R23	p_o Arg1:T10 Arg2:T17	
+R24	p_o Arg1:T10 Arg2:T18	
+R25	s_p Arg1:T1 Arg2:T5	
+R26	s_p Arg1:T1 Arg2:T10	

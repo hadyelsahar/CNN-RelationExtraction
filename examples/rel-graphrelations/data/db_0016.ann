@@ -1,0 +1,21 @@
+T1	Subject 0 6	Cimahi
+T2	Predicate 7 9	is
+T3	Object 10 16	a city
+R1	s_p Arg1:T1 Arg2:T2	
+R2	p_o Arg1:T2 Arg2:T3	
+T4	Predicate 17 24	located
+T5	Object 25 29	west
+T6	Context-Prep 30 32	of
+T7	Context-Obj 33 40	Bandung
+R3	c_co Arg1:T6 Arg2:T7	
+R4	is-specialized-by Arg1:T5 Arg2:T6	
+R5	p_o Arg1:T4 Arg2:T5	
+R6	s_p Arg1:T1 Arg2:T4	
+T8	Seg 42 51	West Java
+R7	is-specialized-by Arg1:T7 Arg2:T8	
+T9	Seg 53 62	Indonesia
+R8	is-specialized-by Arg1:T8 Arg2:T9	
+T10	Context-Prep 63 65	in
+T11	Context-Obj 66 95	the Bandung Metropolitan Area
+R9	c_co Arg1:T10 Arg2:T11	
+R10	p_c Arg1:T4 Arg2:T10	

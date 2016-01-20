@@ -1,0 +1,33 @@
+T1	Subject 0 15	Stéphane Ducret
+T2	Predicate 16 18	is
+T3	Object 40 46	artist
+T4	Seg 27 39	contemporary
+T5	Seg 19 26	a Swiss
+R1	is-specialized-by Arg1:T3 Arg2:T4	
+R2	is-specialized-by Arg1:T3 Arg2:T5	
+R3	s_p Arg1:T1 Arg2:T2	
+R4	p_o Arg1:T2 Arg2:T3	
+T6	Predicate 47 51	born
+T7	Context-Prep 52 54	in
+T8	Context-Obj 55 59	1970
+T9	Context-Prep 60 62	in
+T10	Context-Obj 63 71	Lausanne
+R5	p_c Arg1:T6 Arg2:T7	
+R6	c_co Arg1:T7 Arg2:T8	
+R7	p_c Arg1:T6 Arg2:T9	
+R8	c_co Arg1:T9 Arg2:T10	
+R9	s_p Arg1:T1 Arg2:T6	
+T11	Seg 73 84	Switzerland
+R10	is-specialized-by Arg1:T10 Arg2:T11	
+T13	Predicate 90 96	living
+T14	Context-Prep 97 99	in
+T15	Context-Obj 100 112	Buenos Aires
+R11	c_co Arg1:T14 Arg2:T15	
+R12	p_c Arg1:T13 Arg2:T14	
+T16	Seg 114 123	Argentina
+R13	is-specialized-by Arg1:T15 Arg2:T16	
+R14	s_p Arg1:T1 Arg2:T13	
+T12	Context-Prep 124 129	since
+T17	Context-Obj 130 134	2006
+R15	c_co Arg1:T12 Arg2:T17	
+R16	p_c Arg1:T13 Arg2:T12	

@@ -1,0 +1,22 @@
+T1	Subject 0 17	Banco Hipotecario
+T2	Predicate 18 20	is
+T3	Object 45 49	bank
+T4	Seg 34 44	commercial
+T5	Seg 21 33	an important
+R1	is-specialized-by Arg1:T3 Arg2:T4	
+R2	is-specialized-by Arg1:T3 Arg2:T5	
+R3	p_o Arg1:T2 Arg2:T3	
+R4	s_p Arg1:T1 Arg2:T2	
+T6	Context-Prep 50 52	in
+T7	Context-Obj 53 62	Argentina
+R5	c_co Arg1:T6 Arg2:T7	
+R6	p_c Arg1:T2 Arg2:T6	
+T8	Object 88 103	mortgage lender
+T9	Seg 80 87	premier
+T10	Seg 67 79	the nation's
+R7	is-specialized-by Arg1:T8 Arg2:T9	
+R8	poss Arg1:T9 Arg2:T10	
+R9	p_o Arg1:T2 Arg2:T8	
+T11	Conj 63 66	and
+R10	conj Arg1:T11 Arg2:T8	
+R11	conj Arg1:T11 Arg2:T3	

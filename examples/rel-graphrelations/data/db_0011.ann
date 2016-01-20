@@ -1,0 +1,48 @@
+T1	Subject 0 35	The Bank of New England Corporation
+T2	Predicate 36 39	was
+T3	Object 59 70	institution
+T4	Seg 40 58	a regional banking
+R1	coref Arg1:T3 Arg2:T4	
+R2	s_p Arg1:T1 Arg2:T2	
+R3	p_o Arg1:T2 Arg2:T3	
+T5	Predicate 71 76	based
+T6	Context-Prep 77 79	in
+T7	Context-Obj 80 101	Boston, Massachusetts
+R4	p_c Arg1:T5 Arg2:T6	
+R5	c_co Arg1:T6 Arg2:T7	
+R6	s_p Arg1:T1 Arg2:T5	
+T8	Subject 103 108	which
+R7	coref Arg1:T8 Arg2:T1	
+T9	Predicate 109 119	was seized
+T10	Context-Prep 120 122	by
+T11	Context-Obj 123 164	the Federal Deposit Insurance Corporation
+R8	c_co Arg1:T10 Arg2:T11	
+R9	s_p Arg1:T8 Arg2:T9	
+R10	p_c Arg1:T9 Arg2:T10	
+T12	Context-Prep 165 167	in
+T13	Context-Obj 168 172	1991
+R11	c_co Arg1:T12 Arg2:T13	
+R12	p_c Arg1:T9 Arg2:T12	
+T14	Context-Prep 173 187	as a result of
+T15	Context-Obj 194 200	losses
+T16	Seg 188 193	heavy
+R13	is-specialized-by Arg1:T15 Arg2:T16	
+R14	c_co Arg1:T14 Arg2:T15	
+R15	p_c Arg1:T9 Arg2:T14	
+T17	Context-Prep 201 203	in
+T18	Context-Obj 208 222	loan portfolio
+T19	Seg 204 207	its
+R16	poss Arg1:T18 Arg2:T19	
+R17	coref Arg1:T19 Arg2:T1	
+R18	is-specialized-by Arg1:T15 Arg2:T17	
+T20	Predicate 227 237	was placed
+T21	Context-Prep 238 242	into
+T22	Context-Obj 253 264	liquidation
+T23	Seg 243 252	Chapter 7
+R19	is-specialized-by Arg1:T22 Arg2:T23	
+R20	c_co Arg1:T21 Arg2:T22	
+R21	p_c Arg1:T20 Arg2:T21	
+R22	s_p Arg1:T8 Arg2:T20	
+T24	Conj 223 226	and
+R23	conj Arg1:T24 Arg2:T20	
+R24	conj Arg1:T24 Arg2:T9	

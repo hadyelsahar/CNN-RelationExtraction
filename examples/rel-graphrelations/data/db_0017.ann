@@ -1,0 +1,24 @@
+T1	Subject 0 23	Fábrica de Armas Halcón
+T2	Predicate 24 27	was
+T3	Object 51 58	company
+T4	Seg 43 50	defense
+T5	Seg 28 42	an Argentinian
+R1	is-specialized-by Arg1:T3 Arg2:T4	
+R2	is-specialized-by Arg1:T3 Arg2:T5	
+R3	s_p Arg1:T1 Arg2:T2	
+R4	p_o Arg1:T2 Arg2:T3	
+T6	Predicate 59 66	founded
+T7	Context-Prep 67 69	in
+T8	Context-Obj 70 74	1941
+R5	c_co Arg1:T7 Arg2:T8	
+R6	p_c Arg1:T6 Arg2:T7	
+R7	s_p Arg1:T1 Arg2:T6	
+T9	Predicate 79 86	located
+T10	Context-Prep 87 89	in
+T11	Context-Obj 90 102	Buenos Aires
+R8	c_co Arg1:T10 Arg2:T11	
+R9	p_c Arg1:T9 Arg2:T10	
+R10	s_p Arg1:T1 Arg2:T9	
+T12	Conj 75 78	and
+R11	conj Arg1:T12 Arg2:T9	
+R12	conj Arg1:T12 Arg2:T6	

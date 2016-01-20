@@ -1,0 +1,23 @@
+T1	Subject 0 21	Daniels Motor Company
+T2	Predicate 22 25	was
+T3	Object 66 73	company
+T4	Predicate 75 82	founded
+T5	Context-Prep 83 85	in
+T6	Context-Obj 86 90	1916
+T7	Context-Prep 91 93	by
+T8	Context-Obj 94 102	George E
+R1	c_co Arg1:T7 Arg2:T8	
+R2	c_co Arg1:T5 Arg2:T6	
+R3	p_c Arg1:T4 Arg2:T5	
+R4	p_c Arg1:T4 Arg2:T7	
+R5	s_p Arg1:T1 Arg2:T4	
+T9	Seg 55 65	automobile
+R6	is-specialized-by Arg1:T3 Arg2:T9	
+T10	Seg 46 54	American
+R7	is-specialized-by Arg1:T3 Arg2:T10	
+T11	Seg 26 35	a pioneer
+R8	is-specialized-by Arg1:T3 Arg2:T11	
+T12	Seg 36 45	brass era
+R9	is-specialized-by Arg1:T3 Arg2:T12	
+R10	s_p Arg1:T1 Arg2:T2	
+R11	p_o Arg1:T2 Arg2:T3	

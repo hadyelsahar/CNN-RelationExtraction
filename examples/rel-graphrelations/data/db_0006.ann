@@ -1,0 +1,27 @@
+T1	Subject 0 16	Reata Restaurant
+T2	Predicate 17 19	is
+T3	Object 42 58	restaurant group
+T4	Predicate 59 66	founded
+T5	Context-Prep 67 69	by
+T6	Context-Obj 70 81	Al Micallef
+R1	c_co Arg1:T5 Arg2:T6	
+R2	p_c Arg1:T4 Arg2:T5	
+R3	s_p Arg1:T1 Arg2:T4	
+R4	s_p Arg1:T1 Arg2:T2	
+T7	Context-Prep 82 86	with
+T8	Context-Obj 97 106	interests
+T9	Seg 87 96	operating
+R5	is-specialized-by Arg1:T8 Arg2:T9	
+R6	c_co Arg1:T7 Arg2:T8	
+T10	Context-Prep 107 109	in
+T11	Context-Obj 110 116	Alpine
+T12	Context-Obj 121 138	Fort Worth, Texas
+T13	Conj 117 120	and
+R7	conj Arg1:T13 Arg2:T11	
+R8	conj Arg1:T13 Arg2:T12	
+R9	c_co Arg1:T10 Arg2:T11	
+R10	c_co Arg1:T10 Arg2:T12	
+R11	is-specialized-by Arg1:T8 Arg2:T10	
+R12	is-specialized-by Arg1:T3 Arg2:T7	
+T14	Seg 20 41	a Texas Cuisine based
+R13	is-specialized-by Arg1:T3 Arg2:T14	

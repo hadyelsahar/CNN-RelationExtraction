@@ -1,0 +1,35 @@
+T1	Subject 0 16	Anna-Marie Wayne
+T2	Predicate 17 19	is
+T3	Object 40 47	actress
+T4	Seg 20 39	an American-British
+R1	is-specialized-by Arg1:T3 Arg2:T4	
+R2	s_p Arg1:T1 Arg2:T2	
+R3	p_o Arg1:T2 Arg2:T3	
+T5	Subject 48 51	who
+T6	Predicate 52 57	began
+T7	Object 62 68	career
+R4	s_p Arg1:T5 Arg2:T6	
+R5	p_o Arg1:T6 Arg2:T7	
+T8	Seg 58 61	her
+R6	poss Arg1:T7 Arg2:T8	
+R7	coref Arg1:T8 Arg2:T1	
+R8	coref Arg1:T5 Arg2:T1	
+T9	Context-Prep 69 71	on
+T10	Context-Obj 72 74	TV
+T11	Conj 75 78	and
+T12	Context-Obj 79 84	stage
+R9	conj Arg1:T11 Arg2:T12	
+R10	conj Arg1:T11 Arg2:T10	
+R11	c_co Arg1:T9 Arg2:T10	
+R12	c_co Arg1:T9 Arg2:T12	
+R13	p_c Arg1:T6 Arg2:T9	
+T13	Context-Prep 85 87	at
+T14	Context-Obj 88 100	an early age
+R14	c_co Arg1:T13 Arg2:T14	
+R15	p_c Arg1:T6 Arg2:T13	
+T15	Predicate 122 128	worked
+T16	Context-Prep 129 131	in
+T17	Context-Obj 132 136	film
+R16	c_co Arg1:T16 Arg2:T17	
+R17	p_c Arg1:T15 Arg2:T16	
+R18	s_p Arg1:T5 Arg2:T15	
