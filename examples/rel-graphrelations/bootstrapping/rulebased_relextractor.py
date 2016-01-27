@@ -1,1 +1,119 @@
 __author__ = 'hadyelsahar'
+
+from sklearn.base import BaseEstimator, ClassifierMixin
+import os
+from corenlpclient import *
+
+# Predifine relations tags here for easy change
+__RELATIONS__ = {
+    "s_p": "s_p",
+    "p_o": "p_o",
+    "p_c": "p_c",
+    "c_p": "c_p",
+    "p_p": "p_p",
+    "c_co": "c_co",
+    "coref": "coref",
+    "poss": "poss",
+    "is-specialized-by": "is-specialized-by",
+    "conj": "conj",
+    "compound": "compound"
+}
+
+__DEPRELATIONS__ = {
+
+}
+
+class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
+
+    def __init__(self, rawdir="./rawfiles", outputdir="./output"):
+
+        self.relations_dict = __RELATIONS__
+        self.dep_relations = __DEPRELATIONS__
+
+        self.rawdir = rawdir
+        self.outputdir = outputdir
+        self.parser = CoreNlPClient()
+
+
+    def fit(self, X, y):
+
+        pass
+
+    def predict(self, X):
+        pass
+
+    def bootstrap(self):
+
+        # for i in os.listdir(self.rawdir):
+            i = self.rawdir+"/sample.txt"
+            s = open(i).read()
+
+            # Getting dependency parse tree, NER and COREF
+            parse = self.parser.annotate(s)
+
+            # Generate new relations for the custom representations
+            relations = self.extractrelations(s, parse)
+
+            # Export the custom relations in a .ann file and write both .txt and .ann into the outdir
+            # self.save_in_brat_format(i.replace(".txt", ""), s, relations)
+
+            return relations
+
+
+    def extractrelations(self,s,parse):
+        """
+
+        :param s: raw sentence in text
+        :param parse: parse class instance that contains the parsed results
+        :return:
+        """
+
+        # Extract Compound Relations :
+        relations = [{"in": [], "out":[]} for i in parse.tokens]
+
+        ###################################
+        # extraction of compound relations
+        ###################################
+
+
+        #####################################################################################
+        # Extraction of Compound nouns, Dates or Named Entities from the Core NLP NER Tagger
+        ######################################################################################
+        ner = parse.ner
+        stack = []
+        for i, tag in enumerate(ner):
+            if tag == 'O':
+                pass
+            else:
+                # if tag == next tag (or not the last element) add to the stack as dependent of the compound relation
+                if i+1 < len(ner) and tag == ner[i+1]:
+                    stack.append(i)
+
+                # if it's the last tagged ner, add it as the governor to all the words in the stack
+                else:
+                    for s in stack:
+                        relations[i]["out"].append((__RELATIONS__["compound"], s))
+                        relations[s]["in"].append((__RELATIONS__["compound"], i))
+                    stack = []
+
+        return relations
+
+        # From Dependency
+
+
+
+
+
+
+
+
+    def save_in_brat_format(self,fname, s, relations):
+
+        pass
+
+
+
+
+
+
+
