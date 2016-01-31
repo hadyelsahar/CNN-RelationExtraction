@@ -10,7 +10,7 @@ class CoreNlPClient:
 
         self.properties = {}
         self.properties["annotators"] = annotators
-        self.properties["tokenize.whitespace"] = True
+        self.properties["tokenize.whitespace"] = False
         self.properties["outputFormat"] = "json"
         self.serverurl = serverurl
 
