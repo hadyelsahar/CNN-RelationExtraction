@@ -1,3 +1,4 @@
+# coding=utf-8
 __author__ = 'hadyelsahar'
 
 from sklearn.base import BaseEstimator, ClassifierMixin
@@ -27,7 +28,18 @@ __DEPRELATIONS__ = {
     "mwe": "mwe",
     "name": "name",
     "cop": "cop",
-    "nsubj": "nsubj"
+    "nsubj": "nsubj",
+    "nsubjpass": "nsubjpass",
+    "nmod": "nmod",
+    "nmod:tmod": "nmod:tmod",
+    "nmod:npmod": "nmod:npmod",
+    "case": "case",
+    "ccomp": "ccomp",
+    "dobj":"dobj",
+    "iobj":"iobj",
+    "amod": "amod",
+    "advmod": "advmod",
+    "nummod": "nummod"
 }
 
 class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
@@ -140,6 +152,143 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
                 relations[predid]["out"].append((__RELATIONS__["p_o"], objid))
                 relations[objid]["in"].append((__RELATIONS__["p_o"], predid))
 
+        # Rule 2.0 : `ccomp` dep relation into P_P "Believe he ate his food"
+        # Rule 2.1 : `ccomp` dep relation into P_P when there's copular file
+        # (ie. not a predicate to have context relation)
+        for i, rels in enumerate(parse.dep):
+
+            inr = [r[0] for r in rels["in"]]
+            inindex = [r[1] for r in rels["in"]]
+
+            outr = [r[0] for r in rels["out"]]
+            outindx = [r[1] for r in rels["out"]]
+
+            predrelation = __RELATIONS__["p_p"]
+
+            if __DEPRELATIONS__["ccomp"] in inr:
+
+                p1id = inindex[inr.index(__DEPRELATIONS__["ccomp"])]
+
+                # if there's a copular verb attach the P_P to the copular verb
+                # e.g. : people believe earth was flat
+                if __DEPRELATIONS__["cop"] in outr:
+                    p2id = outindx[outr.index(__DEPRELATIONS__["cop"])]
+
+                else:
+                    p2id = i
+
+                # add p1 -> P_P -> p2  relation
+                relations[p1id]["out"].append((predrelation, p2id))
+                relations[p2id]["in"].append((predrelation, p1id))
+
+        # Rule 3: nsubj | nsubjpass  --> s_p
+        # not Rule 0:
+        for i, rels in enumerate(parse.dep):
+
+            outr = [r[0] for r in rels["out"]]
+            outindx = [r[1] for r in rels["out"]]
+
+            subjrels = {__DEPRELATIONS__["nsubjpass"], __DEPRELATIONS__["nsubj"]}
+
+            if subjrels.intersection(set(outr)) and __DEPRELATIONS__["cop"] not in outr:
+
+                rel = list(subjrels.intersection(set(outr)))[0]
+
+                govid = outindx[outr.index(rel)]
+                depid = i
+
+                # add subject --> predicate (is) relations
+                relations[govid]["out"].append((__RELATIONS__["s_p"], depid))
+                relations[depid]["in"].append((__RELATIONS__["s_p"], govid))
+
+        # Rule 4: Direct and indirect object :  iobj | dobj --> P_O
+        for i, rels in enumerate(parse.dep):
+
+            outr = [r[0] for r in rels["out"]]
+            outindx = [r[1] for r in rels["out"]]
+
+            objrels = {__DEPRELATIONS__["dobj"], __DEPRELATIONS__["iobj"]}
+
+            for rel in objrels.intersection(set(outr)):
+
+                govid = i
+                depid = outindx[outr.index(rel)]
+
+                # add subject --> predicate (is) relations
+                relations[govid]["out"].append((__RELATIONS__["p_o"], depid))
+                relations[depid]["in"].append((__RELATIONS__["p_o"], govid))
+
+        # Rule 1.0 : addition of context-prep from `case` dep relation
+        # e.g. : he ate lunch at the restaurant
+        # Rule 1.1 : addition of is-specialized-by if the nmod doesn't have s_p prop as output relation
+        # e.g. : the president of russia
+        # (ie. not a predicate to have context relation)
+        for i, rels in enumerate(parse.dep):
+
+            inr = [r[0] for r in rels["in"]]
+            inindex = [r[1] for r in rels["in"]]
+
+            outr = [r[0] for r in rels["out"]]
+            outindx = [r[1] for r in rels["out"]]
+
+            mods_relations = {__DEPRELATIONS__["nmod:npmod"], __DEPRELATIONS__["nmod:npmod"], __DEPRELATIONS__["nmod"]}
+
+            # gov0id -- r1 : p_c | is-specialized by  -->  gov1id --- r2 : c_co--> depid
+            for dep_rel in mods_relations.intersection(set(inr)):
+
+                govid = inindex[inr.index(dep_rel)]
+                depid = i
+
+                # P_C is the predicate is a (relation) otherwise is-specialized-by
+
+                if __RELATIONS__["s_p"] in [r[0] for r in relations[govid]["in"]]:
+                    predrelation = __RELATIONS__["p_c"]
+                else:
+                    predrelation = __RELATIONS__["is-specialized-by"]
+
+                if __DEPRELATIONS__["case"] in outr:
+
+                    prepid = outindx[outr.index(__DEPRELATIONS__["case"])]
+
+                    # add subject --> predicate (is) relations
+                    relations[govid]["out"].append((predrelation, prepid))
+                    relations[prepid]["in"].append((predrelation, govid))
+
+                    # add predicate --> object relations
+                    relations[prepid]["out"].append((__RELATIONS__["c_co"], depid))
+                    relations[depid]["in"].append((__RELATIONS__["c_co"], prepid))
+
+                else :
+                    # add subject --> predicate (is) relations
+                    relations[govid]["out"].append((predrelation, prepid))
+                    relations[prepid]["in"].append((predrelation, govid))
+
+
+        # Rule 5 :
+
+        # Rule 6: advmod (without s_p) | amod ---> is-specialized-by
+        # advmod (+ s_p ) --> p_c    e.g. : she ate her food happily
+        for i, rels in enumerate(parse.dep):
+
+            outr = [r[0] for r in rels["out"]]
+            outindx = [r[1] for r in rels["out"]]
+
+            objrels = {__DEPRELATIONS__["amod"], __DEPRELATIONS__["advmod"], __DEPRELATIONS__["nummod"]}
+
+            for rel in objrels.intersection(set(outr)):
+
+                govid = i
+                depid = outindx[outr.index(rel)]
+
+                # P_C is the predicate is a (relation) otherwise is-specialized-by
+                if __RELATIONS__["s_p"] in [r[0] for r in relations[govid]["in"]]:
+                    predrelation = __RELATIONS__["p_c"]
+                else:
+                    predrelation = __RELATIONS__["is-specialized-by"]
+
+                # add subject --> predicate (is) relations
+                relations[govid]["out"].append((predrelation, depid))
+                relations[depid]["in"].append((predrelation, govid))
 
 
 
@@ -149,14 +298,21 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
 
         relations = [{"in": list(set(i["in"])), "out":list(set(i["out"]))} for i in relations]
 
+        for govid,r in enumerate(relations):
+
+            cmp_rels_ids = [i[1] for i in r["out"] if i[0] == __RELATIONS__["compound"]]
+
+            # keep only the "in compound relations" for the dep:
+            # remove other relations between the gov and dependents if they have compound relation between them
+
+            relations[govid]["out"] = [i for i in relations[govid]["out"]
+                                       if i[0] == __RELATIONS__["compound"] or i[1] not in cmp_rels_ids]
+
+            for depid in cmp_rels_ids:
+                relations[depid]["in"] = [(__RELATIONS__["compound"], govid)]
+
+
         return relations
-
-
-
-
-
-
-
 
 
     def save_in_brat_format(self,fname, s, relations):
