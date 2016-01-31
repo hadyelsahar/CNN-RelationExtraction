@@ -73,6 +73,10 @@ class RelationMentionVectorizer(TransformerMixin):
         """
 
         l = max([len(i["segments"]) for i in X])
+
+        if (l % 2) != 0:
+            l += 1
+
         self.m = l
 
         # original index = -l+1,....,0,...l-1
