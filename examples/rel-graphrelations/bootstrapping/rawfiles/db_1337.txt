@@ -1,0 +1,1 @@
+Marketcetera is a financial software company that has developed the Marketcetera open source trading platform, linking financial exchanges to users through broker services allowing the development of automated trading systems, essentially acting as a meta-broker itself .
