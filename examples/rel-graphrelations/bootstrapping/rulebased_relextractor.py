@@ -21,11 +21,13 @@ __RELATIONS__ = {
 
 __DEPRELATIONS__ = {
     "compound": "compound",
-    "aux":"aux",
-    "neg":"neg",
-    "auxpass":"auxpass",
-    "mwe":"mwe",
-    "name":"name"
+    "aux": "aux",
+    "neg": "neg",
+    "auxpass": "auxpass",
+    "mwe": "mwe",
+    "name": "name",
+    "cop": "cop",
+    "nsubj": "nsubj"
 }
 
 class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
@@ -120,8 +122,26 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
         # From Dependency#
         ##################
 
-        # Rule 1 : Addition of copular verbs are predicates:
-        
+        # Rule 0 : Addition of copular verbs are predicates:
+        for i, rels in enumerate(parse.dep):
+
+            outr = [r[0] for r in rels["out"]]
+            outindx = [r[1] for r in rels["out"]]
+
+            if __DEPRELATIONS__["nsubj"] in outr and __DEPRELATIONS__["cop"] in outr:
+
+                subjid = outindx[outr.index(__DEPRELATIONS__["nsubj"])]
+                predid = outindx[outr.index(__DEPRELATIONS__["cop"])]
+                objid = i
+                # add subject --> predicate (is) relations
+                relations[subjid]["out"].append((__RELATIONS__["s_p"], predid))
+                relations[predid]["in"].append((__RELATIONS__["s_p"], subjid))
+                # add predicate --> object relations
+                relations[predid]["out"].append((__RELATIONS__["p_o"], objid))
+                relations[objid]["in"].append((__RELATIONS__["p_o"], predid))
+
+
+
 
         #############################################################
         # Removal of redundant relations and relations within phrases
