@@ -3,8 +3,9 @@ __author__ = 'hadyelsahar'
 
 import numpy as np
 from sklearn.base import BaseEstimator, ClassifierMixin
+from sklearn.metrics import accuracy_score
 import tensorflow as tf
-
+import pickle as pk
 
 class CNN(BaseEstimator, ClassifierMixin):
 
@@ -52,11 +53,12 @@ class CNN(BaseEstimator, ClassifierMixin):
 
         self.m, self.n, self.c = input_shape
         self.conv_w, self.conv_l = conv_shape
-        self.classes = classes
+        self.classes = np.array(classes)
 
         self.epochs = epochs
         self.batchsize = batchsize
         self.dropout = dropout
+        self.best_acc = 0
 
         # 4 dimensional   datasize x seqwidth x veclength x channels
         self.x = tf.placeholder("float",  [None, self.m, self.n, self.c])
@@ -70,8 +72,8 @@ class CNN(BaseEstimator, ClassifierMixin):
         h_conv1 = tf.nn.relu(CNN.conv2d(self.x, W_conv1) + b_conv1)
         h_pool1 = CNN.max_pool_2x2(h_conv1)
 
-        W_conv2 = CNN.weight_variable([3, 3, 32, 64])
-        b_conv2 = CNN.bias_variable([64])
+        W_conv2 = CNN.weight_variable([3, 3, 32, 32])
+        b_conv2 = CNN.bias_variable([32])
 
         h_conv2 = tf.nn.relu(CNN.conv2d(h_pool1, W_conv2) + b_conv2)
         h_pool2 = CNN.max_pool_2x2(h_conv2)
@@ -81,32 +83,34 @@ class CNN(BaseEstimator, ClassifierMixin):
         # max pooling : reduces size into half
         h_pool2_l = np.ceil(np.ceil(self.m/2.0)/2.0)
         h_pool2_w = np.ceil(np.ceil(self.n/2.0)/2.0)
-        h_pool2_flat_shape = np.int16(h_pool2_l * h_pool2_w * 64)
+        h_pool2_flat_shape = np.int16(h_pool2_l * h_pool2_w * 32)
 
-        W_fc1 = CNN.weight_variable([h_pool2_flat_shape, 1024])
-        b_fc1 = CNN.bias_variable([1024])
+        W_fc1 = CNN.weight_variable([h_pool2_flat_shape, 256])
+        b_fc1 = CNN.bias_variable([256])
 
-        h_pool2_flat = tf.reshape(h_pool2, [-1, h_pool2_flat_shape ])
+        h_pool2_flat = tf.reshape(h_pool2, [-1, h_pool2_flat_shape])
         h_fc1 = tf.nn.relu(tf.matmul(h_pool2_flat, W_fc1) + b_fc1)
 
         self.keep_prob = tf.placeholder("float")
         h_fc1_drop = tf.nn.dropout(h_fc1, self.keep_prob)
 
-        W_fc2 = CNN.weight_variable([1024, len(self.classes)])
+        W_fc2 = CNN.weight_variable([256, len(self.classes)])
         b_fc2 = CNN.bias_variable([len(self.classes)])
 
         self.y_conv = tf.nn.softmax(tf.matmul(h_fc1_drop, W_fc2) + b_fc2)
 
         cross_entropy = -tf.reduce_sum(self.y_ * tf.log(self.y_conv))
 
-        self.train_step = tf.train.AdamOptimizer(1e-4).minimize(cross_entropy)
+        self.train_step = tf.train.AdamOptimizer(1e-3).minimize(cross_entropy)
+        # self.train_step = tf.train.AdagradOptimizer(1e-3).minimize(cross_entropy)
 
         self.correct_prediction = tf.equal(tf.argmax(self.y_conv, 1), tf.argmax(self.y_, 1))
         self.accuracy = tf.reduce_mean(tf.cast(self.correct_prediction, "float"))
 
         self.sess = tf.InteractiveSession()
+        # self.sess.run(tf.initialize_all_variables())
 
-    def fit(self, X, y):
+    def fit(self, X, y, X_test=None, y_test=None):
         """
         Preforms training of the Convolution Neural Network
 
@@ -143,6 +147,11 @@ class CNN(BaseEstimator, ClassifierMixin):
                 train_accuracy = self.accuracy.eval(feed_dict={self.x: batch[0], self.y_: batch[1], self.keep_prob: 1.0})
                 print("step %d, training accuracy %g" % (i, train_accuracy))
 
+                if X_test is not None:
+                    y_pred = self.predict(X_test)
+                    acc = accuracy_score(y_test, y_pred)
+                    print "step %d, test accuracy %g" % (i, acc)
+
             self.train_step.run(feed_dict={self.x: batch[0], self.y_: batch[1], self.keep_prob: self.dropout})
 
         return self
@@ -159,7 +168,7 @@ class CNN(BaseEstimator, ClassifierMixin):
 
         y_prop = self.y_conv.eval(feed_dict={self.x: X, self.keep_prob: 1.0})
         y_pred = tf.argmax(y_prop, 1).eval()
-        return y_pred
+        return self.classes[y_pred]
 
 
 
