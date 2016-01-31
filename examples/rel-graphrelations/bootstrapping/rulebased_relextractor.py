@@ -20,7 +20,12 @@ __RELATIONS__ = {
 }
 
 __DEPRELATIONS__ = {
-
+    "compound": "compound",
+    "aux":"aux",
+    "neg":"neg",
+    "auxpass":"auxpass",
+    "mwe":"mwe",
+    "name":"name"
 }
 
 class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
@@ -60,9 +65,8 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
             return relations
 
 
-    def extractrelations(self,s,parse):
+    def extractrelations(self, s, parse):
         """
-
         :param s: raw sentence in text
         :param parse: parse class instance that contains the parsed results
         :return:
@@ -72,12 +76,27 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
         relations = [{"in": [], "out":[]} for i in parse.tokens]
 
         ###################################
-        # extraction of compound relations
+        # Extraction of compound relations
         ###################################
+        for i, rels in enumerate(parse.dep):
+            for r in rels["out"]:
+                compound_dep_relations = [__DEPRELATIONS__["compound"],
+                                          __DEPRELATIONS__["aux"],
+                                          __DEPRELATIONS__["neg"],
+                                          __DEPRELATIONS__["auxpass"],
+                                          __DEPRELATIONS__["mwe"],
+                                          __DEPRELATIONS__["name"]
+                                          ]
+
+                if r[0] in compound_dep_relations:
+                    gov = i
+                    depndnt = r[1]
+                    relations[gov]["out"].append((__RELATIONS__["compound"], depndnt))
+                    relations[depndnt]["in"].append((__RELATIONS__["compound"], gov))
 
 
-        #####################################################################################
-        # Extraction of Compound nouns, Dates or Named Entities from the Core NLP NER Tagger
+        ######################################################################################
+        # Extraction of Compound nouns, Dates or Named Entities from the Core NLP NER Tagger #
         ######################################################################################
         ner = parse.ner
         stack = []
@@ -96,9 +115,22 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
                         relations[s]["in"].append((__RELATIONS__["compound"], i))
                     stack = []
 
+
+        ##################
+        # From Dependency#
+        ##################
+
+        # Rule 1 : Addition of copular verbs are predicates:
+        
+
+        #############################################################
+        # Removal of redundant relations and relations within phrases
+        #############################################################
+
+        relations = [{"in": list(set(i["in"])), "out":list(set(i["out"]))} for i in relations]
+
         return relations
 
-        # From Dependency
 
 
 
