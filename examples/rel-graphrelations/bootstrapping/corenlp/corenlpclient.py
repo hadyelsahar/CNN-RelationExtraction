@@ -23,13 +23,13 @@ class CoreNlPClient:
 
             x = json.loads(r.text)
 
-            return parse(x)
+            return Parse(x)
 
         else:
             raise RuntimeError("%s \t %s"%(r.status_code, r.reason))
 
 
-class parse:
+class Parse:
     """
     a class to hold the output of the corenlp parsed result
     """
