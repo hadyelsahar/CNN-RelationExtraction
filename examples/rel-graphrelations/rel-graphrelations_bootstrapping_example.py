@@ -19,27 +19,36 @@ import os
 if not os.path.exists("./saved-models/dataset.p"):
     print "preprocessed data file doesn't exist.. running extraciton process"
     p = RelationPreprocessor()
+    p_bootstrap = RelationPreprocessor(inputdir='./data/bootstrap')
+
     vectorizer = RelationMentionVectorizer()
-    vectorizer.fit(p.X)
+    vectorizer.fit(np.hstack([p.X, p_bootstrap.X]))
+
     X = vectorizer.transform(p.X)
+    X_bootstrap = vectorizer.transform(p_bootstrap.X)
+    y_bootstrap = p_bootstrap.y
     y = p.y
-    pk.dump((X, y), file=open("./saved-models/dataset.p", 'w'))
+    pk.dump((X, y, X_bootstrap, y_bootstrap), file=open("./saved-models/dataset.p", 'w'))
 else:
     print "preprocessed file exists.. loading.."
-    X, y = pk.load(open("./saved-models/dataset.p", 'r'))
+    X, y, X_bootstrap, y_bootstrap = pk.load(open("./saved-models/dataset.p", 'r'))
 
 # todo use scikit learn cv vectorizer as RelationMentionVectorizer implements scikitlearn interface
 
 y = np.array(y)
 
-x_train = X[0:1700]
+x_train = np.hstack([X[0:1700], X_bootstrap])
 x_test = X[1700:]
 
-y_train = y[0:1700]
+y_train = np.hstack([y[0:1700], y_bootstrap])
 y_test = y[1700:]
 
+print "size of dataset is : %s \n" \
+      "bootstrapping size  : %s \n" \
+      "training size: %s \n " \
+      "testing size: %s " \
+      % (len(y), len(y_bootstrap), len(y_train), len(y_test))
 
-print "size of dataset is : %s" % len(y)
 print "now training..."
 
 ####################

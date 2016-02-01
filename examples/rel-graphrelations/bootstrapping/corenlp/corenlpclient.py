@@ -11,8 +11,10 @@ class CoreNlPClient:
         self.properties = {}
         self.properties["annotators"] = annotators
         self.properties["tokenize.whitespace"] = False
+        self.properties["tokenize.whitespace"] = False
         self.properties["outputFormat"] = "json"
         self.serverurl = serverurl
+
 
     def annotate(self, s):
 
@@ -20,8 +22,7 @@ class CoreNlPClient:
         r = requests.post("%s?properties=%s" %(self.serverurl, properties), data=s)
 
         if r.status_code == 200:
-
-            x = json.loads(r.text)
+            x = json.loads(unicode(r.text), strict=False)
 
             return Parse(x)
 

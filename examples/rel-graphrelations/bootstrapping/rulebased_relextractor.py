@@ -3,7 +3,7 @@ __author__ = 'hadyelsahar'
 
 from sklearn.base import BaseEstimator, ClassifierMixin
 import os
-from corenlpclient import *
+from corenlp.corenlpclient import *
 
 # Predifine relations tags here for easy change
 __RELATIONS__ = {
@@ -44,7 +44,7 @@ __DEPRELATIONS__ = {
 
 class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
 
-    def __init__(self, rawdir="./rawfiles", outputdir="./output"):
+    def __init__(self, rawdir="./rawfiles/", outputdir="./output/"):
 
         self.relations_dict = __RELATIONS__
         self.dep_relations = __DEPRELATIONS__
@@ -62,21 +62,28 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
         pass
 
     def bootstrap(self):
+        total_c = len(os.listdir(self.rawdir))
+        for c, i in enumerate(os.listdir(self.rawdir)):
 
-        # for i in os.listdir(self.rawdir):
-            i = self.rawdir+"/sample.txt"
-            s = open(i).read()
+            try:
+                # print i
+                s = open(self.rawdir+i).read()
 
-            # Getting dependency parse tree, NER and COREF
-            parse = self.parser.annotate(s)
+                # Getting dependency parse tree, NER and COREF
+                parse = self.parser.annotate(s)
 
-            # Generate new relations for the custom representations
-            relations = self.extractrelations(s, parse)
+                # Generate new relations for the custom representations
+                relations = self.extractrelations(s, parse)
 
-            # Export the custom relations in a .ann file and write both .txt and .ann into the outdir
-            # self.save_in_brat_format(i.replace(".txt", ""), s, relations)
+                # Export the custom relations in a .ann file and write both .txt and .ann into the outdir
+                self.save_in_brat_format(i.replace(".txt", ""), s, parse, relations)
 
-            return relations
+                if c % 10 == 0 :
+                    print "bootstrapped %d out of %d" % (c, total_c)
+
+                # return relations
+            except:
+                print "can't bootstrapp file %s " % i
 
 
     def extractrelations(self, s, parse):
@@ -260,8 +267,8 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
 
                 else :
                     # add subject --> predicate (is) relations
-                    relations[govid]["out"].append((predrelation, prepid))
-                    relations[prepid]["in"].append((predrelation, govid))
+                    relations[govid]["out"].append((predrelation, depid))
+                    relations[depid]["in"].append((predrelation, govid))
 
 
         # Rule 5 :
@@ -314,10 +321,39 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
 
         return relations
 
+    def save_in_brat_format(self, fname, s, parse, relations):
+        """
+        method to omit bootstrapped relations in brat annotation file
+        :param fname: input file name fname.txt fname.ann
+        :param s: sentence
+        :param parse: Parse Class output from CoreNLP library client
+        :param relations: bootstrapped custom relations
+        :return: create .txt file contains raw sentences and .ann file contais annotations
+        """
 
-    def save_in_brat_format(self,fname, s, relations):
+        txtfile = open("%s%s.txt" % (self.outputdir, fname), 'w')
+        txtfile.write(s)
+        txtfile.close()
 
-        pass
+
+        ann = ""
+        # addition of segments as tokens
+        for i, token in enumerate(parse.all['sentences'][0]['tokens']):
+            ann += "T%d\tsegment %d %d\t%s\n" % (i, token["characterOffsetBegin"], token["characterOffsetEnd"], token["word"])
+
+        # additions of relations
+        rid = 0
+        for tokid, token in enumerate(relations):
+            for r in token["out"]:
+                ann += "R%d\t%s Arg1:T%d Arg2:T%d\n" % (rid, r[0], tokid, r[1])
+                rid += 1
+
+        annfile = open("%s%s.ann" % (self.outputdir, fname), 'w')
+        annfile.write(ann.encode("utf-8"))
+        annfile.close()
+
+
+
 
 
 
