@@ -8,6 +8,7 @@ from sklearn.metrics import classification_report
 from CNN import *
 import pickle as pk
 import os
+import numpy as np
 
 ###########################################
 # Preprocessing:
@@ -22,13 +23,26 @@ if not os.path.exists("./saved-models/dataset.p"):
     p_bootstrap = RelationPreprocessor(inputdir='./data/bootstrap')
 
     vectorizer = RelationMentionVectorizer()
-    vectorizer.fit(np.hstack([p.X, p_bootstrap.X]))
 
+    # debug with small size bootstrapping data
+    p_bootstrap.X = p_bootstrap.X[0:10000]
+    p_bootstrap.y = p_bootstrap.y[0:10000]
+
+    print "fitting dataset.."
+    vectorizer.fit(np.concatenate([p.X, p_bootstrap.X], 0))
+    print "done fitting dataset"
+    print "max width of the datasets is %s" % vectorizer.m
+
+    print "vectorization of manual annotated data.."
     X = vectorizer.transform(p.X)
+
+    print "vectorization of bootstrapped data.."
     X_bootstrap = vectorizer.transform(p_bootstrap.X)
     y_bootstrap = p_bootstrap.y
     y = p.y
+    print "saving models ..."
     pk.dump((X, y, X_bootstrap, y_bootstrap), file=open("./saved-models/dataset.p", 'w'))
+    print "models saved"
 else:
     print "preprocessed file exists.. loading.."
     X, y, X_bootstrap, y_bootstrap = pk.load(open("./saved-models/dataset.p", 'r'))
@@ -37,10 +51,10 @@ else:
 
 y = np.array(y)
 
-x_train = np.hstack([X[0:1700], X_bootstrap])
+x_train = np.concatenate([X[0:1700], X_bootstrap], 0)
 x_test = X[1700:]
 
-y_train = np.hstack([y[0:1700], y_bootstrap])
+y_train = np.concatenate([y[0:1700], y_bootstrap], 0)
 y_test = y[1700:]
 
 print "size of dataset is : %s \n" \
@@ -61,7 +75,10 @@ print max_w
 x_train = np.reshape(x_train, [-1, max_w, 320, 1])
 x_test = np.reshape(x_test, [-1, max_w, 320, 1])
 
-cnn = CNN(input_shape=[max_w, 320, 1], classes=np.unique(y), conv_shape=[4, 320], epochs=2500)
+
+y_classes = np.unique(np.concatenate([y, y_bootstrap], 0))
+
+cnn = CNN(input_shape=[max_w, 320, 1], classes=y_classes, conv_shape=[4, 320], epochs=2500)
 cnn.fit(x_train, y_train, x_test, y_test)
 
 print "done training"
