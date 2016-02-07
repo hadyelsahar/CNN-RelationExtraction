@@ -47,12 +47,11 @@ class Parse:
 
         self.parsed_tokens = parsed["sentences"][0]["tokens"]
 
-        # for every token list all incoming or outcoming relations
+        # for every token list all incoming or out-coming relations
         # redundant but easy to call afterwards when writing rule based
         # [{"in":[], "out":[]}] ... etc
 
         # removing the root note and starting counting from 0
-
         self.dep = [{"in": [], "out":[]} for i in self.tokens]
 
         for d in parsed["sentences"][0]["basic-dependencies"]:
@@ -63,6 +62,18 @@ class Parse:
             else:
                 self.dep[d['dependent']-1]["in"].append((d['dep'], d['governor']-1))
                 self.dep[d['governor']-1]["out"].append((d['dep'], d['dependent']-1))
+
+        # removing the root note and starting counting from 0
+        self.ccdep = [{"in": [], "out":[]} for i in self.tokens]
+
+        for d in parsed["sentences"][0]["collapsed-ccprocessed-dependencies"]:
+
+            if d['dep'] == "ROOT":
+                self.ccdep[d['dependent']-1]["in"].append(("ROOT", None))
+
+            else:
+                self.ccdep[d['dependent']-1]["in"].append((d['dep'], d['governor']-1))
+                self.ccdep[d['governor']-1]["out"].append((d['dep'], d['dependent']-1))
 
         self.corefs = parsed["corefs"]
         self.all = parsed
