@@ -4,6 +4,9 @@ __author__ = 'hadyelsahar'
 from sklearn.base import BaseEstimator, ClassifierMixin
 import os
 from corenlp.corenlpclient import *
+from unicodedata import normalize
+import codecs
+
 
 # Predifine relations tags here for easy change
 __RELATIONS__ = {
@@ -33,13 +36,15 @@ __DEPRELATIONS__ = {
     "nmod": "nmod",
     "nmod:tmod": "nmod:tmod",
     "nmod:npmod": "nmod:npmod",
+    "nmod:poss": "nmod:poss",
     "case": "case",
     "ccomp": "ccomp",
     "dobj":"dobj",
     "iobj":"iobj",
     "amod": "amod",
     "advmod": "advmod",
-    "nummod": "nummod"
+    "nummod": "nummod",
+    "acl": "acl"
 }
 
 class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
@@ -63,11 +68,15 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
 
     def bootstrap(self):
         total_c = len(os.listdir(self.rawdir))
-        for c, i in enumerate(os.listdir(self.rawdir)):
+        rawfilenames = os.listdir(self.rawdir)
+        rawfilenames = ['db_1000.txt','0000-SAMPLE.txt']  #/ for testing
+        for c, i in enumerate(rawfilenames):
 
-            try:
+            # try:
                 # print i
                 s = open(self.rawdir+i).read()
+
+                s = s.replace("ä", "ae")
 
                 # Getting dependency parse tree, NER and COREF
                 parse = self.parser.annotate(s)
@@ -82,8 +91,8 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
                     print "bootstrapped %d out of %d" % (c, total_c)
 
                 # return relations
-            except:
-                print "can't bootstrapp file %s " % i
+            # except:
+            #     print "can't bootstrapp file %s " % i
 
 
     def extractrelations(self, s, parse):
@@ -99,8 +108,8 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
         ###################################
         # Extraction of compound relations
         ###################################
-        for i, rels in enumerate(parse.dep):
-            for r in rels["out"]:
+        for i, token in enumerate(parse.dep):
+            for r in token["out"]:
                 compound_dep_relations = [__DEPRELATIONS__["compound"],
                                           __DEPRELATIONS__["aux"],
                                           __DEPRELATIONS__["neg"],
@@ -120,55 +129,108 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
         # Extraction of Compound nouns, Dates or Named Entities from the Core NLP NER Tagger #
         ######################################################################################
         ner = parse.ner
-        stack = []
+        # a compound phrase should be one governor and one or many dependents
+        # compound = {"gov": , "dep": []}
+        compound = {"gov": None, "dep": []}
+
         for i, tag in enumerate(ner):
+
             if tag == 'O':
                 pass
             else:
                 # if tag == next tag (or not the last element) add to the stack as dependent of the compound relation
                 if i+1 < len(ner) and tag == ner[i+1]:
-                    stack.append(i)
-
+                    compound["dep"].append(i)
                 # if it's the last tagged ner, add it as the governor to all the words in the stack
                 else:
-                    for s in stack:
-                        relations[i]["out"].append((__RELATIONS__["compound"], s))
-                        relations[s]["in"].append((__RELATIONS__["compound"], i))
-                    stack = []
+                    # check if already there's a gov put it as dep if not then last word is the gov
+                    compound["gov"] = i
+
+                    # post process the compound, if only one word has relations with outside the compound
+                    # then make it the new governor
+                    minid = min(compound["dep"] + [compound["gov"]])
+                    maxid = max(compound["dep"] + [compound["gov"]])
+
+                    for s in compound["dep"]:
+                        t = [t[1] for t in parse.dep[s]["out"] + parse.dep[s]["in"]]
+                        # if  the word has any dependency relations ( in or out ) with a word outside of the compound
+                        # then it's the new gov.
+                        if len([outdeps for outdeps in t if outdeps < minid or outdeps > maxid]):
+                            compound["dep"].remove(s)
+                            compound["dep"].append(compound["gov"])
+                            compound["gov"] = s
+
+                    for s in compound["dep"]:
+                        relations[compound["gov"]]["out"].append((__RELATIONS__["compound"], s))
+                        relations[s]["in"].append((__RELATIONS__["compound"], compound["gov"]))
+                    compound = {"gov": None, "dep": []}
 
 
-        ##################
-        # From Dependency#
-        ##################
+        #############################################
+        # From Dependency To Custom Representations #
+        #############################################
+
+        # Rule 13
+        # Copular verb then acl
+        # eg: Minecraft is a game company acquired by Microsoft
+        # token ← acl ← gov2
+        # gov2 →  cop
+        # gov2 → nsubj → gov1
+        # then : token → nsubj → gov1
+
+        for i, token in enumerate(parse.dep):
+
+            if parse.postags[i].startswith("VB"):
+
+                for d_in in [r for r in token["in"] if r[0] == __DEPRELATIONS__["acl"]]:
+
+                    gov2id = d_in[1]
+                    gov2_dep_out_names = [r[0] for r in parse.dep[gov2id]["out"]]
+
+                    if __DEPRELATIONS__["nsubj"] in gov2_dep_out_names and __DEPRELATIONS__["cop"] in gov2_dep_out_names:
+                        for gov1 in [r for r in parse.dep[gov2id]["out"] if __DEPRELATIONS__["nsubj"] == r[0] ]:
+
+                            gov1id = gov1[1]
+                            depid = i
+
+                            print "Rule 13 Triggered "
+
+                            # add subject --> predicate (is) relations
+                            relations[gov1id]["out"].append((__RELATIONS__["s_p"], depid))
+                            relations[depid]["in"].append((__RELATIONS__["s_p"], gov1id))
+
 
         # Rule 0 : Addition of copular verbs are predicates:
-        for i, rels in enumerate(parse.dep):
+        for i, token in enumerate(parse.ccdep):
 
-            outr = [r[0] for r in rels["out"]]
-            outindx = [r[1] for r in rels["out"]]
+            outr = [r[0] for r in token["out"]]
+            outindx = [r[1] for r in token["out"]]
 
-            if __DEPRELATIONS__["nsubj"] in outr and __DEPRELATIONS__["cop"] in outr:
+            if __DEPRELATIONS__["cop"] in outr:
+                for subjid, subjrel in enumerate(outr):
+                    if subjrel == __DEPRELATIONS__["nsubj"]:
 
-                subjid = outindx[outr.index(__DEPRELATIONS__["nsubj"])]
-                predid = outindx[outr.index(__DEPRELATIONS__["cop"])]
-                objid = i
-                # add subject --> predicate (is) relations
-                relations[subjid]["out"].append((__RELATIONS__["s_p"], predid))
-                relations[predid]["in"].append((__RELATIONS__["s_p"], subjid))
-                # add predicate --> object relations
-                relations[predid]["out"].append((__RELATIONS__["p_o"], objid))
-                relations[objid]["in"].append((__RELATIONS__["p_o"], predid))
+                        subjid = outindx[subjid]
+                        predid = outindx[outr.index(__DEPRELATIONS__["cop"])]
+                        objid = i
+                        # add subject --> predicate (is) relations
+                        relations[subjid]["out"].append((__RELATIONS__["s_p"], predid))
+                        relations[predid]["in"].append((__RELATIONS__["s_p"], subjid))
+                        # add predicate --> object relations
+                        relations[predid]["out"].append((__RELATIONS__["p_o"], objid))
+                        relations[objid]["in"].append((__RELATIONS__["p_o"], predid))
 
         # Rule 2.0 : `ccomp` dep relation into P_P "Believe he ate his food"
         # Rule 2.1 : `ccomp` dep relation into P_P when there's copular file
         # (ie. not a predicate to have context relation)
-        for i, rels in enumerate(parse.dep):
+        # todo : handle ccomp with copular verbs  e.g. : he believes he is good
+        for i, token in enumerate(parse.dep):
 
-            inr = [r[0] for r in rels["in"]]
-            inindex = [r[1] for r in rels["in"]]
+            inr = [r[0] for r in token["in"]]
+            inindex = [r[1] for r in token["in"]]
 
-            outr = [r[0] for r in rels["out"]]
-            outindx = [r[1] for r in rels["out"]]
+            outr = [r[0] for r in token["out"]]
+            outindx = [r[1] for r in token["out"]]
 
             predrelation = __RELATIONS__["p_p"]
 
@@ -190,10 +252,11 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
 
         # Rule 3: nsubj | nsubjpass  --> s_p
         # not Rule 0:
-        for i, rels in enumerate(parse.dep):
+        # print parse.ccdep
+        for i, token in enumerate(parse.ccdep):
 
-            outr = [r[0] for r in rels["out"]]
-            outindx = [r[1] for r in rels["out"]]
+            outr = [r[0] for r in token["out"]]
+            outindx = [r[1] for r in token["out"]]
 
             subjrels = {__DEPRELATIONS__["nsubjpass"], __DEPRELATIONS__["nsubj"]}
 
@@ -209,10 +272,10 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
                 relations[depid]["in"].append((__RELATIONS__["s_p"], govid))
 
         # Rule 4: Direct and indirect object :  iobj | dobj --> P_O
-        for i, rels in enumerate(parse.dep):
+        for i, token in enumerate(parse.dep):
 
-            outr = [r[0] for r in rels["out"]]
-            outindx = [r[1] for r in rels["out"]]
+            outr = [r[0] for r in token["out"]]
+            outindx = [r[1] for r in token["out"]]
 
             objrels = {__DEPRELATIONS__["dobj"], __DEPRELATIONS__["iobj"]}
 
@@ -230,20 +293,20 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
         # Rule 1.1 : addition of is-specialized-by if the nmod doesn't have s_p prop as output relation
         # e.g. : the president of russia
         # (ie. not a predicate to have context relation)
-        for i, rels in enumerate(parse.dep):
+        for i, token in enumerate(parse.dep):
 
-            inr = [r[0] for r in rels["in"]]
-            inindex = [r[1] for r in rels["in"]]
+            inr = [r[0] for r in token["in"]]
+            inindex = [r[1] for r in token["in"]]
 
-            outr = [r[0] for r in rels["out"]]
-            outindx = [r[1] for r in rels["out"]]
+            outr = [r[0] for r in token["out"]]
+            outindx = [r[1] for r in token["out"]]
 
-            mods_relations = {__DEPRELATIONS__["nmod:npmod"], __DEPRELATIONS__["nmod:npmod"], __DEPRELATIONS__["nmod"]}
+            mods_relations = [__DEPRELATIONS__["nmod:npmod"], __DEPRELATIONS__["nmod:npmod"], __DEPRELATIONS__["nmod"]]
 
-            # gov0id -- r1 : p_c | is-specialized by  -->  gov1id --- r2 : c_co--> depid
-            for dep_rel in mods_relations.intersection(set(inr)):
+            # gov0id -- r1 : p_c | is-specialized by  -->  gov1id ---> r2 : c_co --> depid
+            for dep_rel in [r for r in token["in"] if r[0] in mods_relations]:
 
-                govid = inindex[inr.index(dep_rel)]
+                govid = dep_rel[1]
                 depid = i
 
                 # P_C is the predicate is a (relation) otherwise is-specialized-by
@@ -265,27 +328,27 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
                     relations[prepid]["out"].append((__RELATIONS__["c_co"], depid))
                     relations[depid]["in"].append((__RELATIONS__["c_co"], prepid))
 
-                else :
+                else:
                     # add subject --> predicate (is) relations
                     relations[govid]["out"].append((predrelation, depid))
                     relations[depid]["in"].append((predrelation, govid))
 
 
-        # Rule 5 :
+        # Rule 5:
 
         # Rule 6: advmod (without s_p) | amod ---> is-specialized-by
         # advmod (+ s_p ) --> p_c    e.g. : she ate her food happily
-        for i, rels in enumerate(parse.dep):
+        for i, token in enumerate(parse.dep):
 
-            outr = [r[0] for r in rels["out"]]
-            outindx = [r[1] for r in rels["out"]]
+            outr = [r[0] for r in token["out"]]
+            outindx = [r[1] for r in token["out"]]
 
-            objrels = {__DEPRELATIONS__["amod"], __DEPRELATIONS__["advmod"], __DEPRELATIONS__["nummod"]}
+            objrels = [__DEPRELATIONS__["amod"], __DEPRELATIONS__["advmod"], __DEPRELATIONS__["nummod"]]
 
-            for rel in objrels.intersection(set(outr)):
+            for rel in [r for r in token["out"] if r[0] in objrels]:
 
                 govid = i
-                depid = outindx[outr.index(rel)]
+                depid = rel[1]
 
                 # P_C is the predicate is a (relation) otherwise is-specialized-by
                 if __RELATIONS__["s_p"] in [r[0] for r in relations[govid]["in"]]:
@@ -298,6 +361,28 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
                 relations[depid]["in"].append((predrelation, govid))
 
 
+        # Rule 14: possessiveness
+        for i, token in enumerate(parse.dep):
+
+            # get the apostrophe 's
+            case = [x for x in token["out"] if x[0] == __DEPRELATIONS__["case"] and parse.postags[x[1]] == "pos"][0]
+            # get the dependent
+            nmodposs = [x for x in token["in"] if x[0] == __DEPRELATIONS__["nmod:poss"]]
+
+
+            for c in case:
+                govid = i
+                depid = c[1]
+
+                relations[gov1id]["out"].append((__RELATIONS__["compounds"], depid))
+                relations[depid]["in"].append((__RELATIONS__["compound"], govid))
+
+            for poss in nmodposs:
+                depid = i
+                govid = poss[1]
+
+                relations[gov1id]["out"].append((__RELATIONS__["poss"], depid))
+                relations[depid]["in"].append((__RELATIONS__["poss"], govid))
 
         #############################################################
         # Removal of redundant relations and relations within phrases
