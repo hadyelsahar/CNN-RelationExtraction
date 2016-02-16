@@ -263,4 +263,4 @@ class RelationPreprocessor:
     #         TreebankWordTokenizer().tokenize(s)
     #
 
-p = RelationPreprocessor()
+# p = RelationPreprocessor()
