@@ -7,6 +7,7 @@ from sklearn.metrics import accuracy_score
 import tensorflow as tf
 import pickle as pk
 
+
 class CNN(BaseEstimator, ClassifierMixin):
 
     @staticmethod
@@ -148,7 +149,12 @@ class CNN(BaseEstimator, ClassifierMixin):
                 print("step %d, training accuracy %g" % (i, train_accuracy))
 
                 if X_test is not None:
-                    y_pred = self.predict(X_test)
+
+                    # divide dataset into small batches of 100 sentences (to fit in memory size of the GPU)
+                    y_pred = []
+                    for t in Batcher.chunks(X_test, 100):
+                        y_pred += self.predict(t)
+
                     acc = accuracy_score(y_test, y_pred)
                     print "step %d, test accuracy %g" % (i, acc)
 
@@ -176,7 +182,7 @@ class Batcher:
     """
     a helper class to create batches given a dataset
     """
-    def __init__(self, X, y, batchsize=25):
+    def __init__(self, X, y, batchsize=10):
         """
 
         :param X: array(any) : array of whole training inputs
@@ -198,4 +204,16 @@ class Batcher:
         end = self.iterator+self.batchsize
         self.iterator = end if end < len(self.X) else 0
         return self.X[start:end], self.y[start:end]
+
+    @staticmethod
+    def chunks(l, n):
+        """
+        Yield successive n-sized chunks from l.
+        :param l: array
+        :param n: chunk size
+        :return: array of arrays
+        """
+        for i in xrange(0, len(l), n):
+            yield l[i:i+n]
+
 
