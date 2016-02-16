@@ -83,7 +83,7 @@ class CNN(BaseEstimator, ClassifierMixin):
         # max pooling : reduces size into half
         h_pool2_l = np.ceil(np.ceil(self.m/2.0)/2.0)
         h_pool2_w = np.ceil(np.ceil(self.n/2.0)/2.0)
-        h_pool2_flat_shape = np.int16(h_pool2_l * h_pool2_w * 32)
+        h_pool2_flat_shape = int(h_pool2_l * h_pool2_w * 32)
 
         W_fc1 = CNN.weight_variable([h_pool2_flat_shape, 256])
         b_fc1 = CNN.bias_variable([256])
@@ -176,7 +176,7 @@ class Batcher:
     """
     a helper class to create batches given a dataset
     """
-    def __init__(self, X, y, batchsize=50):
+    def __init__(self, X, y, batchsize=25):
         """
 
         :param X: array(any) : array of whole training inputs
