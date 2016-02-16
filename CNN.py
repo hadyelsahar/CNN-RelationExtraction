@@ -151,12 +151,14 @@ class CNN(BaseEstimator, ClassifierMixin):
                 if X_test is not None:
 
                     # divide dataset into small batches of 100 sentences (to fit in memory size of the GPU)
-                    y_pred = []
-                    for t in Batcher.chunks(X_test, 100):
-                        y_pred += self.predict(t)
+                    acc = []
+                    y_test_batches = Batcher.chunks(y_test, 100)
 
-                    acc = accuracy_score(y_test, y_pred)
-                    print "step %d, test accuracy %g" % (i, acc)
+                    for c, t in enumerate(Batcher.chunks(X_test, 100)):
+                        y_pred += self.predict(t)
+                        acc.append(accuracy_score(y_test_batches[c], y_pred))
+
+                    print "step %d, test accuracy %g" % (i, np.average(acc))
 
             self.train_step.run(feed_dict={self.x: batch[0], self.y_: batch[1], self.keep_prob: self.dropout})
 
