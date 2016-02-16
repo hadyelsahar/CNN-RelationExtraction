@@ -17,7 +17,7 @@ import numpy as np
 # y: array(string) : labels of realations
 #######################################
 
-if not os.path.exists("./saved-models/dataset.p"):
+if not os.path.exists("/mnt/dataset.p"):
     print "preprocessed data file doesn't exist.. running extraciton process"
     p = RelationPreprocessor()
     p_bootstrap = RelationPreprocessor(inputdir='./data/bootstrap')
@@ -25,8 +25,8 @@ if not os.path.exists("./saved-models/dataset.p"):
     vectorizer = RelationMentionVectorizer()
 
     # debug with small size bootstrapping data
-    p_bootstrap.X = p_bootstrap.X[0:10000]
-    p_bootstrap.y = p_bootstrap.y[0:10000]
+    p_bootstrap.X = p_bootstrap.X[0:5000]
+    p_bootstrap.y = p_bootstrap.y[0:5000]
 
     print "fitting dataset.."
     vectorizer.fit(np.concatenate([p.X, p_bootstrap.X], 0))
@@ -41,11 +41,11 @@ if not os.path.exists("./saved-models/dataset.p"):
     y_bootstrap = p_bootstrap.y
     y = p.y
     print "saving models ..."
-    pk.dump((X, y, X_bootstrap, y_bootstrap), file=open("./saved-models/dataset.p", 'w'))
+    pk.dump((X, y, X_bootstrap, y_bootstrap), file=open("/mnt/dataset.p", 'w'))
     print "models saved"
 else:
     print "preprocessed file exists.. loading.."
-    X, y, X_bootstrap, y_bootstrap = pk.load(open("./saved-models/dataset.p", 'r'))
+    X, y, X_bootstrap, y_bootstrap = pk.load(open("/mnt/dataset.p", 'r'))
 
 # todo use scikit learn cv vectorizer as RelationMentionVectorizer implements scikitlearn interface
 
