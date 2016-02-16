@@ -75,22 +75,21 @@ class RelationPreprocessor:
                 fa = file("%s/%s.ann" % (inputdir, f), 'r')  # filling annotations with labels
                 ann = fa.read()
 
-                if len(txt.split(" ")) > 40:
-                    continue
+                if len(txt.split(" ")) > 40:  #omit long sentences for speed
 
-                S[f] = txt
+                    S[f] = txt
 
-                # reading segments and their labels
-                tags = self.get_segments(txt, ann)
-                # preprocessing segments into compound relations
-                tags, compounds_relations_x , compounds_relations_y = self.split_segments(tags, f)
-                # reading relations and Generation training data
-                rels, labels = self.get_relations(ann, tags, f)
+                    # reading segments and their labels
+                    tags = self.get_segments(txt, ann)
+                    # preprocessing segments into compound relations
+                    tags, compounds_relations_x , compounds_relations_y = self.split_segments(tags, f)
+                    # reading relations and Generation training data
+                    rels, labels = self.get_relations(ann, tags, f)
 
-                X += compounds_relations_x
-                y += compounds_relations_y
-                X += rels
-                y += labels
+                    X += compounds_relations_x
+                    y += compounds_relations_y
+                    X += rels
+                    y += labels
 
                 fo.close()
                 fa.close()
