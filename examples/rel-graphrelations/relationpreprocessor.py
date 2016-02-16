@@ -96,7 +96,7 @@ class RelationPreprocessor:
                 fo.close()
                 fa.close()
 
-            except:
+            except BaseException:
                 print "error processing file %s " % f
 
         X = np.array(X)
