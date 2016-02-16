@@ -25,8 +25,8 @@ if not os.path.exists("/mnt/dataset.p"):
     vectorizer = RelationMentionVectorizer()
 
     # debug with small size bootstrapping data
-    p_bootstrap.X = p_bootstrap.X[0:5000]
-    p_bootstrap.y = p_bootstrap.y[0:5000]
+    p_bootstrap.X = p_bootstrap.X[0:10000]
+    p_bootstrap.y = p_bootstrap.y[0:10000]
 
     print "fitting dataset.."
     vectorizer.fit(np.concatenate([p.X, p_bootstrap.X], 0))
@@ -78,7 +78,7 @@ x_test = np.reshape(x_test, [-1, max_w, 320, 1])
 
 y_classes = np.unique(np.concatenate([y, y_bootstrap], 0))
 
-cnn = CNN(input_shape=[max_w, 320, 1], classes=y_classes, conv_shape=[4, 320], epochs=2500)
+cnn = CNN(input_shape=[max_w, 320, 1], classes=y_classes, conv_shape=[4, 55], epochs=5000)
 cnn.fit(x_train, y_train, x_test, y_test)
 
 print "done training"
