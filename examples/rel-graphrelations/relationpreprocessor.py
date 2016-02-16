@@ -67,7 +67,7 @@ class RelationPreprocessor:
 
         # for every training example
         for f in file_names:
-            # try:
+            try:
 
                 # collect text sentences tokens
                 fo = file("%s/%s.txt" % (inputdir, f), 'r')  # text file containing sentences
@@ -95,6 +95,9 @@ class RelationPreprocessor:
 
                 fo.close()
                 fa.close()
+
+            except:
+                print "error processing file %s " % f
 
         X = np.array(X)
         y = np.array(y)
