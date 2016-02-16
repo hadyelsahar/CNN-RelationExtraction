@@ -155,7 +155,7 @@ class CNN(BaseEstimator, ClassifierMixin):
                     y_test_batches = Batcher.chunks(y_test, 100)
 
                     for c, t in enumerate(Batcher.chunks(X_test, 100)):
-                        y_pred += self.predict(t)
+                        y_pred = self.predict(t)
                         acc.append(accuracy_score(y_test_batches[c], y_pred))
 
                     print "step %d, test accuracy %g" % (i, np.average(acc))
