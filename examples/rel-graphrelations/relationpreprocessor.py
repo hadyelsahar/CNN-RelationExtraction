@@ -75,7 +75,7 @@ class RelationPreprocessor:
                 fa = file("%s/%s.ann" % (inputdir, f), 'r')  # filling annotations with labels
                 ann = fa.read()
 
-                if len (txt.split(" ")) > 40:
+                if len(txt.split(" ")) > 40:
                     continue
 
                 S[f] = txt
