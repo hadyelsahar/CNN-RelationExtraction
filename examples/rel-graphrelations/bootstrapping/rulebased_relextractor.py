@@ -53,54 +53,87 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
 
         self.relations_dict = __RELATIONS__
         self.dep_relations = __DEPRELATIONS__
-
         self.rawdir = rawdir
         self.outputdir = outputdir
         self.parser = CoreNlPClient()
-
+        self.indexed_answers = {}
 
     def fit(self, X, y):
 
         pass
 
+    def extract_relation(self, s, E1, E2):
+        """
+        given a sentence and two IDs of two entities return the relation "id" between them
+        :param X: Text in the sentence
+        :param E1: Id of the Entity number 1 (0-len(s)
+        :param E2: Id of the Entity number 2
+        :return: string of the relation between E1 and E2
+        """
+
+        # indexing answers of same sentences in order not to parse the same sentence again which E1 and E2 are different
+        if s in self.indexed_answers:
+            relations = self.indexed_answers[s]
+        else:
+            relations = self.extractrelations(s)
+
+        rel = [r[0] for r in relations[E1]["out"] if r[1] == E2]
+
+        if len(rel) > 0:
+
+            return rel[0]
+
+        else:
+            return "0"
+
     def predict(self, X):
-        pass
+        """
+
+        :param X: [(S,E1,E2),....]
+        :return:
+        """
+        y = []
+        for x in X:
+            y.append(self.extract_relation(x[0], x[1], x[2]))
+
+        return y
+
 
     def bootstrap(self):
         total_c = len(os.listdir(self.rawdir))
         rawfilenames = os.listdir(self.rawdir)
-        rawfilenames = ['db_1000.txt','0000-SAMPLE.txt']  #/ for testing
+        rawfilenames = ['db_1000.txt', '0000-SAMPLE.txt']  # for testing
         for c, i in enumerate(rawfilenames):
 
             # try:
                 # print i
                 s = open(self.rawdir+i).read()
 
-                s = s.replace("ä", "ae")
+                s = s.replace("ä", "ae")  # hack remove later
 
-                # Getting dependency parse tree, NER and COREF
                 parse = self.parser.annotate(s)
-
                 # Generate new relations for the custom representations
                 relations = self.extractrelations(s, parse)
 
                 # Export the custom relations in a .ann file and write both .txt and .ann into the outdir
                 self.save_in_brat_format(i.replace(".txt", ""), s, parse, relations)
 
-                if c % 10 == 0 :
+                if c % 10 == 0:
                     print "bootstrapped %d out of %d" % (c, total_c)
 
                 # return relations
             # except:
             #     print "can't bootstrapp file %s " % i
 
-
-    def extractrelations(self, s, parse):
+    def extractrelations(self, s, parse=None):
         """
         :param s: raw sentence in text
-        :param parse: parse class instance that contains the parsed results
-        :return:
+        :return: list of relations dictionaries representing the custom representations relations for every token in the sentence
         """
+
+        # Getting dependency parse tree, NER and COREF
+        if parse is None:
+            parse = self.parser.annotate(s)
 
         # Extract Compound Relations :
         relations = [{"in": [], "out":[]} for i in parse.tokens]
@@ -130,7 +163,6 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
         ######################################################################################
         ner = parse.ner
         # a compound phrase should be one governor and one or many dependents
-        # compound = {"gov": , "dep": []}
         compound = {"gov": None, "dep": []}
 
         for i, tag in enumerate(ner):
@@ -365,10 +397,9 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
         for i, token in enumerate(parse.dep):
 
             # get the apostrophe 's
-            case = [x for x in token["out"] if x[0] == __DEPRELATIONS__["case"] and parse.postags[x[1]] == "pos"][0]
+            case = [x for x in token["out"] if x[0] == __DEPRELATIONS__["case"] and parse.postags[x[1]] == "pos"]
             # get the dependent
             nmodposs = [x for x in token["in"] if x[0] == __DEPRELATIONS__["nmod:poss"]]
-
 
             for c in case:
                 govid = i
@@ -381,7 +412,7 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
                 depid = i
                 govid = poss[1]
 
-                relations[gov1id]["out"].append((__RELATIONS__["poss"], depid))
+                relations[govid]["out"].append((__RELATIONS__["poss"], depid))
                 relations[depid]["in"].append((__RELATIONS__["poss"], govid))
 
         #############################################################
