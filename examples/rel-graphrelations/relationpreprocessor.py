@@ -68,14 +68,16 @@ class RelationPreprocessor:
         # for every training example
         for f in file_names:
             # try:
-                print f
+
                 # collect text sentences tokens
                 fo = file("%s/%s.txt" % (inputdir, f), 'r')  # text file containing sentences
                 txt = fo.read()
                 fa = file("%s/%s.ann" % (inputdir, f), 'r')  # filling annotations with labels
                 ann = fa.read()
 
-                if len(txt.split(" ")) > 40:  #omit long sentences for speed
+                print "%s\t%s" % (f, len(txt.split(" ")))
+
+                if len(txt.split(" ")) < 50:  #omit long sentences for speed
 
                     S[f] = txt
 
