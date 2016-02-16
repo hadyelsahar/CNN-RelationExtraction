@@ -1,0 +1,79 @@
+T0	segment 0 3	The
+T1	segment 4 15	Confederate
+T2	segment 16 24	Monument
+T3	segment 25 27	of
+T4	segment 28 35	Bowling
+T5	segment 36 41	Green
+T6	segment 41 42	,
+T7	segment 43 45	in
+T8	segment 46 53	Bowling
+T9	segment 54 59	Green
+T10	segment 59 60	,
+T11	segment 61 69	Kentucky
+T12	segment 69 70	,
+T13	segment 71 73	is
+T14	segment 74 79	among
+T15	segment 80 83	the
+T16	segment 84 93	sixty-one
+T17	segment 94 103	monuments
+T18	segment 104 106	of
+T19	segment 107 110	the
+T20	segment 111 116	Civil
+T21	segment 117 120	War
+T22	segment 121 130	Monuments
+T23	segment 131 133	of
+T24	segment 134 142	Kentucky
+T25	segment 143 151	Multiple
+T26	segment 152 160	Property
+T27	segment 161 171	Submission
+T28	segment 171 172	,
+T29	segment 173 176	all
+T30	segment 177 179	of
+T31	segment 180 185	which
+T32	segment 186 192	became
+T33	segment 193 197	part
+T34	segment 198 200	of
+T35	segment 201 204	the
+T36	segment 205 213	National
+T37	segment 214 222	Register
+T38	segment 223 225	of
+T39	segment 226 234	Historic
+T40	segment 235 241	Places
+T41	segment 242 244	on
+T42	segment 245 249	July
+T43	segment 250 252	17
+T44	segment 252 253	,
+T45	segment 254 258	1997
+T46	segment 259 260	.
+R0	s_p Arg1:T2 Arg2:T13
+R1	is-specialized-by Arg1:T2 Arg2:T1
+R2	is-specialized-by Arg1:T2 Arg2:T3
+R3	is-specialized-by Arg1:T2 Arg2:T7
+R4	c_co Arg1:T3 Arg2:T5
+R5	compound Arg1:T5 Arg2:T4
+R6	c_co Arg1:T7 Arg2:T9
+R7	compound Arg1:T9 Arg2:T8
+R8	p_o Arg1:T13 Arg2:T17
+R9	is-specialized-by Arg1:T17 Arg2:T16
+R10	is-specialized-by Arg1:T17 Arg2:T18
+R11	c_co Arg1:T18 Arg2:T22
+R12	compound Arg1:T22 Arg2:T20
+R13	is-specialized-by Arg1:T22 Arg2:T23
+R14	compound Arg1:T22 Arg2:T21
+R15	c_co Arg1:T23 Arg2:T27
+R16	compound Arg1:T27 Arg2:T24
+R17	compound Arg1:T27 Arg2:T26
+R18	compound Arg1:T27 Arg2:T25
+R19	s_p Arg1:T31 Arg2:T32
+R20	p_c Arg1:T32 Arg2:T41
+R21	is-specialized-by Arg1:T33 Arg2:T34
+R22	c_co Arg1:T34 Arg2:T37
+R23	compound Arg1:T37 Arg2:T36
+R24	is-specialized-by Arg1:T37 Arg2:T38
+R25	c_co Arg1:T38 Arg2:T40
+R26	compound Arg1:T40 Arg2:T39
+R27	c_co Arg1:T41 Arg2:T42
+R28	is-specialized-by Arg1:T42 Arg2:T43
+R29	compound Arg1:T45 Arg2:T44
+R30	compound Arg1:T45 Arg2:T43
+R31	compound Arg1:T45 Arg2:T42

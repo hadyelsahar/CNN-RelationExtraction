@@ -1,0 +1,35 @@
+T0	segment 0 6	Balige
+T1	segment 7 9	is
+T2	segment 10 11	a
+T3	segment 12 16	town
+T4	segment 17 19	in
+T5	segment 20 25	North
+T6	segment 26 33	Sumatra
+T7	segment 34 42	province
+T8	segment 43 45	of
+T9	segment 46 55	Indonesia
+T10	segment 56 59	and
+T11	segment 60 62	it
+T12	segment 63 65	is
+T13	segment 66 69	the
+T14	segment 70 74	seat
+T15	segment 75 77	of
+T16	segment 78 82	Toba
+T17	segment 83 90	Samosir
+T18	segment 91 98	Regency
+T19	segment 99 100	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T8
+R3	is-specialized-by Arg1:T3 Arg2:T4
+R4	c_co Arg1:T4 Arg2:T7
+R5	compound Arg1:T6 Arg2:T5
+R6	compound Arg1:T7 Arg2:T6
+R7	compound Arg1:T7 Arg2:T5
+R8	c_co Arg1:T8 Arg2:T9
+R9	s_p Arg1:T11 Arg2:T12
+R10	p_o Arg1:T12 Arg2:T14
+R11	is-specialized-by Arg1:T14 Arg2:T15
+R12	c_co Arg1:T15 Arg2:T18
+R13	compound Arg1:T18 Arg2:T16
+R14	compound Arg1:T18 Arg2:T17

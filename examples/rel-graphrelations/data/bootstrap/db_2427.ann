@@ -1,0 +1,44 @@
+T0	segment 0 5	Jacob
+T1	segment 6 11	Young
+T2	segment 12 14	is
+T3	segment 15 17	an
+T4	segment 18 26	American
+T5	segment 27 39	screenwriter
+T6	segment 39 40	,
+T7	segment 41 56	cinematographer
+T8	segment 56 57	,
+T9	segment 58 62	film
+T10	segment 63 69	editor
+T11	segment 70 73	and
+T12	segment 74 83	filmmaker
+T13	segment 84 88	best
+T14	segment 89 94	known
+T15	segment 95 98	for
+T16	segment 99 107	creating
+T17	segment 108 119	documentary
+T18	segment 120 125	films
+T19	segment 126 131	which
+T20	segment 132 139	explore
+T21	segment 140 143	the
+T22	segment 144 153	eccentric
+T23	segment 154 160	people
+T24	segment 161 167	living
+T25	segment 168 170	in
+T26	segment 171 174	his
+T27	segment 175 181	native
+T28	segment 182 192	Appalachia
+T29	segment 193 194	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T10
+R3	compound Arg1:T10 Arg2:T5
+R4	is-specialized-by Arg1:T10 Arg2:T4
+R5	is-specialized-by Arg1:T14 Arg2:T13
+R6	p_o Arg1:T16 Arg2:T18
+R7	compound Arg1:T18 Arg2:T17
+R8	s_p Arg1:T19 Arg2:T20
+R9	p_o Arg1:T20 Arg2:T23
+R10	is-specialized-by Arg1:T23 Arg2:T22
+R11	is-specialized-by Arg1:T24 Arg2:T25
+R12	c_co Arg1:T25 Arg2:T28
+R13	is-specialized-by Arg1:T28 Arg2:T27

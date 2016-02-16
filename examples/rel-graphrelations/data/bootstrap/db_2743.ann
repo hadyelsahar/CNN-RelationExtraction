@@ -1,0 +1,41 @@
+T0	segment 0 3	The
+T1	segment 4 11	Kingdom
+T2	segment 12 14	of
+T3	segment 15 21	Aragon
+T4	segment 22 25	was
+T5	segment 26 27	a
+T6	segment 28 36	medieval
+T7	segment 37 40	and
+T8	segment 41 46	early
+T9	segment 47 53	modern
+T10	segment 54 61	kingdom
+T11	segment 62 64	in
+T12	segment 65 68	the
+T13	segment 69 76	Iberian
+T14	segment 77 86	Peninsula
+T15	segment 86 87	,
+T16	segment 88 101	corresponding
+T17	segment 102 104	to
+T18	segment 105 108	the
+T19	segment 109 119	modern-day
+T20	segment 120 130	autonomous
+T21	segment 131 140	community
+T22	segment 141 143	of
+T23	segment 144 150	Aragon
+T24	segment 150 151	,
+T25	segment 152 154	in
+T26	segment 155 160	Spain
+T27	segment 161 162	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T10
+R4	is-specialized-by Arg1:T10 Arg2:T25
+R5	is-specialized-by Arg1:T10 Arg2:T11
+R6	is-specialized-by Arg1:T10 Arg2:T6
+R7	c_co Arg1:T11 Arg2:T14
+R8	compound Arg1:T14 Arg2:T13
+R9	is-specialized-by Arg1:T21 Arg2:T19
+R10	is-specialized-by Arg1:T21 Arg2:T22
+R11	c_co Arg1:T22 Arg2:T23
+R12	c_co Arg1:T25 Arg2:T26

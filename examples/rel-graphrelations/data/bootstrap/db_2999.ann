@@ -1,0 +1,37 @@
+T0	segment 0 6	G'Five
+T1	segment 7 20	International
+T2	segment 21 28	Limited
+T3	segment 29 31	is
+T4	segment 32 33	a
+T5	segment 34 42	consumer
+T6	segment 43 54	electronics
+T7	segment 55 62	company
+T8	segment 63 73	registered
+T9	segment 74 76	in
+T10	segment 77 81	Hong
+T11	segment 82 86	Kong
+T12	segment 86 87	,
+T13	segment 88 93	based
+T14	segment 94 96	in
+T15	segment 97 100	the
+T16	segment 101 107	People
+T17	segment 107 109	's
+T18	segment 110 118	Republic
+T19	segment 119 121	of
+T20	segment 122 127	China
+T21	segment 128 129	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T7
+R4	compound Arg1:T7 Arg2:T6
+R5	compound Arg1:T7 Arg2:T5
+R6	is-specialized-by Arg1:T8 Arg2:T9
+R7	c_co Arg1:T9 Arg2:T11
+R8	compound Arg1:T11 Arg2:T10
+R9	is-specialized-by Arg1:T18 Arg2:T19
+R10	c_co Arg1:T19 Arg2:T20
+R11	compound Arg1:T20 Arg2:T19
+R12	compound Arg1:T20 Arg2:T16
+R13	compound Arg1:T20 Arg2:T18
+R14	compound Arg1:T20 Arg2:T17

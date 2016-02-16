@@ -1,0 +1,31 @@
+T0	segment 0 33	Palatinate-Birkenfeld-Bischweiler
+T1	segment 34 37	was
+T2	segment 38 39	a
+T3	segment 40 45	state
+T4	segment 46 48	of
+T5	segment 49 52	the
+T6	segment 53 57	Holy
+T7	segment 58 63	Roman
+T8	segment 64 70	Empire
+T9	segment 71 76	based
+T10	segment 77 83	around
+T11	segment 84 95	Bischwiller
+T12	segment 96 98	in
+T13	segment 99 102	the
+T14	segment 103 106	far
+T15	segment 107 116	northeast
+T16	segment 117 119	of
+T17	segment 120 126	France
+T18	segment 127 128	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T8
+R4	is-specialized-by Arg1:T8 Arg2:T6
+R5	is-specialized-by Arg1:T9 Arg2:T10
+R6	is-specialized-by Arg1:T9 Arg2:T12
+R7	c_co Arg1:T10 Arg2:T11
+R8	c_co Arg1:T12 Arg2:T15
+R9	is-specialized-by Arg1:T15 Arg2:T16
+R10	is-specialized-by Arg1:T15 Arg2:T14
+R11	c_co Arg1:T16 Arg2:T17

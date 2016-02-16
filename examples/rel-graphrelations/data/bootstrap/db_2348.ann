@@ -1,0 +1,25 @@
+T0	segment 0 7	Socatel
+T1	segment 8 10	is
+T2	segment 11 14	the
+T3	segment 15 22	leading
+T4	segment 23 41	telecommunications
+T5	segment 42 45	and
+T6	segment 46 54	Internet
+T7	segment 55 62	service
+T8	segment 63 71	provider
+T9	segment 72 74	in
+T10	segment 75 78	the
+T11	segment 79 86	Central
+T12	segment 87 94	African
+T13	segment 95 103	Republic
+T14	segment 104 105	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	compound Arg1:T8 Arg2:T6
+R4	is-specialized-by Arg1:T8 Arg2:T9
+R5	compound Arg1:T8 Arg2:T7
+R6	c_co Arg1:T9 Arg2:T13
+R7	is-specialized-by Arg1:T12 Arg2:T11
+R8	compound Arg1:T13 Arg2:T12
+R9	compound Arg1:T13 Arg2:T11

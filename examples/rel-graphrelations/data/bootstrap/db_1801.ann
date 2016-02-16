@@ -1,0 +1,34 @@
+T0	segment 0 5	Ukash
+T1	segment 6 8	is
+T2	segment 9 10	a
+T3	segment 11 19	UK-based
+T4	segment 20 30	electronic
+T5	segment 31 36	money
+T6	segment 37 43	system
+T7	segment 44 48	that
+T8	segment 49 55	allows
+T9	segment 56 61	users
+T10	segment 62 64	to
+T11	segment 65 73	exchange
+T12	segment 74 79	their
+T13	segment 80 84	cash
+T14	segment 85 88	for
+T15	segment 89 90	a
+T16	segment 91 97	secure
+T17	segment 98 102	code
+T18	segment 103 105	to
+T19	segment 106 110	make
+T20	segment 111 119	payments
+T21	segment 120 126	online
+T22	segment 127 128	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T6
+R2	compound Arg1:T6 Arg2:T5
+R3	is-specialized-by Arg1:T6 Arg2:T3
+R4	s_p Arg1:T7 Arg2:T8
+R5	p_o Arg1:T8 Arg2:T9
+R6	p_o Arg1:T11 Arg2:T13
+R7	is-specialized-by Arg1:T11 Arg2:T14
+R8	c_co Arg1:T14 Arg2:T17
+R9	is-specialized-by Arg1:T17 Arg2:T16
+R10	p_o Arg1:T19 Arg2:T20

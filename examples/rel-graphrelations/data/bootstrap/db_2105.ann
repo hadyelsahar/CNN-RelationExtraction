@@ -1,0 +1,37 @@
+T0	segment 0 12	Salakanagara
+T1	segment 13 20	kingdom
+T2	segment 21 23	is
+T3	segment 24 27	the
+T4	segment 28 33	first
+T5	segment 34 46	historically
+T6	segment 47 55	recorded
+T7	segment 56 66	Indianized
+T8	segment 67 74	kingdom
+T9	segment 75 77	in
+T10	segment 78 85	Western
+T11	segment 86 90	Java
+T12	segment 90 91	,
+T13	segment 92 99	created
+T14	segment 100 102	by
+T15	segment 103 109	Indian
+T16	segment 110 116	trader
+T17	segment 117 122	after
+T18	segment 123 131	marrying
+T19	segment 132 133	a
+T20	segment 134 139	local
+T21	segment 140 149	Sundanese
+T22	segment 150 158	princess
+T23	segment 159 160	.
+R0	s_p Arg1:T0 Arg2:T2
+R1	p_o Arg1:T2 Arg2:T4
+R2	p_o Arg1:T6 Arg2:T8
+R3	is-specialized-by Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T8 Arg2:T7
+R5	is-specialized-by Arg1:T8 Arg2:T9
+R6	c_co Arg1:T9 Arg2:T11
+R7	compound Arg1:T11 Arg2:T10
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T16
+R10	is-specialized-by Arg1:T16 Arg2:T15
+R11	p_o Arg1:T18 Arg2:T22
+R12	is-specialized-by Arg1:T22 Arg2:T20

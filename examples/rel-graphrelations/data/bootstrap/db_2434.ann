@@ -1,0 +1,27 @@
+T0	segment 0 3	The
+T1	segment 4 11	Italian
+T2	segment 12 18	Empire
+T3	segment 19 20	;
+T4	segment 21 23	in
+T5	segment 24 28	1920
+T6	segment 28 29	,
+T7	segment 30 34	they
+T8	segment 35 39	also
+T9	segment 40 49	pressured
+T10	segment 50 55	Italy
+T11	segment 56 58	to
+T12	segment 59 65	remove
+T13	segment 66 69	its
+T14	segment 70 74	army
+T15	segment 75 79	from
+T16	segment 80 87	Albania
+T17	segment 88 89	.
+R0	is-specialized-by Arg1:T2 Arg2:T1
+R1	c_co Arg1:T4 Arg2:T5
+R2	s_p Arg1:T7 Arg2:T9
+R3	p_o Arg1:T9 Arg2:T10
+R4	p_c Arg1:T9 Arg2:T4
+R5	p_c Arg1:T9 Arg2:T8
+R6	is-specialized-by Arg1:T12 Arg2:T15
+R7	p_o Arg1:T12 Arg2:T14
+R8	c_co Arg1:T15 Arg2:T16

@@ -1,0 +1,31 @@
+T0	segment 0 5	Daquq
+T1	segment 6 8	or
+T2	segment 9 15	Daquqa
+T3	segment 15 16	,
+T4	segment 17 22	Dakuk
+T5	segment 22 23	,
+T6	segment 24 30	Daqooq
+T7	segment 30 31	,
+T8	segment 32 37	Tavuk
+T9	segment 38 40	or
+T10	segment 41 46	Tawuq
+T11	segment 47 49	is
+T12	segment 50 52	an
+T13	segment 53 65	historically
+T14	segment 66 74	Assyrian
+T15	segment 75 79	town
+T16	segment 80 82	in
+T17	segment 83 87	Iraq
+T18	segment 88 93	south
+T19	segment 94 96	of
+T20	segment 97 103	Kirkuk
+T21	segment 104 105	.
+R0	s_p Arg1:T0 Arg2:T11
+R1	p_o Arg1:T11 Arg2:T15
+R2	is-specialized-by Arg1:T14 Arg2:T13
+R3	is-specialized-by Arg1:T15 Arg2:T16
+R4	is-specialized-by Arg1:T15 Arg2:T18
+R5	is-specialized-by Arg1:T15 Arg2:T14
+R6	c_co Arg1:T16 Arg2:T17
+R7	is-specialized-by Arg1:T18 Arg2:T19
+R8	c_co Arg1:T19 Arg2:T20

@@ -1,0 +1,33 @@
+T0	segment 0 4	Camp
+T1	segment 5 12	Wekeela
+T2	segment 13 15	is
+T3	segment 16 17	a
+T4	segment 18 25	60-acre
+T5	segment 26 36	sleep-away
+T6	segment 37 43	summer
+T7	segment 44 48	camp
+T8	segment 49 51	in
+T9	segment 52 57	Maine
+T10	segment 58 62	with
+T11	segment 63 68	close
+T12	segment 69 71	to
+T13	segment 72 75	300
+T14	segment 76 83	campers
+T15	segment 84 87	and
+T16	segment 88 91	135
+T17	segment 92 101	employees
+T18	segment 102 103	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T7
+R3	is-specialized-by Arg1:T7 Arg2:T8
+R4	compound Arg1:T7 Arg2:T6
+R5	compound Arg1:T7 Arg2:T5
+R6	is-specialized-by Arg1:T7 Arg2:T4
+R7	c_co Arg1:T8 Arg2:T9
+R8	is-specialized-by Arg1:T9 Arg2:T10
+R9	c_co Arg1:T10 Arg2:T17
+R10	is-specialized-by Arg1:T11 Arg2:T12
+R11	c_co Arg1:T12 Arg2:T14
+R12	is-specialized-by Arg1:T14 Arg2:T13
+R13	is-specialized-by Arg1:T17 Arg2:T11

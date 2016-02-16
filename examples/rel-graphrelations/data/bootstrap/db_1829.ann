@@ -1,0 +1,30 @@
+T0	segment 0 4	Togo
+T1	segment 5 9	have
+T2	segment 10 18	appeared
+T3	segment 19 21	in
+T4	segment 22 25	the
+T5	segment 26 32	finals
+T6	segment 33 35	of
+T7	segment 36 39	the
+T8	segment 40 44	FIFA
+T9	segment 45 50	World
+T10	segment 51 54	Cup
+T11	segment 55 57	on
+T12	segment 58 61	one
+T13	segment 62 70	occasion
+T14	segment 71 73	in
+T15	segment 74 78	2006
+T16	segment 79 80	.
+R0	s_p Arg1:T0 Arg2:T2
+R1	p_c Arg1:T2 Arg2:T11
+R2	p_c Arg1:T2 Arg2:T3
+R3	compound Arg1:T2 Arg2:T1
+R4	c_co Arg1:T3 Arg2:T5
+R5	is-specialized-by Arg1:T5 Arg2:T6
+R6	c_co Arg1:T6 Arg2:T10
+R7	compound Arg1:T10 Arg2:T8
+R8	compound Arg1:T10 Arg2:T9
+R9	c_co Arg1:T11 Arg2:T13
+R10	is-specialized-by Arg1:T13 Arg2:T12
+R11	is-specialized-by Arg1:T13 Arg2:T14
+R12	c_co Arg1:T14 Arg2:T15

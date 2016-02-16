@@ -1,0 +1,38 @@
+T0	segment 0 20	FÃ¼rstenberg-PÃ¼rglitz
+T1	segment 21 24	was
+T2	segment 25 26	a
+T3	segment 27 31	line
+T4	segment 32 34	of
+T5	segment 35 40	noble
+T6	segment 41 47	family
+T7	segment 48 55	hailing
+T8	segment 56 60	from
+T9	segment 61 73	southwestern
+T10	segment 74 91	Baden-WÃ¼rttemberg
+T11	segment 91 92	,
+T12	segment 93 100	Germany
+T13	segment 100 101	,
+T14	segment 102 107	which
+T15	segment 108 111	was
+T16	segment 112 118	seated
+T17	segment 119 121	at
+T18	segment 122 131	KÅivoklÃ¡t
+T19	segment 132 138	Castle
+T20	segment 139 141	in
+T21	segment 142 149	Bohemia
+T22	segment 150 151	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T5
+R5	is-specialized-by Arg1:T7 Arg2:T8
+R6	c_co Arg1:T8 Arg2:T10
+R7	is-specialized-by Arg1:T10 Arg2:T9
+R8	s_p Arg1:T14 Arg2:T16
+R9	p_c Arg1:T16 Arg2:T17
+R10	compound Arg1:T16 Arg2:T15
+R11	c_co Arg1:T17 Arg2:T19
+R12	is-specialized-by Arg1:T19 Arg2:T20
+R13	compound Arg1:T19 Arg2:T18
+R14	c_co Arg1:T20 Arg2:T21

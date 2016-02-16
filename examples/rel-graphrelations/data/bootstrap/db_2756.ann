@@ -1,0 +1,45 @@
+T0	segment 0 3	The
+T1	segment 4 11	British
+T2	segment 12 19	Thyroid
+T3	segment 20 30	Foundation
+T4	segment 31 33	is
+T5	segment 34 35	a
+T6	segment 36 44	UK-based
+T7	segment 44 45	,
+T8	segment 46 57	patient-led
+T9	segment 57 58	,
+T10	segment 59 69	registered
+T11	segment 70 77	charity
+T12	segment 78 87	dedicated
+T13	segment 88 90	to
+T14	segment 91 101	supporting
+T15	segment 102 108	people
+T16	segment 109 113	with
+T17	segment 114 121	thyroid
+T18	segment 122 131	disorders
+T19	segment 132 135	and
+T20	segment 136 143	helping
+T21	segment 144 149	their
+T22	segment 150 158	families
+T23	segment 159 162	and
+T24	segment 163 169	people
+T25	segment 170 176	around
+T26	segment 177 181	them
+T27	segment 182 184	to
+T28	segment 185 195	understand
+T29	segment 196 199	the
+T30	segment 200 209	condition
+T31	segment 210 211	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T11
+R4	is-specialized-by Arg1:T11 Arg2:T6
+R5	is-specialized-by Arg1:T14 Arg2:T16
+R6	p_o Arg1:T14 Arg2:T15
+R7	c_co Arg1:T16 Arg2:T18
+R8	compound Arg1:T18 Arg2:T17
+R9	is-specialized-by Arg1:T20 Arg2:T25
+R10	p_o Arg1:T20 Arg2:T22
+R11	c_co Arg1:T25 Arg2:T26
+R12	p_o Arg1:T28 Arg2:T30

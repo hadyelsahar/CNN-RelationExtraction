@@ -1,0 +1,53 @@
+T0	segment 0 8	Habsburg
+T1	segment 9 20	Netherlands
+T2	segment 21 23	is
+T3	segment 24 27	the
+T4	segment 28 38	collective
+T5	segment 39 43	name
+T6	segment 44 46	of
+T7	segment 47 51	Holy
+T8	segment 52 57	Roman
+T9	segment 58 64	Empire
+T10	segment 65 70	fiefs
+T11	segment 71 73	in
+T12	segment 74 77	the
+T13	segment 78 81	Low
+T14	segment 82 91	Countries
+T15	segment 92 96	held
+T16	segment 97 99	by
+T17	segment 100 103	the
+T18	segment 104 109	House
+T19	segment 110 112	of
+T20	segment 113 121	Habsburg
+T21	segment 121 122	,
+T22	segment 123 126	and
+T23	segment 127 129	is
+T24	segment 130 134	also
+T25	segment 135 140	known
+T26	segment 141 143	as
+T27	segment 144 147	the
+T28	segment 148 155	Spanish
+T29	segment 156 167	Netherlands
+T30	segment 168 169	.
+R0	compound Arg1:T1 Arg2:T0
+R1	s_p Arg1:T1 Arg2:T15
+R2	is-specialized-by Arg1:T5 Arg2:T4
+R3	is-specialized-by Arg1:T5 Arg2:T6
+R4	c_co Arg1:T6 Arg2:T10
+R5	is-specialized-by Arg1:T10 Arg2:T7
+R6	is-specialized-by Arg1:T10 Arg2:T11
+R7	compound Arg1:T10 Arg2:T9
+R8	c_co Arg1:T11 Arg2:T14
+R9	is-specialized-by Arg1:T14 Arg2:T13
+R10	p_c Arg1:T15 Arg2:T16
+R11	compound Arg1:T15 Arg2:T2
+R12	c_co Arg1:T16 Arg2:T18
+R13	is-specialized-by Arg1:T18 Arg2:T19
+R14	c_co Arg1:T19 Arg2:T20
+R15	compound Arg1:T20 Arg2:T19
+R16	compound Arg1:T20 Arg2:T18
+R17	is-specialized-by Arg1:T25 Arg2:T24
+R18	is-specialized-by Arg1:T25 Arg2:T26
+R19	compound Arg1:T25 Arg2:T23
+R20	c_co Arg1:T26 Arg2:T29
+R21	is-specialized-by Arg1:T29 Arg2:T28

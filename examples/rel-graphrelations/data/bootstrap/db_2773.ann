@@ -1,0 +1,29 @@
+T0	segment 0 9	Alexander
+T1	segment 10 11	''
+T2	segment 11 12	``
+T3	segment 12 17	Sandy
+T4	segment 17 18	''
+T5	segment 18 19	''
+T6	segment 20 28	Stoddart
+T7	segment 29 32	and
+T8	segment 33 37	read
+T9	segment 38 41	the
+T10	segment 42 49	History
+T11	segment 50 52	of
+T12	segment 53 56	Art
+T13	segment 57 59	at
+T14	segment 60 63	the
+T15	segment 64 74	University
+T16	segment 75 77	of
+T17	segment 78 85	Glasgow
+T18	segment 86 87	.
+R0	s_p Arg1:T0 Arg2:T3
+R1	p_o Arg1:T8 Arg2:T10
+R2	is-specialized-by Arg1:T8 Arg2:T13
+R3	is-specialized-by Arg1:T10 Arg2:T11
+R4	c_co Arg1:T11 Arg2:T12
+R5	c_co Arg1:T13 Arg2:T15
+R6	is-specialized-by Arg1:T15 Arg2:T16
+R7	c_co Arg1:T16 Arg2:T17
+R8	compound Arg1:T17 Arg2:T16
+R9	compound Arg1:T17 Arg2:T15

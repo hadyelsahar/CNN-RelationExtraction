@@ -1,0 +1,29 @@
+T0	segment 0 6	Mwanza
+T1	segment 7 9	is
+T2	segment 10 11	a
+T3	segment 12 21	mid-sized
+T4	segment 22 26	port
+T5	segment 27 31	city
+T6	segment 32 34	on
+T7	segment 35 38	the
+T8	segment 39 47	southern
+T9	segment 48 54	shores
+T10	segment 55 57	of
+T11	segment 58 62	Lake
+T12	segment 63 71	Victoria
+T13	segment 72 74	in
+T14	segment 75 87	northwestern
+T15	segment 88 96	Tanzania
+T16	segment 97 98	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T5
+R2	is-specialized-by Arg1:T5 Arg2:T3
+R3	is-specialized-by Arg1:T5 Arg2:T6
+R4	c_co Arg1:T6 Arg2:T9
+R5	is-specialized-by Arg1:T9 Arg2:T8
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T12
+R8	compound Arg1:T12 Arg2:T11
+R9	is-specialized-by Arg1:T12 Arg2:T13
+R10	c_co Arg1:T13 Arg2:T15
+R11	is-specialized-by Arg1:T15 Arg2:T14

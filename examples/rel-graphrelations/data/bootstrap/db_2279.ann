@@ -1,0 +1,29 @@
+T0	segment 0 6	Attica
+T1	segment 7 9	is
+T2	segment 10 12	an
+T3	segment 13 27	administrative
+T4	segment 28 34	region
+T5	segment 35 39	that
+T6	segment 40 51	encompasses
+T7	segment 52 55	the
+T8	segment 56 62	entire
+T9	segment 63 75	metropolitan
+T10	segment 76 80	area
+T11	segment 81 83	of
+T12	segment 84 90	Athens
+T13	segment 90 91	,
+T14	segment 92 95	the
+T15	segment 96 103	capital
+T16	segment 104 106	of
+T17	segment 107 113	Greece
+T18	segment 114 115	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	s_p Arg1:T5 Arg2:T6
+R4	p_o Arg1:T6 Arg2:T10
+R5	is-specialized-by Arg1:T10 Arg2:T8
+R6	is-specialized-by Arg1:T10 Arg2:T11
+R7	c_co Arg1:T11 Arg2:T12
+R8	is-specialized-by Arg1:T15 Arg2:T16
+R9	c_co Arg1:T16 Arg2:T17

@@ -1,0 +1,33 @@
+T0	segment 0 5	Chris
+T1	segment 6 13	Pinnick
+T2	segment 14 16	is
+T3	segment 17 19	an
+T4	segment 20 28	American
+T5	segment 29 38	guitarist
+T6	segment 39 42	and
+T7	segment 43 53	songwriter
+T8	segment 53 54	,
+T9	segment 55 63	probably
+T10	segment 64 68	best
+T11	segment 69 74	known
+T12	segment 75 78	for
+T13	segment 79 82	his
+T14	segment 83 87	work
+T15	segment 88 92	with
+T16	segment 93 96	the
+T17	segment 97 101	band
+T18	segment 102 109	Chicago
+T19	segment 110 114	from
+T20	segment 115 124	1980-1986
+T21	segment 125 126	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T11 Arg2:T10
+R5	is-specialized-by Arg1:T11 Arg2:T12
+R6	c_co Arg1:T12 Arg2:T14
+R7	is-specialized-by Arg1:T14 Arg2:T15
+R8	c_co Arg1:T15 Arg2:T17
+R9	is-specialized-by Arg1:T18 Arg2:T19
+R10	c_co Arg1:T19 Arg2:T20

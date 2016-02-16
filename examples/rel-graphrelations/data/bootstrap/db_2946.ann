@@ -1,0 +1,31 @@
+T0	segment 0 3	The
+T1	segment 4 15	Independent
+T2	segment 16 25	Financial
+T3	segment 26 32	Centre
+T4	segment 33 35	of
+T5	segment 36 39	the
+T6	segment 40 48	Americas
+T7	segment 49 51	is
+T8	segment 52 55	the
+T9	segment 56 61	world
+T10	segment 61 63	's
+T11	segment 64 69	first
+T12	segment 70 79	privately
+T13	segment 80 88	operated
+T14	segment 89 92	and
+T15	segment 93 106	independently
+T16	segment 107 116	regulated
+T17	segment 117 130	international
+T18	segment 131 140	financial
+T19	segment 141 147	centre
+T20	segment 148 149	.
+R0	s_p Arg1:T3 Arg2:T7
+R1	is-specialized-by Arg1:T3 Arg2:T4
+R2	compound Arg1:T3 Arg2:T2
+R3	compound Arg1:T3 Arg2:T1
+R4	c_co Arg1:T4 Arg2:T6
+R5	p_o Arg1:T7 Arg2:T19
+R6	is-specialized-by Arg1:T13 Arg2:T12
+R7	is-specialized-by Arg1:T16 Arg2:T15
+R8	is-specialized-by Arg1:T17 Arg2:T16
+R9	is-specialized-by Arg1:T19 Arg2:T11

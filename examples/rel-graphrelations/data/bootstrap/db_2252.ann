@@ -1,0 +1,68 @@
+T0	segment 0 6	Daniel
+T1	segment 7 12	House
+T2	segment 13 15	is
+T3	segment 16 17	a
+T4	segment 18 26	business
+T5	segment 27 32	owner
+T6	segment 33 34	Z
+T7	segment 35 42	Records
+T8	segment 42 43	,
+T9	segment 44 45	a
+T10	segment 46 59	Seattle-based
+T11	segment 60 71	independent
+T12	segment 72 78	record
+T13	segment 79 84	label
+T14	segment 85 89	that
+T15	segment 90 98	released
+T16	segment 99 104	music
+T17	segment 105 107	by
+T18	segment 108 112	many
+T19	segment 113 118	bands
+T20	segment 119 128	including
+T21	segment 129 130	7
+T22	segment 131 135	Year
+T23	segment 136 141	Bitch
+T24	segment 141 142	,
+T25	segment 143 148	Built
+T26	segment 149 151	to
+T27	segment 152 157	Spill
+T28	segment 157 158	,
+T29	segment 159 165	Coffin
+T30	segment 166 171	Break
+T31	segment 171 172	,
+T32	segment 173 179	Engine
+T33	segment 180 183	Kid
+T34	segment 183 184	,
+T35	segment 185 188	The
+T36	segment 189 193	Gits
+T37	segment 193 194	,
+T38	segment 195 204	Hammerbox
+T39	segment 204 205	,
+T40	segment 206 210	Love
+T41	segment 211 218	Battery
+T42	segment 218 219	,
+T43	segment 220 223	The
+T44	segment 224 231	Melvins
+T45	segment 231 232	,
+T46	segment 233 236	The
+T47	segment 237 247	Presidents
+T48	segment 248 250	of
+T49	segment 251 254	the
+T50	segment 255 261	United
+T51	segment 262 268	States
+T52	segment 269 271	of
+T53	segment 272 279	America
+T54	segment 279 280	,
+T55	segment 281 289	Silkworm
+T56	segment 289 290	,
+T57	segment 291 294	and
+T58	segment 295 299	Skin
+T59	segment 300 304	Yard
+T60	segment 305 306	.
+R0	compound Arg1:T1 Arg2:T0
+R1	compound Arg1:T7 Arg2:T6
+R2	compound Arg1:T22 Arg2:T21
+R3	compound Arg1:T33 Arg2:T32
+R4	compound Arg1:T53 Arg2:T52
+R5	compound Arg1:T53 Arg2:T51
+R6	compound Arg1:T53 Arg2:T50

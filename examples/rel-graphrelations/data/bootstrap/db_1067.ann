@@ -1,0 +1,28 @@
+T0	segment 0 8	Feadship
+T1	segment 9 11	is
+T2	segment 12 13	a
+T3	segment 14 25	cooperative
+T4	segment 26 33	venture
+T5	segment 34 41	between
+T6	segment 42 45	two
+T7	segment 46 55	shipyards
+T8	segment 56 59	and
+T9	segment 60 68	maritime
+T10	segment 69 80	engineering
+T11	segment 81 88	company
+T12	segment 89 91	De
+T13	segment 92 97	Voogt
+T14	segment 98 103	Naval
+T15	segment 104 114	Architects
+T16	segment 115 116	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T7
+R5	is-specialized-by Arg1:T7 Arg2:T6
+R6	compound Arg1:T11 Arg2:T10
+R7	compound Arg1:T11 Arg2:T9
+R8	compound Arg1:T15 Arg2:T12
+R9	compound Arg1:T15 Arg2:T14
+R10	compound Arg1:T15 Arg2:T13

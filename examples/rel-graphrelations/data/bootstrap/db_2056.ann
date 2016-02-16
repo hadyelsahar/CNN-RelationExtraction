@@ -1,0 +1,28 @@
+T0	segment 0 3	The
+T1	segment 4 7	Far
+T2	segment 8 13	North
+T3	segment 14 20	Region
+T4	segment 21 22	,
+T5	segment 23 25	is
+T6	segment 26 29	the
+T7	segment 30 42	northernmost
+T8	segment 43 54	constituent
+T9	segment 55 63	province
+T10	segment 64 66	of
+T11	segment 67 70	the
+T12	segment 71 79	Republic
+T13	segment 80 82	of
+T14	segment 83 91	Cameroon
+T15	segment 92 93	.
+R0	s_p Arg1:T3 Arg2:T5
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T5 Arg2:T9
+R4	is-specialized-by Arg1:T9 Arg2:T7
+R5	is-specialized-by Arg1:T9 Arg2:T10
+R6	compound Arg1:T9 Arg2:T8
+R7	c_co Arg1:T10 Arg2:T12
+R8	is-specialized-by Arg1:T12 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T14
+R10	compound Arg1:T14 Arg2:T12
+R11	compound Arg1:T14 Arg2:T13

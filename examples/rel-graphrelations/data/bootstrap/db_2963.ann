@@ -1,0 +1,30 @@
+T0	segment 0 3	The
+T1	segment 4 10	County
+T2	segment 11 13	of
+T3	segment 14 21	GÃ¼tzkow
+T4	segment 22 23	,
+T5	segment 24 28	that
+T6	segment 29 32	was
+T7	segment 33 39	turned
+T8	segment 40 44	into
+T9	segment 45 46	a
+T10	segment 47 57	castellany
+T11	segment 58 62	when
+T12	segment 63 70	subdued
+T13	segment 71 73	by
+T14	segment 74 77	the
+T15	segment 78 83	Dukes
+T16	segment 84 86	of
+T17	segment 87 96	Pomerania
+T18	segment 97 98	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	c_co Arg1:T2 Arg2:T3
+R2	s_p Arg1:T5 Arg2:T7
+R3	compound Arg1:T7 Arg2:T6
+R4	p_c Arg1:T7 Arg2:T8
+R5	c_co Arg1:T8 Arg2:T10
+R6	is-specialized-by Arg1:T12 Arg2:T11
+R7	is-specialized-by Arg1:T12 Arg2:T13
+R8	c_co Arg1:T13 Arg2:T15
+R9	is-specialized-by Arg1:T15 Arg2:T16
+R10	c_co Arg1:T16 Arg2:T17

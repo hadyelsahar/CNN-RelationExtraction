@@ -1,0 +1,36 @@
+T0	segment 0 3	The
+T1	segment 4 9	Chola
+T2	segment 10 17	dynasty
+T3	segment 18 22	also
+T4	segment 23 29	called
+T5	segment 30 31	''
+T6	segment 31 32	``
+T7	segment 32 38	Cholan
+T8	segment 38 39	''
+T9	segment 39 40	''
+T10	segment 41 44	was
+T11	segment 45 48	one
+T12	segment 49 51	of
+T13	segment 52 55	the
+T14	segment 56 70	longest-ruling
+T15	segment 71 80	dynasties
+T16	segment 81 83	in
+T17	segment 84 87	the
+T18	segment 88 95	history
+T19	segment 96 98	of
+T20	segment 99 107	southern
+T21	segment 108 113	India
+T22	segment 114 115	.
+R0	s_p Arg1:T2 Arg2:T4
+R1	compound Arg1:T2 Arg2:T1
+R2	p_c Arg1:T4 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T7
+R4	s_p Arg1:T11 Arg2:T10
+R5	is-specialized-by Arg1:T11 Arg2:T12
+R6	c_co Arg1:T12 Arg2:T15
+R7	is-specialized-by Arg1:T15 Arg2:T16
+R8	is-specialized-by Arg1:T15 Arg2:T14
+R9	c_co Arg1:T16 Arg2:T18
+R10	is-specialized-by Arg1:T18 Arg2:T19
+R11	c_co Arg1:T19 Arg2:T21
+R12	is-specialized-by Arg1:T21 Arg2:T20

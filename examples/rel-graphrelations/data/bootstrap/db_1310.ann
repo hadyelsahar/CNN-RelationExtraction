@@ -1,0 +1,46 @@
+T0	segment 0 4	Move
+T1	segment 5 9	with
+T2	segment 10 12	Us
+T3	segment 13 15	is
+T4	segment 16 17	a
+T5	segment 18 31	British-based
+T6	segment 32 40	property
+T7	segment 41 48	company
+T8	segment 49 53	that
+T9	segment 54 62	provides
+T10	segment 63 69	estate
+T11	segment 70 76	agency
+T12	segment 76 77	,
+T13	segment 78 83	asset
+T14	segment 84 94	management
+T15	segment 95 98	and
+T16	segment 99 108	corporate
+T17	segment 109 117	property
+T18	segment 118 126	services
+T19	segment 127 129	to
+T20	segment 130 136	estate
+T21	segment 137 143	agents
+T22	segment 143 144	,
+T23	segment 145 149	home
+T24	segment 150 158	builders
+T25	segment 158 159	,
+T26	segment 160 169	financial
+T27	segment 170 182	institutions
+T28	segment 183 186	and
+T29	segment 187 196	consumers
+T30	segment 197 198	.
+R0	is-specialized-by Arg1:T0 Arg2:T1
+R1	c_co Arg1:T1 Arg2:T2
+R2	compound Arg1:T7 Arg2:T6
+R3	is-specialized-by Arg1:T7 Arg2:T5
+R4	s_p Arg1:T8 Arg2:T9
+R5	p_o Arg1:T9 Arg2:T14
+R6	p_c Arg1:T9 Arg2:T19
+R7	compound Arg1:T14 Arg2:T11
+R8	compound Arg1:T14 Arg2:T10
+R9	is-specialized-by Arg1:T18 Arg2:T16
+R10	compound Arg1:T18 Arg2:T17
+R11	c_co Arg1:T19 Arg2:T21
+R12	compound Arg1:T21 Arg2:T20
+R13	compound Arg1:T24 Arg2:T23
+R14	is-specialized-by Arg1:T27 Arg2:T26

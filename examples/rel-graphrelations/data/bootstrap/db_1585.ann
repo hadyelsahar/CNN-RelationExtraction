@@ -1,0 +1,26 @@
+T0	segment 0 3	The
+T1	segment 4 14	Azerbaijan
+T2	segment 15 25	Democratic
+T3	segment 26 34	Republic
+T4	segment 35 36	,
+T5	segment 37 44	Russian
+T6	segment 44 45	,
+T7	segment 46 52	Polish
+T8	segment 52 53	,
+T9	segment 54 60	Jewish
+T10	segment 61 64	and
+T11	segment 65 71	German
+T12	segment 72 82	minorities
+T13	segment 83 89	gained
+T14	segment 90 95	seats
+T15	segment 96 98	in
+T16	segment 99 102	the
+T17	segment 103 113	parliament
+T18	segment 114 115	.
+R0	s_p Arg1:T3 Arg2:T13
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	is-specialized-by Arg1:T12 Arg2:T9
+R4	p_c Arg1:T13 Arg2:T15
+R5	p_o Arg1:T13 Arg2:T14
+R6	c_co Arg1:T15 Arg2:T17

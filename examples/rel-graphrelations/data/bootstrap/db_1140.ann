@@ -1,0 +1,42 @@
+T0	segment 0 3	The
+T1	segment 4 14	KÃ©nÃ©dougou
+T2	segment 15 22	Kingdom
+T3	segment 22 23	,
+T4	segment 24 28	also
+T5	segment 29 37	referred
+T6	segment 38 40	to
+T7	segment 41 43	as
+T8	segment 44 47	the
+T9	segment 48 56	Kenedugu
+T10	segment 57 64	Kingdom
+T11	segment 64 65	,
+T12	segment 66 69	was
+T13	segment 70 71	a
+T14	segment 72 84	pre-colonial
+T15	segment 85 89	West
+T16	segment 90 97	African
+T17	segment 98 103	state
+T18	segment 104 115	established
+T19	segment 116 118	in
+T20	segment 119 122	the
+T21	segment 123 131	southern
+T22	segment 132 139	portion
+T23	segment 140 142	of
+T24	segment 143 154	present-day
+T25	segment 155 159	Mali
+T26	segment 160 161	.
+R0	s_p Arg1:T2 Arg2:T12
+R1	compound Arg1:T2 Arg2:T1
+R2	is-specialized-by Arg1:T5 Arg2:T7
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	c_co Arg1:T7 Arg2:T10
+R5	compound Arg1:T10 Arg2:T9
+R6	p_o Arg1:T12 Arg2:T17
+R7	compound Arg1:T16 Arg2:T15
+R8	is-specialized-by Arg1:T17 Arg2:T14
+R9	is-specialized-by Arg1:T18 Arg2:T19
+R10	c_co Arg1:T19 Arg2:T22
+R11	is-specialized-by Arg1:T22 Arg2:T23
+R12	is-specialized-by Arg1:T22 Arg2:T21
+R13	c_co Arg1:T23 Arg2:T25
+R14	is-specialized-by Arg1:T25 Arg2:T24

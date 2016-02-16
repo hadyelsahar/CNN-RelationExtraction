@@ -1,0 +1,31 @@
+T0	segment 0 3	The
+T1	segment 4 11	Kingdom
+T2	segment 12 14	of
+T3	segment 15 23	Upatissa
+T4	segment 24 30	Nuwara
+T5	segment 31 34	was
+T6	segment 35 38	the
+T7	segment 39 45	second
+T8	segment 46 60	administrative
+T9	segment 61 67	center
+T10	segment 68 70	in
+T11	segment 71 78	ancient
+T12	segment 79 82	Sri
+T13	segment 83 88	Lanka
+T14	segment 89 92	and
+T15	segment 93 100	Kingdom
+T16	segment 101 103	of
+T17	segment 104 112	Rajarata
+T18	segment 113 114	.
+R0	s_p Arg1:T1 Arg2:T5
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	c_co Arg1:T2 Arg2:T4
+R3	compound Arg1:T4 Arg2:T3
+R4	p_o Arg1:T5 Arg2:T9
+R5	is-specialized-by Arg1:T9 Arg2:T7
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T13
+R8	compound Arg1:T13 Arg2:T12
+R9	is-specialized-by Arg1:T13 Arg2:T11
+R10	is-specialized-by Arg1:T15 Arg2:T16
+R11	c_co Arg1:T16 Arg2:T17

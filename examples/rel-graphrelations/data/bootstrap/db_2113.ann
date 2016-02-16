@@ -1,0 +1,67 @@
+T0	segment 0 9	Britannia
+T1	segment 10 18	Superior
+T2	segment 19 22	was
+T3	segment 23 26	one
+T4	segment 27 29	of
+T5	segment 30 33	the
+T6	segment 34 43	provinces
+T7	segment 44 46	of
+T8	segment 47 52	Roman
+T9	segment 53 60	Britain
+T10	segment 61 68	created
+T11	segment 69 75	around
+T12	segment 76 79	197
+T13	segment 80 82	AD
+T14	segment 83 85	by
+T15	segment 86 93	Emperor
+T16	segment 94 103	Septimius
+T17	segment 104 111	Severus
+T18	segment 112 123	immediately
+T19	segment 124 129	after
+T20	segment 130 137	winning
+T21	segment 138 139	a
+T22	segment 140 145	civil
+T23	segment 146 149	war
+T24	segment 150 157	against
+T25	segment 158 165	Clodius
+T26	segment 166 173	Albinus
+T27	segment 173 174	,
+T28	segment 175 176	a
+T29	segment 177 180	war
+T30	segment 181 187	fought
+T31	segment 188 190	to
+T32	segment 191 200	determine
+T33	segment 201 204	who
+T34	segment 205 210	would
+T35	segment 211 213	be
+T36	segment 214 217	the
+T37	segment 218 222	next
+T38	segment 223 230	emperor
+T39	segment 231 232	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T3
+R3	is-specialized-by Arg1:T3 Arg2:T4
+R4	c_co Arg1:T4 Arg2:T6
+R5	is-specialized-by Arg1:T6 Arg2:T7
+R6	c_co Arg1:T7 Arg2:T9
+R7	compound Arg1:T9 Arg2:T8
+R8	is-specialized-by Arg1:T10 Arg2:T13
+R9	compound Arg1:T13 Arg2:T12
+R10	is-specialized-by Arg1:T13 Arg2:T14
+R11	c_co Arg1:T14 Arg2:T17
+R12	is-specialized-by Arg1:T17 Arg2:T18
+R13	compound Arg1:T17 Arg2:T16
+R14	compound Arg1:T17 Arg2:T15
+R15	is-specialized-by Arg1:T20 Arg2:T24
+R16	p_o Arg1:T20 Arg2:T23
+R17	is-specialized-by Arg1:T23 Arg2:T22
+R18	c_co Arg1:T24 Arg2:T26
+R19	compound Arg1:T26 Arg2:T25
+R20	s_p Arg1:T29 Arg2:T30
+R21	p_p Arg1:T30 Arg2:T2
+R22	p_p Arg1:T32 Arg2:T35
+R23	s_p Arg1:T33 Arg2:T35
+R24	p_o Arg1:T35 Arg2:T38
+R25	compound Arg1:T38 Arg2:T34
+R26	is-specialized-by Arg1:T38 Arg2:T37

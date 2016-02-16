@@ -1,0 +1,36 @@
+T0	segment 0 7	Armenia
+T1	segment 8 15	debuted
+T2	segment 16 18	at
+T3	segment 19 22	the
+T4	segment 23 33	Eurovision
+T5	segment 34 38	Song
+T6	segment 39 46	Contest
+T7	segment 47 49	in
+T8	segment 50 54	2006
+T9	segment 55 59	with
+T10	segment 60 63	the
+T11	segment 64 68	song
+T12	segment 69 70	''
+T13	segment 70 71	``
+T14	segment 71 78	Without
+T15	segment 79 83	Your
+T16	segment 84 88	Love
+T17	segment 88 89	''
+T18	segment 89 90	''
+T19	segment 91 100	performed
+T20	segment 101 103	by
+T21	segment 104 109	AndrÃ©
+T22	segment 110 111	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_c Arg1:T1 Arg2:T14
+R2	p_c Arg1:T1 Arg2:T20
+R3	p_c Arg1:T1 Arg2:T2
+R4	c_co Arg1:T2 Arg2:T6
+R5	compound Arg1:T6 Arg2:T4
+R6	is-specialized-by Arg1:T6 Arg2:T7
+R7	compound Arg1:T6 Arg2:T5
+R8	c_co Arg1:T7 Arg2:T8
+R9	is-specialized-by Arg1:T8 Arg2:T9
+R10	c_co Arg1:T9 Arg2:T11
+R11	c_co Arg1:T14 Arg2:T16
+R12	c_co Arg1:T20 Arg2:T21

@@ -1,0 +1,44 @@
+T0	segment 0 10	Musicadium
+T1	segment 11 14	was
+T2	segment 15 16	a
+T3	segment 17 23	global
+T4	segment 24 31	digital
+T5	segment 32 37	music
+T6	segment 38 41	and
+T7	segment 42 47	video
+T8	segment 48 60	distribution
+T9	segment 61 68	service
+T10	segment 69 73	that
+T11	segment 74 82	operated
+T12	segment 83 90	between
+T13	segment 91 95	2006
+T14	segment 96 99	and
+T15	segment 100 108	mid-2010
+T16	segment 108 109	,
+T17	segment 110 115	based
+T18	segment 116 118	in
+T19	segment 119 127	Brisbane
+T20	segment 127 128	,
+T21	segment 129 138	Australia
+T22	segment 138 139	,
+T23	segment 140 145	until
+T24	segment 146 150	they
+T25	segment 151 155	were
+T26	segment 156 162	bought
+T27	segment 163 167	over
+T28	segment 168 170	by
+T29	segment 171 180	Valleyarm
+T30	segment 181 182	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T5
+R2	is-specialized-by Arg1:T5 Arg2:T3
+R3	is-specialized-by Arg1:T9 Arg2:T7
+R4	compound Arg1:T9 Arg2:T8
+R5	s_p Arg1:T10 Arg2:T11
+R6	p_c Arg1:T11 Arg2:T12
+R7	c_co Arg1:T12 Arg2:T13
+R8	compound Arg1:T21 Arg2:T19
+R9	s_p Arg1:T24 Arg2:T26
+R10	p_c Arg1:T26 Arg2:T28
+R11	compound Arg1:T26 Arg2:T25
+R12	c_co Arg1:T28 Arg2:T29

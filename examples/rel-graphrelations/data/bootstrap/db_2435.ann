@@ -1,0 +1,41 @@
+T0	segment 0 3	The
+T1	segment 4 9	Duchy
+T2	segment 10 12	of
+T3	segment 13 21	Lorraine
+T4	segment 22 23	,
+T5	segment 24 27	was
+T6	segment 28 29	a
+T7	segment 30 35	duchy
+T8	segment 36 43	roughly
+T9	segment 44 57	corresponding
+T10	segment 58 62	with
+T11	segment 63 66	the
+T12	segment 67 78	present-day
+T13	segment 79 85	region
+T14	segment 86 88	of
+T15	segment 89 97	Lorraine
+T16	segment 98 100	in
+T17	segment 101 113	northeastern
+T18	segment 114 120	France
+T19	segment 120 121	,
+T20	segment 122 125	its
+T21	segment 126 133	capital
+T22	segment 134 137	was
+T23	segment 138 143	Nancy
+T24	segment 144 145	.
+R0	s_p Arg1:T1 Arg2:T5
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T5 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T9 Arg2:T16
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T13
+R8	is-specialized-by Arg1:T13 Arg2:T12
+R9	is-specialized-by Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T15
+R11	c_co Arg1:T16 Arg2:T18
+R12	is-specialized-by Arg1:T18 Arg2:T17
+R13	s_p Arg1:T21 Arg2:T22
+R14	p_o Arg1:T22 Arg2:T23
+R15	p_p Arg1:T23 Arg2:T5

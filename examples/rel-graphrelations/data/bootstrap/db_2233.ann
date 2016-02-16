@@ -1,0 +1,63 @@
+T0	segment 0 3	Zoe
+T1	segment 4 6	is
+T2	segment 7 8	a
+T3	segment 9 18	fictional
+T4	segment 19 28	character
+T5	segment 29 33	from
+T6	segment 34 37	the
+T7	segment 38 41	ABC
+T8	segment 42 49	daytime
+T9	segment 50 55	drama
+T10	segment 56 59	All
+T11	segment 60 62	My
+T12	segment 63 71	Children
+T13	segment 71 72	,
+T14	segment 73 76	and
+T15	segment 77 79	is
+T16	segment 80 88	credited
+T17	segment 89 91	as
+T18	segment 92 95	the
+T19	segment 96 101	first
+T20	segment 102 113	transgender
+T21	segment 114 123	character
+T22	segment 124 126	to
+T23	segment 127 133	appear
+T24	segment 134 136	on
+T25	segment 137 138	a
+T26	segment 139 143	soap
+T27	segment 144 149	opera
+T28	segment 150 152	at
+T29	segment 153 156	the
+T30	segment 157 166	beginning
+T31	segment 167 169	of
+T32	segment 170 171	a
+T33	segment 172 176	male
+T34	segment 177 179	to
+T35	segment 180 186	female
+T36	segment 187 193	gender
+T37	segment 194 204	transition
+T38	segment 205 206	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T9
+R5	is-specialized-by Arg1:T9 Arg2:T8
+R6	compound Arg1:T9 Arg2:T7
+R7	compound Arg1:T12 Arg2:T11
+R8	compound Arg1:T12 Arg2:T10
+R9	is-specialized-by Arg1:T16 Arg2:T17
+R10	compound Arg1:T16 Arg2:T15
+R11	c_co Arg1:T17 Arg2:T21
+R12	is-specialized-by Arg1:T21 Arg2:T19
+R13	is-specialized-by Arg1:T23 Arg2:T24
+R14	is-specialized-by Arg1:T23 Arg2:T28
+R15	c_co Arg1:T24 Arg2:T27
+R16	compound Arg1:T27 Arg2:T26
+R17	c_co Arg1:T28 Arg2:T30
+R18	is-specialized-by Arg1:T30 Arg2:T31
+R19	c_co Arg1:T31 Arg2:T37
+R20	is-specialized-by Arg1:T33 Arg2:T34
+R21	c_co Arg1:T34 Arg2:T36
+R22	is-specialized-by Arg1:T36 Arg2:T35
+R23	is-specialized-by Arg1:T37 Arg2:T33

@@ -1,0 +1,43 @@
+T0	segment 0 3	The
+T1	segment 4 14	Ghantewala
+T2	segment 15 21	Halwai
+T3	segment 22 24	in
+T4	segment 25 30	India
+T5	segment 31 33	It
+T6	segment 34 37	has
+T7	segment 38 45	catered
+T8	segment 46 48	to
+T9	segment 49 55	Mughal
+T10	segment 56 64	Emperors
+T11	segment 64 65	,
+T12	segment 66 76	Presidents
+T13	segment 77 80	and
+T14	segment 81 86	Prime
+T15	segment 87 96	Ministers
+T16	segment 97 99	of
+T17	segment 100 105	India
+T18	segment 105 106	,
+T19	segment 107 111	from
+T20	segment 112 117	Nehru
+T21	segment 118 120	to
+T22	segment 121 124	his
+T23	segment 125 133	grandson
+T24	segment 134 139	Rajiv
+T25	segment 140 146	Gandhi
+T26	segment 147 148	.
+R0	is-specialized-by Arg1:T2 Arg2:T19
+R1	is-specialized-by Arg1:T2 Arg2:T3
+R2	compound Arg1:T2 Arg2:T1
+R3	c_co Arg1:T3 Arg2:T4
+R4	s_p Arg1:T5 Arg2:T7
+R5	compound Arg1:T7 Arg2:T6
+R6	p_c Arg1:T7 Arg2:T8
+R7	c_co Arg1:T8 Arg2:T10
+R8	compound Arg1:T10 Arg2:T9
+R9	is-specialized-by Arg1:T15 Arg2:T16
+R10	is-specialized-by Arg1:T15 Arg2:T14
+R11	c_co Arg1:T16 Arg2:T17
+R12	c_co Arg1:T19 Arg2:T20
+R13	is-specialized-by Arg1:T20 Arg2:T21
+R14	c_co Arg1:T21 Arg2:T23
+R15	compound Arg1:T25 Arg2:T24

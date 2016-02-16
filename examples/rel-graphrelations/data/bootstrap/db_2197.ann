@@ -1,0 +1,34 @@
+T0	segment 0 3	Rob
+T1	segment 4 10	Byrnes
+T2	segment 11 13	is
+T3	segment 14 15	a
+T4	segment 16 28	21st-century
+T5	segment 29 32	gay
+T6	segment 33 41	American
+T7	segment 41 42	,
+T8	segment 43 51	novelist
+T9	segment 52 55	and
+T10	segment 56 63	blogger
+T11	segment 63 64	,
+T12	segment 65 70	whose
+T13	segment 71 78	fiction
+T14	segment 79 86	focuses
+T15	segment 87 96	primarily
+T16	segment 97 99	on
+T17	segment 100 103	gay
+T18	segment 104 107	men
+T19	segment 108 111	and
+T20	segment 112 117	other
+T21	segment 118 124	sexual
+T22	segment 125 135	minorities
+T23	segment 136 137	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T6
+R3	is-specialized-by Arg1:T6 Arg2:T4
+R4	s_p Arg1:T13 Arg2:T14
+R5	p_c Arg1:T14 Arg2:T15
+R6	p_c Arg1:T14 Arg2:T16
+R7	c_co Arg1:T16 Arg2:T18
+R8	is-specialized-by Arg1:T18 Arg2:T17
+R9	is-specialized-by Arg1:T22 Arg2:T20

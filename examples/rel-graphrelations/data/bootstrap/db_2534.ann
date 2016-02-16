@@ -1,0 +1,37 @@
+T0	segment 0 8	Michaela
+T1	segment 9 13	Tabb
+T2	segment 14 16	is
+T3	segment 17 18	a
+T4	segment 19 27	Scottish
+T5	segment 28 40	professional
+T6	segment 41 48	snooker
+T7	segment 49 52	and
+T8	segment 53 57	pool
+T9	segment 58 65	referee
+T10	segment 66 69	who
+T11	segment 70 73	has
+T12	segment 74 85	established
+T13	segment 86 97	significant
+T14	segment 98 108	milestones
+T15	segment 109 112	for
+T16	segment 113 119	female
+T17	segment 120 129	officials
+T18	segment 130 132	in
+T19	segment 133 136	cue
+T20	segment 137 143	sports
+T21	segment 144 145	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T6
+R3	is-specialized-by Arg1:T6 Arg2:T4
+R4	compound Arg1:T9 Arg2:T8
+R5	s_p Arg1:T10 Arg2:T12
+R6	compound Arg1:T12 Arg2:T11
+R7	p_o Arg1:T12 Arg2:T14
+R8	p_c Arg1:T12 Arg2:T18
+R9	is-specialized-by Arg1:T14 Arg2:T15
+R10	is-specialized-by Arg1:T14 Arg2:T13
+R11	c_co Arg1:T15 Arg2:T17
+R12	is-specialized-by Arg1:T17 Arg2:T16
+R13	c_co Arg1:T18 Arg2:T20
+R14	compound Arg1:T20 Arg2:T19

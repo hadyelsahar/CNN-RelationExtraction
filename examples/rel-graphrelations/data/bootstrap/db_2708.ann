@@ -1,0 +1,60 @@
+T0	segment 0 9	Brooktree
+T1	segment 10 13	was
+T2	segment 14 16	an
+T3	segment 17 25	American
+T4	segment 26 33	company
+T5	segment 34 41	founded
+T6	segment 42 44	in
+T7	segment 45 49	1983
+T8	segment 50 52	by
+T9	segment 53 58	Henry
+T10	segment 59 70	Katzenstein
+T11	segment 71 73	to
+T12	segment 74 87	commercialize
+T13	segment 88 89	a
+T14	segment 90 96	faster
+T15	segment 97 105	hardware
+T16	segment 106 118	architecture
+T17	segment 119 122	for
+T18	segment 123 130	digital
+T19	segment 131 133	to
+T20	segment 134 140	analog
+T21	segment 141 151	converters
+T22	segment 151 152	,
+T23	segment 153 158	three
+T24	segment 159 161	to
+T25	segment 162 167	eight
+T26	segment 168 173	times
+T27	segment 174 180	faster
+T28	segment 181 185	than
+T29	segment 186 189	the
+T30	segment 190 200	converters
+T31	segment 201 205	then
+T32	segment 206 208	on
+T33	segment 209 212	the
+T34	segment 213 219	market
+T35	segment 220 221	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T5 Arg2:T8
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T7
+R6	c_co Arg1:T8 Arg2:T10
+R7	compound Arg1:T10 Arg2:T9
+R8	p_o Arg1:T12 Arg2:T16
+R9	is-specialized-by Arg1:T12 Arg2:T19
+R10	is-specialized-by Arg1:T12 Arg2:T14
+R11	is-specialized-by Arg1:T16 Arg2:T17
+R12	compound Arg1:T16 Arg2:T15
+R13	c_co Arg1:T17 Arg2:T18
+R14	c_co Arg1:T19 Arg2:T21
+R15	compound Arg1:T21 Arg2:T20
+R16	compound Arg1:T26 Arg2:T23
+R17	compound Arg1:T26 Arg2:T25
+R18	is-specialized-by Arg1:T27 Arg2:T32
+R19	is-specialized-by Arg1:T27 Arg2:T26
+R20	is-specialized-by Arg1:T27 Arg2:T28
+R21	c_co Arg1:T28 Arg2:T30
+R22	c_co Arg1:T32 Arg2:T34
+R23	is-specialized-by Arg1:T34 Arg2:T31

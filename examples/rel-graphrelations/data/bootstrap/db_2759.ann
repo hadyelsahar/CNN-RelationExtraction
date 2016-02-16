@@ -1,0 +1,36 @@
+T0	segment 0 3	The
+T1	segment 4 9	Dairy
+T2	segment 10 18	Industry
+T3	segment 19 30	Association
+T4	segment 31 33	of
+T5	segment 34 43	Australia
+T6	segment 44 46	is
+T7	segment 47 48	a
+T8	segment 49 63	not-for-profit
+T9	segment 64 72	industry
+T10	segment 73 84	association
+T11	segment 85 88	for
+T12	segment 89 94	dairy
+T13	segment 95 102	product
+T14	segment 103 116	manufacturers
+T15	segment 117 120	and
+T16	segment 121 127	allied
+T17	segment 128 134	trades
+T18	segment 135 136	.
+R0	is-specialized-by Arg1:T3 Arg2:T4
+R1	s_p Arg1:T3 Arg2:T6
+R2	compound Arg1:T3 Arg2:T2
+R3	compound Arg1:T3 Arg2:T1
+R4	c_co Arg1:T4 Arg2:T5
+R5	compound Arg1:T5 Arg2:T4
+R6	compound Arg1:T5 Arg2:T3
+R7	compound Arg1:T5 Arg2:T2
+R8	compound Arg1:T5 Arg2:T1
+R9	p_o Arg1:T6 Arg2:T10
+R10	is-specialized-by Arg1:T10 Arg2:T8
+R11	is-specialized-by Arg1:T10 Arg2:T11
+R12	compound Arg1:T10 Arg2:T9
+R13	c_co Arg1:T11 Arg2:T14
+R14	compound Arg1:T14 Arg2:T12
+R15	compound Arg1:T14 Arg2:T13
+R16	p_o Arg1:T16 Arg2:T17

@@ -1,0 +1,35 @@
+T0	segment 0 1	''
+T1	segment 1 2	``
+T2	segment 2 8	Tulcan
+T3	segment 8 9	''
+T4	segment 9 10	''
+T5	segment 11 13	is
+T6	segment 14 18	also
+T7	segment 19 21	an
+T8	segment 22 33	alternative
+T9	segment 34 42	spelling
+T10	segment 43 45	of
+T11	segment 46 59	tulchanTulcÃ¡n
+T12	segment 60 62	is
+T13	segment 63 66	the
+T14	segment 67 74	capital
+T15	segment 75 77	of
+T16	segment 78 81	the
+T17	segment 82 90	province
+T18	segment 91 93	of
+T19	segment 94 100	Carchi
+T20	segment 101 103	in
+T21	segment 104 111	Ecuador
+T22	segment 112 113	.
+R0	s_p Arg1:T2 Arg2:T5
+R1	p_o Arg1:T5 Arg2:T9
+R2	is-specialized-by Arg1:T9 Arg2:T8
+R3	is-specialized-by Arg1:T9 Arg2:T10
+R4	is-specialized-by Arg1:T9 Arg2:T6
+R5	c_co Arg1:T10 Arg2:T11
+R6	is-specialized-by Arg1:T14 Arg2:T15
+R7	c_co Arg1:T15 Arg2:T17
+R8	is-specialized-by Arg1:T17 Arg2:T18
+R9	c_co Arg1:T18 Arg2:T19
+R10	is-specialized-by Arg1:T19 Arg2:T20
+R11	c_co Arg1:T20 Arg2:T21

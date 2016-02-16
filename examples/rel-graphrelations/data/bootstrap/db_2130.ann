@@ -1,0 +1,34 @@
+T0	segment 0 5	Karen
+T1	segment 6 11	Platt
+T2	segment 12 14	is
+T3	segment 15 16	a
+T4	segment 17 24	British
+T5	segment 25 34	gardening
+T6	segment 35 41	author
+T7	segment 42 45	and
+T8	segment 46 55	publisher
+T9	segment 55 56	,
+T10	segment 57 61	best
+T11	segment 62 67	known
+T12	segment 68 71	for
+T13	segment 72 75	the
+T14	segment 76 85	reference
+T15	segment 86 90	book
+T16	segment 91 96	Black
+T17	segment 97 102	Magic
+T18	segment 103 106	and
+T19	segment 107 113	Purple
+T20	segment 114 121	Passion
+T21	segment 122 123	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T6
+R3	compound Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T6 Arg2:T4
+R5	is-specialized-by Arg1:T11 Arg2:T10
+R6	is-specialized-by Arg1:T11 Arg2:T12
+R7	p_o Arg1:T11 Arg2:T17
+R8	c_co Arg1:T12 Arg2:T15
+R9	compound Arg1:T15 Arg2:T14
+R10	is-specialized-by Arg1:T17 Arg2:T16
+R11	compound Arg1:T20 Arg2:T19

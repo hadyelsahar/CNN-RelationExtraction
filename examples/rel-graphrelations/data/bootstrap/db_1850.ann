@@ -1,0 +1,83 @@
+T0	segment 0 8	Riohacha
+T1	segment 8 9	,
+T2	segment 10 13	Rio
+T3	segment 14 19	Hacha
+T4	segment 20 22	or
+T5	segment 23 26	Rio
+T6	segment 27 29	de
+T7	segment 30 32	la
+T8	segment 33 38	Hacha
+T9	segment 39 45	rarely
+T10	segment 46 52	called
+T11	segment 53 60	AhcaÃ³ir
+T12	segment 61 63	or
+T13	segment 64 71	Ahcaoir
+T14	segment 72 74	in
+T15	segment 75 82	English
+T16	segment 83 86	and
+T17	segment 87 92	lonic
+T18	segment 93 94	,
+T19	segment 95 97	is
+T20	segment 98 99	a
+T21	segment 100 104	city
+T22	segment 105 107	in
+T23	segment 108 111	the
+T24	segment 112 120	Riohacha
+T25	segment 121 133	Municipality
+T26	segment 134 136	in
+T27	segment 137 140	the
+T28	segment 141 149	northern
+T29	segment 150 159	Caribbean
+T30	segment 160 166	Region
+T31	segment 167 169	of
+T32	segment 170 178	Colombia
+T33	segment 179 181	by
+T34	segment 182 185	the
+T35	segment 186 191	mouth
+T36	segment 192 194	of
+T37	segment 195 198	the
+T38	segment 199 208	RancherÃ­a
+T39	segment 209 214	River
+T40	segment 215 218	and
+T41	segment 219 222	the
+T42	segment 223 232	Caribbean
+T43	segment 233 236	sea
+T44	segment 236 237	,
+T45	segment 238 245	capital
+T46	segment 246 250	city
+T47	segment 251 253	of
+T48	segment 254 257	the
+T49	segment 258 260	La
+T50	segment 261 268	Guajira
+T51	segment 269 279	Department
+T52	segment 280 281	.
+R0	s_p Arg1:T0 Arg2:T19
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T8 Arg2:T6
+R3	compound Arg1:T8 Arg2:T5
+R4	compound Arg1:T8 Arg2:T7
+R5	is-specialized-by Arg1:T10 Arg2:T9
+R6	p_o Arg1:T10 Arg2:T11
+R7	is-specialized-by Arg1:T11 Arg2:T14
+R8	c_co Arg1:T14 Arg2:T15
+R9	p_o Arg1:T19 Arg2:T21
+R10	is-specialized-by Arg1:T21 Arg2:T33
+R11	is-specialized-by Arg1:T21 Arg2:T22
+R12	c_co Arg1:T22 Arg2:T25
+R13	is-specialized-by Arg1:T25 Arg2:T26
+R14	compound Arg1:T25 Arg2:T24
+R15	c_co Arg1:T26 Arg2:T30
+R16	is-specialized-by Arg1:T30 Arg2:T31
+R17	compound Arg1:T30 Arg2:T29
+R18	is-specialized-by Arg1:T30 Arg2:T28
+R19	c_co Arg1:T31 Arg2:T32
+R20	c_co Arg1:T33 Arg2:T35
+R21	is-specialized-by Arg1:T35 Arg2:T36
+R22	c_co Arg1:T36 Arg2:T39
+R23	compound Arg1:T39 Arg2:T38
+R24	compound Arg1:T43 Arg2:T42
+R25	is-specialized-by Arg1:T46 Arg2:T47
+R26	compound Arg1:T46 Arg2:T45
+R27	c_co Arg1:T47 Arg2:T51
+R28	compound Arg1:T51 Arg2:T50
+R29	compound Arg1:T51 Arg2:T49

@@ -1,0 +1,33 @@
+T0	segment 0 9	Disonance
+T1	segment 10 20	Recordings
+T2	segment 21 23	is
+T3	segment 24 26	an
+T4	segment 27 35	American
+T5	segment 36 45	recording
+T6	segment 46 49	and
+T7	segment 50 62	distribution
+T8	segment 63 68	label
+T9	segment 68 69	,
+T10	segment 70 77	started
+T11	segment 78 80	in
+T12	segment 81 85	2001
+T13	segment 86 88	by
+T14	segment 89 93	Adam
+T15	segment 94 99	Evans
+T16	segment 100 102	in
+T17	segment 103 105	St
+T18	segment 106 107	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	compound Arg1:T8 Arg2:T7
+R5	p_p Arg1:T10 Arg2:T2
+R6	p_c Arg1:T10 Arg2:T13
+R7	p_c Arg1:T10 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T12
+R9	c_co Arg1:T13 Arg2:T14
+R10	s_p Arg1:T15 Arg2:T10
+R11	is-specialized-by Arg1:T15 Arg2:T16
+R12	compound Arg1:T15 Arg2:T14
+R13	c_co Arg1:T16 Arg2:T17

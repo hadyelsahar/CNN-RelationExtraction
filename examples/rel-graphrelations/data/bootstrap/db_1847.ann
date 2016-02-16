@@ -1,0 +1,35 @@
+T0	segment 0 3	The
+T1	segment 4 10	Samuel
+T2	segment 11 19	Griffith
+T3	segment 20 27	Society
+T4	segment 28 31	was
+T5	segment 32 39	founded
+T6	segment 40 42	by
+T7	segment 43 49	former
+T8	segment 50 55	Chief
+T9	segment 56 63	Justice
+T10	segment 64 67	Sir
+T11	segment 68 73	Harry
+T12	segment 74 79	Gibbs
+T13	segment 79 80	,
+T14	segment 81 85	John
+T15	segment 86 91	Stone
+T16	segment 92 95	and
+T17	segment 96 102	others
+T18	segment 103 105	in
+T19	segment 106 110	1992
+T20	segment 111 112	.
+R0	s_p Arg1:T3 Arg2:T5
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	compound Arg1:T5 Arg2:T4
+R4	p_c Arg1:T5 Arg2:T6
+R5	p_c Arg1:T5 Arg2:T18
+R6	c_co Arg1:T6 Arg2:T12
+R7	compound Arg1:T12 Arg2:T11
+R8	is-specialized-by Arg1:T12 Arg2:T7
+R9	compound Arg1:T12 Arg2:T8
+R10	compound Arg1:T12 Arg2:T10
+R11	compound Arg1:T12 Arg2:T9
+R12	compound Arg1:T15 Arg2:T14
+R13	c_co Arg1:T18 Arg2:T19

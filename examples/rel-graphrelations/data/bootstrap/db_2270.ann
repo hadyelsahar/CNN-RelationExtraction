@@ -1,0 +1,52 @@
+T0	segment 0 7	Gateway
+T1	segment 8 20	Films/Vision
+T2	segment 21 26	Video
+T3	segment 27 29	is
+T4	segment 30 31	a
+T5	segment 32 41	Christian
+T6	segment 42 46	film
+T7	segment 47 54	company
+T8	segment 55 62	located
+T9	segment 63 65	in
+T10	segment 66 75	Worcester
+T11	segment 75 76	,
+T12	segment 77 89	Pennsylvania
+T13	segment 89 90	,
+T14	segment 91 98	notable
+T15	segment 99 102	for
+T16	segment 103 112	producing
+T17	segment 113 116	The
+T18	segment 117 122	Cross
+T19	segment 123 126	and
+T20	segment 127 130	the
+T21	segment 131 142	Switchblade
+T22	segment 143 146	and
+T23	segment 147 152	other
+T24	segment 153 166	award-winning
+T25	segment 167 172	films
+T26	segment 172 173	,
+T27	segment 174 185	docu-dramas
+T28	segment 186 189	and
+T29	segment 190 203	documentaries
+T30	segment 204 206	of
+T31	segment 207 215	interest
+T32	segment 216 218	to
+T33	segment 219 228	Christian
+T34	segment 229 238	audiences
+T35	segment 239 240	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T7
+R4	compound Arg1:T7 Arg2:T6
+R5	is-specialized-by Arg1:T7 Arg2:T5
+R6	is-specialized-by Arg1:T8 Arg2:T9
+R7	c_co Arg1:T9 Arg2:T27
+R8	p_o Arg1:T16 Arg2:T18
+R9	is-specialized-by Arg1:T25 Arg2:T23
+R10	is-specialized-by Arg1:T27 Arg2:T14
+R11	is-specialized-by Arg1:T29 Arg2:T30
+R12	c_co Arg1:T30 Arg2:T31
+R13	is-specialized-by Arg1:T31 Arg2:T32
+R14	c_co Arg1:T32 Arg2:T34
+R15	compound Arg1:T34 Arg2:T33

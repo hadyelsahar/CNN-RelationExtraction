@@ -1,0 +1,46 @@
+T0	segment 0 8	Wheeling
+T1	segment 9 11	is
+T2	segment 12 13	a
+T3	segment 14 18	city
+T4	segment 19 21	in
+T5	segment 22 25	the
+T6	segment 26 31	State
+T7	segment 32 34	of
+T8	segment 35 39	West
+T9	segment 40 48	Virginia
+T10	segment 49 52	and
+T11	segment 53 55	is
+T12	segment 56 59	the
+T13	segment 60 66	county
+T14	segment 67 71	seat
+T15	segment 72 74	of
+T16	segment 75 79	Ohio
+T17	segment 80 86	County
+T18	segment 86 87	,
+T19	segment 88 91	but
+T20	segment 92 96	also
+T21	segment 97 100	has
+T22	segment 101 105	some
+T23	segment 106 118	subdivisions
+T24	segment 119 121	in
+T25	segment 122 130	Marshall
+T26	segment 131 137	County
+T27	segment 138 139	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	c_co Arg1:T7 Arg2:T9
+R6	compound Arg1:T9 Arg2:T6
+R7	compound Arg1:T9 Arg2:T8
+R8	compound Arg1:T9 Arg2:T7
+R9	is-specialized-by Arg1:T14 Arg2:T15
+R10	compound Arg1:T14 Arg2:T13
+R11	c_co Arg1:T15 Arg2:T17
+R12	compound Arg1:T17 Arg2:T16
+R13	is-specialized-by Arg1:T21 Arg2:T20
+R14	p_o Arg1:T21 Arg2:T23
+R15	is-specialized-by Arg1:T23 Arg2:T24
+R16	c_co Arg1:T24 Arg2:T26
+R17	compound Arg1:T26 Arg2:T25

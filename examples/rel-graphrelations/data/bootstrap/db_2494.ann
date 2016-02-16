@@ -1,0 +1,59 @@
+T0	segment 0 4	Dame
+T1	segment 5 11	Daphne
+T2	segment 12 20	Marjorie
+T3	segment 21 30	Sheldrick
+T4	segment 30 31	,
+T5	segment 32 35	DBE
+T6	segment 36 38	is
+T7	segment 39 40	a
+T8	segment 41 52	Kenya-based
+T9	segment 53 60	British
+T10	segment 61 67	author
+T11	segment 67 68	,
+T12	segment 69 84	conservationist
+T13	segment 85 88	and
+T14	segment 89 95	expert
+T15	segment 96 98	in
+T16	segment 99 105	animal
+T17	segment 106 115	husbandry
+T18	segment 115 116	,
+T19	segment 117 129	particularly
+T20	segment 130 133	the
+T21	segment 134 141	raising
+T22	segment 142 145	and
+T23	segment 146 159	reintegrating
+T24	segment 160 162	of
+T25	segment 163 171	orphaned
+T26	segment 172 181	elephants
+T27	segment 182 186	into
+T28	segment 187 190	the
+T29	segment 191 195	wild
+T30	segment 196 199	for
+T31	segment 200 204	over
+T32	segment 205 207	30
+T33	segment 208 213	years
+T34	segment 214 215	.
+R0	compound Arg1:T3 Arg2:T0
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	compound Arg1:T5 Arg2:T3
+R4	s_p Arg1:T5 Arg2:T6
+R5	compound Arg1:T5 Arg2:T0
+R6	compound Arg1:T5 Arg2:T2
+R7	compound Arg1:T5 Arg2:T1
+R8	p_o Arg1:T6 Arg2:T10
+R9	compound Arg1:T9 Arg2:T8
+R10	is-specialized-by Arg1:T10 Arg2:T24
+R11	is-specialized-by Arg1:T10 Arg2:T15
+R12	is-specialized-by Arg1:T10 Arg2:T8
+R13	c_co Arg1:T15 Arg2:T17
+R14	compound Arg1:T17 Arg2:T16
+R15	is-specialized-by Arg1:T20 Arg2:T19
+R16	c_co Arg1:T24 Arg2:T26
+R17	is-specialized-by Arg1:T26 Arg2:T25
+R18	is-specialized-by Arg1:T26 Arg2:T27
+R19	c_co Arg1:T27 Arg2:T29
+R20	is-specialized-by Arg1:T29 Arg2:T30
+R21	c_co Arg1:T30 Arg2:T33
+R22	is-specialized-by Arg1:T33 Arg2:T31
+R23	compound Arg1:T33 Arg2:T32

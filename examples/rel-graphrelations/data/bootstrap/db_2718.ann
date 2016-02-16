@@ -1,0 +1,59 @@
+T0	segment 0 3	The
+T1	segment 4 9	Hindu
+T2	segment 9 10	--
+T3	segment 10 16	German
+T4	segment 17 27	Conspiracy
+T5	segment 28 33	Trial
+T6	segment 34 43	commenced
+T7	segment 44 46	in
+T8	segment 47 50	the
+T9	segment 51 59	District
+T10	segment 60 65	Court
+T11	segment 66 68	in
+T12	segment 69 72	San
+T13	segment 73 82	Francisco
+T14	segment 83 85	on
+T15	segment 86 94	November
+T16	segment 95 97	12
+T17	segment 97 98	,
+T18	segment 99 103	1917
+T19	segment 104 113	following
+T20	segment 114 117	the
+T21	segment 118 128	uncovering
+T22	segment 129 131	of
+T23	segment 132 135	the
+T24	segment 136 141	Hindu
+T25	segment 141 142	--
+T26	segment 142 148	German
+T27	segment 149 159	Conspiracy
+T28	segment 160 163	for
+T29	segment 164 174	initiating
+T30	segment 175 176	a
+T31	segment 177 183	revolt
+T32	segment 184 186	in
+T33	segment 187 192	India
+T34	segment 193 194	.
+R0	compound Arg1:T5 Arg2:T4
+R1	s_p Arg1:T5 Arg2:T6
+R2	is-specialized-by Arg1:T5 Arg2:T3
+R3	p_c Arg1:T6 Arg2:T19
+R4	p_c Arg1:T6 Arg2:T7
+R5	p_c Arg1:T6 Arg2:T11
+R6	c_co Arg1:T7 Arg2:T10
+R7	compound Arg1:T10 Arg2:T9
+R8	c_co Arg1:T11 Arg2:T13
+R9	compound Arg1:T13 Arg2:T12
+R10	is-specialized-by Arg1:T13 Arg2:T14
+R11	c_co Arg1:T14 Arg2:T15
+R12	is-specialized-by Arg1:T15 Arg2:T16
+R13	compound Arg1:T18 Arg2:T16
+R14	compound Arg1:T18 Arg2:T15
+R15	compound Arg1:T18 Arg2:T17
+R16	c_co Arg1:T19 Arg2:T20
+R17	is-specialized-by Arg1:T20 Arg2:T22
+R18	is-specialized-by Arg1:T20 Arg2:T21
+R19	c_co Arg1:T22 Arg2:T24
+R20	is-specialized-by Arg1:T27 Arg2:T26
+R21	is-specialized-by Arg1:T29 Arg2:T32
+R22	p_o Arg1:T29 Arg2:T31
+R23	c_co Arg1:T32 Arg2:T33

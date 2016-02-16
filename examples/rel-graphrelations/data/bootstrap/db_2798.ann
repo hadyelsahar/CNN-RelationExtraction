@@ -1,0 +1,35 @@
+T0	segment 0 3	The
+T1	segment 4 10	Knight
+T2	segment 11 18	Capital
+T3	segment 19 24	Group
+T4	segment 25 28	was
+T5	segment 29 31	an
+T6	segment 32 40	American
+T7	segment 41 47	global
+T8	segment 48 57	financial
+T9	segment 58 66	services
+T10	segment 67 71	firm
+T11	segment 72 80	engaging
+T12	segment 81 83	in
+T13	segment 84 90	market
+T14	segment 91 97	making
+T15	segment 97 98	,
+T16	segment 99 109	electronic
+T17	segment 110 119	execution
+T18	segment 119 120	,
+T19	segment 121 124	and
+T20	segment 125 138	institutional
+T21	segment 139 144	sales
+T22	segment 145 148	and
+T23	segment 149 156	trading
+T24	segment 157 158	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T9
+R4	is-specialized-by Arg1:T9 Arg2:T6
+R5	is-specialized-by Arg1:T11 Arg2:T12
+R6	c_co Arg1:T12 Arg2:T14
+R7	compound Arg1:T14 Arg2:T13
+R8	is-specialized-by Arg1:T17 Arg2:T16
+R9	is-specialized-by Arg1:T21 Arg2:T20

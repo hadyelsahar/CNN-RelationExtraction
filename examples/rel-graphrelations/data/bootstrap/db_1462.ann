@@ -1,0 +1,32 @@
+T0	segment 0 3	The
+T1	segment 4 9	Upper
+T2	segment 10 16	Aulaqi
+T3	segment 17 26	Sultanate
+T4	segment 27 30	was
+T5	segment 31 32	a
+T6	segment 33 38	state
+T7	segment 39 41	in
+T8	segment 42 45	the
+T9	segment 46 53	British
+T10	segment 54 58	Aden
+T11	segment 59 71	Protectorate
+T12	segment 72 75	and
+T13	segment 76 79	the
+T14	segment 80 90	Federation
+T15	segment 91 93	of
+T16	segment 94 99	South
+T17	segment 100 106	Arabia
+T18	segment 107 108	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	c_co Arg1:T7 Arg2:T11
+R6	is-specialized-by Arg1:T11 Arg2:T9
+R7	compound Arg1:T11 Arg2:T10
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	c_co Arg1:T15 Arg2:T17
+R10	compound Arg1:T17 Arg2:T14
+R11	compound Arg1:T17 Arg2:T16
+R12	compound Arg1:T17 Arg2:T15

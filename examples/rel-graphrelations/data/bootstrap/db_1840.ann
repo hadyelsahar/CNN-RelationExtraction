@@ -1,0 +1,36 @@
+T0	segment 0 3	Sir
+T1	segment 4 10	Alfred
+T2	segment 11 15	Lane
+T3	segment 16 20	Beit
+T4	segment 20 21	,
+T5	segment 22 25	2nd
+T6	segment 26 33	Baronet
+T7	segment 34 37	was
+T8	segment 38 39	a
+T9	segment 40 47	British
+T10	segment 48 60	Conservative
+T11	segment 61 66	Party
+T12	segment 67 77	politician
+T13	segment 77 78	,
+T14	segment 79 82	art
+T15	segment 83 92	collector
+T16	segment 93 96	and
+T17	segment 97 111	philanthropist
+T18	segment 112 115	and
+T19	segment 116 124	honorary
+T20	segment 125 130	Irish
+T21	segment 131 138	citizen
+T22	segment 139 140	.
+R0	s_p Arg1:T3 Arg2:T7
+R1	compound Arg1:T3 Arg2:T0
+R2	compound Arg1:T3 Arg2:T2
+R3	compound Arg1:T3 Arg2:T1
+R4	is-specialized-by Arg1:T6 Arg2:T5
+R5	p_o Arg1:T7 Arg2:T12
+R6	compound Arg1:T11 Arg2:T10
+R7	compound Arg1:T11 Arg2:T9
+R8	compound Arg1:T12 Arg2:T11
+R9	is-specialized-by Arg1:T12 Arg2:T9
+R10	compound Arg1:T12 Arg2:T10
+R11	compound Arg1:T15 Arg2:T14
+R12	is-specialized-by Arg1:T21 Arg2:T19

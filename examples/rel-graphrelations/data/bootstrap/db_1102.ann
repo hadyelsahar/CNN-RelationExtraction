@@ -1,0 +1,30 @@
+T0	segment 0 12	Tams-Witmark
+T1	segment 13 15	is
+T2	segment 16 18	an
+T3	segment 19 27	American
+T4	segment 28 35	company
+T5	segment 36 40	that
+T6	segment 41 49	provides
+T7	segment 50 52	to
+T8	segment 53 65	professional
+T9	segment 66 69	and
+T10	segment 70 77	amateur
+T11	segment 78 86	theaters
+T12	segment 87 94	license
+T13	segment 95 97	to
+T14	segment 98 106	Broadway
+T15	segment 107 114	musical
+T16	segment 115 122	scripts
+T17	segment 123 126	and
+T18	segment 127 133	scores
+T19	segment 134 135	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	s_p Arg1:T5 Arg2:T6
+R4	is-specialized-by Arg1:T12 Arg2:T8
+R5	compound Arg1:T12 Arg2:T11
+R6	is-specialized-by Arg1:T12 Arg2:T13
+R7	c_co Arg1:T13 Arg2:T16
+R8	is-specialized-by Arg1:T16 Arg2:T15
+R9	compound Arg1:T16 Arg2:T14

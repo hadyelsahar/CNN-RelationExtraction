@@ -1,0 +1,73 @@
+T0	segment 0 5	FESCO
+T1	segment 6 20	Transportation
+T2	segment 21 26	Group
+T3	segment 27 29	is
+T4	segment 30 33	the
+T5	segment 34 41	largest
+T6	segment 42 52	intermodal
+T7	segment 53 62	transport
+T8	segment 63 71	operator
+T9	segment 72 74	in
+T10	segment 75 81	Russia
+T11	segment 81 82	,
+T12	segment 83 88	which
+T13	segment 89 97	provides
+T14	segment 98 101	its
+T15	segment 102 111	customers
+T16	segment 112 113	a
+T17	segment 114 118	wide
+T18	segment 119 124	range
+T19	segment 125 127	of
+T20	segment 128 136	services
+T21	segment 137 140	and
+T22	segment 141 151	logistical
+T23	segment 152 161	solutions
+T24	segment 161 162	,
+T25	segment 163 172	including
+T26	segment 173 179	marine
+T27	segment 180 188	shipping
+T28	segment 188 189	,
+T29	segment 190 194	rail
+T30	segment 195 209	transportation
+T31	segment 210 213	and
+T32	segment 214 218	port
+T33	segment 219 227	handling
+T34	segment 228 231	via
+T35	segment 232 236	more
+T36	segment 237 241	than
+T37	segment 242 244	70
+T38	segment 245 250	sales
+T39	segment 251 258	offices
+T40	segment 259 266	located
+T41	segment 267 273	around
+T42	segment 274 277	the
+T43	segment 278 283	world
+T44	segment 284 285	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T8
+R4	is-specialized-by Arg1:T8 Arg2:T9
+R5	compound Arg1:T8 Arg2:T7
+R6	is-specialized-by Arg1:T8 Arg2:T5
+R7	c_co Arg1:T9 Arg2:T10
+R8	s_p Arg1:T12 Arg2:T13
+R9	p_o Arg1:T13 Arg2:T18
+R10	is-specialized-by Arg1:T18 Arg2:T25
+R11	is-specialized-by Arg1:T18 Arg2:T19
+R12	is-specialized-by Arg1:T18 Arg2:T17
+R13	c_co Arg1:T19 Arg2:T20
+R14	is-specialized-by Arg1:T23 Arg2:T22
+R15	c_co Arg1:T25 Arg2:T27
+R16	is-specialized-by Arg1:T27 Arg2:T26
+R17	is-specialized-by Arg1:T30 Arg2:T34
+R18	compound Arg1:T30 Arg2:T29
+R19	compound Arg1:T33 Arg2:T32
+R20	c_co Arg1:T34 Arg2:T39
+R21	compound Arg1:T35 Arg2:T36
+R22	is-specialized-by Arg1:T37 Arg2:T35
+R23	is-specialized-by Arg1:T39 Arg2:T40
+R24	compound Arg1:T39 Arg2:T38
+R25	is-specialized-by Arg1:T39 Arg2:T37
+R26	is-specialized-by Arg1:T40 Arg2:T41
+R27	c_co Arg1:T41 Arg2:T43

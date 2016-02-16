@@ -1,0 +1,38 @@
+T0	segment 0 5	Lason
+T1	segment 6 8	is
+T2	segment 9 10	a
+T3	segment 11 19	provider
+T4	segment 20 22	of
+T5	segment 23 31	document
+T6	segment 32 42	management
+T7	segment 43 54	outsourcing
+T8	segment 55 63	services
+T9	segment 63 64	,
+T10	segment 65 74	including
+T11	segment 75 82	imaging
+T12	segment 82 83	,
+T13	segment 84 88	mail
+T14	segment 89 99	processing
+T15	segment 99 100	,
+T16	segment 101 105	data
+T17	segment 106 113	capture
+T18	segment 113 114	,
+T19	segment 115 123	document
+T20	segment 124 129	DNATM
+T21	segment 129 130	,
+T22	segment 131 134	and
+T23	segment 135 141	output
+T24	segment 142 143	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T10
+R3	is-specialized-by Arg1:T3 Arg2:T4
+R4	c_co Arg1:T4 Arg2:T8
+R5	compound Arg1:T8 Arg2:T6
+R6	compound Arg1:T8 Arg2:T5
+R7	compound Arg1:T8 Arg2:T7
+R8	c_co Arg1:T10 Arg2:T11
+R9	compound Arg1:T14 Arg2:T13
+R10	s_p Arg1:T16 Arg2:T17
+R11	p_p Arg1:T17 Arg2:T1
+R12	p_o Arg1:T17 Arg2:T20

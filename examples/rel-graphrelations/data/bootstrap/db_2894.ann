@@ -1,0 +1,27 @@
+T0	segment 0 8	Geoffrey
+T1	segment 9 16	Zanelli
+T2	segment 17 19	or
+T3	segment 20 25	Geoff
+T4	segment 26 33	Zanelli
+T5	segment 34 36	is
+T6	segment 37 38	a
+T7	segment 39 47	composer
+T8	segment 48 55	working
+T9	segment 56 65	primarily
+T10	segment 66 68	in
+T11	segment 69 72	the
+T12	segment 73 79	medium
+T13	segment 80 82	of
+T14	segment 83 87	film
+T15	segment 88 93	music
+T16	segment 94 95	.
+R0	s_p Arg1:T1 Arg2:T5
+R1	compound Arg1:T1 Arg2:T0
+R2	compound Arg1:T4 Arg2:T3
+R3	p_o Arg1:T5 Arg2:T7
+R4	is-specialized-by Arg1:T8 Arg2:T10
+R5	is-specialized-by Arg1:T8 Arg2:T9
+R6	c_co Arg1:T10 Arg2:T12
+R7	is-specialized-by Arg1:T12 Arg2:T13
+R8	c_co Arg1:T13 Arg2:T15
+R9	compound Arg1:T15 Arg2:T14

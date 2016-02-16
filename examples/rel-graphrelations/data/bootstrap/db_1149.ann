@@ -1,0 +1,50 @@
+T0	segment 0 6	Motile
+T1	segment 7 9	is
+T2	segment 10 11	a
+T3	segment 12 14	UK
+T4	segment 15 20	based
+T5	segment 21 32	independent
+T6	segment 33 39	record
+T7	segment 40 45	label
+T8	segment 45 46	,
+T9	segment 47 54	started
+T10	segment 55 57	in
+T11	segment 58 62	2004
+T12	segment 62 63	,
+T13	segment 64 73	dedicated
+T14	segment 74 76	to
+T15	segment 77 80	the
+T16	segment 81 88	release
+T17	segment 89 91	of
+T18	segment 92 98	albums
+T19	segment 99 103	that
+T20	segment 104 111	combine
+T21	segment 112 125	improvisation
+T22	segment 125 126	,
+T23	segment 127 142	experimentation
+T24	segment 143 149	and/or
+T25	segment 150 155	other
+T26	segment 156 166	approaches
+T27	segment 167 169	to
+T28	segment 170 177	explore
+T29	segment 178 181	new
+T30	segment 182 189	musical
+T31	segment 190 201	territories
+T32	segment 202 203	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T7
+R4	compound Arg1:T7 Arg2:T6
+R5	is-specialized-by Arg1:T7 Arg2:T5
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T11
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T16
+R10	is-specialized-by Arg1:T16 Arg2:T17
+R11	c_co Arg1:T17 Arg2:T18
+R12	s_p Arg1:T19 Arg2:T20
+R13	p_o Arg1:T20 Arg2:T21
+R14	is-specialized-by Arg1:T26 Arg2:T25
+R15	p_o Arg1:T28 Arg2:T31
+R16	is-specialized-by Arg1:T31 Arg2:T29

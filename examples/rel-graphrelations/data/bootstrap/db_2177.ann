@@ -1,0 +1,26 @@
+T0	segment 0 3	Rio
+T1	segment 4 10	Grande
+T2	segment 11 13	do
+T3	segment 14 17	Sul
+T4	segment 18 20	is
+T5	segment 21 22	a
+T6	segment 23 28	state
+T7	segment 29 36	located
+T8	segment 37 39	in
+T9	segment 40 43	the
+T10	segment 44 52	southern
+T11	segment 53 59	region
+T12	segment 60 62	of
+T13	segment 63 69	Brazil
+T14	segment 70 71	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_p Arg1:T2 Arg2:T4
+R3	s_p Arg1:T3 Arg2:T4
+R4	p_o Arg1:T4 Arg2:T6
+R5	is-specialized-by Arg1:T6 Arg2:T7
+R6	is-specialized-by Arg1:T7 Arg2:T8
+R7	c_co Arg1:T8 Arg2:T11
+R8	is-specialized-by Arg1:T11 Arg2:T10
+R9	is-specialized-by Arg1:T11 Arg2:T12
+R10	c_co Arg1:T12 Arg2:T13

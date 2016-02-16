@@ -1,0 +1,33 @@
+T0	segment 0 5	Kabwe
+T1	segment 6 8	is
+T2	segment 9 12	the
+T3	segment 13 20	capital
+T4	segment 21 23	of
+T5	segment 24 27	the
+T6	segment 28 35	Zambian
+T7	segment 36 43	Central
+T8	segment 44 52	Province
+T9	segment 53 57	with
+T10	segment 58 59	a
+T11	segment 60 70	population
+T12	segment 71 80	estimated
+T13	segment 81 83	at
+T14	segment 84 91	202,914
+T15	segment 92 94	at
+T16	segment 95 98	the
+T17	segment 99 103	2010
+T18	segment 104 110	census
+T19	segment 111 112	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T8
+R4	compound Arg1:T8 Arg2:T6
+R5	is-specialized-by Arg1:T8 Arg2:T9
+R6	compound Arg1:T8 Arg2:T7
+R7	c_co Arg1:T9 Arg2:T11
+R8	is-specialized-by Arg1:T12 Arg2:T15
+R9	is-specialized-by Arg1:T12 Arg2:T13
+R10	c_co Arg1:T13 Arg2:T14
+R11	c_co Arg1:T15 Arg2:T18
+R12	is-specialized-by Arg1:T18 Arg2:T17

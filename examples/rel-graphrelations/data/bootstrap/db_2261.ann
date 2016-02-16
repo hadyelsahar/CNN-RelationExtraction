@@ -1,0 +1,26 @@
+T0	segment 0 6	BenoÃ®t
+T1	segment 7 12	Marie
+T2	segment 13 20	Rolland
+T3	segment 21 22	,
+T4	segment 23 25	is
+T5	segment 26 27	a
+T6	segment 28 31	bow
+T7	segment 32 37	maker
+T8	segment 38 41	and
+T9	segment 42 50	musician
+T10	segment 50 51	,
+T11	segment 52 61	currently
+T12	segment 62 73	established
+T13	segment 74 76	in
+T14	segment 77 83	Boston
+T15	segment 83 84	,
+T16	segment 85 98	Massachusetts
+T17	segment 99 100	.
+R0	compound Arg1:T2 Arg2:T0
+R1	s_p Arg1:T2 Arg2:T12
+R2	compound Arg1:T2 Arg2:T1
+R3	compound Arg1:T7 Arg2:T6
+R4	p_c Arg1:T12 Arg2:T13
+R5	p_c Arg1:T12 Arg2:T11
+R6	c_co Arg1:T13 Arg2:T16
+R7	compound Arg1:T16 Arg2:T14

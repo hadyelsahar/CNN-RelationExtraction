@@ -1,0 +1,26 @@
+T0	segment 0 12	Playalitical
+T1	segment 13 15	is
+T2	segment 16 18	an
+T3	segment 19 27	American
+T4	segment 28 31	rap
+T5	segment 32 38	artist
+T6	segment 39 42	and
+T7	segment 43 46	the
+T8	segment 47 54	current
+T9	segment 55 64	President
+T10	segment 65 68	and
+T11	segment 69 72	CEO
+T12	segment 73 75	of
+T13	segment 76 87	Illuminated
+T14	segment 88 101	Entertainment
+T15	segment 102 107	Group
+T16	segment 108 109	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T5
+R2	compound Arg1:T5 Arg2:T4
+R3	is-specialized-by Arg1:T5 Arg2:T3
+R4	is-specialized-by Arg1:T9 Arg2:T8
+R5	is-specialized-by Arg1:T9 Arg2:T12
+R6	c_co Arg1:T12 Arg2:T15
+R7	compound Arg1:T15 Arg2:T14
+R8	compound Arg1:T15 Arg2:T13

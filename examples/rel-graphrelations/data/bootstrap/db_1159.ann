@@ -1,0 +1,54 @@
+T0	segment 0 10	Yugoslavia
+T1	segment 11 23	participated
+T2	segment 24 26	in
+T3	segment 27 30	the
+T4	segment 31 41	Eurovision
+T5	segment 42 46	Song
+T6	segment 47 54	Contest
+T7	segment 55 57	27
+T8	segment 58 63	times
+T9	segment 63 64	,
+T10	segment 65 73	debuting
+T11	segment 74 76	in
+T12	segment 77 81	1961
+T13	segment 82 85	and
+T14	segment 86 95	competing
+T15	segment 96 101	every
+T16	segment 102 106	year
+T17	segment 107 112	until
+T18	segment 113 116	its
+T19	segment 117 121	last
+T20	segment 122 132	appearance
+T21	segment 133 135	in
+T22	segment 136 140	1992
+T23	segment 140 141	,
+T24	segment 142 146	with
+T25	segment 147 150	the
+T26	segment 151 161	exceptions
+T27	segment 162 164	of
+T28	segment 165 169	1977
+T29	segment 169 170	--
+T30	segment 170 174	1980
+T31	segment 175 178	and
+T32	segment 179 183	1985
+T33	segment 184 185	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_p Arg1:T1 Arg2:T10
+R2	p_c Arg1:T1 Arg2:T2
+R3	p_c Arg1:T1 Arg2:T24
+R4	c_co Arg1:T2 Arg2:T6
+R5	compound Arg1:T6 Arg2:T4
+R6	compound Arg1:T6 Arg2:T5
+R7	is-specialized-by Arg1:T8 Arg2:T7
+R8	is-specialized-by Arg1:T10 Arg2:T11
+R9	c_co Arg1:T11 Arg2:T12
+R10	is-specialized-by Arg1:T14 Arg2:T17
+R11	compound Arg1:T16 Arg2:T15
+R12	c_co Arg1:T17 Arg2:T20
+R13	is-specialized-by Arg1:T20 Arg2:T19
+R14	is-specialized-by Arg1:T20 Arg2:T21
+R15	c_co Arg1:T21 Arg2:T22
+R16	c_co Arg1:T24 Arg2:T26
+R17	is-specialized-by Arg1:T26 Arg2:T27
+R18	c_co Arg1:T27 Arg2:T30
+R19	is-specialized-by Arg1:T30 Arg2:T28

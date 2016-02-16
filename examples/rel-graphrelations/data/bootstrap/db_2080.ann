@@ -1,0 +1,29 @@
+T0	segment 0 10	Grinlandia
+T1	segment 11 20	mentioned
+T2	segment 21 23	in
+T3	segment 24 31	several
+T4	segment 32 34	of
+T5	segment 35 38	the
+T6	segment 39 45	novels
+T7	segment 45 46	,
+T8	segment 47 50	but
+T9	segment 51 55	none
+T10	segment 56 58	of
+T11	segment 59 63	them
+T12	segment 64 67	are
+T13	segment 68 78	identified
+T14	segment 79 81	as
+T15	segment 82 83	a
+T16	segment 84 91	capital
+T17	segment 92 93	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_c Arg1:T1 Arg2:T2
+R2	c_co Arg1:T2 Arg2:T3
+R3	is-specialized-by Arg1:T3 Arg2:T4
+R4	c_co Arg1:T4 Arg2:T6
+R5	s_p Arg1:T9 Arg2:T13
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T11
+R8	compound Arg1:T13 Arg2:T12
+R9	p_c Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T16

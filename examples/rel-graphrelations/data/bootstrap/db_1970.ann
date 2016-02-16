@@ -1,0 +1,36 @@
+T0	segment 0 3	The
+T1	segment 4 12	Gondrand
+T2	segment 13 18	Group
+T3	segment 19 21	is
+T4	segment 22 24	an
+T5	segment 25 38	international
+T6	segment 39 46	freight
+T7	segment 47 57	forwarding
+T8	segment 58 61	and
+T9	segment 62 71	logistics
+T10	segment 72 80	provider
+T11	segment 81 84	for
+T12	segment 85 89	land
+T13	segment 90 100	transports
+T14	segment 100 101	,
+T15	segment 102 105	sea
+T16	segment 106 113	freight
+T17	segment 113 114	,
+T18	segment 115 118	air
+T19	segment 119 126	freight
+T20	segment 127 130	and
+T21	segment 131 139	contract
+T22	segment 140 149	logistics
+T23	segment 150 151	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T7
+R3	compound Arg1:T7 Arg2:T6
+R4	is-specialized-by Arg1:T7 Arg2:T11
+R5	is-specialized-by Arg1:T7 Arg2:T5
+R6	compound Arg1:T10 Arg2:T9
+R7	c_co Arg1:T11 Arg2:T13
+R8	compound Arg1:T13 Arg2:T12
+R9	compound Arg1:T16 Arg2:T15
+R10	compound Arg1:T19 Arg2:T18
+R11	compound Arg1:T22 Arg2:T21

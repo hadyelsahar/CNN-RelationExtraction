@@ -1,0 +1,31 @@
+T0	segment 0 10	MSDSonline
+T1	segment 11 13	is
+T2	segment 14 15	a
+T3	segment 16 23	private
+T4	segment 24 31	company
+T5	segment 32 36	that
+T6	segment 37 44	creates
+T7	segment 45 53	programs
+T8	segment 54 62	designed
+T9	segment 63 65	to
+T10	segment 66 74	organize
+T11	segment 75 83	material
+T12	segment 84 90	safety
+T13	segment 91 95	data
+T14	segment 96 102	sheets
+T15	segment 103 106	for
+T16	segment 107 112	other
+T17	segment 113 123	businesses
+T18	segment 124 125	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	s_p Arg1:T5 Arg2:T6
+R4	p_o Arg1:T6 Arg2:T7
+R5	is-specialized-by Arg1:T10 Arg2:T15
+R6	p_o Arg1:T10 Arg2:T14
+R7	compound Arg1:T14 Arg2:T12
+R8	compound Arg1:T14 Arg2:T11
+R9	compound Arg1:T14 Arg2:T13
+R10	c_co Arg1:T15 Arg2:T17
+R11	is-specialized-by Arg1:T17 Arg2:T16

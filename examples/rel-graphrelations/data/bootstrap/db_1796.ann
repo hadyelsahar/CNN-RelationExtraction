@@ -1,0 +1,49 @@
+T0	segment 0 3	For
+T1	segment 4 7	the
+T2	segment 8 16	producer
+T3	segment 17 20	and
+T4	segment 21 31	songwriter
+T5	segment 32 34	of
+T6	segment 35 38	the
+T7	segment 39 43	same
+T8	segment 44 48	name
+T9	segment 48 49	,
+T10	segment 50 53	see
+T11	segment 54 58	Dave
+T12	segment 59 64	Tough
+T13	segment 65 68	was
+T14	segment 69 71	an
+T15	segment 72 80	American
+T16	segment 81 85	jazz
+T17	segment 86 93	drummer
+T18	segment 94 104	associated
+T19	segment 105 109	with
+T20	segment 110 114	both
+T21	segment 115 124	Dixieland
+T22	segment 125 128	and
+T23	segment 129 134	swing
+T24	segment 135 139	jazz
+T25	segment 140 142	in
+T26	segment 143 146	the
+T27	segment 147 152	1930s
+T28	segment 153 156	and
+T29	segment 157 162	1940s
+T30	segment 163 164	.
+R0	c_co Arg1:T0 Arg2:T2
+R1	is-specialized-by Arg1:T2 Arg2:T5
+R2	c_co Arg1:T5 Arg2:T8
+R3	is-specialized-by Arg1:T8 Arg2:T7
+R4	is-specialized-by Arg1:T10 Arg2:T0
+R5	p_p Arg1:T10 Arg2:T13
+R6	s_p Arg1:T11 Arg2:T13
+R7	is-specialized-by Arg1:T11 Arg2:T12
+R8	compound Arg1:T12 Arg2:T11
+R9	p_o Arg1:T13 Arg2:T17
+R10	is-specialized-by Arg1:T17 Arg2:T15
+R11	compound Arg1:T17 Arg2:T16
+R12	is-specialized-by Arg1:T18 Arg2:T19
+R13	c_co Arg1:T19 Arg2:T21
+R14	p_o Arg1:T23 Arg2:T24
+R15	is-specialized-by Arg1:T23 Arg2:T25
+R16	c_co Arg1:T25 Arg2:T27
+R17	compound Arg1:T27 Arg2:T26

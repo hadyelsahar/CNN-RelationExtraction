@@ -1,0 +1,63 @@
+T0	segment 0 8	Downtown
+T1	segment 9 14	Music
+T2	segment 15 25	Publishing
+T3	segment 26 28	is
+T4	segment 29 30	a
+T5	segment 31 36	music
+T6	segment 37 43	rights
+T7	segment 44 54	management
+T8	segment 55 59	firm
+T9	segment 60 72	representing
+T10	segment 73 74	a
+T11	segment 75 81	roster
+T12	segment 82 84	of
+T13	segment 85 96	songwriters
+T14	segment 97 100	and
+T15	segment 101 109	catalogs
+T16	segment 110 119	including
+T17	segment 120 123	The
+T18	segment 124 131	Beatles
+T19	segment 131 132	,
+T20	segment 133 137	John
+T21	segment 138 144	Lennon
+T22	segment 145 146	&
+T23	segment 147 151	Yoko
+T24	segment 152 155	Ono
+T25	segment 155 156	,
+T26	segment 157 160	The
+T27	segment 161 166	Kinks
+T28	segment 166 167	,
+T29	segment 168 172	Hans
+T30	segment 173 179	Zimmer
+T31	segment 179 180	,
+T32	segment 181 187	MÃ¶tley
+T33	segment 188 192	CrÃ¼e
+T34	segment 192 193	,
+T35	segment 194 198	Seal
+T36	segment 198 199	,
+T37	segment 200 203	and
+T38	segment 204 209	Ellie
+T39	segment 210 218	Goulding
+T40	segment 218 219	,
+T41	segment 220 223	and
+T42	segment 224 228	Neon
+T43	segment 229 234	Trees
+T44	segment 235 236	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T8
+R4	compound Arg1:T8 Arg2:T6
+R5	compound Arg1:T8 Arg2:T5
+R6	compound Arg1:T8 Arg2:T7
+R7	is-specialized-by Arg1:T9 Arg2:T16
+R8	p_o Arg1:T9 Arg2:T11
+R9	is-specialized-by Arg1:T11 Arg2:T12
+R10	c_co Arg1:T12 Arg2:T13
+R11	c_co Arg1:T16 Arg2:T18
+R12	compound Arg1:T21 Arg2:T20
+R13	compound Arg1:T24 Arg2:T23
+R14	compound Arg1:T30 Arg2:T29
+R15	compound Arg1:T33 Arg2:T32
+R16	compound Arg1:T39 Arg2:T38
+R17	compound Arg1:T43 Arg2:T42

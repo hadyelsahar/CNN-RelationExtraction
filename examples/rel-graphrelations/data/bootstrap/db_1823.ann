@@ -1,0 +1,40 @@
+T0	segment 0 5	Ideum
+T1	segment 6 8	is
+T2	segment 9 10	a
+T3	segment 11 18	company
+T4	segment 19 24	based
+T5	segment 25 27	in
+T6	segment 28 36	Corrales
+T7	segment 36 37	,
+T8	segment 38 41	New
+T9	segment 42 48	Mexico
+T10	segment 49 53	that
+T11	segment 54 62	produces
+T12	segment 63 73	multitouch
+T13	segment 74 80	tables
+T14	segment 81 84	and
+T15	segment 85 90	walls
+T16	segment 90 91	,
+T17	segment 92 98	custom
+T18	segment 99 110	interactive
+T19	segment 111 114	web
+T20	segment 115 118	and
+T21	segment 119 124	media
+T22	segment 125 137	applications
+T23	segment 137 138	,
+T24	segment 139 142	and
+T25	segment 143 149	custom
+T26	segment 150 158	hardware
+T27	segment 159 160	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T4 Arg2:T5
+R3	c_co Arg1:T5 Arg2:T6
+R4	compound Arg1:T9 Arg2:T8
+R5	s_p Arg1:T10 Arg2:T11
+R6	p_o Arg1:T11 Arg2:T13
+R7	is-specialized-by Arg1:T13 Arg2:T12
+R8	is-specialized-by Arg1:T19 Arg2:T18
+R9	compound Arg1:T19 Arg2:T17
+R10	compound Arg1:T22 Arg2:T21
+R11	compound Arg1:T26 Arg2:T25

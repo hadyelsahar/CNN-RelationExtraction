@@ -1,0 +1,30 @@
+T0	segment 0 3	The
+T1	segment 4 12	Republic
+T2	segment 13 15	of
+T3	segment 16 22	Venice
+T4	segment 23 26	was
+T5	segment 27 28	a
+T6	segment 29 34	state
+T7	segment 35 46	originating
+T8	segment 47 51	from
+T9	segment 52 55	the
+T10	segment 56 60	city
+T11	segment 61 63	of
+T12	segment 64 70	Venice
+T13	segment 71 73	in
+T14	segment 74 86	Northeastern
+T15	segment 87 92	Italy
+T16	segment 93 94	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	compound Arg1:T3 Arg2:T2
+R4	compound Arg1:T3 Arg2:T1
+R5	p_o Arg1:T4 Arg2:T6
+R6	is-specialized-by Arg1:T7 Arg2:T8
+R7	is-specialized-by Arg1:T7 Arg2:T13
+R8	c_co Arg1:T8 Arg2:T10
+R9	is-specialized-by Arg1:T10 Arg2:T11
+R10	c_co Arg1:T11 Arg2:T12
+R11	c_co Arg1:T13 Arg2:T15
+R12	compound Arg1:T15 Arg2:T14

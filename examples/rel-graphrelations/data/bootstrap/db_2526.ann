@@ -1,0 +1,40 @@
+T0	segment 0 3	The
+T1	segment 4 12	Brisbane
+T2	segment 13 20	Broncos
+T3	segment 21 24	are
+T4	segment 25 27	an
+T5	segment 28 38	Australian
+T6	segment 39 51	professional
+T7	segment 52 57	rugby
+T8	segment 58 64	league
+T9	segment 65 73	football
+T10	segment 74 78	club
+T11	segment 79 84	based
+T12	segment 85 87	in
+T13	segment 88 91	the
+T14	segment 92 96	city
+T15	segment 97 99	of
+T16	segment 100 108	Brisbane
+T17	segment 108 109	,
+T18	segment 110 113	the
+T19	segment 114 121	capital
+T20	segment 122 124	of
+T21	segment 125 128	the
+T22	segment 129 134	state
+T23	segment 135 137	of
+T24	segment 138 148	Queensland
+T25	segment 149 150	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T10
+R3	is-specialized-by Arg1:T10 Arg2:T5
+R4	compound Arg1:T10 Arg2:T8
+R5	is-specialized-by Arg1:T10 Arg2:T11
+R6	compound Arg1:T10 Arg2:T9
+R7	c_co Arg1:T11 Arg2:T14
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	c_co Arg1:T15 Arg2:T16
+R10	is-specialized-by Arg1:T19 Arg2:T20
+R11	c_co Arg1:T20 Arg2:T22
+R12	is-specialized-by Arg1:T22 Arg2:T23
+R13	c_co Arg1:T23 Arg2:T24

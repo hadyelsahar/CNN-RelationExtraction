@@ -1,0 +1,33 @@
+T0	segment 0 3	The
+T1	segment 4 13	Cisalpine
+T2	segment 14 22	Republic
+T3	segment 23 26	was
+T4	segment 27 28	a
+T5	segment 29 35	French
+T6	segment 36 42	client
+T7	segment 43 51	republic
+T8	segment 52 54	in
+T9	segment 55 63	Northern
+T10	segment 64 69	Italy
+T11	segment 70 74	that
+T12	segment 75 81	lasted
+T13	segment 82 86	from
+T14	segment 87 91	1797
+T15	segment 92 94	to
+T16	segment 95 99	1802
+T17	segment 100 101	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T7
+R3	is-specialized-by Arg1:T7 Arg2:T8
+R4	compound Arg1:T7 Arg2:T6
+R5	is-specialized-by Arg1:T7 Arg2:T5
+R6	c_co Arg1:T8 Arg2:T10
+R7	compound Arg1:T10 Arg2:T9
+R8	s_p Arg1:T11 Arg2:T12
+R9	p_c Arg1:T12 Arg2:T15
+R10	p_c Arg1:T12 Arg2:T13
+R11	c_co Arg1:T13 Arg2:T14
+R12	c_co Arg1:T15 Arg2:T16
+R13	compound Arg1:T16 Arg2:T14
+R14	compound Arg1:T16 Arg2:T15

@@ -1,0 +1,37 @@
+T0	segment 0 3	The
+T1	segment 4 9	Merry
+T2	segment 10 19	Hempsters
+T3	segment 20 22	is
+T4	segment 23 24	a
+T5	segment 25 37	manufacturer
+T6	segment 38 40	of
+T7	segment 41 50	certified
+T8	segment 51 58	organic
+T9	segment 59 62	and
+T10	segment 63 68	vegan
+T11	segment 69 73	hemp
+T12	segment 74 78	seed
+T13	segment 79 88	oil-based
+T14	segment 89 97	products
+T15	segment 98 105	located
+T16	segment 106 108	in
+T17	segment 109 115	Eugene
+T18	segment 115 116	,
+T19	segment 117 123	Oregon
+T20	segment 123 124	,
+T21	segment 125 131	United
+T22	segment 132 138	States
+T23	segment 139 140	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T6
+R4	c_co Arg1:T6 Arg2:T8
+R5	is-specialized-by Arg1:T8 Arg2:T7
+R6	compound Arg1:T14 Arg2:T12
+R7	compound Arg1:T14 Arg2:T11
+R8	is-specialized-by Arg1:T14 Arg2:T10
+R9	is-specialized-by Arg1:T15 Arg2:T16
+R10	c_co Arg1:T16 Arg2:T17
+R11	compound Arg1:T22 Arg2:T19
+R12	compound Arg1:T22 Arg2:T21

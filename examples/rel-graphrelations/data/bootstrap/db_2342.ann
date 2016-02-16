@@ -1,0 +1,29 @@
+T0	segment 0 8	Aisleyne
+T1	segment 9 23	Horgan-Wallace
+T2	segment 24 26	is
+T3	segment 27 28	a
+T4	segment 29 36	British
+T5	segment 37 44	glamour
+T6	segment 45 50	model
+T7	segment 50 51	,
+T8	segment 52 59	fashion
+T9	segment 60 68	designer
+T10	segment 68 69	,
+T11	segment 70 78	magazine
+T12	segment 79 88	columnist
+T13	segment 88 89	,
+T14	segment 90 97	actress
+T15	segment 97 98	,
+T16	segment 99 102	and
+T17	segment 103 113	television
+T18	segment 114 115	&
+T19	segment 116 121	media
+T20	segment 122 133	personality
+T21	segment 134 135	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T6
+R3	compound Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T6 Arg2:T4
+R5	compound Arg1:T9 Arg2:T8
+R6	compound Arg1:T12 Arg2:T11

@@ -1,0 +1,28 @@
+T0	segment 0 5	Delta
+T1	segment 6 11	CafÃ©s
+T2	segment 12 14	is
+T3	segment 15 16	a
+T4	segment 17 27	Portuguese
+T5	segment 28 34	coffee
+T6	segment 35 43	roasting
+T7	segment 44 47	and
+T8	segment 48 54	coffee
+T9	segment 55 64	packaging
+T10	segment 65 72	company
+T11	segment 73 86	headquartered
+T12	segment 87 89	in
+T13	segment 90 95	Campo
+T14	segment 96 101	Maior
+T15	segment 101 102	,
+T16	segment 103 111	Alentejo
+T17	segment 112 113	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T6
+R3	compound Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T6 Arg2:T4
+R5	compound Arg1:T10 Arg2:T8
+R6	compound Arg1:T10 Arg2:T9
+R7	is-specialized-by Arg1:T11 Arg2:T12
+R8	c_co Arg1:T12 Arg2:T14
+R9	compound Arg1:T14 Arg2:T13

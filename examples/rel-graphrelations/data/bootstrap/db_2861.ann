@@ -1,0 +1,31 @@
+T0	segment 0 5	Great
+T1	segment 6 14	American
+T2	segment 15 22	Cookies
+T3	segment 23 25	is
+T4	segment 26 27	a
+T5	segment 28 33	chain
+T6	segment 34 36	of
+T7	segment 37 50	independently
+T8	segment 51 56	owned
+T9	segment 57 60	and
+T10	segment 61 69	operated
+T11	segment 70 80	franchised
+T12	segment 81 87	stores
+T13	segment 88 92	that
+T14	segment 93 103	specialize
+T15	segment 104 106	in
+T16	segment 107 114	gourmet
+T17	segment 115 122	cookies
+T18	segment 123 124	.
+R0	is-specialized-by Arg1:T2 Arg2:T0
+R1	s_p Arg1:T2 Arg2:T3
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T5
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T12
+R6	is-specialized-by Arg1:T8 Arg2:T7
+R7	is-specialized-by Arg1:T12 Arg2:T8
+R8	s_p Arg1:T13 Arg2:T14
+R9	p_c Arg1:T14 Arg2:T15
+R10	c_co Arg1:T15 Arg2:T17
+R11	compound Arg1:T17 Arg2:T16

@@ -1,0 +1,28 @@
+T0	segment 0 6	Myaing
+T1	segment 7 9	is
+T2	segment 10 11	a
+T3	segment 12 16	town
+T4	segment 17 20	and
+T5	segment 21 25	seat
+T6	segment 26 28	of
+T7	segment 29 35	Myaing
+T8	segment 36 44	Township
+T9	segment 45 47	in
+T10	segment 48 51	the
+T11	segment 52 58	Magway
+T12	segment 59 65	Region
+T13	segment 66 68	of
+T14	segment 69 76	central
+T15	segment 77 82	Burma
+T16	segment 83 84	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T6
+R3	c_co Arg1:T6 Arg2:T8
+R4	is-specialized-by Arg1:T8 Arg2:T9
+R5	compound Arg1:T8 Arg2:T7
+R6	c_co Arg1:T9 Arg2:T12
+R7	compound Arg1:T12 Arg2:T11
+R8	is-specialized-by Arg1:T12 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T15
+R10	is-specialized-by Arg1:T15 Arg2:T14

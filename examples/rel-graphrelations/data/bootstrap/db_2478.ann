@@ -1,0 +1,36 @@
+T0	segment 0 4	Etro
+T1	segment 5 7	is
+T2	segment 8 10	an
+T3	segment 11 18	Italian
+T4	segment 19 25	luxury
+T5	segment 26 33	fashion
+T6	segment 34 39	house
+T7	segment 40 44	that
+T8	segment 45 53	produces
+T9	segment 54 67	ready-to-wear
+T10	segment 67 68	,
+T11	segment 69 74	shoes
+T12	segment 74 75	,
+T13	segment 76 83	jewelry
+T14	segment 83 84	,
+T15	segment 85 96	accessories
+T16	segment 96 97	,
+T17	segment 98 105	leather
+T18	segment 106 111	goods
+T19	segment 111 112	,
+T20	segment 113 121	textiles
+T21	segment 121 122	,
+T22	segment 123 127	home
+T23	segment 128 133	decor
+T24	segment 134 137	and
+T25	segment 138 146	perfumes
+T26	segment 147 148	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T6
+R2	compound Arg1:T6 Arg2:T4
+R3	compound Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T6 Arg2:T3
+R5	s_p Arg1:T7 Arg2:T8
+R6	p_o Arg1:T8 Arg2:T9
+R7	compound Arg1:T18 Arg2:T17
+R8	compound Arg1:T23 Arg2:T22

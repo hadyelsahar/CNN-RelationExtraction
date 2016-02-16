@@ -1,0 +1,39 @@
+T0	segment 0 3	The
+T1	segment 4 12	Republic
+T2	segment 13 15	of
+T3	segment 16 21	North
+T4	segment 22 26	Peru
+T5	segment 27 30	was
+T6	segment 31 34	one
+T7	segment 35 37	of
+T8	segment 38 41	the
+T9	segment 42 47	three
+T10	segment 48 59	constituent
+T11	segment 60 69	Republics
+T12	segment 70 72	of
+T13	segment 73 76	the
+T14	segment 77 88	short-lived
+T15	segment 89 93	Peru
+T16	segment 93 94	--
+T17	segment 94 102	Bolivian
+T18	segment 103 116	Confederation
+T19	segment 117 119	of
+T20	segment 120 124	1836
+T21	segment 124 125	--
+T22	segment 125 127	39
+T23	segment 128 129	.
+R0	s_p Arg1:T1 Arg2:T5
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	c_co Arg1:T2 Arg2:T4
+R3	compound Arg1:T4 Arg2:T3
+R4	p_o Arg1:T5 Arg2:T6
+R5	is-specialized-by Arg1:T6 Arg2:T7
+R6	c_co Arg1:T7 Arg2:T11
+R7	is-specialized-by Arg1:T11 Arg2:T9
+R8	is-specialized-by Arg1:T11 Arg2:T12
+R9	compound Arg1:T11 Arg2:T10
+R10	c_co Arg1:T12 Arg2:T15
+R11	is-specialized-by Arg1:T15 Arg2:T14
+R12	is-specialized-by Arg1:T18 Arg2:T17
+R13	is-specialized-by Arg1:T18 Arg2:T19
+R14	c_co Arg1:T19 Arg2:T20

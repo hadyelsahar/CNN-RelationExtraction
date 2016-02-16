@@ -1,0 +1,27 @@
+T0	segment 0 8	Xperedon
+T1	segment 9 11	is
+T2	segment 12 14	an
+T3	segment 15 25	initiative
+T4	segment 26 33	started
+T5	segment 34 36	in
+T6	segment 37 41	2010
+T7	segment 41 42	,
+T8	segment 43 51	intended
+T9	segment 52 54	to
+T10	segment 55 68	revolutionise
+T11	segment 69 72	the
+T12	segment 73 76	way
+T13	segment 77 83	people
+T14	segment 84 88	make
+T15	segment 89 99	charitable
+T16	segment 100 109	donations
+T17	segment 110 111	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T4 Arg2:T5
+R3	c_co Arg1:T5 Arg2:T6
+R4	p_p Arg1:T10 Arg2:T14
+R5	compound Arg1:T13 Arg2:T12
+R6	s_p Arg1:T13 Arg2:T14
+R7	p_o Arg1:T14 Arg2:T16
+R8	is-specialized-by Arg1:T16 Arg2:T15

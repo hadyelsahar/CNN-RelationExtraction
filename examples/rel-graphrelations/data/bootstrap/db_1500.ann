@@ -1,0 +1,31 @@
+T0	segment 0 9	Singaraja
+T1	segment 10 12	is
+T2	segment 13 14	a
+T3	segment 15 19	town
+T4	segment 20 22	in
+T5	segment 23 31	northern
+T6	segment 32 36	Bali
+T7	segment 36 37	,
+T8	segment 38 47	Indonesia
+T9	segment 47 48	,
+T10	segment 49 54	which
+T11	segment 55 61	serves
+T12	segment 62 64	as
+T13	segment 65 68	the
+T14	segment 69 73	seat
+T15	segment 74 76	of
+T16	segment 77 85	Buleleng
+T17	segment 86 93	Regency
+T18	segment 94 95	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T8
+R4	compound Arg1:T8 Arg2:T6
+R5	is-specialized-by Arg1:T8 Arg2:T5
+R6	s_p Arg1:T10 Arg2:T11
+R7	p_c Arg1:T11 Arg2:T12
+R8	c_co Arg1:T12 Arg2:T14
+R9	is-specialized-by Arg1:T14 Arg2:T15
+R10	c_co Arg1:T15 Arg2:T17
+R11	compound Arg1:T17 Arg2:T16

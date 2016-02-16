@@ -1,0 +1,54 @@
+T0	segment 0 6	Howell
+T1	segment 7 12	Works
+T2	segment 13 16	was
+T3	segment 17 18	a
+T4	segment 19 22	bog
+T5	segment 23 33	iron-based
+T6	segment 34 44	production
+T7	segment 45 53	facility
+T8	segment 54 57	for
+T9	segment 58 61	pig
+T10	segment 62 66	iron
+T11	segment 67 72	which
+T12	segment 73 76	was
+T13	segment 77 88	established
+T14	segment 89 91	in
+T15	segment 92 95	New
+T16	segment 96 102	Jersey
+T17	segment 103 105	in
+T18	segment 106 109	the
+T19	segment 110 115	early
+T20	segment 116 120	19th
+T21	segment 121 128	century
+T22	segment 129 131	by
+T23	segment 132 140	American
+T24	segment 141 149	engineer
+T25	segment 150 153	and
+T26	segment 154 168	philanthropist
+T27	segment 169 174	James
+T28	segment 175 176	P
+T29	segment 177 178	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T7
+R3	compound Arg1:T7 Arg2:T4
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	compound Arg1:T7 Arg2:T6
+R6	is-specialized-by Arg1:T7 Arg2:T5
+R7	c_co Arg1:T8 Arg2:T10
+R8	compound Arg1:T10 Arg2:T9
+R9	s_p Arg1:T11 Arg2:T13
+R10	compound Arg1:T13 Arg2:T12
+R11	p_c Arg1:T13 Arg2:T14
+R12	p_c Arg1:T13 Arg2:T22
+R13	c_co Arg1:T14 Arg2:T16
+R14	is-specialized-by Arg1:T16 Arg2:T17
+R15	compound Arg1:T16 Arg2:T15
+R16	c_co Arg1:T17 Arg2:T21
+R17	compound Arg1:T21 Arg2:T20
+R18	compound Arg1:T21 Arg2:T19
+R19	compound Arg1:T21 Arg2:T18
+R20	c_co Arg1:T22 Arg2:T24
+R21	is-specialized-by Arg1:T24 Arg2:T23
+R22	compound Arg1:T28 Arg2:T27
+R23	compound Arg1:T28 Arg2:T26

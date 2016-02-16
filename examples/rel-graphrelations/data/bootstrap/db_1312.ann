@@ -1,0 +1,58 @@
+T0	segment 0 3	The
+T1	segment 4 16	Marshalltown
+T2	segment 17 24	Company
+T3	segment 24 25	,
+T4	segment 26 31	based
+T5	segment 32 34	in
+T6	segment 35 47	Marshalltown
+T7	segment 47 48	,
+T8	segment 49 53	Iowa
+T9	segment 53 54	,
+T10	segment 55 57	is
+T11	segment 58 60	an
+T12	segment 61 69	American
+T13	segment 70 82	manufacturer
+T14	segment 83 85	of
+T15	segment 86 98	construction
+T16	segment 99 104	tools
+T17	segment 105 108	for
+T18	segment 109 116	various
+T19	segment 117 121	uses
+T20	segment 122 126	such
+T21	segment 127 129	as
+T22	segment 130 137	masonry
+T23	segment 137 138	,
+T24	segment 139 147	concrete
+T25	segment 147 148	,
+T26	segment 149 156	drywall
+T27	segment 156 157	,
+T28	segment 158 168	plastering
+T29	segment 168 169	,
+T30	segment 170 178	flooring
+T31	segment 178 179	,
+T32	segment 180 188	exterior
+T33	segment 189 199	insulation
+T34	segment 199 200	,
+T35	segment 201 204	and
+T36	segment 205 209	many
+T37	segment 210 216	others
+T38	segment 217 218	.
+R0	s_p Arg1:T2 Arg2:T10
+R1	compound Arg1:T2 Arg2:T1
+R2	is-specialized-by Arg1:T4 Arg2:T5
+R3	c_co Arg1:T5 Arg2:T8
+R4	compound Arg1:T8 Arg2:T6
+R5	p_o Arg1:T10 Arg2:T13
+R6	is-specialized-by Arg1:T13 Arg2:T12
+R7	is-specialized-by Arg1:T13 Arg2:T14
+R8	c_co Arg1:T14 Arg2:T16
+R9	is-specialized-by Arg1:T16 Arg2:T17
+R10	is-specialized-by Arg1:T16 Arg2:T20
+R11	compound Arg1:T16 Arg2:T15
+R12	c_co Arg1:T17 Arg2:T19
+R13	is-specialized-by Arg1:T19 Arg2:T18
+R14	compound Arg1:T20 Arg2:T21
+R15	c_co Arg1:T20 Arg2:T26
+R16	compound Arg1:T26 Arg2:T22
+R17	compound Arg1:T33 Arg2:T32
+R18	is-specialized-by Arg1:T37 Arg2:T36

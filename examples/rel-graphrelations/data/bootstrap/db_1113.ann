@@ -1,0 +1,49 @@
+T0	segment 0 3	The
+T1	segment 4 14	Washington
+T2	segment 15 23	District
+T3	segment 24 26	of
+T4	segment 27 32	North
+T5	segment 33 41	Carolina
+T6	segment 42 45	was
+T7	segment 46 48	in
+T8	segment 49 50	a
+T9	segment 51 57	remote
+T10	segment 58 62	area
+T11	segment 63 67	west
+T12	segment 68 70	of
+T13	segment 71 74	the
+T14	segment 75 86	Appalachian
+T15	segment 87 96	Mountains
+T16	segment 96 97	,
+T17	segment 98 108	officially
+T18	segment 109 117	existing
+T19	segment 118 121	for
+T20	segment 122 126	only
+T21	segment 127 128	a
+T22	segment 129 134	short
+T23	segment 135 141	period
+T24	segment 142 144	as
+T25	segment 145 149	well
+T26	segment 150 151	.
+R0	s_p Arg1:T2 Arg2:T6
+R1	is-specialized-by Arg1:T2 Arg2:T3
+R2	compound Arg1:T2 Arg2:T1
+R3	c_co Arg1:T3 Arg2:T5
+R4	compound Arg1:T5 Arg2:T4
+R5	compound Arg1:T5 Arg2:T3
+R6	compound Arg1:T5 Arg2:T2
+R7	compound Arg1:T5 Arg2:T1
+R8	p_o Arg1:T6 Arg2:T18
+R9	c_co Arg1:T7 Arg2:T11
+R10	is-specialized-by Arg1:T11 Arg2:T9
+R11	is-specialized-by Arg1:T11 Arg2:T12
+R12	compound Arg1:T11 Arg2:T10
+R13	c_co Arg1:T12 Arg2:T15
+R14	compound Arg1:T15 Arg2:T14
+R15	is-specialized-by Arg1:T18 Arg2:T7
+R16	is-specialized-by Arg1:T18 Arg2:T17
+R17	is-specialized-by Arg1:T18 Arg2:T19
+R18	c_co Arg1:T19 Arg2:T23
+R19	is-specialized-by Arg1:T23 Arg2:T20
+R20	is-specialized-by Arg1:T23 Arg2:T22
+R21	compound Arg1:T24 Arg2:T25

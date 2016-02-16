@@ -1,0 +1,29 @@
+T0	segment 0 3	The
+T1	segment 4 12	Damaturu
+T2	segment 13 20	Emirate
+T3	segment 21 23	is
+T4	segment 24 25	a
+T5	segment 26 34	Nigerian
+T6	segment 35 46	traditional
+T7	segment 47 52	state
+T8	segment 53 58	based
+T9	segment 59 61	in
+T10	segment 62 70	Damaturu
+T11	segment 70 71	,
+T12	segment 72 75	the
+T13	segment 76 83	capital
+T14	segment 84 86	of
+T15	segment 87 91	Yobe
+T16	segment 92 97	State
+T17	segment 97 98	,
+T18	segment 99 106	Nigeria
+T19	segment 107 108	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T7
+R3	is-specialized-by Arg1:T7 Arg2:T8
+R4	is-specialized-by Arg1:T7 Arg2:T5
+R5	c_co Arg1:T8 Arg2:T10
+R6	is-specialized-by Arg1:T13 Arg2:T14
+R7	c_co Arg1:T14 Arg2:T16
+R8	compound Arg1:T16 Arg2:T15

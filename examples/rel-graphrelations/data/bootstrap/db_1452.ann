@@ -1,0 +1,34 @@
+T0	segment 0 8	Bulgaria
+T1	segment 9 12	has
+T2	segment 13 25	participated
+T3	segment 26 28	in
+T4	segment 29 32	the
+T5	segment 33 43	Eurovision
+T6	segment 44 48	Song
+T7	segment 49 56	Contest
+T8	segment 57 61	nine
+T9	segment 62 67	times
+T10	segment 68 73	since
+T11	segment 74 79	their
+T12	segment 80 85	debut
+T13	segment 86 88	at
+T14	segment 89 92	the
+T15	segment 93 97	2005
+T16	segment 98 105	contest
+T17	segment 106 108	in
+T18	segment 109 113	Kiev
+T19	segment 114 115	.
+R0	s_p Arg1:T0 Arg2:T2
+R1	p_c Arg1:T2 Arg2:T17
+R2	p_c Arg1:T2 Arg2:T3
+R3	p_c Arg1:T2 Arg2:T13
+R4	compound Arg1:T2 Arg2:T1
+R5	c_co Arg1:T3 Arg2:T7
+R6	compound Arg1:T7 Arg2:T6
+R7	compound Arg1:T7 Arg2:T5
+R8	is-specialized-by Arg1:T7 Arg2:T10
+R9	is-specialized-by Arg1:T9 Arg2:T8
+R10	c_co Arg1:T10 Arg2:T12
+R11	c_co Arg1:T13 Arg2:T16
+R12	is-specialized-by Arg1:T16 Arg2:T15
+R13	c_co Arg1:T17 Arg2:T18

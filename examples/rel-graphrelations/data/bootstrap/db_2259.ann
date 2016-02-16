@@ -1,0 +1,46 @@
+T0	segment 0 3	The
+T1	segment 4 11	Kingdom
+T2	segment 12 14	of
+T3	segment 15 23	Tavolara
+T4	segment 24 27	was
+T5	segment 28 30	an
+T6	segment 31 40	imaginary
+T7	segment 41 46	state
+T8	segment 47 55	claiming
+T9	segment 56 68	independence
+T10	segment 69 71	in
+T11	segment 72 75	the
+T12	segment 76 80	19th
+T13	segment 81 84	and
+T14	segment 85 89	20th
+T15	segment 90 99	centuries
+T16	segment 100 102	in
+T17	segment 103 111	Tavolara
+T18	segment 112 118	Island
+T19	segment 118 119	,
+T20	segment 120 123	off
+T21	segment 124 127	the
+T22	segment 128 137	northeast
+T23	segment 138 143	coast
+T24	segment 144 146	of
+T25	segment 147 155	Sardinia
+T26	segment 156 157	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T6
+R5	is-specialized-by Arg1:T8 Arg2:T20
+R6	p_o Arg1:T8 Arg2:T9
+R7	is-specialized-by Arg1:T9 Arg2:T10
+R8	c_co Arg1:T10 Arg2:T15
+R9	compound Arg1:T15 Arg2:T12
+R10	is-specialized-by Arg1:T15 Arg2:T16
+R11	compound Arg1:T15 Arg2:T14
+R12	compound Arg1:T15 Arg2:T13
+R13	c_co Arg1:T16 Arg2:T18
+R14	compound Arg1:T18 Arg2:T17
+R15	c_co Arg1:T20 Arg2:T23
+R16	is-specialized-by Arg1:T23 Arg2:T24
+R17	is-specialized-by Arg1:T23 Arg2:T22
+R18	c_co Arg1:T24 Arg2:T25

@@ -1,0 +1,63 @@
+T0	segment 0 3	The
+T1	segment 4 13	Compagnie
+T2	segment 14 22	gÃ©nÃ©rale
+T3	segment 23 25	de
+T4	segment 26 36	navigation
+T5	segment 37 40	sur
+T6	segment 41 43	le
+T7	segment 44 47	lac
+T8	segment 48 53	LÃ©man
+T9	segment 54 56	or
+T10	segment 57 61	Lake
+T11	segment 62 68	Geneva
+T12	segment 69 76	General
+T13	segment 77 87	Navigation
+T14	segment 88 95	Company
+T15	segment 96 98	is
+T16	segment 99 100	a
+T17	segment 101 107	public
+T18	segment 108 113	Swiss
+T19	segment 114 121	company
+T20	segment 122 131	operating
+T21	segment 132 137	boats
+T22	segment 138 140	on
+T23	segment 141 145	Lake
+T24	segment 146 152	Geneva
+T25	segment 153 163	connecting
+T26	segment 164 169	towns
+T27	segment 170 172	in
+T28	segment 173 177	both
+T29	segment 178 184	France
+T30	segment 185 188	and
+T31	segment 189 200	Switzerland
+T32	segment 201 210	including
+T33	segment 211 217	Geneva
+T34	segment 217 218	,
+T35	segment 219 224	Vevey
+T36	segment 224 225	,
+T37	segment 226 234	Montreux
+T38	segment 234 235	,
+T39	segment 236 251	Ãvian-les-Bains
+T40	segment 252 255	and
+T41	segment 256 264	Lausanne
+T42	segment 265 266	.
+R0	s_p Arg1:T1 Arg2:T15
+R1	compound Arg1:T5 Arg2:T4
+R2	compound Arg1:T5 Arg2:T3
+R3	compound Arg1:T5 Arg2:T2
+R4	compound Arg1:T8 Arg2:T7
+R5	compound Arg1:T14 Arg2:T12
+R6	compound Arg1:T14 Arg2:T11
+R7	compound Arg1:T14 Arg2:T13
+R8	compound Arg1:T14 Arg2:T10
+R9	p_o Arg1:T15 Arg2:T19
+R10	is-specialized-by Arg1:T19 Arg2:T17
+R11	p_o Arg1:T20 Arg2:T21
+R12	is-specialized-by Arg1:T20 Arg2:T22
+R13	c_co Arg1:T22 Arg2:T24
+R14	compound Arg1:T24 Arg2:T23
+R15	p_o Arg1:T25 Arg2:T26
+R16	is-specialized-by Arg1:T26 Arg2:T32
+R17	is-specialized-by Arg1:T26 Arg2:T27
+R18	c_co Arg1:T27 Arg2:T29
+R19	c_co Arg1:T32 Arg2:T33

@@ -1,0 +1,45 @@
+T0	segment 0 10	Demandware
+T1	segment 11 13	is
+T2	segment 14 15	a
+T3	segment 16 24	software
+T4	segment 25 35	technology
+T5	segment 36 43	company
+T6	segment 44 57	headquartered
+T7	segment 58 60	in
+T8	segment 61 71	Burlington
+T9	segment 71 72	,
+T10	segment 73 86	Massachusetts
+T11	segment 86 87	,
+T12	segment 88 97	providing
+T13	segment 98 99	a
+T14	segment 100 111	cloud-based
+T15	segment 112 122	e-commerce
+T16	segment 123 131	platform
+T17	segment 132 135	and
+T18	segment 136 143	related
+T19	segment 144 152	services
+T20	segment 153 156	for
+T21	segment 157 166	retailers
+T22	segment 167 170	and
+T23	segment 171 176	brand
+T24	segment 177 190	manufacturers
+T25	segment 191 197	around
+T26	segment 198 201	the
+T27	segment 202 207	world
+T28	segment 208 209	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T5
+R2	compound Arg1:T5 Arg2:T4
+R3	compound Arg1:T5 Arg2:T3
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	c_co Arg1:T7 Arg2:T10
+R6	compound Arg1:T10 Arg2:T8
+R7	p_o Arg1:T12 Arg2:T16
+R8	is-specialized-by Arg1:T12 Arg2:T25
+R9	compound Arg1:T16 Arg2:T15
+R10	is-specialized-by Arg1:T16 Arg2:T14
+R11	is-specialized-by Arg1:T19 Arg2:T18
+R12	is-specialized-by Arg1:T19 Arg2:T20
+R13	c_co Arg1:T20 Arg2:T21
+R14	compound Arg1:T24 Arg2:T23
+R15	c_co Arg1:T25 Arg2:T27

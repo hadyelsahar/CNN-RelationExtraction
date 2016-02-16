@@ -1,0 +1,26 @@
+T0	segment 0 5	Glele
+T1	segment 6 8	or
+T2	segment 9 16	Badohou
+T3	segment 17 20	was
+T4	segment 21 24	the
+T5	segment 25 30	tenth
+T6	segment 31 35	King
+T7	segment 36 38	of
+T8	segment 39 46	Dahomey
+T9	segment 46 47	,
+T10	segment 48 54	ruling
+T11	segment 55 59	from
+T12	segment 60 64	1858
+T13	segment 65 70	until
+T14	segment 71 74	his
+T15	segment 75 80	death
+T16	segment 81 82	.
+R0	s_p Arg1:T0 Arg2:T3
+R1	p_o Arg1:T3 Arg2:T6
+R2	is-specialized-by Arg1:T6 Arg2:T7
+R3	compound Arg1:T6 Arg2:T5
+R4	c_co Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T10 Arg2:T11
+R6	is-specialized-by Arg1:T10 Arg2:T13
+R7	c_co Arg1:T11 Arg2:T12
+R8	c_co Arg1:T13 Arg2:T15

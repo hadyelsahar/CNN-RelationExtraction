@@ -1,0 +1,34 @@
+T0	segment 0 5	Maros
+T1	segment 6 8	is
+T2	segment 9 10	a
+T3	segment 11 15	town
+T4	segment 16 18	in
+T5	segment 19 22	the
+T6	segment 23 28	South
+T7	segment 29 37	Sulawesi
+T8	segment 38 46	province
+T9	segment 47 49	of
+T10	segment 50 59	Indonesia
+T11	segment 60 65	close
+T12	segment 66 68	to
+T13	segment 69 72	the
+T14	segment 73 83	provincial
+T15	segment 84 91	capital
+T16	segment 92 94	of
+T17	segment 95 103	Makassar
+T18	segment 104 105	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T8
+R4	compound Arg1:T7 Arg2:T6
+R5	compound Arg1:T8 Arg2:T6
+R6	is-specialized-by Arg1:T8 Arg2:T9
+R7	compound Arg1:T8 Arg2:T7
+R8	is-specialized-by Arg1:T8 Arg2:T11
+R9	c_co Arg1:T9 Arg2:T10
+R10	is-specialized-by Arg1:T11 Arg2:T12
+R11	c_co Arg1:T12 Arg2:T15
+R12	is-specialized-by Arg1:T15 Arg2:T16
+R13	is-specialized-by Arg1:T15 Arg2:T14
+R14	c_co Arg1:T16 Arg2:T17

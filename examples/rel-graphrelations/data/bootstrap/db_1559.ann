@@ -1,0 +1,23 @@
+T0	segment 0 6	Robert
+T1	segment 7 10	was
+T2	segment 11 12	a
+T3	segment 13 22	financial
+T4	segment 23 32	economist
+T5	segment 33 36	and
+T6	segment 37 38	a
+T7	segment 39 46	pioneer
+T8	segment 47 49	in
+T9	segment 50 53	the
+T10	segment 54 59	field
+T11	segment 60 62	of
+T12	segment 63 75	quantitative
+T13	segment 76 85	investing
+T14	segment 86 87	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T7 Arg2:T8
+R4	c_co Arg1:T8 Arg2:T10
+R5	is-specialized-by Arg1:T10 Arg2:T11
+R6	c_co Arg1:T11 Arg2:T13
+R7	is-specialized-by Arg1:T13 Arg2:T12

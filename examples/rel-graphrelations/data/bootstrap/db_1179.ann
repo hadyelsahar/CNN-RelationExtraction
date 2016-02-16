@@ -1,0 +1,31 @@
+T0	segment 0 10	Buzzinbees
+T1	segment 11 13	is
+T2	segment 14 15	a
+T3	segment 16 25	privately
+T4	segment 26 31	owned
+T5	segment 32 39	company
+T6	segment 40 44	that
+T7	segment 45 53	develops
+T8	segment 54 62	software
+T9	segment 63 66	and
+T10	segment 67 72	sells
+T11	segment 73 75	it
+T12	segment 76 78	to
+T13	segment 79 96	telecommunication
+T14	segment 97 106	equipment
+T15	segment 107 110	and
+T16	segment 111 119	software
+T17	segment 120 127	vendors
+T18	segment 128 129	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T5
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	p_p Arg1:T5 Arg2:T7
+R5	s_p Arg1:T6 Arg2:T7
+R6	p_o Arg1:T7 Arg2:T8
+R7	p_o Arg1:T10 Arg2:T11
+R8	is-specialized-by Arg1:T10 Arg2:T12
+R9	c_co Arg1:T12 Arg2:T14
+R10	compound Arg1:T14 Arg2:T13
+R11	compound Arg1:T17 Arg2:T16

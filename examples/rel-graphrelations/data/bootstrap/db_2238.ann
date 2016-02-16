@@ -1,0 +1,47 @@
+T0	segment 0 11	Netconcepts
+T1	segment 12 14	is
+T2	segment 15 16	a
+T3	segment 17 20	web
+T4	segment 21 30	marketing
+T5	segment 31 34	and
+T6	segment 35 38	web
+T7	segment 39 50	development
+T8	segment 51 57	agency
+T9	segment 58 65	founded
+T10	segment 66 69	and
+T11	segment 70 83	headquartered
+T12	segment 84 86	in
+T13	segment 87 94	Madison
+T14	segment 94 95	,
+T15	segment 96 105	Wisconsin
+T16	segment 105 106	,
+T17	segment 107 119	specializing
+T18	segment 120 122	in
+T19	segment 123 126	SEO
+T20	segment 127 130	for
+T21	segment 131 138	Fortune
+T22	segment 139 142	500
+T23	segment 143 152	ecommerce
+T24	segment 153 162	companies
+T25	segment 163 166	and
+T26	segment 167 172	major
+T27	segment 173 178	media
+T28	segment 179 185	brands
+T29	segment 186 187	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	compound Arg1:T4 Arg2:T3
+R3	compound Arg1:T8 Arg2:T6
+R4	compound Arg1:T8 Arg2:T7
+R5	is-specialized-by Arg1:T9 Arg2:T12
+R6	c_co Arg1:T12 Arg2:T15
+R7	compound Arg1:T15 Arg2:T13
+R8	p_o Arg1:T17 Arg2:T24
+R9	is-specialized-by Arg1:T17 Arg2:T18
+R10	c_co Arg1:T18 Arg2:T19
+R11	is-specialized-by Arg1:T19 Arg2:T20
+R12	c_co Arg1:T20 Arg2:T21
+R13	is-specialized-by Arg1:T21 Arg2:T22
+R14	compound Arg1:T24 Arg2:T23
+R15	compound Arg1:T28 Arg2:T27
+R16	is-specialized-by Arg1:T28 Arg2:T26

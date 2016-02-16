@@ -1,0 +1,32 @@
+T0	segment 0 3	The
+T1	segment 4 10	Jersey
+T2	segment 11 15	City
+T3	segment 16 24	Reporter
+T4	segment 25 27	is
+T5	segment 28 29	a
+T6	segment 30 36	weekly
+T7	segment 37 46	community
+T8	segment 47 56	newspaper
+T9	segment 57 64	serving
+T10	segment 65 71	Jersey
+T11	segment 72 76	City
+T12	segment 76 77	,
+T13	segment 78 80	in
+T14	segment 81 87	Hudson
+T15	segment 88 94	County
+T16	segment 94 95	,
+T17	segment 96 99	New
+T18	segment 100 106	Jersey
+T19	segment 107 108	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T8
+R4	compound Arg1:T8 Arg2:T7
+R5	is-specialized-by Arg1:T8 Arg2:T6
+R6	p_o Arg1:T9 Arg2:T11
+R7	is-specialized-by Arg1:T9 Arg2:T13
+R8	compound Arg1:T11 Arg2:T10
+R9	c_co Arg1:T13 Arg2:T15
+R10	compound Arg1:T15 Arg2:T14
+R11	compound Arg1:T18 Arg2:T17

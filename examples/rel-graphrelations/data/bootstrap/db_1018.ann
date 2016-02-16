@@ -1,0 +1,72 @@
+T0	segment 0 3	The
+T1	segment 4 11	Kingdom
+T2	segment 12 14	of
+T3	segment 15 20	Arles
+T4	segment 21 23	or
+T5	segment 24 30	Second
+T6	segment 31 38	Kingdom
+T7	segment 39 41	of
+T8	segment 42 50	Burgundy
+T9	segment 51 54	was
+T10	segment 55 56	a
+T11	segment 57 65	Frankish
+T12	segment 66 74	dominion
+T13	segment 75 86	established
+T14	segment 87 91	from
+T15	segment 92 97	lands
+T16	segment 98 100	of
+T17	segment 101 104	the
+T18	segment 105 110	early
+T19	segment 111 119	medieval
+T20	segment 120 127	Kingdom
+T21	segment 128 130	of
+T22	segment 131 134	the
+T23	segment 135 146	Burgundians
+T24	segment 147 149	in
+T25	segment 150 153	933
+T26	segment 154 156	by
+T27	segment 157 160	the
+T28	segment 161 167	merger
+T29	segment 168 170	of
+T30	segment 171 174	the
+T31	segment 175 183	kingdoms
+T32	segment 184 186	of
+T33	segment 187 192	Upper
+T34	segment 193 196	and
+T35	segment 197 202	Lower
+T36	segment 203 211	Burgundy
+T37	segment 212 217	under
+T38	segment 218 222	King
+T39	segment 223 229	Rudolf
+T40	segment 230 232	II
+T41	segment 233 234	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T9
+R2	c_co Arg1:T2 Arg2:T6
+R3	compound Arg1:T3 Arg2:T2
+R4	compound Arg1:T3 Arg2:T1
+R5	compound Arg1:T6 Arg2:T3
+R6	is-specialized-by Arg1:T6 Arg2:T7
+R7	c_co Arg1:T7 Arg2:T8
+R8	p_o Arg1:T9 Arg2:T12
+R9	is-specialized-by Arg1:T12 Arg2:T11
+R10	is-specialized-by Arg1:T13 Arg2:T26
+R11	is-specialized-by Arg1:T13 Arg2:T14
+R12	is-specialized-by Arg1:T13 Arg2:T37
+R13	c_co Arg1:T14 Arg2:T15
+R14	is-specialized-by Arg1:T15 Arg2:T16
+R15	c_co Arg1:T16 Arg2:T20
+R16	is-specialized-by Arg1:T20 Arg2:T18
+R17	is-specialized-by Arg1:T20 Arg2:T21
+R18	c_co Arg1:T21 Arg2:T23
+R19	is-specialized-by Arg1:T23 Arg2:T24
+R20	c_co Arg1:T24 Arg2:T25
+R21	c_co Arg1:T26 Arg2:T28
+R22	is-specialized-by Arg1:T28 Arg2:T29
+R23	c_co Arg1:T29 Arg2:T31
+R24	is-specialized-by Arg1:T31 Arg2:T32
+R25	c_co Arg1:T32 Arg2:T36
+R26	compound Arg1:T36 Arg2:T33
+R27	c_co Arg1:T37 Arg2:T40
+R28	compound Arg1:T40 Arg2:T38
+R29	compound Arg1:T40 Arg2:T39

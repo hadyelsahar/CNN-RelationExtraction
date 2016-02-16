@@ -1,0 +1,30 @@
+T0	segment 0 6	Global
+T1	segment 7 16	Knowledge
+T2	segment 17 25	Training
+T3	segment 26 29	LLC
+T4	segment 30 32	is
+T5	segment 33 35	an
+T6	segment 36 38	IT
+T7	segment 39 42	and
+T8	segment 43 51	Business
+T9	segment 52 58	skills
+T10	segment 59 67	training
+T11	segment 68 75	company
+T12	segment 76 89	headquartered
+T13	segment 90 92	in
+T14	segment 93 97	Cary
+T15	segment 97 98	,
+T16	segment 99 101	NC
+T17	segment 102 103	.
+R0	is-specialized-by Arg1:T1 Arg2:T0
+R1	s_p Arg1:T1 Arg2:T4
+R2	p_o Arg1:T2 Arg2:T3
+R3	compound Arg1:T3 Arg2:T0
+R4	compound Arg1:T3 Arg2:T2
+R5	compound Arg1:T3 Arg2:T1
+R6	p_o Arg1:T4 Arg2:T9
+R7	compound Arg1:T9 Arg2:T6
+R8	p_o Arg1:T10 Arg2:T11
+R9	is-specialized-by Arg1:T12 Arg2:T13
+R10	c_co Arg1:T13 Arg2:T16
+R11	compound Arg1:T16 Arg2:T14

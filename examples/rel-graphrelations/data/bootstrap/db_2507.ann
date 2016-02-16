@@ -1,0 +1,31 @@
+T0	segment 0 7	Eurytus
+T1	segment 8 10	is
+T2	segment 11 14	the
+T3	segment 15 19	name
+T4	segment 20 22	of
+T5	segment 23 30	several
+T6	segment 31 41	characters
+T7	segment 42 44	in
+T8	segment 45 50	Greek
+T9	segment 51 60	mythology
+T10	segment 60 61	,
+T11	segment 62 65	and
+T12	segment 66 68	of
+T13	segment 69 71	at
+T14	segment 72 77	least
+T15	segment 78 81	one
+T16	segment 82 92	historical
+T17	segment 93 99	figure
+T18	segment 100 101	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	is-specialized-by Arg1:T6 Arg2:T5
+R6	c_co Arg1:T7 Arg2:T9
+R7	is-specialized-by Arg1:T9 Arg2:T8
+R8	c_co Arg1:T13 Arg2:T14
+R9	is-specialized-by Arg1:T15 Arg2:T13
+R10	is-specialized-by Arg1:T17 Arg2:T16
+R11	is-specialized-by Arg1:T17 Arg2:T15

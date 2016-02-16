@@ -1,0 +1,41 @@
+T0	segment 0 3	The
+T1	segment 4 11	Chester
+T2	segment 12 19	Rolling
+T3	segment 20 24	Mill
+T4	segment 25 28	was
+T5	segment 29 30	a
+T6	segment 31 36	large
+T7	segment 37 41	iron
+T8	segment 42 49	rolling
+T9	segment 50 54	mill
+T10	segment 55 66	established
+T11	segment 67 69	by
+T12	segment 70 81	shipbuilder
+T13	segment 82 86	John
+T14	segment 87 92	Roach
+T15	segment 93 95	in
+T16	segment 96 103	Chester
+T17	segment 103 104	,
+T18	segment 105 117	Pennsylvania
+T19	segment 117 118	,
+T20	segment 119 125	United
+T21	segment 126 132	States
+T22	segment 133 135	in
+T23	segment 136 140	1873
+T24	segment 141 142	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T9
+R4	compound Arg1:T9 Arg2:T7
+R5	is-specialized-by Arg1:T9 Arg2:T6
+R6	is-specialized-by Arg1:T10 Arg2:T11
+R7	c_co Arg1:T11 Arg2:T14
+R8	compound Arg1:T14 Arg2:T12
+R9	is-specialized-by Arg1:T14 Arg2:T15
+R10	compound Arg1:T14 Arg2:T13
+R11	c_co Arg1:T15 Arg2:T16
+R12	compound Arg1:T21 Arg2:T20
+R13	is-specialized-by Arg1:T21 Arg2:T22
+R14	compound Arg1:T21 Arg2:T18
+R15	c_co Arg1:T22 Arg2:T23

@@ -1,0 +1,47 @@
+T0	segment 0 7	Locanto
+T1	segment 8 10	is
+T2	segment 11 12	a
+T3	segment 13 22	worldwide
+T4	segment 23 29	online
+T5	segment 30 41	classifieds
+T6	segment 42 49	network
+T7	segment 50 54	with
+T8	segment 55 60	areas
+T9	segment 61 70	dedicated
+T10	segment 71 73	to
+T11	segment 74 78	jobs
+T12	segment 78 79	,
+T13	segment 80 89	personals
+T14	segment 89 90	,
+T15	segment 91 94	for
+T16	segment 95 99	rent
+T17	segment 99 100	,
+T18	segment 101 104	for
+T19	segment 105 109	sale
+T20	segment 109 110	,
+T21	segment 111 119	services
+T22	segment 119 120	,
+T23	segment 121 130	community
+T24	segment 130 131	,
+T25	segment 132 136	real
+T26	segment 137 143	estate
+T27	segment 143 144	,
+T28	segment 145 153	vehicles
+T29	segment 153 154	,
+T30	segment 155 158	and
+T31	segment 159 163	pets
+T32	segment 164 165	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T6
+R2	compound Arg1:T6 Arg2:T4
+R3	is-specialized-by Arg1:T6 Arg2:T7
+R4	compound Arg1:T6 Arg2:T5
+R5	is-specialized-by Arg1:T6 Arg2:T3
+R6	c_co Arg1:T7 Arg2:T8
+R7	is-specialized-by Arg1:T9 Arg2:T15
+R8	is-specialized-by Arg1:T9 Arg2:T10
+R9	is-specialized-by Arg1:T9 Arg2:T18
+R10	c_co Arg1:T10 Arg2:T11
+R11	c_co Arg1:T15 Arg2:T16
+R12	c_co Arg1:T18 Arg2:T19
+R13	is-specialized-by Arg1:T26 Arg2:T25

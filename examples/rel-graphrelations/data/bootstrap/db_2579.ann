@@ -1,0 +1,34 @@
+T0	segment 0 7	Bentley
+T1	segment 8 14	Motors
+T2	segment 15 22	Limited
+T3	segment 23 25	is
+T4	segment 26 27	a
+T5	segment 28 35	British
+T6	segment 36 42	luxury
+T7	segment 43 52	automaker
+T8	segment 52 53	,
+T9	segment 54 57	and
+T10	segment 58 59	a
+T11	segment 60 66	wholly
+T12	segment 67 72	owned
+T13	segment 73 83	subsidiary
+T14	segment 84 86	of
+T15	segment 87 90	the
+T16	segment 91 97	German
+T17	segment 98 105	company
+T18	segment 106 116	Volkswagen
+T19	segment 117 119	AG
+T20	segment 120 121	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T7
+R4	compound Arg1:T7 Arg2:T6
+R5	is-specialized-by Arg1:T7 Arg2:T5
+R6	is-specialized-by Arg1:T12 Arg2:T11
+R7	is-specialized-by Arg1:T13 Arg2:T12
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T19
+R10	is-specialized-by Arg1:T19 Arg2:T16
+R11	compound Arg1:T19 Arg2:T18
+R12	compound Arg1:T19 Arg2:T17

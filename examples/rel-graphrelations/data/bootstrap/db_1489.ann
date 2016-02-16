@@ -1,0 +1,42 @@
+T0	segment 0 7	Lorimar
+T1	segment 7 8	,
+T2	segment 9 14	later
+T3	segment 15 20	known
+T4	segment 21 23	as
+T5	segment 24 31	Lorimar
+T6	segment 32 42	Television
+T7	segment 43 46	and
+T8	segment 47 54	Lorimar
+T9	segment 55 67	Distribution
+T10	segment 67 68	,
+T11	segment 69 72	was
+T12	segment 73 75	an
+T13	segment 76 84	American
+T14	segment 85 95	television
+T15	segment 96 106	production
+T16	segment 107 114	company
+T17	segment 115 119	that
+T18	segment 120 123	was
+T19	segment 124 129	later
+T20	segment 130 131	a
+T21	segment 132 142	subsidiary
+T22	segment 143 145	of
+T23	segment 146 152	Warner
+T24	segment 153 157	Bros
+T25	segment 158 159	.
+R0	s_p Arg1:T0 Arg2:T11
+R1	is-specialized-by Arg1:T3 Arg2:T2
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T6
+R4	compound Arg1:T6 Arg2:T5
+R5	compound Arg1:T9 Arg2:T8
+R6	p_o Arg1:T11 Arg2:T16
+R7	compound Arg1:T16 Arg2:T14
+R8	compound Arg1:T16 Arg2:T15
+R9	is-specialized-by Arg1:T16 Arg2:T13
+R10	s_p Arg1:T17 Arg2:T18
+R11	p_o Arg1:T18 Arg2:T21
+R12	is-specialized-by Arg1:T21 Arg2:T19
+R13	is-specialized-by Arg1:T21 Arg2:T22
+R14	c_co Arg1:T22 Arg2:T24
+R15	compound Arg1:T24 Arg2:T23

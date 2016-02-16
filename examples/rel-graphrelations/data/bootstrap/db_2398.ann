@@ -1,0 +1,30 @@
+T0	segment 0 5	These
+T1	segment 6 9	are
+T2	segment 10 13	the
+T3	segment 14 19	coats
+T4	segment 20 22	of
+T5	segment 23 27	arms
+T6	segment 28 30	of
+T7	segment 31 34	the
+T8	segment 35 41	states
+T9	segment 42 44	of
+T10	segment 45 48	the
+T11	segment 49 56	Federal
+T12	segment 57 65	Republic
+T13	segment 66 68	of
+T14	segment 69 76	Germany
+T15	segment 77 78	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T5
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T8
+R6	is-specialized-by Arg1:T8 Arg2:T9
+R7	c_co Arg1:T9 Arg2:T12
+R8	compound Arg1:T12 Arg2:T11
+R9	is-specialized-by Arg1:T12 Arg2:T13
+R10	c_co Arg1:T13 Arg2:T14
+R11	compound Arg1:T14 Arg2:T12
+R12	compound Arg1:T14 Arg2:T11
+R13	compound Arg1:T14 Arg2:T13

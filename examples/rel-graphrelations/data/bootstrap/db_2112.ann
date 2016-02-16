@@ -1,0 +1,62 @@
+T0	segment 0 14	Mark-to-market
+T1	segment 15 17	or
+T2	segment 18 22	fair
+T3	segment 23 28	value
+T4	segment 29 39	accounting
+T5	segment 40 46	refers
+T6	segment 47 49	to
+T7	segment 50 60	accounting
+T8	segment 61 64	for
+T9	segment 65 68	the
+T10	segment 69 70	''
+T11	segment 70 71	``
+T12	segment 71 75	fair
+T13	segment 76 81	value
+T14	segment 81 82	''
+T15	segment 82 83	''
+T16	segment 84 86	of
+T17	segment 87 89	an
+T18	segment 90 95	asset
+T19	segment 96 98	or
+T20	segment 99 108	liability
+T21	segment 109 114	based
+T22	segment 115 117	on
+T23	segment 118 121	the
+T24	segment 122 129	current
+T25	segment 130 136	market
+T26	segment 137 142	price
+T27	segment 142 143	,
+T28	segment 144 146	or
+T29	segment 147 150	for
+T30	segment 151 158	similar
+T31	segment 159 165	assets
+T32	segment 166 169	and
+T33	segment 170 181	liabilities
+T34	segment 181 182	,
+T35	segment 183 185	or
+T36	segment 186 191	based
+T37	segment 192 194	on
+T38	segment 195 202	another
+T39	segment 203 214	objectively
+T40	segment 215 223	assessed
+T41	segment 224 225	''
+T42	segment 225 226	``
+T43	segment 226 230	fair
+T44	segment 230 231	''
+T45	segment 231 232	''
+T46	segment 233 238	value
+T47	segment 239 240	.
+R0	compound Arg1:T4 Arg2:T3
+R1	s_p Arg1:T4 Arg2:T46
+R2	compound Arg1:T4 Arg2:T0
+R3	is-specialized-by Arg1:T9 Arg2:T22
+R4	is-specialized-by Arg1:T13 Arg2:T16
+R5	is-specialized-by Arg1:T13 Arg2:T12
+R6	c_co Arg1:T16 Arg2:T18
+R7	c_co Arg1:T22 Arg2:T13
+R8	is-specialized-by Arg1:T26 Arg2:T24
+R9	compound Arg1:T26 Arg2:T25
+R10	is-specialized-by Arg1:T31 Arg2:T30
+R11	is-specialized-by Arg1:T36 Arg2:T37
+R12	c_co Arg1:T37 Arg2:T38
+R13	is-specialized-by Arg1:T38 Arg2:T39

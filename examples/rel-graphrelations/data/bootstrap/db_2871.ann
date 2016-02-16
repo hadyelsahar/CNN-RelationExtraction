@@ -1,0 +1,34 @@
+T0	segment 0 5	Artem
+T1	segment 6 17	Serhiyovych
+T2	segment 18 31	Starhorodskyi
+T3	segment 32 34	is
+T4	segment 35 36	a
+T5	segment 37 49	professional
+T6	segment 50 59	Ukrainian
+T7	segment 60 68	football
+T8	segment 69 79	midfielder
+T9	segment 80 83	who
+T10	segment 84 89	plays
+T11	segment 90 93	for
+T12	segment 94 103	Shakhtyor
+T13	segment 104 113	Salihorsk
+T14	segment 114 116	in
+T15	segment 117 120	the
+T16	segment 121 131	Belarusian
+T17	segment 132 139	Premier
+T18	segment 140 146	League
+T19	segment 147 148	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T8
+R4	compound Arg1:T8 Arg2:T7
+R5	is-specialized-by Arg1:T8 Arg2:T5
+R6	s_p Arg1:T9 Arg2:T10
+R7	p_c Arg1:T10 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T13
+R9	compound Arg1:T13 Arg2:T12
+R10	is-specialized-by Arg1:T13 Arg2:T14
+R11	c_co Arg1:T14 Arg2:T18
+R12	compound Arg1:T18 Arg2:T16
+R13	compound Arg1:T18 Arg2:T17

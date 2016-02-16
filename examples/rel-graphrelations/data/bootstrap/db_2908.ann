@@ -1,0 +1,63 @@
+T0	segment 0 7	Patrick
+T1	segment 8 14	Joseph
+T2	segment 15 16	''
+T3	segment 16 17	``
+T4	segment 17 20	Pat
+T5	segment 20 21	''
+T6	segment 21 22	''
+T7	segment 23 29	Murphy
+T8	segment 30 32	is
+T9	segment 33 36	the
+T10	segment 37 41	Iowa
+T11	segment 42 47	State
+T12	segment 48 62	Representative
+T13	segment 63 67	from
+T14	segment 68 71	the
+T15	segment 72 76	99th
+T16	segment 77 85	District
+T17	segment 86 89	and
+T18	segment 90 93	won
+T19	segment 94 97	the
+T20	segment 98 108	Democratic
+T21	segment 109 119	nomination
+T22	segment 120 122	in
+T23	segment 123 124	a
+T24	segment 125 133	five-way
+T25	segment 134 144	Democratic
+T26	segment 145 152	Primary
+T27	segment 153 155	to
+T28	segment 156 163	replace
+T29	segment 164 171	current
+T30	segment 172 183	Congressmen
+T31	segment 184 189	Bruce
+T32	segment 190 196	Braley
+T33	segment 196 197	,
+T34	segment 198 201	who
+T35	segment 202 204	is
+T36	segment 205 212	running
+T37	segment 213 216	for
+T38	segment 217 220	the
+T39	segment 221 223	US
+T40	segment 224 230	Senate
+T41	segment 231 232	.
+R0	s_p Arg1:T1 Arg2:T8
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T8 Arg2:T12
+R3	compound Arg1:T11 Arg2:T10
+R4	compound Arg1:T12 Arg2:T11
+R5	compound Arg1:T12 Arg2:T10
+R6	is-specialized-by Arg1:T12 Arg2:T13
+R7	c_co Arg1:T13 Arg2:T15
+R8	p_o Arg1:T18 Arg2:T21
+R9	is-specialized-by Arg1:T21 Arg2:T20
+R10	is-specialized-by Arg1:T21 Arg2:T22
+R11	c_co Arg1:T22 Arg2:T26
+R12	is-specialized-by Arg1:T26 Arg2:T24
+R13	p_o Arg1:T28 Arg2:T30
+R14	is-specialized-by Arg1:T30 Arg2:T29
+R15	compound Arg1:T32 Arg2:T31
+R16	s_p Arg1:T34 Arg2:T36
+R17	compound Arg1:T36 Arg2:T35
+R18	p_c Arg1:T36 Arg2:T37
+R19	c_co Arg1:T37 Arg2:T40
+R20	compound Arg1:T40 Arg2:T39

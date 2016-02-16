@@ -1,0 +1,50 @@
+T0	segment 0 3	The
+T1	segment 4 8	Free
+T2	segment 9 17	Southern
+T3	segment 18 25	Theater
+T4	segment 26 29	was
+T5	segment 30 31	a
+T6	segment 32 41	community
+T7	segment 42 49	theatre
+T8	segment 50 55	group
+T9	segment 56 63	founded
+T10	segment 64 66	in
+T11	segment 67 71	1963
+T12	segment 72 74	at
+T13	segment 75 83	Tougaloo
+T14	segment 84 91	College
+T15	segment 92 94	in
+T16	segment 95 102	Madison
+T17	segment 103 109	County
+T18	segment 109 110	,
+T19	segment 111 122	Mississippi
+T20	segment 123 125	by
+T21	segment 126 133	Gilbert
+T22	segment 134 139	Moses
+T23	segment 139 140	,
+T24	segment 141 146	Doris
+T25	segment 147 152	Derby
+T26	segment 152 153	,
+T27	segment 154 157	and
+T28	segment 158 162	John
+T29	segment 163 169	O'Neal
+T30	segment 170 171	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T8
+R4	compound Arg1:T8 Arg2:T6
+R5	compound Arg1:T8 Arg2:T7
+R6	is-specialized-by Arg1:T9 Arg2:T20
+R7	is-specialized-by Arg1:T9 Arg2:T10
+R8	is-specialized-by Arg1:T9 Arg2:T12
+R9	c_co Arg1:T10 Arg2:T11
+R10	c_co Arg1:T12 Arg2:T14
+R11	is-specialized-by Arg1:T14 Arg2:T15
+R12	compound Arg1:T14 Arg2:T13
+R13	c_co Arg1:T15 Arg2:T17
+R14	compound Arg1:T17 Arg2:T16
+R15	c_co Arg1:T20 Arg2:T22
+R16	compound Arg1:T22 Arg2:T21
+R17	compound Arg1:T25 Arg2:T24
+R18	compound Arg1:T29 Arg2:T28

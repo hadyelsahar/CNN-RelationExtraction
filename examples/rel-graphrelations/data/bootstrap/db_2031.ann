@@ -1,0 +1,26 @@
+T0	segment 0 7	Freshii
+T1	segment 8 10	is
+T2	segment 11 12	a
+T3	segment 13 21	Canadian
+T4	segment 22 31	fast-food
+T5	segment 32 41	franchise
+T6	segment 42 46	that
+T7	segment 47 53	serves
+T8	segment 54 62	burritos
+T9	segment 63 66	and
+T10	segment 67 72	wraps
+T11	segment 72 73	,
+T12	segment 74 79	soups
+T13	segment 79 80	,
+T14	segment 81 87	salads
+T15	segment 88 91	and
+T16	segment 92 98	frozen
+T17	segment 99 105	yogurt
+T18	segment 106 107	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T5
+R2	compound Arg1:T5 Arg2:T4
+R3	is-specialized-by Arg1:T5 Arg2:T3
+R4	s_p Arg1:T6 Arg2:T7
+R5	p_o Arg1:T7 Arg2:T8
+R6	is-specialized-by Arg1:T17 Arg2:T16

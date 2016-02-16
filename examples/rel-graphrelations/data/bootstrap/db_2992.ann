@@ -1,0 +1,28 @@
+T0	segment 0 3	The
+T1	segment 4 9	Duchy
+T2	segment 10 12	of
+T3	segment 13 19	GÅogÃ³w
+T4	segment 20 23	was
+T5	segment 24 27	one
+T6	segment 28 30	of
+T7	segment 31 34	the
+T8	segment 35 42	Duchies
+T9	segment 43 45	of
+T10	segment 46 53	Silesia
+T11	segment 54 59	ruled
+T12	segment 60 62	by
+T13	segment 63 66	the
+T14	segment 67 75	Silesian
+T15	segment 76 82	Piasts
+T16	segment 83 84	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T5
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T8
+R6	is-specialized-by Arg1:T8 Arg2:T9
+R7	c_co Arg1:T9 Arg2:T10
+R8	is-specialized-by Arg1:T11 Arg2:T12
+R9	c_co Arg1:T12 Arg2:T15
+R10	is-specialized-by Arg1:T15 Arg2:T14

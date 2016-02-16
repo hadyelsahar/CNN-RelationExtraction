@@ -5,8 +5,8 @@ T4	Context-Prep 36 41	since
 T5	Subject 42 45	she
 T6	Predicate 46 49	was
 T7	Object 50 54	four
-R1	p_o Arg1:T2 Arg2:T3	
-R2	s_p Arg1:T1 Arg2:T2	
+R1	p_o Arg1:T2 Arg2:T3
+R2	s_p Arg1:T1 Arg2:T2
 R3	p_c Arg1:T2 Arg2:T4	
 R4	c_p Arg1:T4 Arg2:T6	
 R5	s_p Arg1:T5 Arg2:T6	

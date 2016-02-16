@@ -1,0 +1,56 @@
+T0	segment 0 5	Agata
+T1	segment 6 17	Szymczewska
+T2	segment 18 20	is
+T3	segment 21 22	a
+T4	segment 23 29	Polish
+T5	segment 30 39	violinist
+T6	segment 39 40	,
+T7	segment 41 44	and
+T8	segment 45 46	a
+T9	segment 47 54	student
+T10	segment 55 57	of
+T11	segment 58 65	Academy
+T12	segment 66 68	of
+T13	segment 69 74	Music
+T14	segment 75 77	in
+T15	segment 78 84	PoznaÅ
+T16	segment 85 88	and
+T17	segment 89 99	Hochschule
+T18	segment 100 103	fÃ¼r
+T19	segment 104 109	Musik
+T20	segment 110 113	und
+T21	segment 114 121	Theater
+T22	segment 122 124	in
+T23	segment 125 133	Hannover
+T24	segment 133 134	,
+T25	segment 135 137	of
+T26	segment 138 148	professors
+T27	segment 149 156	Bartosz
+T28	segment 157 162	BryÅa
+T29	segment 163 166	and
+T30	segment 167 176	Krzysztof
+T31	segment 177 184	WÄgrzyn
+T32	segment 185 186	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T9 Arg2:T10
+R5	s_p Arg1:T9 Arg2:T20
+R6	c_co Arg1:T10 Arg2:T11
+R7	is-specialized-by Arg1:T11 Arg2:T12
+R8	c_co Arg1:T12 Arg2:T13
+R9	compound Arg1:T13 Arg2:T12
+R10	compound Arg1:T13 Arg2:T11
+R11	is-specialized-by Arg1:T13 Arg2:T14
+R12	c_co Arg1:T14 Arg2:T15
+R13	compound Arg1:T19 Arg2:T18
+R14	compound Arg1:T19 Arg2:T17
+R15	p_o Arg1:T20 Arg2:T21
+R16	is-specialized-by Arg1:T21 Arg2:T25
+R17	is-specialized-by Arg1:T21 Arg2:T22
+R18	c_co Arg1:T22 Arg2:T23
+R19	c_co Arg1:T25 Arg2:T28
+R20	compound Arg1:T28 Arg2:T27
+R21	compound Arg1:T28 Arg2:T26
+R22	compound Arg1:T31 Arg2:T30

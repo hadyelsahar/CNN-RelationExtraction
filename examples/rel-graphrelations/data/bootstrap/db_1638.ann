@@ -1,0 +1,29 @@
+T0	segment 0 9	Atlassian
+T1	segment 10 12	is
+T2	segment 13 15	an
+T3	segment 16 26	Australian
+T4	segment 27 37	enterprise
+T5	segment 38 46	software
+T6	segment 47 54	company
+T7	segment 55 59	that
+T8	segment 60 68	develops
+T9	segment 69 77	products
+T10	segment 78 84	geared
+T11	segment 85 92	towards
+T12	segment 93 101	software
+T13	segment 102 112	developers
+T14	segment 113 116	and
+T15	segment 117 124	project
+T16	segment 125 133	managers
+T17	segment 134 135	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T6
+R2	compound Arg1:T6 Arg2:T4
+R3	compound Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T6 Arg2:T3
+R5	s_p Arg1:T7 Arg2:T8
+R6	p_o Arg1:T8 Arg2:T9
+R7	is-specialized-by Arg1:T10 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T13
+R9	compound Arg1:T13 Arg2:T12
+R10	compound Arg1:T16 Arg2:T15

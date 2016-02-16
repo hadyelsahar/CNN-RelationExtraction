@@ -1,0 +1,25 @@
+T0	segment 0 9	Machanbaw
+T1	segment 10 12	is
+T2	segment 13 14	a
+T3	segment 15 19	town
+T4	segment 20 22	in
+T5	segment 23 26	the
+T6	segment 27 33	Kachin
+T7	segment 34 39	State
+T8	segment 40 42	of
+T9	segment 43 55	northernmost
+T10	segment 56 60	part
+T11	segment 61 63	of
+T12	segment 64 67	the
+T13	segment 68 75	Myanmar
+T14	segment 76 77	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	compound Arg1:T7 Arg2:T6
+R6	c_co Arg1:T8 Arg2:T10
+R7	is-specialized-by Arg1:T10 Arg2:T9
+R8	is-specialized-by Arg1:T10 Arg2:T11
+R9	c_co Arg1:T11 Arg2:T13

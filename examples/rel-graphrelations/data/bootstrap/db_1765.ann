@@ -1,0 +1,43 @@
+T0	segment 0 8	Pinstorm
+T1	segment 9 11	is
+T2	segment 12 13	a
+T3	segment 14 21	digital
+T4	segment 22 33	advertising
+T5	segment 34 38	firm
+T6	segment 39 52	headquartered
+T7	segment 53 55	in
+T8	segment 56 62	Mumbai
+T9	segment 62 63	,
+T10	segment 64 69	India
+T11	segment 70 74	with
+T12	segment 75 82	offices
+T13	segment 83 85	in
+T14	segment 86 89	New
+T15	segment 90 95	Delhi
+T16	segment 95 96	,
+T17	segment 97 106	Bangalore
+T18	segment 106 107	,
+T19	segment 108 117	Singapore
+T20	segment 117 118	,
+T21	segment 119 124	Kuala
+T22	segment 125 131	Lumpur
+T23	segment 131 132	,
+T24	segment 133 139	Zurich
+T25	segment 140 143	and
+T26	segment 144 149	Santa
+T27	segment 150 155	Clara
+T28	segment 156 157	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T5
+R2	compound Arg1:T5 Arg2:T4
+R3	is-specialized-by Arg1:T5 Arg2:T3
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	is-specialized-by Arg1:T6 Arg2:T11
+R6	c_co Arg1:T7 Arg2:T10
+R7	compound Arg1:T10 Arg2:T8
+R8	c_co Arg1:T11 Arg2:T12
+R9	is-specialized-by Arg1:T12 Arg2:T13
+R10	c_co Arg1:T13 Arg2:T15
+R11	compound Arg1:T15 Arg2:T14
+R12	compound Arg1:T22 Arg2:T21
+R13	compound Arg1:T27 Arg2:T26

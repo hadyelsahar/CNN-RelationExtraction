@@ -1,0 +1,25 @@
+T0	segment 0 3	The
+T1	segment 4 8	city
+T2	segment 9 11	of
+T3	segment 12 22	Luxembourg
+T4	segment 23 24	,
+T5	segment 25 29	with
+T6	segment 30 33	the
+T7	segment 34 38	city
+T8	segment 39 45	having
+T9	segment 46 55	developed
+T10	segment 56 60	into
+T11	segment 61 62	a
+T12	segment 63 70	banking
+T13	segment 71 74	and
+T14	segment 75 89	administrative
+T15	segment 90 96	centre
+T16	segment 97 98	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	is-specialized-by Arg1:T1 Arg2:T5
+R2	c_co Arg1:T2 Arg2:T3
+R3	c_co Arg1:T5 Arg2:T7
+R4	is-specialized-by Arg1:T9 Arg2:T10
+R5	compound Arg1:T9 Arg2:T8
+R6	c_co Arg1:T10 Arg2:T15
+R7	compound Arg1:T15 Arg2:T12

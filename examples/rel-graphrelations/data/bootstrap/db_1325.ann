@@ -1,0 +1,40 @@
+T0	segment 0 3	The
+T1	segment 4 11	Tripura
+T2	segment 12 18	Tribal
+T3	segment 19 24	Areas
+T4	segment 25 35	Autonomous
+T5	segment 36 44	District
+T6	segment 45 52	Council
+T7	segment 53 55	is
+T8	segment 56 58	an
+T9	segment 59 70	independent
+T10	segment 71 78	council
+T11	segment 79 92	administering
+T12	segment 93 96	the
+T13	segment 97 103	tribal
+T14	segment 104 109	areas
+T15	segment 110 112	of
+T16	segment 113 116	the
+T17	segment 117 122	state
+T18	segment 123 125	of
+T19	segment 126 133	Tripura
+T20	segment 133 134	,
+T21	segment 135 140	India
+T22	segment 141 142	.
+R0	s_p Arg1:T3 Arg2:T7
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	compound Arg1:T6 Arg2:T4
+R4	compound Arg1:T6 Arg2:T3
+R5	compound Arg1:T6 Arg2:T5
+R6	compound Arg1:T6 Arg2:T2
+R7	compound Arg1:T6 Arg2:T1
+R8	p_o Arg1:T7 Arg2:T10
+R9	is-specialized-by Arg1:T10 Arg2:T9
+R10	p_o Arg1:T11 Arg2:T14
+R11	is-specialized-by Arg1:T14 Arg2:T15
+R12	is-specialized-by Arg1:T14 Arg2:T13
+R13	c_co Arg1:T15 Arg2:T17
+R14	is-specialized-by Arg1:T17 Arg2:T18
+R15	c_co Arg1:T18 Arg2:T21
+R16	compound Arg1:T21 Arg2:T19

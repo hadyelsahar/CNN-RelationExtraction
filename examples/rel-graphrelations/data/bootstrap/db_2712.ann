@@ -1,0 +1,33 @@
+T0	segment 0 8	Penelope
+T1	segment 9 13	Anne
+T2	segment 14 20	Corrin
+T3	segment 21 23	on
+T4	segment 24 27	the
+T5	segment 28 34	Fringe
+T6	segment 35 43	Festival
+T7	segment 44 51	circuit
+T8	segment 51 52	,
+T9	segment 53 57	with
+T10	segment 58 70	performances
+T11	segment 71 73	in
+T12	segment 74 83	Vancouver
+T13	segment 83 84	,
+T14	segment 85 91	Ottawa
+T15	segment 91 92	,
+T16	segment 93 101	Montreal
+T17	segment 102 105	and
+T18	segment 106 109	New
+T19	segment 110 114	York
+T20	segment 115 116	.
+R0	is-specialized-by Arg1:T2 Arg2:T9
+R1	compound Arg1:T2 Arg2:T0
+R2	is-specialized-by Arg1:T2 Arg2:T3
+R3	compound Arg1:T2 Arg2:T1
+R4	c_co Arg1:T3 Arg2:T7
+R5	compound Arg1:T7 Arg2:T6
+R6	compound Arg1:T7 Arg2:T5
+R7	c_co Arg1:T9 Arg2:T10
+R8	is-specialized-by Arg1:T10 Arg2:T11
+R9	c_co Arg1:T11 Arg2:T19
+R10	compound Arg1:T19 Arg2:T12
+R11	compound Arg1:T19 Arg2:T18

@@ -1,0 +1,31 @@
+T0	segment 0 3	The
+T1	segment 4 9	Video
+T2	segment 10 20	Journalism
+T3	segment 21 29	Movement
+T4	segment 29 30	,
+T5	segment 31 42	abbreviated
+T6	segment 43 45	VJ
+T7	segment 46 54	Movement
+T8	segment 54 55	,
+T9	segment 56 58	is
+T10	segment 59 60	a
+T11	segment 61 69	business
+T12	segment 70 73	and
+T13	segment 74 84	foundation
+T14	segment 85 98	headquartered
+T15	segment 99 101	in
+T16	segment 102 105	The
+T17	segment 106 111	Hague
+T18	segment 111 112	,
+T19	segment 113 124	Netherlands
+T20	segment 125 126	.
+R0	s_p Arg1:T3 Arg2:T9
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	s_p Arg1:T7 Arg2:T5
+R4	compound Arg1:T7 Arg2:T6
+R5	p_o Arg1:T9 Arg2:T11
+R6	is-specialized-by Arg1:T14 Arg2:T15
+R7	c_co Arg1:T15 Arg2:T19
+R8	compound Arg1:T17 Arg2:T16
+R9	compound Arg1:T19 Arg2:T17

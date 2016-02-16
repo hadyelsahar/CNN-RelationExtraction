@@ -1,0 +1,27 @@
+T0	segment 0 8	Sumedang
+T1	segment 9 13	high
+T2	segment 14 17	and
+T3	segment 18 20	is
+T4	segment 21 28	usually
+T5	segment 29 36	climbed
+T6	segment 37 41	from
+T7	segment 42 45	the
+T8	segment 46 57	subdistrict
+T9	segment 58 60	of
+T10	segment 61 69	Cimalaka
+T11	segment 69 70	,
+T12	segment 71 72	7
+T13	segment 73 75	km
+T14	segment 76 80	from
+T15	segment 81 89	Sumedang
+T16	segment 90 91	.
+R0	s_p Arg1:T1 Arg2:T5
+R1	p_c Arg1:T5 Arg2:T6
+R2	compound Arg1:T5 Arg2:T3
+R3	p_c Arg1:T5 Arg2:T4
+R4	p_c Arg1:T5 Arg2:T14
+R5	c_co Arg1:T6 Arg2:T8
+R6	is-specialized-by Arg1:T8 Arg2:T9
+R7	c_co Arg1:T9 Arg2:T10
+R8	is-specialized-by Arg1:T13 Arg2:T12
+R9	c_co Arg1:T14 Arg2:T15

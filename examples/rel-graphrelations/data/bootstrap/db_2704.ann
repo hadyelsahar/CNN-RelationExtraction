@@ -1,0 +1,38 @@
+T0	segment 0 3	The
+T1	segment 4 11	Vilayet
+T2	segment 12 14	of
+T3	segment 15 21	Kosovo
+T4	segment 22 23	,
+T5	segment 24 29	where
+T6	segment 30 38	distinct
+T7	segment 39 46	Ottoman
+T8	segment 47 59	architecture
+T9	segment 60 63	and
+T10	segment 64 70	public
+T11	segment 71 76	baths
+T12	segment 77 81	were
+T13	segment 82 89	erected
+T14	segment 89 90	,
+T15	segment 91 95	some
+T16	segment 96 98	of
+T17	segment 99 104	which
+T18	segment 105 108	can
+T19	segment 109 114	still
+T20	segment 115 117	be
+T21	segment 118 122	seen
+T22	segment 123 128	today
+T23	segment 129 130	.
+R0	s_p Arg1:T1 Arg2:T21
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	c_co Arg1:T2 Arg2:T3
+R3	s_p Arg1:T8 Arg2:T13
+R4	compound Arg1:T8 Arg2:T7
+R5	is-specialized-by Arg1:T8 Arg2:T6
+R6	is-specialized-by Arg1:T11 Arg2:T10
+R7	compound Arg1:T13 Arg2:T12
+R8	p_c Arg1:T13 Arg2:T5
+R9	is-specialized-by Arg1:T15 Arg2:T16
+R10	c_co Arg1:T16 Arg2:T17
+R11	compound Arg1:T21 Arg2:T20
+R12	compound Arg1:T21 Arg2:T18
+R13	p_c Arg1:T21 Arg2:T19

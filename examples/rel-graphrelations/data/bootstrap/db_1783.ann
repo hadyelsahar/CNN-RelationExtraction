@@ -1,0 +1,37 @@
+T0	segment 0 14	Aguascalientes
+T1	segment 15 16	,
+T2	segment 17 19	is
+T3	segment 20 23	one
+T4	segment 24 26	of
+T5	segment 27 30	the
+T6	segment 31 33	31
+T7	segment 34 40	states
+T8	segment 41 46	which
+T9	segment 46 47	,
+T10	segment 48 52	with
+T11	segment 53 56	the
+T12	segment 57 64	Federal
+T13	segment 65 73	District
+T14	segment 73 74	,
+T15	segment 75 83	comprise
+T16	segment 84 87	the
+T17	segment 88 90	32
+T18	segment 91 98	Federal
+T19	segment 99 107	Entities
+T20	segment 108 110	of
+T21	segment 111 117	Mexico
+T22	segment 118 119	.
+R0	s_p Arg1:T0 Arg2:T2
+R1	p_o Arg1:T2 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T6
+R5	s_p Arg1:T8 Arg2:T15
+R6	c_co Arg1:T10 Arg2:T13
+R7	compound Arg1:T13 Arg2:T12
+R8	p_o Arg1:T15 Arg2:T19
+R9	p_c Arg1:T15 Arg2:T10
+R10	is-specialized-by Arg1:T19 Arg2:T17
+R11	is-specialized-by Arg1:T19 Arg2:T20
+R12	compound Arg1:T19 Arg2:T18
+R13	c_co Arg1:T20 Arg2:T21

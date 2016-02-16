@@ -1,0 +1,60 @@
+T0	segment 0 9	Swaziland
+T1	segment 9 10	,
+T2	segment 11 21	officially
+T3	segment 22 25	the
+T4	segment 26 33	Kingdom
+T5	segment 34 36	of
+T6	segment 37 46	Swaziland
+T7	segment 47 50	and
+T8	segment 51 57	COMESA
+T9	segment 57 58	,
+T10	segment 59 62	its
+T11	segment 63 67	main
+T12	segment 68 75	trading
+T13	segment 76 84	partners
+T14	segment 85 88	are
+T15	segment 89 94	South
+T16	segment 95 101	Africa
+T17	segment 101 102	,
+T18	segment 103 109	United
+T19	segment 110 116	States
+T20	segment 116 117	,
+T21	segment 118 126	European
+T22	segment 127 132	Union
+T23	segment 132 133	,
+T24	segment 134 137	and
+T25	segment 138 141	the
+T26	segment 142 149	country
+T27	segment 149 151	's
+T28	segment 152 160	currency
+T29	segment 160 161	,
+T30	segment 162 165	the
+T31	segment 166 175	lilangeni
+T32	segment 175 176	,
+T33	segment 177 179	is
+T34	segment 180 186	pegged
+T35	segment 187 189	to
+T36	segment 190 193	the
+T37	segment 194 199	South
+T38	segment 200 207	African
+T39	segment 208 212	Rand
+T40	segment 213 214	.
+R0	s_p Arg1:T0 Arg2:T34
+R1	s_p Arg1:T4 Arg2:T14
+R2	is-specialized-by Arg1:T4 Arg2:T5
+R3	c_co Arg1:T5 Arg2:T6
+R4	compound Arg1:T6 Arg2:T4
+R5	compound Arg1:T6 Arg2:T5
+R6	compound Arg1:T13 Arg2:T12
+R7	is-specialized-by Arg1:T13 Arg2:T11
+R8	p_o Arg1:T14 Arg2:T16
+R9	is-specialized-by Arg1:T16 Arg2:T2
+R10	compound Arg1:T16 Arg2:T15
+R11	compound Arg1:T19 Arg2:T18
+R12	compound Arg1:T22 Arg2:T21
+R13	p_c Arg1:T34 Arg2:T35
+R14	compound Arg1:T34 Arg2:T33
+R15	c_co Arg1:T35 Arg2:T39
+R16	is-specialized-by Arg1:T38 Arg2:T37
+R17	compound Arg1:T39 Arg2:T38
+R18	compound Arg1:T39 Arg2:T37

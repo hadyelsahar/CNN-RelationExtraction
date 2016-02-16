@@ -1,0 +1,31 @@
+T0	segment 0 3	The
+T1	segment 4 9	Piven
+T2	segment 10 17	Theatre
+T3	segment 18 26	Workshop
+T4	segment 27 29	is
+T5	segment 30 37	located
+T6	segment 38 40	in
+T7	segment 41 49	Evanston
+T8	segment 49 50	,
+T9	segment 51 59	Illinois
+T10	segment 60 63	and
+T11	segment 64 67	was
+T12	segment 68 75	founded
+T13	segment 76 78	by
+T14	segment 79 84	Joyce
+T15	segment 85 88	and
+T16	segment 89 94	Byrne
+T17	segment 95 100	Piven
+T18	segment 101 102	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T5
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T9
+R6	compound Arg1:T9 Arg2:T7
+R7	compound Arg1:T12 Arg2:T11
+R8	is-specialized-by Arg1:T12 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T17
+R10	compound Arg1:T17 Arg2:T14
+R11	compound Arg1:T17 Arg2:T16

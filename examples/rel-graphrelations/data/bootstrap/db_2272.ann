@@ -1,0 +1,74 @@
+T0	segment 0 3	The
+T1	segment 4 10	Second
+T2	segment 11 17	Polish
+T3	segment 18 26	Republic
+T4	segment 26 27	,
+T5	segment 28 34	Second
+T6	segment 35 47	Commonwealth
+T7	segment 48 50	of
+T8	segment 51 57	Poland
+T9	segment 58 60	or
+T10	segment 61 62	''
+T11	segment 62 63	``
+T12	segment 63 71	interwar
+T13	segment 72 78	Poland
+T14	segment 78 79	''
+T15	segment 79 80	''
+T16	segment 81 87	refers
+T17	segment 88 90	to
+T18	segment 91 94	the
+T19	segment 95 102	country
+T20	segment 103 105	of
+T21	segment 106 112	Poland
+T22	segment 113 120	between
+T23	segment 121 124	the
+T24	segment 125 130	First
+T25	segment 131 134	and
+T26	segment 135 141	Second
+T27	segment 142 147	World
+T28	segment 148 152	Wars
+T29	segment 153 154	,
+T30	segment 155 158	the
+T31	segment 159 165	Polish
+T32	segment 166 171	state
+T33	segment 172 175	was
+T34	segment 176 183	created
+T35	segment 184 186	in
+T36	segment 187 191	1918
+T37	segment 191 192	,
+T38	segment 193 195	in
+T39	segment 196 199	the
+T40	segment 200 209	aftermath
+T41	segment 210 212	of
+T42	segment 213 218	World
+T43	segment 219 222	War
+T44	segment 223 224	I
+T45	segment 225 226	.
+R0	compound Arg1:T3 Arg2:T2
+R1	is-specialized-by Arg1:T6 Arg2:T7
+R2	s_p Arg1:T6 Arg2:T16
+R3	compound Arg1:T6 Arg2:T5
+R4	c_co Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T8 Arg2:T9
+R6	is-specialized-by Arg1:T13 Arg2:T12
+R7	p_c Arg1:T16 Arg2:T38
+R8	p_c Arg1:T16 Arg2:T17
+R9	c_co Arg1:T17 Arg2:T19
+R10	is-specialized-by Arg1:T19 Arg2:T20
+R11	c_co Arg1:T20 Arg2:T21
+R12	is-specialized-by Arg1:T21 Arg2:T22
+R13	c_co Arg1:T22 Arg2:T24
+R14	compound Arg1:T26 Arg2:T24
+R15	compound Arg1:T26 Arg2:T25
+R16	compound Arg1:T28 Arg2:T27
+R17	compound Arg1:T28 Arg2:T26
+R18	s_p Arg1:T32 Arg2:T34
+R19	is-specialized-by Arg1:T32 Arg2:T31
+R20	p_c Arg1:T34 Arg2:T35
+R21	compound Arg1:T34 Arg2:T33
+R22	c_co Arg1:T35 Arg2:T36
+R23	c_co Arg1:T38 Arg2:T40
+R24	is-specialized-by Arg1:T40 Arg2:T41
+R25	c_co Arg1:T41 Arg2:T42
+R26	compound Arg1:T43 Arg2:T42
+R27	compound Arg1:T44 Arg2:T43

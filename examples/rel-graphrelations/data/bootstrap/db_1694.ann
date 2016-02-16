@@ -1,0 +1,33 @@
+T0	segment 0 3	The
+T1	segment 4 9	North
+T2	segment 10 16	Region
+T3	segment 17 18	,
+T4	segment 19 22	who
+T5	segment 23 26	are
+T6	segment 27 34	Islamic
+T7	segment 35 47	pastoralists
+T8	segment 47 48	,
+T9	segment 49 52	and
+T10	segment 53 61	numerous
+T11	segment 62 68	Muslim
+T12	segment 69 72	and
+T13	segment 73 80	animist
+T14	segment 81 89	speakers
+T15	segment 90 92	of
+T16	segment 93 100	Adamawa
+T17	segment 100 101	,
+T18	segment 102 108	Chadic
+T19	segment 108 109	,
+T20	segment 110 113	and
+T21	segment 114 126	Nilo-Saharan
+T22	segment 127 136	languages
+T23	segment 137 138	.
+R0	compound Arg1:T2 Arg2:T1
+R1	s_p Arg1:T4 Arg2:T5
+R2	p_o Arg1:T5 Arg2:T7
+R3	is-specialized-by Arg1:T7 Arg2:T6
+R4	is-specialized-by Arg1:T11 Arg2:T15
+R5	is-specialized-by Arg1:T11 Arg2:T10
+R6	is-specialized-by Arg1:T14 Arg2:T13
+R7	c_co Arg1:T15 Arg2:T16
+R8	is-specialized-by Arg1:T22 Arg2:T21

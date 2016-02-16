@@ -1,0 +1,72 @@
+T0	segment 0 7	General
+T1	segment 8 13	Cable
+T2	segment 14 16	is
+T3	segment 17 18	a
+T4	segment 19 26	company
+T5	segment 27 32	based
+T6	segment 33 35	in
+T7	segment 36 44	Highland
+T8	segment 45 52	Heights
+T9	segment 52 53	,
+T10	segment 54 62	Kentucky
+T11	segment 62 63	,
+T12	segment 64 66	in
+T13	segment 67 70	the
+T14	segment 71 77	United
+T15	segment 78 84	States
+T16	segment 84 85	,
+T17	segment 86 90	with
+T18	segment 91 96	sales
+T19	segment 97 104	offices
+T20	segment 105 108	and
+T21	segment 109 122	manufacturing
+T22	segment 123 133	facilities
+T23	segment 134 136	in
+T24	segment 137 144	several
+T25	segment 145 154	countries
+T26	segment 154 155	,
+T27	segment 156 160	that
+T28	segment 161 173	manufactures
+T29	segment 174 177	and
+T30	segment 178 189	distributes
+T31	segment 190 196	copper
+T32	segment 196 197	,
+T33	segment 198 206	aluminum
+T34	segment 206 207	,
+T35	segment 208 211	and
+T36	segment 212 219	optical
+T37	segment 220 225	fiber
+T38	segment 226 232	cables
+T39	segment 232 233	,
+T40	segment 234 237	for
+T41	segment 238 244	energy
+T42	segment 244 245	,
+T43	segment 246 260	communications
+T44	segment 260 261	,
+T45	segment 262 265	and
+T46	segment 266 271	other
+T47	segment 272 282	industries
+T48	segment 283 284	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T4
+R3	is-specialized-by Arg1:T5 Arg2:T17
+R4	is-specialized-by Arg1:T5 Arg2:T12
+R5	is-specialized-by Arg1:T5 Arg2:T6
+R6	c_co Arg1:T6 Arg2:T8
+R7	compound Arg1:T8 Arg2:T7
+R8	c_co Arg1:T12 Arg2:T15
+R9	compound Arg1:T15 Arg2:T14
+R10	c_co Arg1:T17 Arg2:T19
+R11	compound Arg1:T19 Arg2:T18
+R12	is-specialized-by Arg1:T22 Arg2:T40
+R13	is-specialized-by Arg1:T22 Arg2:T23
+R14	is-specialized-by Arg1:T22 Arg2:T21
+R15	c_co Arg1:T23 Arg2:T25
+R16	is-specialized-by Arg1:T25 Arg2:T24
+R17	s_p Arg1:T27 Arg2:T28
+R18	p_o Arg1:T28 Arg2:T31
+R19	compound Arg1:T38 Arg2:T37
+R20	is-specialized-by Arg1:T38 Arg2:T36
+R21	c_co Arg1:T40 Arg2:T41
+R22	is-specialized-by Arg1:T47 Arg2:T46

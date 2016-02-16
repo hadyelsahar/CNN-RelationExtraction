@@ -1,0 +1,43 @@
+T0	segment 0 7	Prussia
+T1	segment 8 9	,
+T2	segment 10 15	which
+T3	segment 16 22	redrew
+T4	segment 23 26	the
+T5	segment 27 30	map
+T6	segment 31 33	of
+T7	segment 34 40	Europe
+T8	segment 41 50	following
+T9	segment 51 59	Napoleon
+T10	segment 59 61	's
+T11	segment 62 68	defeat
+T12	segment 68 69	,
+T13	segment 70 77	Prussia
+T14	segment 78 86	acquired
+T15	segment 87 88	a
+T16	segment 89 94	large
+T17	segment 95 102	section
+T18	segment 103 105	of
+T19	segment 106 111	north
+T20	segment 112 119	western
+T21	segment 120 127	Germany
+T22	segment 127 128	,
+T23	segment 129 138	including
+T24	segment 139 142	the
+T25	segment 143 152	coal-rich
+T26	segment 153 157	Ruhr
+T27	segment 158 159	.
+R0	s_p Arg1:T0 Arg2:T14
+R1	s_p Arg1:T2 Arg2:T3
+R2	p_o Arg1:T3 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T6
+R4	c_co Arg1:T6 Arg2:T7
+R5	is-specialized-by Arg1:T7 Arg2:T8
+R6	c_co Arg1:T8 Arg2:T11
+R7	p_o Arg1:T14 Arg2:T17
+R8	is-specialized-by Arg1:T17 Arg2:T16
+R9	is-specialized-by Arg1:T17 Arg2:T18
+R10	c_co Arg1:T18 Arg2:T19
+R11	is-specialized-by Arg1:T21 Arg2:T23
+R12	is-specialized-by Arg1:T21 Arg2:T20
+R13	c_co Arg1:T23 Arg2:T26
+R14	is-specialized-by Arg1:T26 Arg2:T25

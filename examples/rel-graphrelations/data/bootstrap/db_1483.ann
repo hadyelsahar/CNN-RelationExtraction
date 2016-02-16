@@ -1,0 +1,28 @@
+T0	segment 0 8	Cetemmsa
+T1	segment 9 11	is
+T2	segment 12 14	an
+T3	segment 15 25	innovation
+T4	segment 26 29	and
+T5	segment 30 40	technology
+T6	segment 41 47	centre
+T7	segment 47 48	,
+T8	segment 49 53	that
+T9	segment 54 65	specializes
+T10	segment 66 68	in
+T11	segment 69 77	carrying
+T12	segment 78 81	out
+T13	segment 82 89	applied
+T14	segment 90 98	research
+T15	segment 99 101	on
+T16	segment 102 107	Smart
+T17	segment 108 117	Materials
+T18	segment 118 119	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T6
+R2	compound Arg1:T6 Arg2:T3
+R3	s_p Arg1:T8 Arg2:T9
+R4	p_o Arg1:T11 Arg2:T14
+R5	is-specialized-by Arg1:T14 Arg2:T15
+R6	is-specialized-by Arg1:T14 Arg2:T13
+R7	c_co Arg1:T15 Arg2:T17
+R8	compound Arg1:T17 Arg2:T16

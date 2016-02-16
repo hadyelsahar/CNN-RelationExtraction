@@ -1,0 +1,28 @@
+T0	segment 0 4	Salm
+T1	segment 5 7	is
+T2	segment 8 11	the
+T3	segment 12 16	name
+T4	segment 17 19	of
+T5	segment 20 27	several
+T6	segment 28 36	historic
+T7	segment 37 47	countships
+T8	segment 48 51	and
+T9	segment 52 66	principalities
+T10	segment 67 69	in
+T11	segment 70 77	present
+T12	segment 78 85	Germany
+T13	segment 85 86	,
+T14	segment 87 94	Belgium
+T15	segment 94 95	,
+T16	segment 96 106	Luxembourg
+T17	segment 107 110	and
+T18	segment 111 117	France
+T19	segment 118 119	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T10
+R5	is-specialized-by Arg1:T7 Arg2:T5
+R6	c_co Arg1:T10 Arg2:T12
+R7	is-specialized-by Arg1:T12 Arg2:T11

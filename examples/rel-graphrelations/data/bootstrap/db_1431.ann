@@ -1,0 +1,47 @@
+T0	segment 0 13	GlobalScholar
+T1	segment 14 17	was
+T2	segment 18 20	an
+T3	segment 21 30	operating
+T4	segment 31 35	unit
+T5	segment 36 38	of
+T6	segment 39 47	Scantron
+T7	segment 48 53	based
+T8	segment 54 56	in
+T9	segment 57 65	Bellevue
+T10	segment 65 66	,
+T11	segment 67 77	Washington
+T12	segment 78 82	that
+T13	segment 83 92	developed
+T14	segment 92 93	,
+T15	segment 94 106	manufactures
+T16	segment 106 107	,
+T17	segment 108 116	licenses
+T18	segment 116 117	,
+T19	segment 118 121	and
+T20	segment 122 130	supports
+T21	segment 131 132	a
+T22	segment 133 137	wide
+T23	segment 138 143	range
+T24	segment 144 146	of
+T25	segment 147 155	products
+T26	segment 156 159	and
+T27	segment 160 168	services
+T28	segment 169 176	related
+T29	segment 177 179	to
+T30	segment 180 189	education
+T31	segment 190 191	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	compound Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T6
+R5	is-specialized-by Arg1:T7 Arg2:T8
+R6	c_co Arg1:T8 Arg2:T11
+R7	compound Arg1:T11 Arg2:T9
+R8	s_p Arg1:T12 Arg2:T13
+R9	p_o Arg1:T20 Arg2:T23
+R10	is-specialized-by Arg1:T23 Arg2:T24
+R11	is-specialized-by Arg1:T23 Arg2:T22
+R12	c_co Arg1:T24 Arg2:T25
+R13	is-specialized-by Arg1:T28 Arg2:T29
+R14	c_co Arg1:T29 Arg2:T30

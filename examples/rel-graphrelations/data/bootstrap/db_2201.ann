@@ -1,0 +1,42 @@
+T0	segment 0 5	RenÃ¡n
+T1	segment 6 16	AlmendÃ¡rez
+T2	segment 17 18	''
+T3	segment 18 19	``
+T4	segment 19 21	El
+T5	segment 22 27	Cucuy
+T6	segment 27 28	''
+T7	segment 28 29	''
+T8	segment 30 36	Coello
+T9	segment 36 37	,
+T10	segment 38 42	born
+T11	segment 43 51	November
+T12	segment 52 54	18
+T13	segment 54 55	,
+T14	segment 56 60	1953
+T15	segment 61 63	in
+T16	segment 64 72	Honduras
+T17	segment 72 73	,
+T18	segment 74 76	is
+T19	segment 77 82	heard
+T20	segment 83 87	from
+T21	segment 88 89	5
+T22	segment 90 92	to
+T23	segment 93 97	9:30
+T24	segment 98 99	a
+T25	segment 100 101	.
+R0	is-specialized-by Arg1:T1 Arg2:T20
+R1	compound Arg1:T1 Arg2:T0
+R2	compound Arg1:T5 Arg2:T4
+R3	is-specialized-by Arg1:T5 Arg2:T22
+R4	s_p Arg1:T8 Arg2:T19
+R5	is-specialized-by Arg1:T10 Arg2:T15
+R6	is-specialized-by Arg1:T11 Arg2:T12
+R7	compound Arg1:T14 Arg2:T12
+R8	compound Arg1:T14 Arg2:T11
+R9	compound Arg1:T14 Arg2:T13
+R10	c_co Arg1:T15 Arg2:T16
+R11	compound Arg1:T19 Arg2:T18
+R12	c_co Arg1:T20 Arg2:T5
+R13	c_co Arg1:T22 Arg2:T23
+R14	compound Arg1:T23 Arg2:T22
+R15	compound Arg1:T23 Arg2:T21

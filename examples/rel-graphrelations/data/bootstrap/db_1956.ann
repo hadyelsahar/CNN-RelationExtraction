@@ -1,0 +1,40 @@
+T0	segment 0 3	The
+T1	segment 4 20	Prince-Bishopric
+T2	segment 21 23	of
+T3	segment 24 32	WÃ¼rzburg
+T4	segment 33 36	was
+T5	segment 37 39	an
+T6	segment 40 54	ecclesiastical
+T7	segment 55 67	principality
+T8	segment 68 70	of
+T9	segment 71 74	the
+T10	segment 75 79	Holy
+T11	segment 80 85	Roman
+T12	segment 86 92	Empire
+T13	segment 93 100	located
+T14	segment 101 103	in
+T15	segment 104 109	Lower
+T16	segment 110 119	Franconia
+T17	segment 120 124	west
+T18	segment 125 127	of
+T19	segment 128 131	the
+T20	segment 132 148	Prince-Bishopric
+T21	segment 149 151	of
+T22	segment 152 159	Bamberg
+T23	segment 160 161	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T7 Arg2:T6
+R6	c_co Arg1:T8 Arg2:T12
+R7	is-specialized-by Arg1:T12 Arg2:T10
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T16
+R10	is-specialized-by Arg1:T16 Arg2:T18
+R11	compound Arg1:T16 Arg2:T15
+R12	c_co Arg1:T18 Arg2:T20
+R13	is-specialized-by Arg1:T20 Arg2:T17
+R14	is-specialized-by Arg1:T20 Arg2:T21
+R15	c_co Arg1:T21 Arg2:T22

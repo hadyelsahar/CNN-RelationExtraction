@@ -1,0 +1,34 @@
+T0	segment 0 4	Ibom
+T1	segment 5 7	is
+T2	segment 8 10	an
+T3	segment 11 14	old
+T4	segment 15 19	word
+T5	segment 20 24	used
+T6	segment 25 27	by
+T7	segment 28 31	the
+T8	segment 32 36	Efik
+T9	segment 37 41	Eket
+T10	segment 42 48	people
+T11	segment 49 51	of
+T12	segment 52 59	Nigeria
+T13	segment 60 67	meaning
+T14	segment 68 71	the
+T15	segment 72 80	universe
+T16	segment 80 81	,
+T17	segment 82 85	the
+T18	segment 86 91	earth
+T19	segment 91 92	,
+T20	segment 93 95	or
+T21	segment 96 97	a
+T22	segment 98 107	community
+T23	segment 108 109	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T5 Arg2:T6
+R4	c_co Arg1:T6 Arg2:T10
+R5	compound Arg1:T10 Arg2:T8
+R6	is-specialized-by Arg1:T10 Arg2:T11
+R7	compound Arg1:T10 Arg2:T9
+R8	c_co Arg1:T11 Arg2:T12
+R9	p_o Arg1:T13 Arg2:T15

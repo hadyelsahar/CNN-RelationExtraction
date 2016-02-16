@@ -1,0 +1,40 @@
+T0	segment 0 7	Avatele
+T1	segment 7 8	,
+T2	segment 9 10	,
+T3	segment 11 13	is
+T4	segment 14 15	a
+T5	segment 16 23	village
+T6	segment 24 26	on
+T7	segment 27 30	the
+T8	segment 31 40	southwest
+T9	segment 41 46	coast
+T10	segment 47 49	of
+T11	segment 50 54	Niue
+T12	segment 55 59	with
+T13	segment 60 61	a
+T14	segment 62 72	population
+T15	segment 73 75	of
+T16	segment 76 83	roughly
+T17	segment 84 87	200
+T18	segment 88 97	residents
+T19	segment 98 100	as
+T20	segment 101 103	of
+T21	segment 104 108	late
+T22	segment 109 113	2007
+T23	segment 114 115	.
+R0	s_p Arg1:T0 Arg2:T3
+R1	p_o Arg1:T3 Arg2:T5
+R2	is-specialized-by Arg1:T5 Arg2:T12
+R3	is-specialized-by Arg1:T5 Arg2:T19
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T9
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	compound Arg1:T9 Arg2:T8
+R8	c_co Arg1:T10 Arg2:T11
+R9	c_co Arg1:T12 Arg2:T14
+R10	is-specialized-by Arg1:T14 Arg2:T15
+R11	c_co Arg1:T15 Arg2:T18
+R12	is-specialized-by Arg1:T17 Arg2:T16
+R13	is-specialized-by Arg1:T18 Arg2:T17
+R14	c_co Arg1:T19 Arg2:T22
+R15	compound Arg1:T22 Arg2:T21

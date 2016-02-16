@@ -1,0 +1,51 @@
+T0	segment 0 1	A
+T1	segment 2 8	stated
+T2	segment 9 15	income
+T3	segment 16 20	loan
+T4	segment 21 23	is
+T5	segment 24 25	a
+T6	segment 26 34	mortgage
+T7	segment 35 40	where
+T8	segment 41 44	the
+T9	segment 45 51	lender
+T10	segment 52 56	does
+T11	segment 57 60	not
+T12	segment 61 67	verify
+T13	segment 68 71	the
+T14	segment 72 80	borrower
+T15	segment 80 82	's
+T16	segment 83 89	income
+T17	segment 90 92	by
+T18	segment 93 100	looking
+T19	segment 101 103	at
+T20	segment 104 109	their
+T21	segment 110 113	pay
+T22	segment 114 119	stubs
+T23	segment 119 120	,
+T24	segment 121 124	W-2
+T25	segment 125 130	forms
+T26	segment 130 131	,
+T27	segment 132 138	income
+T28	segment 139 142	tax
+T29	segment 143 150	returns
+T30	segment 150 151	,
+T31	segment 152 154	or
+T32	segment 155 160	other
+T33	segment 161 168	records
+T34	segment 169 170	.
+R0	is-specialized-by Arg1:T3 Arg2:T1
+R1	s_p Arg1:T3 Arg2:T4
+R2	compound Arg1:T3 Arg2:T2
+R3	p_o Arg1:T4 Arg2:T6
+R4	s_p Arg1:T9 Arg2:T12
+R5	compound Arg1:T12 Arg2:T11
+R6	p_o Arg1:T12 Arg2:T16
+R7	p_c Arg1:T12 Arg2:T7
+R8	compound Arg1:T12 Arg2:T10
+R9	is-specialized-by Arg1:T18 Arg2:T19
+R10	c_co Arg1:T19 Arg2:T22
+R11	compound Arg1:T22 Arg2:T21
+R12	is-specialized-by Arg1:T25 Arg2:T24
+R13	compound Arg1:T29 Arg2:T28
+R14	compound Arg1:T29 Arg2:T27
+R15	is-specialized-by Arg1:T33 Arg2:T32

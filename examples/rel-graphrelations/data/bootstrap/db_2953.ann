@@ -1,0 +1,28 @@
+T0	segment 0 4	Size
+T1	segment 5 9	Five
+T2	segment 10 15	Games
+T3	segment 16 18	is
+T4	segment 19 20	a
+T5	segment 21 28	British
+T6	segment 29 40	independent
+T7	segment 41 46	video
+T8	segment 47 51	game
+T9	segment 52 61	developer
+T10	segment 62 69	founded
+T11	segment 70 72	by
+T12	segment 73 76	Dan
+T13	segment 77 85	Marshall
+T14	segment 86 88	in
+T15	segment 89 93	2008
+T16	segment 94 95	.
+R0	s_p Arg1:T0 Arg2:T3
+R1	is-specialized-by Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T9
+R3	compound Arg1:T9 Arg2:T8
+R4	compound Arg1:T9 Arg2:T7
+R5	is-specialized-by Arg1:T9 Arg2:T5
+R6	is-specialized-by Arg1:T10 Arg2:T11
+R7	c_co Arg1:T11 Arg2:T13
+R8	compound Arg1:T13 Arg2:T12
+R9	is-specialized-by Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T15

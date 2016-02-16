@@ -1,0 +1,37 @@
+T0	segment 0 5	Sleep
+T1	segment 6 8	It
+T2	segment 9 12	Off
+T3	segment 13 20	Records
+T4	segment 21 23	is
+T5	segment 24 25	a
+T6	segment 26 37	Gainesville
+T7	segment 37 38	,
+T8	segment 39 52	Florida-based
+T9	segment 53 64	independent
+T10	segment 65 71	record
+T11	segment 72 77	label
+T12	segment 77 78	,
+T13	segment 79 84	which
+T14	segment 85 88	was
+T15	segment 89 96	started
+T16	segment 97 99	by
+T17	segment 100 103	the
+T18	segment 104 108	band
+T19	segment 109 113	Less
+T20	segment 114 118	Than
+T21	segment 119 123	Jake
+T22	segment 124 126	in
+T23	segment 127 131	2008
+T24	segment 132 133	.
+R0	is-specialized-by Arg1:T11 Arg2:T8
+R1	compound Arg1:T11 Arg2:T6
+R2	is-specialized-by Arg1:T11 Arg2:T20
+R3	compound Arg1:T11 Arg2:T10
+R4	s_p Arg1:T13 Arg2:T15
+R5	compound Arg1:T15 Arg2:T14
+R6	p_c Arg1:T15 Arg2:T16
+R7	c_co Arg1:T16 Arg2:T18
+R8	is-specialized-by Arg1:T18 Arg2:T19
+R9	c_co Arg1:T20 Arg2:T21
+R10	is-specialized-by Arg1:T21 Arg2:T22
+R11	c_co Arg1:T22 Arg2:T23

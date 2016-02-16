@@ -1,0 +1,30 @@
+T0	segment 0 4	Kent
+T1	segment 5 13	HÃ¤rstedt
+T2	segment 14 16	is
+T3	segment 17 18	a
+T4	segment 19 26	Swedish
+T5	segment 27 33	social
+T6	segment 34 44	democratic
+T7	segment 45 55	politician
+T8	segment 55 56	,
+T9	segment 57 63	member
+T10	segment 64 66	of
+T11	segment 67 70	the
+T12	segment 71 78	Riksdag
+T13	segment 79 84	since
+T14	segment 85 88	the
+T15	segment 89 96	Swedish
+T16	segment 97 104	general
+T17	segment 105 113	election
+T18	segment 113 114	,
+T19	segment 115 119	1998
+T20	segment 120 121	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T7
+R3	is-specialized-by Arg1:T7 Arg2:T4
+R4	is-specialized-by Arg1:T9 Arg2:T10
+R5	c_co Arg1:T10 Arg2:T12
+R6	is-specialized-by Arg1:T12 Arg2:T13
+R7	c_co Arg1:T13 Arg2:T17
+R8	is-specialized-by Arg1:T17 Arg2:T15

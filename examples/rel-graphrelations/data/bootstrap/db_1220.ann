@@ -1,0 +1,65 @@
+T0	segment 0 2	Le
+T1	segment 3 10	ThÃ©Ã¢tre
+T2	segment 11 13	du
+T3	segment 14 20	Soleil
+T4	segment 21 23	is
+T5	segment 24 25	a
+T6	segment 26 34	Parisian
+T7	segment 35 46	avant-garde
+T8	segment 47 52	stage
+T9	segment 53 61	ensemble
+T10	segment 62 69	founded
+T11	segment 70 72	by
+T12	segment 73 79	Ariane
+T13	segment 80 90	Mnouchkine
+T14	segment 90 91	,
+T15	segment 92 100	Philippe
+T16	segment 101 108	LÃ©otard
+T17	segment 109 112	and
+T18	segment 113 119	fellow
+T19	segment 120 128	students
+T20	segment 129 131	of
+T21	segment 132 135	the
+T22	segment 136 143	L'Ãcole
+T23	segment 144 158	Internationale
+T24	segment 159 161	de
+T25	segment 162 169	ThÃ©Ã¢tre
+T26	segment 170 177	Jacques
+T27	segment 178 183	Lecoq
+T28	segment 184 186	in
+T29	segment 187 191	1964
+T30	segment 192 194	as
+T31	segment 195 196	a
+T32	segment 197 207	collective
+T33	segment 208 210	of
+T34	segment 211 218	theatre
+T35	segment 219 226	artists
+T36	segment 227 228	.
+R0	compound Arg1:T3 Arg2:T0
+R1	s_p Arg1:T3 Arg2:T4
+R2	compound Arg1:T3 Arg2:T2
+R3	compound Arg1:T3 Arg2:T1
+R4	p_o Arg1:T4 Arg2:T9
+R5	compound Arg1:T9 Arg2:T8
+R6	is-specialized-by Arg1:T9 Arg2:T6
+R7	is-specialized-by Arg1:T10 Arg2:T11
+R8	is-specialized-by Arg1:T10 Arg2:T30
+R9	c_co Arg1:T11 Arg2:T13
+R10	compound Arg1:T13 Arg2:T12
+R11	compound Arg1:T16 Arg2:T15
+R12	is-specialized-by Arg1:T19 Arg2:T18
+R13	is-specialized-by Arg1:T19 Arg2:T20
+R14	c_co Arg1:T20 Arg2:T23
+R15	is-specialized-by Arg1:T23 Arg2:T24
+R16	compound Arg1:T23 Arg2:T22
+R17	is-specialized-by Arg1:T27 Arg2:T28
+R18	compound Arg1:T27 Arg2:T22
+R19	compound Arg1:T27 Arg2:T23
+R20	compound Arg1:T27 Arg2:T26
+R21	compound Arg1:T27 Arg2:T24
+R22	compound Arg1:T27 Arg2:T25
+R23	c_co Arg1:T28 Arg2:T29
+R24	c_co Arg1:T30 Arg2:T32
+R25	is-specialized-by Arg1:T32 Arg2:T33
+R26	c_co Arg1:T33 Arg2:T35
+R27	compound Arg1:T35 Arg2:T34

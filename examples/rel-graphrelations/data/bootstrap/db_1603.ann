@@ -1,0 +1,58 @@
+T0	segment 0 7	Founded
+T1	segment 8 10	by
+T2	segment 11 17	Moritz
+T3	segment 18 21	Von
+T4	segment 22 28	Oswald
+T5	segment 29 32	and
+T6	segment 33 37	Mark
+T7	segment 38 46	Ernestus
+T8	segment 47 49	of
+T9	segment 50 56	Rhythm
+T10	segment 57 60	and
+T11	segment 61 66	Sound
+T12	segment 66 67	,
+T13	segment 68 73	Basic
+T14	segment 74 80	Replay
+T15	segment 81 83	is
+T16	segment 84 86	an
+T17	segment 87 94	imprint
+T18	segment 95 97	in
+T19	segment 98 101	the
+T20	segment 102 107	Basic
+T21	segment 108 115	Channel
+T22	segment 116 122	record
+T23	segment 123 128	label
+T24	segment 129 135	family
+T25	segment 135 136	,
+T26	segment 137 145	focusing
+T27	segment 146 155	primarily
+T28	segment 156 158	on
+T29	segment 159 167	reissues
+T30	segment 168 170	of
+T31	segment 171 177	reggae
+T32	segment 178 184	albums
+T33	segment 185 188	and
+T34	segment 189 196	singles
+T35	segment 197 198	.
+R0	is-specialized-by Arg1:T0 Arg2:T1
+R1	c_co Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T8
+R3	compound Arg1:T4 Arg2:T3
+R4	compound Arg1:T4 Arg2:T2
+R5	compound Arg1:T7 Arg2:T6
+R6	c_co Arg1:T8 Arg2:T9
+R7	compound Arg1:T14 Arg2:T13
+R8	s_p Arg1:T14 Arg2:T15
+R9	p_o Arg1:T15 Arg2:T17
+R10	is-specialized-by Arg1:T17 Arg2:T18
+R11	c_co Arg1:T18 Arg2:T24
+R12	compound Arg1:T24 Arg2:T20
+R13	compound Arg1:T24 Arg2:T22
+R14	compound Arg1:T24 Arg2:T21
+R15	compound Arg1:T24 Arg2:T23
+R16	is-specialized-by Arg1:T26 Arg2:T28
+R17	is-specialized-by Arg1:T26 Arg2:T27
+R18	c_co Arg1:T28 Arg2:T29
+R19	is-specialized-by Arg1:T29 Arg2:T30
+R20	c_co Arg1:T30 Arg2:T32
+R21	compound Arg1:T32 Arg2:T31

@@ -1,0 +1,66 @@
+T0	segment 0 6	Formed
+T1	segment 7 9	in
+T2	segment 10 14	1938
+T3	segment 14 15	,
+T4	segment 16 20	Cobb
+T5	segment 21 29	Electric
+T6	segment 30 40	Membership
+T7	segment 41 52	Corporation
+T8	segment 52 53	,
+T9	segment 54 58	more
+T10	segment 59 67	commonly
+T11	segment 68 73	known
+T12	segment 74 76	as
+T13	segment 77 81	Cobb
+T14	segment 82 85	EMC
+T15	segment 85 86	,
+T16	segment 87 89	is
+T17	segment 90 91	a
+T18	segment 92 102	non-profit
+T19	segment 103 111	electric
+T20	segment 112 119	utility
+T21	segment 120 127	company
+T22	segment 128 135	serving
+T23	segment 136 141	parts
+T24	segment 142 144	of
+T25	segment 145 149	Cobb
+T26	segment 149 150	,
+T27	segment 151 159	Cherokee
+T28	segment 159 160	,
+T29	segment 161 167	Bartow
+T30	segment 167 168	,
+T31	segment 169 177	Paulding
+T32	segment 177 178	,
+T33	segment 179 182	and
+T34	segment 183 188	small
+T35	segment 189 197	sections
+T36	segment 198 200	of
+T37	segment 201 207	Fulton
+T38	segment 208 216	counties
+T39	segment 217 219	in
+T40	segment 220 227	Georgia
+T41	segment 228 229	.
+R0	is-specialized-by Arg1:T0 Arg2:T1
+R1	c_co Arg1:T1 Arg2:T2
+R2	compound Arg1:T7 Arg2:T4
+R3	compound Arg1:T7 Arg2:T6
+R4	compound Arg1:T7 Arg2:T5
+R5	s_p Arg1:T7 Arg2:T16
+R6	is-specialized-by Arg1:T10 Arg2:T9
+R7	is-specialized-by Arg1:T11 Arg2:T10
+R8	is-specialized-by Arg1:T11 Arg2:T12
+R9	c_co Arg1:T12 Arg2:T14
+R10	compound Arg1:T14 Arg2:T13
+R11	p_o Arg1:T16 Arg2:T21
+R12	compound Arg1:T21 Arg2:T20
+R13	is-specialized-by Arg1:T21 Arg2:T18
+R14	is-specialized-by Arg1:T22 Arg2:T39
+R15	p_o Arg1:T22 Arg2:T23
+R16	is-specialized-by Arg1:T23 Arg2:T24
+R17	c_co Arg1:T24 Arg2:T31
+R18	compound Arg1:T31 Arg2:T25
+R19	is-specialized-by Arg1:T35 Arg2:T34
+R20	is-specialized-by Arg1:T35 Arg2:T36
+R21	c_co Arg1:T36 Arg2:T38
+R22	compound Arg1:T38 Arg2:T37
+R23	c_co Arg1:T39 Arg2:T40

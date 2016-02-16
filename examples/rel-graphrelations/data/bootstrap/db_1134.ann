@@ -1,0 +1,28 @@
+T0	segment 0 6	Nevada
+T1	segment 7 9	is
+T2	segment 10 11	a
+T3	segment 12 17	state
+T4	segment 18 20	in
+T5	segment 21 24	the
+T6	segment 25 32	Western
+T7	segment 32 33	,
+T8	segment 34 42	Mountain
+T9	segment 43 47	West
+T10	segment 47 48	,
+T11	segment 49 52	and
+T12	segment 53 65	Southwestern
+T13	segment 66 73	regions
+T14	segment 74 76	of
+T15	segment 77 80	the
+T16	segment 81 87	United
+T17	segment 88 94	States
+T18	segment 95 96	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T6
+R4	compound Arg1:T9 Arg2:T8
+R5	compound Arg1:T13 Arg2:T12
+R6	is-specialized-by Arg1:T13 Arg2:T14
+R7	c_co Arg1:T14 Arg2:T17
+R8	compound Arg1:T17 Arg2:T16

@@ -1,0 +1,38 @@
+T0	segment 0 3	The
+T1	segment 4 12	Southern
+T2	segment 13 23	California
+T3	segment 24 30	Public
+T4	segment 31 36	Power
+T5	segment 37 46	Authority
+T6	segment 47 49	is
+T7	segment 50 51	a
+T8	segment 52 57	joint
+T9	segment 58 64	powers
+T10	segment 65 74	authority
+T11	segment 74 75	,
+T12	segment 76 78	or
+T13	segment 79 80	a
+T14	segment 81 91	collective
+T15	segment 92 94	of
+T16	segment 95 97	10
+T17	segment 98 107	municipal
+T18	segment 108 117	utilities
+T19	segment 118 121	and
+T20	segment 122 125	one
+T21	segment 126 136	irrigation
+T22	segment 137 145	district
+T23	segment 146 147	.
+R0	compound Arg1:T5 Arg2:T4
+R1	compound Arg1:T5 Arg2:T3
+R2	s_p Arg1:T5 Arg2:T6
+R3	compound Arg1:T5 Arg2:T2
+R4	compound Arg1:T5 Arg2:T1
+R5	p_o Arg1:T6 Arg2:T10
+R6	is-specialized-by Arg1:T10 Arg2:T8
+R7	compound Arg1:T10 Arg2:T9
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	c_co Arg1:T15 Arg2:T18
+R10	is-specialized-by Arg1:T18 Arg2:T16
+R11	is-specialized-by Arg1:T18 Arg2:T17
+R12	compound Arg1:T22 Arg2:T21
+R13	is-specialized-by Arg1:T22 Arg2:T20

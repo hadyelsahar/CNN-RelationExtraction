@@ -1,0 +1,57 @@
+T0	segment 0 3	Sea
+T1	segment 4 6	of
+T2	segment 7 12	Tunes
+T3	segment 13 16	was
+T4	segment 17 18	a
+T5	segment 19 24	music
+T6	segment 25 35	publishing
+T7	segment 36 43	company
+T8	segment 43 44	,
+T9	segment 45 52	founded
+T10	segment 53 55	in
+T11	segment 56 60	1962
+T12	segment 61 63	by
+T13	segment 64 69	Murry
+T14	segment 70 76	Wilson
+T15	segment 76 77	,
+T16	segment 78 84	father
+T17	segment 85 87	to
+T18	segment 88 93	three
+T19	segment 94 96	of
+T20	segment 97 100	the
+T21	segment 101 106	Beach
+T22	segment 107 111	Boys
+T23	segment 112 113	,
+T24	segment 114 116	to
+T25	segment 117 124	publish
+T26	segment 125 128	and
+T27	segment 129 136	promote
+T28	segment 137 140	the
+T29	segment 141 149	original
+T30	segment 150 155	songs
+T31	segment 156 163	written
+T32	segment 164 166	by
+T33	segment 167 172	Brian
+T34	segment 173 176	and
+T35	segment 177 181	Mike
+T36	segment 182 183	.
+R0	is-specialized-by Arg1:T0 Arg2:T1
+R1	s_p Arg1:T0 Arg2:T3
+R2	c_co Arg1:T1 Arg2:T2
+R3	p_o Arg1:T3 Arg2:T7
+R4	compound Arg1:T7 Arg2:T6
+R5	compound Arg1:T7 Arg2:T5
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	is-specialized-by Arg1:T9 Arg2:T17
+R8	is-specialized-by Arg1:T9 Arg2:T12
+R9	c_co Arg1:T10 Arg2:T11
+R10	c_co Arg1:T12 Arg2:T14
+R11	compound Arg1:T14 Arg2:T13
+R12	c_co Arg1:T17 Arg2:T18
+R13	is-specialized-by Arg1:T18 Arg2:T19
+R14	c_co Arg1:T19 Arg2:T22
+R15	compound Arg1:T22 Arg2:T21
+R16	p_o Arg1:T25 Arg2:T30
+R17	is-specialized-by Arg1:T30 Arg2:T29
+R18	is-specialized-by Arg1:T31 Arg2:T32
+R19	c_co Arg1:T32 Arg2:T33

@@ -1,0 +1,60 @@
+T0	segment 0 3	The
+T1	segment 4 12	Mthethwa
+T2	segment 13 24	Paramountcy
+T3	segment 24 25	,
+T4	segment 26 35	sometimes
+T5	segment 36 44	referred
+T6	segment 45 47	to
+T7	segment 48 50	as
+T8	segment 51 54	the
+T9	segment 55 61	Mtetwa
+T10	segment 62 64	or
+T11	segment 65 73	Mthethwa
+T12	segment 74 80	Empire
+T13	segment 80 81	,
+T14	segment 82 85	was
+T15	segment 86 87	a
+T16	segment 88 96	Southern
+T17	segment 97 104	African
+T18	segment 105 110	state
+T19	segment 111 115	that
+T20	segment 116 121	arose
+T21	segment 122 124	in
+T22	segment 125 128	the
+T23	segment 129 133	18th
+T24	segment 134 141	century
+T25	segment 142 147	south
+T26	segment 148 150	of
+T27	segment 151 158	Delagoa
+T28	segment 159 162	Bay
+T29	segment 163 166	and
+T30	segment 167 173	inland
+T31	segment 174 176	in
+T32	segment 177 184	eastern
+T33	segment 185 193	southern
+T34	segment 194 200	Africa
+T35	segment 201 202	.
+R0	s_p Arg1:T2 Arg2:T14
+R1	compound Arg1:T2 Arg2:T1
+R2	is-specialized-by Arg1:T5 Arg2:T7
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	c_co Arg1:T7 Arg2:T12
+R5	compound Arg1:T12 Arg2:T11
+R6	compound Arg1:T12 Arg2:T9
+R7	p_o Arg1:T14 Arg2:T18
+R8	compound Arg1:T17 Arg2:T16
+R9	is-specialized-by Arg1:T18 Arg2:T16
+R10	is-specialized-by Arg1:T18 Arg2:T30
+R11	s_p Arg1:T19 Arg2:T20
+R12	p_c Arg1:T20 Arg2:T21
+R13	c_co Arg1:T21 Arg2:T25
+R14	compound Arg1:T24 Arg2:T22
+R15	compound Arg1:T24 Arg2:T23
+R16	is-specialized-by Arg1:T25 Arg2:T23
+R17	is-specialized-by Arg1:T25 Arg2:T26
+R18	compound Arg1:T25 Arg2:T24
+R19	c_co Arg1:T26 Arg2:T28
+R20	compound Arg1:T28 Arg2:T27
+R21	is-specialized-by Arg1:T30 Arg2:T31
+R22	c_co Arg1:T31 Arg2:T34
+R23	is-specialized-by Arg1:T34 Arg2:T32

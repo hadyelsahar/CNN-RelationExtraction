@@ -1,0 +1,28 @@
+T0	segment 0 9	Solimpeks
+T1	segment 10 12	is
+T2	segment 13 14	a
+T3	segment 15 22	Turkish
+T4	segment 23 30	company
+T5	segment 31 40	dedicated
+T6	segment 41 43	to
+T7	segment 44 55	manufacture
+T8	segment 56 59	and
+T9	segment 60 66	market
+T10	segment 67 72	solar
+T11	segment 73 80	thermal
+T12	segment 81 84	and
+T13	segment 85 97	photovoltaic
+T14	segment 98 105	thermal
+T15	segment 106 112	hybrid
+T16	segment 113 118	solar
+T17	segment 119 129	collectors
+T18	segment 130 139	worldwide
+T19	segment 140 141	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	p_o Arg1:T7 Arg2:T11
+R4	is-specialized-by Arg1:T11 Arg2:T18
+R5	is-specialized-by Arg1:T11 Arg2:T10
+R6	compound Arg1:T17 Arg2:T15
+R7	is-specialized-by Arg1:T17 Arg2:T13

@@ -1,0 +1,40 @@
+T0	segment 0 5	Peter
+T1	segment 6 7	`
+T2	segment 7 10	The
+T3	segment 11 14	Man
+T4	segment 15 17	in
+T5	segment 18 21	the
+T6	segment 22 25	Cap
+T7	segment 25 26	'
+T8	segment 27 36	McDermott
+T9	segment 37 45	reigning
+T10	segment 46 57	All-Ireland
+T11	segment 58 67	Champions
+T12	segment 68 73	Meath
+T13	segment 74 76	at
+T14	segment 77 82	Croke
+T15	segment 83 87	Park
+T16	segment 88 90	in
+T17	segment 91 98	October
+T18	segment 99 103	1967
+T19	segment 104 109	under
+T20	segment 110 116	Gaelic
+T21	segment 117 125	football
+T22	segment 126 131	rules
+T23	segment 132 133	.
+R0	c_co Arg1:T4 Arg2:T8
+R1	is-specialized-by Arg1:T9 Arg2:T4
+R2	is-specialized-by Arg1:T9 Arg2:T19
+R3	p_o Arg1:T9 Arg2:T12
+R4	compound Arg1:T12 Arg2:T11
+R5	compound Arg1:T12 Arg2:T10
+R6	is-specialized-by Arg1:T12 Arg2:T13
+R7	c_co Arg1:T13 Arg2:T15
+R8	is-specialized-by Arg1:T15 Arg2:T16
+R9	compound Arg1:T15 Arg2:T14
+R10	c_co Arg1:T16 Arg2:T17
+R11	is-specialized-by Arg1:T17 Arg2:T18
+R12	compound Arg1:T18 Arg2:T17
+R13	c_co Arg1:T19 Arg2:T22
+R14	compound Arg1:T22 Arg2:T21
+R15	is-specialized-by Arg1:T22 Arg2:T20

@@ -1,0 +1,30 @@
+T0	segment 0 8	Buquebus
+T1	segment 9 11	is
+T2	segment 12 14	an
+T3	segment 15 34	Argentine-Uruguayan
+T4	segment 35 42	company
+T5	segment 43 47	that
+T6	segment 48 56	operates
+T7	segment 57 62	ferry
+T8	segment 63 71	services
+T9	segment 72 76	from
+T10	segment 77 83	Buenos
+T11	segment 84 89	Aires
+T12	segment 90 92	to
+T13	segment 93 103	Montevideo
+T14	segment 103 104	,
+T15	segment 105 112	Colonia
+T16	segment 113 116	and
+T17	segment 117 127	Piriapolis
+T18	segment 128 129	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	s_p Arg1:T5 Arg2:T6
+R4	p_c Arg1:T6 Arg2:T9
+R5	p_o Arg1:T6 Arg2:T8
+R6	compound Arg1:T8 Arg2:T7
+R7	c_co Arg1:T9 Arg2:T11
+R8	is-specialized-by Arg1:T11 Arg2:T12
+R9	compound Arg1:T11 Arg2:T10
+R10	c_co Arg1:T12 Arg2:T13

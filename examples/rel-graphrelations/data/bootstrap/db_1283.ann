@@ -1,0 +1,41 @@
+T0	segment 0 5	Laura
+T1	segment 6 13	Allende
+T2	segment 14 17	was
+T3	segment 18 19	a
+T4	segment 20 27	Chilean
+T5	segment 28 38	politician
+T6	segment 38 39	,
+T7	segment 40 41	a
+T8	segment 42 48	member
+T9	segment 49 51	of
+T10	segment 52 55	the
+T11	segment 56 61	lower
+T12	segment 62 69	chamber
+T13	segment 70 72	of
+T14	segment 73 83	parliament
+T15	segment 84 87	and
+T16	segment 88 94	sister
+T17	segment 95 97	of
+T18	segment 98 104	former
+T19	segment 105 114	president
+T20	segment 115 117	of
+T21	segment 118 123	Chile
+T22	segment 124 132	Salvador
+T23	segment 133 140	Allende
+T24	segment 141 142	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T8 Arg2:T9
+R5	is-specialized-by Arg1:T8 Arg2:T17
+R6	c_co Arg1:T9 Arg2:T12
+R7	is-specialized-by Arg1:T12 Arg2:T11
+R8	is-specialized-by Arg1:T12 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T14
+R10	c_co Arg1:T17 Arg2:T19
+R11	is-specialized-by Arg1:T19 Arg2:T18
+R12	is-specialized-by Arg1:T19 Arg2:T20
+R13	c_co Arg1:T20 Arg2:T23
+R14	compound Arg1:T23 Arg2:T22
+R15	compound Arg1:T23 Arg2:T21

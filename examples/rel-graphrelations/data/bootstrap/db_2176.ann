@@ -1,0 +1,54 @@
+T0	segment 0 7	Galatia
+T1	segment 8 11	was
+T2	segment 12 15	the
+T3	segment 16 20	name
+T4	segment 21 23	of
+T5	segment 24 25	a
+T6	segment 26 34	province
+T7	segment 35 37	of
+T8	segment 38 41	the
+T9	segment 42 47	Roman
+T10	segment 48 54	Empire
+T11	segment 55 57	in
+T12	segment 58 66	Anatolia
+T13	segment 67 68	,
+T14	segment 69 71	in
+T15	segment 72 74	25
+T16	segment 75 77	BC
+T17	segment 77 78	,
+T18	segment 79 87	covering
+T19	segment 88 92	most
+T20	segment 93 95	of
+T21	segment 96 104	formerly
+T22	segment 105 116	independent
+T23	segment 117 123	Celtic
+T24	segment 124 131	Galatia
+T25	segment 131 132	,
+T26	segment 133 137	with
+T27	segment 138 141	its
+T28	segment 142 149	capital
+T29	segment 150 152	at
+T30	segment 153 159	Ancyra
+T31	segment 160 161	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T18
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	c_co Arg1:T7 Arg2:T10
+R6	is-specialized-by Arg1:T10 Arg2:T11
+R7	compound Arg1:T10 Arg2:T9
+R8	c_co Arg1:T11 Arg2:T12
+R9	c_co Arg1:T14 Arg2:T16
+R10	compound Arg1:T16 Arg2:T15
+R11	p_o Arg1:T18 Arg2:T19
+R12	is-specialized-by Arg1:T18 Arg2:T14
+R13	is-specialized-by Arg1:T18 Arg2:T29
+R14	is-specialized-by Arg1:T19 Arg2:T20
+R15	c_co Arg1:T20 Arg2:T24
+R16	is-specialized-by Arg1:T24 Arg2:T26
+R17	compound Arg1:T24 Arg2:T23
+R18	is-specialized-by Arg1:T24 Arg2:T22
+R19	is-specialized-by Arg1:T24 Arg2:T21
+R20	c_co Arg1:T26 Arg2:T28
+R21	c_co Arg1:T29 Arg2:T30

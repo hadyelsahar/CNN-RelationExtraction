@@ -1,0 +1,56 @@
+T0	segment 0 6	Andrew
+T1	segment 7 15	Johnston
+T2	segment 16 18	is
+T3	segment 19 20	a
+T4	segment 21 28	British
+T5	segment 29 35	singer
+T6	segment 36 39	who
+T7	segment 40 44	rose
+T8	segment 45 47	to
+T9	segment 48 52	fame
+T10	segment 53 57	when
+T11	segment 58 60	he
+T12	segment 61 69	appeared
+T13	segment 70 72	as
+T14	segment 73 74	a
+T15	segment 75 78	boy
+T16	segment 79 86	soprano
+T17	segment 87 89	on
+T18	segment 90 93	the
+T19	segment 94 100	second
+T20	segment 101 107	series
+T21	segment 108 110	of
+T22	segment 111 114	the
+T23	segment 115 122	British
+T24	segment 123 133	television
+T25	segment 134 140	talent
+T26	segment 141 145	show
+T27	segment 146 153	Britain
+T28	segment 153 155	's
+T29	segment 156 159	Got
+T30	segment 160 166	Talent
+T31	segment 167 169	in
+T32	segment 170 174	2008
+T33	segment 175 176	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	s_p Arg1:T6 Arg2:T7
+R5	p_c Arg1:T7 Arg2:T8
+R6	c_co Arg1:T8 Arg2:T9
+R7	s_p Arg1:T11 Arg2:T12
+R8	p_c Arg1:T12 Arg2:T10
+R9	s_p Arg1:T16 Arg2:T26
+R10	is-specialized-by Arg1:T16 Arg2:T17
+R11	compound Arg1:T16 Arg2:T15
+R12	c_co Arg1:T17 Arg2:T20
+R13	is-specialized-by Arg1:T20 Arg2:T19
+R14	is-specialized-by Arg1:T20 Arg2:T21
+R15	c_co Arg1:T21 Arg2:T25
+R16	is-specialized-by Arg1:T25 Arg2:T23
+R17	compound Arg1:T25 Arg2:T24
+R18	p_o Arg1:T26 Arg2:T30
+R19	is-specialized-by Arg1:T30 Arg2:T31
+R20	compound Arg1:T30 Arg2:T29
+R21	c_co Arg1:T31 Arg2:T32

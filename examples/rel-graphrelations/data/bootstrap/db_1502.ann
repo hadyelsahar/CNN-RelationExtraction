@@ -1,0 +1,40 @@
+T0	segment 0 8	Ultimate
+T1	segment 9 20	Electronics
+T2	segment 21 24	was
+T3	segment 25 26	a
+T4	segment 27 32	chain
+T5	segment 33 35	of
+T6	segment 36 44	consumer
+T7	segment 45 56	electronics
+T8	segment 57 63	stores
+T9	segment 64 69	which
+T10	segment 70 75	filed
+T11	segment 76 79	for
+T12	segment 80 90	bankruptcy
+T13	segment 91 96	twice
+T14	segment 97 102	after
+T15	segment 103 107	2006
+T16	segment 107 108	,
+T17	segment 109 120	liquidating
+T18	segment 121 124	and
+T19	segment 125 132	ceasing
+T20	segment 133 143	operations
+T21	segment 144 146	in
+T22	segment 147 151	2011
+T23	segment 152 153	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T4
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T8
+R5	compound Arg1:T8 Arg2:T6
+R6	compound Arg1:T8 Arg2:T7
+R7	s_p Arg1:T9 Arg2:T10
+R8	p_c Arg1:T10 Arg2:T14
+R9	p_c Arg1:T10 Arg2:T11
+R10	c_co Arg1:T11 Arg2:T12
+R11	c_co Arg1:T14 Arg2:T15
+R12	is-specialized-by Arg1:T15 Arg2:T13
+R13	p_o Arg1:T17 Arg2:T20
+R14	is-specialized-by Arg1:T20 Arg2:T21
+R15	c_co Arg1:T21 Arg2:T22

@@ -1,0 +1,29 @@
+T0	segment 0 3	Amb
+T1	segment 4 7	was
+T2	segment 8 9	a
+T3	segment 10 18	princely
+T4	segment 19 24	state
+T5	segment 25 27	of
+T6	segment 28 31	the
+T7	segment 32 38	former
+T8	segment 39 46	British
+T9	segment 47 53	Indian
+T10	segment 54 60	Empire
+T11	segment 61 66	ruled
+T12	segment 67 71	over
+T13	segment 72 74	by
+T14	segment 75 78	the
+T15	segment 79 85	Tanoli
+T16	segment 86 91	tribe
+T17	segment 92 93	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T10
+R5	is-specialized-by Arg1:T10 Arg2:T7
+R6	compound Arg1:T10 Arg2:T8
+R7	compound Arg1:T10 Arg2:T9
+R8	is-specialized-by Arg1:T11 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T16
+R10	compound Arg1:T16 Arg2:T15

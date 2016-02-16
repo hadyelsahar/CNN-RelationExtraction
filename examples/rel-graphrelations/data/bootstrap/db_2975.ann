@@ -1,0 +1,25 @@
+T0	segment 0 3	Rey
+T1	segment 4 6	or
+T2	segment 7 10	Ray
+T3	segment 11 12	-LSB-
+T4	segment 12 25	Pronunciation
+T5	segment 25 26	:
+T6	segment 27 29	rÄ
+T7	segment 29 30	-RSB-
+T8	segment 31 32	,
+T9	segment 33 35	as
+T10	segment 36 40	does
+T11	segment 41 44	the
+T12	segment 45 57	EncyclopÃ¦dia
+T13	segment 58 65	Iranica
+T14	segment 66 75	published
+T15	segment 76 78	by
+T16	segment 79 87	Columbia
+T17	segment 88 98	University
+T18	segment 99 100	.
+R0	compound Arg1:T4 Arg2:T2
+R1	p_o Arg1:T10 Arg2:T13
+R2	compound Arg1:T13 Arg2:T12
+R3	is-specialized-by Arg1:T14 Arg2:T15
+R4	c_co Arg1:T15 Arg2:T17
+R5	compound Arg1:T17 Arg2:T16

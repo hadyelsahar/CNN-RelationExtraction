@@ -1,0 +1,68 @@
+T0	segment 0 3	The
+T1	segment 4 15	Confederate
+T2	segment 16 23	Martyrs
+T3	segment 24 32	Monument
+T4	segment 33 35	at
+T5	segment 36 39	the
+T6	segment 40 53	Jeffersontown
+T7	segment 54 58	City
+T8	segment 59 67	Cemetery
+T9	segment 68 70	in
+T10	segment 71 84	Jeffersontown
+T11	segment 84 85	,
+T12	segment 86 94	Kentucky
+T13	segment 95 100	marks
+T14	segment 101 106	where
+T15	segment 107 111	four
+T16	segment 112 123	Confederate
+T17	segment 124 132	soldiers
+T18	segment 133 137	were
+T19	segment 138 146	executed
+T20	segment 147 148	''
+T21	segment 148 149	``
+T22	segment 149 156	without
+T23	segment 157 162	cause
+T24	segment 163 165	or
+T25	segment 166 171	trial
+T26	segment 171 172	''
+T27	segment 172 173	''
+T28	segment 173 174	,
+T29	segment 175 178	due
+T30	segment 179 181	to
+T31	segment 182 187	Order
+T32	segment 188 189	#
+T33	segment 189 191	59
+T34	segment 191 192	,
+T35	segment 193 196	the
+T36	segment 197 205	creation
+T37	segment 206 208	of
+T38	segment 209 214	Union
+T39	segment 215 222	General
+T40	segment 223 230	Stephen
+T41	segment 231 232	G
+T42	segment 233 234	.
+R0	is-specialized-by Arg1:T3 Arg2:T1
+R1	is-specialized-by Arg1:T3 Arg2:T4
+R2	compound Arg1:T3 Arg2:T2
+R3	c_co Arg1:T4 Arg2:T8
+R4	compound Arg1:T8 Arg2:T6
+R5	is-specialized-by Arg1:T8 Arg2:T9
+R6	compound Arg1:T8 Arg2:T7
+R7	c_co Arg1:T9 Arg2:T10
+R8	compound Arg1:T13 Arg2:T12
+R9	is-specialized-by Arg1:T17 Arg2:T16
+R10	is-specialized-by Arg1:T17 Arg2:T15
+R11	s_p Arg1:T17 Arg2:T19
+R12	p_c Arg1:T19 Arg2:T22
+R13	p_c Arg1:T19 Arg2:T14
+R14	compound Arg1:T19 Arg2:T18
+R15	c_co Arg1:T22 Arg2:T23
+R16	is-specialized-by Arg1:T29 Arg2:T30
+R17	c_co Arg1:T30 Arg2:T31
+R18	is-specialized-by Arg1:T31 Arg2:T33
+R19	compound Arg1:T33 Arg2:T32
+R20	is-specialized-by Arg1:T36 Arg2:T37
+R21	c_co Arg1:T37 Arg2:T41
+R22	compound Arg1:T41 Arg2:T38
+R23	compound Arg1:T41 Arg2:T40
+R24	compound Arg1:T41 Arg2:T39

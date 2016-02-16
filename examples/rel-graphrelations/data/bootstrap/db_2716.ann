@@ -1,0 +1,35 @@
+T0	segment 0 3	The
+T1	segment 4 8	term
+T2	segment 9 16	citizen
+T3	segment 17 22	media
+T4	segment 23 29	refers
+T5	segment 30 32	to
+T6	segment 33 38	forms
+T7	segment 39 41	of
+T8	segment 42 49	content
+T9	segment 50 58	produced
+T10	segment 59 61	by
+T11	segment 62 69	private
+T12	segment 70 78	citizens
+T13	segment 79 82	who
+T14	segment 83 86	are
+T15	segment 87 96	otherwise
+T16	segment 97 100	not
+T17	segment 101 113	professional
+T18	segment 114 125	journalists
+T19	segment 126 127	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_c Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T6
+R5	is-specialized-by Arg1:T6 Arg2:T7
+R6	c_co Arg1:T7 Arg2:T8
+R7	is-specialized-by Arg1:T9 Arg2:T10
+R8	c_co Arg1:T10 Arg2:T12
+R9	is-specialized-by Arg1:T12 Arg2:T11
+R10	s_p Arg1:T13 Arg2:T18
+R11	p_c Arg1:T18 Arg2:T17
+R12	compound Arg1:T18 Arg2:T14
+R13	p_c Arg1:T18 Arg2:T15
+R14	compound Arg1:T18 Arg2:T16

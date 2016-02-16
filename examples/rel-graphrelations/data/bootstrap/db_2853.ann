@@ -1,0 +1,25 @@
+T0	segment 0 2	sE
+T1	segment 3 14	Electronics
+T2	segment 15 17	is
+T3	segment 18 19	a
+T4	segment 20 30	microphone
+T5	segment 31 34	and
+T6	segment 35 41	studio
+T7	segment 42 49	monitor
+T8	segment 50 62	manufacturer
+T9	segment 62 63	,
+T10	segment 64 69	based
+T11	segment 70 72	in
+T12	segment 73 81	Shanghai
+T13	segment 81 82	,
+T14	segment 83 88	China
+T15	segment 89 92	and
+T16	segment 93 100	Hitchin
+T17	segment 100 101	,
+T18	segment 102 109	England
+T19	segment 110 111	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T4
+R3	compound Arg1:T8 Arg2:T6
+R4	compound Arg1:T8 Arg2:T7

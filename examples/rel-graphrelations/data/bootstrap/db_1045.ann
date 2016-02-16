@@ -1,0 +1,78 @@
+T0	segment 0 3	The
+T1	segment 4 13	Territory
+T2	segment 14 16	of
+T3	segment 17 23	Kansas
+T4	segment 24 27	was
+T5	segment 28 30	an
+T6	segment 31 40	organized
+T7	segment 41 53	incorporated
+T8	segment 54 63	territory
+T9	segment 64 66	of
+T10	segment 67 70	the
+T11	segment 71 77	United
+T12	segment 78 84	States
+T13	segment 85 89	that
+T14	segment 90 97	existed
+T15	segment 98 102	from
+T16	segment 103 106	May
+T17	segment 107 109	30
+T18	segment 109 110	,
+T19	segment 111 115	1854
+T20	segment 115 116	,
+T21	segment 117 122	until
+T22	segment 123 130	January
+T23	segment 131 133	29
+T24	segment 133 134	,
+T25	segment 135 139	1861
+T26	segment 139 140	,
+T27	segment 141 145	when
+T28	segment 146 149	the
+T29	segment 150 157	eastern
+T30	segment 158 165	portion
+T31	segment 166 168	of
+T32	segment 169 172	the
+T33	segment 173 182	territory
+T34	segment 183 186	was
+T35	segment 187 195	admitted
+T36	segment 196 198	to
+T37	segment 199 202	the
+T38	segment 203 208	Union
+T39	segment 209 211	as
+T40	segment 212 215	the
+T41	segment 216 221	state
+T42	segment 222 224	of
+T43	segment 225 231	Kansas
+T44	segment 232 233	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T8
+R4	is-specialized-by Arg1:T8 Arg2:T9
+R5	is-specialized-by Arg1:T8 Arg2:T6
+R6	c_co Arg1:T9 Arg2:T12
+R7	compound Arg1:T12 Arg2:T11
+R8	s_p Arg1:T13 Arg2:T14
+R9	p_c Arg1:T14 Arg2:T15
+R10	p_c Arg1:T14 Arg2:T21
+R11	c_co Arg1:T15 Arg2:T16
+R12	is-specialized-by Arg1:T16 Arg2:T17
+R13	compound Arg1:T19 Arg2:T16
+R14	compound Arg1:T19 Arg2:T18
+R15	compound Arg1:T19 Arg2:T17
+R16	c_co Arg1:T21 Arg2:T22
+R17	is-specialized-by Arg1:T22 Arg2:T23
+R18	compound Arg1:T25 Arg2:T22
+R19	compound Arg1:T25 Arg2:T24
+R20	compound Arg1:T25 Arg2:T23
+R21	is-specialized-by Arg1:T30 Arg2:T31
+R22	s_p Arg1:T30 Arg2:T35
+R23	is-specialized-by Arg1:T30 Arg2:T29
+R24	c_co Arg1:T31 Arg2:T33
+R25	p_c Arg1:T35 Arg2:T36
+R26	p_c Arg1:T35 Arg2:T39
+R27	compound Arg1:T35 Arg2:T34
+R28	p_c Arg1:T35 Arg2:T27
+R29	c_co Arg1:T36 Arg2:T38
+R30	c_co Arg1:T39 Arg2:T41
+R31	is-specialized-by Arg1:T41 Arg2:T42
+R32	c_co Arg1:T42 Arg2:T43

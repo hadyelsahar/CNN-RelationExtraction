@@ -1,0 +1,43 @@
+T0	segment 0 12	FidelityBank
+T1	segment 12 13	,
+T2	segment 14 19	whose
+T3	segment 20 24	full
+T4	segment 25 29	name
+T5	segment 30 32	is
+T6	segment 33 41	Fidelity
+T7	segment 42 52	Commercial
+T8	segment 53 57	Bank
+T9	segment 58 65	Limited
+T10	segment 65 66	,
+T11	segment 67 69	is
+T12	segment 70 71	a
+T13	segment 72 82	commercial
+T14	segment 83 87	bank
+T15	segment 88 90	in
+T16	segment 91 96	Kenya
+T17	segment 96 97	,
+T18	segment 98 101	the
+T19	segment 102 109	largest
+T20	segment 110 117	economy
+T21	segment 118 120	in
+T22	segment 121 124	the
+T23	segment 125 129	East
+T24	segment 130 137	African
+T25	segment 138 147	Community
+T26	segment 148 149	.
+R0	s_p Arg1:T0 Arg2:T11
+R1	s_p Arg1:T4 Arg2:T5
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	p_o Arg1:T5 Arg2:T9
+R4	compound Arg1:T9 Arg2:T6
+R5	compound Arg1:T9 Arg2:T8
+R6	compound Arg1:T9 Arg2:T7
+R7	p_o Arg1:T11 Arg2:T14
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	is-specialized-by Arg1:T14 Arg2:T13
+R10	c_co Arg1:T15 Arg2:T16
+R11	is-specialized-by Arg1:T20 Arg2:T19
+R12	is-specialized-by Arg1:T20 Arg2:T21
+R13	c_co Arg1:T21 Arg2:T25
+R14	is-specialized-by Arg1:T25 Arg2:T23
+R15	compound Arg1:T25 Arg2:T24

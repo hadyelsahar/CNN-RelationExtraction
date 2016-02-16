@@ -1,0 +1,32 @@
+T0	segment 0 9	Kudremukh
+T1	segment 10 14	Iron
+T2	segment 15 18	Ore
+T3	segment 19 26	Company
+T4	segment 27 30	Ltd
+T5	segment 31 33	is
+T6	segment 34 35	a
+T7	segment 36 46	Government
+T8	segment 47 49	of
+T9	segment 50 55	India
+T10	segment 56 66	enterprise
+T11	segment 67 71	with
+T12	segment 72 75	its
+T13	segment 76 80	head
+T14	segment 81 87	office
+T15	segment 88 90	in
+T16	segment 91 100	Bangalore
+T17	segment 101 102	.
+R0	compound Arg1:T4 Arg2:T3
+R1	compound Arg1:T4 Arg2:T0
+R2	s_p Arg1:T4 Arg2:T5
+R3	compound Arg1:T4 Arg2:T2
+R4	compound Arg1:T4 Arg2:T1
+R5	p_o Arg1:T5 Arg2:T7
+R6	is-specialized-by Arg1:T7 Arg2:T8
+R7	is-specialized-by Arg1:T7 Arg2:T11
+R8	c_co Arg1:T8 Arg2:T10
+R9	compound Arg1:T10 Arg2:T9
+R10	c_co Arg1:T11 Arg2:T14
+R11	is-specialized-by Arg1:T14 Arg2:T15
+R12	compound Arg1:T14 Arg2:T13
+R13	c_co Arg1:T15 Arg2:T16

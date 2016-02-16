@@ -1,0 +1,47 @@
+T0	segment 0 3	The
+T1	segment 4 11	Arizona
+T2	segment 12 23	Corporation
+T3	segment 24 34	Commission
+T4	segment 35 37	is
+T5	segment 38 41	the
+T6	segment 42 48	Public
+T7	segment 49 58	Utilities
+T8	segment 59 69	Commission
+T9	segment 70 72	of
+T10	segment 73 76	the
+T11	segment 77 82	State
+T12	segment 83 85	of
+T13	segment 86 93	Arizona
+T14	segment 93 94	,
+T15	segment 95 106	established
+T16	segment 107 109	by
+T17	segment 110 117	Article
+T18	segment 118 120	15
+T19	segment 121 123	of
+T20	segment 124 127	the
+T21	segment 128 135	Arizona
+T22	segment 136 148	Constitution
+T23	segment 149 150	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T8
+R4	compound Arg1:T8 Arg2:T6
+R5	is-specialized-by Arg1:T8 Arg2:T9
+R6	compound Arg1:T8 Arg2:T7
+R7	c_co Arg1:T9 Arg2:T11
+R8	is-specialized-by Arg1:T11 Arg2:T12
+R9	c_co Arg1:T12 Arg2:T13
+R10	compound Arg1:T13 Arg2:T10
+R11	compound Arg1:T13 Arg2:T11
+R12	compound Arg1:T13 Arg2:T8
+R13	compound Arg1:T13 Arg2:T9
+R14	compound Arg1:T13 Arg2:T12
+R15	compound Arg1:T13 Arg2:T6
+R16	compound Arg1:T13 Arg2:T7
+R17	is-specialized-by Arg1:T15 Arg2:T16
+R18	c_co Arg1:T16 Arg2:T17
+R19	is-specialized-by Arg1:T17 Arg2:T18
+R20	is-specialized-by Arg1:T17 Arg2:T19
+R21	c_co Arg1:T19 Arg2:T22
+R22	compound Arg1:T22 Arg2:T21

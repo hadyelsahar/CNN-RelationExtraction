@@ -1,0 +1,33 @@
+T0	segment 0 3	The
+T1	segment 4 11	Federal
+T2	segment 12 17	State
+T3	segment 18 20	of
+T4	segment 21 28	Austria
+T5	segment 29 30	,
+T6	segment 31 34	was
+T7	segment 35 45	propaganda
+T8	segment 46 55	advocated
+T9	segment 56 58	by
+T10	segment 59 66	leading
+T11	segment 67 78	politicians
+T12	segment 79 83	such
+T13	segment 84 86	as
+T14	segment 87 96	Engelbert
+T15	segment 97 104	DollfuÃ
+T16	segment 105 108	and
+T17	segment 109 113	Kurt
+T18	segment 114 125	Schuschnigg
+T19	segment 126 127	.
+R0	s_p Arg1:T2 Arg2:T6
+R1	is-specialized-by Arg1:T2 Arg2:T3
+R2	compound Arg1:T2 Arg2:T1
+R3	c_co Arg1:T3 Arg2:T4
+R4	p_o Arg1:T6 Arg2:T7
+R5	is-specialized-by Arg1:T8 Arg2:T9
+R6	c_co Arg1:T9 Arg2:T11
+R7	is-specialized-by Arg1:T11 Arg2:T10
+R8	is-specialized-by Arg1:T11 Arg2:T12
+R9	compound Arg1:T12 Arg2:T13
+R10	c_co Arg1:T12 Arg2:T15
+R11	compound Arg1:T15 Arg2:T14
+R12	compound Arg1:T18 Arg2:T17

@@ -1,0 +1,47 @@
+T0	segment 0 3	The
+T1	segment 4 11	Bourbon
+T2	segment 12 23	Restoration
+T3	segment 24 26	is
+T4	segment 27 30	the
+T5	segment 31 35	name
+T6	segment 36 41	given
+T7	segment 42 44	to
+T8	segment 45 48	the
+T9	segment 49 55	period
+T10	segment 56 58	of
+T11	segment 59 65	French
+T12	segment 66 73	history
+T13	segment 74 83	following
+T14	segment 84 87	the
+T15	segment 88 92	fall
+T16	segment 93 95	of
+T17	segment 96 104	Napoleon
+T18	segment 105 107	in
+T19	segment 108 112	1814
+T20	segment 113 118	until
+T21	segment 119 122	the
+T22	segment 123 127	July
+T23	segment 128 138	Revolution
+T24	segment 139 141	of
+T25	segment 142 146	1830
+T26	segment 147 148	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T20
+R4	is-specialized-by Arg1:T9 Arg2:T10
+R5	c_co Arg1:T10 Arg2:T12
+R6	is-specialized-by Arg1:T12 Arg2:T11
+R7	is-specialized-by Arg1:T12 Arg2:T13
+R8	c_co Arg1:T13 Arg2:T15
+R9	is-specialized-by Arg1:T15 Arg2:T16
+R10	c_co Arg1:T16 Arg2:T17
+R11	is-specialized-by Arg1:T17 Arg2:T18
+R12	c_co Arg1:T18 Arg2:T19
+R13	c_co Arg1:T20 Arg2:T23
+R14	is-specialized-by Arg1:T23 Arg2:T24
+R15	compound Arg1:T23 Arg2:T22
+R16	c_co Arg1:T24 Arg2:T25
+R17	compound Arg1:T25 Arg2:T22
+R18	compound Arg1:T25 Arg2:T24
+R19	compound Arg1:T25 Arg2:T23

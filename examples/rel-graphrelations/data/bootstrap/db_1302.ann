@@ -1,0 +1,40 @@
+T0	segment 0 7	Mohamed
+T1	segment 8 9	`
+T2	segment 9 15	Hamada
+T3	segment 16 21	helel
+T4	segment 21 22	''
+T5	segment 22 23	''
+T6	segment 24 29	Abdel
+T7	segment 30 35	Fatah
+T8	segment 36 41	Helal
+T9	segment 42 47	which
+T10	segment 48 51	was
+T11	segment 52 58	widely
+T12	segment 59 70	appreciated
+T13	segment 71 73	by
+T14	segment 74 83	audiences
+T15	segment 84 87	and
+T16	segment 88 93	after
+T17	segment 94 98	that
+T18	segment 99 101	he
+T19	segment 102 110	released
+T20	segment 111 114	his
+T21	segment 115 120	album
+T22	segment 121 122	''
+T23	segment 122 123	``
+T24	segment 123 133	Wahashteny
+T25	segment 133 134	''
+T26	segment 134 135	''
+T27	segment 136 137	.
+R0	s_p Arg1:T0 Arg2:T8
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T8 Arg2:T6
+R3	compound Arg1:T8 Arg2:T7
+R4	s_p Arg1:T9 Arg2:T12
+R5	p_c Arg1:T12 Arg2:T13
+R6	compound Arg1:T12 Arg2:T10
+R7	p_c Arg1:T12 Arg2:T11
+R8	c_co Arg1:T13 Arg2:T14
+R9	s_p Arg1:T18 Arg2:T19
+R10	p_o Arg1:T19 Arg2:T17
+R11	s_p Arg1:T20 Arg2:T21

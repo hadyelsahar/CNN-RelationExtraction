@@ -1,0 +1,39 @@
+T0	segment 0 3	Gus
+T1	segment 3 4	'
+T2	segment 5 13	Sanitary
+T3	segment 14 18	Cafe
+T4	segment 19 22	was
+T5	segment 23 24	a
+T6	segment 25 30	Greek
+T7	segment 31 41	restaurant
+T8	segment 42 44	in
+T9	segment 45 53	Anniston
+T10	segment 53 54	,
+T11	segment 55 62	Alabama
+T12	segment 62 63	,
+T13	segment 64 67	run
+T14	segment 68 71	for
+T15	segment 72 76	many
+T16	segment 77 82	years
+T17	segment 83 85	by
+T18	segment 86 87	a
+T19	segment 88 93	Greek
+T20	segment 94 103	immigrant
+T21	segment 103 104	,
+T22	segment 105 108	Gus
+T23	segment 109 120	Nichopoulos
+T24	segment 121 122	.
+R0	is-specialized-by Arg1:T3 Arg2:T2
+R1	s_p Arg1:T3 Arg2:T4
+R2	p_o Arg1:T4 Arg2:T7
+R3	is-specialized-by Arg1:T7 Arg2:T8
+R4	is-specialized-by Arg1:T7 Arg2:T6
+R5	c_co Arg1:T8 Arg2:T11
+R6	compound Arg1:T11 Arg2:T9
+R7	is-specialized-by Arg1:T13 Arg2:T17
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T16
+R10	is-specialized-by Arg1:T16 Arg2:T15
+R11	c_co Arg1:T17 Arg2:T20
+R12	is-specialized-by Arg1:T20 Arg2:T19
+R13	compound Arg1:T23 Arg2:T22

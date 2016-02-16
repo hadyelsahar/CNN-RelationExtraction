@@ -1,0 +1,33 @@
+T0	segment 0 5	There
+T1	segment 6 8	is
+T2	segment 9 13	also
+T3	segment 14 21	another
+T4	segment 22 29	company
+T5	segment 29 30	,
+T6	segment 31 37	within
+T7	segment 38 41	the
+T8	segment 42 50	EURONEXT
+T9	segment 51 56	group
+T10	segment 56 57	,
+T11	segment 58 62	with
+T12	segment 63 66	the
+T13	segment 67 71	same
+T14	segment 72 76	name
+T15	segment 77 81	that
+T16	segment 82 84	is
+T17	segment 85 90	based
+T18	segment 91 93	in
+T19	segment 94 102	Portugal
+T20	segment 103 104	.
+R0	p_c Arg1:T1 Arg2:T2
+R1	s_p Arg1:T4 Arg2:T1
+R2	is-specialized-by Arg1:T4 Arg2:T6
+R3	is-specialized-by Arg1:T4 Arg2:T11
+R4	c_co Arg1:T6 Arg2:T9
+R5	compound Arg1:T9 Arg2:T8
+R6	c_co Arg1:T11 Arg2:T14
+R7	is-specialized-by Arg1:T14 Arg2:T13
+R8	s_p Arg1:T15 Arg2:T17
+R9	p_c Arg1:T17 Arg2:T18
+R10	compound Arg1:T17 Arg2:T16
+R11	c_co Arg1:T18 Arg2:T19

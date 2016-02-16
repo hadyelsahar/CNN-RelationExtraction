@@ -1,0 +1,34 @@
+T0	segment 0 4	Kurt
+T1	segment 5 15	EbelhÃ¤user
+T2	segment 16 18	is
+T3	segment 19 20	a
+T4	segment 21 27	German
+T5	segment 28 45	musician/producer
+T6	segment 46 49	and
+T7	segment 50 58	probably
+T8	segment 59 63	best
+T9	segment 64 69	known
+T10	segment 70 73	for
+T11	segment 74 77	his
+T12	segment 78 82	work
+T13	segment 83 85	as
+T14	segment 86 95	guitarist
+T15	segment 96 99	for
+T16	segment 100 103	the
+T17	segment 104 109	indie
+T18	segment 110 114	rock
+T19	segment 115 119	band
+T20	segment 120 129	blackmail
+T21	segment 130 131	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T9 Arg2:T7
+R5	is-specialized-by Arg1:T9 Arg2:T10
+R6	c_co Arg1:T10 Arg2:T12
+R7	is-specialized-by Arg1:T14 Arg2:T15
+R8	s_p Arg1:T14 Arg2:T20
+R9	c_co Arg1:T15 Arg2:T19
+R10	is-specialized-by Arg1:T19 Arg2:T17
+R11	compound Arg1:T19 Arg2:T18

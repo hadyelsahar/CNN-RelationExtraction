@@ -1,0 +1,27 @@
+T0	segment 0 3	R&P
+T1	segment 4 10	Centre
+T2	segment 11 12	``
+T3	segment 12 27	Promelectronica
+T4	segment 27 28	''
+T5	segment 29 30	--
+T6	segment 31 34	The
+T7	segment 35 42	leading
+T8	segment 43 50	Russian
+T9	segment 51 58	company
+T10	segment 59 61	in
+T11	segment 62 65	the
+T12	segment 66 71	field
+T13	segment 72 74	of
+T14	segment 75 82	railway
+T15	segment 83 93	automatics
+T16	segment 94 97	and
+T17	segment 98 111	telemechanics
+T18	segment 112 113	.
+R0	compound Arg1:T3 Arg2:T0
+R1	compound Arg1:T3 Arg2:T1
+R2	is-specialized-by Arg1:T9 Arg2:T7
+R3	is-specialized-by Arg1:T9 Arg2:T10
+R4	c_co Arg1:T10 Arg2:T12
+R5	is-specialized-by Arg1:T12 Arg2:T13
+R6	c_co Arg1:T13 Arg2:T15
+R7	compound Arg1:T15 Arg2:T14

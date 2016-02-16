@@ -1,0 +1,64 @@
+T0	segment 0 3	The
+T1	segment 4 9	North
+T2	segment 10 17	Central
+T3	segment 18 25	Florida
+T4	segment 26 33	Chapter
+T5	segment 34 36	of
+T6	segment 37 41	NIGP
+T7	segment 42 44	is
+T8	segment 45 46	a
+T9	segment 47 52	local
+T10	segment 53 60	chapter
+T11	segment 61 63	of
+T12	segment 64 67	the
+T13	segment 68 76	National
+T14	segment 77 86	Institute
+T15	segment 87 89	of
+T16	segment 90 102	Governmental
+T17	segment 103 113	Purchasing
+T18	segment 113 114	,
+T19	segment 115 116	a
+T20	segment 117 133	membership-based
+T21	segment 134 144	non-profit
+T22	segment 145 157	organization
+T23	segment 158 167	providing
+T24	segment 168 175	support
+T25	segment 176 178	to
+T26	segment 179 192	professionals
+T27	segment 193 195	in
+T28	segment 196 199	the
+T29	segment 200 206	public
+T30	segment 207 213	sector
+T31	segment 214 224	purchasing
+T32	segment 225 235	profession
+T33	segment 236 237	.
+R0	compound Arg1:T4 Arg2:T3
+R1	s_p Arg1:T4 Arg2:T7
+R2	is-specialized-by Arg1:T4 Arg2:T5
+R3	compound Arg1:T4 Arg2:T2
+R4	compound Arg1:T4 Arg2:T1
+R5	c_co Arg1:T5 Arg2:T6
+R6	compound Arg1:T6 Arg2:T4
+R7	compound Arg1:T6 Arg2:T3
+R8	compound Arg1:T6 Arg2:T5
+R9	compound Arg1:T6 Arg2:T2
+R10	compound Arg1:T6 Arg2:T1
+R11	p_o Arg1:T7 Arg2:T10
+R12	is-specialized-by Arg1:T10 Arg2:T9
+R13	is-specialized-by Arg1:T10 Arg2:T11
+R14	c_co Arg1:T11 Arg2:T14
+R15	is-specialized-by Arg1:T14 Arg2:T15
+R16	compound Arg1:T14 Arg2:T13
+R17	c_co Arg1:T15 Arg2:T17
+R18	compound Arg1:T17 Arg2:T14
+R19	compound Arg1:T17 Arg2:T13
+R20	compound Arg1:T17 Arg2:T16
+R21	compound Arg1:T17 Arg2:T15
+R22	is-specialized-by Arg1:T22 Arg2:T20
+R23	p_o Arg1:T23 Arg2:T24
+R24	is-specialized-by Arg1:T23 Arg2:T25
+R25	c_co Arg1:T25 Arg2:T26
+R26	is-specialized-by Arg1:T26 Arg2:T27
+R27	c_co Arg1:T27 Arg2:T30
+R28	is-specialized-by Arg1:T30 Arg2:T29
+R29	p_o Arg1:T31 Arg2:T32

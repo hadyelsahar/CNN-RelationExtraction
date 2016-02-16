@@ -1,0 +1,43 @@
+T0	segment 0 7	Francis
+T1	segment 8 15	Preston
+T2	segment 16 25	Whitehair
+T3	segment 26 29	was
+T4	segment 30 32	an
+T5	segment 33 41	American
+T6	segment 42 52	politician
+T7	segment 53 56	and
+T8	segment 57 66	statesman
+T9	segment 67 71	most
+T10	segment 72 79	notable
+T11	segment 80 83	for
+T12	segment 84 90	having
+T13	segment 91 97	served
+T14	segment 98 100	as
+T15	segment 101 106	Under
+T16	segment 107 116	Secretary
+T17	segment 117 119	of
+T18	segment 120 123	the
+T19	segment 124 128	Navy
+T20	segment 129 131	as
+T21	segment 132 136	part
+T22	segment 137 139	of
+T23	segment 140 143	the
+T24	segment 144 150	Truman
+T25	segment 151 165	Administration
+T26	segment 166 167	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T5
+R5	is-specialized-by Arg1:T10 Arg2:T9
+R6	compound Arg1:T13 Arg2:T12
+R7	is-specialized-by Arg1:T13 Arg2:T20
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T16
+R10	is-specialized-by Arg1:T16 Arg2:T17
+R11	c_co Arg1:T17 Arg2:T19
+R12	c_co Arg1:T20 Arg2:T21
+R13	is-specialized-by Arg1:T21 Arg2:T22
+R14	c_co Arg1:T22 Arg2:T25
+R15	compound Arg1:T25 Arg2:T24

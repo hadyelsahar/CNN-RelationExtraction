@@ -1,0 +1,32 @@
+T0	segment 0 17	Kunnskapsforlaget
+T1	segment 18 20	is
+T2	segment 21 22	a
+T3	segment 23 32	Norwegian
+T4	segment 33 43	publishing
+T5	segment 44 51	company
+T6	segment 52 57	based
+T7	segment 58 60	in
+T8	segment 61 65	Oslo
+T9	segment 66 70	that
+T10	segment 71 83	concentrates
+T11	segment 84 86	on
+T12	segment 87 100	encyclopedias
+T13	segment 100 101	,
+T14	segment 102 114	encyclopedic
+T15	segment 115 120	books
+T16	segment 120 121	,
+T17	segment 122 131	textbooks
+T18	segment 131 132	,
+T19	segment 133 136	and
+T20	segment 137 148	dictonaries
+T21	segment 149 150	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T5
+R2	compound Arg1:T5 Arg2:T4
+R3	is-specialized-by Arg1:T5 Arg2:T3
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T8
+R6	s_p Arg1:T9 Arg2:T10
+R7	p_c Arg1:T10 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T12
+R9	is-specialized-by Arg1:T15 Arg2:T14

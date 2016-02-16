@@ -1,0 +1,47 @@
+T0	segment 0 4	Nils
+T1	segment 5 12	Slaatto
+T2	segment 13 16	was
+T3	segment 17 20	for
+T4	segment 21 25	more
+T5	segment 26 30	than
+T6	segment 31 34	two
+T7	segment 35 42	decades
+T8	segment 43 46	one
+T9	segment 47 49	of
+T10	segment 50 56	Norway
+T11	segment 56 58	's
+T12	segment 59 63	most
+T13	segment 64 73	prominent
+T14	segment 74 77	and
+T15	segment 78 89	influential
+T16	segment 90 100	architects
+T17	segment 100 101	,
+T18	segment 102 108	having
+T19	segment 109 110	a
+T20	segment 111 117	strong
+T21	segment 118 121	and
+T22	segment 122 133	distinctive
+T23	segment 134 144	impression
+T24	segment 145 147	on
+T25	segment 148 157	Norwegian
+T26	segment 158 170	architecture
+T27	segment 171 172	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T8
+R3	c_co Arg1:T3 Arg2:T7
+R4	compound Arg1:T4 Arg2:T5
+R5	is-specialized-by Arg1:T6 Arg2:T4
+R6	compound Arg1:T7 Arg2:T4
+R7	compound Arg1:T7 Arg2:T6
+R8	compound Arg1:T7 Arg2:T5
+R9	is-specialized-by Arg1:T8 Arg2:T9
+R10	is-specialized-by Arg1:T8 Arg2:T3
+R11	c_co Arg1:T9 Arg2:T16
+R12	is-specialized-by Arg1:T13 Arg2:T12
+R13	is-specialized-by Arg1:T16 Arg2:T13
+R14	p_o Arg1:T18 Arg2:T23
+R15	is-specialized-by Arg1:T23 Arg2:T24
+R16	is-specialized-by Arg1:T23 Arg2:T20
+R17	c_co Arg1:T24 Arg2:T26
+R18	is-specialized-by Arg1:T26 Arg2:T25

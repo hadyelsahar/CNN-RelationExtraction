@@ -1,0 +1,31 @@
+T0	segment 0 8	NeoAccel
+T1	segment 9 11	is
+T2	segment 12 13	a
+T3	segment 14 27	multinational
+T4	segment 28 35	company
+T5	segment 36 40	that
+T6	segment 41 46	sells
+T7	segment 47 55	computer
+T8	segment 56 63	network
+T9	segment 64 72	security
+T10	segment 73 81	products
+T11	segment 82 88	direct
+T12	segment 89 91	to
+T13	segment 92 95	the
+T14	segment 96 104	end-user
+T15	segment 105 108	and
+T16	segment 109 116	through
+T17	segment 117 120	OEM
+T18	segment 121 134	relationships
+T19	segment 135 136	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	s_p Arg1:T5 Arg2:T6
+R4	s_p Arg1:T10 Arg2:T11
+R5	compound Arg1:T10 Arg2:T8
+R6	compound Arg1:T10 Arg2:T7
+R7	compound Arg1:T10 Arg2:T9
+R8	p_c Arg1:T11 Arg2:T12
+R9	c_co Arg1:T12 Arg2:T14
+R10	compound Arg1:T18 Arg2:T17

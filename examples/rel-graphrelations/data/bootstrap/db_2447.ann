@@ -1,0 +1,41 @@
+T0	segment 0 7	Ricardo
+T1	segment 8 13	CaÃ­to
+T2	segment 14 21	Risatti
+T3	segment 22 24	is
+T4	segment 25 27	an
+T5	segment 28 37	Argentine
+T6	segment 38 44	racing
+T7	segment 45 51	driver
+T8	segment 52 55	who
+T9	segment 56 59	has
+T10	segment 60 70	progressed
+T11	segment 71 78	through
+T12	segment 79 82	the
+T13	segment 83 88	ranks
+T14	segment 89 91	of
+T15	segment 92 99	formula
+T16	segment 100 113	single-seater
+T17	segment 114 120	racing
+T18	segment 121 123	in
+T19	segment 124 129	South
+T20	segment 130 137	America
+T21	segment 138 141	and
+T22	segment 142 148	Europe
+T23	segment 149 150	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T7
+R4	compound Arg1:T7 Arg2:T6
+R5	is-specialized-by Arg1:T7 Arg2:T5
+R6	s_p Arg1:T8 Arg2:T10
+R7	p_c Arg1:T10 Arg2:T11
+R8	compound Arg1:T10 Arg2:T9
+R9	c_co Arg1:T11 Arg2:T13
+R10	is-specialized-by Arg1:T13 Arg2:T14
+R11	c_co Arg1:T14 Arg2:T17
+R12	is-specialized-by Arg1:T17 Arg2:T16
+R13	is-specialized-by Arg1:T17 Arg2:T18
+R14	compound Arg1:T17 Arg2:T15
+R15	c_co Arg1:T18 Arg2:T20
+R16	compound Arg1:T20 Arg2:T19

@@ -1,0 +1,50 @@
+T0	segment 0 3	The
+T1	segment 4 9	Radio
+T2	segment 10 18	Research
+T3	segment 19 29	Consortium
+T4	segment 30 32	is
+T5	segment 33 34	a
+T6	segment 35 45	non-profit
+T7	segment 46 54	research
+T8	segment 55 62	company
+T9	segment 63 68	based
+T10	segment 69 71	in
+T11	segment 72 77	Olney
+T12	segment 77 78	,
+T13	segment 79 87	Maryland
+T14	segment 88 93	which
+T15	segment 94 102	provides
+T16	segment 103 111	listener
+T17	segment 112 116	data
+T18	segment 117 119	on
+T19	segment 120 125	radio
+T20	segment 126 135	audiences
+T21	segment 136 138	to
+T22	segment 139 153	non-commercial
+T23	segment 154 162	stations
+T24	segment 163 165	in
+T25	segment 166 169	the
+T26	segment 170 176	United
+T27	segment 177 183	States
+T28	segment 184 185	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T8
+R4	is-specialized-by Arg1:T8 Arg2:T9
+R5	compound Arg1:T8 Arg2:T7
+R6	is-specialized-by Arg1:T8 Arg2:T6
+R7	c_co Arg1:T9 Arg2:T13
+R8	compound Arg1:T13 Arg2:T11
+R9	s_p Arg1:T14 Arg2:T15
+R10	p_o Arg1:T15 Arg2:T17
+R11	p_c Arg1:T15 Arg2:T21
+R12	is-specialized-by Arg1:T17 Arg2:T18
+R13	compound Arg1:T17 Arg2:T16
+R14	c_co Arg1:T18 Arg2:T20
+R15	compound Arg1:T20 Arg2:T19
+R16	c_co Arg1:T21 Arg2:T23
+R17	is-specialized-by Arg1:T23 Arg2:T24
+R18	is-specialized-by Arg1:T23 Arg2:T22
+R19	c_co Arg1:T24 Arg2:T27
+R20	compound Arg1:T27 Arg2:T26

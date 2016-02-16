@@ -1,0 +1,35 @@
+T0	segment 0 10	Luxembourg
+T1	segment 11 14	has
+T2	segment 15 27	participated
+T3	segment 28 30	in
+T4	segment 31 34	the
+T5	segment 35 45	Eurovision
+T6	segment 46 50	Song
+T7	segment 51 58	Contest
+T8	segment 59 61	37
+T9	segment 62 67	times
+T10	segment 68 73	since
+T11	segment 74 80	making
+T12	segment 81 86	their
+T13	segment 87 92	debut
+T14	segment 93 95	at
+T15	segment 96 99	the
+T16	segment 100 105	first
+T17	segment 106 113	contest
+T18	segment 114 116	in
+T19	segment 117 121	1956
+T20	segment 122 123	.
+R0	s_p Arg1:T0 Arg2:T2
+R1	p_c Arg1:T2 Arg2:T9
+R2	p_c Arg1:T2 Arg2:T3
+R3	compound Arg1:T2 Arg2:T1
+R4	c_co Arg1:T3 Arg2:T7
+R5	compound Arg1:T7 Arg2:T6
+R6	compound Arg1:T7 Arg2:T5
+R7	is-specialized-by Arg1:T9 Arg2:T8
+R8	p_o Arg1:T11 Arg2:T13
+R9	is-specialized-by Arg1:T11 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T17
+R11	is-specialized-by Arg1:T17 Arg2:T16
+R12	is-specialized-by Arg1:T17 Arg2:T18
+R13	c_co Arg1:T18 Arg2:T19

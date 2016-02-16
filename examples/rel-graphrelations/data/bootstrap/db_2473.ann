@@ -1,0 +1,29 @@
+T0	segment 0 3	The
+T1	segment 4 9	Ozark
+T2	segment 10 16	Valley
+T3	segment 17 25	Railroad
+T4	segment 26 28	is
+T5	segment 29 30	a
+T6	segment 31 33	27
+T7	segment 34 38	mile
+T8	segment 39 48	shortline
+T9	segment 49 57	railroad
+T10	segment 58 68	connecting
+T11	segment 69 75	Mexico
+T12	segment 75 76	,
+T13	segment 77 85	Missouri
+T14	segment 85 86	,
+T15	segment 87 90	and
+T16	segment 91 97	Fulton
+T17	segment 97 98	,
+T18	segment 99 107	Missouri
+T19	segment 108 109	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T9
+R4	compound Arg1:T9 Arg2:T8
+R5	compound Arg1:T9 Arg2:T7
+R6	is-specialized-by Arg1:T9 Arg2:T6
+R7	p_o Arg1:T10 Arg2:T11
+R8	compound Arg1:T18 Arg2:T16

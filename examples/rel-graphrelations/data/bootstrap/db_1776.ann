@@ -1,0 +1,31 @@
+T0	segment 0 12	BrightSource
+T1	segment 13 19	Energy
+T2	segment 20 22	is
+T3	segment 23 25	an
+T4	segment 26 33	Oakland
+T5	segment 33 34	,
+T6	segment 35 45	California
+T7	segment 46 51	based
+T8	segment 51 52	,
+T9	segment 53 64	corporation
+T10	segment 65 69	that
+T11	segment 70 77	designs
+T12	segment 77 78	,
+T13	segment 79 85	builds
+T14	segment 85 86	,
+T15	segment 87 95	finances
+T16	segment 95 96	,
+T17	segment 97 100	and
+T18	segment 101 109	operates
+T19	segment 110 123	utility-scale
+T20	segment 124 129	solar
+T21	segment 130 135	power
+T22	segment 136 142	plants
+T23	segment 143 144	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T4
+R3	s_p Arg1:T10 Arg2:T11
+R4	p_o Arg1:T18 Arg2:T22
+R5	compound Arg1:T22 Arg2:T21
+R6	is-specialized-by Arg1:T22 Arg2:T19

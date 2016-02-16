@@ -1,0 +1,27 @@
+T0	segment 0 3	The
+T1	segment 4 11	Special
+T2	segment 12 18	Region
+T3	segment 19 21	of
+T4	segment 22 32	Yogyakarta
+T5	segment 33 35	is
+T6	segment 36 37	a
+T7	segment 38 44	region
+T8	segment 45 47	of
+T9	segment 48 57	Indonesia
+T10	segment 58 60	on
+T11	segment 61 64	the
+T12	segment 65 71	island
+T13	segment 72 74	of
+T14	segment 75 79	Java
+T15	segment 80 81	.
+R0	s_p Arg1:T2 Arg2:T5
+R1	is-specialized-by Arg1:T2 Arg2:T1
+R2	is-specialized-by Arg1:T2 Arg2:T3
+R3	c_co Arg1:T3 Arg2:T4
+R4	p_o Arg1:T5 Arg2:T7
+R5	is-specialized-by Arg1:T7 Arg2:T8
+R6	c_co Arg1:T8 Arg2:T9
+R7	is-specialized-by Arg1:T9 Arg2:T10
+R8	c_co Arg1:T10 Arg2:T12
+R9	is-specialized-by Arg1:T12 Arg2:T13
+R10	c_co Arg1:T13 Arg2:T14

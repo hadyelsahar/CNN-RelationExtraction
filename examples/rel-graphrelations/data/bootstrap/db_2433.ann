@@ -1,0 +1,24 @@
+T0	segment 0 3	The
+T1	segment 4 13	Ethiopian
+T2	segment 14 20	Empire
+T3	segment 21 26	until
+T4	segment 27 31	1975
+T5	segment 32 36	when
+T6	segment 37 40	the
+T7	segment 41 49	monarchy
+T8	segment 50 53	was
+T9	segment 54 64	overthrown
+T10	segment 65 67	in
+T11	segment 68 69	a
+T12	segment 70 74	coup
+T13	segment 75 81	d'etat
+T14	segment 82 83	.
+R0	is-specialized-by Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	c_co Arg1:T3 Arg2:T4
+R3	s_p Arg1:T7 Arg2:T9
+R4	p_c Arg1:T9 Arg2:T10
+R5	compound Arg1:T9 Arg2:T8
+R6	p_c Arg1:T9 Arg2:T5
+R7	c_co Arg1:T10 Arg2:T13
+R8	compound Arg1:T13 Arg2:T12

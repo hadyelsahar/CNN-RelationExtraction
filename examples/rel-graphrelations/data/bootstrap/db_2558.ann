@@ -1,0 +1,23 @@
+T0	segment 0 6	Robert
+T1	segment 7 9	to
+T2	segment 10 17	develop
+T3	segment 18 23	links
+T4	segment 24 31	between
+T5	segment 32 35	the
+T6	segment 36 38	UK
+T7	segment 39 42	and
+T8	segment 43 45	US
+T9	segment 46 48	on
+T10	segment 49 52	all
+T11	segment 53 60	aspects
+T12	segment 61 63	of
+T13	segment 64 72	policing
+T14	segment 73 79	policy
+T15	segment 80 81	.
+R0	s_p Arg1:T0 Arg2:T2
+R1	p_c Arg1:T2 Arg2:T9
+R2	p_o Arg1:T2 Arg2:T3
+R3	is-specialized-by Arg1:T3 Arg2:T4
+R4	c_co Arg1:T4 Arg2:T6
+R5	c_co Arg1:T9 Arg2:T11
+R6	p_o Arg1:T13 Arg2:T14

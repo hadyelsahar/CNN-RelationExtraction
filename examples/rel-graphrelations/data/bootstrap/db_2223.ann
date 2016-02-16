@@ -1,0 +1,33 @@
+T0	segment 0 13	Omsktransmash
+T1	segment 14 15	-
+T2	segment 16 20	also
+T3	segment 21 26	known
+T4	segment 27 29	as
+T5	segment 30 31	''
+T6	segment 31 32	''
+T7	segment 32 38	ÐÐ¼ÑÐºÐ¸Ð¹
+T8	segment 39 44	Ð·Ð°Ð²Ð¾Ð´
+T9	segment 45 58	ÑÑÐ°Ð½ÑÐ¿Ð¾ÑÑÐ½Ð¾Ð³Ð¾
+T10	segment 59 73	Ð¼Ð°ÑÐ¸Ð½Ð¾ÑÑÑÐ¾ÐµÐ½Ð¸Ñ
+T11	segment 73 74	''
+T12	segment 74 75	''
+T13	segment 76 81	based
+T14	segment 82 84	in
+T15	segment 85 88	the
+T16	segment 89 93	city
+T17	segment 94 96	of
+T18	segment 97 101	Omsk
+T19	segment 101 102	,
+T20	segment 103 109	Russia
+T21	segment 110 111	.
+R0	is-specialized-by Arg1:T3 Arg2:T2
+R1	is-specialized-by Arg1:T3 Arg2:T4
+R2	c_co Arg1:T4 Arg2:T10
+R3	is-specialized-by Arg1:T10 Arg2:T13
+R4	compound Arg1:T10 Arg2:T8
+R5	compound Arg1:T10 Arg2:T7
+R6	compound Arg1:T10 Arg2:T9
+R7	c_co Arg1:T13 Arg2:T16
+R8	is-specialized-by Arg1:T16 Arg2:T17
+R9	c_co Arg1:T17 Arg2:T20
+R10	compound Arg1:T20 Arg2:T18

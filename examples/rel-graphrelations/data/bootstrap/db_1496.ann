@@ -1,0 +1,37 @@
+T0	segment 0 3	The
+T1	segment 4 13	fictional
+T2	segment 14 21	Kingdom
+T3	segment 22 24	of
+T4	segment 25 32	Gwynedd
+T5	segment 33 35	is
+T6	segment 36 39	the
+T7	segment 40 47	primary
+T8	segment 48 55	setting
+T9	segment 56 58	of
+T10	segment 59 62	the
+T11	segment 63 69	Deryni
+T12	segment 70 76	series
+T13	segment 77 79	of
+T14	segment 80 90	historical
+T15	segment 91 98	fantasy
+T16	segment 99 105	novels
+T17	segment 106 108	by
+T18	segment 109 118	Katherine
+T19	segment 119 124	Kurtz
+T20	segment 125 126	.
+R0	s_p Arg1:T2 Arg2:T5
+R1	is-specialized-by Arg1:T2 Arg2:T1
+R2	is-specialized-by Arg1:T2 Arg2:T3
+R3	c_co Arg1:T3 Arg2:T4
+R4	p_o Arg1:T5 Arg2:T8
+R5	is-specialized-by Arg1:T8 Arg2:T7
+R6	is-specialized-by Arg1:T8 Arg2:T9
+R7	c_co Arg1:T9 Arg2:T12
+R8	compound Arg1:T12 Arg2:T11
+R9	is-specialized-by Arg1:T12 Arg2:T13
+R10	c_co Arg1:T13 Arg2:T16
+R11	is-specialized-by Arg1:T16 Arg2:T17
+R12	compound Arg1:T16 Arg2:T15
+R13	is-specialized-by Arg1:T16 Arg2:T14
+R14	c_co Arg1:T17 Arg2:T19
+R15	compound Arg1:T19 Arg2:T18

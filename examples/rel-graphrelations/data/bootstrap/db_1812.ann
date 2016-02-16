@@ -1,0 +1,42 @@
+T0	segment 0 3	The
+T1	segment 4 10	Disney
+T2	segment 11 20	Worldwide
+T3	segment 21 29	Outreach
+T4	segment 30 37	Program
+T5	segment 38 40	is
+T6	segment 41 44	the
+T7	segment 45 49	Walt
+T8	segment 50 56	Disney
+T9	segment 57 64	Company
+T10	segment 64 66	's
+T11	segment 67 77	charitable
+T12	segment 78 86	division
+T13	segment 86 87	,
+T14	segment 88 95	helping
+T15	segment 96 106	charitable
+T16	segment 107 120	organizations
+T17	segment 121 131	throughout
+T18	segment 132 135	the
+T19	segment 136 141	world
+T20	segment 141 142	,
+T21	segment 143 145	as
+T22	segment 146 150	well
+T23	segment 151 153	as
+T24	segment 154 159	local
+T25	segment 160 171	initiatives
+T26	segment 172 173	.
+R0	compound Arg1:T4 Arg2:T3
+R1	s_p Arg1:T4 Arg2:T5
+R2	compound Arg1:T4 Arg2:T2
+R3	compound Arg1:T4 Arg2:T1
+R4	p_o Arg1:T5 Arg2:T12
+R5	compound Arg1:T9 Arg2:T8
+R6	compound Arg1:T9 Arg2:T7
+R7	is-specialized-by Arg1:T12 Arg2:T11
+R8	p_o Arg1:T14 Arg2:T16
+R9	is-specialized-by Arg1:T14 Arg2:T17
+R10	is-specialized-by Arg1:T16 Arg2:T15
+R11	c_co Arg1:T17 Arg2:T19
+R12	compound Arg1:T21 Arg2:T22
+R13	compound Arg1:T21 Arg2:T23
+R14	is-specialized-by Arg1:T25 Arg2:T24

@@ -1,0 +1,45 @@
+T0	segment 0 6	iKloak
+T1	segment 7 9	or
+T2	segment 10 20	Goodfellas
+T3	segment 21 27	Online
+T4	segment 28 30	BV
+T5	segment 30 31	,
+T6	segment 32 39	founded
+T7	segment 40 42	in
+T8	segment 43 47	1999
+T9	segment 47 48	,
+T10	segment 49 52	was
+T11	segment 53 54	a
+T12	segment 55 60	Dutch
+T13	segment 61 72	corporation
+T14	segment 73 77	that
+T15	segment 78 82	sold
+T16	segment 83 93	appliances
+T17	segment 94 97	and
+T18	segment 98 106	software
+T19	segment 106 107	,
+T20	segment 108 120	particularly
+T21	segment 121 123	in
+T22	segment 124 127	the
+T23	segment 128 134	realms
+T24	segment 135 137	of
+T25	segment 138 146	security
+T26	segment 147 150	and
+T27	segment 151 157	e-mail
+T28	segment 158 168	management
+T29	segment 169 170	.
+R0	s_p Arg1:T0 Arg2:T10
+R1	compound Arg1:T4 Arg2:T3
+R2	compound Arg1:T4 Arg2:T2
+R3	is-specialized-by Arg1:T6 Arg2:T7
+R4	c_co Arg1:T7 Arg2:T8
+R5	p_o Arg1:T10 Arg2:T13
+R6	is-specialized-by Arg1:T13 Arg2:T12
+R7	s_p Arg1:T14 Arg2:T15
+R8	p_o Arg1:T15 Arg2:T16
+R9	p_c Arg1:T15 Arg2:T21
+R10	c_co Arg1:T21 Arg2:T23
+R11	is-specialized-by Arg1:T23 Arg2:T24
+R12	is-specialized-by Arg1:T23 Arg2:T20
+R13	c_co Arg1:T24 Arg2:T28
+R14	compound Arg1:T28 Arg2:T25

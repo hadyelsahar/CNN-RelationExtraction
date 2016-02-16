@@ -1,0 +1,88 @@
+T0	segment 0 4	Thom
+T1	segment 5 11	Bierdz
+T2	segment 12 14	is
+T3	segment 15 17	an
+T4	segment 18 26	American
+T5	segment 27 32	actor
+T6	segment 33 37	best
+T7	segment 38 43	known
+T8	segment 44 47	for
+T9	segment 48 51	his
+T10	segment 52 61	portrayal
+T11	segment 62 64	of
+T12	segment 65 72	Phillip
+T13	segment 73 83	Chancellor
+T14	segment 84 87	III
+T15	segment 88 90	on
+T16	segment 91 94	the
+T17	segment 95 102	daytime
+T18	segment 103 108	drama
+T19	segment 109 112	The
+T20	segment 113 118	Young
+T21	segment 119 122	and
+T22	segment 123 126	the
+T23	segment 127 135	Restless
+T24	segment 135 136	,
+T25	segment 137 146	appearing
+T26	segment 147 151	from
+T27	segment 152 156	1986
+T28	segment 157 159	to
+T29	segment 160 164	1989
+T30	segment 164 165	,
+T31	segment 166 175	returning
+T32	segment 176 179	for
+T33	segment 180 181	a
+T34	segment 182 183	''
+T35	segment 183 184	``
+T36	segment 184 189	dream
+T37	segment 190 198	sequence
+T38	segment 198 199	''
+T39	segment 199 200	''
+T40	segment 201 203	in
+T41	segment 204 208	2004
+T42	segment 208 209	,
+T43	segment 210 213	and
+T44	segment 214 216	in
+T45	segment 217 218	a
+T46	segment 219 229	surprising
+T47	segment 230 235	twist
+T48	segment 235 236	,
+T49	segment 237 245	returned
+T50	segment 246 248	to
+T51	segment 249 252	the
+T52	segment 253 257	role
+T53	segment 258 260	in
+T54	segment 261 264	May
+T55	segment 265 269	2009
+T56	segment 270 271	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T7 Arg2:T15
+R6	is-specialized-by Arg1:T7 Arg2:T6
+R7	c_co Arg1:T8 Arg2:T10
+R8	is-specialized-by Arg1:T10 Arg2:T11
+R9	c_co Arg1:T11 Arg2:T14
+R10	compound Arg1:T14 Arg2:T12
+R11	compound Arg1:T14 Arg2:T13
+R12	c_co Arg1:T15 Arg2:T18
+R13	is-specialized-by Arg1:T18 Arg2:T17
+R14	s_p Arg1:T20 Arg2:T49
+R15	is-specialized-by Arg1:T25 Arg2:T26
+R16	c_co Arg1:T26 Arg2:T29
+R17	compound Arg1:T29 Arg2:T28
+R18	compound Arg1:T29 Arg2:T27
+R19	is-specialized-by Arg1:T31 Arg2:T32
+R20	c_co Arg1:T32 Arg2:T33
+R21	compound Arg1:T37 Arg2:T36
+R22	is-specialized-by Arg1:T37 Arg2:T40
+R23	c_co Arg1:T40 Arg2:T41
+R24	is-specialized-by Arg1:T47 Arg2:T46
+R25	p_c Arg1:T49 Arg2:T50
+R26	p_c Arg1:T49 Arg2:T53
+R27	c_co Arg1:T50 Arg2:T52
+R28	c_co Arg1:T53 Arg2:T54
+R29	is-specialized-by Arg1:T54 Arg2:T55
+R30	compound Arg1:T55 Arg2:T54

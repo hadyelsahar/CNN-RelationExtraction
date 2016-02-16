@@ -1,0 +1,55 @@
+T0	segment 0 3	The
+T1	segment 4 11	Lourdes
+T2	segment 12 18	Health
+T3	segment 19 25	System
+T4	segment 26 34	consists
+T5	segment 35 37	of
+T6	segment 38 41	two
+T7	segment 42 51	hospitals
+T8	segment 51 52	,
+T9	segment 53 56	Our
+T10	segment 57 61	Lady
+T11	segment 62 64	of
+T12	segment 65 72	Lourdes
+T13	segment 73 80	Medical
+T14	segment 81 87	Center
+T15	segment 88 90	in
+T16	segment 91 97	Camden
+T17	segment 97 98	,
+T18	segment 99 102	New
+T19	segment 103 109	Jersey
+T20	segment 110 113	and
+T21	segment 114 121	Lourdes
+T22	segment 122 129	Medical
+T23	segment 130 136	Center
+T24	segment 137 139	of
+T25	segment 140 150	Burlington
+T26	segment 151 157	County
+T27	segment 158 160	in
+T28	segment 161 172	Willingboro
+T29	segment 172 173	,
+T30	segment 174 177	New
+T31	segment 178 184	Jersey
+T32	segment 185 186	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_c Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T7
+R5	is-specialized-by Arg1:T7 Arg2:T6
+R6	is-specialized-by Arg1:T10 Arg2:T11
+R7	c_co Arg1:T11 Arg2:T14
+R8	compound Arg1:T14 Arg2:T12
+R9	is-specialized-by Arg1:T14 Arg2:T15
+R10	compound Arg1:T14 Arg2:T13
+R11	c_co Arg1:T15 Arg2:T16
+R12	compound Arg1:T19 Arg2:T18
+R13	is-specialized-by Arg1:T23 Arg2:T24
+R14	compound Arg1:T23 Arg2:T22
+R15	compound Arg1:T23 Arg2:T21
+R16	c_co Arg1:T24 Arg2:T26
+R17	is-specialized-by Arg1:T26 Arg2:T27
+R18	compound Arg1:T26 Arg2:T25
+R19	c_co Arg1:T27 Arg2:T31
+R20	compound Arg1:T31 Arg2:T28
+R21	compound Arg1:T31 Arg2:T30

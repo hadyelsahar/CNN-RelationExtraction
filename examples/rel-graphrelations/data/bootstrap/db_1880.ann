@@ -1,0 +1,29 @@
+T0	segment 0 3	The
+T1	segment 4 9	Thing
+T2	segment 10 12	is
+T3	segment 13 14	a
+T4	segment 15 24	fictional
+T5	segment 25 34	character
+T6	segment 34 35	,
+T7	segment 36 37	a
+T8	segment 38 47	superhero
+T9	segment 48 52	that
+T10	segment 53 60	appears
+T11	segment 61 63	in
+T12	segment 64 69	comic
+T13	segment 70 75	books
+T14	segment 76 85	published
+T15	segment 86 88	by
+T16	segment 89 95	Marvel
+T17	segment 96 102	Comics
+T18	segment 103 104	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	p_o Arg1:T2 Arg2:T5
+R2	is-specialized-by Arg1:T5 Arg2:T4
+R3	s_p Arg1:T9 Arg2:T10
+R4	p_c Arg1:T10 Arg2:T11
+R5	c_co Arg1:T11 Arg2:T13
+R6	is-specialized-by Arg1:T13 Arg2:T12
+R7	is-specialized-by Arg1:T14 Arg2:T15
+R8	c_co Arg1:T15 Arg2:T17
+R9	compound Arg1:T17 Arg2:T16

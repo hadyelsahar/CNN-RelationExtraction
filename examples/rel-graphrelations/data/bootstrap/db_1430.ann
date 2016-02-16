@@ -1,0 +1,48 @@
+T0	segment 0 3	The
+T1	segment 4 8	City
+T2	segment 9 11	of
+T3	segment 12 20	Colorado
+T4	segment 21 28	Springs
+T5	segment 29 31	is
+T6	segment 32 35	the
+T7	segment 36 40	Home
+T8	segment 41 45	Rule
+T9	segment 46 58	Municipality
+T10	segment 59 63	that
+T11	segment 64 66	is
+T12	segment 67 70	the
+T13	segment 71 77	county
+T14	segment 78 82	seat
+T15	segment 83 86	and
+T16	segment 87 90	the
+T17	segment 91 95	most
+T18	segment 96 104	populous
+T19	segment 105 117	municipality
+T20	segment 118 120	of
+T21	segment 121 123	El
+T22	segment 124 128	Paso
+T23	segment 129 135	County
+T24	segment 135 136	,
+T25	segment 137 145	Colorado
+T26	segment 145 146	,
+T27	segment 147 153	United
+T28	segment 154 160	States
+T29	segment 161 162	.
+R0	s_p Arg1:T1 Arg2:T5
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	c_co Arg1:T2 Arg2:T4
+R3	compound Arg1:T4 Arg2:T3
+R4	p_o Arg1:T5 Arg2:T9
+R5	compound Arg1:T9 Arg2:T8
+R6	compound Arg1:T9 Arg2:T7
+R7	s_p Arg1:T10 Arg2:T11
+R8	p_o Arg1:T11 Arg2:T14
+R9	compound Arg1:T14 Arg2:T13
+R10	is-specialized-by Arg1:T18 Arg2:T17
+R11	is-specialized-by Arg1:T19 Arg2:T18
+R12	is-specialized-by Arg1:T19 Arg2:T20
+R13	c_co Arg1:T20 Arg2:T23
+R14	compound Arg1:T23 Arg2:T22
+R15	compound Arg1:T23 Arg2:T21
+R16	compound Arg1:T28 Arg2:T27
+R17	compound Arg1:T28 Arg2:T25

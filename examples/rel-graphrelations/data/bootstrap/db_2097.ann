@@ -1,0 +1,54 @@
+T0	segment 0 3	The
+T1	segment 4 11	Munster
+T2	segment 12 20	Republic
+T3	segment 21 24	was
+T4	segment 25 27	an
+T5	segment 28 36	informal
+T6	segment 37 40	and
+T7	segment 41 53	affectionate
+T8	segment 54 58	term
+T9	segment 59 63	used
+T10	segment 64 66	by
+T11	segment 67 72	Irish
+T12	segment 73 84	republicans
+T13	segment 85 87	to
+T14	segment 88 93	refer
+T15	segment 94 96	to
+T16	segment 97 100	the
+T17	segment 101 110	territory
+T18	segment 111 115	they
+T19	segment 116 120	held
+T20	segment 121 123	in
+T21	segment 124 127	the
+T22	segment 128 136	province
+T23	segment 137 139	of
+T24	segment 140 147	Munster
+T25	segment 148 150	at
+T26	segment 151 154	the
+T27	segment 155 160	start
+T28	segment 161 163	of
+T29	segment 164 167	the
+T30	segment 168 173	Irish
+T31	segment 174 179	Civil
+T32	segment 180 183	War
+T33	segment 184 185	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T8
+R3	is-specialized-by Arg1:T8 Arg2:T5
+R4	is-specialized-by Arg1:T9 Arg2:T10
+R5	c_co Arg1:T10 Arg2:T12
+R6	is-specialized-by Arg1:T12 Arg2:T11
+R7	is-specialized-by Arg1:T14 Arg2:T15
+R8	c_co Arg1:T15 Arg2:T17
+R9	s_p Arg1:T18 Arg2:T19
+R10	p_c Arg1:T19 Arg2:T25
+R11	p_c Arg1:T19 Arg2:T20
+R12	c_co Arg1:T20 Arg2:T22
+R13	is-specialized-by Arg1:T22 Arg2:T23
+R14	c_co Arg1:T23 Arg2:T24
+R15	c_co Arg1:T25 Arg2:T27
+R16	is-specialized-by Arg1:T27 Arg2:T28
+R17	c_co Arg1:T28 Arg2:T32
+R18	compound Arg1:T32 Arg2:T30
+R19	compound Arg1:T32 Arg2:T31

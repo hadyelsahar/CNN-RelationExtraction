@@ -1,0 +1,49 @@
+T0	segment 0 3	The
+T1	segment 4 12	Biofuels
+T2	segment 13 19	Center
+T3	segment 20 22	of
+T4	segment 23 28	North
+T5	segment 29 37	Carolina
+T6	segment 38 40	is
+T7	segment 41 42	a
+T8	segment 43 50	private
+T9	segment 50 51	,
+T10	segment 52 61	nonprofit
+T11	segment 62 71	corporate
+T12	segment 72 80	facility
+T13	segment 81 88	located
+T14	segment 89 91	on
+T15	segment 92 93	a
+T16	segment 94 102	426-acre
+T17	segment 103 104	a
+T18	segment 105 109	year
+T19	segment 109 110	--
+T20	segment 110 114	will
+T21	segment 115 117	be
+T22	segment 118 126	produced
+T23	segment 127 135	in-state
+T24	segment 136 140	from
+T25	segment 141 148	locally
+T26	segment 149 154	grown
+T27	segment 155 162	biomass
+T28	segment 163 164	.
+R0	s_p Arg1:T2 Arg2:T6
+R1	is-specialized-by Arg1:T2 Arg2:T3
+R2	compound Arg1:T2 Arg2:T1
+R3	c_co Arg1:T3 Arg2:T5
+R4	compound Arg1:T5 Arg2:T4
+R5	compound Arg1:T5 Arg2:T3
+R6	compound Arg1:T5 Arg2:T2
+R7	compound Arg1:T5 Arg2:T1
+R8	p_o Arg1:T6 Arg2:T12
+R9	is-specialized-by Arg1:T12 Arg2:T8
+R10	is-specialized-by Arg1:T12 Arg2:T14
+R11	c_co Arg1:T14 Arg2:T16
+R12	compound Arg1:T18 Arg2:T17
+R13	compound Arg1:T22 Arg2:T20
+R14	is-specialized-by Arg1:T22 Arg2:T24
+R15	compound Arg1:T22 Arg2:T21
+R16	p_o Arg1:T22 Arg2:T23
+R17	c_co Arg1:T24 Arg2:T27
+R18	is-specialized-by Arg1:T26 Arg2:T25
+R19	is-specialized-by Arg1:T27 Arg2:T26

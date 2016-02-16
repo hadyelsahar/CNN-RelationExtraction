@@ -1,0 +1,29 @@
+T0	segment 0 3	The
+T1	segment 4 11	Archaic
+T2	segment 12 21	Southwest
+T3	segment 22 25	was
+T4	segment 26 29	the
+T5	segment 30 37	culture
+T6	segment 38 40	of
+T7	segment 41 44	the
+T8	segment 45 57	southwestern
+T9	segment 58 64	United
+T10	segment 65 71	States
+T11	segment 72 79	between
+T12	segment 80 84	6500
+T13	segment 85 87	BC
+T14	segment 88 91	and
+T15	segment 92 95	200
+T16	segment 96 98	AD
+T17	segment 99 100	.
+R0	is-specialized-by Arg1:T2 Arg2:T1
+R1	s_p Arg1:T2 Arg2:T3
+R2	p_o Arg1:T3 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T6
+R4	c_co Arg1:T6 Arg2:T10
+R5	is-specialized-by Arg1:T10 Arg2:T8
+R6	is-specialized-by Arg1:T10 Arg2:T11
+R7	compound Arg1:T10 Arg2:T9
+R8	c_co Arg1:T11 Arg2:T13
+R9	compound Arg1:T13 Arg2:T12
+R10	compound Arg1:T16 Arg2:T15

@@ -1,0 +1,60 @@
+T0	segment 0 6	Handan
+T1	segment 7 11	Iron
+T2	segment 12 15	and
+T3	segment 16 21	Steel
+T4	segment 22 27	Group
+T5	segment 28 30	or
+T6	segment 31 39	Hansteel
+T7	segment 40 42	is
+T8	segment 43 44	a
+T9	segment 45 56	state-owned
+T10	segment 57 61	iron
+T11	segment 62 65	and
+T12	segment 66 71	steel
+T13	segment 72 82	enterprise
+T14	segment 83 91	engaging
+T15	segment 92 94	in
+T16	segment 95 98	the
+T17	segment 99 112	manufacturing
+T18	segment 112 113	,
+T19	segment 114 124	processing
+T20	segment 125 128	and
+T21	segment 129 134	sales
+T22	segment 135 137	of
+T23	segment 138 143	black
+T24	segment 144 149	metal
+T25	segment 149 150	,
+T26	segment 151 157	billet
+T27	segment 157 158	,
+T28	segment 159 164	steel
+T29	segment 165 172	rolling
+T30	segment 172 173	,
+T31	segment 174 183	carbamide
+T32	segment 183 184	,
+T33	segment 185 194	sintering
+T34	segment 195 202	mineral
+T35	segment 202 203	,
+T36	segment 204 217	metallurgical
+T37	segment 218 227	machinery
+T38	segment 228 233	parts
+T39	segment 234 237	and
+T40	segment 238 242	coke
+T41	segment 243 244	.
+R0	compound Arg1:T1 Arg2:T0
+R1	s_p Arg1:T1 Arg2:T7
+R2	compound Arg1:T4 Arg2:T3
+R3	compound Arg1:T4 Arg2:T0
+R4	compound Arg1:T4 Arg2:T2
+R5	compound Arg1:T4 Arg2:T1
+R6	p_o Arg1:T7 Arg2:T10
+R7	is-specialized-by Arg1:T10 Arg2:T9
+R8	compound Arg1:T13 Arg2:T12
+R9	is-specialized-by Arg1:T14 Arg2:T15
+R10	c_co Arg1:T15 Arg2:T17
+R11	is-specialized-by Arg1:T17 Arg2:T22
+R12	c_co Arg1:T22 Arg2:T24
+R13	is-specialized-by Arg1:T24 Arg2:T23
+R14	compound Arg1:T29 Arg2:T28
+R15	is-specialized-by Arg1:T34 Arg2:T33
+R16	compound Arg1:T38 Arg2:T37
+R17	is-specialized-by Arg1:T38 Arg2:T36

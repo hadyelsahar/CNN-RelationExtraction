@@ -1,0 +1,31 @@
+T0	segment 0 3	The
+T1	segment 4 11	Vietnam
+T2	segment 12 21	Financial
+T3	segment 22 28	Review
+T4	segment 29 31	is
+T5	segment 32 34	an
+T6	segment 35 42	English
+T7	segment 43 51	language
+T8	segment 52 60	magazine
+T9	segment 61 70	published
+T10	segment 71 73	by
+T11	segment 74 77	the
+T12	segment 78 85	Vietnam
+T13	segment 86 94	Ministry
+T14	segment 95 97	of
+T15	segment 98 105	Finance
+T16	segment 106 107	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T8
+R4	compound Arg1:T8 Arg2:T7
+R5	is-specialized-by Arg1:T8 Arg2:T6
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T13
+R8	compound Arg1:T13 Arg2:T12
+R9	is-specialized-by Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T15
+R11	compound Arg1:T15 Arg2:T12
+R12	compound Arg1:T15 Arg2:T14
+R13	compound Arg1:T15 Arg2:T13

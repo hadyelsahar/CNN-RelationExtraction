@@ -1,0 +1,28 @@
+T0	segment 0 3	Ada
+T1	segment 4 5	''
+T2	segment 5 6	``
+T3	segment 6 9	Ace
+T4	segment 9 10	''
+T5	segment 10 11	''
+T6	segment 12 17	VÃ©lez
+T7	segment 18 20	is
+T8	segment 21 22	a
+T9	segment 23 29	Puerto
+T10	segment 30 35	Rican
+T11	segment 36 42	female
+T12	segment 43 55	professional
+T13	segment 56 61	boxer
+T14	segment 62 65	who
+T15	segment 66 71	lives
+T16	segment 72 74	in
+T17	segment 75 84	Hollywood
+T18	segment 84 85	,
+T19	segment 86 93	Florida
+T20	segment 94 95	.
+R0	s_p Arg1:T6 Arg2:T7
+R1	p_o Arg1:T7 Arg2:T10
+R2	compound Arg1:T10 Arg2:T9
+R3	is-specialized-by Arg1:T13 Arg2:T11
+R4	s_p Arg1:T14 Arg2:T15
+R5	p_c Arg1:T15 Arg2:T16
+R6	c_co Arg1:T16 Arg2:T17

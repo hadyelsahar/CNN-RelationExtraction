@@ -1,0 +1,40 @@
+T0	segment 0 3	The
+T1	segment 4 13	Lexington
+T2	segment 14 23	Institute
+T3	segment 24 26	is
+T4	segment 27 28	a
+T5	segment 29 39	non-profit
+T6	segment 40 53	public-policy
+T7	segment 54 59	think
+T8	segment 60 64	tank
+T9	segment 65 78	headquartered
+T10	segment 79 81	in
+T11	segment 82 91	Arlington
+T12	segment 91 92	,
+T13	segment 93 101	Virginia
+T14	segment 101 102	,
+T15	segment 103 107	that
+T16	segment 108 115	focuses
+T17	segment 116 118	on
+T18	segment 119 127	national
+T19	segment 128 136	security
+T20	segment 136 137	,
+T21	segment 138 147	education
+T22	segment 148 154	reform
+T23	segment 154 155	,
+T24	segment 156 159	and
+T25	segment 160 161	U
+T26	segment 162 163	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T8
+R3	compound Arg1:T8 Arg2:T7
+R4	is-specialized-by Arg1:T8 Arg2:T6
+R5	is-specialized-by Arg1:T9 Arg2:T10
+R6	c_co Arg1:T10 Arg2:T13
+R7	compound Arg1:T13 Arg2:T11
+R8	s_p Arg1:T15 Arg2:T16
+R9	p_c Arg1:T16 Arg2:T17
+R10	c_co Arg1:T17 Arg2:T19
+R11	is-specialized-by Arg1:T19 Arg2:T18
+R12	compound Arg1:T22 Arg2:T21

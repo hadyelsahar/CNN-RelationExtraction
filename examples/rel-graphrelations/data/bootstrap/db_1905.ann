@@ -1,0 +1,31 @@
+T0	segment 0 9	Karpenisi
+T1	segment 10 14	lies
+T2	segment 15 23	directly
+T3	segment 24 26	to
+T4	segment 27 30	the
+T5	segment 31 36	north
+T6	segment 37 39	of
+T7	segment 40 43	the
+T8	segment 44 48	town
+T9	segment 48 49	,
+T10	segment 50 53	and
+T11	segment 54 57	the
+T12	segment 58 67	foothills
+T13	segment 68 70	of
+T14	segment 71 76	mount
+T15	segment 77 87	Kaliakouda
+T16	segment 88 91	are
+T17	segment 92 94	in
+T18	segment 95 98	the
+T19	segment 99 104	south
+T20	segment 105 106	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_c Arg1:T1 Arg2:T2
+R2	p_c Arg1:T1 Arg2:T3
+R3	c_co Arg1:T3 Arg2:T5
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T8
+R6	s_p Arg1:T12 Arg2:T14
+R7	p_p Arg1:T14 Arg2:T16
+R8	s_p Arg1:T15 Arg2:T16
+R9	p_o Arg1:T16 Arg2:T19

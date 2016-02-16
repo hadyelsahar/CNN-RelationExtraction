@@ -1,0 +1,74 @@
+T0	segment 0 5	Steve
+T1	segment 6 14	Peterson
+T2	segment 15 17	is
+T3	segment 18 20	an
+T4	segment 21 29	American
+T5	segment 30 35	actor
+T6	segment 36 39	was
+T7	segment 40 44	seen
+T8	segment 45 47	as
+T9	segment 48 55	Stanley
+T10	segment 56 58	in
+T11	segment 59 62	The
+T12	segment 63 67	Body
+T13	segment 68 70	at
+T14	segment 71 74	the
+T15	segment 75 81	Matrix
+T16	segment 82 89	Theatre
+T17	segment 89 90	,
+T18	segment 91 95	King
+T19	segment 96 102	Arthur
+T20	segment 103 105	in
+T21	segment 106 112	Dennis
+T22	segment 113 120	Gersten
+T23	segment 120 122	's
+T24	segment 123 126	The
+T25	segment 127 133	Author
+T26	segment 133 135	's
+T27	segment 136 141	Thumb
+T28	segment 141 142	,
+T29	segment 143 149	Tranio
+T30	segment 150 152	in
+T31	segment 153 159	Taming
+T32	segment 160 162	of
+T33	segment 163 166	the
+T34	segment 167 172	Shrew
+T35	segment 173 175	at
+T36	segment 176 179	the
+T37	segment 180 185	Globe
+T38	segment 186 195	Playhouse
+T39	segment 195 196	,
+T40	segment 197 206	Aguecheek
+T41	segment 207 209	in
+T42	segment 210 217	Twelfth
+T43	segment 218 223	Night
+T44	segment 224 227	for
+T45	segment 228 232	both
+T46	segment 233 244	Shakespeare
+T47	segment 245 247	at
+T48	segment 248 252	Play
+T49	segment 253 256	and
+T50	segment 257 262	Ellen
+T51	segment 263 267	Geer
+T52	segment 267 269	's
+T53	segment 270 280	Theatricum
+T54	segment 281 290	Botanicum
+T55	segment 290 291	,
+T56	segment 292 295	and
+T57	segment 296 298	as
+T58	segment 299 302	the
+T59	segment 303 308	Ghost
+T60	segment 309 311	in
+T61	segment 312 316	Mark
+T62	segment 317 323	Ringer
+T63	segment 323 325	's
+T64	segment 326 336	production
+T65	segment 337 339	of
+T66	segment 340 346	Hamlet
+T67	segment 347 348	.
+R0	compound Arg1:T1 Arg2:T0
+R1	compound Arg1:T19 Arg2:T18
+R2	compound Arg1:T22 Arg2:T21
+R3	compound Arg1:T38 Arg2:T37
+R4	compound Arg1:T51 Arg2:T50
+R5	compound Arg1:T62 Arg2:T61

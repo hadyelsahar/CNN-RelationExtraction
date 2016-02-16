@@ -1,0 +1,35 @@
+T0	segment 0 3	The
+T1	segment 4 12	Emirates
+T2	segment 13 15	of
+T3	segment 16 23	Ylaruam
+T4	segment 24 26	is
+T5	segment 27 28	a
+T6	segment 29 38	fictional
+T7	segment 39 45	nation
+T8	segment 46 53	located
+T9	segment 54 60	within
+T10	segment 61 64	the
+T11	segment 65 72	Mystara
+T12	segment 73 81	campaign
+T13	segment 82 89	setting
+T14	segment 89 90	,
+T15	segment 91 93	in
+T16	segment 94 97	the
+T17	segment 98 106	Dungeons
+T18	segment 107 108	&
+T19	segment 109 116	Dragons
+T20	segment 117 128	roleplaying
+T21	segment 129 133	game
+T22	segment 134 135	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T6
+R5	is-specialized-by Arg1:T8 Arg2:T15
+R6	is-specialized-by Arg1:T8 Arg2:T9
+R7	c_co Arg1:T9 Arg2:T13
+R8	compound Arg1:T13 Arg2:T12
+R9	compound Arg1:T13 Arg2:T11
+R10	c_co Arg1:T15 Arg2:T17
+R11	p_o Arg1:T20 Arg2:T21

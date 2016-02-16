@@ -1,0 +1,55 @@
+T0	segment 0 8	Austrian
+T1	segment 9 21	colonization
+T2	segment 22 24	of
+T3	segment 25 32	Nicobar
+T4	segment 33 40	Islands
+T5	segment 41 44	was
+T6	segment 45 46	a
+T7	segment 47 58	short-lived
+T8	segment 59 62	and
+T9	segment 63 75	unsuccessful
+T10	segment 76 83	attempt
+T11	segment 84 86	of
+T12	segment 87 95	Habsburg
+T13	segment 96 104	Monarchy
+T14	segment 105 107	to
+T15	segment 108 112	make
+T16	segment 113 120	Nicobar
+T17	segment 121 128	Islands
+T18	segment 129 130	a
+T19	segment 131 139	document
+T20	segment 140 144	that
+T21	segment 145 150	ceded
+T22	segment 151 154	the
+T23	segment 155 159	four
+T24	segment 160 167	islands
+T25	segment 168 170	of
+T26	segment 171 179	Nancowry
+T27	segment 179 180	,
+T28	segment 181 188	Kamorta
+T29	segment 188 189	,
+T30	segment 190 197	Trinket
+T31	segment 198 201	and
+T32	segment 202 209	Katchal
+T33	segment 210 212	to
+T34	segment 213 220	Austria
+T35	segment 221 222	.
+R0	is-specialized-by Arg1:T1 Arg2:T0
+R1	s_p Arg1:T1 Arg2:T5
+R2	is-specialized-by Arg1:T1 Arg2:T2
+R3	c_co Arg1:T2 Arg2:T4
+R4	compound Arg1:T4 Arg2:T3
+R5	p_o Arg1:T5 Arg2:T10
+R6	is-specialized-by Arg1:T10 Arg2:T7
+R7	is-specialized-by Arg1:T10 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T13
+R9	compound Arg1:T13 Arg2:T12
+R10	s_p Arg1:T17 Arg2:T19
+R11	compound Arg1:T17 Arg2:T16
+R12	s_p Arg1:T20 Arg2:T21
+R13	p_c Arg1:T21 Arg2:T33
+R14	p_o Arg1:T21 Arg2:T24
+R15	is-specialized-by Arg1:T24 Arg2:T23
+R16	is-specialized-by Arg1:T24 Arg2:T25
+R17	c_co Arg1:T25 Arg2:T26
+R18	c_co Arg1:T33 Arg2:T34

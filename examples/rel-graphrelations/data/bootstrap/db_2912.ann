@@ -1,0 +1,60 @@
+T0	segment 0 6	Zultys
+T1	segment 7 9	is
+T2	segment 10 11	a
+T3	segment 12 24	manufacturer
+T4	segment 25 27	of
+T5	segment 28 41	Voice-over-IP
+T6	segment 42 43	,
+T7	segment 44 45	a
+T8	segment 46 50	wide
+T9	segment 51 58	variety
+T10	segment 59 61	of
+T11	segment 62 64	IP
+T12	segment 65 73	business
+T13	segment 74 84	telephones
+T14	segment 84 85	,
+T15	segment 86 89	web
+T16	segment 90 93	and
+T17	segment 94 99	audio
+T18	segment 100 110	conference
+T19	segment 111 120	solutions
+T20	segment 120 121	,
+T21	segment 122 129	contact
+T22	segment 130 136	center
+T23	segment 137 144	systems
+T24	segment 145 148	and
+T25	segment 149 156	unified
+T26	segment 157 171	communications
+T27	segment 172 181	solutions
+T28	segment 182 189	through
+T29	segment 190 191	a
+T30	segment 192 198	global
+T31	segment 199 206	network
+T32	segment 207 209	of
+T33	segment 210 216	Zultys
+T34	segment 217 226	Certified
+T35	segment 227 235	Partners
+T36	segment 236 237	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T5
+R4	is-specialized-by Arg1:T9 Arg2:T8
+R5	is-specialized-by Arg1:T9 Arg2:T10
+R6	c_co Arg1:T10 Arg2:T23
+R7	compound Arg1:T15 Arg2:T13
+R8	compound Arg1:T23 Arg2:T19
+R9	compound Arg1:T23 Arg2:T11
+R10	compound Arg1:T23 Arg2:T22
+R11	compound Arg1:T23 Arg2:T15
+R12	compound Arg1:T23 Arg2:T12
+R13	compound Arg1:T23 Arg2:T18
+R14	is-specialized-by Arg1:T27 Arg2:T28
+R15	compound Arg1:T27 Arg2:T26
+R16	c_co Arg1:T28 Arg2:T31
+R17	is-specialized-by Arg1:T31 Arg2:T32
+R18	is-specialized-by Arg1:T31 Arg2:T30
+R19	c_co Arg1:T32 Arg2:T33
+R20	is-specialized-by Arg1:T35 Arg2:T25
+R21	compound Arg1:T35 Arg2:T34
+R22	compound Arg1:T35 Arg2:T33

@@ -1,0 +1,75 @@
+T0	segment 0 3	The
+T1	segment 4 8	West
+T2	segment 9 15	Indies
+T3	segment 16 21	Sugar
+T4	segment 22 23	&
+T5	segment 24 31	Trading
+T6	segment 32 39	Company
+T7	segment 40 43	Ltd
+T8	segment 44 46	is
+T9	segment 47 48	a
+T10	segment 49 60	partnership
+T11	segment 61 68	between
+T12	segment 69 72	the
+T13	segment 73 83	government
+T14	segment 84 86	of
+T15	segment 87 95	Barbados
+T16	segment 96 99	and
+T17	segment 100 103	the
+T18	segment 104 111	private
+T19	segment 112 118	sector
+T20	segment 119 121	in
+T21	segment 122 127	order
+T22	segment 128 130	to
+T23	segment 131 135	help
+T24	segment 136 143	support
+T25	segment 144 147	the
+T26	segment 148 156	Barbados
+T27	segment 157 162	sugar
+T28	segment 163 171	industry
+T29	segment 171 172	,
+T30	segment 173 182	primarily
+T31	segment 183 190	through
+T32	segment 191 194	the
+T33	segment 195 205	production
+T34	segment 205 206	,
+T35	segment 207 216	marketing
+T36	segment 217 220	and
+T37	segment 221 227	export
+T38	segment 228 230	of
+T39	segment 231 232	a
+T40	segment 233 240	premium
+T41	segment 241 246	sugar
+T42	segment 247 252	brand
+T43	segment 252 253	,
+T44	segment 254 264	Plantation
+T45	segment 265 272	Reserve
+T46	segment 273 274	.
+R0	s_p Arg1:T3 Arg2:T8
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	compound Arg1:T7 Arg2:T4
+R4	compound Arg1:T7 Arg2:T5
+R5	compound Arg1:T7 Arg2:T2
+R6	compound Arg1:T7 Arg2:T3
+R7	compound Arg1:T7 Arg2:T1
+R8	compound Arg1:T7 Arg2:T6
+R9	p_o Arg1:T8 Arg2:T10
+R10	is-specialized-by Arg1:T10 Arg2:T11
+R11	c_co Arg1:T11 Arg2:T13
+R12	is-specialized-by Arg1:T13 Arg2:T14
+R13	c_co Arg1:T14 Arg2:T15
+R14	is-specialized-by Arg1:T19 Arg2:T18
+R15	compound Arg1:T20 Arg2:T21
+R16	p_p Arg1:T23 Arg2:T24
+R17	is-specialized-by Arg1:T24 Arg2:T31
+R18	p_o Arg1:T24 Arg2:T28
+R19	compound Arg1:T28 Arg2:T27
+R20	compound Arg1:T28 Arg2:T26
+R21	c_co Arg1:T31 Arg2:T33
+R22	is-specialized-by Arg1:T33 Arg2:T30
+R23	is-specialized-by Arg1:T33 Arg2:T38
+R24	c_co Arg1:T38 Arg2:T42
+R25	is-specialized-by Arg1:T42 Arg2:T40
+R26	compound Arg1:T42 Arg2:T41
+R27	compound Arg1:T45 Arg2:T44

@@ -1,0 +1,27 @@
+T0	segment 0 3	The
+T1	segment 4 10	Crozet
+T2	segment 11 18	Islands
+T3	segment 19 22	are
+T4	segment 23 24	a
+T5	segment 25 38	sub-antarctic
+T6	segment 39 50	archipelago
+T7	segment 51 53	of
+T8	segment 54 59	small
+T9	segment 60 67	islands
+T10	segment 68 70	in
+T11	segment 71 74	the
+T12	segment 75 83	southern
+T13	segment 84 90	Indian
+T14	segment 91 96	Ocean
+T15	segment 97 98	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T6
+R3	is-specialized-by Arg1:T6 Arg2:T7
+R4	is-specialized-by Arg1:T6 Arg2:T5
+R5	c_co Arg1:T7 Arg2:T9
+R6	is-specialized-by Arg1:T9 Arg2:T8
+R7	is-specialized-by Arg1:T9 Arg2:T10
+R8	c_co Arg1:T10 Arg2:T14
+R9	compound Arg1:T14 Arg2:T13
+R10	is-specialized-by Arg1:T14 Arg2:T12

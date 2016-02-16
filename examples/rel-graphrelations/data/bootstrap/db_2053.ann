@@ -1,0 +1,56 @@
+T0	segment 0 3	The
+T1	segment 4 14	University
+T2	segment 15 17	of
+T3	segment 18 25	Florida
+T4	segment 26 36	Investment
+T5	segment 37 48	Corporation
+T6	segment 49 51	is
+T7	segment 52 53	a
+T8	segment 54 60	wholly
+T9	segment 61 66	owned
+T10	segment 67 77	subsidiary
+T11	segment 78 80	of
+T12	segment 81 84	the
+T13	segment 85 95	University
+T14	segment 96 98	of
+T15	segment 99 106	Florida
+T16	segment 106 107	,
+T17	segment 108 115	charged
+T18	segment 116 120	with
+T19	segment 121 129	managing
+T20	segment 130 133	the
+T21	segment 134 144	University
+T22	segment 144 146	's
+T23	segment 147 156	endowment
+T24	segment 156 157	,
+T25	segment 158 169	foundations
+T26	segment 169 170	,
+T27	segment 171 179	research
+T28	segment 180 189	endeavors
+T29	segment 189 190	,
+T30	segment 191 194	and
+T31	segment 195 198	the
+T32	segment 199 209	University
+T33	segment 210 218	Athletic
+T34	segment 219 230	Association
+T35	segment 231 232	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T6
+R2	c_co Arg1:T2 Arg2:T5
+R3	compound Arg1:T5 Arg2:T4
+R4	compound Arg1:T5 Arg2:T3
+R5	compound Arg1:T5 Arg2:T2
+R6	compound Arg1:T5 Arg2:T1
+R7	p_o Arg1:T6 Arg2:T10
+R8	is-specialized-by Arg1:T9 Arg2:T8
+R9	is-specialized-by Arg1:T10 Arg2:T9
+R10	is-specialized-by Arg1:T10 Arg2:T11
+R11	c_co Arg1:T11 Arg2:T13
+R12	is-specialized-by Arg1:T13 Arg2:T14
+R13	c_co Arg1:T14 Arg2:T15
+R14	compound Arg1:T15 Arg2:T14
+R15	compound Arg1:T15 Arg2:T13
+R16	p_o Arg1:T19 Arg2:T23
+R17	compound Arg1:T28 Arg2:T27
+R18	compound Arg1:T34 Arg2:T32
+R19	compound Arg1:T34 Arg2:T33

@@ -1,0 +1,65 @@
+T0	segment 0 3	The
+T1	segment 4 10	Colony
+T2	segment 11 13	of
+T3	segment 14 23	Vancouver
+T4	segment 24 30	Island
+T5	segment 31 32	,
+T6	segment 33 36	was
+T7	segment 37 38	a
+T8	segment 39 44	crown
+T9	segment 45 51	colony
+T10	segment 52 54	of
+T11	segment 55 62	British
+T12	segment 63 68	North
+T13	segment 69 76	America
+T14	segment 77 81	from
+T15	segment 82 86	1849
+T16	segment 87 89	to
+T17	segment 90 94	1866
+T18	segment 94 95	,
+T19	segment 96 101	after
+T20	segment 102 107	which
+T21	segment 108 110	it
+T22	segment 111 114	was
+T23	segment 115 121	united
+T24	segment 122 126	with
+T25	segment 127 130	the
+T26	segment 131 139	mainland
+T27	segment 140 142	to
+T28	segment 143 147	form
+T29	segment 148 151	the
+T30	segment 152 158	Colony
+T31	segment 159 161	of
+T32	segment 162 169	British
+T33	segment 170 178	Columbia
+T34	segment 179 180	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T6
+R2	c_co Arg1:T2 Arg2:T4
+R3	compound Arg1:T4 Arg2:T3
+R4	compound Arg1:T4 Arg2:T2
+R5	compound Arg1:T4 Arg2:T1
+R6	p_o Arg1:T6 Arg2:T9
+R7	is-specialized-by Arg1:T9 Arg2:T16
+R8	is-specialized-by Arg1:T9 Arg2:T10
+R9	compound Arg1:T9 Arg2:T8
+R10	is-specialized-by Arg1:T9 Arg2:T14
+R11	c_co Arg1:T10 Arg2:T13
+R12	compound Arg1:T13 Arg2:T12
+R13	is-specialized-by Arg1:T13 Arg2:T11
+R14	c_co Arg1:T14 Arg2:T15
+R15	c_co Arg1:T16 Arg2:T17
+R16	compound Arg1:T17 Arg2:T16
+R17	compound Arg1:T17 Arg2:T15
+R18	c_co Arg1:T19 Arg2:T20
+R19	s_p Arg1:T21 Arg2:T23
+R20	compound Arg1:T23 Arg2:T22
+R21	p_c Arg1:T23 Arg2:T24
+R22	p_c Arg1:T23 Arg2:T19
+R23	c_co Arg1:T24 Arg2:T26
+R24	p_o Arg1:T28 Arg2:T30
+R25	is-specialized-by Arg1:T30 Arg2:T31
+R26	c_co Arg1:T31 Arg2:T33
+R27	compound Arg1:T33 Arg2:T30
+R28	compound Arg1:T33 Arg2:T32
+R29	compound Arg1:T33 Arg2:T31

@@ -1,0 +1,62 @@
+T0	segment 0 5	Cross
+T1	segment 6 11	Creek
+T2	segment 12 20	Cemetery
+T3	segment 21 23	is
+T4	segment 24 25	a
+T5	segment 26 34	cemetery
+T6	segment 35 42	located
+T7	segment 43 45	in
+T8	segment 46 58	Fayetteville
+T9	segment 58 59	,
+T10	segment 60 65	North
+T11	segment 66 74	Carolina
+T12	segment 74 75	,
+T13	segment 76 80	near
+T14	segment 81 82	a
+T15	segment 83 88	creek
+T16	segment 89 91	of
+T17	segment 92 96	that
+T18	segment 97 101	name
+T19	segment 102 106	that
+T20	segment 107 108	''
+T21	segment 108 109	``
+T22	segment 109 117	meanders
+T23	segment 118 121	for
+T24	segment 122 126	more
+T25	segment 127 131	than
+T26	segment 132 133	a
+T27	segment 134 138	mile
+T28	segment 139 143	from
+T29	segment 144 152	downtown
+T30	segment 153 165	Fayetteville
+T31	segment 166 168	to
+T32	segment 169 172	the
+T33	segment 173 177	Cape
+T34	segment 178 182	Fear
+T35	segment 183 188	River
+T36	segment 189 190	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T5
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	is-specialized-by Arg1:T5 Arg2:T13
+R6	is-specialized-by Arg1:T6 Arg2:T7
+R7	c_co Arg1:T7 Arg2:T8
+R8	compound Arg1:T11 Arg2:T10
+R9	c_co Arg1:T13 Arg2:T15
+R10	is-specialized-by Arg1:T15 Arg2:T16
+R11	c_co Arg1:T16 Arg2:T18
+R12	p_p Arg1:T22 Arg2:T3
+R13	is-specialized-by Arg1:T22 Arg2:T23
+R14	is-specialized-by Arg1:T22 Arg2:T31
+R15	c_co Arg1:T23 Arg2:T27
+R16	compound Arg1:T24 Arg2:T25
+R17	is-specialized-by Arg1:T26 Arg2:T24
+R18	is-specialized-by Arg1:T27 Arg2:T26
+R19	is-specialized-by Arg1:T27 Arg2:T28
+R20	c_co Arg1:T28 Arg2:T30
+R21	compound Arg1:T30 Arg2:T29
+R22	c_co Arg1:T31 Arg2:T35
+R23	compound Arg1:T35 Arg2:T34
+R24	compound Arg1:T35 Arg2:T33

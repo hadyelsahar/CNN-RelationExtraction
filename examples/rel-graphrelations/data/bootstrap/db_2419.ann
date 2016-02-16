@@ -1,0 +1,49 @@
+T0	segment 0 7	PetMeds
+T1	segment 7 8	,
+T2	segment 9 13	also
+T3	segment 14 19	known
+T4	segment 20 22	as
+T5	segment 23 24	1
+T6	segment 25 28	800
+T7	segment 29 32	Pet
+T8	segment 33 37	Meds
+T9	segment 37 38	,
+T10	segment 39 41	is
+T11	segment 42 44	an
+T12	segment 45 51	online
+T13	segment 52 55	pet
+T14	segment 56 64	pharmacy
+T15	segment 65 73	offering
+T16	segment 74 86	prescription
+T17	segment 87 90	and
+T18	segment 91 107	non-prescription
+T19	segment 108 111	pet
+T20	segment 112 123	medications
+T21	segment 124 127	and
+T22	segment 128 133	other
+T23	segment 134 140	health
+T24	segment 141 149	products
+T25	segment 150 153	for
+T26	segment 154 158	dogs
+T27	segment 158 159	,
+T28	segment 160 164	cats
+T29	segment 165 168	and
+T30	segment 169 175	horses
+T31	segment 176 177	.
+R0	s_p Arg1:T0 Arg2:T10
+R1	is-specialized-by Arg1:T3 Arg2:T2
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T6
+R4	compound Arg1:T6 Arg2:T5
+R5	compound Arg1:T8 Arg2:T7
+R6	p_o Arg1:T10 Arg2:T16
+R7	compound Arg1:T16 Arg2:T14
+R8	compound Arg1:T16 Arg2:T13
+R9	is-specialized-by Arg1:T16 Arg2:T12
+R10	compound Arg1:T16 Arg2:T15
+R11	compound Arg1:T20 Arg2:T19
+R12	is-specialized-by Arg1:T20 Arg2:T18
+R13	is-specialized-by Arg1:T24 Arg2:T25
+R14	compound Arg1:T24 Arg2:T23
+R15	is-specialized-by Arg1:T24 Arg2:T22
+R16	c_co Arg1:T25 Arg2:T26

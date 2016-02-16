@@ -1,0 +1,24 @@
+T0	segment 0 4	Paul
+T1	segment 5 12	Gardner
+T2	segment 13 14	,
+T3	segment 15 16	a
+T4	segment 17 26	nonprofit
+T5	segment 27 32	group
+T6	segment 33 42	providing
+T7	segment 43 53	leadership
+T8	segment 54 56	at
+T9	segment 57 60	the
+T10	segment 61 68	Capitol
+T11	segment 69 72	and
+T12	segment 73 79	within
+T13	segment 80 88	industry
+T14	segment 89 91	to
+T15	segment 92 99	promote
+T16	segment 100 109	recycling
+T17	segment 110 111	.
+R0	compound Arg1:T1 Arg2:T0
+R1	is-specialized-by Arg1:T5 Arg2:T4
+R2	is-specialized-by Arg1:T6 Arg2:T8
+R3	p_o Arg1:T6 Arg2:T7
+R4	c_co Arg1:T8 Arg2:T10
+R5	p_o Arg1:T15 Arg2:T16

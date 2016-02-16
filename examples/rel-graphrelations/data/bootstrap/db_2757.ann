@@ -1,0 +1,36 @@
+T0	segment 0 12	Wied-Neuwied
+T1	segment 13 16	was
+T2	segment 17 18	a
+T3	segment 19 25	German
+T4	segment 26 34	statelet
+T5	segment 35 37	of
+T6	segment 38 50	northeastern
+T7	segment 51 71	Rhineland-Palatinate
+T8	segment 71 72	,
+T9	segment 73 80	Germany
+T10	segment 80 81	,
+T11	segment 82 89	located
+T12	segment 90 99	northeast
+T13	segment 100 102	of
+T14	segment 103 106	the
+T15	segment 107 112	Rhine
+T16	segment 113 118	River
+T17	segment 118 119	,
+T18	segment 120 125	north
+T19	segment 126 129	and
+T20	segment 130 139	inclusive
+T21	segment 140 142	of
+T22	segment 143 150	Neuwied
+T23	segment 151 152	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T7
+R5	is-specialized-by Arg1:T7 Arg2:T6
+R6	is-specialized-by Arg1:T12 Arg2:T11
+R7	is-specialized-by Arg1:T12 Arg2:T13
+R8	c_co Arg1:T13 Arg2:T16
+R9	compound Arg1:T16 Arg2:T15
+R10	is-specialized-by Arg1:T18 Arg2:T21
+R11	c_co Arg1:T21 Arg2:T22

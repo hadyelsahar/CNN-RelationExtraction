@@ -1,0 +1,31 @@
+T0	segment 0 7	Softtek
+T1	segment 8 10	is
+T2	segment 11 12	a
+T3	segment 13 20	Mexican
+T4	segment 21 26	based
+T5	segment 27 38	information
+T6	segment 39 49	technology
+T7	segment 50 57	company
+T8	segment 57 58	,
+T9	segment 59 68	operating
+T10	segment 69 71	in
+T11	segment 72 77	North
+T12	segment 78 85	America
+T13	segment 85 86	,
+T14	segment 87 92	Latin
+T15	segment 93 100	America
+T16	segment 100 101	,
+T17	segment 102 108	Europe
+T18	segment 109 112	and
+T19	segment 113 117	Asia
+T20	segment 118 119	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T7
+R4	compound Arg1:T7 Arg2:T6
+R5	compound Arg1:T7 Arg2:T5
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T12
+R8	compound Arg1:T12 Arg2:T11
+R9	compound Arg1:T15 Arg2:T14

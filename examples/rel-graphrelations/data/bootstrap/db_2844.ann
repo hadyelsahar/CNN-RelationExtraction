@@ -1,0 +1,45 @@
+T0	segment 0 11	Penn-Grover
+T1	segment 12 20	Envelope
+T2	segment 21 32	Corporation
+T3	segment 33 38	based
+T4	segment 39 41	in
+T5	segment 42 46	Long
+T6	segment 47 53	Island
+T7	segment 54 58	City
+T8	segment 58 59	,
+T9	segment 60 63	New
+T10	segment 64 68	York
+T11	segment 69 72	was
+T12	segment 73 74	a
+T13	segment 75 80	major
+T14	segment 81 88	printer
+T15	segment 89 91	of
+T16	segment 92 101	envelopes
+T17	segment 102 105	and
+T18	segment 106 112	direct
+T19	segment 113 117	mail
+T20	segment 118 128	components
+T21	segment 129 138	primarily
+T22	segment 139 142	for
+T23	segment 143 152	financial
+T24	segment 153 165	institutions
+T25	segment 166 167	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_c Arg1:T3 Arg2:T4
+R4	c_co Arg1:T4 Arg2:T7
+R5	compound Arg1:T7 Arg2:T6
+R6	compound Arg1:T7 Arg2:T5
+R7	s_p Arg1:T10 Arg2:T11
+R8	compound Arg1:T10 Arg2:T9
+R9	p_o Arg1:T11 Arg2:T14
+R10	is-specialized-by Arg1:T14 Arg2:T15
+R11	is-specialized-by Arg1:T14 Arg2:T22
+R12	is-specialized-by Arg1:T14 Arg2:T13
+R13	c_co Arg1:T15 Arg2:T16
+R14	compound Arg1:T20 Arg2:T19
+R15	is-specialized-by Arg1:T20 Arg2:T18
+R16	c_co Arg1:T22 Arg2:T24
+R17	is-specialized-by Arg1:T24 Arg2:T23
+R18	is-specialized-by Arg1:T24 Arg2:T21

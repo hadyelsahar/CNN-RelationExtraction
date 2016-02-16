@@ -1,0 +1,40 @@
+T0	segment 0 7	Created
+T1	segment 8 10	by
+T2	segment 11 15	Jean
+T3	segment 16 18	de
+T4	segment 19 27	Brunhoff
+T5	segment 28 35	between
+T6	segment 36 40	1931
+T7	segment 41 44	and
+T8	segment 45 49	1937
+T9	segment 49 50	,
+T10	segment 51 56	Babar
+T11	segment 56 58	's
+T12	segment 59 66	Kingdom
+T13	segment 66 67	,
+T14	segment 68 72	also
+T15	segment 73 78	known
+T16	segment 79 81	in
+T17	segment 82 88	French
+T18	segment 89 91	as
+T19	segment 92 94	Le
+T20	segment 95 99	pays
+T21	segment 100 103	des
+T22	segment 104 113	ÃlÃ©phants
+T23	segment 114 115	.
+R0	is-specialized-by Arg1:T0 Arg2:T1
+R1	c_co Arg1:T1 Arg2:T4
+R2	compound Arg1:T4 Arg2:T3
+R3	compound Arg1:T4 Arg2:T2
+R4	is-specialized-by Arg1:T4 Arg2:T5
+R5	c_co Arg1:T5 Arg2:T6
+R6	compound Arg1:T8 Arg2:T6
+R7	compound Arg1:T8 Arg2:T7
+R8	s_p Arg1:T12 Arg2:T20
+R9	is-specialized-by Arg1:T15 Arg2:T16
+R10	is-specialized-by Arg1:T15 Arg2:T14
+R11	c_co Arg1:T16 Arg2:T17
+R12	is-specialized-by Arg1:T17 Arg2:T18
+R13	c_co Arg1:T18 Arg2:T19
+R14	p_o Arg1:T20 Arg2:T21
+R15	p_o Arg1:T20 Arg2:T22

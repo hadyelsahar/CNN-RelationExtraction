@@ -1,0 +1,29 @@
+T0	segment 0 4	Ralf
+T1	segment 5 13	Wadephul
+T2	segment 13 14	,
+T3	segment 15 19	born
+T4	segment 20 24	1958
+T5	segment 25 27	in
+T6	segment 28 34	Berlin
+T7	segment 34 35	,
+T8	segment 36 38	is
+T9	segment 39 40	a
+T10	segment 41 47	German
+T11	segment 48 68	keyboardist/composer
+T12	segment 69 72	who
+T13	segment 73 85	collaborated
+T14	segment 86 90	with
+T15	segment 91 100	Tangerine
+T16	segment 101 106	Dream
+T17	segment 107 108	.
+R0	s_p Arg1:T1 Arg2:T8
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T3 Arg2:T4
+R3	is-specialized-by Arg1:T3 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T6
+R5	p_o Arg1:T8 Arg2:T11
+R6	is-specialized-by Arg1:T11 Arg2:T10
+R7	s_p Arg1:T12 Arg2:T13
+R8	p_c Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T16
+R10	compound Arg1:T16 Arg2:T15

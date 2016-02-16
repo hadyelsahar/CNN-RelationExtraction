@@ -1,0 +1,37 @@
+T0	segment 0 5	Addeo
+T1	segment 6 11	Music
+T2	segment 12 25	International
+T3	segment 26 28	is
+T4	segment 29 31	an
+T5	segment 32 45	international
+T6	segment 46 50	jazz
+T7	segment 51 58	booking
+T8	segment 59 65	agency
+T9	segment 66 77	established
+T10	segment 78 80	in
+T11	segment 81 85	2008
+T12	segment 86 90	that
+T13	segment 91 96	works
+T14	segment 97 101	with
+T15	segment 102 103	a
+T16	segment 104 110	number
+T17	segment 111 113	of
+T18	segment 114 129	internationally
+T19	segment 130 139	acclaimed
+T20	segment 140 147	artists
+T21	segment 148 149	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T5
+R5	p_o Arg1:T7 Arg2:T8
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T11
+R8	s_p Arg1:T12 Arg2:T13
+R9	p_c Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T16
+R11	is-specialized-by Arg1:T16 Arg2:T17
+R12	c_co Arg1:T17 Arg2:T20
+R13	is-specialized-by Arg1:T19 Arg2:T18
+R14	is-specialized-by Arg1:T20 Arg2:T19

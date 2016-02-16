@@ -1,0 +1,50 @@
+T0	segment 0 11	iVideosongs
+T1	segment 11 12	,
+T2	segment 13 16	now
+T3	segment 17 22	owned
+T4	segment 23 25	by
+T5	segment 26 36	Songmaster
+T6	segment 37 44	Studios
+T7	segment 45 54	Education
+T8	segment 55 58	LLC
+T9	segment 58 59	,
+T10	segment 60 62	is
+T11	segment 63 65	an
+T12	segment 66 72	online
+T13	segment 73 78	music
+T14	segment 79 90	instruction
+T15	segment 91 98	service
+T16	segment 99 104	where
+T17	segment 105 113	original
+T18	segment 114 121	artists
+T19	segment 122 126	show
+T20	segment 127 130	how
+T21	segment 131 133	to
+T22	segment 134 138	play
+T23	segment 139 142	the
+T24	segment 143 148	songs
+T25	segment 149 153	they
+T26	segment 154 158	have
+T27	segment 159 166	written
+T28	segment 167 170	and
+T29	segment 171 180	performed
+T30	segment 181 182	.
+R0	s_p Arg1:T0 Arg2:T10
+R1	is-specialized-by Arg1:T3 Arg2:T2
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T8
+R4	compound Arg1:T8 Arg2:T6
+R5	compound Arg1:T8 Arg2:T5
+R6	compound Arg1:T8 Arg2:T7
+R7	p_o Arg1:T10 Arg2:T15
+R8	compound Arg1:T15 Arg2:T14
+R9	compound Arg1:T15 Arg2:T13
+R10	is-specialized-by Arg1:T15 Arg2:T12
+R11	s_p Arg1:T18 Arg2:T19
+R12	is-specialized-by Arg1:T18 Arg2:T17
+R13	p_c Arg1:T19 Arg2:T16
+R14	p_p Arg1:T19 Arg2:T22
+R15	p_o Arg1:T22 Arg2:T24
+R16	is-specialized-by Arg1:T22 Arg2:T20
+R17	s_p Arg1:T25 Arg2:T27
+R18	compound Arg1:T27 Arg2:T26

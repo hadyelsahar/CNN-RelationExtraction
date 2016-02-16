@@ -1,0 +1,59 @@
+T0	segment 0 4	Hirt
+T1	segment 4 6	's
+T2	segment 7 14	Gardens
+T3	segment 15 17	is
+T4	segment 18 19	a
+T5	segment 20 26	retail
+T6	segment 27 37	greenhouse
+T7	segment 38 45	located
+T8	segment 46 48	in
+T9	segment 49 56	Granger
+T10	segment 57 65	Township
+T11	segment 65 66	,
+T12	segment 67 73	Medina
+T13	segment 74 80	County
+T14	segment 80 81	,
+T15	segment 82 86	Ohio
+T16	segment 87 91	that
+T17	segment 92 98	offers
+T18	segment 99 106	unusual
+T19	segment 107 110	and
+T20	segment 111 123	hard-to-find
+T21	segment 124 129	seeds
+T22	segment 129 130	,
+T23	segment 131 140	seedlings
+T24	segment 140 141	,
+T25	segment 142 145	and
+T26	segment 146 152	mature
+T27	segment 153 159	plants
+T28	segment 160 167	ranging
+T29	segment 168 172	from
+T30	segment 173 184	traditional
+T31	segment 185 195	vegetables
+T32	segment 196 198	to
+T33	segment 199 203	rare
+T34	segment 204 214	perennials
+T35	segment 215 217	to
+T36	segment 218 224	exotic
+T37	segment 225 236	houseplants
+T38	segment 237 238	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	p_o Arg1:T3 Arg2:T6
+R2	is-specialized-by Arg1:T6 Arg2:T5
+R3	is-specialized-by Arg1:T7 Arg2:T8
+R4	c_co Arg1:T8 Arg2:T10
+R5	compound Arg1:T10 Arg2:T9
+R6	compound Arg1:T13 Arg2:T12
+R7	s_p Arg1:T16 Arg2:T17
+R8	p_o Arg1:T17 Arg2:T21
+R9	is-specialized-by Arg1:T21 Arg2:T18
+R10	is-specialized-by Arg1:T27 Arg2:T26
+R11	is-specialized-by Arg1:T28 Arg2:T35
+R12	is-specialized-by Arg1:T28 Arg2:T29
+R13	c_co Arg1:T29 Arg2:T31
+R14	is-specialized-by Arg1:T31 Arg2:T32
+R15	is-specialized-by Arg1:T31 Arg2:T30
+R16	c_co Arg1:T32 Arg2:T34
+R17	is-specialized-by Arg1:T34 Arg2:T33
+R18	c_co Arg1:T35 Arg2:T37
+R19	is-specialized-by Arg1:T37 Arg2:T36

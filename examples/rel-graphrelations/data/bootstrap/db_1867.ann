@@ -1,0 +1,74 @@
+T0	segment 0 3	The
+T1	segment 4 9	Armed
+T2	segment 10 16	Forces
+T3	segment 17 31	Communications
+T4	segment 32 35	and
+T5	segment 36 47	Electronics
+T6	segment 48 59	Association
+T7	segment 60 71	established
+T8	segment 72 74	in
+T9	segment 75 79	1946
+T10	segment 79 80	,
+T11	segment 81 83	is
+T12	segment 84 85	a
+T13	segment 86 96	non-profit
+T14	segment 97 107	membership
+T15	segment 108 119	association
+T16	segment 120 127	serving
+T17	segment 128 131	the
+T18	segment 132 140	military
+T19	segment 140 141	,
+T20	segment 142 152	government
+T21	segment 152 153	,
+T22	segment 154 162	industry
+T23	segment 162 163	,
+T24	segment 164 167	and
+T25	segment 168 176	academia
+T26	segment 177 179	as
+T27	segment 180 182	an
+T28	segment 183 190	ethical
+T29	segment 191 196	forum
+T30	segment 197 200	for
+T31	segment 201 210	advancing
+T32	segment 211 223	professional
+T33	segment 224 233	knowledge
+T34	segment 234 237	and
+T35	segment 238 251	relationships
+T36	segment 252 254	in
+T37	segment 255 258	the
+T38	segment 259 265	fields
+T39	segment 266 268	of
+T40	segment 269 283	communications
+T41	segment 283 284	,
+T42	segment 285 296	information
+T43	segment 297 307	technology
+T44	segment 307 308	,
+T45	segment 309 321	intelligence
+T46	segment 321 322	,
+T47	segment 323 326	and
+T48	segment 327 335	security
+T49	segment 336 337	.
+R0	s_p Arg1:T3 Arg2:T11
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	compound Arg1:T6 Arg2:T4
+R4	compound Arg1:T6 Arg2:T3
+R5	compound Arg1:T6 Arg2:T5
+R6	compound Arg1:T6 Arg2:T2
+R7	compound Arg1:T6 Arg2:T1
+R8	is-specialized-by Arg1:T7 Arg2:T8
+R9	c_co Arg1:T8 Arg2:T9
+R10	p_o Arg1:T11 Arg2:T15
+R11	compound Arg1:T15 Arg2:T14
+R12	is-specialized-by Arg1:T15 Arg2:T13
+R13	p_o Arg1:T16 Arg2:T18
+R14	is-specialized-by Arg1:T16 Arg2:T26
+R15	c_co Arg1:T26 Arg2:T29
+R16	is-specialized-by Arg1:T29 Arg2:T28
+R17	is-specialized-by Arg1:T31 Arg2:T36
+R18	p_o Arg1:T31 Arg2:T33
+R19	is-specialized-by Arg1:T33 Arg2:T32
+R20	c_co Arg1:T36 Arg2:T38
+R21	is-specialized-by Arg1:T38 Arg2:T39
+R22	c_co Arg1:T39 Arg2:T40
+R23	compound Arg1:T43 Arg2:T42

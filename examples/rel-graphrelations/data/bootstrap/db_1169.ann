@@ -1,0 +1,50 @@
+T0	segment 0 3	The
+T1	segment 4 10	Monell
+T2	segment 11 19	Chemical
+T3	segment 20 26	Senses
+T4	segment 27 33	Center
+T5	segment 34 36	is
+T6	segment 37 38	a
+T7	segment 39 49	non-profit
+T8	segment 50 61	independent
+T9	segment 62 72	scientific
+T10	segment 73 82	institute
+T11	segment 83 90	located
+T12	segment 91 93	at
+T13	segment 94 97	the
+T14	segment 98 108	University
+T15	segment 109 113	City
+T16	segment 114 121	Science
+T17	segment 122 128	Center
+T18	segment 129 137	research
+T19	segment 138 144	campus
+T20	segment 145 147	in
+T21	segment 148 160	Philadelphia
+T22	segment 160 161	,
+T23	segment 162 164	in
+T24	segment 165 168	the
+T25	segment 169 170	U
+T26	segment 171 172	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_p Arg1:T3 Arg2:T5
+R3	compound Arg1:T4 Arg2:T3
+R4	s_p Arg1:T4 Arg2:T5
+R5	compound Arg1:T4 Arg2:T2
+R6	compound Arg1:T4 Arg2:T1
+R7	p_o Arg1:T5 Arg2:T10
+R8	is-specialized-by Arg1:T10 Arg2:T23
+R9	is-specialized-by Arg1:T10 Arg2:T7
+R10	is-specialized-by Arg1:T11 Arg2:T12
+R11	c_co Arg1:T12 Arg2:T19
+R12	compound Arg1:T17 Arg2:T14
+R13	compound Arg1:T17 Arg2:T16
+R14	compound Arg1:T17 Arg2:T15
+R15	compound Arg1:T19 Arg2:T16
+R16	compound Arg1:T19 Arg2:T17
+R17	compound Arg1:T19 Arg2:T14
+R18	compound Arg1:T19 Arg2:T15
+R19	is-specialized-by Arg1:T19 Arg2:T20
+R20	compound Arg1:T19 Arg2:T18
+R21	c_co Arg1:T20 Arg2:T21
+R22	c_co Arg1:T23 Arg2:T25

@@ -1,0 +1,35 @@
+T0	segment 0 5	Saint
+T1	segment 6 32	Christopher-Nevis-Anguilla
+T2	segment 33 36	was
+T3	segment 37 38	a
+T4	segment 39 44	Crown
+T5	segment 45 51	Colony
+T6	segment 52 55	and
+T7	segment 56 61	later
+T8	segment 61 62	,
+T9	segment 63 64	a
+T10	segment 65 74	Dependent
+T11	segment 75 84	Territory
+T12	segment 85 87	of
+T13	segment 88 91	the
+T14	segment 92 98	United
+T15	segment 99 106	Kingdom
+T16	segment 107 114	located
+T17	segment 115 117	in
+T18	segment 118 121	the
+T19	segment 122 131	Caribbean
+T20	segment 132 135	Sea
+T21	segment 136 137	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	compound Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T5 Arg2:T7
+R5	p_p Arg1:T5 Arg2:T16
+R6	is-specialized-by Arg1:T11 Arg2:T10
+R7	is-specialized-by Arg1:T11 Arg2:T12
+R8	c_co Arg1:T12 Arg2:T15
+R9	compound Arg1:T15 Arg2:T14
+R10	is-specialized-by Arg1:T16 Arg2:T17
+R11	c_co Arg1:T17 Arg2:T20
+R12	compound Arg1:T20 Arg2:T19

@@ -1,0 +1,63 @@
+T0	segment 0 6	Malabo
+T1	segment 7 9	is
+T2	segment 10 13	the
+T3	segment 14 21	capital
+T4	segment 22 24	of
+T5	segment 25 35	Equatorial
+T6	segment 36 42	Guinea
+T7	segment 42 43	,
+T8	segment 44 51	located
+T9	segment 52 54	on
+T10	segment 55 58	the
+T11	segment 59 67	northern
+T12	segment 68 73	coast
+T13	segment 74 76	of
+T14	segment 77 82	Bioko
+T15	segment 83 89	Island
+T16	segment 90 92	it
+T17	segment 93 95	is
+T18	segment 96 100	also
+T19	segment 101 104	the
+T20	segment 105 111	second
+T21	segment 112 119	largest
+T22	segment 120 124	city
+T23	segment 125 127	in
+T24	segment 128 131	the
+T25	segment 132 139	country
+T26	segment 139 140	,
+T27	segment 141 146	after
+T28	segment 147 151	Bata
+T29	segment 152 154	in
+T30	segment 155 158	RÃ­o
+T31	segment 159 163	Muni
+T32	segment 164 166	on
+T33	segment 167 170	the
+T34	segment 171 178	African
+T35	segment 179 187	mainland
+T36	segment 188 189	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T6
+R4	compound Arg1:T6 Arg2:T5
+R5	is-specialized-by Arg1:T8 Arg2:T9
+R6	c_co Arg1:T9 Arg2:T12
+R7	is-specialized-by Arg1:T12 Arg2:T11
+R8	is-specialized-by Arg1:T12 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T15
+R10	compound Arg1:T15 Arg2:T14
+R11	s_p Arg1:T16 Arg2:T17
+R12	p_o Arg1:T17 Arg2:T22
+R13	is-specialized-by Arg1:T22 Arg2:T32
+R14	is-specialized-by Arg1:T22 Arg2:T23
+R15	is-specialized-by Arg1:T22 Arg2:T18
+R16	is-specialized-by Arg1:T22 Arg2:T20
+R17	is-specialized-by Arg1:T22 Arg2:T27
+R18	c_co Arg1:T23 Arg2:T25
+R19	c_co Arg1:T27 Arg2:T28
+R20	is-specialized-by Arg1:T28 Arg2:T29
+R21	c_co Arg1:T29 Arg2:T30
+R22	is-specialized-by Arg1:T30 Arg2:T31
+R23	compound Arg1:T31 Arg2:T30
+R24	c_co Arg1:T32 Arg2:T35
+R25	is-specialized-by Arg1:T35 Arg2:T34

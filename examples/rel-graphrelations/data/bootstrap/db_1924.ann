@@ -1,0 +1,45 @@
+T0	segment 0 3	The
+T1	segment 4 12	Dominion
+T2	segment 13 15	of
+T3	segment 16 19	New
+T4	segment 20 27	England
+T5	segment 28 30	in
+T6	segment 31 38	America
+T7	segment 39 40	,
+T8	segment 41 49	composed
+T9	segment 50 52	of
+T10	segment 53 64	present-day
+T11	segment 65 70	Maine
+T12	segment 70 71	,
+T13	segment 72 75	New
+T14	segment 76 85	Hampshire
+T15	segment 85 86	,
+T16	segment 87 94	Vermont
+T17	segment 94 95	,
+T18	segment 96 109	Massachusetts
+T19	segment 109 110	,
+T20	segment 111 116	Rhode
+T21	segment 117 123	Island
+T22	segment 123 124	,
+T23	segment 125 136	Connecticut
+T24	segment 136 137	,
+T25	segment 138 141	New
+T26	segment 142 146	York
+T27	segment 146 147	,
+T28	segment 148 151	and
+T29	segment 152 155	New
+T30	segment 156 162	Jersey
+T31	segment 163 164	.
+R0	s_p Arg1:T1 Arg2:T8
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	c_co Arg1:T2 Arg2:T4
+R3	compound Arg1:T4 Arg2:T3
+R4	is-specialized-by Arg1:T4 Arg2:T5
+R5	c_co Arg1:T5 Arg2:T6
+R6	p_c Arg1:T8 Arg2:T9
+R7	c_co Arg1:T9 Arg2:T11
+R8	is-specialized-by Arg1:T11 Arg2:T10
+R9	compound Arg1:T14 Arg2:T13
+R10	compound Arg1:T21 Arg2:T20
+R11	compound Arg1:T26 Arg2:T25
+R12	compound Arg1:T30 Arg2:T29

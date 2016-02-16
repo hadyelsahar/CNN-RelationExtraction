@@ -1,0 +1,38 @@
+T0	segment 0 6	Sasini
+T1	segment 7 9	is
+T2	segment 10 13	one
+T3	segment 14 16	of
+T4	segment 17 22	Kenya
+T5	segment 22 24	's
+T6	segment 25 30	major
+T7	segment 31 34	tea
+T8	segment 35 38	and
+T9	segment 39 45	coffee
+T10	segment 46 55	producers
+T11	segment 55 56	,
+T12	segment 57 60	and
+T13	segment 61 63	is
+T14	segment 64 67	one
+T15	segment 68 70	of
+T16	segment 71 74	the
+T17	segment 75 82	country
+T18	segment 82 84	's
+T19	segment 85 86	''
+T20	segment 86 87	``
+T21	segment 87 90	Big
+T22	segment 91 92	6
+T23	segment 92 93	''
+T24	segment 93 94	''
+T25	segment 95 98	tea
+T26	segment 99 108	producers
+T27	segment 109 110	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T2
+R2	is-specialized-by Arg1:T2 Arg2:T26
+R3	is-specialized-by Arg1:T2 Arg2:T3
+R4	c_co Arg1:T3 Arg2:T7
+R5	is-specialized-by Arg1:T7 Arg2:T6
+R6	compound Arg1:T10 Arg2:T9
+R7	is-specialized-by Arg1:T14 Arg2:T15
+R8	c_co Arg1:T15 Arg2:T17
+R9	is-specialized-by Arg1:T22 Arg2:T21

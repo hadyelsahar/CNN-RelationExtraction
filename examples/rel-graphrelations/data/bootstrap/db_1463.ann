@@ -1,0 +1,38 @@
+T0	segment 0 9	ZuluTrade
+T1	segment 10 12	is
+T2	segment 13 14	a
+T3	segment 15 24	financial
+T4	segment 25 33	services
+T5	segment 34 41	company
+T6	segment 41 42	,
+T7	segment 43 47	with
+T8	segment 48 51	its
+T9	segment 52 56	main
+T10	segment 57 67	operations
+T11	segment 68 73	based
+T12	segment 74 76	in
+T13	segment 77 83	Athens
+T14	segment 83 84	,
+T15	segment 85 91	Greece
+T16	segment 92 95	and
+T17	segment 96 105	operating
+T18	segment 106 108	in
+T19	segment 109 112	the
+T20	segment 113 120	foreign
+T21	segment 121 129	exchange
+T22	segment 130 136	market
+T23	segment 137 138	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T5
+R2	compound Arg1:T5 Arg2:T4
+R3	is-specialized-by Arg1:T5 Arg2:T7
+R4	is-specialized-by Arg1:T5 Arg2:T3
+R5	c_co Arg1:T7 Arg2:T10
+R6	is-specialized-by Arg1:T10 Arg2:T18
+R7	is-specialized-by Arg1:T10 Arg2:T9
+R8	is-specialized-by Arg1:T10 Arg2:T11
+R9	c_co Arg1:T11 Arg2:T15
+R10	compound Arg1:T15 Arg2:T13
+R11	c_co Arg1:T18 Arg2:T22
+R12	compound Arg1:T22 Arg2:T21
+R13	is-specialized-by Arg1:T22 Arg2:T20

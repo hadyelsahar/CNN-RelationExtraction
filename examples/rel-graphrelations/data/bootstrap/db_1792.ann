@@ -1,0 +1,50 @@
+T0	segment 0 1	``
+T1	segment 1 7	Saraya
+T2	segment 8 13	Aqaba
+T3	segment 13 14	''
+T4	segment 15 17	is
+T5	segment 18 19	a
+T6	segment 20 29	Jordanian
+T7	segment 30 37	private
+T8	segment 38 50	shareholding
+T9	segment 51 58	company
+T10	segment 58 59	,
+T11	segment 60 65	whose
+T12	segment 66 74	founding
+T13	segment 75 87	shareholders
+T14	segment 88 95	include
+T15	segment 96 102	Saraya
+T16	segment 103 109	Jordan
+T17	segment 109 110	,
+T18	segment 111 117	Jordan
+T19	segment 117 119	's
+T20	segment 120 126	Social
+T21	segment 127 135	Security
+T22	segment 136 147	Corporation
+T23	segment 147 148	,
+T24	segment 149 154	Aqaba
+T25	segment 155 166	Development
+T26	segment 167 178	Corporation
+T27	segment 178 179	,
+T28	segment 180 183	and
+T29	segment 184 188	Arab
+T30	segment 189 193	Bank
+T31	segment 194 197	plc
+T32	segment 198 199	.
+R0	s_p Arg1:T2 Arg2:T4
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T4 Arg2:T9
+R3	compound Arg1:T9 Arg2:T8
+R4	is-specialized-by Arg1:T9 Arg2:T6
+R5	is-specialized-by Arg1:T13 Arg2:T12
+R6	s_p Arg1:T13 Arg2:T14
+R7	p_o Arg1:T14 Arg2:T16
+R8	compound Arg1:T16 Arg2:T15
+R9	compound Arg1:T22 Arg2:T20
+R10	compound Arg1:T22 Arg2:T19
+R11	compound Arg1:T22 Arg2:T21
+R12	compound Arg1:T22 Arg2:T18
+R13	compound Arg1:T26 Arg2:T24
+R14	compound Arg1:T26 Arg2:T25
+R15	compound Arg1:T31 Arg2:T30
+R16	compound Arg1:T31 Arg2:T29

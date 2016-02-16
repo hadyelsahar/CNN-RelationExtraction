@@ -1,0 +1,97 @@
+T0	segment 0 5	China
+T1	segment 6 14	National
+T2	segment 15 23	Building
+T3	segment 24 32	Material
+T4	segment 33 40	Company
+T5	segment 41 43	or
+T6	segment 44 48	CNBM
+T7	segment 49 50	,
+T8	segment 51 62	established
+T9	segment 63 65	in
+T10	segment 66 70	1984
+T11	segment 70 71	,
+T12	segment 72 74	is
+T13	segment 75 76	a
+T14	segment 77 88	state-owned
+T15	segment 89 99	enterprise
+T16	segment 100 113	administrated
+T17	segment 114 116	by
+T18	segment 117 120	the
+T19	segment 121 132	State-owned
+T20	segment 133 139	Assets
+T21	segment 140 151	Supervision
+T22	segment 152 155	and
+T23	segment 156 170	Administration
+T24	segment 171 181	Commission
+T25	segment 182 184	of
+T26	segment 185 188	the
+T27	segment 189 194	State
+T28	segment 195 202	Council
+T29	segment 203 205	of
+T30	segment 206 209	the
+T31	segment 210 216	People
+T32	segment 216 218	's
+T33	segment 219 227	Republic
+T34	segment 228 230	of
+T35	segment 231 236	China
+T36	segment 236 237	,
+T37	segment 238 246	engaging
+T38	segment 247 249	in
+T39	segment 250 256	cement
+T40	segment 256 257	,
+T41	segment 258 269	lightweight
+T42	segment 270 278	building
+T43	segment 279 288	materials
+T44	segment 288 289	,
+T45	segment 290 295	glass
+T46	segment 296 301	fiber
+T47	segment 302 305	and
+T48	segment 306 322	fibre-reinforced
+T49	segment 323 330	plastic
+T50	segment 331 339	products
+T51	segment 340 343	and
+T52	segment 344 355	engineering
+T53	segment 356 363	service
+T54	segment 364 374	businesses
+T55	segment 375 376	.
+R0	compound Arg1:T4 Arg2:T3
+R1	compound Arg1:T4 Arg2:T0
+R2	s_p Arg1:T4 Arg2:T12
+R3	compound Arg1:T4 Arg2:T2
+R4	compound Arg1:T4 Arg2:T1
+R5	is-specialized-by Arg1:T8 Arg2:T9
+R6	c_co Arg1:T9 Arg2:T10
+R7	p_o Arg1:T12 Arg2:T15
+R8	is-specialized-by Arg1:T15 Arg2:T14
+R9	is-specialized-by Arg1:T16 Arg2:T17
+R10	c_co Arg1:T17 Arg2:T33
+R11	compound Arg1:T21 Arg2:T20
+R12	is-specialized-by Arg1:T21 Arg2:T25
+R13	is-specialized-by Arg1:T21 Arg2:T19
+R14	compound Arg1:T24 Arg2:T23
+R15	c_co Arg1:T25 Arg2:T28
+R16	is-specialized-by Arg1:T28 Arg2:T29
+R17	compound Arg1:T28 Arg2:T22
+R18	compound Arg1:T28 Arg2:T23
+R19	compound Arg1:T28 Arg2:T20
+R20	compound Arg1:T28 Arg2:T21
+R21	compound Arg1:T28 Arg2:T26
+R22	compound Arg1:T28 Arg2:T27
+R23	compound Arg1:T28 Arg2:T24
+R24	compound Arg1:T28 Arg2:T25
+R25	c_co Arg1:T29 Arg2:T31
+R26	is-specialized-by Arg1:T33 Arg2:T34
+R27	c_co Arg1:T34 Arg2:T35
+R28	compound Arg1:T35 Arg2:T32
+R29	compound Arg1:T35 Arg2:T31
+R30	compound Arg1:T35 Arg2:T34
+R31	compound Arg1:T35 Arg2:T33
+R32	is-specialized-by Arg1:T37 Arg2:T38
+R33	c_co Arg1:T38 Arg2:T39
+R34	is-specialized-by Arg1:T43 Arg2:T41
+R35	compound Arg1:T43 Arg2:T42
+R36	compound Arg1:T46 Arg2:T45
+R37	is-specialized-by Arg1:T50 Arg2:T48
+R38	compound Arg1:T50 Arg2:T49
+R39	compound Arg1:T54 Arg2:T52
+R40	compound Arg1:T54 Arg2:T53

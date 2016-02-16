@@ -1,0 +1,33 @@
+T0	segment 0 5	Mosul
+T1	segment 6 8	is
+T2	segment 9 10	a
+T3	segment 11 15	city
+T4	segment 16 18	of
+T5	segment 19 23	over
+T6	segment 24 25	a
+T7	segment 26 33	million
+T8	segment 34 40	people
+T9	segment 41 43	in
+T10	segment 44 52	northern
+T11	segment 53 57	Iraq
+T12	segment 57 58	,
+T13	segment 59 63	some
+T14	segment 64 67	400
+T15	segment 68 70	km
+T16	segment 71 76	north
+T17	segment 77 79	of
+T18	segment 80 87	Baghdad
+T19	segment 88 89	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T8
+R4	is-specialized-by Arg1:T7 Arg2:T6
+R5	is-specialized-by Arg1:T8 Arg2:T7
+R6	is-specialized-by Arg1:T8 Arg2:T9
+R7	c_co Arg1:T9 Arg2:T11
+R8	is-specialized-by Arg1:T11 Arg2:T10
+R9	is-specialized-by Arg1:T16 Arg2:T17
+R10	compound Arg1:T16 Arg2:T15
+R11	is-specialized-by Arg1:T16 Arg2:T14
+R12	c_co Arg1:T17 Arg2:T18

@@ -1,0 +1,31 @@
+T0	segment 0 3	The
+T1	segment 4 10	Sokoto
+T2	segment 11 20	Caliphate
+T3	segment 21 24	was
+T4	segment 25 27	an
+T5	segment 28 35	Islamic
+T6	segment 36 41	state
+T7	segment 41 42	,
+T8	segment 43 46	the
+T9	segment 47 51	most
+T10	segment 52 60	powerful
+T11	segment 61 63	in
+T12	segment 64 68	West
+T13	segment 69 75	Africa
+T14	segment 76 78	in
+T15	segment 79 82	the
+T16	segment 83 93	nineteenth
+T17	segment 94 101	century
+T18	segment 102 103	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T6
+R3	is-specialized-by Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T10 Arg2:T9
+R5	is-specialized-by Arg1:T10 Arg2:T11
+R6	c_co Arg1:T11 Arg2:T13
+R7	compound Arg1:T13 Arg2:T12
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T17
+R10	compound Arg1:T17 Arg2:T16
+R11	compound Arg1:T17 Arg2:T15

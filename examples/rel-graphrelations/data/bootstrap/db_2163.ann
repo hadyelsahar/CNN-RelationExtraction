@@ -1,0 +1,60 @@
+T0	segment 0 3	The
+T1	segment 4 14	Allensbach
+T2	segment 15 24	Institute
+T3	segment 24 25	,
+T4	segment 26 34	formally
+T5	segment 35 38	the
+T6	segment 39 49	Allensbach
+T7	segment 50 59	Institute
+T8	segment 60 63	for
+T9	segment 64 70	Public
+T10	segment 71 78	Opinion
+T11	segment 79 87	Research
+T12	segment 88 90	or
+T13	segment 91 101	Allensbach
+T14	segment 102 111	Institute
+T15	segment 112 115	for
+T16	segment 116 122	Public
+T17	segment 123 130	Opinion
+T18	segment 131 138	Polling
+T19	segment 139 140	,
+T20	segment 141 143	is
+T21	segment 144 145	a
+T22	segment 146 153	private
+T23	segment 154 173	conservativeopinion
+T24	segment 174 181	polling
+T25	segment 182 191	institute
+T26	segment 192 197	based
+T27	segment 198 200	in
+T28	segment 201 211	Allensbach
+T29	segment 211 212	,
+T30	segment 213 230	Baden-WÃ¼rttemberg
+T31	segment 230 231	,
+T32	segment 232 239	Germany
+T33	segment 240 241	.
+R0	s_p Arg1:T2 Arg2:T20
+R1	compound Arg1:T2 Arg2:T1
+R2	is-specialized-by Arg1:T7 Arg2:T8
+R3	compound Arg1:T7 Arg2:T6
+R4	is-specialized-by Arg1:T7 Arg2:T4
+R5	c_co Arg1:T8 Arg2:T11
+R6	compound Arg1:T11 Arg2:T10
+R7	compound Arg1:T11 Arg2:T8
+R8	compound Arg1:T11 Arg2:T9
+R9	is-specialized-by Arg1:T11 Arg2:T15
+R10	compound Arg1:T11 Arg2:T6
+R11	compound Arg1:T11 Arg2:T7
+R12	compound Arg1:T14 Arg2:T13
+R13	c_co Arg1:T15 Arg2:T18
+R14	compound Arg1:T18 Arg2:T14
+R15	compound Arg1:T18 Arg2:T13
+R16	compound Arg1:T18 Arg2:T16
+R17	compound Arg1:T18 Arg2:T15
+R18	compound Arg1:T18 Arg2:T17
+R19	p_o Arg1:T20 Arg2:T25
+R20	is-specialized-by Arg1:T25 Arg2:T26
+R21	compound Arg1:T25 Arg2:T24
+R22	compound Arg1:T25 Arg2:T23
+R23	is-specialized-by Arg1:T25 Arg2:T22
+R24	c_co Arg1:T26 Arg2:T28
+R25	compound Arg1:T32 Arg2:T30

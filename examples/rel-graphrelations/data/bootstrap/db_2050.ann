@@ -1,0 +1,54 @@
+T0	segment 0 3	ABN
+T1	segment 4 12	Newswire
+T2	segment 13 25	disseminates
+T3	segment 26 35	full-text
+T4	segment 36 40	news
+T5	segment 41 54	announcements
+T6	segment 55 58	and
+T7	segment 59 64	media
+T8	segment 65 69	from
+T9	segment 70 79	companies
+T10	segment 80 83	and
+T11	segment 84 97	organizations
+T12	segment 98 107	worldwide
+T13	segment 108 110	to
+T14	segment 111 115	news
+T15	segment 116 121	media
+T16	segment 121 122	,
+T17	segment 123 132	financial
+T18	segment 133 140	markets
+T19	segment 140 141	,
+T20	segment 142 152	disclosure
+T21	segment 153 160	systems
+T22	segment 160 161	,
+T23	segment 162 171	investors
+T24	segment 171 172	,
+T25	segment 173 184	information
+T26	segment 185 188	web
+T27	segment 189 194	sites
+T28	segment 194 195	,
+T29	segment 196 202	mobile
+T30	segment 203 210	devices
+T31	segment 210 211	,
+T32	segment 212 221	databases
+T33	segment 222 225	and
+T34	segment 226 231	other
+T35	segment 232 241	audiences
+T36	segment 242 243	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	p_c Arg1:T2 Arg2:T13
+R4	compound Arg1:T5 Arg2:T4
+R5	is-specialized-by Arg1:T5 Arg2:T8
+R6	is-specialized-by Arg1:T5 Arg2:T3
+R7	c_co Arg1:T8 Arg2:T9
+R8	c_co Arg1:T13 Arg2:T15
+R9	compound Arg1:T15 Arg2:T14
+R10	is-specialized-by Arg1:T15 Arg2:T12
+R11	is-specialized-by Arg1:T18 Arg2:T17
+R12	compound Arg1:T21 Arg2:T20
+R13	compound Arg1:T27 Arg2:T26
+R14	compound Arg1:T27 Arg2:T25
+R15	is-specialized-by Arg1:T30 Arg2:T29
+R16	is-specialized-by Arg1:T35 Arg2:T34

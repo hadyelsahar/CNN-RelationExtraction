@@ -1,0 +1,42 @@
+T0	segment 0 5	Qatar
+T1	segment 6 7	,
+T2	segment 8 10	is
+T3	segment 11 12	a
+T4	segment 13 22	sovereign
+T5	segment 23 27	Arab
+T6	segment 28 35	country
+T7	segment 36 43	located
+T8	segment 44 46	in
+T9	segment 47 56	Southwest
+T10	segment 57 61	Asia
+T11	segment 61 62	,
+T12	segment 63 72	occupying
+T13	segment 73 76	the
+T14	segment 77 82	small
+T15	segment 83 88	Qatar
+T16	segment 89 98	Peninsula
+T17	segment 99 101	on
+T18	segment 102 105	the
+T19	segment 106 118	northeastern
+T20	segment 119 124	coast
+T21	segment 125 127	of
+T22	segment 128 131	the
+T23	segment 132 139	Arabian
+T24	segment 140 149	Peninsula
+T25	segment 150 151	.
+R0	s_p Arg1:T0 Arg2:T2
+R1	p_o Arg1:T2 Arg2:T6
+R2	compound Arg1:T6 Arg2:T5
+R3	is-specialized-by Arg1:T6 Arg2:T4
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	c_co Arg1:T8 Arg2:T10
+R6	compound Arg1:T10 Arg2:T9
+R7	p_o Arg1:T12 Arg2:T16
+R8	is-specialized-by Arg1:T12 Arg2:T17
+R9	compound Arg1:T16 Arg2:T15
+R10	is-specialized-by Arg1:T16 Arg2:T14
+R11	c_co Arg1:T17 Arg2:T20
+R12	is-specialized-by Arg1:T20 Arg2:T19
+R13	is-specialized-by Arg1:T20 Arg2:T21
+R14	c_co Arg1:T21 Arg2:T24
+R15	compound Arg1:T24 Arg2:T23

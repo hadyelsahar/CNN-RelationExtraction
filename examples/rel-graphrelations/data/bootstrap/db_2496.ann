@@ -1,0 +1,72 @@
+T0	segment 0 3	The
+T1	segment 4 16	Commonwealth
+T2	segment 17 19	of
+T3	segment 20 23	the
+T4	segment 24 35	Philippines
+T5	segment 36 39	was
+T6	segment 40 43	the
+T7	segment 44 58	administrative
+T8	segment 59 63	body
+T9	segment 64 68	that
+T10	segment 69 77	governed
+T11	segment 78 81	the
+T12	segment 82 93	Philippines
+T13	segment 94 98	from
+T14	segment 99 103	1935
+T15	segment 104 106	to
+T16	segment 107 111	1946
+T17	segment 111 112	,
+T18	segment 113 118	aside
+T19	segment 119 123	from
+T20	segment 124 125	a
+T21	segment 126 132	period
+T22	segment 133 135	of
+T23	segment 136 141	exile
+T24	segment 142 144	in
+T25	segment 145 148	the
+T26	segment 149 155	Second
+T27	segment 156 161	World
+T28	segment 162 165	War
+T29	segment 166 170	from
+T30	segment 171 175	1942
+T31	segment 176 178	to
+T32	segment 179 183	1945
+T33	segment 184 188	when
+T34	segment 189 194	Japan
+T35	segment 195 203	occupied
+T36	segment 204 207	the
+T37	segment 208 215	country
+T38	segment 216 217	.
+R0	s_p Arg1:T1 Arg2:T5
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	c_co Arg1:T2 Arg2:T4
+R3	p_o Arg1:T5 Arg2:T8
+R4	is-specialized-by Arg1:T8 Arg2:T7
+R5	s_p Arg1:T9 Arg2:T10
+R6	p_c Arg1:T10 Arg2:T15
+R7	p_c Arg1:T10 Arg2:T13
+R8	p_o Arg1:T10 Arg2:T12
+R9	p_c Arg1:T10 Arg2:T19
+R10	c_co Arg1:T13 Arg2:T14
+R11	c_co Arg1:T15 Arg2:T16
+R12	compound Arg1:T16 Arg2:T14
+R13	compound Arg1:T16 Arg2:T15
+R14	c_co Arg1:T19 Arg2:T21
+R15	is-specialized-by Arg1:T21 Arg2:T18
+R16	is-specialized-by Arg1:T21 Arg2:T22
+R17	c_co Arg1:T22 Arg2:T23
+R18	is-specialized-by Arg1:T23 Arg2:T24
+R19	c_co Arg1:T24 Arg2:T28
+R20	compound Arg1:T28 Arg2:T27
+R21	is-specialized-by Arg1:T28 Arg2:T26
+R22	is-specialized-by Arg1:T28 Arg2:T29
+R23	c_co Arg1:T29 Arg2:T32
+R24	compound Arg1:T32 Arg2:T30
+R25	compound Arg1:T32 Arg2:T31
+R26	compound Arg1:T32 Arg2:T28
+R27	compound Arg1:T32 Arg2:T29
+R28	compound Arg1:T32 Arg2:T26
+R29	compound Arg1:T32 Arg2:T27
+R30	s_p Arg1:T34 Arg2:T35
+R31	p_o Arg1:T35 Arg2:T37
+R32	p_c Arg1:T35 Arg2:T33

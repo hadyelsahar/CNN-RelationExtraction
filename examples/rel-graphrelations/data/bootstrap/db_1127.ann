@@ -1,0 +1,50 @@
+T0	segment 0 3	UIQ
+T1	segment 4 14	Technology
+T2	segment 15 24	developed
+T3	segment 25 28	and
+T4	segment 29 37	licensed
+T5	segment 38 40	an
+T6	segment 41 45	open
+T7	segment 46 54	software
+T8	segment 55 63	platform
+T9	segment 64 66	to
+T10	segment 67 70	the
+T11	segment 71 76	world
+T12	segment 76 78	's
+T13	segment 79 86	leading
+T14	segment 87 93	mobile
+T15	segment 94 99	phone
+T16	segment 100 113	manufacturers
+T17	segment 114 117	and
+T18	segment 118 127	supported
+T19	segment 128 137	licensees
+T20	segment 138 140	in
+T21	segment 141 144	the
+T22	segment 145 150	drive
+T23	segment 151 158	towards
+T24	segment 159 169	developing
+T25	segment 170 171	a
+T26	segment 172 176	mass
+T27	segment 177 183	market
+T28	segment 184 187	for
+T29	segment 188 192	open
+T30	segment 193 199	mobile
+T31	segment 200 206	phones
+T32	segment 207 208	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_c Arg1:T2 Arg2:T9
+R3	p_o Arg1:T2 Arg2:T8
+R4	compound Arg1:T8 Arg2:T7
+R5	is-specialized-by Arg1:T8 Arg2:T6
+R6	c_co Arg1:T9 Arg2:T16
+R7	compound Arg1:T16 Arg2:T15
+R8	is-specialized-by Arg1:T16 Arg2:T13
+R9	p_o Arg1:T18 Arg2:T19
+R10	is-specialized-by Arg1:T18 Arg2:T20
+R11	c_co Arg1:T20 Arg2:T22
+R12	p_o Arg1:T24 Arg2:T27
+R13	is-specialized-by Arg1:T24 Arg2:T28
+R14	compound Arg1:T27 Arg2:T26
+R15	c_co Arg1:T28 Arg2:T31
+R16	is-specialized-by Arg1:T31 Arg2:T29

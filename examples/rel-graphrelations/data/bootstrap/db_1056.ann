@@ -1,0 +1,25 @@
+T0	segment 0 3	Gwa
+T1	segment 4 6	is
+T2	segment 7 8	a
+T3	segment 9 13	town
+T4	segment 14 16	in
+T5	segment 17 20	the
+T6	segment 21 28	Rakhine
+T7	segment 29 34	State
+T8	segment 35 37	of
+T9	segment 38 41	the
+T10	segment 42 53	westernmost
+T11	segment 54 58	part
+T12	segment 59 61	of
+T13	segment 62 67	Burma
+T14	segment 68 69	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	compound Arg1:T7 Arg2:T6
+R6	c_co Arg1:T8 Arg2:T11
+R7	is-specialized-by Arg1:T11 Arg2:T10
+R8	is-specialized-by Arg1:T11 Arg2:T12
+R9	c_co Arg1:T12 Arg2:T13

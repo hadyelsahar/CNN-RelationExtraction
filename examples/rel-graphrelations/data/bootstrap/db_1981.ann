@@ -1,0 +1,63 @@
+T0	segment 0 9	Boghammar
+T1	segment 10 15	Marin
+T2	segment 16 18	AB
+T3	segment 19 21	is
+T4	segment 22 23	a
+T5	segment 24 29	small
+T6	segment 30 42	family-owned
+T7	segment 43 50	company
+T8	segment 51 53	on
+T9	segment 54 61	LidingÃ¶
+T10	segment 61 62	,
+T11	segment 63 69	Sweden
+T12	segment 70 74	that
+T13	segment 75 86	specializes
+T14	segment 87 89	in
+T15	segment 90 93	the
+T16	segment 94 106	construction
+T17	segment 107 110	and
+T18	segment 111 119	building
+T19	segment 120 122	of
+T20	segment 123 132	aluminium
+T21	segment 133 138	boats
+T22	segment 139 143	like
+T23	segment 144 148	fast
+T24	segment 149 155	patrol
+T25	segment 156 161	boats
+T26	segment 161 162	,
+T27	segment 163 169	police
+T28	segment 170 175	boats
+T29	segment 175 176	,
+T30	segment 177 186	passenger
+T31	segment 187 194	vessels
+T32	segment 194 195	,
+T33	segment 196 199	sea
+T34	segment 200 220	fisheries/protection
+T35	segment 221 228	vessels
+T36	segment 229 232	and
+T37	segment 233 235	so
+T38	segment 236 238	on
+T39	segment 239 240	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T7 Arg2:T5
+R6	c_co Arg1:T8 Arg2:T11
+R7	compound Arg1:T11 Arg2:T9
+R8	s_p Arg1:T12 Arg2:T13
+R9	p_c Arg1:T13 Arg2:T14
+R10	p_c Arg1:T13 Arg2:T37
+R11	c_co Arg1:T14 Arg2:T16
+R12	is-specialized-by Arg1:T16 Arg2:T19
+R13	c_co Arg1:T19 Arg2:T21
+R14	compound Arg1:T21 Arg2:T20
+R15	is-specialized-by Arg1:T21 Arg2:T22
+R16	c_co Arg1:T22 Arg2:T35
+R17	compound Arg1:T35 Arg2:T31
+R18	compound Arg1:T35 Arg2:T28
+R19	compound Arg1:T35 Arg2:T34
+R20	is-specialized-by Arg1:T35 Arg2:T23
+R21	compound Arg1:T35 Arg2:T24
+R22	compound Arg1:T35 Arg2:T25

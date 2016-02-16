@@ -1,0 +1,43 @@
+T0	segment 0 3	Not
+T1	segment 4 6	to
+T2	segment 7 9	be
+T3	segment 10 18	confused
+T4	segment 19 23	with
+T5	segment 24 31	Tanjung
+T6	segment 32 38	Kupang
+T7	segment 39 41	in
+T8	segment 42 54	JohoreKupang
+T9	segment 55 57	is
+T10	segment 58 65	capital
+T11	segment 66 68	of
+T12	segment 69 72	the
+T13	segment 73 83	Indonesian
+T14	segment 84 92	province
+T15	segment 93 95	of
+T16	segment 96 100	East
+T17	segment 101 105	Nusa
+T18	segment 106 114	Tenggara
+T19	segment 114 115	,
+T20	segment 116 119	and
+T21	segment 120 123	its
+T22	segment 124 133	estimated
+T23	segment 134 138	2011
+T24	segment 139 149	population
+T25	segment 150 153	was
+T26	segment 154 161	349,344
+T27	segment 162 163	.
+R0	is-specialized-by Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	c_co Arg1:T4 Arg2:T6
+R3	is-specialized-by Arg1:T6 Arg2:T7
+R4	compound Arg1:T6 Arg2:T5
+R5	c_co Arg1:T7 Arg2:T8
+R6	is-specialized-by Arg1:T10 Arg2:T11
+R7	c_co Arg1:T11 Arg2:T14
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	is-specialized-by Arg1:T14 Arg2:T13
+R10	c_co Arg1:T15 Arg2:T18
+R11	compound Arg1:T18 Arg2:T16
+R12	compound Arg1:T18 Arg2:T17
+R13	is-specialized-by Arg1:T24 Arg2:T22
+R14	compound Arg1:T26 Arg2:T0

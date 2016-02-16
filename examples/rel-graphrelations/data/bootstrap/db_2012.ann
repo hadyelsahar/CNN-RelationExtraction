@@ -1,0 +1,68 @@
+T0	segment 0 7	Defense
+T1	segment 8 10	of
+T2	segment 11 14	the
+T3	segment 15 24	Federated
+T4	segment 25 31	States
+T5	segment 32 34	of
+T6	segment 35 45	Micronesia
+T7	segment 46 48	is
+T8	segment 49 52	the
+T9	segment 53 67	responsibility
+T10	segment 68 70	of
+T11	segment 71 74	the
+T12	segment 75 81	United
+T13	segment 82 88	States
+T14	segment 88 89	,
+T15	segment 90 93	but
+T16	segment 94 99	local
+T17	segment 100 106	police
+T18	segment 107 114	matters
+T19	segment 115 118	are
+T20	segment 119 126	handled
+T21	segment 127 129	by
+T22	segment 130 133	the
+T23	segment 134 137	FSM
+T24	segment 138 146	National
+T25	segment 147 153	Police
+T26	segment 153 154	,
+T27	segment 155 156	a
+T28	segment 157 162	small
+T29	segment 163 170	federal
+T30	segment 171 179	national
+T31	segment 180 186	police
+T32	segment 187 192	force
+T33	segment 192 193	,
+T34	segment 194 195	a
+T35	segment 196 204	division
+T36	segment 205 207	of
+T37	segment 208 211	the
+T38	segment 212 222	Department
+T39	segment 223 225	of
+T40	segment 226 233	Justice
+T41	segment 234 235	.
+R0	is-specialized-by Arg1:T0 Arg2:T1
+R1	s_p Arg1:T0 Arg2:T7
+R2	c_co Arg1:T1 Arg2:T4
+R3	compound Arg1:T4 Arg2:T3
+R4	is-specialized-by Arg1:T4 Arg2:T5
+R5	c_co Arg1:T5 Arg2:T6
+R6	p_o Arg1:T7 Arg2:T9
+R7	is-specialized-by Arg1:T9 Arg2:T10
+R8	c_co Arg1:T10 Arg2:T13
+R9	compound Arg1:T13 Arg2:T12
+R10	is-specialized-by Arg1:T18 Arg2:T16
+R11	s_p Arg1:T18 Arg2:T20
+R12	compound Arg1:T18 Arg2:T17
+R13	compound Arg1:T20 Arg2:T19
+R14	p_c Arg1:T20 Arg2:T21
+R15	c_co Arg1:T21 Arg2:T25
+R16	compound Arg1:T25 Arg2:T24
+R17	compound Arg1:T25 Arg2:T23
+R18	is-specialized-by Arg1:T32 Arg2:T28
+R19	compound Arg1:T32 Arg2:T31
+R20	is-specialized-by Arg1:T35 Arg2:T36
+R21	c_co Arg1:T36 Arg2:T38
+R22	is-specialized-by Arg1:T38 Arg2:T39
+R23	c_co Arg1:T39 Arg2:T40
+R24	compound Arg1:T40 Arg2:T38
+R25	compound Arg1:T40 Arg2:T39

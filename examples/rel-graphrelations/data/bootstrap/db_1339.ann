@@ -1,0 +1,94 @@
+T0	segment 0 3	The
+T1	segment 4 9	State
+T2	segment 10 12	of
+T3	segment 13 21	Muskogee
+T4	segment 22 25	was
+T5	segment 26 27	a
+T6	segment 28 38	proclaimed
+T7	segment 39 48	sovereign
+T8	segment 49 55	nation
+T9	segment 56 63	located
+T10	segment 64 66	in
+T11	segment 67 74	Florida
+T12	segment 74 75	,
+T13	segment 76 83	founded
+T14	segment 84 86	in
+T15	segment 87 91	1799
+T16	segment 92 95	and
+T17	segment 96 99	led
+T18	segment 100 102	by
+T19	segment 103 110	William
+T20	segment 111 119	Augustus
+T21	segment 120 126	Bowles
+T22	segment 126 127	,
+T23	segment 128 129	a
+T24	segment 130 138	Loyalist
+T25	segment 139 146	veteran
+T26	segment 147 149	of
+T27	segment 150 153	the
+T28	segment 154 162	American
+T29	segment 163 176	Revolutionary
+T30	segment 177 180	War
+T31	segment 181 184	who
+T32	segment 185 190	lived
+T33	segment 191 196	among
+T34	segment 197 200	the
+T35	segment 201 209	Muscogee
+T36	segment 209 210	,
+T37	segment 211 214	and
+T38	segment 215 225	envisioned
+T39	segment 226 233	uniting
+T40	segment 234 237	the
+T41	segment 238 246	American
+T42	segment 247 254	Indians
+T43	segment 255 257	of
+T44	segment 258 261	the
+T45	segment 262 271	Southeast
+T46	segment 272 276	into
+T47	segment 277 278	a
+T48	segment 279 285	single
+T49	segment 286 292	nation
+T50	segment 293 297	that
+T51	segment 298 303	could
+T52	segment 304 310	resist
+T53	segment 311 314	the
+T54	segment 315 324	expansion
+T55	segment 325 327	of
+T56	segment 328 331	the
+T57	segment 332 338	United
+T58	segment 339 345	States
+T59	segment 346 347	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T8
+R4	is-specialized-by Arg1:T8 Arg2:T6
+R5	is-specialized-by Arg1:T9 Arg2:T10
+R6	c_co Arg1:T10 Arg2:T11
+R7	is-specialized-by Arg1:T13 Arg2:T14
+R8	c_co Arg1:T14 Arg2:T15
+R9	is-specialized-by Arg1:T17 Arg2:T18
+R10	c_co Arg1:T18 Arg2:T21
+R11	compound Arg1:T21 Arg2:T20
+R12	compound Arg1:T21 Arg2:T19
+R13	is-specialized-by Arg1:T25 Arg2:T26
+R14	compound Arg1:T25 Arg2:T24
+R15	c_co Arg1:T26 Arg2:T30
+R16	compound Arg1:T30 Arg2:T28
+R17	compound Arg1:T30 Arg2:T29
+R18	s_p Arg1:T31 Arg2:T32
+R19	p_c Arg1:T32 Arg2:T33
+R20	c_co Arg1:T33 Arg2:T35
+R21	p_o Arg1:T39 Arg2:T42
+R22	is-specialized-by Arg1:T39 Arg2:T46
+R23	is-specialized-by Arg1:T42 Arg2:T43
+R24	compound Arg1:T42 Arg2:T41
+R25	c_co Arg1:T43 Arg2:T45
+R26	c_co Arg1:T46 Arg2:T49
+R27	is-specialized-by Arg1:T49 Arg2:T48
+R28	s_p Arg1:T50 Arg2:T52
+R29	compound Arg1:T52 Arg2:T51
+R30	p_o Arg1:T52 Arg2:T54
+R31	is-specialized-by Arg1:T54 Arg2:T55
+R32	c_co Arg1:T55 Arg2:T58
+R33	compound Arg1:T58 Arg2:T57

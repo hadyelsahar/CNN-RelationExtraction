@@ -1,0 +1,43 @@
+T0	segment 0 11	Quickbrowse
+T1	segment 12 15	was
+T2	segment 16 17	a
+T3	segment 18 27	Web-based
+T4	segment 28 40	subscription
+T5	segment 41 48	service
+T6	segment 49 53	that
+T7	segment 54 61	enables
+T8	segment 62 67	users
+T9	segment 68 70	to
+T10	segment 71 77	browse
+T11	segment 78 86	multiple
+T12	segment 87 90	Web
+T13	segment 91 96	pages
+T14	segment 97 101	more
+T15	segment 102 109	quickly
+T16	segment 110 112	by
+T17	segment 113 122	combining
+T18	segment 123 127	them
+T19	segment 128 138	vertically
+T20	segment 139 143	into
+T21	segment 144 145	a
+T22	segment 146 152	single
+T23	segment 153 156	Web
+T24	segment 157 161	page
+T25	segment 162 163	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T5
+R2	compound Arg1:T5 Arg2:T4
+R3	is-specialized-by Arg1:T5 Arg2:T3
+R4	s_p Arg1:T6 Arg2:T7
+R5	p_o Arg1:T7 Arg2:T8
+R6	p_o Arg1:T10 Arg2:T13
+R7	is-specialized-by Arg1:T10 Arg2:T15
+R8	compound Arg1:T13 Arg2:T12
+R9	is-specialized-by Arg1:T13 Arg2:T11
+R10	is-specialized-by Arg1:T15 Arg2:T14
+R11	p_o Arg1:T17 Arg2:T18
+R12	is-specialized-by Arg1:T17 Arg2:T20
+R13	is-specialized-by Arg1:T17 Arg2:T19
+R14	c_co Arg1:T20 Arg2:T24
+R15	compound Arg1:T24 Arg2:T23
+R16	is-specialized-by Arg1:T24 Arg2:T22

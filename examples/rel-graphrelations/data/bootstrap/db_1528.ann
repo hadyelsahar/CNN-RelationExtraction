@@ -1,0 +1,41 @@
+T0	segment 0 3	The
+T1	segment 4 14	Federation
+T2	segment 15 17	of
+T3	segment 18 22	Arab
+T4	segment 23 31	Emirates
+T5	segment 32 34	of
+T6	segment 35 38	the
+T7	segment 39 44	South
+T8	segment 45 48	was
+T9	segment 49 51	an
+T10	segment 52 64	organization
+T11	segment 65 67	of
+T12	segment 68 74	states
+T13	segment 75 81	within
+T14	segment 82 85	the
+T15	segment 86 93	British
+T16	segment 94 98	Aden
+T17	segment 99 111	Protectorate
+T18	segment 112 114	in
+T19	segment 115 119	what
+T20	segment 120 125	would
+T21	segment 126 132	become
+T22	segment 133 138	South
+T23	segment 139 144	Yemen
+T24	segment 145 146	.
+R0	s_p Arg1:T1 Arg2:T8
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	c_co Arg1:T2 Arg2:T4
+R3	compound Arg1:T4 Arg2:T3
+R4	is-specialized-by Arg1:T4 Arg2:T5
+R5	c_co Arg1:T5 Arg2:T7
+R6	p_o Arg1:T8 Arg2:T10
+R7	is-specialized-by Arg1:T10 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T12
+R9	is-specialized-by Arg1:T12 Arg2:T13
+R10	c_co Arg1:T13 Arg2:T17
+R11	is-specialized-by Arg1:T17 Arg2:T15
+R12	compound Arg1:T17 Arg2:T16
+R13	s_p Arg1:T19 Arg2:T21
+R14	compound Arg1:T21 Arg2:T20
+R15	compound Arg1:T23 Arg2:T22

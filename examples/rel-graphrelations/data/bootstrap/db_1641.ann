@@ -1,0 +1,30 @@
+T0	segment 0 6	Barats
+T1	segment 7 10	and
+T2	segment 11 17	Bereta
+T3	segment 18 20	is
+T4	segment 21 22	a
+T5	segment 23 32	web-based
+T6	segment 33 39	sketch
+T7	segment 40 46	comedy
+T8	segment 47 50	duo
+T9	segment 51 61	consisting
+T10	segment 62 64	of
+T11	segment 65 69	Luke
+T12	segment 70 76	Pierre
+T13	segment 77 83	Barats
+T14	segment 84 87	and
+T15	segment 88 94	Joseph
+T16	segment 95 101	Daniel
+T17	segment 102 108	Bereta
+T18	segment 109 110	.
+R0	s_p Arg1:T0 Arg2:T3
+R1	p_o Arg1:T3 Arg2:T8
+R2	compound Arg1:T8 Arg2:T6
+R3	compound Arg1:T8 Arg2:T7
+R4	is-specialized-by Arg1:T8 Arg2:T5
+R5	is-specialized-by Arg1:T9 Arg2:T10
+R6	c_co Arg1:T10 Arg2:T13
+R7	compound Arg1:T13 Arg2:T12
+R8	compound Arg1:T13 Arg2:T11
+R9	compound Arg1:T17 Arg2:T16
+R10	compound Arg1:T17 Arg2:T15

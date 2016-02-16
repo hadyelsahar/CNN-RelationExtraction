@@ -1,0 +1,44 @@
+T0	segment 0 3	The
+T1	segment 4 7	New
+T2	segment 8 13	Haven
+T3	segment 14 20	Colony
+T4	segment 21 24	was
+T5	segment 25 26	a
+T6	segment 27 32	small
+T7	segment 33 40	English
+T8	segment 41 47	colony
+T9	segment 48 50	in
+T10	segment 51 56	North
+T11	segment 57 64	America
+T12	segment 64 65	,
+T13	segment 66 68	in
+T14	segment 69 73	what
+T15	segment 74 76	is
+T16	segment 77 80	now
+T17	segment 81 84	the
+T18	segment 85 90	state
+T19	segment 91 93	of
+T20	segment 94 105	Connecticut
+T21	segment 105 106	,
+T22	segment 107 111	from
+T23	segment 112 116	1637
+T24	segment 117 119	to
+T25	segment 120 124	1664
+T26	segment 125 126	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T8
+R4	is-specialized-by Arg1:T8 Arg2:T9
+R5	is-specialized-by Arg1:T8 Arg2:T6
+R6	is-specialized-by Arg1:T8 Arg2:T22
+R7	c_co Arg1:T9 Arg2:T11
+R8	compound Arg1:T11 Arg2:T10
+R9	s_p Arg1:T14 Arg2:T15
+R10	p_o Arg1:T15 Arg2:T18
+R11	is-specialized-by Arg1:T18 Arg2:T16
+R12	is-specialized-by Arg1:T18 Arg2:T19
+R13	c_co Arg1:T19 Arg2:T20
+R14	c_co Arg1:T22 Arg2:T25
+R15	compound Arg1:T25 Arg2:T24
+R16	compound Arg1:T25 Arg2:T23

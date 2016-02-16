@@ -1,0 +1,40 @@
+T0	segment 0 5	South
+T1	segment 6 11	Korea
+T2	segment 12 13	,
+T3	segment 14 17	and
+T4	segment 18 26	commonly
+T5	segment 27 35	referred
+T6	segment 36 38	to
+T7	segment 39 41	as
+T8	segment 42 47	Korea
+T9	segment 47 48	,
+T10	segment 49 51	is
+T11	segment 52 53	a
+T12	segment 54 61	country
+T13	segment 62 64	in
+T14	segment 65 69	East
+T15	segment 70 74	Asia
+T16	segment 74 75	,
+T17	segment 76 88	constituting
+T18	segment 89 92	the
+T19	segment 93 101	southern
+T20	segment 102 106	part
+T21	segment 107 109	of
+T22	segment 110 113	the
+T23	segment 114 120	Korean
+T24	segment 121 130	Peninsula
+T25	segment 131 132	.
+R0	s_p Arg1:T1 Arg2:T10
+R1	is-specialized-by Arg1:T1 Arg2:T4
+R2	compound Arg1:T1 Arg2:T0
+R3	is-specialized-by Arg1:T5 Arg2:T7
+R4	c_co Arg1:T7 Arg2:T8
+R5	p_o Arg1:T10 Arg2:T12
+R6	is-specialized-by Arg1:T12 Arg2:T13
+R7	c_co Arg1:T13 Arg2:T15
+R8	compound Arg1:T15 Arg2:T14
+R9	p_o Arg1:T17 Arg2:T20
+R10	is-specialized-by Arg1:T20 Arg2:T19
+R11	is-specialized-by Arg1:T20 Arg2:T21
+R12	c_co Arg1:T21 Arg2:T24
+R13	compound Arg1:T24 Arg2:T23

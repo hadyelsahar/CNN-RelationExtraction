@@ -1,0 +1,29 @@
+T0	segment 0 6	Minyue
+T1	segment 7 10	was
+T2	segment 11 13	an
+T3	segment 14 21	ancient
+T4	segment 22 29	kingdom
+T5	segment 30 37	located
+T6	segment 38 40	in
+T7	segment 41 45	what
+T8	segment 46 48	is
+T9	segment 49 52	now
+T10	segment 53 56	the
+T11	segment 57 65	province
+T12	segment 66 68	of
+T13	segment 69 75	Fujian
+T14	segment 76 78	in
+T15	segment 79 87	southern
+T16	segment 88 93	China
+T17	segment 94 95	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	s_p Arg1:T7 Arg2:T8
+R4	p_o Arg1:T8 Arg2:T11
+R5	is-specialized-by Arg1:T11 Arg2:T9
+R6	is-specialized-by Arg1:T11 Arg2:T12
+R7	c_co Arg1:T12 Arg2:T13
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T16
+R10	is-specialized-by Arg1:T16 Arg2:T15

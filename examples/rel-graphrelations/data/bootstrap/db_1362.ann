@@ -1,0 +1,33 @@
+T0	segment 0 5	Smart
+T1	segment 6 9	Eye
+T2	segment 10 12	AB
+T3	segment 12 13	,
+T4	segment 14 16	is
+T5	segment 17 18	a
+T6	segment 19 26	Swedish
+T7	segment 27 36	high-tech
+T8	segment 37 44	company
+T9	segment 45 52	located
+T10	segment 53 55	in
+T11	segment 56 66	Gothenburg
+T12	segment 67 71	that
+T13	segment 72 80	develops
+T14	segment 81 84	and
+T15	segment 85 90	sells
+T16	segment 91 99	products
+T17	segment 100 103	for
+T18	segment 104 107	eye
+T19	segment 108 116	tracking
+T20	segment 117 118	.
+R0	compound Arg1:T2 Arg2:T0
+R1	s_p Arg1:T2 Arg2:T4
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T8
+R4	is-specialized-by Arg1:T8 Arg2:T6
+R5	is-specialized-by Arg1:T9 Arg2:T10
+R6	c_co Arg1:T10 Arg2:T11
+R7	s_p Arg1:T12 Arg2:T13
+R8	p_o Arg1:T13 Arg2:T16
+R9	is-specialized-by Arg1:T16 Arg2:T17
+R10	c_co Arg1:T17 Arg2:T19
+R11	compound Arg1:T19 Arg2:T18

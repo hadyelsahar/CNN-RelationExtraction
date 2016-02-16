@@ -1,0 +1,40 @@
+T0	segment 0 4	Adam
+T1	segment 5 9	Taub
+T2	segment 10 12	is
+T3	segment 13 14	a
+T4	segment 15 26	documentary
+T5	segment 27 31	film
+T6	segment 32 40	director
+T7	segment 41 45	from
+T8	segment 46 54	Colorado
+T9	segment 55 60	whose
+T10	segment 61 66	films
+T11	segment 67 74	include
+T12	segment 75 77	La
+T13	segment 78 89	QuinceaÃ±era
+T14	segment 89 90	,
+T15	segment 91 94	Don
+T16	segment 95 101	Angelo
+T17	segment 101 102	,
+T18	segment 103 106	and
+T19	segment 107 109	El
+T20	segment 110 115	Duque
+T21	segment 116 118	de
+T22	segment 119 121	la
+T23	segment 122 129	Bachata
+T24	segment 130 131	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T6
+R3	compound Arg1:T6 Arg2:T4
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	compound Arg1:T6 Arg2:T5
+R6	c_co Arg1:T7 Arg2:T8
+R7	s_p Arg1:T10 Arg2:T11
+R8	p_o Arg1:T11 Arg2:T13
+R9	compound Arg1:T13 Arg2:T12
+R10	compound Arg1:T16 Arg2:T15
+R11	compound Arg1:T23 Arg2:T20
+R12	compound Arg1:T23 Arg2:T19
+R13	compound Arg1:T23 Arg2:T22
+R14	compound Arg1:T23 Arg2:T21

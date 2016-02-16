@@ -1,0 +1,30 @@
+T0	segment 0 7	RFUGrey
+T1	segment 8 10	is
+T2	segment 11 12	a
+T3	segment 13 22	primarily
+T4	segment 23 31	freeform
+T5	segment 32 40	hardcore
+T6	segment 41 46	label
+T7	segment 47 54	located
+T8	segment 55 57	in
+T9	segment 58 61	the
+T10	segment 62 64	UK
+T11	segment 65 68	and
+T12	segment 69 78	promoting
+T13	segment 79 82	the
+T14	segment 83 95	distribution
+T15	segment 96 98	of
+T16	segment 99 103	free
+T17	segment 104 109	music
+T18	segment 110 111	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T6
+R2	compound Arg1:T6 Arg2:T5
+R3	is-specialized-by Arg1:T6 Arg2:T4
+R4	is-specialized-by Arg1:T6 Arg2:T3
+R5	is-specialized-by Arg1:T7 Arg2:T8
+R6	c_co Arg1:T8 Arg2:T10
+R7	p_o Arg1:T12 Arg2:T14
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	c_co Arg1:T15 Arg2:T17
+R10	is-specialized-by Arg1:T17 Arg2:T16

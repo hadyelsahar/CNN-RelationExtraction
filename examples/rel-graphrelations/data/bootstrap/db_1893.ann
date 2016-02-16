@@ -1,0 +1,56 @@
+T0	segment 0 7	Vaughan
+T1	segment 8 9	&
+T2	segment 10 18	Bushnell
+T3	segment 19 32	Manufacturing
+T4	segment 32 33	,
+T5	segment 34 38	also
+T6	segment 39 44	known
+T7	segment 45 47	as
+T8	segment 48 55	Vaughan
+T9	segment 56 69	Manufacturing
+T10	segment 70 73	and
+T11	segment 74 81	branded
+T12	segment 82 84	as
+T13	segment 85 91	simply
+T14	segment 92 99	Vaughan
+T15	segment 99 100	,
+T16	segment 101 103	is
+T17	segment 104 106	an
+T18	segment 107 115	American
+T19	segment 116 129	manufacturing
+T20	segment 130 137	company
+T21	segment 138 142	that
+T22	segment 143 154	specializes
+T23	segment 155 157	in
+T24	segment 158 161	the
+T25	segment 162 172	production
+T26	segment 173 175	of
+T27	segment 176 183	hammers
+T28	segment 183 184	,
+T29	segment 185 189	axes
+T30	segment 189 190	,
+T31	segment 191 198	prybars
+T32	segment 198 199	,
+T33	segment 200 203	and
+T34	segment 204 208	hand
+T35	segment 209 213	saws
+T36	segment 214 215	.
+R0	s_p Arg1:T3 Arg2:T16
+R1	compound Arg1:T3 Arg2:T0
+R2	compound Arg1:T3 Arg2:T2
+R3	compound Arg1:T3 Arg2:T1
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	is-specialized-by Arg1:T6 Arg2:T5
+R6	c_co Arg1:T7 Arg2:T9
+R7	compound Arg1:T9 Arg2:T8
+R8	is-specialized-by Arg1:T14 Arg2:T12
+R9	p_o Arg1:T16 Arg2:T20
+R10	compound Arg1:T20 Arg2:T19
+R11	is-specialized-by Arg1:T20 Arg2:T18
+R12	s_p Arg1:T21 Arg2:T22
+R13	p_c Arg1:T22 Arg2:T23
+R14	c_co Arg1:T23 Arg2:T25
+R15	is-specialized-by Arg1:T25 Arg2:T26
+R16	c_co Arg1:T26 Arg2:T31
+R17	compound Arg1:T31 Arg2:T27
+R18	compound Arg1:T35 Arg2:T34

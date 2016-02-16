@@ -1,0 +1,28 @@
+T0	segment 0 3	UAZ
+T1	segment 4 6	is
+T2	segment 7 9	an
+T3	segment 10 20	automobile
+T4	segment 21 33	manufacturer
+T5	segment 34 39	based
+T6	segment 40 42	in
+T7	segment 43 52	Ulyanovsk
+T8	segment 52 53	,
+T9	segment 54 60	Russia
+T10	segment 61 66	which
+T11	segment 67 79	manufactures
+T12	segment 80 88	off-road
+T13	segment 89 97	vehicles
+T14	segment 97 98	,
+T15	segment 99 104	buses
+T16	segment 105 108	and
+T17	segment 109 115	trucks
+T18	segment 116 117	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	compound Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T9
+R5	compound Arg1:T9 Arg2:T7
+R6	s_p Arg1:T10 Arg2:T11
+R7	p_o Arg1:T11 Arg2:T13
+R8	is-specialized-by Arg1:T13 Arg2:T12

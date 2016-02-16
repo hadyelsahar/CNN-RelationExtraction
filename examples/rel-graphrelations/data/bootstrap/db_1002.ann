@@ -1,0 +1,38 @@
+T0	segment 0 8	Volantis
+T1	segment 9 12	was
+T2	segment 13 14	a
+T3	segment 15 21	mobile
+T4	segment 22 30	internet
+T5	segment 31 39	software
+T6	segment 40 47	company
+T7	segment 48 53	based
+T8	segment 54 56	in
+T9	segment 57 66	Guildford
+T10	segment 66 67	,
+T11	segment 68 75	England
+T12	segment 75 76	,
+T13	segment 77 79	it
+T14	segment 80 82	is
+T15	segment 83 86	now
+T16	segment 87 92	owned
+T17	segment 93 95	by
+T18	segment 96 103	Antenna
+T19	segment 104 112	Software
+T20	segment 112 113	,
+T21	segment 114 117	inc
+T22	segment 118 119	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T6
+R2	compound Arg1:T6 Arg2:T4
+R3	is-specialized-by Arg1:T6 Arg2:T7
+R4	compound Arg1:T6 Arg2:T5
+R5	is-specialized-by Arg1:T6 Arg2:T3
+R6	c_co Arg1:T7 Arg2:T11
+R7	compound Arg1:T11 Arg2:T9
+R8	s_p Arg1:T13 Arg2:T16
+R9	p_c Arg1:T16 Arg2:T17
+R10	compound Arg1:T16 Arg2:T14
+R11	p_c Arg1:T16 Arg2:T15
+R12	p_p Arg1:T16 Arg2:T1
+R13	c_co Arg1:T17 Arg2:T19
+R14	compound Arg1:T19 Arg2:T18

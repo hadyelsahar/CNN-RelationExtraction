@@ -1,0 +1,59 @@
+T0	segment 0 5	Kutai
+T1	segment 5 6	,
+T2	segment 7 9	or
+T3	segment 10 15	Dayak
+T4	segment 16 21	Kutai
+T5	segment 21 22	,
+T6	segment 23 25	is
+T7	segment 26 27	a
+T8	segment 28 36	historic
+T9	segment 37 43	region
+T10	segment 44 46	in
+T11	segment 47 51	East
+T12	segment 52 62	Kalimantan
+T13	segment 63 65	in
+T14	segment 66 75	Indonesia
+T15	segment 76 78	on
+T16	segment 79 85	Borneo
+T17	segment 86 89	and
+T18	segment 90 94	also
+T19	segment 95 99	name
+T20	segment 100 102	of
+T21	segment 103 108	Dayak
+T22	segment 109 115	people
+T23	segment 116 118	on
+T24	segment 119 122	the
+T25	segment 123 129	region
+T26	segment 130 134	with
+T27	segment 135 136	a
+T28	segment 137 145	language
+T29	segment 146 148	of
+T30	segment 149 152	the
+T31	segment 153 157	same
+T32	segment 158 162	name
+T33	segment 163 166	and
+T34	segment 167 172	their
+T35	segment 173 181	historic
+T36	segment 182 183	.
+R0	s_p Arg1:T0 Arg2:T6
+R1	compound Arg1:T4 Arg2:T3
+R2	p_o Arg1:T6 Arg2:T9
+R3	is-specialized-by Arg1:T9 Arg2:T8
+R4	is-specialized-by Arg1:T9 Arg2:T10
+R5	is-specialized-by Arg1:T9 Arg2:T20
+R6	c_co Arg1:T10 Arg2:T12
+R7	compound Arg1:T12 Arg2:T11
+R8	is-specialized-by Arg1:T12 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T19
+R10	c_co Arg1:T15 Arg2:T16
+R11	is-specialized-by Arg1:T19 Arg2:T15
+R12	compound Arg1:T19 Arg2:T14
+R13	c_co Arg1:T20 Arg2:T22
+R14	is-specialized-by Arg1:T22 Arg2:T23
+R15	is-specialized-by Arg1:T22 Arg2:T21
+R16	c_co Arg1:T23 Arg2:T25
+R17	is-specialized-by Arg1:T25 Arg2:T26
+R18	c_co Arg1:T26 Arg2:T28
+R19	is-specialized-by Arg1:T28 Arg2:T29
+R20	c_co Arg1:T29 Arg2:T32
+R21	is-specialized-by Arg1:T32 Arg2:T31

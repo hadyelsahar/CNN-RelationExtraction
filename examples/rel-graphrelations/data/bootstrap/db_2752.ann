@@ -1,0 +1,31 @@
+T0	segment 0 7	Richard
+T1	segment 8 13	Morel
+T2	segment 14 16	is
+T3	segment 17 19	an
+T4	segment 20 28	American
+T5	segment 29 46	singer-songwriter
+T6	segment 46 47	,
+T7	segment 48 50	DJ
+T8	segment 50 51	,
+T9	segment 52 59	remixer
+T10	segment 60 63	and
+T11	segment 64 70	record
+T12	segment 71 79	producer
+T13	segment 80 84	from
+T14	segment 85 88	the
+T15	segment 89 96	suburbs
+T16	segment 97 99	of
+T17	segment 100 106	Boston
+T18	segment 106 107	,
+T19	segment 108 121	Massachusetts
+T20	segment 122 123	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	compound Arg1:T12 Arg2:T11
+R5	is-specialized-by Arg1:T12 Arg2:T13
+R6	c_co Arg1:T13 Arg2:T15
+R7	is-specialized-by Arg1:T15 Arg2:T16
+R8	c_co Arg1:T16 Arg2:T19
+R9	compound Arg1:T19 Arg2:T17

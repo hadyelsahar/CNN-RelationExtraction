@@ -1,0 +1,29 @@
+T0	segment 0 7	Aurecon
+T1	segment 8 10	is
+T2	segment 11 13	an
+T3	segment 14 25	engineering
+T4	segment 25 26	,
+T5	segment 27 37	management
+T6	segment 37 38	,
+T7	segment 39 45	design
+T8	segment 45 46	,
+T9	segment 47 55	planning
+T10	segment 55 56	,
+T11	segment 57 64	project
+T12	segment 65 75	management
+T13	segment 75 76	,
+T14	segment 77 87	consulting
+T15	segment 88 95	company
+T16	segment 96 101	based
+T17	segment 102 104	in
+T18	segment 105 114	Australia
+T19	segment 115 118	and
+T20	segment 119 124	South
+T21	segment 125 131	Africa
+T22	segment 132 133	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T12
+R2	compound Arg1:T12 Arg2:T3
+R3	p_o Arg1:T14 Arg2:T15
+R4	compound Arg1:T21 Arg2:T20
+R5	compound Arg1:T21 Arg2:T18

@@ -1,0 +1,36 @@
+T0	segment 0 6	Feonic
+T1	segment 7 9	is
+T2	segment 10 11	a
+T3	segment 12 22	commercial
+T4	segment 23 30	company
+T5	segment 31 43	specialising
+T6	segment 44 46	in
+T7	segment 47 50	the
+T8	segment 51 57	design
+T9	segment 58 61	and
+T10	segment 62 73	development
+T11	segment 74 76	of
+T12	segment 77 93	magnetostrictive
+T13	segment 94 99	audio
+T14	segment 100 108	products
+T15	segment 109 111	as
+T16	segment 112 113	a
+T17	segment 114 122	spin-off
+T18	segment 123 127	from
+T19	segment 128 132	Hull
+T20	segment 133 143	University
+T21	segment 144 145	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T5 Arg2:T15
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T8
+R6	is-specialized-by Arg1:T8 Arg2:T11
+R7	c_co Arg1:T11 Arg2:T14
+R8	compound Arg1:T14 Arg2:T13
+R9	is-specialized-by Arg1:T14 Arg2:T12
+R10	c_co Arg1:T15 Arg2:T17
+R11	is-specialized-by Arg1:T17 Arg2:T18
+R12	c_co Arg1:T18 Arg2:T20
+R13	compound Arg1:T20 Arg2:T19

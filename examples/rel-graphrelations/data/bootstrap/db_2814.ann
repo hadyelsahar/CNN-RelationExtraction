@@ -1,0 +1,28 @@
+T0	segment 0 6	Elopak
+T1	segment 7 9	is
+T2	segment 10 11	a
+T3	segment 12 21	Norwegian
+T4	segment 22 29	company
+T5	segment 30 39	producing
+T6	segment 40 47	cartons
+T7	segment 48 51	for
+T8	segment 52 59	liquids
+T9	segment 59 60	,
+T10	segment 61 69	starting
+T11	segment 70 74	with
+T12	segment 75 82	aseptic
+T13	segment 83 88	gable
+T14	segment 89 92	top
+T15	segment 93 100	cartons
+T16	segment 101 104	for
+T17	segment 105 109	milk
+T18	segment 110 111	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	p_o Arg1:T5 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	c_co Arg1:T7 Arg2:T8
+R6	is-specialized-by Arg1:T15 Arg2:T16
+R7	is-specialized-by Arg1:T15 Arg2:T12
+R8	c_co Arg1:T16 Arg2:T17

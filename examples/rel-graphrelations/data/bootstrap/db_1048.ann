@@ -1,0 +1,88 @@
+T0	segment 0 3	The
+T1	segment 4 9	Taifa
+T2	segment 10 12	of
+T3	segment 13 21	Valencia
+T4	segment 22 25	was
+T5	segment 26 27	a
+T6	segment 28 36	medieval
+T7	segment 37 42	taifa
+T8	segment 43 50	kingdom
+T9	segment 51 56	which
+T10	segment 57 64	existed
+T11	segment 64 65	,
+T12	segment 66 68	in
+T13	segment 69 72	and
+T14	segment 73 79	around
+T15	segment 80 88	Valencia
+T16	segment 88 89	,
+T17	segment 90 95	Spain
+T18	segment 96 102	during
+T19	segment 103 107	four
+T20	segment 108 116	distinct
+T21	segment 117 124	periods
+T22	segment 124 125	:
+T23	segment 126 130	from
+T24	segment 131 135	1010
+T25	segment 136 138	to
+T26	segment 139 143	1065
+T27	segment 143 144	,
+T28	segment 145 149	from
+T29	segment 150 154	1075
+T30	segment 155 157	to
+T31	segment 158 162	1099
+T32	segment 162 163	,
+T33	segment 164 168	from
+T34	segment 169 173	1145
+T35	segment 174 176	to
+T36	segment 177 181	1147
+T37	segment 182 185	and
+T38	segment 186 190	last
+T39	segment 191 195	from
+T40	segment 196 200	1229
+T41	segment 201 203	to
+T42	segment 204 208	1238
+T43	segment 209 213	when
+T44	segment 214 216	it
+T45	segment 217 220	was
+T46	segment 221 228	finally
+T47	segment 229 238	conquered
+T48	segment 239 241	by
+T49	segment 242 248	Aragon
+T50	segment 249 250	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T8
+R4	compound Arg1:T8 Arg2:T7
+R5	is-specialized-by Arg1:T8 Arg2:T6
+R6	s_p Arg1:T9 Arg2:T10
+R7	p_c Arg1:T10 Arg2:T33
+R8	p_c Arg1:T10 Arg2:T12
+R9	p_c Arg1:T10 Arg2:T18
+R10	p_c Arg1:T10 Arg2:T28
+R11	c_co Arg1:T12 Arg2:T17
+R12	compound Arg1:T17 Arg2:T15
+R13	c_co Arg1:T18 Arg2:T21
+R14	is-specialized-by Arg1:T21 Arg2:T23
+R15	is-specialized-by Arg1:T21 Arg2:T20
+R16	is-specialized-by Arg1:T21 Arg2:T19
+R17	c_co Arg1:T23 Arg2:T26
+R18	compound Arg1:T26 Arg2:T24
+R19	compound Arg1:T26 Arg2:T25
+R20	c_co Arg1:T28 Arg2:T31
+R21	compound Arg1:T31 Arg2:T30
+R22	compound Arg1:T31 Arg2:T29
+R23	c_co Arg1:T33 Arg2:T36
+R24	compound Arg1:T36 Arg2:T35
+R25	compound Arg1:T36 Arg2:T34
+R26	is-specialized-by Arg1:T38 Arg2:T39
+R27	c_co Arg1:T39 Arg2:T42
+R28	compound Arg1:T42 Arg2:T38
+R29	compound Arg1:T42 Arg2:T40
+R30	compound Arg1:T42 Arg2:T39
+R31	compound Arg1:T42 Arg2:T41
+R32	s_p Arg1:T44 Arg2:T47
+R33	compound Arg1:T47 Arg2:T45
+R34	p_c Arg1:T47 Arg2:T48
+R35	p_c Arg1:T47 Arg2:T43
+R36	c_co Arg1:T48 Arg2:T49

@@ -1,0 +1,26 @@
+T0	segment 0 3	Ram
+T1	segment 4 6	Ji
+T2	segment 7 10	Lal
+T3	segment 11 16	Suman
+T4	segment 17 19	is
+T5	segment 20 22	an
+T6	segment 23 29	Indian
+T7	segment 30 40	politician
+T8	segment 41 44	for
+T9	segment 45 48	the
+T10	segment 49 58	Firozabad
+T11	segment 59 61	in
+T12	segment 62 67	Uttar
+T13	segment 68 75	Pradesh
+T14	segment 76 77	.
+R0	compound Arg1:T3 Arg2:T0
+R1	s_p Arg1:T3 Arg2:T4
+R2	compound Arg1:T3 Arg2:T2
+R3	compound Arg1:T3 Arg2:T1
+R4	p_o Arg1:T4 Arg2:T7
+R5	is-specialized-by Arg1:T7 Arg2:T8
+R6	is-specialized-by Arg1:T7 Arg2:T6
+R7	c_co Arg1:T8 Arg2:T10
+R8	is-specialized-by Arg1:T10 Arg2:T11
+R9	c_co Arg1:T11 Arg2:T13
+R10	compound Arg1:T13 Arg2:T12

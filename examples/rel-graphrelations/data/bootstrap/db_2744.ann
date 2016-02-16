@@ -1,0 +1,32 @@
+T0	segment 0 8	Dhundhar
+T1	segment 8 9	,
+T2	segment 10 14	also
+T3	segment 15 20	known
+T4	segment 21 23	as
+T5	segment 24 30	Jaipur
+T6	segment 31 37	region
+T7	segment 37 38	,
+T8	segment 39 41	is
+T9	segment 42 43	a
+T10	segment 44 54	historical
+T11	segment 55 61	region
+T12	segment 62 64	of
+T13	segment 65 74	Rajasthan
+T14	segment 75 80	state
+T15	segment 81 83	in
+T16	segment 84 91	western
+T17	segment 92 97	India
+T18	segment 98 99	.
+R0	s_p Arg1:T0 Arg2:T8
+R1	is-specialized-by Arg1:T3 Arg2:T2
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T6
+R4	compound Arg1:T6 Arg2:T5
+R5	p_o Arg1:T8 Arg2:T11
+R6	is-specialized-by Arg1:T11 Arg2:T10
+R7	is-specialized-by Arg1:T11 Arg2:T12
+R8	c_co Arg1:T12 Arg2:T14
+R9	is-specialized-by Arg1:T14 Arg2:T15
+R10	is-specialized-by Arg1:T14 Arg2:T13
+R11	c_co Arg1:T15 Arg2:T17
+R12	is-specialized-by Arg1:T17 Arg2:T16

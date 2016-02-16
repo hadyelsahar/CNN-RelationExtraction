@@ -1,0 +1,37 @@
+T0	segment 0 7	Bamenda
+T1	segment 7 8	,
+T2	segment 9 13	also
+T3	segment 14 19	known
+T4	segment 20 22	as
+T5	segment 23 29	Abakwa
+T6	segment 30 33	and
+T7	segment 34 40	Mankon
+T8	segment 41 45	Town
+T9	segment 45 46	,
+T10	segment 47 49	is
+T11	segment 50 51	a
+T12	segment 52 56	city
+T13	segment 57 59	in
+T14	segment 60 72	northwestern
+T15	segment 73 81	Cameroon
+T16	segment 82 85	and
+T17	segment 86 93	capital
+T18	segment 94 96	of
+T19	segment 97 100	the
+T20	segment 101 106	North
+T21	segment 107 111	West
+T22	segment 112 118	Region
+T23	segment 119 120	.
+R0	s_p Arg1:T0 Arg2:T10
+R1	is-specialized-by Arg1:T3 Arg2:T2
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T5
+R4	compound Arg1:T8 Arg2:T7
+R5	p_o Arg1:T10 Arg2:T12
+R6	is-specialized-by Arg1:T12 Arg2:T13
+R7	c_co Arg1:T13 Arg2:T15
+R8	is-specialized-by Arg1:T15 Arg2:T14
+R9	is-specialized-by Arg1:T17 Arg2:T18
+R10	c_co Arg1:T18 Arg2:T22
+R11	compound Arg1:T22 Arg2:T20
+R12	compound Arg1:T22 Arg2:T21

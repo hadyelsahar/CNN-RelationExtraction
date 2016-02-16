@@ -1,0 +1,39 @@
+T0	segment 0 9	Sugartown
+T1	segment 10 12	is
+T2	segment 13 15	an
+T3	segment 16 30	unincorporated
+T4	segment 31 40	community
+T5	segment 41 44	and
+T6	segment 45 62	census-designated
+T7	segment 63 68	place
+T8	segment 69 71	in
+T9	segment 72 82	Beauregard
+T10	segment 83 89	Parish
+T11	segment 89 90	,
+T12	segment 91 100	Louisiana
+T13	segment 100 101	,
+T14	segment 102 108	United
+T15	segment 109 115	States
+T16	segment 115 116	,
+T17	segment 117 130	approximately
+T18	segment 131 133	16
+T19	segment 134 139	miles
+T20	segment 140 144	east
+T21	segment 145 147	of
+T22	segment 148 156	DeRidder
+T23	segment 157 158	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T8
+R3	is-specialized-by Arg1:T4 Arg2:T3
+R4	is-specialized-by Arg1:T7 Arg2:T6
+R5	c_co Arg1:T8 Arg2:T10
+R6	is-specialized-by Arg1:T10 Arg2:T20
+R7	compound Arg1:T10 Arg2:T9
+R8	compound Arg1:T15 Arg2:T12
+R9	compound Arg1:T15 Arg2:T14
+R10	is-specialized-by Arg1:T18 Arg2:T17
+R11	is-specialized-by Arg1:T19 Arg2:T18
+R12	is-specialized-by Arg1:T20 Arg2:T19
+R13	is-specialized-by Arg1:T20 Arg2:T21
+R14	c_co Arg1:T21 Arg2:T22

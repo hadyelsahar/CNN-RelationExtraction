@@ -1,0 +1,71 @@
+T0	segment 0 3	The
+T1	segment 4 13	Territory
+T2	segment 14 16	of
+T3	segment 17 27	Washington
+T4	segment 28 31	was
+T5	segment 32 34	an
+T6	segment 35 44	organized
+T7	segment 45 57	incorporated
+T8	segment 58 67	territory
+T9	segment 68 70	of
+T10	segment 71 74	the
+T11	segment 75 81	United
+T12	segment 82 88	States
+T13	segment 89 93	that
+T14	segment 94 101	existed
+T15	segment 102 106	from
+T16	segment 107 112	March
+T17	segment 113 114	2
+T18	segment 114 115	,
+T19	segment 116 120	1853
+T20	segment 120 121	,
+T21	segment 122 127	until
+T22	segment 128 136	November
+T23	segment 137 139	11
+T24	segment 139 140	,
+T25	segment 141 145	1889
+T26	segment 145 146	,
+T27	segment 147 151	when
+T28	segment 152 155	the
+T29	segment 156 165	territory
+T30	segment 166 169	was
+T31	segment 170 178	admitted
+T32	segment 179 181	to
+T33	segment 182 185	the
+T34	segment 186 191	Union
+T35	segment 192 194	as
+T36	segment 195 198	the
+T37	segment 199 204	State
+T38	segment 205 207	of
+T39	segment 208 218	Washington
+T40	segment 219 220	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T8
+R4	is-specialized-by Arg1:T8 Arg2:T9
+R5	is-specialized-by Arg1:T8 Arg2:T6
+R6	c_co Arg1:T9 Arg2:T12
+R7	compound Arg1:T12 Arg2:T11
+R8	s_p Arg1:T13 Arg2:T14
+R9	p_c Arg1:T14 Arg2:T15
+R10	p_c Arg1:T14 Arg2:T21
+R11	c_co Arg1:T15 Arg2:T16
+R12	is-specialized-by Arg1:T16 Arg2:T17
+R13	compound Arg1:T19 Arg2:T16
+R14	compound Arg1:T19 Arg2:T18
+R15	compound Arg1:T19 Arg2:T17
+R16	c_co Arg1:T21 Arg2:T22
+R17	is-specialized-by Arg1:T22 Arg2:T23
+R18	compound Arg1:T25 Arg2:T22
+R19	compound Arg1:T25 Arg2:T24
+R20	compound Arg1:T25 Arg2:T23
+R21	s_p Arg1:T29 Arg2:T31
+R22	compound Arg1:T31 Arg2:T30
+R23	p_c Arg1:T31 Arg2:T27
+R24	p_c Arg1:T31 Arg2:T32
+R25	p_c Arg1:T31 Arg2:T35
+R26	c_co Arg1:T32 Arg2:T34
+R27	c_co Arg1:T35 Arg2:T37
+R28	is-specialized-by Arg1:T37 Arg2:T38
+R29	c_co Arg1:T38 Arg2:T39

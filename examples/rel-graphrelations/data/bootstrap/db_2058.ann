@@ -1,0 +1,31 @@
+T0	segment 0 2	In
+T1	segment 3 8	Greek
+T2	segment 9 18	mythology
+T3	segment 18 19	,
+T4	segment 20 25	Iamus
+T5	segment 26 29	was
+T6	segment 30 33	the
+T7	segment 34 37	son
+T8	segment 38 40	of
+T9	segment 41 47	Evadne
+T10	segment 47 48	,
+T11	segment 49 50	a
+T12	segment 51 59	daughter
+T13	segment 60 62	of
+T14	segment 63 71	Poseidon
+T15	segment 71 72	,
+T16	segment 73 78	sired
+T17	segment 79 81	by
+T18	segment 82 88	Apollo
+T19	segment 89 90	.
+R0	c_co Arg1:T0 Arg2:T2
+R1	is-specialized-by Arg1:T2 Arg2:T1
+R2	s_p Arg1:T4 Arg2:T5
+R3	p_o Arg1:T5 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T0
+R5	is-specialized-by Arg1:T7 Arg2:T8
+R6	c_co Arg1:T8 Arg2:T9
+R7	is-specialized-by Arg1:T12 Arg2:T13
+R8	c_co Arg1:T13 Arg2:T14
+R9	is-specialized-by Arg1:T16 Arg2:T17
+R10	c_co Arg1:T17 Arg2:T18

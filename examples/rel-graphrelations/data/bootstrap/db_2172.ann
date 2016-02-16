@@ -1,0 +1,66 @@
+T0	segment 0 6	BACCES
+T1	segment 7 9	is
+T2	segment 10 11	a
+T3	segment 12 22	non-profit
+T4	segment 23 33	charitable
+T5	segment 34 46	organisation
+T6	segment 47 52	which
+T7	segment 53 56	was
+T8	segment 57 67	originally
+T9	segment 68 71	set
+T10	segment 72 74	up
+T11	segment 75 77	in
+T12	segment 78 82	1970
+T13	segment 83 85	by
+T14	segment 86 89	two
+T15	segment 90 97	British
+T16	segment 98 106	European
+T17	segment 107 114	Airways
+T18	segment 115 123	stewards
+T19	segment 124 127	who
+T20	segment 128 133	wrote
+T21	segment 134 135	a
+T22	segment 136 142	comedy
+T23	segment 143 149	review
+T24	segment 150 153	and
+T25	segment 154 160	staged
+T26	segment 161 163	it
+T27	segment 164 166	at
+T28	segment 167 171	York
+T29	segment 172 177	House
+T30	segment 177 178	,
+T31	segment 179 189	Twickenham
+T32	segment 189 190	,
+T33	segment 191 193	UK
+T34	segment 194 197	for
+T35	segment 198 201	two
+T36	segment 202 208	nights
+T37	segment 209 210	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T5
+R2	is-specialized-by Arg1:T5 Arg2:T3
+R3	s_p Arg1:T6 Arg2:T9
+R4	p_c Arg1:T9 Arg2:T13
+R5	compound Arg1:T9 Arg2:T7
+R6	p_c Arg1:T9 Arg2:T8
+R7	p_c Arg1:T9 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T12
+R9	c_co Arg1:T13 Arg2:T18
+R10	compound Arg1:T17 Arg2:T16
+R11	compound Arg1:T17 Arg2:T15
+R12	is-specialized-by Arg1:T18 Arg2:T15
+R13	compound Arg1:T18 Arg2:T16
+R14	is-specialized-by Arg1:T18 Arg2:T14
+R15	compound Arg1:T18 Arg2:T17
+R16	s_p Arg1:T19 Arg2:T20
+R17	p_o Arg1:T20 Arg2:T23
+R18	compound Arg1:T23 Arg2:T22
+R19	p_o Arg1:T25 Arg2:T26
+R20	is-specialized-by Arg1:T25 Arg2:T27
+R21	c_co Arg1:T27 Arg2:T33
+R22	compound Arg1:T29 Arg2:T28
+R23	compound Arg1:T33 Arg2:T28
+R24	is-specialized-by Arg1:T33 Arg2:T34
+R25	compound Arg1:T33 Arg2:T29
+R26	c_co Arg1:T34 Arg2:T36
+R27	is-specialized-by Arg1:T36 Arg2:T35

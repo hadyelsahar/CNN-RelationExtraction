@@ -1,0 +1,53 @@
+T0	segment 0 3	The
+T1	segment 4 8	East
+T2	segment 9 14	Hebei
+T3	segment 15 25	Autonomous
+T4	segment 26 33	Council
+T5	segment 34 35	,
+T6	segment 36 40	also
+T7	segment 41 46	known
+T8	segment 47 49	as
+T9	segment 50 53	the
+T10	segment 54 58	East
+T11	segment 59 61	Ji
+T12	segment 62 72	Autonomous
+T13	segment 73 80	Council
+T14	segment 81 84	and
+T15	segment 85 88	the
+T16	segment 89 93	East
+T17	segment 94 99	Hopei
+T18	segment 100 110	Autonomous
+T19	segment 111 125	Anti-Communist
+T20	segment 126 133	Council
+T21	segment 133 134	,
+T22	segment 135 138	was
+T23	segment 139 140	a
+T24	segment 141 152	short-lived
+T25	segment 153 163	late-1930s
+T26	segment 164 172	Japanese
+T27	segment 173 179	puppet
+T28	segment 180 185	state
+T29	segment 186 188	in
+T30	segment 189 197	northern
+T31	segment 198 203	China
+T32	segment 204 205	.
+R0	compound Arg1:T4 Arg2:T3
+R1	s_p Arg1:T4 Arg2:T22
+R2	compound Arg1:T4 Arg2:T2
+R3	compound Arg1:T4 Arg2:T1
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T7 Arg2:T6
+R6	c_co Arg1:T8 Arg2:T13
+R7	compound Arg1:T13 Arg2:T12
+R8	compound Arg1:T13 Arg2:T11
+R9	compound Arg1:T13 Arg2:T10
+R10	compound Arg1:T20 Arg2:T19
+R11	compound Arg1:T20 Arg2:T16
+R12	compound Arg1:T20 Arg2:T18
+R13	compound Arg1:T20 Arg2:T17
+R14	p_o Arg1:T22 Arg2:T28
+R15	is-specialized-by Arg1:T28 Arg2:T24
+R16	compound Arg1:T28 Arg2:T27
+R17	is-specialized-by Arg1:T28 Arg2:T29
+R18	c_co Arg1:T29 Arg2:T31
+R19	is-specialized-by Arg1:T31 Arg2:T30

@@ -1,0 +1,78 @@
+T0	segment 0 3	The
+T1	segment 4 15	Association
+T2	segment 16 19	for
+T3	segment 20 23	the
+T4	segment 24 34	Scientific
+T5	segment 35 40	Study
+T6	segment 41 43	of
+T7	segment 44 53	Anomalous
+T8	segment 54 63	Phenomena
+T9	segment 64 66	is
+T10	segment 67 68	a
+T11	segment 69 77	UK-based
+T12	segment 78 87	education
+T13	segment 88 91	and
+T14	segment 92 100	research
+T15	segment 101 108	charity
+T16	segment 108 109	,
+T17	segment 110 119	dedicated
+T18	segment 120 122	to
+T19	segment 123 137	scientifically
+T20	segment 138 149	investigate
+T21	segment 150 157	alleged
+T22	segment 158 168	paranormal
+T23	segment 169 172	and
+T24	segment 173 182	anomalous
+T25	segment 183 192	phenomena
+T26	segment 192 193	,
+T27	segment 194 198	with
+T28	segment 199 200	a
+T29	segment 201 205	view
+T30	segment 206 208	to
+T31	segment 209 220	approaching
+T32	segment 221 224	the
+T33	segment 225 232	subject
+T34	segment 233 235	in
+T35	segment 236 239	its
+T36	segment 240 248	entirety
+T37	segment 249 255	rather
+T38	segment 256 260	than
+T39	segment 261 268	looking
+T40	segment 269 273	into
+T41	segment 274 277	the
+T42	segment 278 288	psychology
+T43	segment 289 291	of
+T44	segment 292 302	individual
+T45	segment 303 313	phenomenon
+T46	segment 314 315	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T9
+R2	c_co Arg1:T2 Arg2:T5
+R3	compound Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T8
+R6	compound Arg1:T8 Arg2:T4
+R7	compound Arg1:T8 Arg2:T5
+R8	compound Arg1:T8 Arg2:T2
+R9	compound Arg1:T8 Arg2:T3
+R10	compound Arg1:T8 Arg2:T1
+R11	compound Arg1:T8 Arg2:T6
+R12	compound Arg1:T8 Arg2:T7
+R13	p_o Arg1:T9 Arg2:T12
+R14	is-specialized-by Arg1:T12 Arg2:T27
+R15	is-specialized-by Arg1:T12 Arg2:T11
+R16	compound Arg1:T15 Arg2:T14
+R17	p_o Arg1:T20 Arg2:T22
+R18	is-specialized-by Arg1:T20 Arg2:T19
+R19	is-specialized-by Arg1:T22 Arg2:T21
+R20	is-specialized-by Arg1:T25 Arg2:T24
+R21	c_co Arg1:T27 Arg2:T29
+R22	p_o Arg1:T31 Arg2:T33
+R23	is-specialized-by Arg1:T33 Arg2:T34
+R24	c_co Arg1:T34 Arg2:T36
+R25	compound Arg1:T37 Arg2:T38
+R26	is-specialized-by Arg1:T39 Arg2:T40
+R27	c_co Arg1:T40 Arg2:T42
+R28	is-specialized-by Arg1:T42 Arg2:T43
+R29	c_co Arg1:T43 Arg2:T45
+R30	is-specialized-by Arg1:T45 Arg2:T44

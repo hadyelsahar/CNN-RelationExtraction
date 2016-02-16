@@ -1,0 +1,45 @@
+T0	segment 0 4	Curb
+T1	segment 5 11	Appeal
+T2	segment 12 19	Records
+T3	segment 20 23	was
+T4	segment 24 26	an
+T5	segment 27 35	American
+T6	segment 36 42	record
+T7	segment 43 48	label
+T8	segment 49 56	founded
+T9	segment 57 59	in
+T10	segment 60 66	Kansas
+T11	segment 67 71	City
+T12	segment 71 72	,
+T13	segment 73 81	Missouri
+T14	segment 82 84	by
+T15	segment 85 88	The
+T16	segment 89 92	Get
+T17	segment 93 95	Up
+T18	segment 96 100	Kids
+T19	segment 101 110	guitarist
+T20	segment 111 114	and
+T21	segment 115 124	Blackpool
+T22	segment 125 131	Lights
+T23	segment 132 140	frontman
+T24	segment 141 144	Jim
+T25	segment 145 151	Suptic
+T26	segment 152 153	.
+R0	p_p Arg1:T0 Arg2:T3
+R1	s_p Arg1:T2 Arg2:T3
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T7
+R4	compound Arg1:T7 Arg2:T6
+R5	is-specialized-by Arg1:T7 Arg2:T5
+R6	is-specialized-by Arg1:T8 Arg2:T9
+R7	c_co Arg1:T9 Arg2:T11
+R8	compound Arg1:T11 Arg2:T10
+R9	is-specialized-by Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T19
+R11	is-specialized-by Arg1:T16 Arg2:T17
+R12	c_co Arg1:T17 Arg2:T18
+R13	compound Arg1:T22 Arg2:T21
+R14	compound Arg1:T25 Arg2:T22
+R15	compound Arg1:T25 Arg2:T21
+R16	compound Arg1:T25 Arg2:T24
+R17	compound Arg1:T25 Arg2:T23

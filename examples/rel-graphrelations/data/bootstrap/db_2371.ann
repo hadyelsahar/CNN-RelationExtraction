@@ -1,0 +1,40 @@
+T0	segment 0 7	Kendall
+T1	segment 8 13	Payne
+T2	segment 14 16	is
+T3	segment 17 19	an
+T4	segment 20 33	award-winning
+T5	segment 34 51	singer-songwriter
+T6	segment 52 61	recording
+T7	segment 62 68	artist
+T8	segment 69 72	and
+T9	segment 73 82	currently
+T10	segment 83 89	serves
+T11	segment 90 92	as
+T12	segment 93 96	the
+T13	segment 97 105	Director
+T14	segment 106 108	of
+T15	segment 109 121	Contemporary
+T16	segment 122 129	Worship
+T17	segment 130 132	at
+T18	segment 133 136	Bel
+T19	segment 137 140	Air
+T20	segment 141 153	Presbyterian
+T21	segment 154 160	Church
+T22	segment 161 162	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T7
+R3	compound Arg1:T7 Arg2:T6
+R4	compound Arg1:T7 Arg2:T5
+R5	is-specialized-by Arg1:T7 Arg2:T4
+R6	is-specialized-by Arg1:T10 Arg2:T9
+R7	is-specialized-by Arg1:T10 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T13
+R9	is-specialized-by Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T16
+R11	is-specialized-by Arg1:T16 Arg2:T17
+R12	compound Arg1:T16 Arg2:T15
+R13	c_co Arg1:T17 Arg2:T21
+R14	compound Arg1:T21 Arg2:T20
+R15	compound Arg1:T21 Arg2:T19
+R16	compound Arg1:T21 Arg2:T18

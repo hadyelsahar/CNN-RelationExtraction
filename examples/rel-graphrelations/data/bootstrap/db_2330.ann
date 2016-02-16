@@ -1,0 +1,39 @@
+T0	segment 0 7	Richard
+T1	segment 8 15	Bruning
+T2	segment 16 18	is
+T3	segment 19 21	an
+T4	segment 22 30	American
+T5	segment 31 38	graphic
+T6	segment 39 47	designer
+T7	segment 48 51	and
+T8	segment 52 58	comics
+T9	segment 59 66	creator
+T10	segment 67 70	who
+T11	segment 71 76	blogs
+T12	segment 77 79	as
+T13	segment 80 85	Apple
+T14	segment 86 94	computer
+T15	segment 95 102	devotee
+T16	segment 103 110	iSensei
+T17	segment 111 114	and
+T18	segment 115 122	working
+T19	segment 123 125	as
+T20	segment 126 127	a
+T21	segment 128 137	freelance
+T22	segment 138 146	designer
+T23	segment 147 150	and
+T24	segment 151 157	writer
+T25	segment 158 159	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T6
+R3	is-specialized-by Arg1:T6 Arg2:T4
+R4	compound Arg1:T9 Arg2:T8
+R5	is-specialized-by Arg1:T11 Arg2:T12
+R6	c_co Arg1:T12 Arg2:T16
+R7	compound Arg1:T16 Arg2:T14
+R8	compound Arg1:T16 Arg2:T13
+R9	compound Arg1:T16 Arg2:T15
+R10	is-specialized-by Arg1:T18 Arg2:T19
+R11	c_co Arg1:T19 Arg2:T22
+R12	compound Arg1:T22 Arg2:T21

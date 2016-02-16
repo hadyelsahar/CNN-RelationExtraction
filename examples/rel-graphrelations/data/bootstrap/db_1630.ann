@@ -1,0 +1,45 @@
+T0	segment 0 3	TVH
+T1	segment 4 5	--
+T2	segment 6 11	Group
+T3	segment 12 20	Thermote
+T4	segment 21 22	&
+T5	segment 23 31	Vanhalst
+T6	segment 32 34	is
+T7	segment 35 36	a
+T8	segment 37 44	Belgian
+T9	segment 45 52	company
+T10	segment 53 59	active
+T11	segment 60 62	in
+T12	segment 63 66	the
+T13	segment 67 73	market
+T14	segment 74 76	of
+T15	segment 77 85	forklift
+T16	segment 86 92	trucks
+T17	segment 92 93	,
+T18	segment 94 100	aerial
+T19	segment 101 105	work
+T20	segment 106 115	platforms
+T21	segment 115 116	,
+T22	segment 117 129	agricultural
+T23	segment 130 138	tractors
+T24	segment 139 142	and
+T25	segment 143 153	industrial
+T26	segment 154 162	in-plant
+T27	segment 163 171	vehicles
+T28	segment 172 173	.
+R0	s_p Arg1:T3 Arg2:T6
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T5 Arg2:T4
+R3	compound Arg1:T5 Arg2:T3
+R4	compound Arg1:T5 Arg2:T2
+R5	p_o Arg1:T6 Arg2:T9
+R6	is-specialized-by Arg1:T9 Arg2:T8
+R7	is-specialized-by Arg1:T10 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T13
+R9	is-specialized-by Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T16
+R11	compound Arg1:T16 Arg2:T15
+R12	compound Arg1:T20 Arg2:T19
+R13	is-specialized-by Arg1:T20 Arg2:T18
+R14	is-specialized-by Arg1:T23 Arg2:T22
+R15	is-specialized-by Arg1:T27 Arg2:T25

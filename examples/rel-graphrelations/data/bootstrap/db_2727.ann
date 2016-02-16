@@ -1,0 +1,28 @@
+T0	segment 0 3	The
+T1	segment 4 12	American
+T2	segment 13 17	Mime
+T3	segment 18 25	Theatre
+T4	segment 26 28	is
+T5	segment 29 30	a
+T6	segment 31 43	professional
+T7	segment 44 54	performing
+T8	segment 55 62	company
+T9	segment 63 66	and
+T10	segment 67 75	training
+T11	segment 76 82	school
+T12	segment 83 88	based
+T13	segment 89 91	in
+T14	segment 92 95	New
+T15	segment 96 100	York
+T16	segment 101 105	City
+T17	segment 106 107	.
+R0	is-specialized-by Arg1:T3 Arg2:T1
+R1	s_p Arg1:T3 Arg2:T4
+R2	compound Arg1:T3 Arg2:T2
+R3	p_o Arg1:T4 Arg2:T8
+R4	is-specialized-by Arg1:T8 Arg2:T6
+R5	compound Arg1:T11 Arg2:T10
+R6	is-specialized-by Arg1:T12 Arg2:T13
+R7	c_co Arg1:T13 Arg2:T16
+R8	compound Arg1:T16 Arg2:T14
+R9	compound Arg1:T16 Arg2:T15

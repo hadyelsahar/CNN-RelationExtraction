@@ -1,0 +1,30 @@
+T0	segment 0 3	Pyu
+T1	segment 3 4	,
+T2	segment 5 9	also
+T3	segment 10 17	spelled
+T4	segment 18 22	Phyu
+T5	segment 23 25	or
+T6	segment 26 31	Phyuu
+T7	segment 31 32	,
+T8	segment 33 35	is
+T9	segment 36 37	a
+T10	segment 38 42	town
+T11	segment 43 45	in
+T12	segment 46 53	Taungoo
+T13	segment 54 62	District
+T14	segment 62 63	,
+T15	segment 64 68	Bago
+T16	segment 69 75	Region
+T17	segment 76 78	in
+T18	segment 79 84	Burma
+T19	segment 85 86	.
+R0	s_p Arg1:T0 Arg2:T8
+R1	is-specialized-by Arg1:T3 Arg2:T2
+R2	p_o Arg1:T3 Arg2:T4
+R3	p_o Arg1:T8 Arg2:T10
+R4	is-specialized-by Arg1:T10 Arg2:T11
+R5	c_co Arg1:T11 Arg2:T13
+R6	compound Arg1:T13 Arg2:T12
+R7	is-specialized-by Arg1:T16 Arg2:T17
+R8	compound Arg1:T16 Arg2:T15
+R9	c_co Arg1:T17 Arg2:T18

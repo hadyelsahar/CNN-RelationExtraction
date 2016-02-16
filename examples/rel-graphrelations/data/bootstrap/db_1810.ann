@@ -1,0 +1,43 @@
+T0	segment 0 7	Mansour
+T1	segment 8 12	also
+T2	segment 13 19	called
+T3	segment 20 27	Mansour
+T4	segment 28 34	Jafari
+T5	segment 35 44	Mamaghani
+T6	segment 45 47	is
+T7	segment 48 50	an
+T8	segment 51 58	Iranian
+T9	segment 59 65	artist
+T10	segment 66 70	born
+T11	segment 71 73	in
+T12	segment 74 80	Tehran
+T13	segment 80 81	,
+T14	segment 82 86	Iran
+T15	segment 87 95	renowned
+T16	segment 96 98	as
+T17	segment 99 100	a
+T18	segment 101 108	Persian
+T19	segment 109 116	musical
+T20	segment 117 123	artist
+T21	segment 124 129	based
+T22	segment 130 132	in
+T23	segment 133 141	Southern
+T24	segment 142 152	California
+T25	segment 153 154	.
+R0	s_p Arg1:T0 Arg2:T2
+R1	p_c Arg1:T2 Arg2:T1
+R2	p_p Arg1:T2 Arg2:T6
+R3	compound Arg1:T5 Arg2:T4
+R4	compound Arg1:T5 Arg2:T3
+R5	s_p Arg1:T5 Arg2:T6
+R6	p_o Arg1:T6 Arg2:T9
+R7	is-specialized-by Arg1:T9 Arg2:T8
+R8	is-specialized-by Arg1:T10 Arg2:T11
+R9	c_co Arg1:T11 Arg2:T12
+R10	s_p Arg1:T14 Arg2:T15
+R11	p_p Arg1:T15 Arg2:T2
+R12	p_c Arg1:T15 Arg2:T16
+R13	c_co Arg1:T16 Arg2:T20
+R14	compound Arg1:T20 Arg2:T19
+R15	is-specialized-by Arg1:T20 Arg2:T18
+R16	compound Arg1:T24 Arg2:T23

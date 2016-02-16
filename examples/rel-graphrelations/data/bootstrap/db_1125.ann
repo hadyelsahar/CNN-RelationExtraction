@@ -1,0 +1,54 @@
+T0	segment 0 3	The
+T1	segment 4 12	Virginia
+T2	segment 13 20	Company
+T3	segment 21 27	refers
+T4	segment 28 40	collectively
+T5	segment 41 43	to
+T6	segment 44 45	a
+T7	segment 46 51	Joint
+T8	segment 52 57	stock
+T9	segment 58 65	company
+T10	segment 66 75	chartered
+T11	segment 76 78	by
+T12	segment 79 84	James
+T13	segment 85 86	I
+T14	segment 87 89	on
+T15	segment 90 92	10
+T16	segment 93 98	April
+T17	segment 99 103	1606
+T18	segment 104 108	with
+T19	segment 109 112	the
+T20	segment 113 121	purposes
+T21	segment 122 124	of
+T22	segment 125 137	establishing
+T23	segment 138 149	settlements
+T24	segment 150 152	on
+T25	segment 153 156	the
+T26	segment 157 162	coast
+T27	segment 163 165	of
+T28	segment 166 171	North
+T29	segment 172 179	America
+T30	segment 180 181	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_c Arg1:T3 Arg2:T4
+R3	p_c Arg1:T3 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T9
+R5	is-specialized-by Arg1:T9 Arg2:T7
+R6	compound Arg1:T9 Arg2:T8
+R7	is-specialized-by Arg1:T10 Arg2:T18
+R8	is-specialized-by Arg1:T10 Arg2:T11
+R9	c_co Arg1:T11 Arg2:T13
+R10	compound Arg1:T13 Arg2:T12
+R11	is-specialized-by Arg1:T13 Arg2:T14
+R12	c_co Arg1:T14 Arg2:T15
+R13	is-specialized-by Arg1:T16 Arg2:T17
+R14	compound Arg1:T17 Arg2:T16
+R15	compound Arg1:T17 Arg2:T15
+R16	c_co Arg1:T18 Arg2:T20
+R17	is-specialized-by Arg1:T22 Arg2:T24
+R18	p_o Arg1:T22 Arg2:T23
+R19	c_co Arg1:T24 Arg2:T26
+R20	is-specialized-by Arg1:T26 Arg2:T27
+R21	c_co Arg1:T27 Arg2:T29
+R22	compound Arg1:T29 Arg2:T28

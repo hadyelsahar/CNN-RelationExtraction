@@ -1,0 +1,30 @@
+T0	segment 0 3	The
+T1	segment 4 8	Fiji
+T2	segment 9 21	Broadcasting
+T3	segment 22 33	Corporation
+T4	segment 34 37	and
+T5	segment 38 41	its
+T6	segment 42 47	first
+T7	segment 48 59	free-to-air
+T8	segment 60 70	television
+T9	segment 71 74	FBC
+T10	segment 75 77	TV
+T11	segment 78 81	was
+T12	segment 82 90	launched
+T13	segment 91 93	on
+T14	segment 94 96	25
+T15	segment 97 105	November
+T16	segment 106 110	2011
+T17	segment 111 112	.
+R0	s_p Arg1:T3 Arg2:T12
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	compound Arg1:T10 Arg2:T8
+R4	is-specialized-by Arg1:T10 Arg2:T6
+R5	compound Arg1:T10 Arg2:T9
+R6	compound Arg1:T12 Arg2:T11
+R7	p_c Arg1:T12 Arg2:T13
+R8	c_co Arg1:T13 Arg2:T14
+R9	is-specialized-by Arg1:T15 Arg2:T16
+R10	compound Arg1:T16 Arg2:T14
+R11	compound Arg1:T16 Arg2:T15

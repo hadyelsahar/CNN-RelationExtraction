@@ -1,0 +1,69 @@
+T0	segment 0 4	John
+T1	segment 5 12	Tesshin
+T2	segment 13 22	Sanderson
+T3	segment 23 25	is
+T4	segment 26 27	a
+T5	segment 28 32	Soto
+T6	segment 33 36	Zen
+T7	segment 37 42	roshi
+T8	segment 43 45	of
+T9	segment 46 49	the
+T10	segment 50 55	White
+T11	segment 56 60	Plum
+T12	segment 61 67	Asanga
+T13	segment 68 71	and
+T14	segment 72 81	spiritual
+T15	segment 82 90	director
+T16	segment 91 93	of
+T17	segment 94 97	the
+T18	segment 98 104	Centro
+T19	segment 105 108	Zen
+T20	segment 109 111	de
+T21	segment 112 118	MÃ©xico
+T22	segment 119 121	in
+T23	segment 122 130	CoyoacÃ¡n
+T24	segment 130 131	,
+T25	segment 132 138	Mexico
+T26	segment 139 143	City
+T27	segment 143 144	,
+T28	segment 145 148	one
+T29	segment 149 151	of
+T30	segment 152 156	only
+T31	segment 157 163	twelve
+T32	segment 164 170	Dharma
+T33	segment 171 181	Successors
+T34	segment 182 184	of
+T35	segment 185 188	the
+T36	segment 189 193	late
+T37	segment 194 200	Taizan
+T38	segment 201 208	Maezumi
+T39	segment 209 210	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	compound Arg1:T7 Arg2:T6
+R6	compound Arg1:T7 Arg2:T5
+R7	c_co Arg1:T8 Arg2:T12
+R8	compound Arg1:T12 Arg2:T11
+R9	compound Arg1:T12 Arg2:T10
+R10	is-specialized-by Arg1:T15 Arg2:T16
+R11	is-specialized-by Arg1:T15 Arg2:T14
+R12	c_co Arg1:T16 Arg2:T21
+R13	compound Arg1:T21 Arg2:T20
+R14	compound Arg1:T21 Arg2:T19
+R15	is-specialized-by Arg1:T21 Arg2:T22
+R16	compound Arg1:T21 Arg2:T18
+R17	c_co Arg1:T22 Arg2:T26
+R18	compound Arg1:T26 Arg2:T23
+R19	compound Arg1:T26 Arg2:T25
+R20	is-specialized-by Arg1:T28 Arg2:T29
+R21	c_co Arg1:T29 Arg2:T33
+R22	is-specialized-by Arg1:T31 Arg2:T30
+R23	is-specialized-by Arg1:T33 Arg2:T31
+R24	is-specialized-by Arg1:T33 Arg2:T34
+R25	compound Arg1:T33 Arg2:T32
+R26	c_co Arg1:T34 Arg2:T38
+R27	compound Arg1:T38 Arg2:T37
+R28	is-specialized-by Arg1:T38 Arg2:T36

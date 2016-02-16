@@ -1,0 +1,45 @@
+T0	segment 0 3	The
+T1	segment 4 8	Free
+T2	segment 9 18	Hanseatic
+T3	segment 19 23	City
+T4	segment 24 26	of
+T5	segment 27 33	Bremen
+T6	segment 34 36	in
+T7	segment 37 40	the
+T8	segment 41 46	North
+T9	segment 47 49	of
+T10	segment 50 57	Germany
+T11	segment 57 58	,
+T12	segment 59 68	separated
+T13	segment 69 73	from
+T14	segment 74 78	each
+T15	segment 79 84	other
+T16	segment 85 88	and
+T17	segment 89 99	surrounded
+T18	segment 100 102	by
+T19	segment 103 106	the
+T20	segment 107 113	larger
+T21	segment 114 119	state
+T22	segment 120 122	of
+T23	segment 123 128	Lower
+T24	segment 129 135	Saxony
+T25	segment 136 137	.
+R0	is-specialized-by Arg1:T3 Arg2:T4
+R1	s_p Arg1:T3 Arg2:T12
+R2	compound Arg1:T3 Arg2:T2
+R3	compound Arg1:T3 Arg2:T1
+R4	c_co Arg1:T4 Arg2:T5
+R5	is-specialized-by Arg1:T5 Arg2:T6
+R6	c_co Arg1:T6 Arg2:T8
+R7	is-specialized-by Arg1:T8 Arg2:T9
+R8	c_co Arg1:T9 Arg2:T10
+R9	compound Arg1:T10 Arg2:T8
+R10	compound Arg1:T10 Arg2:T9
+R11	p_c Arg1:T12 Arg2:T13
+R12	c_co Arg1:T13 Arg2:T15
+R13	is-specialized-by Arg1:T17 Arg2:T18
+R14	c_co Arg1:T18 Arg2:T21
+R15	is-specialized-by Arg1:T21 Arg2:T20
+R16	is-specialized-by Arg1:T21 Arg2:T22
+R17	c_co Arg1:T22 Arg2:T24
+R18	compound Arg1:T24 Arg2:T23

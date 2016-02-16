@@ -1,0 +1,43 @@
+T0	segment 0 3	The
+T1	segment 4 10	Finger
+T2	segment 11 16	Lakes
+T3	segment 17 24	Railway
+T4	segment 25 27	of
+T5	segment 28 30	ex
+T6	segment 31 38	Conrail
+T7	segment 39 47	trackage
+T8	segment 47 48	,
+T9	segment 49 57	formerly
+T10	segment 58 63	owned
+T11	segment 64 66	by
+T12	segment 67 70	the
+T13	segment 71 74	New
+T14	segment 75 79	York
+T15	segment 80 87	Central
+T16	segment 88 96	Railroad
+T17	segment 96 97	,
+T18	segment 98 101	the
+T19	segment 102 114	Pennsylvania
+T20	segment 115 123	Railroad
+T21	segment 123 124	,
+T22	segment 125 128	and
+T23	segment 129 132	the
+T24	segment 133 139	Lehigh
+T25	segment 140 146	Valley
+T26	segment 147 155	Railroad
+T27	segment 156 157	.
+R0	s_p Arg1:T3 Arg2:T10
+R1	is-specialized-by Arg1:T3 Arg2:T4
+R2	compound Arg1:T3 Arg2:T2
+R3	compound Arg1:T3 Arg2:T1
+R4	c_co Arg1:T4 Arg2:T5
+R5	compound Arg1:T7 Arg2:T6
+R6	p_c Arg1:T10 Arg2:T9
+R7	p_c Arg1:T10 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T16
+R9	compound Arg1:T16 Arg2:T14
+R10	compound Arg1:T16 Arg2:T13
+R11	compound Arg1:T16 Arg2:T15
+R12	compound Arg1:T20 Arg2:T19
+R13	compound Arg1:T26 Arg2:T24
+R14	compound Arg1:T26 Arg2:T25

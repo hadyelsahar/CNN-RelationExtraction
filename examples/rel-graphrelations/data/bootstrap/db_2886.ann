@@ -1,0 +1,47 @@
+T0	segment 0 3	Oxi
+T1	segment 4 9	Fresh
+T2	segment 10 16	Carpet
+T3	segment 17 25	Cleaning
+T4	segment 26 28	is
+T5	segment 29 30	a
+T6	segment 31 37	carpet
+T7	segment 37 38	,
+T8	segment 39 49	upholstery
+T9	segment 49 50	,
+T10	segment 51 54	and
+T11	segment 55 59	tile
+T12	segment 60 63	and
+T13	segment 64 69	grout
+T14	segment 70 78	cleaning
+T15	segment 79 86	company
+T16	segment 86 87	,
+T17	segment 88 94	ranked
+T18	segment 95 98	the
+T19	segment 99 102	3rd
+T20	segment 103 106	Top
+T21	segment 107 110	New
+T22	segment 111 120	Franchise
+T23	segment 121 123	in
+T24	segment 124 128	2011
+T25	segment 129 131	by
+T26	segment 132 144	Entrepreneur
+T27	segment 145 153	Magazine
+T28	segment 154 155	.
+R0	compound Arg1:T1 Arg2:T0
+R1	s_p Arg1:T1 Arg2:T17
+R2	compound Arg1:T3 Arg2:T0
+R3	s_p Arg1:T3 Arg2:T4
+R4	compound Arg1:T3 Arg2:T2
+R5	compound Arg1:T3 Arg2:T1
+R6	p_o Arg1:T4 Arg2:T6
+R7	compound Arg1:T15 Arg2:T14
+R8	compound Arg1:T15 Arg2:T13
+R9	p_c Arg1:T17 Arg2:T25
+R10	p_c Arg1:T17 Arg2:T23
+R11	p_o Arg1:T17 Arg2:T22
+R12	compound Arg1:T22 Arg2:T20
+R13	compound Arg1:T22 Arg2:T21
+R14	is-specialized-by Arg1:T22 Arg2:T19
+R15	c_co Arg1:T23 Arg2:T24
+R16	c_co Arg1:T25 Arg2:T27
+R17	compound Arg1:T27 Arg2:T26

@@ -1,0 +1,75 @@
+T0	segment 0 5	Royal
+T1	segment 6 10	Gold
+T2	segment 11 13	is
+T3	segment 14 15	a
+T4	segment 16 24	precious
+T5	segment 25 31	metals
+T6	segment 32 39	company
+T7	segment 40 44	with
+T8	segment 45 52	royalty
+T9	segment 53 59	claims
+T10	segment 60 62	on
+T11	segment 63 67	gold
+T12	segment 67 68	,
+T13	segment 69 75	silver
+T14	segment 75 76	,
+T15	segment 77 83	copper
+T16	segment 83 84	,
+T17	segment 85 89	lead
+T18	segment 90 93	and
+T19	segment 94 98	zinc
+T20	segment 99 101	at
+T21	segment 102 107	mines
+T22	segment 108 110	in
+T23	segment 111 115	over
+T24	segment 116 118	20
+T25	segment 119 128	countries
+T26	segment 129 131	it
+T27	segment 132 138	ranked
+T28	segment 139 143	10th
+T29	segment 144 149	among
+T30	segment 150 153	the
+T31	segment 154 161	fastest
+T32	segment 162 169	growing
+T33	segment 170 175	small
+T34	segment 176 186	businesses
+T35	segment 187 189	in
+T36	segment 190 193	the
+T37	segment 194 200	United
+T38	segment 201 207	States
+T39	segment 207 208	,
+T40	segment 209 211	79
+T41	segment 212 217	spots
+T42	segment 218 224	higher
+T43	segment 225 229	than
+T44	segment 230 232	in
+T45	segment 233 237	2008
+T46	segment 238 239	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T6
+R3	is-specialized-by Arg1:T6 Arg2:T7
+R4	compound Arg1:T6 Arg2:T5
+R5	is-specialized-by Arg1:T6 Arg2:T4
+R6	c_co Arg1:T7 Arg2:T9
+R7	is-specialized-by Arg1:T9 Arg2:T20
+R8	is-specialized-by Arg1:T9 Arg2:T10
+R9	compound Arg1:T9 Arg2:T8
+R10	c_co Arg1:T10 Arg2:T11
+R11	c_co Arg1:T20 Arg2:T21
+R12	is-specialized-by Arg1:T21 Arg2:T22
+R13	c_co Arg1:T22 Arg2:T25
+R14	is-specialized-by Arg1:T25 Arg2:T24
+R15	is-specialized-by Arg1:T25 Arg2:T23
+R16	s_p Arg1:T26 Arg2:T27
+R17	p_c Arg1:T27 Arg2:T29
+R18	p_c Arg1:T27 Arg2:T43
+R19	c_co Arg1:T29 Arg2:T34
+R20	is-specialized-by Arg1:T34 Arg2:T32
+R21	is-specialized-by Arg1:T34 Arg2:T35
+R22	c_co Arg1:T35 Arg2:T38
+R23	compound Arg1:T38 Arg2:T37
+R24	is-specialized-by Arg1:T41 Arg2:T40
+R25	is-specialized-by Arg1:T42 Arg2:T41
+R26	c_co Arg1:T43 Arg2:T45
+R27	is-specialized-by Arg1:T45 Arg2:T42

@@ -1,0 +1,36 @@
+T0	segment 0 7	Alibori
+T1	segment 8 10	is
+T2	segment 11 14	the
+T3	segment 15 22	largest
+T4	segment 23 26	and
+T5	segment 27 39	northernmost
+T6	segment 40 51	dÃ©partement
+T7	segment 52 54	of
+T8	segment 55 60	Benin
+T9	segment 60 61	,
+T10	segment 62 66	with
+T11	segment 67 69	an
+T12	segment 70 74	area
+T13	segment 75 77	of
+T14	segment 78 84	26,242
+T15	segment 85 87	km
+T16	segment 87 88	Â²
+T17	segment 89 92	and
+T18	segment 93 94	a
+T19	segment 95 105	population
+T20	segment 106 108	of
+T21	segment 109 116	868,046
+T22	segment 117 118	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T10
+R3	is-specialized-by Arg1:T6 Arg2:T7
+R4	is-specialized-by Arg1:T6 Arg2:T5
+R5	c_co Arg1:T7 Arg2:T8
+R6	c_co Arg1:T10 Arg2:T12
+R7	is-specialized-by Arg1:T12 Arg2:T13
+R8	c_co Arg1:T13 Arg2:T16
+R9	compound Arg1:T16 Arg2:T15
+R10	is-specialized-by Arg1:T16 Arg2:T14
+R11	is-specialized-by Arg1:T19 Arg2:T20
+R12	c_co Arg1:T20 Arg2:T21

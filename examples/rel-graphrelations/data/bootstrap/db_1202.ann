@@ -1,0 +1,51 @@
+T0	segment 0 3	The
+T1	segment 4 12	proposed
+T2	segment 13 18	State
+T3	segment 19 21	of
+T4	segment 22 30	Superior
+T5	segment 31 32	,
+T6	segment 33 36	and
+T7	segment 37 45	possibly
+T8	segment 46 51	other
+T9	segment 52 60	portions
+T10	segment 61 63	of
+T11	segment 64 72	northern
+T12	segment 73 81	Michigan
+T13	segment 81 82	,
+T14	segment 83 86	and
+T15	segment 87 89	in
+T16	segment 90 94	some
+T17	segment 95 104	proposals
+T18	segment 104 105	,
+T19	segment 106 110	some
+T20	segment 111 113	of
+T21	segment 114 117	the
+T22	segment 118 126	northern
+T23	segment 127 135	counties
+T24	segment 136 140	from
+T25	segment 141 144	the
+T26	segment 145 150	state
+T27	segment 151 153	of
+T28	segment 154 163	Wisconsin
+T29	segment 164 166	as
+T30	segment 167 171	well
+T31	segment 172 173	.
+R0	is-specialized-by Arg1:T2 Arg2:T1
+R1	is-specialized-by Arg1:T2 Arg2:T29
+R2	c_co Arg1:T3 Arg2:T4
+R3	compound Arg1:T4 Arg2:T3
+R4	compound Arg1:T4 Arg2:T2
+R5	is-specialized-by Arg1:T4 Arg2:T7
+R6	is-specialized-by Arg1:T9 Arg2:T8
+R7	is-specialized-by Arg1:T9 Arg2:T10
+R8	c_co Arg1:T10 Arg2:T12
+R9	is-specialized-by Arg1:T12 Arg2:T11
+R10	is-specialized-by Arg1:T19 Arg2:T20
+R11	c_co Arg1:T20 Arg2:T23
+R12	is-specialized-by Arg1:T23 Arg2:T24
+R13	is-specialized-by Arg1:T23 Arg2:T22
+R14	c_co Arg1:T24 Arg2:T26
+R15	is-specialized-by Arg1:T26 Arg2:T27
+R16	c_co Arg1:T27 Arg2:T28
+R17	compound Arg1:T29 Arg2:T30
+R18	is-specialized-by Arg1:T29 Arg2:T3

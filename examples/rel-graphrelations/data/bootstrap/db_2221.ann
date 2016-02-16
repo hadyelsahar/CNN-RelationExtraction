@@ -1,0 +1,81 @@
+T0	segment 0 4	West
+T1	segment 5 11	Anglia
+T2	segment 12 17	Great
+T3	segment 18 26	Northern
+T4	segment 27 30	was
+T5	segment 31 32	a
+T6	segment 33 38	train
+T7	segment 39 48	operating
+T8	segment 49 56	company
+T9	segment 57 59	in
+T10	segment 60 67	England
+T11	segment 68 73	owned
+T12	segment 74 76	by
+T13	segment 77 85	National
+T14	segment 86 93	Express
+T15	segment 93 94	,
+T16	segment 95 99	that
+T17	segment 100 108	operated
+T18	segment 109 112	the
+T19	segment 113 117	West
+T20	segment 118 124	Anglia
+T21	segment 125 130	Great
+T22	segment 131 139	Northern
+T23	segment 140 149	franchise
+T24	segment 150 154	from
+T25	segment 155 162	January
+T26	segment 163 167	1997
+T27	segment 168 173	until
+T28	segment 174 179	March
+T29	segment 180 184	2004
+T30	segment 185 188	and
+T31	segment 189 192	the
+T32	segment 193 198	Great
+T33	segment 199 207	Northern
+T34	segment 208 217	franchise
+T35	segment 218 222	from
+T36	segment 223 228	April
+T37	segment 229 233	2004
+T38	segment 234 239	until
+T39	segment 240 245	March
+T40	segment 246 250	2006
+T41	segment 251 252	.
+R0	compound Arg1:T3 Arg2:T0
+R1	s_p Arg1:T3 Arg2:T4
+R2	compound Arg1:T3 Arg2:T2
+R3	compound Arg1:T3 Arg2:T1
+R4	p_o Arg1:T4 Arg2:T8
+R5	is-specialized-by Arg1:T8 Arg2:T7
+R6	compound Arg1:T8 Arg2:T6
+R7	is-specialized-by Arg1:T8 Arg2:T9
+R8	c_co Arg1:T9 Arg2:T10
+R9	is-specialized-by Arg1:T11 Arg2:T12
+R10	c_co Arg1:T12 Arg2:T14
+R11	compound Arg1:T14 Arg2:T13
+R12	s_p Arg1:T16 Arg2:T17
+R13	p_c Arg1:T17 Arg2:T38
+R14	p_c Arg1:T17 Arg2:T27
+R15	p_c Arg1:T17 Arg2:T35
+R16	p_o Arg1:T17 Arg2:T23
+R17	compound Arg1:T22 Arg2:T20
+R18	compound Arg1:T22 Arg2:T19
+R19	compound Arg1:T22 Arg2:T21
+R20	compound Arg1:T23 Arg2:T20
+R21	compound Arg1:T23 Arg2:T19
+R22	compound Arg1:T23 Arg2:T22
+R23	compound Arg1:T23 Arg2:T21
+R24	is-specialized-by Arg1:T23 Arg2:T24
+R25	c_co Arg1:T24 Arg2:T25
+R26	is-specialized-by Arg1:T25 Arg2:T26
+R27	compound Arg1:T26 Arg2:T25
+R28	c_co Arg1:T27 Arg2:T28
+R29	is-specialized-by Arg1:T28 Arg2:T29
+R30	compound Arg1:T29 Arg2:T28
+R31	compound Arg1:T34 Arg2:T32
+R32	compound Arg1:T34 Arg2:T33
+R33	c_co Arg1:T35 Arg2:T36
+R34	is-specialized-by Arg1:T36 Arg2:T37
+R35	compound Arg1:T37 Arg2:T36
+R36	c_co Arg1:T38 Arg2:T39
+R37	is-specialized-by Arg1:T39 Arg2:T40
+R38	compound Arg1:T40 Arg2:T39

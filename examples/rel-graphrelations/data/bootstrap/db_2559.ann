@@ -1,0 +1,31 @@
+T0	segment 0 5	Hinky
+T1	segment 6 11	Dinky
+T2	segment 12 15	was
+T3	segment 16 17	a
+T4	segment 18 29	supermarket
+T5	segment 30 35	chain
+T6	segment 36 41	based
+T7	segment 42 44	in
+T8	segment 45 50	Omaha
+T9	segment 50 51	,
+T10	segment 52 60	Nebraska
+T11	segment 60 61	,
+T12	segment 62 66	that
+T13	segment 67 75	operated
+T14	segment 76 82	mainly
+T15	segment 83 85	in
+T16	segment 86 94	Nebraska
+T17	segment 95 98	and
+T18	segment 99 103	Iowa
+T19	segment 104 105	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	compound Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T10
+R6	compound Arg1:T10 Arg2:T8
+R7	s_p Arg1:T12 Arg2:T13
+R8	p_c Arg1:T13 Arg2:T14
+R9	p_c Arg1:T13 Arg2:T15
+R10	c_co Arg1:T15 Arg2:T16

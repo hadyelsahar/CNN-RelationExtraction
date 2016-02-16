@@ -1,0 +1,39 @@
+T0	segment 0 3	The
+T1	segment 4 10	Munich
+T2	segment 10 11	--
+T3	segment 11 19	Augsburg
+T4	segment 20 27	Railway
+T5	segment 28 35	Company
+T6	segment 36 37	,
+T7	segment 38 41	the
+T8	segment 42 48	second
+T9	segment 49 56	private
+T10	segment 57 64	railway
+T11	segment 65 72	company
+T12	segment 73 75	in
+T13	segment 76 83	Bavaria
+T14	segment 83 84	,
+T15	segment 85 90	built
+T16	segment 91 94	the
+T17	segment 95 101	Munich
+T18	segment 101 102	--
+T19	segment 102 110	Augsburg
+T20	segment 111 115	line
+T21	segment 116 123	between
+T22	segment 124 128	1838
+T23	segment 129 132	and
+T24	segment 133 137	1840
+T25	segment 138 139	.
+R0	compound Arg1:T5 Arg2:T4
+R1	compound Arg1:T5 Arg2:T3
+R2	s_p Arg1:T5 Arg2:T15
+R3	is-specialized-by Arg1:T11 Arg2:T8
+R4	is-specialized-by Arg1:T11 Arg2:T12
+R5	compound Arg1:T11 Arg2:T10
+R6	c_co Arg1:T12 Arg2:T13
+R7	p_o Arg1:T15 Arg2:T17
+R8	compound Arg1:T20 Arg2:T19
+R9	is-specialized-by Arg1:T20 Arg2:T21
+R10	c_co Arg1:T21 Arg2:T22
+R11	compound Arg1:T24 Arg2:T22
+R12	compound Arg1:T24 Arg2:T23

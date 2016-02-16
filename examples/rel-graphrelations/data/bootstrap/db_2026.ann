@@ -1,0 +1,57 @@
+T0	segment 0 5	Taryn
+T1	segment 6 11	Leigh
+T2	segment 12 18	Foshee
+T3	segment 19 20	,
+T4	segment 21 22	a
+T5	segment 23 30	Clinton
+T6	segment 30 31	,
+T7	segment 32 43	Mississippi
+T8	segment 44 50	native
+T9	segment 50 51	,
+T10	segment 52 54	is
+T11	segment 55 56	a
+T12	segment 57 63	beauty
+T13	segment 64 69	queen
+T14	segment 70 73	who
+T15	segment 74 77	won
+T16	segment 78 81	the
+T17	segment 82 86	2003
+T18	segment 87 91	Miss
+T19	segment 92 99	Clinton
+T20	segment 100 107	pageant
+T21	segment 108 113	while
+T22	segment 114 115	a
+T23	segment 116 121	pupil
+T24	segment 122 124	at
+T25	segment 125 134	Hillcrest
+T26	segment 135 144	Christian
+T27	segment 145 151	School
+T28	segment 152 155	and
+T29	segment 156 164	received
+T30	segment 165 166	a
+T31	segment 167 179	commendation
+T32	segment 180 184	from
+T33	segment 185 188	the
+T34	segment 189 200	Mississippi
+T35	segment 201 212	Legislature
+T36	segment 213 214	.
+R0	s_p Arg1:T2 Arg2:T10
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T10 Arg2:T13
+R4	compound Arg1:T13 Arg2:T12
+R5	s_p Arg1:T14 Arg2:T15
+R6	p_c Arg1:T15 Arg2:T24
+R7	p_c Arg1:T15 Arg2:T21
+R8	p_o Arg1:T15 Arg2:T20
+R9	compound Arg1:T20 Arg2:T19
+R10	is-specialized-by Arg1:T20 Arg2:T17
+R11	compound Arg1:T20 Arg2:T18
+R12	c_co Arg1:T21 Arg2:T23
+R13	c_co Arg1:T24 Arg2:T27
+R14	compound Arg1:T27 Arg2:T26
+R15	compound Arg1:T27 Arg2:T25
+R16	is-specialized-by Arg1:T29 Arg2:T32
+R17	p_o Arg1:T29 Arg2:T31
+R18	c_co Arg1:T32 Arg2:T35
+R19	compound Arg1:T35 Arg2:T34

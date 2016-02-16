@@ -1,0 +1,27 @@
+T0	segment 0 7	Patrick
+T1	segment 8 15	Cassidy
+T2	segment 16 18	is
+T3	segment 19 21	an
+T4	segment 22 30	American
+T5	segment 31 36	actor
+T6	segment 37 41	best
+T7	segment 42 47	known
+T8	segment 48 51	for
+T9	segment 52 55	his
+T10	segment 56 61	roles
+T11	segment 62 64	in
+T12	segment 65 72	musical
+T13	segment 73 80	theatre
+T14	segment 81 84	and
+T15	segment 85 95	television
+T16	segment 96 97	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T7 Arg2:T6
+R6	c_co Arg1:T8 Arg2:T10
+R7	is-specialized-by Arg1:T10 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T13
+R9	is-specialized-by Arg1:T13 Arg2:T12

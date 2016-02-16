@@ -1,0 +1,77 @@
+T0	segment 0 6	Connie
+T1	segment 7 13	Fisher
+T2	segment 14 16	is
+T3	segment 17 18	a
+T4	segment 19 27	Northern
+T5	segment 28 38	Irish-born
+T6	segment 39 44	Welsh
+T7	segment 45 52	actress
+T8	segment 53 56	and
+T9	segment 57 63	singer
+T10	segment 63 64	,
+T11	segment 65 68	who
+T12	segment 69 72	won
+T13	segment 73 76	the
+T14	segment 77 80	BBC
+T15	segment 81 84	One
+T16	segment 85 91	talent
+T17	segment 92 99	contest
+T18	segment 99 100	,
+T19	segment 101 104	How
+T20	segment 105 107	Do
+T21	segment 108 111	You
+T22	segment 112 117	Solve
+T23	segment 118 119	a
+T24	segment 120 127	Problem
+T25	segment 128 132	Like
+T26	segment 133 141	Maria?On
+T27	segment 142 144	15
+T28	segment 145 153	November
+T29	segment 154 158	2006
+T30	segment 158 159	,
+T31	segment 160 163	she
+T32	segment 164 170	opened
+T33	segment 171 173	to
+T34	segment 174 183	excellent
+T35	segment 184 191	reviews
+T36	segment 192 194	in
+T37	segment 195 198	the
+T38	segment 199 203	part
+T39	segment 204 206	of
+T40	segment 207 212	Maria
+T41	segment 213 216	von
+T42	segment 217 222	Trapp
+T43	segment 223 225	in
+T44	segment 226 229	The
+T45	segment 230 235	Sound
+T46	segment 236 238	of
+T47	segment 239 244	Music
+T48	segment 245 247	in
+T49	segment 248 251	the
+T50	segment 252 256	West
+T51	segment 257 260	End
+T52	segment 260 261	,
+T53	segment 262 268	London
+T54	segment 269 271	on
+T55	segment 272 273	a
+T56	segment 274 283	six-month
+T57	segment 284 292	contract
+T58	segment 292 293	,
+T59	segment 294 299	which
+T60	segment 300 303	was
+T61	segment 304 312	extended
+T62	segment 313 318	until
+T63	segment 319 321	23
+T64	segment 322 330	February
+T65	segment 331 335	2008
+T66	segment 336 337	.
+R0	compound Arg1:T1 Arg2:T0
+R1	compound Arg1:T6 Arg2:T4
+R2	compound Arg1:T6 Arg2:T5
+R3	compound Arg1:T29 Arg2:T28
+R4	compound Arg1:T29 Arg2:T27
+R5	compound Arg1:T42 Arg2:T40
+R6	compound Arg1:T42 Arg2:T41
+R7	compound Arg1:T51 Arg2:T50
+R8	compound Arg1:T65 Arg2:T64
+R9	compound Arg1:T65 Arg2:T63

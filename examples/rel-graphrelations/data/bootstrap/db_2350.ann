@@ -1,0 +1,27 @@
+T0	segment 0 5	Macar
+T1	segment 6 7	,
+T2	segment 8 11	one
+T3	segment 12 14	of
+T4	segment 15 18	the
+T5	segment 19 27	Heliadae
+T6	segment 27 28	,
+T7	segment 29 30	a
+T8	segment 31 34	son
+T9	segment 35 37	of
+T10	segment 38 44	Rhodus
+T11	segment 45 48	and
+T12	segment 49 55	Helios
+T13	segment 55 56	,
+T14	segment 57 60	who
+T15	segment 61 67	became
+T16	segment 68 72	king
+T17	segment 73 75	of
+T18	segment 76 82	Lesbos
+T19	segment 83 84	.
+R0	is-specialized-by Arg1:T2 Arg2:T3
+R1	c_co Arg1:T3 Arg2:T5
+R2	is-specialized-by Arg1:T8 Arg2:T9
+R3	c_co Arg1:T9 Arg2:T10
+R4	s_p Arg1:T14 Arg2:T15
+R5	is-specialized-by Arg1:T16 Arg2:T17
+R6	c_co Arg1:T17 Arg2:T18

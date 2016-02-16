@@ -1,0 +1,65 @@
+T0	segment 0 3	The
+T1	segment 4 11	Kurdish
+T2	segment 12 21	chiefdoms
+T3	segment 22 24	or
+T4	segment 25 39	principalities
+T5	segment 40 44	were
+T6	segment 45 52	several
+T7	segment 53 69	semi-independent
+T8	segment 70 78	entities
+T9	segment 79 84	which
+T10	segment 85 92	existed
+T11	segment 93 99	during
+T12	segment 100 103	the
+T13	segment 104 108	16th
+T14	segment 109 111	to
+T15	segment 112 116	19th
+T16	segment 117 126	centuries
+T17	segment 127 129	in
+T18	segment 130 131	a
+T19	segment 132 137	state
+T20	segment 138 140	of
+T21	segment 141 151	continuous
+T22	segment 152 159	warfare
+T23	segment 160 167	against
+T24	segment 168 171	the
+T25	segment 172 179	Ottoman
+T26	segment 180 186	Empire
+T27	segment 187 190	and
+T28	segment 191 198	Safavid
+T29	segment 199 203	Iran
+T30	segment 203 204	,
+T31	segment 205 207	at
+T32	segment 208 213	times
+T33	segment 214 220	siding
+T34	segment 221 225	with
+T35	segment 226 232	either
+T36	segment 233 235	of
+T37	segment 236 240	them
+T38	segment 241 242	.
+R0	s_p Arg1:T2 Arg2:T5
+R1	is-specialized-by Arg1:T2 Arg2:T1
+R2	p_o Arg1:T5 Arg2:T8
+R3	is-specialized-by Arg1:T8 Arg2:T6
+R4	s_p Arg1:T9 Arg2:T10
+R5	p_c Arg1:T10 Arg2:T14
+R6	p_c Arg1:T10 Arg2:T31
+R7	p_c Arg1:T10 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T13
+R9	c_co Arg1:T14 Arg2:T16
+R10	is-specialized-by Arg1:T16 Arg2:T17
+R11	compound Arg1:T16 Arg2:T15
+R12	c_co Arg1:T17 Arg2:T19
+R13	is-specialized-by Arg1:T19 Arg2:T20
+R14	c_co Arg1:T20 Arg2:T22
+R15	is-specialized-by Arg1:T22 Arg2:T23
+R16	is-specialized-by Arg1:T22 Arg2:T21
+R17	c_co Arg1:T23 Arg2:T26
+R18	compound Arg1:T26 Arg2:T25
+R19	compound Arg1:T29 Arg2:T28
+R20	c_co Arg1:T31 Arg2:T33
+R21	is-specialized-by Arg1:T33 Arg2:T34
+R22	compound Arg1:T33 Arg2:T32
+R23	c_co Arg1:T34 Arg2:T35
+R24	is-specialized-by Arg1:T35 Arg2:T36
+R25	c_co Arg1:T36 Arg2:T37

@@ -1,0 +1,37 @@
+T0	segment 0 6	Victor
+T1	segment 7 19	Krummenacher
+T2	segment 20 22	is
+T3	segment 23 25	an
+T4	segment 26 34	American
+T5	segment 35 43	musician
+T6	segment 44 47	and
+T7	segment 48 52	bass
+T8	segment 53 62	guitarist
+T9	segment 63 66	who
+T10	segment 67 69	is
+T11	segment 70 71	a
+T12	segment 72 80	founding
+T13	segment 81 87	member
+T14	segment 88 90	of
+T15	segment 91 102	alternative
+T16	segment 103 107	rock
+T17	segment 108 112	band
+T18	segment 113 119	Camper
+T19	segment 120 123	Van
+T20	segment 124 133	Beethoven
+T21	segment 134 135	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	compound Arg1:T8 Arg2:T7
+R5	s_p Arg1:T9 Arg2:T10
+R6	p_o Arg1:T10 Arg2:T13
+R7	is-specialized-by Arg1:T13 Arg2:T12
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T20
+R10	compound Arg1:T20 Arg2:T19
+R11	is-specialized-by Arg1:T20 Arg2:T15
+R12	compound Arg1:T20 Arg2:T16
+R13	compound Arg1:T20 Arg2:T18
+R14	compound Arg1:T20 Arg2:T17

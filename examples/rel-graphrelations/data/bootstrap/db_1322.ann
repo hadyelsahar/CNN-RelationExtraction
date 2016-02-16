@@ -1,0 +1,53 @@
+T0	segment 0 5	Syria
+T1	segment 6 9	was
+T2	segment 10 12	an
+T3	segment 13 18	early
+T4	segment 19 24	Roman
+T5	segment 25 33	province
+T6	segment 33 34	,
+T7	segment 35 42	annexed
+T8	segment 43 45	to
+T9	segment 46 49	the
+T10	segment 50 55	Roman
+T11	segment 56 64	Republic
+T12	segment 65 67	in
+T13	segment 68 70	64
+T14	segment 71 73	BC
+T15	segment 74 76	by
+T16	segment 77 83	Pompey
+T17	segment 84 86	in
+T18	segment 87 90	the
+T19	segment 91 96	Third
+T20	segment 97 108	Mithridatic
+T21	segment 109 112	War
+T22	segment 113 122	following
+T23	segment 123 126	the
+T24	segment 127 133	defeat
+T25	segment 134 136	of
+T26	segment 137 145	Armenian
+T27	segment 146 150	King
+T28	segment 151 159	Tigranes
+T29	segment 160 163	the
+T30	segment 164 169	Great
+T31	segment 170 171	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T5
+R2	is-specialized-by Arg1:T5 Arg2:T3
+R3	is-specialized-by Arg1:T7 Arg2:T8
+R4	is-specialized-by Arg1:T7 Arg2:T15
+R5	c_co Arg1:T8 Arg2:T11
+R6	is-specialized-by Arg1:T11 Arg2:T12
+R7	compound Arg1:T11 Arg2:T10
+R8	c_co Arg1:T12 Arg2:T14
+R9	compound Arg1:T14 Arg2:T13
+R10	c_co Arg1:T15 Arg2:T16
+R11	is-specialized-by Arg1:T16 Arg2:T17
+R12	c_co Arg1:T17 Arg2:T21
+R13	compound Arg1:T21 Arg2:T20
+R14	compound Arg1:T21 Arg2:T19
+R15	is-specialized-by Arg1:T21 Arg2:T22
+R16	c_co Arg1:T22 Arg2:T24
+R17	is-specialized-by Arg1:T24 Arg2:T25
+R18	c_co Arg1:T25 Arg2:T28
+R19	compound Arg1:T28 Arg2:T27
+R20	is-specialized-by Arg1:T28 Arg2:T26

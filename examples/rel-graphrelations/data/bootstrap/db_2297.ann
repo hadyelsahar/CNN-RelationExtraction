@@ -1,0 +1,27 @@
+T0	segment 0 3	The
+T1	segment 4 9	Mahra
+T2	segment 10 19	Sultanate
+T3	segment 20 22	of
+T4	segment 23 28	Qishn
+T5	segment 29 32	and
+T6	segment 33 40	Socotra
+T7	segment 41 48	dynasty
+T8	segment 49 52	and
+T9	segment 53 55	is
+T10	segment 56 65	sometimes
+T11	segment 66 72	called
+T12	segment 73 78	Mahra
+T13	segment 79 84	State
+T14	segment 85 87	in
+T15	segment 88 95	English
+T16	segment 96 97	.
+R0	s_p Arg1:T2 Arg2:T7
+R1	is-specialized-by Arg1:T2 Arg2:T3
+R2	compound Arg1:T2 Arg2:T1
+R3	c_co Arg1:T3 Arg2:T4
+R4	p_o Arg1:T11 Arg2:T13
+R5	is-specialized-by Arg1:T11 Arg2:T10
+R6	compound Arg1:T11 Arg2:T9
+R7	compound Arg1:T13 Arg2:T12
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T15

@@ -1,0 +1,32 @@
+T0	segment 0 4	This
+T1	segment 5 7	is
+T2	segment 8 9	a
+T3	segment 10 14	list
+T4	segment 15 17	of
+T5	segment 18 23	media
+T6	segment 24 31	serving
+T7	segment 32 35	the
+T8	segment 36 41	Omaha
+T9	segment 42 54	metropolitan
+T10	segment 55 59	area
+T11	segment 60 62	in
+T12	segment 63 68	Omaha
+T13	segment 68 69	,
+T14	segment 70 78	Nebraska
+T15	segment 79 82	and
+T16	segment 83 90	Council
+T17	segment 91 97	Bluffs
+T18	segment 97 98	,
+T19	segment 99 103	Iowa
+T20	segment 104 105	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T5
+R4	p_o Arg1:T6 Arg2:T10
+R5	is-specialized-by Arg1:T10 Arg2:T9
+R6	compound Arg1:T10 Arg2:T8
+R7	is-specialized-by Arg1:T10 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T17
+R9	compound Arg1:T17 Arg2:T12
+R10	compound Arg1:T17 Arg2:T16

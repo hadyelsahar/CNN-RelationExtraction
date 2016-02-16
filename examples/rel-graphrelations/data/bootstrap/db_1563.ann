@@ -1,0 +1,38 @@
+T0	segment 0 3	The
+T1	segment 4 9	Forum
+T2	segment 10 21	Corporation
+T3	segment 22 24	is
+T4	segment 25 26	a
+T5	segment 27 33	global
+T6	segment 34 42	learning
+T7	segment 43 46	and
+T8	segment 47 58	development
+T9	segment 59 63	firm
+T10	segment 64 76	specializing
+T11	segment 77 79	in
+T12	segment 80 88	strategy
+T13	segment 89 98	execution
+T14	segment 99 102	for
+T15	segment 103 112	companies
+T16	segment 113 115	in
+T17	segment 116 117	a
+T18	segment 118 123	broad
+T19	segment 124 129	array
+T20	segment 130 132	of
+T21	segment 133 143	industries
+T22	segment 144 145	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T6
+R3	is-specialized-by Arg1:T6 Arg2:T5
+R4	compound Arg1:T9 Arg2:T8
+R5	is-specialized-by Arg1:T10 Arg2:T11
+R6	c_co Arg1:T11 Arg2:T13
+R7	compound Arg1:T13 Arg2:T12
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T15
+R10	is-specialized-by Arg1:T15 Arg2:T16
+R11	c_co Arg1:T16 Arg2:T19
+R12	is-specialized-by Arg1:T19 Arg2:T18
+R13	is-specialized-by Arg1:T19 Arg2:T20
+R14	c_co Arg1:T20 Arg2:T21

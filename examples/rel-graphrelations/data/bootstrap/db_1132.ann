@@ -1,0 +1,87 @@
+T0	segment 0 14	Atta-ur-Rahman
+T1	segment 15 16	,
+T2	segment 17 20	PhD
+T3	segment 20 21	,
+T4	segment 22 25	FRS
+T5	segment 25 26	,
+T6	segment 27 31	FPAS
+T7	segment 31 32	,
+T8	segment 33 35	is
+T9	segment 36 37	a
+T10	segment 38 47	Pakistani
+T11	segment 48 55	organic
+T12	segment 56 63	chemist
+T13	segment 64 67	and
+T14	segment 68 69	a
+T15	segment 70 77	leading
+T16	segment 78 87	scientist
+T17	segment 88 90	in
+T18	segment 91 94	the
+T19	segment 95 100	field
+T20	segment 101 103	of
+T21	segment 104 111	natural
+T22	segment 112 119	product
+T23	segment 120 129	chemistry
+T24	segment 129 130	,
+T25	segment 131 135	with
+T26	segment 136 137	~
+T27	segment 137 140	947
+T28	segment 141 150	important
+T29	segment 151 163	publications
+T30	segment 164 166	in
+T31	segment 167 172	field
+T32	segment 173 175	of
+T33	segment 176 183	Organic
+T34	segment 184 193	chemistry
+T35	segment 193 194	,
+T36	segment 195 204	including
+T37	segment 205 208	his
+T38	segment 209 214	works
+T39	segment 215 225	referenced
+T40	segment 226 228	in
+T41	segment 229 232	135
+T42	segment 233 238	books
+T43	segment 239 246	largely
+T44	segment 247 256	published
+T45	segment 257 259	by
+T46	segment 260 267	leading
+T47	segment 268 278	publishers
+T48	segment 279 281	in
+T49	segment 282 288	Europe
+T50	segment 289 292	and
+T51	segment 293 296	the
+T52	segment 297 303	United
+T53	segment 304 310	States
+T54	segment 311 312	.
+R0	s_p Arg1:T4 Arg2:T8
+R1	compound Arg1:T4 Arg2:T0
+R2	p_o Arg1:T8 Arg2:T12
+R3	is-specialized-by Arg1:T12 Arg2:T10
+R4	is-specialized-by Arg1:T16 Arg2:T15
+R5	is-specialized-by Arg1:T16 Arg2:T17
+R6	is-specialized-by Arg1:T16 Arg2:T20
+R7	c_co Arg1:T17 Arg2:T19
+R8	c_co Arg1:T20 Arg2:T23
+R9	compound Arg1:T23 Arg2:T22
+R10	is-specialized-by Arg1:T23 Arg2:T21
+R11	c_co Arg1:T25 Arg2:T26
+R12	is-specialized-by Arg1:T29 Arg2:T28
+R13	is-specialized-by Arg1:T29 Arg2:T36
+R14	is-specialized-by Arg1:T29 Arg2:T27
+R15	is-specialized-by Arg1:T29 Arg2:T25
+R16	is-specialized-by Arg1:T29 Arg2:T32
+R17	is-specialized-by Arg1:T29 Arg2:T30
+R18	c_co Arg1:T30 Arg2:T31
+R19	c_co Arg1:T32 Arg2:T34
+R20	compound Arg1:T34 Arg2:T33
+R21	c_co Arg1:T36 Arg2:T38
+R22	is-specialized-by Arg1:T39 Arg2:T40
+R23	c_co Arg1:T40 Arg2:T42
+R24	is-specialized-by Arg1:T42 Arg2:T41
+R25	is-specialized-by Arg1:T44 Arg2:T43
+R26	is-specialized-by Arg1:T44 Arg2:T45
+R27	c_co Arg1:T45 Arg2:T47
+R28	is-specialized-by Arg1:T47 Arg2:T48
+R29	is-specialized-by Arg1:T47 Arg2:T46
+R30	c_co Arg1:T48 Arg2:T49
+R31	compound Arg1:T53 Arg2:T52

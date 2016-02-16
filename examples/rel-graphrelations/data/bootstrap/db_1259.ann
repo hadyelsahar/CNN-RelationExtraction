@@ -1,0 +1,59 @@
+T0	segment 0 3	The
+T1	segment 4 11	Federal
+T2	segment 12 24	Dependencies
+T3	segment 25 27	of
+T4	segment 28 37	Venezuela
+T5	segment 38 47	encompass
+T6	segment 48 52	most
+T7	segment 53 55	of
+T8	segment 56 65	Venezuela
+T9	segment 65 67	's
+T10	segment 68 71	off
+T11	segment 72 77	shore
+T12	segment 78 85	islands
+T13	segment 86 88	in
+T14	segment 89 92	the
+T15	segment 93 102	Caribbean
+T16	segment 103 106	Sea
+T17	segment 107 110	and
+T18	segment 111 114	the
+T19	segment 115 119	Gulf
+T20	segment 120 122	of
+T21	segment 123 132	Venezuela
+T22	segment 132 133	,
+T23	segment 134 143	excluding
+T24	segment 144 149	those
+T25	segment 150 157	islands
+T26	segment 158 163	which
+T27	segment 164 168	form
+T28	segment 169 172	the
+T29	segment 173 178	State
+T30	segment 179 181	of
+T31	segment 182 187	Nueva
+T32	segment 188 195	Esparta
+T33	segment 196 197	.
+R0	s_p Arg1:T2 Arg2:T5
+R1	is-specialized-by Arg1:T2 Arg2:T3
+R2	compound Arg1:T2 Arg2:T1
+R3	c_co Arg1:T3 Arg2:T4
+R4	p_c Arg1:T5 Arg2:T12
+R5	p_c Arg1:T5 Arg2:T23
+R6	p_o Arg1:T5 Arg2:T6
+R7	is-specialized-by Arg1:T6 Arg2:T7
+R8	c_co Arg1:T7 Arg2:T8
+R9	compound Arg1:T12 Arg2:T11
+R10	is-specialized-by Arg1:T12 Arg2:T13
+R11	c_co Arg1:T13 Arg2:T16
+R12	compound Arg1:T16 Arg2:T15
+R13	is-specialized-by Arg1:T19 Arg2:T20
+R14	c_co Arg1:T20 Arg2:T21
+R15	compound Arg1:T21 Arg2:T20
+R16	compound Arg1:T21 Arg2:T19
+R17	c_co Arg1:T23 Arg2:T25
+R18	s_p Arg1:T26 Arg2:T27
+R19	p_o Arg1:T27 Arg2:T29
+R20	is-specialized-by Arg1:T29 Arg2:T30
+R21	c_co Arg1:T30 Arg2:T32
+R22	compound Arg1:T32 Arg2:T30
+R23	compound Arg1:T32 Arg2:T29
+R24	compound Arg1:T32 Arg2:T31

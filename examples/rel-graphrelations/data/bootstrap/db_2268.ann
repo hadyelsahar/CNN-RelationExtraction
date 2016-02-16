@@ -1,0 +1,53 @@
+T0	segment 0 22	Palatinate-LÃ¼tzelstein
+T1	segment 23 26	was
+T2	segment 27 29	an
+T3	segment 30 39	ephemeral
+T4	segment 40 45	state
+T5	segment 46 48	of
+T6	segment 49 52	the
+T7	segment 53 57	Holy
+T8	segment 58 63	Roman
+T9	segment 64 70	Empire
+T10	segment 71 76	based
+T11	segment 77 83	around
+T12	segment 84 86	La
+T13	segment 87 100	Petite-Pierre
+T14	segment 101 102	,
+T15	segment 103 108	which
+T16	segment 109 111	he
+T17	segment 112 124	nevertheless
+T18	segment 125 128	was
+T19	segment 129 135	forced
+T20	segment 136 138	to
+T21	segment 139 145	pledge
+T22	segment 146 148	to
+T23	segment 149 153	Duke
+T24	segment 154 161	Charles
+T25	segment 162 165	III
+T26	segment 166 168	of
+T27	segment 169 177	Lorraine
+T28	segment 178 185	shortly
+T29	segment 186 196	afterwards
+T30	segment 197 198	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T9
+R5	is-specialized-by Arg1:T9 Arg2:T7
+R6	is-specialized-by Arg1:T10 Arg2:T28
+R7	is-specialized-by Arg1:T10 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T13
+R9	compound Arg1:T13 Arg2:T12
+R10	s_p Arg1:T16 Arg2:T19
+R11	p_c Arg1:T19 Arg2:T22
+R12	p_c Arg1:T19 Arg2:T17
+R13	p_c Arg1:T19 Arg2:T20
+R14	compound Arg1:T19 Arg2:T18
+R15	p_o Arg1:T19 Arg2:T15
+R16	c_co Arg1:T20 Arg2:T21
+R17	c_co Arg1:T22 Arg2:T25
+R18	is-specialized-by Arg1:T25 Arg2:T26
+R19	compound Arg1:T25 Arg2:T24
+R20	compound Arg1:T25 Arg2:T23
+R21	c_co Arg1:T26 Arg2:T27

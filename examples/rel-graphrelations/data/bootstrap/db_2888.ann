@@ -1,0 +1,61 @@
+T0	segment 0 3	The
+T1	segment 4 11	Council
+T2	segment 12 14	on
+T3	segment 15 20	State
+T4	segment 21 29	Taxation
+T5	segment 30 32	is
+T6	segment 33 34	a
+T7	segment 35 40	state
+T8	segment 41 44	tax
+T9	segment 45 57	organization
+T10	segment 58 70	representing
+T11	segment 71 79	business
+T12	segment 80 89	taxpayers
+T13	segment 89 90	,
+T14	segment 91 96	noted
+T15	segment 97 99	by
+T16	segment 100 103	one
+T17	segment 104 113	prominent
+T18	segment 114 117	tax
+T19	segment 118 124	policy
+T20	segment 125 131	expert
+T21	segment 132 134	as
+T22	segment 135 138	the
+T23	segment 139 140	``
+T24	segment 140 144	most
+T25	segment 145 156	influential
+T26	segment 157 172	nongovernmental
+T27	segment 173 185	organization
+T28	segment 186 188	in
+T29	segment 189 192	the
+T30	segment 193 198	state
+T31	segment 199 202	tax
+T32	segment 203 209	policy
+T33	segment 210 215	arena
+T34	segment 216 217	.
+R0	s_p Arg1:T1 Arg2:T5
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	c_co Arg1:T2 Arg2:T4
+R3	compound Arg1:T4 Arg2:T3
+R4	compound Arg1:T4 Arg2:T2
+R5	compound Arg1:T4 Arg2:T1
+R6	p_o Arg1:T5 Arg2:T9
+R7	compound Arg1:T9 Arg2:T8
+R8	compound Arg1:T9 Arg2:T7
+R9	p_o Arg1:T10 Arg2:T12
+R10	compound Arg1:T12 Arg2:T11
+R11	is-specialized-by Arg1:T14 Arg2:T15
+R12	p_o Arg1:T14 Arg2:T20
+R13	c_co Arg1:T15 Arg2:T16
+R14	compound Arg1:T20 Arg2:T19
+R15	is-specialized-by Arg1:T20 Arg2:T17
+R16	compound Arg1:T20 Arg2:T18
+R17	is-specialized-by Arg1:T20 Arg2:T21
+R18	c_co Arg1:T21 Arg2:T27
+R19	is-specialized-by Arg1:T25 Arg2:T24
+R20	is-specialized-by Arg1:T27 Arg2:T25
+R21	is-specialized-by Arg1:T27 Arg2:T28
+R22	c_co Arg1:T28 Arg2:T33
+R23	compound Arg1:T33 Arg2:T30
+R24	compound Arg1:T33 Arg2:T32
+R25	compound Arg1:T33 Arg2:T31

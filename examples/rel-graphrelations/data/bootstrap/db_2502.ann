@@ -1,0 +1,37 @@
+T0	segment 0 11	LendingTree
+T1	segment 12 14	is
+T2	segment 15 17	an
+T3	segment 18 24	online
+T4	segment 25 32	lending
+T5	segment 33 41	exchange
+T6	segment 42 46	that
+T7	segment 47 55	connects
+T8	segment 56 65	consumers
+T9	segment 66 70	with
+T10	segment 71 79	multiple
+T11	segment 80 87	lenders
+T12	segment 87 88	,
+T13	segment 89 94	banks
+T14	segment 94 95	,
+T15	segment 96 99	and
+T16	segment 100 106	credit
+T17	segment 107 115	partners
+T18	segment 116 120	whom
+T19	segment 121 128	compete
+T20	segment 129 132	for
+T21	segment 133 141	business
+T22	segment 142 143	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T5
+R2	compound Arg1:T5 Arg2:T4
+R3	is-specialized-by Arg1:T5 Arg2:T3
+R4	s_p Arg1:T6 Arg2:T7
+R5	p_o Arg1:T7 Arg2:T8
+R6	is-specialized-by Arg1:T8 Arg2:T9
+R7	c_co Arg1:T9 Arg2:T13
+R8	compound Arg1:T13 Arg2:T11
+R9	is-specialized-by Arg1:T13 Arg2:T10
+R10	compound Arg1:T17 Arg2:T16
+R11	s_p Arg1:T18 Arg2:T19
+R12	p_c Arg1:T19 Arg2:T20
+R13	c_co Arg1:T20 Arg2:T21

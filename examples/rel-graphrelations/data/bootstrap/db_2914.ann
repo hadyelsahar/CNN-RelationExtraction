@@ -1,0 +1,28 @@
+T0	segment 0 6	Pfizer
+T1	segment 7 9	UK
+T2	segment 10 12	is
+T3	segment 13 16	the
+T4	segment 17 26	principal
+T5	segment 27 37	subsidiary
+T6	segment 38 40	of
+T7	segment 41 44	the
+T8	segment 45 58	multinational
+T9	segment 59 73	pharmaceutical
+T10	segment 74 81	company
+T11	segment 82 88	Pfizer
+T12	segment 89 91	in
+T13	segment 92 95	the
+T14	segment 96 102	United
+T15	segment 103 110	Kingdom
+T16	segment 111 112	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T11
+R6	is-specialized-by Arg1:T11 Arg2:T8
+R7	is-specialized-by Arg1:T11 Arg2:T12
+R8	compound Arg1:T11 Arg2:T10
+R9	c_co Arg1:T12 Arg2:T15
+R10	compound Arg1:T15 Arg2:T14

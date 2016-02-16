@@ -1,0 +1,54 @@
+T0	segment 0 1	A
+T1	segment 2 16	self-governing
+T2	segment 17 23	colony
+T3	segment 24 26	is
+T4	segment 27 28	a
+T5	segment 29 35	colony
+T6	segment 36 40	with
+T7	segment 41 43	an
+T8	segment 44 51	elected
+T9	segment 52 62	government
+T10	segment 63 65	in
+T11	segment 66 71	which
+T12	segment 72 79	elected
+T13	segment 80 86	rulers
+T14	segment 87 90	are
+T15	segment 91 95	able
+T16	segment 96 98	to
+T17	segment 99 103	make
+T18	segment 104 108	most
+T19	segment 109 118	decisions
+T20	segment 119 126	without
+T21	segment 127 136	referring
+T22	segment 137 139	to
+T23	segment 140 143	the
+T24	segment 144 152	colonial
+T25	segment 153 158	power
+T26	segment 159 163	with
+T27	segment 164 171	nominal
+T28	segment 172 179	control
+T29	segment 180 182	of
+T30	segment 183 186	the
+T31	segment 187 193	colony
+T32	segment 194 195	.
+R0	is-specialized-by Arg1:T2 Arg2:T1
+R1	s_p Arg1:T2 Arg2:T3
+R2	p_o Arg1:T3 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T6
+R4	c_co Arg1:T6 Arg2:T9
+R5	is-specialized-by Arg1:T9 Arg2:T8
+R6	c_co Arg1:T10 Arg2:T11
+R7	is-specialized-by Arg1:T13 Arg2:T12
+R8	s_p Arg1:T13 Arg2:T14
+R9	p_o Arg1:T14 Arg2:T15
+R10	is-specialized-by Arg1:T15 Arg2:T10
+R11	is-specialized-by Arg1:T17 Arg2:T18
+R12	p_o Arg1:T17 Arg2:T19
+R13	is-specialized-by Arg1:T21 Arg2:T26
+R14	is-specialized-by Arg1:T21 Arg2:T22
+R15	c_co Arg1:T22 Arg2:T25
+R16	is-specialized-by Arg1:T25 Arg2:T24
+R17	c_co Arg1:T26 Arg2:T28
+R18	is-specialized-by Arg1:T28 Arg2:T27
+R19	is-specialized-by Arg1:T28 Arg2:T29
+R20	c_co Arg1:T29 Arg2:T31

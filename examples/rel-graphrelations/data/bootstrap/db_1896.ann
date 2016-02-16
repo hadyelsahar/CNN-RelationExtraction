@@ -1,0 +1,34 @@
+T0	segment 0 3	The
+T1	segment 4 13	Territory
+T2	segment 14 16	of
+T3	segment 17 22	Papua
+T4	segment 23 32	comprised
+T5	segment 33 36	the
+T6	segment 37 49	southeastern
+T7	segment 50 57	quarter
+T8	segment 58 60	of
+T9	segment 61 64	the
+T10	segment 65 71	island
+T11	segment 72 74	of
+T12	segment 75 78	New
+T13	segment 79 85	Guinea
+T14	segment 86 90	from
+T15	segment 91 95	1883
+T16	segment 96 98	to
+T17	segment 99 103	1975
+T18	segment 104 105	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_c Arg1:T4 Arg2:T14
+R4	p_o Arg1:T4 Arg2:T7
+R5	is-specialized-by Arg1:T7 Arg2:T8
+R6	compound Arg1:T7 Arg2:T6
+R7	compound Arg1:T7 Arg2:T5
+R8	c_co Arg1:T8 Arg2:T10
+R9	is-specialized-by Arg1:T10 Arg2:T11
+R10	c_co Arg1:T11 Arg2:T13
+R11	compound Arg1:T13 Arg2:T12
+R12	c_co Arg1:T14 Arg2:T17
+R13	compound Arg1:T17 Arg2:T16
+R14	compound Arg1:T17 Arg2:T15

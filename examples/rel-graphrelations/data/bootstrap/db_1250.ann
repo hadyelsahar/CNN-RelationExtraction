@@ -1,0 +1,35 @@
+T0	segment 0 3	The
+T1	segment 4 12	National
+T2	segment 13 21	Congress
+T3	segment 22 24	of
+T4	segment 25 34	Australia
+T5	segment 34 36	's
+T6	segment 37 42	First
+T7	segment 43 50	Peoples
+T8	segment 51 53	is
+T9	segment 54 57	the
+T10	segment 58 61	new
+T11	segment 62 70	national
+T12	segment 71 85	representative
+T13	segment 86 90	body
+T14	segment 91 94	for
+T15	segment 95 105	Aboriginal
+T16	segment 106 109	and
+T17	segment 110 116	Torres
+T18	segment 117 123	Strait
+T19	segment 124 132	Islander
+T20	segment 133 144	Australians
+T21	segment 145 146	.
+R0	s_p Arg1:T2 Arg2:T8
+R1	is-specialized-by Arg1:T2 Arg2:T3
+R2	compound Arg1:T2 Arg2:T1
+R3	c_co Arg1:T3 Arg2:T7
+R4	compound Arg1:T7 Arg2:T6
+R5	p_o Arg1:T8 Arg2:T13
+R6	compound Arg1:T13 Arg2:T12
+R7	is-specialized-by Arg1:T13 Arg2:T10
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T15
+R10	compound Arg1:T20 Arg2:T19
+R11	compound Arg1:T20 Arg2:T18
+R12	compound Arg1:T20 Arg2:T17

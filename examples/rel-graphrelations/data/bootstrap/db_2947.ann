@@ -1,0 +1,62 @@
+T0	segment 0 3	The
+T1	segment 4 7	Rus
+T2	segment 7 8	'
+T3	segment 9 18	Khaganate
+T4	segment 19 21	is
+T5	segment 22 25	the
+T6	segment 26 30	name
+T7	segment 31 38	applied
+T8	segment 39 41	by
+T9	segment 42 46	some
+T10	segment 47 53	modern
+T11	segment 54 64	historians
+T12	segment 65 67	to
+T13	segment 68 69	a
+T14	segment 70 76	polity
+T15	segment 77 81	that
+T16	segment 82 85	was
+T17	segment 86 96	postulated
+T18	segment 97 99	to
+T19	segment 100 105	exist
+T20	segment 106 112	during
+T21	segment 113 114	a
+T22	segment 115 121	poorly
+T23	segment 122 132	documented
+T24	segment 133 139	period
+T25	segment 140 142	in
+T26	segment 143 146	the
+T27	segment 147 154	history
+T28	segment 155 157	of
+T29	segment 158 165	Eastern
+T30	segment 166 172	Europe
+T31	segment 172 173	,
+T32	segment 174 181	roughly
+T33	segment 182 185	the
+T34	segment 186 190	late
+T35	segment 191 194	8th
+T36	segment 195 198	and
+T37	segment 199 215	early-to-mid-9th
+T38	segment 216 225	centuries
+T39	segment 226 228	AD
+T40	segment 229 230	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	p_o Arg1:T4 Arg2:T6
+R2	is-specialized-by Arg1:T7 Arg2:T8
+R3	is-specialized-by Arg1:T7 Arg2:T12
+R4	c_co Arg1:T8 Arg2:T11
+R5	is-specialized-by Arg1:T11 Arg2:T10
+R6	c_co Arg1:T12 Arg2:T14
+R7	s_p Arg1:T15 Arg2:T17
+R8	compound Arg1:T17 Arg2:T16
+R9	is-specialized-by Arg1:T19 Arg2:T20
+R10	c_co Arg1:T20 Arg2:T24
+R11	is-specialized-by Arg1:T23 Arg2:T22
+R12	is-specialized-by Arg1:T24 Arg2:T23
+R13	is-specialized-by Arg1:T24 Arg2:T25
+R14	c_co Arg1:T25 Arg2:T27
+R15	is-specialized-by Arg1:T27 Arg2:T32
+R16	is-specialized-by Arg1:T27 Arg2:T28
+R17	c_co Arg1:T28 Arg2:T30
+R18	compound Arg1:T30 Arg2:T29
+R19	compound Arg1:T39 Arg2:T38
+R20	is-specialized-by Arg1:T39 Arg2:T34

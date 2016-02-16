@@ -1,0 +1,39 @@
+T0	segment 0 6	Viasat
+T1	segment 7 13	Hockey
+T2	segment 14 16	is
+T3	segment 17 18	a
+T4	segment 19 25	sports
+T5	segment 26 33	channel
+T6	segment 34 38	that
+T7	segment 39 41	is
+T8	segment 42 54	broadcasting
+T9	segment 55 59	from
+T10	segment 60 63	the
+T11	segment 64 70	United
+T12	segment 71 78	Kingdom
+T13	segment 78 79	,
+T14	segment 80 89	primarily
+T15	segment 90 99	targeting
+T16	segment 100 106	Sweden
+T17	segment 107 110	but
+T18	segment 111 115	also
+T19	segment 116 125	available
+T20	segment 126 128	in
+T21	segment 129 136	Finland
+T22	segment 137 140	and
+T23	segment 141 147	Norway
+T24	segment 148 149	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	compound Arg1:T5 Arg2:T4
+R4	s_p Arg1:T6 Arg2:T8
+R5	p_c Arg1:T8 Arg2:T9
+R6	compound Arg1:T8 Arg2:T7
+R7	c_co Arg1:T9 Arg2:T12
+R8	compound Arg1:T12 Arg2:T11
+R9	p_o Arg1:T15 Arg2:T16
+R10	is-specialized-by Arg1:T15 Arg2:T14
+R11	is-specialized-by Arg1:T19 Arg2:T18
+R12	is-specialized-by Arg1:T19 Arg2:T20
+R13	c_co Arg1:T20 Arg2:T21

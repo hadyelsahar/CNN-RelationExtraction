@@ -1,0 +1,61 @@
+T0	segment 0 4	BMMI
+T1	segment 5 7	is
+T2	segment 8 9	a
+T3	segment 10 16	retail
+T4	segment 16 17	,
+T5	segment 18 30	distribution
+T6	segment 30 31	,
+T7	segment 32 35	and
+T8	segment 36 44	contract
+T9	segment 45 51	supply
+T10	segment 52 57	group
+T11	segment 58 71	headquartered
+T12	segment 72 74	in
+T13	segment 75 78	the
+T14	segment 79 86	Kingdom
+T15	segment 87 89	of
+T16	segment 90 97	Bahrain
+T17	segment 97 98	,
+T18	segment 99 103	with
+T19	segment 104 112	overseas
+T20	segment 113 120	offices
+T21	segment 121 123	in
+T22	segment 124 129	Qatar
+T23	segment 129 130	,
+T24	segment 131 139	Djibouti
+T25	segment 139 140	,
+T26	segment 141 146	Ghana
+T27	segment 146 147	,
+T28	segment 148 153	Gabon
+T29	segment 153 154	,
+T30	segment 155 160	Kenya
+T31	segment 160 161	,
+T32	segment 162 166	Mali
+T33	segment 166 167	,
+T34	segment 168 173	Sudan
+T35	segment 173 174	,
+T36	segment 175 180	South
+T37	segment 181 186	Sudan
+T38	segment 187 190	and
+T39	segment 191 201	Washington
+T40	segment 201 202	,
+T41	segment 203 204	D
+T42	segment 205 206	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	compound Arg1:T10 Arg2:T8
+R3	compound Arg1:T10 Arg2:T9
+R4	is-specialized-by Arg1:T11 Arg2:T12
+R5	c_co Arg1:T12 Arg2:T14
+R6	is-specialized-by Arg1:T14 Arg2:T15
+R7	c_co Arg1:T15 Arg2:T41
+R8	compound Arg1:T16 Arg2:T14
+R9	compound Arg1:T16 Arg2:T15
+R10	c_co Arg1:T18 Arg2:T20
+R11	is-specialized-by Arg1:T20 Arg2:T19
+R12	is-specialized-by Arg1:T20 Arg2:T21
+R13	c_co Arg1:T21 Arg2:T37
+R14	compound Arg1:T37 Arg2:T36
+R15	compound Arg1:T37 Arg2:T22
+R16	is-specialized-by Arg1:T41 Arg2:T18
+R17	compound Arg1:T41 Arg2:T16

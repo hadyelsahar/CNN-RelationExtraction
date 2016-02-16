@@ -1,0 +1,29 @@
+T0	segment 0 7	Yankton
+T1	segment 8 10	is
+T2	segment 11 12	a
+T3	segment 13 17	city
+T4	segment 18 20	in
+T5	segment 20 21	,
+T6	segment 22 25	and
+T7	segment 26 29	the
+T8	segment 30 36	county
+T9	segment 37 41	seat
+T10	segment 42 44	of
+T11	segment 44 45	,
+T12	segment 46 53	Yankton
+T13	segment 54 60	County
+T14	segment 60 61	,
+T15	segment 62 67	South
+T16	segment 68 74	Dakota
+T17	segment 74 75	,
+T18	segment 76 82	United
+T19	segment 83 89	States
+T20	segment 90 91	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T9 Arg2:T10
+R3	compound Arg1:T9 Arg2:T8
+R4	c_co Arg1:T10 Arg2:T16
+R5	compound Arg1:T13 Arg2:T12
+R6	compound Arg1:T16 Arg2:T15
+R7	compound Arg1:T19 Arg2:T18

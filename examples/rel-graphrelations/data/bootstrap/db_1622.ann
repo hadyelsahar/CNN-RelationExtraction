@@ -1,0 +1,39 @@
+T0	segment 0 5	Frank
+T1	segment 6 12	Glazer
+T2	segment 13 17	With
+T3	segment 18 21	his
+T4	segment 22 26	wife
+T5	segment 26 27	,
+T6	segment 28 32	Ruth
+T7	segment 32 33	,
+T8	segment 34 36	he
+T9	segment 37 44	founded
+T10	segment 45 47	in
+T11	segment 48 51	the
+T12	segment 52 57	1970s
+T13	segment 58 61	the
+T14	segment 62 66	Saco
+T15	segment 67 72	River
+T16	segment 73 81	Festival
+T17	segment 82 84	in
+T18	segment 85 90	Maine
+T19	segment 90 91	,
+T20	segment 92 93	a
+T21	segment 94 100	summer
+T22	segment 101 108	chamber
+T23	segment 109 115	series
+T24	segment 116 117	.
+R0	compound Arg1:T1 Arg2:T0
+R1	c_co Arg1:T2 Arg2:T1
+R2	s_p Arg1:T8 Arg2:T9
+R3	p_c Arg1:T9 Arg2:T10
+R4	p_o Arg1:T9 Arg2:T16
+R5	p_c Arg1:T9 Arg2:T2
+R6	c_co Arg1:T10 Arg2:T12
+R7	compound Arg1:T12 Arg2:T11
+R8	compound Arg1:T16 Arg2:T14
+R9	is-specialized-by Arg1:T16 Arg2:T17
+R10	compound Arg1:T16 Arg2:T15
+R11	c_co Arg1:T17 Arg2:T18
+R12	compound Arg1:T23 Arg2:T22
+R13	compound Arg1:T23 Arg2:T21

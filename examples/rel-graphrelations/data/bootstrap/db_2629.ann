@@ -1,0 +1,69 @@
+T0	segment 0 5	Ilana
+T1	segment 6 12	Mercer
+T2	segment 13 15	is
+T3	segment 16 17	a
+T4	segment 18 24	writer
+T5	segment 24 25	,
+T6	segment 26 30	born
+T7	segment 31 33	in
+T8	segment 34 39	South
+T9	segment 40 46	Africa
+T10	segment 47 49	to
+T11	segment 50 55	Rabbi
+T12	segment 56 59	Ben
+T13	segment 60 68	Isaacson
+T14	segment 69 72	and
+T15	segment 73 79	raised
+T16	segment 80 82	in
+T17	segment 83 89	Israel
+T18	segment 89 90	,
+T19	segment 91 96	where
+T20	segment 97 100	the
+T21	segment 101 107	family
+T22	segment 108 115	decided
+T23	segment 116 118	to
+T24	segment 119 123	move
+T25	segment 124 129	after
+T26	segment 130 135	Rabbi
+T27	segment 136 139	Ben
+T28	segment 140 148	Isaacson
+T29	segment 148 150	's
+T30	segment 151 165	anti-apartheid
+T31	segment 166 175	preaching
+T32	segment 176 179	and
+T33	segment 180 188	activism
+T34	segment 189 192	led
+T35	segment 193 195	to
+T36	segment 196 201	their
+T37	segment 202 212	harassment
+T38	segment 213 215	by
+T39	segment 216 221	South
+T40	segment 222 229	African
+T41	segment 230 238	security
+T42	segment 239 245	forces
+T43	segment 246 247	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T4
+R3	is-specialized-by Arg1:T6 Arg2:T7
+R4	is-specialized-by Arg1:T6 Arg2:T10
+R5	c_co Arg1:T7 Arg2:T9
+R6	compound Arg1:T9 Arg2:T8
+R7	c_co Arg1:T10 Arg2:T13
+R8	compound Arg1:T13 Arg2:T12
+R9	compound Arg1:T13 Arg2:T11
+R10	is-specialized-by Arg1:T15 Arg2:T16
+R11	c_co Arg1:T16 Arg2:T17
+R12	s_p Arg1:T21 Arg2:T22
+R13	p_c Arg1:T22 Arg2:T19
+R14	compound Arg1:T28 Arg2:T27
+R15	compound Arg1:T28 Arg2:T26
+R16	s_p Arg1:T31 Arg2:T34
+R17	is-specialized-by Arg1:T31 Arg2:T30
+R18	p_c Arg1:T34 Arg2:T38
+R19	p_c Arg1:T34 Arg2:T35
+R20	c_co Arg1:T35 Arg2:T37
+R21	c_co Arg1:T38 Arg2:T42
+R22	compound Arg1:T40 Arg2:T39
+R23	is-specialized-by Arg1:T42 Arg2:T40
+R24	compound Arg1:T42 Arg2:T41

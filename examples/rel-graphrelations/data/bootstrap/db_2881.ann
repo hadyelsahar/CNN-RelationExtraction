@@ -1,0 +1,68 @@
+T0	segment 0 3	The
+T1	segment 4 12	Stickeen
+T2	segment 13 24	Territories
+T3	segment 25 26	,
+T4	segment 27 31	also
+T5	segment 32 44	colloquially
+T6	segment 45 53	rendered
+T7	segment 54 56	as
+T8	segment 57 65	Stickeen
+T9	segment 66 75	Territory
+T10	segment 75 76	,
+T11	segment 77 84	Stikine
+T12	segment 85 94	Territory
+T13	segment 94 95	,
+T14	segment 96 99	and
+T15	segment 100 107	Stikeen
+T16	segment 108 117	Territory
+T17	segment 117 118	,
+T18	segment 119 122	was
+T19	segment 123 124	a
+T20	segment 125 134	territory
+T21	segment 135 137	of
+T22	segment 138 145	British
+T23	segment 146 151	North
+T24	segment 152 159	America
+T25	segment 160 165	whose
+T26	segment 166 171	brief
+T27	segment 172 181	existence
+T28	segment 182 187	began
+T29	segment 188 192	July
+T30	segment 193 195	19
+T31	segment 195 196	,
+T32	segment 197 201	1862
+T33	segment 201 202	,
+T34	segment 203 206	and
+T35	segment 207 216	concluded
+T36	segment 217 221	July
+T37	segment 222 224	of
+T38	segment 225 228	the
+T39	segment 229 238	following
+T40	segment 239 243	year
+T41	segment 244 245	.
+R0	s_p Arg1:T2 Arg2:T18
+R1	compound Arg1:T2 Arg2:T1
+R2	is-specialized-by Arg1:T6 Arg2:T7
+R3	is-specialized-by Arg1:T6 Arg2:T4
+R4	c_co Arg1:T7 Arg2:T9
+R5	compound Arg1:T9 Arg2:T8
+R6	compound Arg1:T12 Arg2:T11
+R7	compound Arg1:T16 Arg2:T15
+R8	p_o Arg1:T18 Arg2:T20
+R9	is-specialized-by Arg1:T20 Arg2:T21
+R10	c_co Arg1:T21 Arg2:T24
+R11	compound Arg1:T24 Arg2:T23
+R12	is-specialized-by Arg1:T24 Arg2:T22
+R13	is-specialized-by Arg1:T27 Arg2:T26
+R14	s_p Arg1:T27 Arg2:T28
+R15	is-specialized-by Arg1:T29 Arg2:T30
+R16	compound Arg1:T32 Arg2:T30
+R17	compound Arg1:T32 Arg2:T29
+R18	compound Arg1:T32 Arg2:T31
+R19	p_o Arg1:T35 Arg2:T36
+R20	is-specialized-by Arg1:T36 Arg2:T37
+R21	c_co Arg1:T37 Arg2:T40
+R22	compound Arg1:T40 Arg2:T36
+R23	compound Arg1:T40 Arg2:T38
+R24	compound Arg1:T40 Arg2:T37
+R25	compound Arg1:T40 Arg2:T39

@@ -1,0 +1,46 @@
+T0	segment 0 3	The
+T1	segment 4 11	Kingdom
+T2	segment 12 14	of
+T3	segment 15 21	Saxony
+T4	segment 22 23	,
+T5	segment 24 31	lasting
+T6	segment 32 39	between
+T7	segment 40 44	1806
+T8	segment 45 48	and
+T9	segment 49 53	1918
+T10	segment 53 54	,
+T11	segment 55 58	was
+T12	segment 59 61	an
+T13	segment 62 73	independent
+T14	segment 74 80	member
+T15	segment 81 83	of
+T16	segment 84 85	a
+T17	segment 86 92	number
+T18	segment 93 95	of
+T19	segment 96 106	historical
+T20	segment 107 120	confederacies
+T21	segment 121 123	in
+T22	segment 124 134	Napoleonic
+T23	segment 135 142	through
+T24	segment 143 158	post-Napoleonic
+T25	segment 159 166	Germany
+T26	segment 167 168	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T11
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T5 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T6
+R5	compound Arg1:T9 Arg2:T8
+R6	compound Arg1:T9 Arg2:T7
+R7	p_o Arg1:T11 Arg2:T14
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	is-specialized-by Arg1:T14 Arg2:T13
+R10	is-specialized-by Arg1:T14 Arg2:T23
+R11	c_co Arg1:T15 Arg2:T17
+R12	is-specialized-by Arg1:T17 Arg2:T18
+R13	c_co Arg1:T18 Arg2:T20
+R14	is-specialized-by Arg1:T20 Arg2:T19
+R15	is-specialized-by Arg1:T20 Arg2:T21
+R16	c_co Arg1:T21 Arg2:T22
+R17	c_co Arg1:T23 Arg2:T25
+R18	compound Arg1:T25 Arg2:T24

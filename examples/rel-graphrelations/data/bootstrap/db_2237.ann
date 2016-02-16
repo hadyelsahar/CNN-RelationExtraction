@@ -1,0 +1,34 @@
+T0	segment 0 3	The
+T1	segment 4 12	Yusafzai
+T2	segment 13 18	State
+T3	segment 19 21	of
+T4	segment 22 26	Swat
+T5	segment 27 30	and
+T6	segment 31 40	continued
+T7	segment 41 47	within
+T8	segment 48 51	its
+T9	segment 52 56	1947
+T10	segment 57 64	borders
+T11	segment 65 70	until
+T12	segment 71 75	1969
+T13	segment 75 76	,
+T14	segment 77 81	when
+T15	segment 82 84	it
+T16	segment 85 88	was
+T17	segment 89 98	dissolved
+T18	segment 99 100	.
+R0	s_p Arg1:T2 Arg2:T6
+R1	is-specialized-by Arg1:T2 Arg2:T3
+R2	compound Arg1:T2 Arg2:T1
+R3	c_co Arg1:T3 Arg2:T4
+R4	compound Arg1:T4 Arg2:T3
+R5	compound Arg1:T4 Arg2:T2
+R6	compound Arg1:T4 Arg2:T1
+R7	p_c Arg1:T6 Arg2:T7
+R8	p_c Arg1:T6 Arg2:T11
+R9	c_co Arg1:T7 Arg2:T10
+R10	is-specialized-by Arg1:T10 Arg2:T9
+R11	c_co Arg1:T11 Arg2:T12
+R12	s_p Arg1:T15 Arg2:T17
+R13	p_c Arg1:T17 Arg2:T14
+R14	compound Arg1:T17 Arg2:T16

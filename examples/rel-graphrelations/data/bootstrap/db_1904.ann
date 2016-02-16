@@ -1,0 +1,32 @@
+T0	segment 0 35	Sayn-Wittgenstein-Sayn-Altenkirchen
+T1	segment 36 37	,
+T2	segment 38 39	a
+T3	segment 40 45	title
+T4	segment 46 51	which
+T5	segment 52 61	descended
+T6	segment 62 69	through
+T7	segment 70 73	the
+T8	segment 74 80	female
+T9	segment 81 85	line
+T10	segment 86 89	and
+T11	segment 90 92	is
+T12	segment 93 96	now
+T13	segment 97 98	a
+T14	segment 99 104	title
+T15	segment 105 107	of
+T16	segment 108 111	the
+T17	segment 112 117	Grand
+T18	segment 118 122	Duke
+T19	segment 123 125	of
+T20	segment 126 136	Luxembourg
+T21	segment 137 138	.
+R0	s_p Arg1:T4 Arg2:T5
+R1	p_c Arg1:T5 Arg2:T6
+R2	c_co Arg1:T6 Arg2:T9
+R3	is-specialized-by Arg1:T9 Arg2:T8
+R4	is-specialized-by Arg1:T14 Arg2:T15
+R5	is-specialized-by Arg1:T14 Arg2:T12
+R6	c_co Arg1:T15 Arg2:T18
+R7	is-specialized-by Arg1:T18 Arg2:T19
+R8	compound Arg1:T18 Arg2:T17
+R9	c_co Arg1:T19 Arg2:T20

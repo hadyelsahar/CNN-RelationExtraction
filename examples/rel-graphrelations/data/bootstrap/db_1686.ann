@@ -1,0 +1,39 @@
+T0	segment 0 5	SACMI
+T1	segment 6 8	is
+T2	segment 9 11	an
+T3	segment 12 25	international
+T4	segment 26 38	manufacturer
+T5	segment 39 41	of
+T6	segment 42 50	machines
+T7	segment 51 54	and
+T8	segment 55 63	complete
+T9	segment 64 70	plants
+T10	segment 71 74	for
+T11	segment 75 78	the
+T12	segment 79 86	ceramic
+T13	segment 87 91	tile
+T14	segment 91 92	,
+T15	segment 93 101	beverage
+T16	segment 101 102	,
+T17	segment 103 112	packaging
+T18	segment 112 113	,
+T19	segment 114 121	quality
+T20	segment 122 129	control
+T21	segment 130 137	process
+T22	segment 137 138	,
+T23	segment 139 142	and
+T24	segment 143 151	plastics
+T25	segment 152 162	industries
+T26	segment 163 164	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T6
+R5	is-specialized-by Arg1:T9 Arg2:T8
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T13
+R8	is-specialized-by Arg1:T13 Arg2:T12
+R9	compound Arg1:T21 Arg2:T20
+R10	compound Arg1:T21 Arg2:T19
+R11	compound Arg1:T25 Arg2:T24

@@ -1,0 +1,48 @@
+T0	segment 0 6	Criteo
+T1	segment 7 9	is
+T2	segment 10 11	a
+T3	segment 12 13	''
+T4	segment 13 14	``
+T5	segment 14 26	personalized
+T6	segment 27 38	retargeting
+T7	segment 39 46	company
+T8	segment 46 47	''
+T9	segment 47 48	''
+T10	segment 49 53	that
+T11	segment 54 59	works
+T12	segment 60 64	with
+T13	segment 65 73	Internet
+T14	segment 74 83	retailers
+T15	segment 84 86	to
+T16	segment 87 92	serve
+T17	segment 93 105	personalized
+T18	segment 106 112	online
+T19	segment 113 120	display
+T20	segment 121 135	advertisements
+T21	segment 136 138	to
+T22	segment 139 148	consumers
+T23	segment 149 153	that
+T24	segment 154 158	have
+T25	segment 159 169	previously
+T26	segment 170 177	visited
+T27	segment 178 181	the
+T28	segment 182 192	advertiser
+T29	segment 192 194	's
+T30	segment 195 202	website
+T31	segment 203 204	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T2
+R2	p_o Arg1:T5 Arg2:T6
+R3	s_p Arg1:T10 Arg2:T11
+R4	p_c Arg1:T11 Arg2:T12
+R5	c_co Arg1:T12 Arg2:T14
+R6	compound Arg1:T14 Arg2:T13
+R7	p_o Arg1:T16 Arg2:T20
+R8	is-specialized-by Arg1:T16 Arg2:T21
+R9	compound Arg1:T20 Arg2:T19
+R10	is-specialized-by Arg1:T20 Arg2:T17
+R11	c_co Arg1:T21 Arg2:T22
+R12	s_p Arg1:T23 Arg2:T26
+R13	p_o Arg1:T26 Arg2:T30
+R14	compound Arg1:T26 Arg2:T24
+R15	p_c Arg1:T26 Arg2:T25

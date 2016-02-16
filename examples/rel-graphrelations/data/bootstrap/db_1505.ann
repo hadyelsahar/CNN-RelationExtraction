@@ -1,0 +1,25 @@
+T0	segment 0 6	Robert
+T1	segment 7 13	Irving
+T2	segment 14 17	III
+T3	segment 18 25	resumed
+T4	segment 26 29	his
+T5	segment 30 36	career
+T6	segment 37 39	as
+T7	segment 40 41	a
+T8	segment 42 51	recording
+T9	segment 52 58	artist
+T10	segment 59 64	under
+T11	segment 65 68	his
+T12	segment 69 72	own
+T13	segment 73 77	name
+T14	segment 78 79	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_c Arg1:T3 Arg2:T6
+R4	p_o Arg1:T3 Arg2:T5
+R5	p_c Arg1:T3 Arg2:T10
+R6	c_co Arg1:T6 Arg2:T9
+R7	compound Arg1:T9 Arg2:T8
+R8	c_co Arg1:T10 Arg2:T13
+R9	is-specialized-by Arg1:T13 Arg2:T12

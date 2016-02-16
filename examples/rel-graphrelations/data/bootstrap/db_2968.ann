@@ -1,0 +1,29 @@
+T0	segment 0 8	Drusilla
+T1	segment 9 11	of
+T2	segment 12 22	Mauretania
+T3	segment 23 26	may
+T4	segment 27 29	be
+T5	segment 30 33	the
+T6	segment 34 42	Drusilla
+T7	segment 43 52	mentioned
+T8	segment 53 55	by
+T9	segment 56 63	Tacitus
+T10	segment 64 66	as
+T11	segment 67 68	a
+T12	segment 69 82	granddaughter
+T13	segment 83 85	of
+T14	segment 86 94	Antonius
+T15	segment 95 98	and
+T16	segment 99 108	Cleopatra
+T17	segment 109 110	.
+R0	is-specialized-by Arg1:T0 Arg2:T1
+R1	s_p Arg1:T0 Arg2:T4
+R2	c_co Arg1:T1 Arg2:T2
+R3	p_o Arg1:T4 Arg2:T6
+R4	compound Arg1:T6 Arg2:T3
+R5	is-specialized-by Arg1:T7 Arg2:T8
+R6	is-specialized-by Arg1:T7 Arg2:T10
+R7	c_co Arg1:T8 Arg2:T9
+R8	c_co Arg1:T10 Arg2:T12
+R9	is-specialized-by Arg1:T12 Arg2:T13
+R10	c_co Arg1:T13 Arg2:T14

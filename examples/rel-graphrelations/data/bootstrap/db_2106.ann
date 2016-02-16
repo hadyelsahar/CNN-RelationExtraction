@@ -1,0 +1,36 @@
+T0	segment 0 5	Ahmad
+T1	segment 6 15	Badreddin
+T2	segment 16 23	Hassoun
+T3	segment 24 25	--
+T4	segment 26 28	or
+T5	segment 29 34	Ahmad
+T6	segment 35 39	Badr
+T7	segment 40 46	Al-Din
+T8	segment 47 54	Hassoun
+T9	segment 55 56	--
+T10	segment 57 60	has
+T11	segment 61 65	been
+T12	segment 66 69	the
+T13	segment 70 75	Grand
+T14	segment 76 81	Mufti
+T15	segment 82 84	of
+T16	segment 85 90	Syria
+T17	segment 91 96	since
+T18	segment 97 101	July
+T19	segment 102 106	2005
+T20	segment 107 108	.
+R0	s_p Arg1:T2 Arg2:T11
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	compound Arg1:T8 Arg2:T6
+R4	compound Arg1:T8 Arg2:T5
+R5	compound Arg1:T8 Arg2:T7
+R6	p_o Arg1:T11 Arg2:T14
+R7	is-specialized-by Arg1:T14 Arg2:T15
+R8	compound Arg1:T14 Arg2:T13
+R9	compound Arg1:T14 Arg2:T10
+R10	is-specialized-by Arg1:T14 Arg2:T17
+R11	c_co Arg1:T15 Arg2:T16
+R12	c_co Arg1:T17 Arg2:T18
+R13	is-specialized-by Arg1:T18 Arg2:T19
+R14	compound Arg1:T19 Arg2:T18

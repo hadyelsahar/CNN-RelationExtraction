@@ -1,0 +1,58 @@
+T0	segment 0 10	Miracleman
+T1	segment 10 11	,
+T2	segment 12 20	formerly
+T3	segment 21 26	known
+T4	segment 27 29	as
+T5	segment 30 39	Marvelman
+T6	segment 39 40	,
+T7	segment 41 43	is
+T8	segment 44 45	a
+T9	segment 46 55	fictional
+T10	segment 56 65	character
+T11	segment 65 66	,
+T12	segment 67 68	a
+T13	segment 69 78	superhero
+T14	segment 79 83	that
+T15	segment 84 91	appears
+T16	segment 92 94	in
+T17	segment 95 101	comics
+T18	segment 102 111	published
+T19	segment 112 114	by
+T20	segment 115 121	Marvel
+T21	segment 122 128	Comics
+T22	segment 129 133	that
+T23	segment 134 137	was
+T24	segment 138 145	created
+T25	segment 146 148	in
+T26	segment 149 153	1954
+T27	segment 154 156	by
+T28	segment 157 170	writer-artist
+T29	segment 171 175	Mick
+T30	segment 176 181	Anglo
+T31	segment 182 185	for
+T32	segment 186 195	publisher
+T33	segment 196 197	L
+T34	segment 198 199	.
+R0	s_p Arg1:T0 Arg2:T7
+R1	is-specialized-by Arg1:T3 Arg2:T2
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T5
+R4	p_o Arg1:T7 Arg2:T10
+R5	is-specialized-by Arg1:T10 Arg2:T9
+R6	s_p Arg1:T14 Arg2:T15
+R7	p_c Arg1:T15 Arg2:T16
+R8	c_co Arg1:T16 Arg2:T17
+R9	is-specialized-by Arg1:T18 Arg2:T19
+R10	c_co Arg1:T19 Arg2:T21
+R11	compound Arg1:T21 Arg2:T20
+R12	s_p Arg1:T22 Arg2:T24
+R13	p_c Arg1:T24 Arg2:T25
+R14	compound Arg1:T24 Arg2:T23
+R15	p_c Arg1:T24 Arg2:T27
+R16	c_co Arg1:T25 Arg2:T26
+R17	c_co Arg1:T27 Arg2:T30
+R18	compound Arg1:T30 Arg2:T28
+R19	is-specialized-by Arg1:T30 Arg2:T31
+R20	compound Arg1:T30 Arg2:T29
+R21	c_co Arg1:T31 Arg2:T33
+R22	compound Arg1:T33 Arg2:T32

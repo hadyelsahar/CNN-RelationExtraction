@@ -1,0 +1,32 @@
+T0	segment 0 4	Arab
+T1	segment 5 11	Bridge
+T2	segment 12 20	Maritime
+T3	segment 21 28	Company
+T4	segment 29 32	was
+T5	segment 33 40	founded
+T6	segment 41 43	in
+T7	segment 44 52	November
+T8	segment 53 57	1985
+T9	segment 57 58	,
+T10	segment 59 61	to
+T11	segment 62 69	connect
+T12	segment 70 80	commercial
+T13	segment 81 87	routes
+T14	segment 88 90	in
+T15	segment 91 95	Asia
+T16	segment 96 99	and
+T17	segment 100 106	Africa
+T18	segment 107 108	.
+R0	s_p Arg1:T3 Arg2:T5
+R1	compound Arg1:T3 Arg2:T0
+R2	compound Arg1:T3 Arg2:T2
+R3	compound Arg1:T3 Arg2:T1
+R4	compound Arg1:T5 Arg2:T4
+R5	p_c Arg1:T5 Arg2:T6
+R6	c_co Arg1:T6 Arg2:T7
+R7	is-specialized-by Arg1:T7 Arg2:T8
+R8	compound Arg1:T8 Arg2:T7
+R9	p_o Arg1:T11 Arg2:T13
+R10	is-specialized-by Arg1:T11 Arg2:T14
+R11	is-specialized-by Arg1:T13 Arg2:T12
+R12	c_co Arg1:T14 Arg2:T15

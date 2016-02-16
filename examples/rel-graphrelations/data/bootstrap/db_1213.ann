@@ -1,0 +1,32 @@
+T0	segment 0 7	Maakhir
+T1	segment 8 11	was
+T2	segment 12 14	an
+T3	segment 15 25	autonomous
+T4	segment 26 32	region
+T5	segment 33 35	in
+T6	segment 36 44	northern
+T7	segment 45 52	Somalia
+T8	segment 52 53	,
+T9	segment 54 62	situated
+T10	segment 63 65	in
+T11	segment 66 68	an
+T12	segment 69 73	area
+T13	segment 74 82	disputed
+T14	segment 83 85	by
+T15	segment 86 89	the
+T16	segment 90 100	Somaliland
+T17	segment 101 104	and
+T18	segment 105 113	Puntland
+T19	segment 114 127	macro-regions
+T20	segment 128 129	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T7
+R5	is-specialized-by Arg1:T7 Arg2:T6
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T12
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T19
+R10	compound Arg1:T19 Arg2:T16

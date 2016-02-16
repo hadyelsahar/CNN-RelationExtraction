@@ -1,0 +1,47 @@
+T0	segment 0 3	The
+T1	segment 4 15	Confederate
+T2	segment 16 24	Monument
+T3	segment 25 27	of
+T4	segment 28 39	Morganfield
+T5	segment 39 40	,
+T6	segment 41 49	Kentucky
+T7	segment 50 52	is
+T8	segment 53 54	a
+T9	segment 55 63	monument
+T10	segment 64 66	to
+T11	segment 67 78	Confederate
+T12	segment 79 87	soldiers
+T13	segment 88 92	from
+T14	segment 93 104	surrounding
+T15	segment 105 110	Union
+T16	segment 111 117	County
+T17	segment 117 118	,
+T18	segment 119 127	Kentucky
+T19	segment 127 128	,
+T20	segment 129 131	of
+T21	segment 132 137	which
+T22	segment 138 149	Morganfield
+T23	segment 150 152	is
+T24	segment 153 156	the
+T25	segment 157 163	county
+T26	segment 164 168	seat
+T27	segment 169 170	.
+R0	is-specialized-by Arg1:T2 Arg2:T1
+R1	is-specialized-by Arg1:T2 Arg2:T3
+R2	s_p Arg1:T2 Arg2:T7
+R3	c_co Arg1:T3 Arg2:T6
+R4	compound Arg1:T4 Arg2:T3
+R5	compound Arg1:T4 Arg2:T2
+R6	compound Arg1:T4 Arg2:T1
+R7	compound Arg1:T6 Arg2:T4
+R8	p_o Arg1:T7 Arg2:T9
+R9	is-specialized-by Arg1:T9 Arg2:T10
+R10	c_co Arg1:T10 Arg2:T12
+R11	is-specialized-by Arg1:T12 Arg2:T11
+R12	p_o Arg1:T14 Arg2:T16
+R13	compound Arg1:T16 Arg2:T15
+R14	c_co Arg1:T20 Arg2:T21
+R15	s_p Arg1:T22 Arg2:T23
+R16	p_o Arg1:T23 Arg2:T26
+R17	is-specialized-by Arg1:T26 Arg2:T20
+R18	compound Arg1:T26 Arg2:T25

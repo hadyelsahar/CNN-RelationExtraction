@@ -1,0 +1,49 @@
+T0	segment 0 10	Portuguese
+T1	segment 11 21	Mozambique
+T2	segment 22 24	or
+T3	segment 25 35	Portuguese
+T4	segment 36 40	East
+T5	segment 41 47	Africa
+T6	segment 48 51	are
+T7	segment 52 55	the
+T8	segment 56 62	common
+T9	segment 63 68	terms
+T10	segment 69 71	by
+T11	segment 72 77	which
+T12	segment 78 79	`
+T13	segment 79 89	Mozambique
+T14	segment 89 90	'
+T15	segment 91 93	is
+T16	segment 94 104	designated
+T17	segment 105 109	when
+T18	segment 110 119	referring
+T19	segment 120 122	to
+T20	segment 123 126	the
+T21	segment 127 135	historic
+T22	segment 136 142	period
+T23	segment 143 147	when
+T24	segment 148 150	it
+T25	segment 151 154	was
+T26	segment 155 156	a
+T27	segment 157 167	Portuguese
+T28	segment 168 176	overseas
+T29	segment 177 186	territory
+T30	segment 187 188	.
+R0	s_p Arg1:T1 Arg2:T6
+R1	compound Arg1:T1 Arg2:T0
+R2	compound Arg1:T5 Arg2:T4
+R3	compound Arg1:T5 Arg2:T3
+R4	p_o Arg1:T6 Arg2:T9
+R5	is-specialized-by Arg1:T9 Arg2:T8
+R6	c_co Arg1:T10 Arg2:T11
+R7	s_p Arg1:T13 Arg2:T16
+R8	p_c Arg1:T16 Arg2:T10
+R9	compound Arg1:T16 Arg2:T15
+R10	is-specialized-by Arg1:T18 Arg2:T17
+R11	is-specialized-by Arg1:T18 Arg2:T19
+R12	c_co Arg1:T19 Arg2:T22
+R13	is-specialized-by Arg1:T22 Arg2:T21
+R14	s_p Arg1:T24 Arg2:T25
+R15	p_o Arg1:T25 Arg2:T29
+R16	is-specialized-by Arg1:T29 Arg2:T23
+R17	is-specialized-by Arg1:T29 Arg2:T27

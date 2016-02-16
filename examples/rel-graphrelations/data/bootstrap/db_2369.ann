@@ -1,0 +1,40 @@
+T0	segment 0 3	The
+T1	segment 4 13	Mordovian
+T2	segment 14 24	Autonomous
+T3	segment 25 31	Soviet
+T4	segment 32 41	Socialist
+T5	segment 42 50	Republic
+T6	segment 51 54	was
+T7	segment 55 57	an
+T8	segment 58 68	autonomous
+T9	segment 69 77	republic
+T10	segment 78 80	of
+T11	segment 81 84	the
+T12	segment 85 91	Soviet
+T13	segment 92 97	Union
+T14	segment 97 98	,
+T15	segment 99 102	now
+T16	segment 103 108	known
+T17	segment 109 111	as
+T18	segment 112 115	the
+T19	segment 116 124	Republic
+T20	segment 125 127	of
+T21	segment 128 136	Mordovia
+T22	segment 137 138	.
+R0	compound Arg1:T5 Arg2:T4
+R1	compound Arg1:T5 Arg2:T3
+R2	s_p Arg1:T5 Arg2:T6
+R3	compound Arg1:T5 Arg2:T2
+R4	compound Arg1:T5 Arg2:T1
+R5	p_o Arg1:T6 Arg2:T9
+R6	is-specialized-by Arg1:T9 Arg2:T8
+R7	is-specialized-by Arg1:T9 Arg2:T10
+R8	c_co Arg1:T10 Arg2:T13
+R9	compound Arg1:T13 Arg2:T12
+R10	is-specialized-by Arg1:T16 Arg2:T15
+R11	is-specialized-by Arg1:T16 Arg2:T17
+R12	c_co Arg1:T17 Arg2:T19
+R13	is-specialized-by Arg1:T19 Arg2:T20
+R14	c_co Arg1:T20 Arg2:T21
+R15	compound Arg1:T21 Arg2:T20
+R16	compound Arg1:T21 Arg2:T19

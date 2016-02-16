@@ -1,0 +1,36 @@
+T0	segment 0 6	Burges
+T1	segment 7 13	Salmon
+T2	segment 14 17	LLP
+T3	segment 18 20	is
+T4	segment 21 22	a
+T5	segment 23 26	law
+T6	segment 27 31	firm
+T7	segment 32 37	based
+T8	segment 38 40	in
+T9	segment 41 48	Bristol
+T10	segment 48 49	,
+T11	segment 50 57	England
+T12	segment 57 58	,
+T13	segment 59 62	and
+T14	segment 63 66	one
+T15	segment 67 69	of
+T16	segment 70 73	the
+T17	segment 74 76	50
+T18	segment 77 84	largest
+T19	segment 85 87	in
+T20	segment 88 91	the
+T21	segment 92 94	UK
+T22	segment 95 96	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T6
+R4	compound Arg1:T6 Arg2:T5
+R5	is-specialized-by Arg1:T7 Arg2:T8
+R6	c_co Arg1:T8 Arg2:T11
+R7	compound Arg1:T11 Arg2:T9
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	c_co Arg1:T15 Arg2:T17
+R10	is-specialized-by Arg1:T17 Arg2:T18
+R11	is-specialized-by Arg1:T17 Arg2:T19
+R12	c_co Arg1:T19 Arg2:T21

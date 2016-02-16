@@ -1,0 +1,46 @@
+T0	segment 0 3	The
+T1	segment 4 9	North
+T2	segment 10 16	Borneo
+T3	segment 17 26	Chartered
+T4	segment 27 34	Company
+T5	segment 35 37	or
+T6	segment 38 45	British
+T7	segment 46 51	North
+T8	segment 52 58	Borneo
+T9	segment 59 66	Company
+T10	segment 67 70	was
+T11	segment 71 72	a
+T12	segment 73 82	chartered
+T13	segment 83 90	company
+T14	segment 91 99	assigned
+T15	segment 100 102	to
+T16	segment 103 113	administer
+T17	segment 114 119	North
+T18	segment 120 126	Borneo
+T19	segment 127 128	,
+T20	segment 129 134	which
+T21	segment 135 140	means
+T22	segment 141 142	''
+T23	segment 142 143	``
+T24	segment 143 144	I
+T25	segment 145 154	undertake
+T26	segment 155 158	and
+T27	segment 159 160	I
+T28	segment 161 168	achieve
+T29	segment 168 169	''
+T30	segment 169 170	''
+T31	segment 171 172	.
+R0	s_p Arg1:T4 Arg2:T10
+R1	compound Arg1:T4 Arg2:T3
+R2	compound Arg1:T4 Arg2:T2
+R3	compound Arg1:T4 Arg2:T1
+R4	compound Arg1:T9 Arg2:T6
+R5	compound Arg1:T9 Arg2:T8
+R6	compound Arg1:T9 Arg2:T7
+R7	p_o Arg1:T10 Arg2:T13
+R8	is-specialized-by Arg1:T13 Arg2:T12
+R9	p_o Arg1:T16 Arg2:T18
+R10	compound Arg1:T18 Arg2:T17
+R11	s_p Arg1:T20 Arg2:T21
+R12	s_p Arg1:T24 Arg2:T25
+R13	s_p Arg1:T27 Arg2:T28

@@ -1,0 +1,40 @@
+T0	segment 0 9	Advantage
+T1	segment 10 14	Rent
+T2	segment 15 16	a
+T3	segment 17 20	Car
+T4	segment 21 23	is
+T5	segment 24 25	a
+T6	segment 26 29	car
+T7	segment 30 36	rental
+T8	segment 37 44	company
+T9	segment 45 58	headquartered
+T10	segment 59 61	in
+T11	segment 62 65	San
+T12	segment 66 73	Antonio
+T13	segment 73 74	,
+T14	segment 75 80	Texas
+T15	segment 81 86	which
+T16	segment 87 89	at
+T17	segment 90 93	its
+T18	segment 94 98	peak
+T19	segment 99 107	operated
+T20	segment 108 112	more
+T21	segment 113 117	than
+T22	segment 118 121	150
+T23	segment 122 123	U
+T24	segment 124 125	.
+R0	compound Arg1:T1 Arg2:T0
+R1	s_p Arg1:T1 Arg2:T4
+R2	p_o Arg1:T4 Arg2:T8
+R3	is-specialized-by Arg1:T8 Arg2:T7
+R4	compound Arg1:T8 Arg2:T6
+R5	is-specialized-by Arg1:T9 Arg2:T10
+R6	c_co Arg1:T10 Arg2:T12
+R7	compound Arg1:T12 Arg2:T11
+R8	s_p Arg1:T15 Arg2:T19
+R9	c_co Arg1:T16 Arg2:T18
+R10	p_c Arg1:T19 Arg2:T16
+R11	p_o Arg1:T19 Arg2:T23
+R12	compound Arg1:T20 Arg2:T21
+R13	is-specialized-by Arg1:T22 Arg2:T20
+R14	is-specialized-by Arg1:T23 Arg2:T22

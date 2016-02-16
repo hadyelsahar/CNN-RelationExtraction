@@ -1,0 +1,56 @@
+T0	segment 0 3	The
+T1	segment 4 11	climate
+T2	segment 12 14	of
+T3	segment 15 18	the
+T4	segment 19 25	Nordic
+T5	segment 26 35	countries
+T6	segment 36 42	refers
+T7	segment 43 45	to
+T8	segment 46 47	a
+T9	segment 48 54	region
+T10	segment 55 57	in
+T11	segment 58 66	Northern
+T12	segment 67 73	Europe
+T13	segment 74 78	that
+T14	segment 79 87	consists
+T15	segment 88 90	of
+T16	segment 91 98	Denmark
+T17	segment 98 99	,
+T18	segment 100 107	Finland
+T19	segment 107 108	,
+T20	segment 109 116	Iceland
+T21	segment 116 117	,
+T22	segment 118 124	Norway
+T23	segment 125 128	and
+T24	segment 129 135	Sweden
+T25	segment 136 139	and
+T26	segment 140 145	their
+T27	segment 146 156	associated
+T28	segment 157 168	territories
+T29	segment 168 169	,
+T30	segment 170 175	which
+T31	segment 176 183	include
+T32	segment 184 187	the
+T33	segment 188 193	Faroe
+T34	segment 194 201	Islands
+T35	segment 201 202	,
+T36	segment 203 212	Greenland
+T37	segment 213 216	and
+T38	segment 217 222	Ãland
+T39	segment 223 224	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T6
+R2	c_co Arg1:T2 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	p_c Arg1:T6 Arg2:T7
+R5	c_co Arg1:T7 Arg2:T9
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T12
+R8	compound Arg1:T12 Arg2:T11
+R9	s_p Arg1:T13 Arg2:T14
+R10	p_c Arg1:T14 Arg2:T15
+R11	c_co Arg1:T15 Arg2:T16
+R12	is-specialized-by Arg1:T28 Arg2:T27
+R13	s_p Arg1:T30 Arg2:T31
+R14	p_o Arg1:T31 Arg2:T34
+R15	compound Arg1:T34 Arg2:T33

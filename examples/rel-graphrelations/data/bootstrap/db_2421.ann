@@ -1,0 +1,33 @@
+T0	segment 0 3	The
+T1	segment 4 10	Hashoo
+T2	segment 11 16	Group
+T3	segment 17 20	was
+T4	segment 21 32	established
+T5	segment 33 35	in
+T6	segment 36 40	1960
+T7	segment 41 43	by
+T8	segment 44 55	Saddaruddin
+T9	segment 56 64	Hashwani
+T10	segment 65 68	and
+T11	segment 69 71	is
+T12	segment 72 75	one
+T13	segment 76 78	of
+T14	segment 79 82	the
+T15	segment 83 89	larger
+T16	segment 90 103	conglomerates
+T17	segment 104 106	in
+T18	segment 107 115	Pakistan
+T19	segment 116 117	.
+R0	s_p Arg1:T2 Arg2:T4
+R1	compound Arg1:T2 Arg2:T1
+R2	compound Arg1:T4 Arg2:T3
+R3	p_c Arg1:T4 Arg2:T7
+R4	p_c Arg1:T4 Arg2:T5
+R5	c_co Arg1:T5 Arg2:T6
+R6	c_co Arg1:T7 Arg2:T9
+R7	compound Arg1:T9 Arg2:T8
+R8	is-specialized-by Arg1:T12 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T16
+R10	is-specialized-by Arg1:T16 Arg2:T15
+R11	is-specialized-by Arg1:T16 Arg2:T17
+R12	c_co Arg1:T17 Arg2:T18

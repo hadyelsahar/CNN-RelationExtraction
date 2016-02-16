@@ -1,0 +1,60 @@
+T0	segment 0 3	The
+T1	segment 4 15	Viceroyalty
+T2	segment 16 18	of
+T3	segment 19 22	New
+T4	segment 23 30	Granada
+T5	segment 31 34	was
+T6	segment 35 38	the
+T7	segment 39 43	name
+T8	segment 44 49	given
+T9	segment 50 52	on
+T10	segment 53 55	27
+T11	segment 56 59	May
+T12	segment 60 64	1717
+T13	segment 64 65	,
+T14	segment 66 68	to
+T15	segment 69 70	a
+T16	segment 71 78	Spanish
+T17	segment 79 87	colonial
+T18	segment 88 100	jurisdiction
+T19	segment 101 103	in
+T20	segment 104 112	northern
+T21	segment 113 118	South
+T22	segment 119 126	America
+T23	segment 126 127	,
+T24	segment 128 141	corresponding
+T25	segment 142 148	mainly
+T26	segment 149 151	to
+T27	segment 152 158	modern
+T28	segment 159 167	Colombia
+T29	segment 167 168	,
+T30	segment 169 176	Ecuador
+T31	segment 176 177	,
+T32	segment 178 184	Panama
+T33	segment 184 185	,
+T34	segment 186 189	and
+T35	segment 190 199	Venezuela
+T36	segment 200 201	.
+R0	s_p Arg1:T1 Arg2:T5
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	c_co Arg1:T2 Arg2:T4
+R3	compound Arg1:T4 Arg2:T3
+R4	p_o Arg1:T5 Arg2:T7
+R5	is-specialized-by Arg1:T7 Arg2:T14
+R6	is-specialized-by Arg1:T8 Arg2:T9
+R7	c_co Arg1:T9 Arg2:T10
+R8	is-specialized-by Arg1:T11 Arg2:T12
+R9	compound Arg1:T12 Arg2:T11
+R10	compound Arg1:T12 Arg2:T10
+R11	c_co Arg1:T14 Arg2:T18
+R12	is-specialized-by Arg1:T18 Arg2:T16
+R13	is-specialized-by Arg1:T18 Arg2:T19
+R14	compound Arg1:T18 Arg2:T17
+R15	c_co Arg1:T19 Arg2:T22
+R16	compound Arg1:T22 Arg2:T21
+R17	is-specialized-by Arg1:T22 Arg2:T20
+R18	is-specialized-by Arg1:T24 Arg2:T26
+R19	is-specialized-by Arg1:T24 Arg2:T25
+R20	c_co Arg1:T26 Arg2:T32
+R21	compound Arg1:T32 Arg2:T28
+R22	is-specialized-by Arg1:T32 Arg2:T27

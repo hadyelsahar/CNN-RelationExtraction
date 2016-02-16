@@ -1,0 +1,53 @@
+T0	segment 0 3	The
+T1	segment 4 10	Cameri
+T2	segment 11 18	Theater
+T3	segment 19 20	,
+T4	segment 21 32	established
+T5	segment 33 35	in
+T6	segment 36 40	1944
+T7	segment 41 43	in
+T8	segment 44 47	Tel
+T9	segment 48 52	Aviv
+T10	segment 52 53	,
+T11	segment 54 56	is
+T12	segment 57 60	one
+T13	segment 61 63	of
+T14	segment 64 67	the
+T15	segment 68 75	leading
+T16	segment 76 84	theaters
+T17	segment 85 87	in
+T18	segment 88 94	Israel
+T19	segment 94 95	,
+T20	segment 96 99	and
+T21	segment 100 102	is
+T22	segment 103 109	housed
+T23	segment 110 112	at
+T24	segment 113 116	the
+T25	segment 117 120	Tel
+T26	segment 121 125	Aviv
+T27	segment 126 136	Performing
+T28	segment 137 141	Arts
+T29	segment 142 148	Center
+T30	segment 149 150	.
+R0	s_p Arg1:T2 Arg2:T11
+R1	compound Arg1:T2 Arg2:T1
+R2	is-specialized-by Arg1:T4 Arg2:T7
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T6
+R5	c_co Arg1:T7 Arg2:T9
+R6	compound Arg1:T9 Arg2:T8
+R7	p_o Arg1:T11 Arg2:T12
+R8	is-specialized-by Arg1:T12 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T16
+R10	is-specialized-by Arg1:T16 Arg2:T15
+R11	is-specialized-by Arg1:T16 Arg2:T17
+R12	c_co Arg1:T17 Arg2:T18
+R13	is-specialized-by Arg1:T22 Arg2:T23
+R14	compound Arg1:T22 Arg2:T21
+R15	c_co Arg1:T23 Arg2:T26
+R16	compound Arg1:T26 Arg2:T25
+R17	s_p Arg1:T28 Arg2:T29
+R18	compound Arg1:T29 Arg2:T28
+R19	compound Arg1:T29 Arg2:T27
+R20	compound Arg1:T29 Arg2:T26
+R21	compound Arg1:T29 Arg2:T25

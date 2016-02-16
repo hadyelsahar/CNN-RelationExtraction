@@ -1,0 +1,38 @@
+T0	segment 0 9	Telestial
+T1	segment 10 12	is
+T2	segment 13 14	a
+T3	segment 15 21	mobile
+T4	segment 22 29	virtual
+T5	segment 30 37	network
+T6	segment 38 46	operator
+T7	segment 47 60	headquartered
+T8	segment 61 63	in
+T9	segment 64 70	Boston
+T10	segment 71 75	with
+T11	segment 76 77	a
+T12	segment 78 83	large
+T13	segment 84 89	share
+T14	segment 90 92	of
+T15	segment 93 98	North
+T16	segment 99 106	America
+T17	segment 106 108	's
+T18	segment 109 122	international
+T19	segment 123 127	cell
+T20	segment 128 133	phone
+T21	segment 134 140	market
+T22	segment 141 142	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T6
+R2	compound Arg1:T6 Arg2:T5
+R3	is-specialized-by Arg1:T6 Arg2:T3
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T7 Arg2:T10
+R6	c_co Arg1:T8 Arg2:T9
+R7	c_co Arg1:T10 Arg2:T13
+R8	is-specialized-by Arg1:T13 Arg2:T12
+R9	is-specialized-by Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T21
+R11	compound Arg1:T16 Arg2:T15
+R12	compound Arg1:T21 Arg2:T20
+R13	compound Arg1:T21 Arg2:T19
+R14	is-specialized-by Arg1:T21 Arg2:T18

@@ -1,0 +1,58 @@
+T0	segment 0 6	Boodle
+T1	segment 6 8	's
+T2	segment 9 11	is
+T3	segment 12 13	a
+T4	segment 14 20	London
+T5	segment 21 30	gentlemen
+T6	segment 30 32	's
+T7	segment 33 37	club
+T8	segment 37 38	,
+T9	segment 39 46	founded
+T10	segment 47 49	in
+T11	segment 50 54	1762
+T12	segment 54 55	,
+T13	segment 56 58	at
+T14	segment 59 61	49
+T15	segment 61 62	--
+T16	segment 62 64	51
+T17	segment 65 69	Pall
+T18	segment 70 74	Mall
+T19	segment 74 75	,
+T20	segment 76 82	London
+T21	segment 83 85	by
+T22	segment 86 90	Lord
+T23	segment 91 100	Shelburne
+T24	segment 100 101	,
+T25	segment 102 105	the
+T26	segment 106 112	future
+T27	segment 113 121	Marquess
+T28	segment 122 124	of
+T29	segment 125 134	Lansdowne
+T30	segment 135 138	and
+T31	segment 139 144	Prime
+T32	segment 145 153	Minister
+T33	segment 154 156	of
+T34	segment 157 160	the
+T35	segment 161 167	United
+T36	segment 168 175	Kingdom
+T37	segment 176 177	.
+R0	s_p Arg1:T0 Arg2:T2
+R1	p_o Arg1:T2 Arg2:T7
+R2	compound Arg1:T5 Arg2:T4
+R3	is-specialized-by Arg1:T9 Arg2:T10
+R4	is-specialized-by Arg1:T9 Arg2:T13
+R5	c_co Arg1:T10 Arg2:T11
+R6	c_co Arg1:T13 Arg2:T14
+R7	is-specialized-by Arg1:T18 Arg2:T16
+R8	compound Arg1:T18 Arg2:T17
+R9	is-specialized-by Arg1:T20 Arg2:T21
+R10	c_co Arg1:T21 Arg2:T23
+R11	compound Arg1:T23 Arg2:T22
+R12	compound Arg1:T26 Arg2:T25
+R13	is-specialized-by Arg1:T27 Arg2:T26
+R14	is-specialized-by Arg1:T27 Arg2:T28
+R15	c_co Arg1:T28 Arg2:T29
+R16	is-specialized-by Arg1:T32 Arg2:T33
+R17	compound Arg1:T32 Arg2:T31
+R18	c_co Arg1:T33 Arg2:T36
+R19	compound Arg1:T36 Arg2:T35

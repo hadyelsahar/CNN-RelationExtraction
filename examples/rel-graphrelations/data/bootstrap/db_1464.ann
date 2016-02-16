@@ -1,0 +1,34 @@
+T0	segment 0 8	Elvandar
+T1	segment 9 11	is
+T2	segment 12 13	a
+T3	segment 14 23	fictional
+T4	segment 24 30	nation
+T5	segment 31 33	on
+T6	segment 34 42	Midkemia
+T7	segment 42 43	,
+T8	segment 44 45	a
+T9	segment 46 51	world
+T10	segment 52 59	created
+T11	segment 60 62	by
+T12	segment 63 64	a
+T13	segment 65 72	fantasy
+T14	segment 73 85	role-playing
+T15	segment 86 91	group
+T16	segment 92 95	and
+T17	segment 96 107	popularized
+T18	segment 108 110	by
+T19	segment 111 118	Raymond
+T20	segment 119 120	E
+T21	segment 121 122	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T6
+R5	is-specialized-by Arg1:T10 Arg2:T11
+R6	c_co Arg1:T11 Arg2:T15
+R7	compound Arg1:T15 Arg2:T13
+R8	is-specialized-by Arg1:T15 Arg2:T14
+R9	is-specialized-by Arg1:T17 Arg2:T18
+R10	c_co Arg1:T18 Arg2:T20
+R11	compound Arg1:T20 Arg2:T19

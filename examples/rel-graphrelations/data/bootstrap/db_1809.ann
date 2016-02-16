@@ -1,0 +1,37 @@
+T0	segment 0 5	Duchy
+T1	segment 6 8	of
+T2	segment 9 13	Belz
+T3	segment 14 16	or
+T4	segment 17 29	principality
+T5	segment 30 32	of
+T6	segment 33 37	Belz
+T7	segment 38 41	was
+T8	segment 42 43	a
+T9	segment 44 49	petty
+T10	segment 50 55	duchy
+T11	segment 55 56	,
+T12	segment 57 63	formed
+T13	segment 64 66	in
+T14	segment 67 70	the
+T15	segment 71 75	late
+T16	segment 76 80	12th
+T17	segment 81 88	century
+T18	segment 89 91	in
+T19	segment 92 98	Kievan
+T20	segment 99 102	Rus
+T21	segment 103 104	.
+R0	is-specialized-by Arg1:T0 Arg2:T1
+R1	s_p Arg1:T0 Arg2:T7
+R2	c_co Arg1:T1 Arg2:T2
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T6
+R5	p_o Arg1:T7 Arg2:T10
+R6	is-specialized-by Arg1:T10 Arg2:T9
+R7	is-specialized-by Arg1:T12 Arg2:T13
+R8	c_co Arg1:T13 Arg2:T17
+R9	is-specialized-by Arg1:T17 Arg2:T18
+R10	compound Arg1:T17 Arg2:T14
+R11	compound Arg1:T17 Arg2:T16
+R12	compound Arg1:T17 Arg2:T15
+R13	c_co Arg1:T18 Arg2:T20
+R14	compound Arg1:T20 Arg2:T19

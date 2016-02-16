@@ -1,0 +1,37 @@
+T0	segment 0 3	The
+T1	segment 4 12	Crescent
+T2	segment 13 20	Theatre
+T3	segment 21 23	is
+T4	segment 24 25	a
+T5	segment 26 31	small
+T6	segment 31 32	,
+T7	segment 33 40	amateur
+T8	segment 41 48	theatre
+T9	segment 49 52	run
+T10	segment 53 59	mostly
+T11	segment 60 62	by
+T12	segment 63 73	volunteers
+T13	segment 73 74	,
+T14	segment 75 77	in
+T15	segment 78 87	Sheepcote
+T16	segment 88 94	Street
+T17	segment 94 95	,
+T18	segment 96 109	Brindleyplace
+T19	segment 109 110	,
+T20	segment 111 113	in
+T21	segment 114 124	Birmingham
+T22	segment 124 125	,
+T23	segment 126 133	England
+T24	segment 134 135	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T9
+R3	is-specialized-by Arg1:T9 Arg2:T20
+R4	compound Arg1:T9 Arg2:T8
+R5	is-specialized-by Arg1:T9 Arg2:T5
+R6	is-specialized-by Arg1:T12 Arg2:T10
+R7	is-specialized-by Arg1:T12 Arg2:T14
+R8	c_co Arg1:T14 Arg2:T16
+R9	compound Arg1:T16 Arg2:T15
+R10	c_co Arg1:T20 Arg2:T23
+R11	compound Arg1:T23 Arg2:T21

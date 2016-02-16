@@ -1,0 +1,36 @@
+T0	segment 0 3	The
+T1	segment 4 10	County
+T2	segment 11 13	of
+T3	segment 14 23	Holzappel
+T4	segment 24 27	was
+T5	segment 28 30	an
+T6	segment 31 40	immediate
+T7	segment 41 46	state
+T8	segment 47 49	of
+T9	segment 50 53	the
+T10	segment 54 58	Holy
+T11	segment 59 64	Roman
+T12	segment 65 71	Empire
+T13	segment 71 72	,
+T14	segment 73 80	located
+T15	segment 81 83	in
+T16	segment 84 87	the
+T17	segment 88 95	present
+T18	segment 96 102	German
+T19	segment 103 108	state
+T20	segment 109 111	of
+T21	segment 112 132	Rhineland-Palatinate
+T22	segment 133 134	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T7 Arg2:T6
+R6	c_co Arg1:T8 Arg2:T12
+R7	is-specialized-by Arg1:T12 Arg2:T10
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	c_co Arg1:T15 Arg2:T19
+R10	is-specialized-by Arg1:T19 Arg2:T17
+R11	is-specialized-by Arg1:T19 Arg2:T20
+R12	c_co Arg1:T20 Arg2:T21

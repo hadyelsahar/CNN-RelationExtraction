@@ -1,0 +1,35 @@
+T0	segment 0 6	Monaco
+T1	segment 7 8	,
+T2	segment 9 19	officially
+T3	segment 20 23	the
+T4	segment 24 36	Principality
+T5	segment 37 39	of
+T6	segment 40 46	Monaco
+T7	segment 47 48	,
+T8	segment 49 52	but
+T9	segment 53 55	it
+T10	segment 56 68	participates
+T11	segment 69 71	in
+T12	segment 72 79	certain
+T13	segment 80 82	EU
+T14	segment 83 91	policies
+T15	segment 91 92	,
+T16	segment 93 102	including
+T17	segment 103 110	customs
+T18	segment 111 114	and
+T19	segment 115 121	border
+T20	segment 122 130	controls
+T21	segment 131 132	.
+R0	s_p Arg1:T0 Arg2:T10
+R1	is-specialized-by Arg1:T4 Arg2:T2
+R2	is-specialized-by Arg1:T4 Arg2:T5
+R3	c_co Arg1:T5 Arg2:T6
+R4	p_p Arg1:T10 Arg2:T4
+R5	p_c Arg1:T10 Arg2:T8
+R6	p_c Arg1:T10 Arg2:T16
+R7	p_c Arg1:T10 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T14
+R9	compound Arg1:T14 Arg2:T13
+R10	is-specialized-by Arg1:T14 Arg2:T12
+R11	c_co Arg1:T16 Arg2:T17
+R12	compound Arg1:T20 Arg2:T19

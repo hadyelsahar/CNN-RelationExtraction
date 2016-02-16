@@ -1,0 +1,36 @@
+T0	segment 0 7	Suceava
+T1	segment 8 9	-LRB-
+T2	segment 9 17	Romanian
+T3	segment 18 31	pronunciation
+T4	segment 31 32	:
+T5	segment 33 34	-LSB-
+T6	segment 34 45	suËtÍ¡ÊeÌ¯ava
+T7	segment 45 46	-RSB-
+T8	segment 47 49	is
+T9	segment 50 53	the
+T10	segment 54 58	seat
+T11	segment 59 61	of
+T12	segment 62 69	Suceava
+T13	segment 70 76	County
+T14	segment 76 77	,
+T15	segment 78 80	in
+T16	segment 81 84	the
+T17	segment 85 93	Bukovina
+T18	segment 94 100	region
+T19	segment 100 101	,
+T20	segment 102 104	in
+T21	segment 105 118	north-eastern
+T22	segment 119 126	Romania
+T23	segment 127 128	.
+R0	s_p Arg1:T0 Arg2:T8
+R1	is-specialized-by Arg1:T3 Arg2:T2
+R2	p_o Arg1:T8 Arg2:T10
+R3	is-specialized-by Arg1:T10 Arg2:T20
+R4	is-specialized-by Arg1:T10 Arg2:T11
+R5	c_co Arg1:T11 Arg2:T13
+R6	compound Arg1:T13 Arg2:T12
+R7	is-specialized-by Arg1:T13 Arg2:T15
+R8	c_co Arg1:T15 Arg2:T18
+R9	compound Arg1:T18 Arg2:T17
+R10	c_co Arg1:T20 Arg2:T22
+R11	is-specialized-by Arg1:T22 Arg2:T21

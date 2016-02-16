@@ -1,0 +1,60 @@
+T0	segment 0 6	Orange
+T1	segment 7 13	County
+T2	segment 13 15	's
+T3	segment 16 22	Credit
+T4	segment 23 28	Union
+T5	segment 29 31	is
+T6	segment 32 33	a
+T7	segment 34 48	not-for-profit
+T8	segment 49 68	community-chartered
+T9	segment 69 75	credit
+T10	segment 76 81	union
+T11	segment 82 84	in
+T12	segment 85 95	California
+T13	segment 96 103	serving
+T14	segment 104 110	anyone
+T15	segment 111 114	who
+T16	segment 115 120	lives
+T17	segment 121 123	or
+T18	segment 124 129	works
+T19	segment 130 132	in
+T20	segment 133 139	Orange
+T21	segment 140 143	and
+T22	segment 144 153	Riverside
+T23	segment 154 162	Counties
+T24	segment 162 163	,
+T25	segment 164 167	and
+T26	segment 168 171	the
+T27	segment 172 183	communities
+T28	segment 184 186	of
+T29	segment 187 191	Long
+T30	segment 192 197	Beach
+T31	segment 197 198	,
+T32	segment 199 205	Signal
+T33	segment 206 210	Hill
+T34	segment 210 211	,
+T35	segment 212 220	Lakewood
+T36	segment 221 224	and
+T37	segment 225 233	Cerritos
+T38	segment 234 235	.
+R0	compound Arg1:T1 Arg2:T0
+R1	compound Arg1:T4 Arg2:T3
+R2	compound Arg1:T4 Arg2:T0
+R3	s_p Arg1:T4 Arg2:T5
+R4	compound Arg1:T4 Arg2:T2
+R5	compound Arg1:T4 Arg2:T1
+R6	p_o Arg1:T5 Arg2:T10
+R7	is-specialized-by Arg1:T10 Arg2:T7
+R8	is-specialized-by Arg1:T10 Arg2:T11
+R9	compound Arg1:T10 Arg2:T9
+R10	c_co Arg1:T11 Arg2:T12
+R11	p_o Arg1:T13 Arg2:T14
+R12	s_p Arg1:T15 Arg2:T16
+R13	p_c Arg1:T16 Arg2:T19
+R14	c_co Arg1:T19 Arg2:T23
+R15	compound Arg1:T23 Arg2:T20
+R16	compound Arg1:T23 Arg2:T22
+R17	is-specialized-by Arg1:T27 Arg2:T28
+R18	c_co Arg1:T28 Arg2:T30
+R19	compound Arg1:T30 Arg2:T29
+R20	compound Arg1:T33 Arg2:T32

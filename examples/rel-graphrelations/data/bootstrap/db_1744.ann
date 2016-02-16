@@ -1,0 +1,26 @@
+T0	segment 0 3	The
+T1	segment 4 9	taifa
+T2	segment 10 12	of
+T3	segment 13 19	Toledo
+T4	segment 20 23	was
+T5	segment 24 25	a
+T6	segment 26 32	Muslim
+T7	segment 33 41	medieval
+T8	segment 42 49	kingdom
+T9	segment 50 57	located
+T10	segment 58 60	in
+T11	segment 61 65	what
+T12	segment 66 68	is
+T13	segment 69 72	now
+T14	segment 73 80	central
+T15	segment 81 86	Spain
+T16	segment 87 88	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T8
+R4	is-specialized-by Arg1:T8 Arg2:T6
+R5	s_p Arg1:T11 Arg2:T12
+R6	p_o Arg1:T12 Arg2:T15
+R7	is-specialized-by Arg1:T15 Arg2:T14
+R8	is-specialized-by Arg1:T15 Arg2:T13

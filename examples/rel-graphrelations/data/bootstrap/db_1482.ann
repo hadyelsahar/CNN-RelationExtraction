@@ -1,0 +1,38 @@
+T0	segment 0 2	GO
+T1	segment 3 13	Wellington
+T2	segment 14 16	is
+T3	segment 17 20	the
+T4	segment 21 26	brand
+T5	segment 27 31	name
+T6	segment 32 34	of
+T7	segment 35 45	Wellington
+T8	segment 46 50	City
+T9	segment 51 60	Transport
+T10	segment 61 64	Ltd
+T11	segment 64 65	,
+T12	segment 66 69	the
+T13	segment 70 80	Wellington
+T14	segment 81 91	subsidiary
+T15	segment 92 94	of
+T16	segment 95 97	NZ
+T17	segment 98 101	Bus
+T18	segment 102 104	in
+T19	segment 105 108	New
+T20	segment 109 116	Zealand
+T21	segment 117 118	.
+R0	p_p Arg1:T0 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T2
+R2	p_o Arg1:T2 Arg2:T5
+R3	compound Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T10
+R6	compound Arg1:T10 Arg2:T8
+R7	compound Arg1:T10 Arg2:T7
+R8	compound Arg1:T10 Arg2:T9
+R9	is-specialized-by Arg1:T14 Arg2:T15
+R10	compound Arg1:T14 Arg2:T13
+R11	c_co Arg1:T15 Arg2:T17
+R12	is-specialized-by Arg1:T17 Arg2:T18
+R13	compound Arg1:T17 Arg2:T16
+R14	c_co Arg1:T18 Arg2:T20
+R15	compound Arg1:T20 Arg2:T19

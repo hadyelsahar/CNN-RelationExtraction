@@ -1,0 +1,32 @@
+T0	segment 0 5	White
+T1	segment 6 15	Furniture
+T2	segment 16 23	Company
+T3	segment 23 24	,
+T4	segment 25 28	was
+T5	segment 29 30	a
+T6	segment 31 36	major
+T7	segment 37 45	American
+T8	segment 46 54	producer
+T9	segment 55 57	of
+T10	segment 58 62	hand
+T11	segment 63 70	crafted
+T12	segment 71 75	fine
+T13	segment 76 85	furniture
+T14	segment 86 89	for
+T15	segment 90 94	over
+T16	segment 95 96	a
+T17	segment 97 104	century
+T18	segment 104 105	,
+T19	segment 106 107	.
+R0	compound Arg1:T2 Arg2:T0
+R1	s_p Arg1:T2 Arg2:T4
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T8
+R4	is-specialized-by Arg1:T8 Arg2:T9
+R5	is-specialized-by Arg1:T8 Arg2:T6
+R6	c_co Arg1:T9 Arg2:T10
+R7	p_o Arg1:T11 Arg2:T13
+R8	is-specialized-by Arg1:T11 Arg2:T14
+R9	is-specialized-by Arg1:T13 Arg2:T12
+R10	c_co Arg1:T14 Arg2:T17
+R11	compound Arg1:T17 Arg2:T16

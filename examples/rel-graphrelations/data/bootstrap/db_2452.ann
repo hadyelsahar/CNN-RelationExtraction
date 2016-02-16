@@ -1,0 +1,56 @@
+T0	segment 0 6	Phulra
+T1	segment 7 10	was
+T2	segment 11 12	a
+T3	segment 13 18	minor
+T4	segment 19 27	princely
+T5	segment 28 33	state
+T6	segment 34 36	in
+T7	segment 37 40	the
+T8	segment 41 45	days
+T9	segment 46 48	of
+T10	segment 49 56	British
+T11	segment 57 62	India
+T12	segment 62 63	,
+T13	segment 64 71	located
+T14	segment 72 74	in
+T15	segment 75 78	the
+T16	segment 79 85	region
+T17	segment 86 88	of
+T18	segment 89 92	the
+T19	segment 93 98	North
+T20	segment 99 103	West
+T21	segment 104 112	Frontier
+T22	segment 113 115	to
+T23	segment 116 119	the
+T24	segment 120 124	east
+T25	segment 125 127	of
+T26	segment 128 131	the
+T27	segment 132 138	nearby
+T28	segment 139 147	princely
+T29	segment 148 153	state
+T30	segment 154 156	of
+T31	segment 157 160	Amb
+T32	segment 161 162	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T5
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T5 Arg2:T9
+R4	is-specialized-by Arg1:T5 Arg2:T4
+R5	is-specialized-by Arg1:T5 Arg2:T22
+R6	is-specialized-by Arg1:T5 Arg2:T6
+R7	c_co Arg1:T6 Arg2:T8
+R8	compound Arg1:T8 Arg2:T7
+R9	c_co Arg1:T9 Arg2:T11
+R10	is-specialized-by Arg1:T11 Arg2:T10
+R11	is-specialized-by Arg1:T13 Arg2:T14
+R12	c_co Arg1:T14 Arg2:T16
+R13	is-specialized-by Arg1:T16 Arg2:T17
+R14	c_co Arg1:T17 Arg2:T21
+R15	compound Arg1:T21 Arg2:T20
+R16	compound Arg1:T21 Arg2:T19
+R17	c_co Arg1:T22 Arg2:T24
+R18	is-specialized-by Arg1:T24 Arg2:T25
+R19	c_co Arg1:T25 Arg2:T29
+R20	is-specialized-by Arg1:T29 Arg2:T27
+R21	is-specialized-by Arg1:T29 Arg2:T30
+R22	c_co Arg1:T30 Arg2:T31

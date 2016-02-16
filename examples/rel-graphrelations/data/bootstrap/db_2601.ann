@@ -1,0 +1,44 @@
+T0	segment 0 6	Mechel
+T1	segment 7 9	is
+T2	segment 10 13	one
+T3	segment 14 16	of
+T4	segment 17 23	Russia
+T5	segment 23 25	's
+T6	segment 26 33	leading
+T7	segment 34 40	mining
+T8	segment 41 44	and
+T9	segment 45 51	metals
+T10	segment 52 61	companies
+T11	segment 61 62	,
+T12	segment 63 73	comprising
+T13	segment 74 83	producers
+T14	segment 84 86	of
+T15	segment 87 91	coal
+T16	segment 91 92	,
+T17	segment 93 97	iron
+T18	segment 98 101	ore
+T19	segment 102 104	in
+T20	segment 105 116	concentrate
+T21	segment 116 117	,
+T22	segment 118 123	steel
+T23	segment 123 124	,
+T24	segment 125 131	rolled
+T25	segment 132 137	steel
+T26	segment 138 146	products
+T27	segment 147 148	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T2
+R2	is-specialized-by Arg1:T2 Arg2:T3
+R3	c_co Arg1:T3 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T6
+R5	compound Arg1:T10 Arg2:T9
+R6	p_o Arg1:T12 Arg2:T13
+R7	is-specialized-by Arg1:T13 Arg2:T14
+R8	c_co Arg1:T14 Arg2:T15
+R9	s_p Arg1:T18 Arg2:T24
+R10	is-specialized-by Arg1:T18 Arg2:T19
+R11	compound Arg1:T18 Arg2:T17
+R12	c_co Arg1:T19 Arg2:T20
+R13	p_o Arg1:T24 Arg2:T26
+R14	p_p Arg1:T24 Arg2:T1
+R15	compound Arg1:T26 Arg2:T25

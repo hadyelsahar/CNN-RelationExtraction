@@ -1,0 +1,45 @@
+T0	segment 0 6	Looney
+T1	segment 7 12	Ricks
+T2	segment 13 17	Kiss
+T3	segment 18 20	is
+T4	segment 21 22	a
+T5	segment 23 36	Memphis-based
+T6	segment 37 49	full-service
+T7	segment 50 62	architecture
+T8	segment 63 67	firm
+T9	segment 68 75	founded
+T10	segment 76 78	in
+T11	segment 79 83	1983
+T12	segment 84 86	by
+T13	segment 87 93	Carson
+T14	segment 94 100	Looney
+T15	segment 100 101	,
+T16	segment 102 106	FAIA
+T17	segment 106 107	,
+T18	segment 108 113	Frank
+T19	segment 114 119	Ricks
+T20	segment 119 120	,
+T21	segment 121 124	AIA
+T22	segment 124 125	,
+T23	segment 126 129	and
+T24	segment 130 137	Richard
+T25	segment 138 142	Kiss
+T26	segment 142 143	,
+T27	segment 144 147	AIA
+T28	segment 148 149	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_p Arg1:T2 Arg2:T3
+R3	compound Arg1:T2 Arg2:T0
+R4	compound Arg1:T2 Arg2:T1
+R5	compound Arg1:T8 Arg2:T7
+R6	is-specialized-by Arg1:T8 Arg2:T5
+R7	is-specialized-by Arg1:T9 Arg2:T10
+R8	is-specialized-by Arg1:T9 Arg2:T12
+R9	c_co Arg1:T10 Arg2:T11
+R10	c_co Arg1:T12 Arg2:T14
+R11	compound Arg1:T14 Arg2:T13
+R12	compound Arg1:T18 Arg2:T16
+R13	s_p Arg1:T19 Arg2:T25
+R14	compound Arg1:T19 Arg2:T18
+R15	compound Arg1:T25 Arg2:T24

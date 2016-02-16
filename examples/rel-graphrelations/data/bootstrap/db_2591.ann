@@ -1,0 +1,35 @@
+T0	segment 0 3	The
+T1	segment 4 12	Anatolic
+T2	segment 13 18	Theme
+T3	segment 19 23	were
+T4	segment 24 32	powerful
+T5	segment 33 44	individuals
+T6	segment 44 45	,
+T7	segment 46 53	several
+T8	segment 54 56	of
+T9	segment 57 61	them
+T10	segment 62 68	rising
+T11	segment 69 71	to
+T12	segment 72 75	the
+T13	segment 76 84	imperial
+T14	segment 85 91	throne
+T15	segment 92 94	or
+T16	segment 95 104	launching
+T17	segment 105 111	failed
+T18	segment 112 122	rebellions
+T19	segment 123 125	to
+T20	segment 126 133	capture
+T21	segment 134 136	it
+T22	segment 137 138	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	s_p Arg1:T7 Arg2:T17
+R5	s_p Arg1:T9 Arg2:T10
+R6	p_c Arg1:T10 Arg2:T11
+R7	c_co Arg1:T11 Arg2:T14
+R8	is-specialized-by Arg1:T14 Arg2:T13
+R9	p_p Arg1:T17 Arg2:T3
+R10	p_o Arg1:T17 Arg2:T18
+R11	p_o Arg1:T20 Arg2:T21

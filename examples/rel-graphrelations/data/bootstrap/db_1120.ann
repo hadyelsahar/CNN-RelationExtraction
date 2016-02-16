@@ -1,0 +1,49 @@
+T0	segment 0 6	Rising
+T1	segment 7 11	Star
+T2	segment 12 17	Games
+T3	segment 18 20	is
+T4	segment 21 22	a
+T5	segment 23 28	video
+T6	segment 29 33	game
+T7	segment 34 43	publisher
+T8	segment 44 50	formed
+T9	segment 51 53	in
+T10	segment 54 58	2004
+T11	segment 59 61	as
+T12	segment 62 63	a
+T13	segment 64 69	joint
+T14	segment 70 78	business
+T15	segment 79 86	venture
+T16	segment 87 94	between
+T17	segment 95 107	Scandinavian
+T18	segment 108 119	distributor
+T19	segment 120 128	Bergsala
+T20	segment 129 132	and
+T21	segment 133 141	Japanese
+T22	segment 142 147	video
+T23	segment 148 152	game
+T24	segment 153 162	publisher
+T25	segment 163 166	and
+T26	segment 167 174	content
+T27	segment 175 184	developer
+T28	segment 185 194	Intergrow
+T29	segment 195 196	.
+R0	p_o Arg1:T0 Arg2:T2
+R1	compound Arg1:T2 Arg2:T1
+R2	compound Arg1:T7 Arg2:T6
+R3	compound Arg1:T7 Arg2:T5
+R4	is-specialized-by Arg1:T8 Arg2:T9
+R5	is-specialized-by Arg1:T8 Arg2:T11
+R6	c_co Arg1:T9 Arg2:T10
+R7	c_co Arg1:T11 Arg2:T15
+R8	is-specialized-by Arg1:T15 Arg2:T16
+R9	compound Arg1:T15 Arg2:T14
+R10	is-specialized-by Arg1:T15 Arg2:T13
+R11	c_co Arg1:T16 Arg2:T19
+R12	is-specialized-by Arg1:T19 Arg2:T17
+R13	compound Arg1:T19 Arg2:T18
+R14	compound Arg1:T24 Arg2:T22
+R15	compound Arg1:T24 Arg2:T23
+R16	is-specialized-by Arg1:T24 Arg2:T21
+R17	compound Arg1:T28 Arg2:T27
+R18	compound Arg1:T28 Arg2:T26

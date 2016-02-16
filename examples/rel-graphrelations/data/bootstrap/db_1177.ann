@@ -1,0 +1,29 @@
+T0	segment 0 3	The
+T1	segment 4 8	CafÃ©
+T2	segment 9 15	Leonar
+T3	segment 16 18	is
+T4	segment 19 20	a
+T5	segment 21 25	cafÃ©
+T6	segment 25 26	,
+T7	segment 27 30	bar
+T8	segment 31 34	and
+T9	segment 35 44	bookstore
+T10	segment 45 47	in
+T11	segment 48 55	Hamburg
+T12	segment 55 56	,
+T13	segment 57 64	Germany
+T14	segment 64 65	,
+T15	segment 66 73	founded
+T16	segment 74 76	by
+T17	segment 77 82	Sonia
+T18	segment 83 93	Simmenauer
+T19	segment 94 95	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T10
+R4	c_co Arg1:T10 Arg2:T13
+R5	compound Arg1:T13 Arg2:T11
+R6	is-specialized-by Arg1:T15 Arg2:T16
+R7	c_co Arg1:T16 Arg2:T18
+R8	compound Arg1:T18 Arg2:T17

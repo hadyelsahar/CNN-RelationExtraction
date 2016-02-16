@@ -1,0 +1,33 @@
+T0	segment 0 4	ILVA
+T1	segment 5 7	is
+T2	segment 8 9	a
+T3	segment 10 16	Danish
+T4	segment 17 22	chain
+T5	segment 23 25	of
+T6	segment 26 35	furniture
+T7	segment 36 42	stores
+T8	segment 42 43	,
+T9	segment 44 52	offering
+T10	segment 53 59	mostly
+T11	segment 60 78	Scandinavian-style
+T12	segment 79 82	bed
+T13	segment 82 83	-
+T14	segment 83 84	,
+T15	segment 85 91	dining
+T16	segment 91 92	-
+T17	segment 93 96	and
+T18	segment 97 103	living
+T19	segment 104 108	room
+T20	segment 109 117	products
+T21	segment 118 119	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T7
+R5	compound Arg1:T7 Arg2:T6
+R6	p_o Arg1:T9 Arg2:T12
+R7	is-specialized-by Arg1:T11 Arg2:T10
+R8	is-specialized-by Arg1:T12 Arg2:T11
+R9	p_o Arg1:T18 Arg2:T20
+R10	compound Arg1:T20 Arg2:T19

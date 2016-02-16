@@ -1,0 +1,43 @@
+T0	segment 0 3	UAE
+T1	segment 4 12	Exchange
+T2	segment 13 14	&
+T3	segment 15 24	Financial
+T4	segment 25 33	Services
+T5	segment 34 37	Ltd
+T6	segment 38 40	is
+T7	segment 41 42	a
+T8	segment 43 53	remittance
+T9	segment 54 57	and
+T10	segment 58 66	currency
+T11	segment 67 75	exchange
+T12	segment 76 83	company
+T13	segment 84 89	based
+T14	segment 90 92	in
+T15	segment 93 98	India
+T16	segment 98 99	,
+T17	segment 100 101	a
+T18	segment 102 106	part
+T19	segment 107 109	of
+T20	segment 110 113	the
+T21	segment 114 120	global
+T22	segment 121 124	UAE
+T23	segment 125 133	Exchange
+T24	segment 134 139	group
+T25	segment 140 141	.
+R0	s_p Arg1:T1 Arg2:T6
+R1	compound Arg1:T1 Arg2:T0
+R2	compound Arg1:T5 Arg2:T4
+R3	compound Arg1:T5 Arg2:T3
+R4	compound Arg1:T5 Arg2:T0
+R5	compound Arg1:T5 Arg2:T2
+R6	compound Arg1:T5 Arg2:T1
+R7	p_o Arg1:T6 Arg2:T8
+R8	is-specialized-by Arg1:T8 Arg2:T13
+R9	compound Arg1:T12 Arg2:T11
+R10	compound Arg1:T12 Arg2:T10
+R11	c_co Arg1:T13 Arg2:T15
+R12	is-specialized-by Arg1:T18 Arg2:T19
+R13	c_co Arg1:T19 Arg2:T24
+R14	compound Arg1:T24 Arg2:T22
+R15	compound Arg1:T24 Arg2:T23
+R16	is-specialized-by Arg1:T24 Arg2:T21

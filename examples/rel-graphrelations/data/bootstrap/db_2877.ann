@@ -1,0 +1,39 @@
+T0	segment 0 4	Mong
+T1	segment 5 8	Pan
+T2	segment 8 9	,
+T3	segment 10 17	Mongpan
+T4	segment 18 20	or
+T5	segment 21 28	MÃ¶ngpan
+T6	segment 29 31	is
+T7	segment 32 33	a
+T8	segment 34 38	town
+T9	segment 39 42	and
+T10	segment 43 47	seat
+T11	segment 48 50	of
+T12	segment 51 55	Mong
+T13	segment 56 59	Pan
+T14	segment 60 68	Township
+T15	segment 69 71	in
+T16	segment 72 75	the
+T17	segment 76 84	southern
+T18	segment 85 89	Shan
+T19	segment 90 95	State
+T20	segment 96 98	of
+T21	segment 99 104	Burma
+T22	segment 105 106	.
+R0	s_p Arg1:T1 Arg2:T6
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T6 Arg2:T8
+R3	is-specialized-by Arg1:T8 Arg2:T11
+R4	c_co Arg1:T11 Arg2:T14
+R5	compound Arg1:T14 Arg2:T12
+R6	is-specialized-by Arg1:T14 Arg2:T15
+R7	compound Arg1:T14 Arg2:T13
+R8	c_co Arg1:T15 Arg2:T19
+R9	is-specialized-by Arg1:T19 Arg2:T17
+R10	is-specialized-by Arg1:T19 Arg2:T20
+R11	compound Arg1:T19 Arg2:T18
+R12	c_co Arg1:T20 Arg2:T21
+R13	compound Arg1:T21 Arg2:T20
+R14	compound Arg1:T21 Arg2:T19
+R15	compound Arg1:T21 Arg2:T18

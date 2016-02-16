@@ -1,0 +1,70 @@
+T0	segment 0 7	Dmailer
+T1	segment 8 19	specialized
+T2	segment 20 22	in
+T3	segment 23 31	portable
+T4	segment 32 38	backup
+T5	segment 39 42	and
+T6	segment 43 58	synchronization
+T7	segment 59 67	software
+T8	segment 68 71	for
+T9	segment 72 73	a
+T10	segment 74 79	range
+T11	segment 80 82	of
+T12	segment 83 89	mobile
+T13	segment 90 97	devices
+T14	segment 97 98	,
+T15	segment 99 108	including
+T16	segment 109 112	USB
+T17	segment 113 118	flash
+T18	segment 119 125	drives
+T19	segment 125 126	,
+T20	segment 127 133	memory
+T21	segment 134 139	cards
+T22	segment 139 140	,
+T23	segment 141 149	external
+T24	segment 150 154	hard
+T25	segment 155 159	disk
+T26	segment 160 166	drives
+T27	segment 166 167	,
+T28	segment 168 171	MP3
+T29	segment 172 179	players
+T30	segment 179 180	,
+T31	segment 181 189	embedded
+T32	segment 190 195	phone
+T33	segment 196 204	memories
+T34	segment 204 205	,
+T35	segment 206 209	SIM
+T36	segment 210 215	cards
+T37	segment 216 219	and
+T38	segment 220 231	flash-based
+T39	segment 232 238	memory
+T40	segment 239 244	cards
+T41	segment 245 248	for
+T42	segment 249 255	mobile
+T43	segment 256 262	phones
+T44	segment 263 264	.
+R0	is-specialized-by Arg1:T1 Arg2:T8
+R1	is-specialized-by Arg1:T1 Arg2:T15
+R2	is-specialized-by Arg1:T1 Arg2:T2
+R3	c_co Arg1:T2 Arg2:T4
+R4	is-specialized-by Arg1:T4 Arg2:T3
+R5	compound Arg1:T7 Arg2:T6
+R6	c_co Arg1:T8 Arg2:T10
+R7	is-specialized-by Arg1:T10 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T13
+R9	is-specialized-by Arg1:T13 Arg2:T12
+R10	c_co Arg1:T15 Arg2:T18
+R11	is-specialized-by Arg1:T18 Arg2:T16
+R12	compound Arg1:T18 Arg2:T17
+R13	compound Arg1:T21 Arg2:T20
+R14	is-specialized-by Arg1:T26 Arg2:T23
+R15	compound Arg1:T26 Arg2:T25
+R16	compound Arg1:T29 Arg2:T28
+R17	is-specialized-by Arg1:T33 Arg2:T31
+R18	compound Arg1:T33 Arg2:T32
+R19	compound Arg1:T36 Arg2:T35
+R20	is-specialized-by Arg1:T40 Arg2:T41
+R21	compound Arg1:T40 Arg2:T39
+R22	is-specialized-by Arg1:T40 Arg2:T38
+R23	c_co Arg1:T41 Arg2:T43
+R24	is-specialized-by Arg1:T43 Arg2:T42

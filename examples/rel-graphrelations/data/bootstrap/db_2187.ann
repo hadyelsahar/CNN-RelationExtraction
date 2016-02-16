@@ -1,0 +1,44 @@
+T0	segment 0 8	Selangor
+T1	segment 9 13	also
+T2	segment 14 19	known
+T3	segment 20 22	by
+T4	segment 23 26	its
+T5	segment 27 33	Arabic
+T6	segment 34 43	honorific
+T7	segment 43 44	,
+T8	segment 45 50	Darul
+T9	segment 51 56	Ehsan
+T10	segment 56 57	,
+T11	segment 58 60	or
+T12	segment 61 62	''
+T13	segment 62 63	``
+T14	segment 63 68	Abode
+T15	segment 69 71	of
+T16	segment 72 81	Sincerity
+T17	segment 81 82	''
+T18	segment 82 83	''
+T19	segment 84 86	is
+T20	segment 87 90	one
+T21	segment 91 93	of
+T22	segment 94 97	the
+T23	segment 98 100	13
+T24	segment 101 107	states
+T25	segment 108 110	of
+T26	segment 111 119	Malaysia
+T27	segment 120 121	.
+R0	s_p Arg1:T0 Arg2:T2
+R1	p_c Arg1:T2 Arg2:T1
+R2	p_c Arg1:T2 Arg2:T3
+R3	c_co Arg1:T3 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T5
+R5	s_p Arg1:T9 Arg2:T19
+R6	compound Arg1:T9 Arg2:T8
+R7	is-specialized-by Arg1:T9 Arg2:T11
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	c_co Arg1:T15 Arg2:T16
+R10	p_o Arg1:T19 Arg2:T20
+R11	is-specialized-by Arg1:T20 Arg2:T21
+R12	c_co Arg1:T21 Arg2:T24
+R13	is-specialized-by Arg1:T24 Arg2:T23
+R14	is-specialized-by Arg1:T24 Arg2:T25
+R15	c_co Arg1:T25 Arg2:T26

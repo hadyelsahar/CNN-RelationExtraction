@@ -1,0 +1,41 @@
+T0	segment 0 5	Jacob
+T1	segment 6 7	''
+T2	segment 7 8	``
+T3	segment 8 12	Jake
+T4	segment 12 13	''
+T5	segment 13 14	''
+T6	segment 15 21	Spiker
+T7	segment 22 26	Gibb
+T8	segment 27 29	is
+T9	segment 30 32	an
+T10	segment 33 41	American
+T11	segment 42 54	professional
+T12	segment 55 60	beach
+T13	segment 61 71	volleyball
+T14	segment 72 78	player
+T15	segment 78 79	,
+T16	segment 80 89	currently
+T17	segment 90 92	on
+T18	segment 93 96	the
+T19	segment 97 100	AVP
+T20	segment 101 105	Tour
+T21	segment 106 110	with
+T22	segment 111 118	current
+T23	segment 119 126	partner
+T24	segment 126 127	,
+T25	segment 128 133	Casey
+T26	segment 134 143	Patterson
+T27	segment 144 145	.
+R0	s_p Arg1:T3 Arg2:T8
+R1	compound Arg1:T7 Arg2:T6
+R2	p_o Arg1:T8 Arg2:T14
+R3	compound Arg1:T14 Arg2:T12
+R4	is-specialized-by Arg1:T14 Arg2:T10
+R5	compound Arg1:T14 Arg2:T13
+R6	p_p Arg1:T14 Arg2:T0
+R7	is-specialized-by Arg1:T20 Arg2:T16
+R8	compound Arg1:T20 Arg2:T19
+R9	is-specialized-by Arg1:T20 Arg2:T21
+R10	c_co Arg1:T21 Arg2:T23
+R11	is-specialized-by Arg1:T23 Arg2:T22
+R12	compound Arg1:T26 Arg2:T25

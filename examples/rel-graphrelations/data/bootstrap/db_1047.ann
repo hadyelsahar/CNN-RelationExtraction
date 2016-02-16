@@ -1,0 +1,33 @@
+T0	segment 0 9	Catalonia
+T1	segment 10 19	Catalonia
+T2	segment 20 23	has
+T3	segment 24 33	recovered
+T4	segment 34 43	political
+T5	segment 44 47	and
+T6	segment 48 56	cultural
+T7	segment 57 65	autonomy
+T8	segment 66 69	and
+T9	segment 70 72	is
+T10	segment 73 76	now
+T11	segment 77 80	one
+T12	segment 81 83	of
+T13	segment 84 87	the
+T14	segment 88 92	most
+T15	segment 93 105	economically
+T16	segment 106 113	dynamic
+T17	segment 114 121	regions
+T18	segment 122 124	of
+T19	segment 125 130	Spain
+T20	segment 131 132	.
+R0	s_p Arg1:T1 Arg2:T3
+R1	compound Arg1:T1 Arg2:T0
+R2	compound Arg1:T3 Arg2:T2
+R3	p_o Arg1:T3 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T4
+R5	is-specialized-by Arg1:T11 Arg2:T10
+R6	is-specialized-by Arg1:T11 Arg2:T12
+R7	c_co Arg1:T12 Arg2:T17
+R8	is-specialized-by Arg1:T16 Arg2:T14
+R9	is-specialized-by Arg1:T17 Arg2:T16
+R10	is-specialized-by Arg1:T17 Arg2:T18
+R11	c_co Arg1:T18 Arg2:T19

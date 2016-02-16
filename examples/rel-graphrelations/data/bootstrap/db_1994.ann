@@ -1,0 +1,32 @@
+T0	segment 0 5	Happy
+T1	segment 5 7	's
+T2	segment 8 13	Pizza
+T3	segment 14 16	is
+T4	segment 17 19	an
+T5	segment 20 28	American
+T6	segment 29 37	regional
+T7	segment 38 43	chain
+T8	segment 44 46	of
+T9	segment 47 58	restaurants
+T10	segment 58 59	,
+T11	segment 60 67	serving
+T12	segment 68 73	pizza
+T13	segment 73 74	,
+T14	segment 75 79	ribs
+T15	segment 79 80	,
+T16	segment 81 88	chicken
+T17	segment 88 89	,
+T18	segment 90 97	seafood
+T19	segment 97 98	,
+T20	segment 99 109	sandwiches
+T21	segment 109 110	,
+T22	segment 111 116	pasta
+T23	segment 117 120	and
+T24	segment 121 126	salad
+T25	segment 127 128	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	p_o Arg1:T3 Arg2:T7
+R2	is-specialized-by Arg1:T7 Arg2:T8
+R3	is-specialized-by Arg1:T7 Arg2:T5
+R4	c_co Arg1:T8 Arg2:T9
+R5	p_o Arg1:T11 Arg2:T12

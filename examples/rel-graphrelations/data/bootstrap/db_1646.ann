@@ -1,0 +1,82 @@
+T0	segment 0 6	Static
+T1	segment 7 14	Caravan
+T2	segment 15 25	Recordings
+T3	segment 26 28	is
+T4	segment 29 31	an
+T5	segment 32 43	independent
+T6	segment 44 50	record
+T7	segment 51 56	label
+T8	segment 57 62	based
+T9	segment 63 65	in
+T10	segment 66 69	the
+T11	segment 70 75	North
+T12	segment 76 80	West
+T13	segment 81 83	of
+T14	segment 84 91	England
+T15	segment 91 92	,
+T16	segment 93 98	whose
+T17	segment 99 105	artist
+T18	segment 106 114	releases
+T19	segment 115 122	include
+T20	segment 123 130	singles
+T21	segment 131 134	and
+T22	segment 135 141	albums
+T23	segment 142 144	by
+T24	segment 145 151	Darren
+T25	segment 152 158	Hayman
+T26	segment 158 159	,
+T27	segment 160 163	The
+T28	segment 164 174	Hornblower
+T29	segment 175 183	Brothers
+T30	segment 183 184	,
+T31	segment 185 191	Hannah
+T32	segment 192 196	Peel
+T33	segment 196 197	,
+T34	segment 198 204	Erland
+T35	segment 205 206	&
+T36	segment 207 210	the
+T37	segment 211 219	Carnival
+T38	segment 219 220	,
+T39	segment 221 226	Shady
+T40	segment 227 231	Bard
+T41	segment 231 232	,
+T42	segment 233 236	The
+T43	segment 237 243	Yellow
+T44	segment 244 248	Moon
+T45	segment 249 253	Band
+T46	segment 253 254	,
+T47	segment 255 260	Tunng
+T48	segment 260 261	,
+T49	segment 262 267	Peter
+T50	segment 268 273	Astor
+T51	segment 273 274	,
+T52	segment 275 287	Magnetophone
+T53	segment 287 288	,
+T54	segment 289 298	Fieldhead
+T55	segment 299 302	and
+T56	segment 303 311	Serafina
+T57	segment 312 317	Steer
+T58	segment 318 319	.
+R0	is-specialized-by Arg1:T2 Arg2:T0
+R1	s_p Arg1:T2 Arg2:T3
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	compound Arg1:T7 Arg2:T6
+R6	is-specialized-by Arg1:T7 Arg2:T5
+R7	c_co Arg1:T8 Arg2:T12
+R8	compound Arg1:T12 Arg2:T11
+R9	is-specialized-by Arg1:T12 Arg2:T13
+R10	c_co Arg1:T13 Arg2:T14
+R11	s_p Arg1:T18 Arg2:T19
+R12	p_c Arg1:T19 Arg2:T23
+R13	p_o Arg1:T19 Arg2:T17
+R14	c_co Arg1:T23 Arg2:T25
+R15	compound Arg1:T25 Arg2:T24
+R16	compound Arg1:T29 Arg2:T28
+R17	compound Arg1:T32 Arg2:T31
+R18	compound Arg1:T40 Arg2:T39
+R19	compound Arg1:T45 Arg2:T44
+R20	compound Arg1:T45 Arg2:T43
+R21	compound Arg1:T50 Arg2:T49
+R22	compound Arg1:T57 Arg2:T56

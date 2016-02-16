@@ -1,0 +1,25 @@
+T0	segment 0 3	Bao
+T1	segment 4 8	Xian
+T2	segment 9 12	Fei
+T3	segment 13 15	is
+T4	segment 16 17	a
+T5	segment 18 23	wushu
+T6	segment 24 30	expert
+T7	segment 31 34	who
+T8	segment 35 40	lives
+T9	segment 41 44	and
+T10	segment 45 52	teaches
+T11	segment 53 58	wushu
+T12	segment 59 61	in
+T13	segment 62 65	the
+T14	segment 66 77	Netherlands
+T15	segment 78 79	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T6
+R4	compound Arg1:T6 Arg2:T5
+R5	s_p Arg1:T7 Arg2:T8
+R6	p_o Arg1:T8 Arg2:T11
+R7	is-specialized-by Arg1:T11 Arg2:T12
+R8	c_co Arg1:T12 Arg2:T14

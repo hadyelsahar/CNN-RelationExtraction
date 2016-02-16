@@ -1,0 +1,48 @@
+T0	segment 0 11	Brotherhood
+T1	segment 11 12	,
+T2	segment 13 15	an
+T3	segment 16 24	American
+T4	segment 25 35	television
+T5	segment 36 41	drama
+T6	segment 42 48	series
+T7	segment 49 56	created
+T8	segment 57 59	by
+T9	segment 60 65	Blake
+T10	segment 66 73	Masters
+T11	segment 73 74	,
+T12	segment 75 84	premiered
+T13	segment 85 87	on
+T14	segment 88 92	July
+T15	segment 93 94	9
+T16	segment 94 95	,
+T17	segment 96 100	2006
+T18	segment 101 103	on
+T19	segment 104 107	the
+T20	segment 108 113	cable
+T21	segment 114 121	network
+T22	segment 122 130	Showtime
+T23	segment 131 133	in
+T24	segment 134 137	the
+T25	segment 138 144	United
+T26	segment 145 151	States
+T27	segment 152 153	.
+R0	s_p Arg1:T0 Arg2:T12
+R1	compound Arg1:T6 Arg2:T4
+R2	compound Arg1:T6 Arg2:T5
+R3	is-specialized-by Arg1:T6 Arg2:T3
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	c_co Arg1:T8 Arg2:T10
+R6	compound Arg1:T10 Arg2:T9
+R7	p_c Arg1:T12 Arg2:T23
+R8	p_c Arg1:T12 Arg2:T18
+R9	p_c Arg1:T12 Arg2:T13
+R10	c_co Arg1:T13 Arg2:T14
+R11	is-specialized-by Arg1:T14 Arg2:T15
+R12	compound Arg1:T17 Arg2:T14
+R13	compound Arg1:T17 Arg2:T16
+R14	compound Arg1:T17 Arg2:T15
+R15	c_co Arg1:T18 Arg2:T22
+R16	compound Arg1:T22 Arg2:T20
+R17	compound Arg1:T22 Arg2:T21
+R18	c_co Arg1:T23 Arg2:T26
+R19	compound Arg1:T26 Arg2:T25

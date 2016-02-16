@@ -1,0 +1,37 @@
+T0	segment 0 3	The
+T1	segment 4 10	County
+T2	segment 11 13	of
+T3	segment 14 25	Tecklenburg
+T4	segment 26 29	was
+T5	segment 30 31	a
+T6	segment 32 37	state
+T7	segment 38 40	of
+T8	segment 41 44	the
+T9	segment 45 49	Holy
+T10	segment 50 55	Roman
+T11	segment 56 62	Empire
+T12	segment 62 63	,
+T13	segment 64 71	located
+T14	segment 72 74	in
+T15	segment 75 78	the
+T16	segment 79 86	present
+T17	segment 87 93	German
+T18	segment 94 99	state
+T19	segment 100 102	of
+T20	segment 103 108	Lower
+T21	segment 109 115	Saxony
+T22	segment 116 117	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	is-specialized-by Arg1:T6 Arg2:T13
+R6	c_co Arg1:T7 Arg2:T11
+R7	is-specialized-by Arg1:T11 Arg2:T9
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T18
+R10	is-specialized-by Arg1:T18 Arg2:T16
+R11	is-specialized-by Arg1:T18 Arg2:T19
+R12	c_co Arg1:T19 Arg2:T21
+R13	compound Arg1:T21 Arg2:T20

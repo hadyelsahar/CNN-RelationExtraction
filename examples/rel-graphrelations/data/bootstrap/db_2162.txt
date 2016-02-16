@@ -1,0 +1,1 @@
+uniq is a Unix utility which, when fed a text file, outputs the file with adjacent identical lines collapsed to one .

@@ -1,0 +1,52 @@
+T0	segment 0 12	Petro-Canada
+T1	segment 13 21	Mobility
+T2	segment 22 24	is
+T3	segment 25 26	a
+T4	segment 27 35	Canadian
+T5	segment 36 42	Mobile
+T6	segment 43 50	Virtual
+T7	segment 51 58	Network
+T8	segment 59 67	Operator
+T9	segment 68 75	created
+T10	segment 76 78	in
+T11	segment 79 83	late
+T12	segment 84 88	2006
+T13	segment 89 91	by
+T14	segment 92 100	gasoline
+T15	segment 101 105	firm
+T16	segment 106 118	Petro-Canada
+T17	segment 119 121	as
+T18	segment 122 123	a
+T19	segment 124 134	competitor
+T20	segment 135 137	to
+T21	segment 138 143	other
+T22	segment 144 149	store
+T23	segment 150 155	based
+T24	segment 156 161	MVNOs
+T25	segment 162 166	like
+T26	segment 167 169	PC
+T27	segment 170 176	Mobile
+T28	segment 177 178	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T8
+R3	compound Arg1:T8 Arg2:T6
+R4	compound Arg1:T8 Arg2:T5
+R5	is-specialized-by Arg1:T8 Arg2:T4
+R6	compound Arg1:T8 Arg2:T7
+R7	is-specialized-by Arg1:T9 Arg2:T10
+R8	is-specialized-by Arg1:T9 Arg2:T17
+R9	is-specialized-by Arg1:T9 Arg2:T20
+R10	is-specialized-by Arg1:T9 Arg2:T13
+R11	c_co Arg1:T10 Arg2:T12
+R12	compound Arg1:T12 Arg2:T11
+R13	c_co Arg1:T13 Arg2:T16
+R14	compound Arg1:T16 Arg2:T14
+R15	compound Arg1:T16 Arg2:T15
+R16	c_co Arg1:T17 Arg2:T19
+R17	c_co Arg1:T20 Arg2:T22
+R18	is-specialized-by Arg1:T22 Arg2:T21
+R19	p_o Arg1:T23 Arg2:T24
+R20	is-specialized-by Arg1:T23 Arg2:T25
+R21	c_co Arg1:T25 Arg2:T27
+R22	compound Arg1:T27 Arg2:T26

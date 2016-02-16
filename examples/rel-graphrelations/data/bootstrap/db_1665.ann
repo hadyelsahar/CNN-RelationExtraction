@@ -1,0 +1,36 @@
+T0	segment 0 7	Suzanne
+T1	segment 8 13	Whang
+T2	segment 14 16	is
+T3	segment 17 19	an
+T4	segment 20 28	American
+T5	segment 29 39	television
+T6	segment 40 44	host
+T7	segment 44 45	,
+T8	segment 46 51	actor
+T9	segment 51 52	,
+T10	segment 53 61	comedian
+T11	segment 61 62	,
+T12	segment 63 68	radio
+T13	segment 69 73	host
+T14	segment 73 74	,
+T15	segment 75 84	published
+T16	segment 85 91	author
+T17	segment 91 92	,
+T18	segment 93 101	minister
+T19	segment 101 102	,
+T20	segment 103 109	writer
+T21	segment 109 110	,
+T22	segment 111 119	producer
+T23	segment 119 120	,
+T24	segment 121 124	and
+T25	segment 125 134	political
+T26	segment 135 143	activist
+T27	segment 144 145	.
+R0	compound Arg1:T1 Arg2:T0
+R1	s_p Arg1:T1 Arg2:T15
+R2	compound Arg1:T13 Arg2:T6
+R3	compound Arg1:T13 Arg2:T5
+R4	is-specialized-by Arg1:T13 Arg2:T4
+R5	p_o Arg1:T15 Arg2:T20
+R6	compound Arg1:T15 Arg2:T2
+R7	is-specialized-by Arg1:T26 Arg2:T25

@@ -1,0 +1,48 @@
+T0	segment 0 7	Cadbury
+T1	segment 7 9	's
+T2	segment 10 19	Chocolate
+T3	segment 20 27	Factory
+T4	segment 28 30	is
+T5	segment 31 32	a
+T6	segment 33 40	working
+T7	segment 41 50	chocolate
+T8	segment 51 58	factory
+T9	segment 59 68	belonging
+T10	segment 69 71	to
+T11	segment 72 75	the
+T12	segment 76 86	Australian
+T13	segment 87 95	division
+T14	segment 96 98	of
+T15	segment 99 112	international
+T16	segment 113 126	confectionery
+T17	segment 127 134	company
+T18	segment 135 142	Cadbury
+T19	segment 143 152	Schweppes
+T20	segment 152 153	,
+T21	segment 154 157	and
+T22	segment 158 160	is
+T23	segment 161 168	located
+T24	segment 169 171	in
+T25	segment 172 181	Claremont
+T26	segment 181 182	,
+T27	segment 183 191	Tasmania
+T28	segment 191 192	,
+T29	segment 193 202	Australia
+T30	segment 203 204	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	p_o Arg1:T4 Arg2:T8
+R3	compound Arg1:T8 Arg2:T7
+R4	is-specialized-by Arg1:T8 Arg2:T6
+R5	is-specialized-by Arg1:T9 Arg2:T10
+R6	c_co Arg1:T10 Arg2:T13
+R7	is-specialized-by Arg1:T13 Arg2:T12
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T19
+R10	is-specialized-by Arg1:T19 Arg2:T15
+R11	compound Arg1:T19 Arg2:T16
+R12	compound Arg1:T19 Arg2:T18
+R13	compound Arg1:T19 Arg2:T17
+R14	is-specialized-by Arg1:T23 Arg2:T24
+R15	c_co Arg1:T24 Arg2:T25
+R16	compound Arg1:T29 Arg2:T27

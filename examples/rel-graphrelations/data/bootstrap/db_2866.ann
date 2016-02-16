@@ -1,0 +1,47 @@
+T0	segment 0 7	Gonzalo
+T1	segment 8 14	Manuel
+T2	segment 15 21	GarcÃ­a
+T3	segment 22 28	GarcÃ­a
+T4	segment 29 30	,
+T5	segment 31 36	known
+T6	segment 37 39	as
+T7	segment 40 46	simply
+T8	segment 47 54	Gonzalo
+T9	segment 54 55	,
+T10	segment 56 58	is
+T11	segment 59 60	a
+T12	segment 61 68	Spanish
+T13	segment 69 81	professional
+T14	segment 82 92	footballer
+T15	segment 93 96	who
+T16	segment 97 102	plays
+T17	segment 103 106	for
+T18	segment 107 114	Cypriot
+T19	segment 115 119	club
+T20	segment 120 130	Anorthosis
+T21	segment 131 140	Famagusta
+T22	segment 141 143	FC
+T23	segment 144 146	as
+T24	segment 147 149	an
+T25	segment 150 159	attacking
+T26	segment 160 170	midfielder
+T27	segment 171 172	.
+R0	s_p Arg1:T3 Arg2:T10
+R1	compound Arg1:T3 Arg2:T0
+R2	compound Arg1:T3 Arg2:T2
+R3	compound Arg1:T3 Arg2:T1
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T8
+R6	is-specialized-by Arg1:T8 Arg2:T7
+R7	p_o Arg1:T10 Arg2:T14
+R8	is-specialized-by Arg1:T14 Arg2:T12
+R9	s_p Arg1:T15 Arg2:T16
+R10	p_c Arg1:T16 Arg2:T17
+R11	c_co Arg1:T17 Arg2:T22
+R12	compound Arg1:T22 Arg2:T20
+R13	compound Arg1:T22 Arg2:T19
+R14	compound Arg1:T22 Arg2:T21
+R15	compound Arg1:T22 Arg2:T18
+R16	is-specialized-by Arg1:T22 Arg2:T23
+R17	c_co Arg1:T23 Arg2:T26
+R18	is-specialized-by Arg1:T26 Arg2:T25

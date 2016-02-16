@@ -1,0 +1,35 @@
+T0	segment 0 9	Abakaliki
+T1	segment 10 12	is
+T2	segment 13 16	the
+T3	segment 17 24	capital
+T4	segment 25 29	city
+T5	segment 30 32	of
+T6	segment 33 36	the
+T7	segment 37 48	present-day
+T8	segment 49 55	Ebonyi
+T9	segment 56 61	State
+T10	segment 62 64	in
+T11	segment 65 77	southeastern
+T12	segment 78 85	Nigeria
+T13	segment 85 86	,
+T14	segment 87 94	located
+T15	segment 95 97	64
+T16	segment 98 108	kilometres
+T17	segment 109 118	southeast
+T18	segment 119 121	of
+T19	segment 122 127	Enugu
+T20	segment 128 129	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	compound Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T9
+R5	is-specialized-by Arg1:T9 Arg2:T7
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	compound Arg1:T9 Arg2:T8
+R8	c_co Arg1:T10 Arg2:T12
+R9	is-specialized-by Arg1:T12 Arg2:T11
+R10	is-specialized-by Arg1:T16 Arg2:T15
+R11	is-specialized-by Arg1:T17 Arg2:T18
+R12	is-specialized-by Arg1:T17 Arg2:T14
+R13	c_co Arg1:T18 Arg2:T19

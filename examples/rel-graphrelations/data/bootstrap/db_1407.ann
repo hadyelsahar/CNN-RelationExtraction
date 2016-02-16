@@ -1,0 +1,37 @@
+T0	segment 0 3	The
+T1	segment 4 8	Funj
+T2	segment 9 18	Sultanate
+T3	segment 19 21	of
+T4	segment 22 28	Sennar
+T5	segment 29 34	after
+T6	segment 35 38	its
+T7	segment 39 46	capital
+T8	segment 46 47	,
+T9	segment 48 53	which
+T10	segment 54 59	ruled
+T11	segment 60 61	a
+T12	segment 62 73	substantial
+T13	segment 74 78	area
+T14	segment 79 81	of
+T15	segment 82 91	northeast
+T16	segment 92 98	Africa
+T17	segment 99 106	between
+T18	segment 107 111	1504
+T19	segment 112 115	and
+T20	segment 116 120	1821
+T21	segment 121 122	.
+R0	is-specialized-by Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	c_co Arg1:T3 Arg2:T4
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T7
+R5	s_p Arg1:T9 Arg2:T10
+R6	p_o Arg1:T10 Arg2:T13
+R7	p_c Arg1:T10 Arg2:T17
+R8	is-specialized-by Arg1:T13 Arg2:T12
+R9	is-specialized-by Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T16
+R11	is-specialized-by Arg1:T16 Arg2:T15
+R12	c_co Arg1:T17 Arg2:T18
+R13	compound Arg1:T20 Arg2:T19
+R14	compound Arg1:T20 Arg2:T18

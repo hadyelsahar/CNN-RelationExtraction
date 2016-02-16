@@ -1,0 +1,40 @@
+T0	segment 0 10	Basseterre
+T1	segment 11 12	,
+T2	segment 13 22	estimated
+T3	segment 23 33	population
+T4	segment 34 40	15,500
+T5	segment 41 43	in
+T6	segment 44 48	2000
+T7	segment 48 49	,
+T8	segment 50 52	is
+T9	segment 53 56	the
+T10	segment 57 64	capital
+T11	segment 65 67	of
+T12	segment 68 71	the
+T13	segment 72 82	Federation
+T14	segment 83 85	of
+T15	segment 86 91	Saint
+T16	segment 92 97	Kitts
+T17	segment 98 101	and
+T18	segment 102 107	Nevis
+T19	segment 108 110	in
+T20	segment 111 114	the
+T21	segment 115 119	West
+T22	segment 120 126	Indies
+T23	segment 127 128	.
+R0	s_p Arg1:T0 Arg2:T8
+R1	p_o Arg1:T2 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	is-specialized-by Arg1:T3 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T6
+R5	p_o Arg1:T8 Arg2:T10
+R6	is-specialized-by Arg1:T10 Arg2:T11
+R7	is-specialized-by Arg1:T10 Arg2:T19
+R8	c_co Arg1:T11 Arg2:T13
+R9	is-specialized-by Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T16
+R11	compound Arg1:T16 Arg2:T14
+R12	compound Arg1:T16 Arg2:T13
+R13	compound Arg1:T16 Arg2:T15
+R14	c_co Arg1:T19 Arg2:T22
+R15	compound Arg1:T22 Arg2:T21

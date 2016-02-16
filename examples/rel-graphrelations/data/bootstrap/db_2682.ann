@@ -1,0 +1,41 @@
+T0	segment 0 3	The
+T1	segment 4 10	Empire
+T2	segment 11 13	of
+T3	segment 14 19	Great
+T4	segment 20 24	Kesh
+T5	segment 25 27	is
+T6	segment 28 29	a
+T7	segment 30 39	fictional
+T8	segment 40 46	nation
+T9	segment 47 49	on
+T10	segment 50 58	Midkemia
+T11	segment 58 59	,
+T12	segment 60 61	a
+T13	segment 62 67	world
+T14	segment 68 75	created
+T15	segment 76 78	by
+T16	segment 79 80	a
+T17	segment 81 88	fantasy
+T18	segment 89 101	role-playing
+T19	segment 102 107	group
+T20	segment 108 111	and
+T21	segment 112 123	popularized
+T22	segment 124 126	by
+T23	segment 127 134	Raymond
+T24	segment 135 136	E
+T25	segment 137 138	.
+R0	s_p Arg1:T1 Arg2:T5
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	c_co Arg1:T2 Arg2:T4
+R3	compound Arg1:T4 Arg2:T3
+R4	p_o Arg1:T5 Arg2:T8
+R5	is-specialized-by Arg1:T8 Arg2:T7
+R6	is-specialized-by Arg1:T8 Arg2:T9
+R7	c_co Arg1:T9 Arg2:T10
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	c_co Arg1:T15 Arg2:T19
+R10	is-specialized-by Arg1:T19 Arg2:T18
+R11	compound Arg1:T19 Arg2:T17
+R12	is-specialized-by Arg1:T21 Arg2:T22
+R13	c_co Arg1:T22 Arg2:T24
+R14	compound Arg1:T24 Arg2:T23

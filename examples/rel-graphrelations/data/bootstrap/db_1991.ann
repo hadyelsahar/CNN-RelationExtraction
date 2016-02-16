@@ -1,0 +1,43 @@
+T0	segment 0 3	The
+T1	segment 4 15	Scholarship
+T2	segment 16 26	Performers
+T3	segment 27 30	are
+T4	segment 31 32	a
+T5	segment 33 40	theater
+T6	segment 41 46	group
+T7	segment 47 49	in
+T8	segment 50 55	Rhode
+T9	segment 56 62	Island
+T10	segment 62 63	,
+T11	segment 64 70	United
+T12	segment 71 77	States
+T13	segment 78 82	that
+T14	segment 83 85	is
+T15	segment 86 95	dedicated
+T16	segment 96 98	to
+T17	segment 99 108	providing
+T18	segment 109 121	scholarships
+T19	segment 122 124	in
+T20	segment 125 128	the
+T21	segment 129 141	Burrillville
+T22	segment 142 146	area
+T23	segment 147 149	of
+T24	segment 150 153	the
+T25	segment 154 159	state
+T26	segment 160 161	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T6
+R3	is-specialized-by Arg1:T6 Arg2:T7
+R4	compound Arg1:T6 Arg2:T5
+R5	c_co Arg1:T7 Arg2:T9
+R6	compound Arg1:T9 Arg2:T8
+R7	compound Arg1:T12 Arg2:T11
+R8	s_p Arg1:T13 Arg2:T15
+R9	compound Arg1:T15 Arg2:T14
+R10	p_o Arg1:T17 Arg2:T18
+R11	is-specialized-by Arg1:T17 Arg2:T19
+R12	c_co Arg1:T19 Arg2:T22
+R13	is-specialized-by Arg1:T22 Arg2:T23
+R14	compound Arg1:T22 Arg2:T21
+R15	c_co Arg1:T23 Arg2:T25

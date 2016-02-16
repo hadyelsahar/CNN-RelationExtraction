@@ -1,0 +1,47 @@
+T0	segment 0 3	The
+T1	segment 4 8	WSFA
+T2	segment 9 16	Journal
+T3	segment 17 19	is
+T4	segment 20 21	a
+T5	segment 22 29	science
+T6	segment 30 37	fiction
+T7	segment 38 45	fanzine
+T8	segment 46 50	that
+T9	segment 51 54	has
+T10	segment 55 59	been
+T11	segment 60 69	published
+T12	segment 70 83	approximately
+T13	segment 84 88	once
+T14	segment 89 90	a
+T15	segment 91 96	month
+T16	segment 97 102	since
+T17	segment 103 107	1965
+T18	segment 108 110	by
+T19	segment 111 114	the
+T20	segment 115 125	Washington
+T21	segment 126 133	Science
+T22	segment 134 141	Fiction
+T23	segment 142 153	Association
+T24	segment 154 155	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T7
+R3	compound Arg1:T7 Arg2:T6
+R4	compound Arg1:T7 Arg2:T5
+R5	s_p Arg1:T8 Arg2:T11
+R6	p_o Arg1:T11 Arg2:T15
+R7	p_c Arg1:T11 Arg2:T18
+R8	p_c Arg1:T11 Arg2:T13
+R9	compound Arg1:T11 Arg2:T10
+R10	compound Arg1:T11 Arg2:T9
+R11	is-specialized-by Arg1:T13 Arg2:T12
+R12	is-specialized-by Arg1:T15 Arg2:T16
+R13	c_co Arg1:T16 Arg2:T17
+R14	compound Arg1:T17 Arg2:T14
+R15	compound Arg1:T17 Arg2:T13
+R16	compound Arg1:T17 Arg2:T16
+R17	compound Arg1:T17 Arg2:T15
+R18	c_co Arg1:T18 Arg2:T23
+R19	compound Arg1:T23 Arg2:T20
+R20	compound Arg1:T23 Arg2:T22
+R21	compound Arg1:T23 Arg2:T21

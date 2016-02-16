@@ -1,0 +1,50 @@
+T0	segment 0 3	The
+T1	segment 4 11	Botanic
+T2	segment 12 15	Inn
+T3	segment 15 16	,
+T4	segment 17 31	affectionately
+T5	segment 32 37	known
+T6	segment 38 40	as
+T7	segment 41 42	''
+T8	segment 42 43	``
+T9	segment 43 46	The
+T10	segment 47 50	Bot
+T11	segment 50 51	''
+T12	segment 51 52	''
+T13	segment 52 53	,
+T14	segment 54 56	is
+T15	segment 57 58	a
+T16	segment 59 72	bar/nightclub
+T17	segment 73 81	situated
+T18	segment 82 86	near
+T19	segment 87 94	Botanic
+T20	segment 95 102	Gardens
+T21	segment 103 105	in
+T22	segment 106 109	the
+T23	segment 110 115	Queen
+T24	segment 115 117	's
+T25	segment 118 125	Quarter
+T26	segment 126 128	of
+T27	segment 129 136	Belfast
+T28	segment 136 137	,
+T29	segment 138 146	Northern
+T30	segment 147 154	Ireland
+T31	segment 155 156	.
+R0	s_p Arg1:T2 Arg2:T5
+R1	compound Arg1:T2 Arg2:T1
+R2	p_c Arg1:T5 Arg2:T6
+R3	p_c Arg1:T5 Arg2:T4
+R4	c_co Arg1:T6 Arg2:T10
+R5	is-specialized-by Arg1:T17 Arg2:T18
+R6	c_co Arg1:T18 Arg2:T20
+R7	compound Arg1:T20 Arg2:T19
+R8	is-specialized-by Arg1:T20 Arg2:T21
+R9	c_co Arg1:T21 Arg2:T25
+R10	is-specialized-by Arg1:T25 Arg2:T26
+R11	c_co Arg1:T26 Arg2:T30
+R12	compound Arg1:T27 Arg2:T24
+R13	compound Arg1:T27 Arg2:T23
+R14	compound Arg1:T27 Arg2:T26
+R15	compound Arg1:T27 Arg2:T25
+R16	compound Arg1:T30 Arg2:T27
+R17	compound Arg1:T30 Arg2:T29

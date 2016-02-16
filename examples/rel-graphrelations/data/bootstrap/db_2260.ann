@@ -1,0 +1,33 @@
+T0	segment 0 4	Blue
+T1	segment 5 9	Note
+T2	segment 10 17	Records
+T3	segment 18 20	is
+T4	segment 21 23	an
+T5	segment 24 32	American
+T6	segment 33 37	jazz
+T7	segment 38 44	record
+T8	segment 45 50	label
+T9	segment 50 51	,
+T10	segment 52 63	established
+T11	segment 64 66	in
+T12	segment 67 71	1939
+T13	segment 72 74	by
+T14	segment 75 81	Alfred
+T15	segment 82 86	Lion
+T16	segment 87 90	and
+T17	segment 91 94	Max
+T18	segment 95 103	Margulis
+T19	segment 104 105	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_p Arg1:T1 Arg2:T3
+R2	s_p Arg1:T2 Arg2:T3
+R3	p_o Arg1:T3 Arg2:T8
+R4	compound Arg1:T8 Arg2:T6
+R5	compound Arg1:T8 Arg2:T7
+R6	is-specialized-by Arg1:T8 Arg2:T5
+R7	is-specialized-by Arg1:T10 Arg2:T11
+R8	is-specialized-by Arg1:T10 Arg2:T13
+R9	c_co Arg1:T11 Arg2:T12
+R10	c_co Arg1:T13 Arg2:T15
+R11	compound Arg1:T15 Arg2:T14
+R12	compound Arg1:T18 Arg2:T17

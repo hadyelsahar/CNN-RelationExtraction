@@ -1,0 +1,75 @@
+T0	segment 0 5	Danny
+T1	segment 6 12	Spanos
+T2	segment 13 15	is
+T3	segment 16 20	best
+T4	segment 21 26	known
+T5	segment 27 30	for
+T6	segment 31 34	his
+T7	segment 35 39	1983
+T8	segment 40 44	Rock
+T9	segment 45 48	and
+T10	segment 49 53	Roll
+T11	segment 54 56	EP
+T12	segment 57 58	''
+T13	segment 58 59	``
+T14	segment 59 66	Passion
+T15	segment 67 69	In
+T16	segment 70 73	The
+T17	segment 74 78	Dark
+T18	segment 78 79	''
+T19	segment 79 80	''
+T20	segment 81 86	which
+T21	segment 87 95	produced
+T22	segment 96 99	the
+T23	segment 100 103	top
+T24	segment 104 106	40
+T25	segment 107 110	hit
+T26	segment 111 117	single
+T27	segment 118 119	''
+T28	segment 119 120	``
+T29	segment 120 123	Hot
+T30	segment 124 130	Cherie
+T31	segment 130 131	''
+T32	segment 131 132	''
+T33	segment 133 136	and
+T34	segment 137 145	received
+T35	segment 146 149	big
+T36	segment 150 157	airplay
+T37	segment 158 160	on
+T38	segment 161 166	radio
+T39	segment 167 175	stations
+T40	segment 176 186	nationwide
+T41	segment 187 189	in
+T42	segment 190 193	the
+T43	segment 194 200	summer
+T44	segment 201 203	of
+T45	segment 204 208	1983
+T46	segment 209 210	.
+R0	compound Arg1:T1 Arg2:T0
+R1	s_p Arg1:T1 Arg2:T4
+R2	p_c Arg1:T4 Arg2:T5
+R3	compound Arg1:T4 Arg2:T2
+R4	p_c Arg1:T4 Arg2:T3
+R5	c_co Arg1:T5 Arg2:T8
+R6	is-specialized-by Arg1:T8 Arg2:T7
+R7	compound Arg1:T11 Arg2:T10
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	c_co Arg1:T15 Arg2:T17
+R10	s_p Arg1:T20 Arg2:T21
+R11	p_o Arg1:T21 Arg2:T26
+R12	is-specialized-by Arg1:T25 Arg2:T24
+R13	is-specialized-by Arg1:T25 Arg2:T23
+R14	compound Arg1:T30 Arg2:T29
+R15	is-specialized-by Arg1:T34 Arg2:T41
+R16	p_o Arg1:T34 Arg2:T36
+R17	is-specialized-by Arg1:T34 Arg2:T37
+R18	is-specialized-by Arg1:T36 Arg2:T35
+R19	c_co Arg1:T37 Arg2:T39
+R20	compound Arg1:T39 Arg2:T38
+R21	c_co Arg1:T41 Arg2:T43
+R22	is-specialized-by Arg1:T43 Arg2:T40
+R23	is-specialized-by Arg1:T43 Arg2:T44
+R24	c_co Arg1:T44 Arg2:T45
+R25	compound Arg1:T45 Arg2:T44
+R26	compound Arg1:T45 Arg2:T43
+R27	compound Arg1:T45 Arg2:T42

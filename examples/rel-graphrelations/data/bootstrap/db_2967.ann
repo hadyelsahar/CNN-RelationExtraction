@@ -1,0 +1,40 @@
+T0	segment 0 3	The
+T1	segment 4 9	Briad
+T2	segment 10 15	Group
+T3	segment 16 19	are
+T4	segment 20 25	based
+T5	segment 26 28	in
+T6	segment 29 39	Livingston
+T7	segment 39 40	,
+T8	segment 41 44	New
+T9	segment 45 51	Jersey
+T10	segment 52 56	with
+T11	segment 57 61	over
+T12	segment 62 65	100
+T13	segment 66 75	franchise
+T14	segment 76 85	locations
+T15	segment 86 88	in
+T16	segment 89 92	the
+T17	segment 93 99	United
+T18	segment 100 105	State
+T19	segment 106 111	under
+T20	segment 112 115	the
+T21	segment 116 122	brands
+T22	segment 123 124	T
+T23	segment 125 126	.
+R0	s_p Arg1:T2 Arg2:T4
+R1	compound Arg1:T2 Arg2:T1
+R2	compound Arg1:T4 Arg2:T3
+R3	p_c Arg1:T4 Arg2:T10
+R4	p_c Arg1:T4 Arg2:T5
+R5	p_c Arg1:T4 Arg2:T19
+R6	c_co Arg1:T5 Arg2:T6
+R7	compound Arg1:T9 Arg2:T8
+R8	c_co Arg1:T10 Arg2:T14
+R9	is-specialized-by Arg1:T14 Arg2:T15
+R10	compound Arg1:T14 Arg2:T13
+R11	is-specialized-by Arg1:T14 Arg2:T12
+R12	c_co Arg1:T15 Arg2:T18
+R13	compound Arg1:T18 Arg2:T17
+R14	c_co Arg1:T19 Arg2:T22
+R15	compound Arg1:T22 Arg2:T21

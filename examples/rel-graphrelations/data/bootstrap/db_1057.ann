@@ -1,0 +1,51 @@
+T0	segment 0 3	The
+T1	segment 4 8	Arms
+T2	segment 9 16	Control
+T3	segment 17 28	Association
+T4	segment 29 31	is
+T5	segment 32 33	a
+T6	segment 34 40	United
+T7	segment 41 53	States-based
+T8	segment 54 62	national
+T9	segment 63 85	nonpartisan-membership
+T10	segment 86 98	organization
+T11	segment 99 106	founded
+T12	segment 107 109	in
+T13	segment 110 114	1971
+T14	segment 114 115	,
+T15	segment 116 120	with
+T16	segment 121 124	the
+T17	segment 125 136	self-stated
+T18	segment 137 144	mission
+T19	segment 145 147	of
+T20	segment 148 157	promoting
+T21	segment 158 164	public
+T22	segment 165 178	understanding
+T23	segment 179 181	of
+T24	segment 182 185	and
+T25	segment 186 193	support
+T26	segment 194 197	for
+T27	segment 198 207	effective
+T28	segment 208 212	arms
+T29	segment 213 220	control
+T30	segment 221 229	policies
+T31	segment 230 231	.
+R0	s_p Arg1:T1 Arg2:T29
+R1	s_p Arg1:T3 Arg2:T4
+R2	compound Arg1:T3 Arg2:T2
+R3	compound Arg1:T3 Arg2:T1
+R4	p_o Arg1:T4 Arg2:T10
+R5	compound Arg1:T7 Arg2:T6
+R6	is-specialized-by Arg1:T10 Arg2:T7
+R7	compound Arg1:T10 Arg2:T6
+R8	is-specialized-by Arg1:T11 Arg2:T15
+R9	is-specialized-by Arg1:T11 Arg2:T12
+R10	c_co Arg1:T12 Arg2:T13
+R11	c_co Arg1:T15 Arg2:T18
+R12	is-specialized-by Arg1:T18 Arg2:T17
+R13	p_o Arg1:T20 Arg2:T22
+R14	is-specialized-by Arg1:T22 Arg2:T21
+R15	is-specialized-by Arg1:T25 Arg2:T26
+R16	c_co Arg1:T26 Arg2:T28
+R17	is-specialized-by Arg1:T28 Arg2:T27
+R18	p_o Arg1:T29 Arg2:T30

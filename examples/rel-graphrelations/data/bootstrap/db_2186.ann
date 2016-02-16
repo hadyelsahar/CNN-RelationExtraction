@@ -1,0 +1,37 @@
+T0	segment 0 5	Mirka
+T1	segment 6 10	Mora
+T2	segment 11 13	is
+T3	segment 14 15	a
+T4	segment 16 25	prominent
+T5	segment 26 37	French-born
+T6	segment 38 48	Australian
+T7	segment 49 55	visual
+T8	segment 56 62	artist
+T9	segment 63 66	who
+T10	segment 67 70	has
+T11	segment 71 82	contributed
+T12	segment 83 96	significantly
+T13	segment 97 99	to
+T14	segment 100 103	the
+T15	segment 104 115	development
+T16	segment 116 118	of
+T17	segment 119 131	contemporary
+T18	segment 132 135	art
+T19	segment 136 138	in
+T20	segment 139 148	Australia
+T21	segment 149 150	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T8
+R3	compound Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T8 Arg2:T4
+R5	s_p Arg1:T9 Arg2:T11
+R6	p_c Arg1:T11 Arg2:T12
+R7	p_c Arg1:T11 Arg2:T13
+R8	compound Arg1:T11 Arg2:T10
+R9	c_co Arg1:T13 Arg2:T15
+R10	is-specialized-by Arg1:T15 Arg2:T16
+R11	c_co Arg1:T16 Arg2:T18
+R12	is-specialized-by Arg1:T18 Arg2:T17
+R13	is-specialized-by Arg1:T18 Arg2:T19
+R14	c_co Arg1:T19 Arg2:T20

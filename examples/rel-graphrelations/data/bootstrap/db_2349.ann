@@ -1,0 +1,37 @@
+T0	segment 0 3	The
+T1	segment 4 16	Principality
+T2	segment 17 19	of
+T3	segment 20 28	Bulgaria
+T4	segment 29 32	was
+T5	segment 33 34	a
+T6	segment 35 37	de
+T7	segment 38 43	facto
+T8	segment 44 55	independent
+T9	segment 56 62	vassal
+T10	segment 63 65	of
+T11	segment 66 69	the
+T12	segment 70 77	Ottoman
+T13	segment 78 84	Empire
+T14	segment 85 96	established
+T15	segment 97 99	by
+T16	segment 100 103	the
+T17	segment 104 110	Treaty
+T18	segment 111 113	of
+T19	segment 114 120	Berlin
+T20	segment 121 123	in
+T21	segment 124 128	1878
+T22	segment 129 130	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T9
+R4	is-specialized-by Arg1:T9 Arg2:T10
+R5	is-specialized-by Arg1:T9 Arg2:T6
+R6	c_co Arg1:T10 Arg2:T13
+R7	compound Arg1:T13 Arg2:T12
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	is-specialized-by Arg1:T14 Arg2:T20
+R10	c_co Arg1:T15 Arg2:T17
+R11	is-specialized-by Arg1:T17 Arg2:T18
+R12	c_co Arg1:T18 Arg2:T19
+R13	c_co Arg1:T20 Arg2:T21

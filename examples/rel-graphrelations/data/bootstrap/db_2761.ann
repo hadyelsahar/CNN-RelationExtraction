@@ -1,0 +1,51 @@
+T0	segment 0 5	Tyler
+T1	segment 6 11	Media
+T2	segment 12 17	Group
+T3	segment 17 18	,
+T4	segment 19 23	also
+T5	segment 24 29	known
+T6	segment 30 32	as
+T7	segment 33 38	Tyler
+T8	segment 39 51	Broadcasting
+T9	segment 52 63	Corporation
+T10	segment 64 66	or
+T11	segment 67 73	simply
+T12	segment 74 79	Tyler
+T13	segment 80 85	Media
+T14	segment 85 86	,
+T15	segment 87 100	headquartered
+T16	segment 101 103	in
+T17	segment 104 112	Oklahoma
+T18	segment 113 117	City
+T19	segment 117 118	,
+T20	segment 119 127	Oklahoma
+T21	segment 127 128	,
+T22	segment 129 131	is
+T23	segment 132 133	a
+T24	segment 134 139	media
+T25	segment 140 147	company
+T26	segment 148 153	which
+T27	segment 154 158	owns
+T28	segment 159 163	five
+T29	segment 164 174	television
+T30	segment 175 183	stations
+T31	segment 184 185	.
+R0	s_p Arg1:T2 Arg2:T22
+R1	compound Arg1:T2 Arg2:T0
+R2	is-specialized-by Arg1:T2 Arg2:T11
+R3	compound Arg1:T2 Arg2:T1
+R4	is-specialized-by Arg1:T5 Arg2:T4
+R5	is-specialized-by Arg1:T5 Arg2:T6
+R6	c_co Arg1:T6 Arg2:T9
+R7	compound Arg1:T9 Arg2:T8
+R8	compound Arg1:T9 Arg2:T7
+R9	compound Arg1:T13 Arg2:T12
+R10	is-specialized-by Arg1:T15 Arg2:T16
+R11	c_co Arg1:T16 Arg2:T18
+R12	compound Arg1:T18 Arg2:T17
+R13	p_o Arg1:T22 Arg2:T25
+R14	compound Arg1:T25 Arg2:T24
+R15	s_p Arg1:T26 Arg2:T27
+R16	p_o Arg1:T27 Arg2:T30
+R17	compound Arg1:T30 Arg2:T29
+R18	is-specialized-by Arg1:T30 Arg2:T28

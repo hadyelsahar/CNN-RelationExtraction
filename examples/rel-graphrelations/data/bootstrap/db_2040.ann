@@ -1,0 +1,65 @@
+T0	segment 0 7	Fenghao
+T1	segment 8 10	is
+T2	segment 11 14	the
+T3	segment 15 21	modern
+T4	segment 22 26	name
+T5	segment 27 29	of
+T6	segment 30 33	the
+T7	segment 34 38	twin
+T8	segment 39 43	city
+T9	segment 44 50	formed
+T10	segment 51 53	by
+T11	segment 54 57	the
+T12	segment 58 65	Western
+T13	segment 66 70	Zhou
+T14	segment 71 79	capitals
+T15	segment 80 82	of
+T16	segment 83 87	Feng
+T17	segment 88 91	and
+T18	segment 92 95	Hao
+T19	segment 96 98	on
+T20	segment 99 107	opposite
+T21	segment 108 113	banks
+T22	segment 114 116	of
+T23	segment 117 120	the
+T24	segment 121 125	Feng
+T25	segment 126 131	River
+T26	segment 132 136	near
+T27	segment 137 140	its
+T28	segment 141 151	confluence
+T29	segment 152 156	with
+T30	segment 157 160	the
+T31	segment 161 164	Wei
+T32	segment 165 170	River
+T33	segment 171 173	in
+T34	segment 174 181	Shaanxi
+T35	segment 181 182	,
+T36	segment 183 188	China
+T37	segment 189 190	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T8
+R5	is-specialized-by Arg1:T8 Arg2:T7
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	is-specialized-by Arg1:T9 Arg2:T19
+R8	is-specialized-by Arg1:T9 Arg2:T29
+R9	c_co Arg1:T10 Arg2:T14
+R10	compound Arg1:T13 Arg2:T12
+R11	is-specialized-by Arg1:T14 Arg2:T15
+R12	compound Arg1:T14 Arg2:T13
+R13	is-specialized-by Arg1:T14 Arg2:T12
+R14	c_co Arg1:T15 Arg2:T16
+R15	c_co Arg1:T19 Arg2:T21
+R16	is-specialized-by Arg1:T21 Arg2:T20
+R17	is-specialized-by Arg1:T21 Arg2:T22
+R18	c_co Arg1:T22 Arg2:T25
+R19	is-specialized-by Arg1:T25 Arg2:T26
+R20	compound Arg1:T25 Arg2:T24
+R21	c_co Arg1:T26 Arg2:T28
+R22	c_co Arg1:T29 Arg2:T32
+R23	is-specialized-by Arg1:T32 Arg2:T33
+R24	compound Arg1:T32 Arg2:T31
+R25	c_co Arg1:T33 Arg2:T36
+R26	compound Arg1:T36 Arg2:T34

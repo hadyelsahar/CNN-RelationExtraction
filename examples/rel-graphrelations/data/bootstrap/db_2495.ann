@@ -1,0 +1,63 @@
+T0	segment 0 3	The
+T1	segment 4 5	''
+T2	segment 5 6	``
+T3	segment 6 14	Donation
+T4	segment 15 17	of
+T5	segment 18 23	Pepin
+T6	segment 23 24	''
+T7	segment 24 25	''
+T8	segment 25 26	,
+T9	segment 27 30	the
+T10	segment 31 36	first
+T11	segment 37 39	in
+T12	segment 40 43	754
+T13	segment 43 44	,
+T14	segment 45 48	and
+T15	segment 49 55	second
+T16	segment 56 58	in
+T17	segment 59 62	756
+T18	segment 62 63	,
+T19	segment 64 72	provided
+T20	segment 73 74	a
+T21	segment 75 80	legal
+T22	segment 81 86	basis
+T23	segment 87 90	for
+T24	segment 91 94	the
+T25	segment 95 101	formal
+T26	segment 102 112	organizing
+T27	segment 113 115	of
+T28	segment 116 119	the
+T29	segment 120 125	Papal
+T30	segment 126 132	States
+T31	segment 132 133	,
+T32	segment 134 139	which
+T33	segment 140 151	inaugurated
+T34	segment 152 157	papal
+T35	segment 158 166	temporal
+T36	segment 167 171	rule
+T37	segment 172 176	over
+T38	segment 177 182	civil
+T39	segment 183 194	authorities
+T40	segment 195 196	.
+R0	s_p Arg1:T3 Arg2:T19
+R1	is-specialized-by Arg1:T3 Arg2:T4
+R2	c_co Arg1:T4 Arg2:T5
+R3	is-specialized-by Arg1:T10 Arg2:T11
+R4	c_co Arg1:T11 Arg2:T12
+R5	is-specialized-by Arg1:T15 Arg2:T16
+R6	compound Arg1:T15 Arg2:T14
+R7	c_co Arg1:T16 Arg2:T17
+R8	p_c Arg1:T19 Arg2:T23
+R9	p_o Arg1:T19 Arg2:T22
+R10	is-specialized-by Arg1:T22 Arg2:T21
+R11	c_co Arg1:T23 Arg2:T25
+R12	is-specialized-by Arg1:T25 Arg2:T26
+R13	is-specialized-by Arg1:T25 Arg2:T27
+R14	c_co Arg1:T27 Arg2:T30
+R15	compound Arg1:T30 Arg2:T29
+R16	s_p Arg1:T32 Arg2:T33
+R17	p_c Arg1:T33 Arg2:T37
+R18	p_o Arg1:T33 Arg2:T36
+R19	is-specialized-by Arg1:T36 Arg2:T34
+R20	c_co Arg1:T37 Arg2:T39
+R21	is-specialized-by Arg1:T39 Arg2:T38

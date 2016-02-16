@@ -1,0 +1,41 @@
+T0	segment 0 6	KoÅ¡ice
+T1	segment 7 9	is
+T2	segment 10 13	the
+T3	segment 14 21	biggest
+T4	segment 22 26	city
+T5	segment 27 29	in
+T6	segment 30 37	eastern
+T7	segment 38 46	Slovakia
+T8	segment 47 50	and
+T9	segment 51 53	in
+T10	segment 54 58	2013
+T11	segment 59 62	was
+T12	segment 63 66	the
+T13	segment 67 75	European
+T14	segment 76 83	Capital
+T15	segment 84 86	of
+T16	segment 87 94	Culture
+T17	segment 95 103	together
+T18	segment 104 108	with
+T19	segment 109 118	Marseille
+T20	segment 118 119	,
+T21	segment 120 126	France
+T22	segment 127 128	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T7
+R5	is-specialized-by Arg1:T7 Arg2:T6
+R6	c_co Arg1:T9 Arg2:T10
+R7	is-specialized-by Arg1:T14 Arg2:T9
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	compound Arg1:T14 Arg2:T13
+R10	c_co Arg1:T15 Arg2:T16
+R11	is-specialized-by Arg1:T16 Arg2:T18
+R12	compound Arg1:T16 Arg2:T14
+R13	compound Arg1:T16 Arg2:T13
+R14	compound Arg1:T16 Arg2:T15
+R15	c_co Arg1:T18 Arg2:T21
+R16	compound Arg1:T21 Arg2:T19
+R17	is-specialized-by Arg1:T21 Arg2:T17

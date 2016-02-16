@@ -1,0 +1,30 @@
+T0	segment 0 6	Beylik
+T1	segment 7 9	of
+T2	segment 10 18	Erzincan
+T3	segment 19 22	was
+T4	segment 23 24	a
+T5	segment 25 37	principality
+T6	segment 38 40	in
+T7	segment 41 45	East
+T8	segment 46 54	Anatolia
+T9	segment 54 55	,
+T10	segment 56 62	Turkey
+T11	segment 63 65	in
+T12	segment 66 69	the
+T13	segment 70 80	fourteenth
+T14	segment 81 84	and
+T15	segment 85 90	early
+T16	segment 91 100	fifteenth
+T17	segment 101 110	centuries
+T18	segment 111 112	.
+R0	is-specialized-by Arg1:T0 Arg2:T1
+R1	s_p Arg1:T0 Arg2:T3
+R2	c_co Arg1:T1 Arg2:T2
+R3	p_o Arg1:T3 Arg2:T5
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T8
+R6	compound Arg1:T8 Arg2:T7
+R7	is-specialized-by Arg1:T10 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T13
+R9	compound Arg1:T17 Arg2:T16
+R10	compound Arg1:T17 Arg2:T15

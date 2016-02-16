@@ -1,0 +1,36 @@
+T0	segment 0 11	Snoopadelic
+T1	segment 12 17	Films
+T2	segment 18 20	is
+T3	segment 21 23	an
+T4	segment 24 32	American
+T5	segment 33 37	film
+T6	segment 38 48	production
+T7	segment 49 56	company
+T8	segment 56 57	,
+T9	segment 58 65	founded
+T10	segment 66 68	by
+T11	segment 69 75	rapper
+T12	segment 76 81	Snoop
+T13	segment 82 86	Dogg
+T14	segment 87 89	in
+T15	segment 90 94	2005
+T16	segment 94 95	,
+T17	segment 96 99	and
+T18	segment 100 111	distributed
+T19	segment 112 119	through
+T20	segment 120 123	MCA
+T21	segment 124 125	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	is-specialized-by Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T7
+R3	compound Arg1:T7 Arg2:T6
+R4	compound Arg1:T7 Arg2:T5
+R5	is-specialized-by Arg1:T7 Arg2:T4
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T13
+R8	compound Arg1:T13 Arg2:T12
+R9	compound Arg1:T13 Arg2:T11
+R10	is-specialized-by Arg1:T13 Arg2:T14
+R11	c_co Arg1:T14 Arg2:T15
+R12	is-specialized-by Arg1:T18 Arg2:T19
+R13	c_co Arg1:T19 Arg2:T20

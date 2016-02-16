@@ -1,0 +1,71 @@
+T0	segment 0 9	Gallaecia
+T1	segment 10 12	or
+T2	segment 13 22	Callaecia
+T3	segment 22 23	,
+T4	segment 24 28	also
+T5	segment 29 34	known
+T6	segment 35 37	as
+T7	segment 38 46	Hispania
+T8	segment 47 56	Gallaecia
+T9	segment 56 57	,
+T10	segment 58 61	was
+T11	segment 62 65	the
+T12	segment 66 70	name
+T13	segment 71 73	of
+T14	segment 74 75	a
+T15	segment 76 81	Roman
+T16	segment 82 90	province
+T17	segment 91 95	that
+T18	segment 96 105	comprised
+T19	segment 106 107	a
+T20	segment 108 117	territory
+T21	segment 118 120	in
+T22	segment 121 124	the
+T23	segment 125 135	north-west
+T24	segment 136 138	of
+T25	segment 139 147	Hispania
+T26	segment 147 148	,
+T27	segment 149 162	approximately
+T28	segment 163 174	present-day
+T29	segment 175 182	Galicia
+T30	segment 182 183	,
+T31	segment 184 192	northern
+T32	segment 193 201	Portugal
+T33	segment 201 202	,
+T34	segment 203 211	Asturias
+T35	segment 212 215	and
+T36	segment 216 220	Leon
+T37	segment 221 224	and
+T38	segment 225 228	the
+T39	segment 229 234	later
+T40	segment 235 241	Suebic
+T41	segment 242 249	Kingdom
+T42	segment 250 252	of
+T43	segment 253 262	Gallaecia
+T44	segment 263 264	.
+R0	s_p Arg1:T0 Arg2:T10
+R1	is-specialized-by Arg1:T5 Arg2:T4
+R2	is-specialized-by Arg1:T5 Arg2:T6
+R3	c_co Arg1:T6 Arg2:T8
+R4	compound Arg1:T8 Arg2:T7
+R5	p_o Arg1:T10 Arg2:T12
+R6	is-specialized-by Arg1:T12 Arg2:T13
+R7	c_co Arg1:T13 Arg2:T16
+R8	is-specialized-by Arg1:T16 Arg2:T15
+R9	s_p Arg1:T17 Arg2:T18
+R10	p_c Arg1:T18 Arg2:T21
+R11	p_o Arg1:T18 Arg2:T20
+R12	c_co Arg1:T21 Arg2:T23
+R13	is-specialized-by Arg1:T23 Arg2:T24
+R14	c_co Arg1:T24 Arg2:T29
+R15	is-specialized-by Arg1:T29 Arg2:T28
+R16	is-specialized-by Arg1:T29 Arg2:T27
+R17	compound Arg1:T29 Arg2:T25
+R18	is-specialized-by Arg1:T32 Arg2:T31
+R19	is-specialized-by Arg1:T41 Arg2:T39
+R20	is-specialized-by Arg1:T41 Arg2:T42
+R21	compound Arg1:T41 Arg2:T40
+R22	c_co Arg1:T42 Arg2:T43
+R23	compound Arg1:T43 Arg2:T40
+R24	compound Arg1:T43 Arg2:T42
+R25	compound Arg1:T43 Arg2:T41

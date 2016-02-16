@@ -1,0 +1,67 @@
+T0	segment 0 3	The
+T1	segment 4 11	Kingdom
+T2	segment 12 14	of
+T3	segment 15 22	Ireland
+T4	segment 23 26	was
+T5	segment 27 28	a
+T6	segment 29 34	state
+T7	segment 35 37	in
+T8	segment 38 45	Ireland
+T9	segment 46 50	from
+T10	segment 51 54	the
+T11	segment 55 67	proclamation
+T12	segment 68 70	of
+T13	segment 71 75	King
+T14	segment 76 81	Henry
+T15	segment 82 86	VIII
+T16	segment 87 89	of
+T17	segment 90 97	England
+T18	segment 98 100	as
+T19	segment 101 105	King
+T20	segment 106 108	of
+T21	segment 109 116	Ireland
+T22	segment 117 119	by
+T23	segment 120 123	the
+T24	segment 124 129	Crown
+T25	segment 130 132	of
+T26	segment 133 140	Ireland
+T27	segment 141 144	Act
+T28	segment 145 149	1542
+T29	segment 150 155	until
+T30	segment 156 159	the
+T31	segment 160 164	Acts
+T32	segment 165 167	of
+T33	segment 168 173	Union
+T34	segment 174 178	1800
+T35	segment 179 180	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	compound Arg1:T3 Arg2:T2
+R4	compound Arg1:T3 Arg2:T1
+R5	p_o Arg1:T4 Arg2:T6
+R6	is-specialized-by Arg1:T6 Arg2:T7
+R7	is-specialized-by Arg1:T6 Arg2:T22
+R8	is-specialized-by Arg1:T6 Arg2:T29
+R9	c_co Arg1:T7 Arg2:T8
+R10	is-specialized-by Arg1:T8 Arg2:T9
+R11	c_co Arg1:T9 Arg2:T11
+R12	is-specialized-by Arg1:T11 Arg2:T12
+R13	c_co Arg1:T12 Arg2:T15
+R14	is-specialized-by Arg1:T15 Arg2:T16
+R15	compound Arg1:T15 Arg2:T14
+R16	compound Arg1:T15 Arg2:T13
+R17	c_co Arg1:T16 Arg2:T19
+R18	is-specialized-by Arg1:T19 Arg2:T18
+R19	is-specialized-by Arg1:T19 Arg2:T20
+R20	compound Arg1:T19 Arg2:T17
+R21	c_co Arg1:T20 Arg2:T21
+R22	c_co Arg1:T22 Arg2:T24
+R23	is-specialized-by Arg1:T24 Arg2:T25
+R24	c_co Arg1:T25 Arg2:T27
+R25	is-specialized-by Arg1:T27 Arg2:T28
+R26	compound Arg1:T27 Arg2:T26
+R27	c_co Arg1:T29 Arg2:T31
+R28	is-specialized-by Arg1:T31 Arg2:T32
+R29	c_co Arg1:T32 Arg2:T33
+R30	is-specialized-by Arg1:T33 Arg2:T34

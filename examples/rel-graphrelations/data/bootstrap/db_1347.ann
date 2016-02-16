@@ -1,0 +1,71 @@
+T0	segment 0 3	The
+T1	segment 4 10	States
+T2	segment 11 13	of
+T3	segment 14 17	the
+T4	segment 18 24	German
+T5	segment 25 38	Confederation
+T6	segment 39 43	were
+T7	segment 44 49	those
+T8	segment 50 56	member
+T9	segment 57 63	states
+T10	segment 64 68	that
+T11	segment 69 73	from
+T12	segment 74 76	20
+T13	segment 77 81	June
+T14	segment 82 86	1815
+T15	segment 87 91	were
+T16	segment 92 96	part
+T17	segment 97 99	of
+T18	segment 100 103	the
+T19	segment 104 110	German
+T20	segment 111 124	Confederation
+T21	segment 124 125	,
+T22	segment 126 131	which
+T23	segment 132 138	lasted
+T24	segment 138 139	,
+T25	segment 140 144	with
+T26	segment 145 149	some
+T27	segment 150 157	changes
+T28	segment 158 160	in
+T29	segment 161 164	the
+T30	segment 165 171	member
+T31	segment 172 178	states
+T32	segment 178 179	,
+T33	segment 180 185	until
+T34	segment 186 188	24
+T35	segment 189 195	August
+T36	segment 196 200	1866
+T37	segment 200 201	,
+T38	segment 202 207	under
+T39	segment 208 211	the
+T40	segment 212 222	presidency
+T41	segment 223 225	of
+T42	segment 226 229	the
+T43	segment 230 238	Austrian
+T44	segment 239 247	imperial
+T45	segment 248 253	House
+T46	segment 254 256	of
+T47	segment 257 265	Habsburg
+T48	segment 265 266	,
+T49	segment 267 272	which
+T50	segment 273 276	was
+T51	segment 277 288	represented
+T52	segment 289 291	by
+T53	segment 292 294	an
+T54	segment 295 303	Austrian
+T55	segment 304 316	presidential
+T56	segment 317 322	envoy
+T57	segment 323 325	to
+T58	segment 326 329	the
+T59	segment 330 337	Federal
+T60	segment 338 342	diet
+T61	segment 343 345	in
+T62	segment 346 355	Frankfurt
+T63	segment 356 357	.
+R0	compound Arg1:T14 Arg2:T12
+R1	compound Arg1:T14 Arg2:T13
+R2	compound Arg1:T20 Arg2:T19
+R3	compound Arg1:T36 Arg2:T35
+R4	compound Arg1:T36 Arg2:T34
+R5	compound Arg1:T47 Arg2:T46
+R6	compound Arg1:T47 Arg2:T45

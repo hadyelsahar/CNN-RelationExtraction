@@ -1,0 +1,40 @@
+T0	segment 0 3	The
+T1	segment 4 10	United
+T2	segment 11 18	Kingdom
+T3	segment 19 22	has
+T4	segment 23 35	participated
+T5	segment 36 38	in
+T6	segment 39 42	the
+T7	segment 43 53	Eurovision
+T8	segment 54 58	Song
+T9	segment 59 66	Contest
+T10	segment 67 69	57
+T11	segment 70 75	times
+T12	segment 76 79	and
+T13	segment 80 82	is
+T14	segment 83 86	one
+T15	segment 87 89	of
+T16	segment 90 93	the
+T17	segment 94 98	most
+T18	segment 99 109	successful
+T19	segment 110 119	countries
+T20	segment 120 122	to
+T21	segment 123 130	compete
+T22	segment 131 133	in
+T23	segment 134 137	the
+T24	segment 138 145	contest
+T25	segment 146 147	.
+R0	s_p Arg1:T2 Arg2:T4
+R1	compound Arg1:T2 Arg2:T1
+R2	compound Arg1:T4 Arg2:T3
+R3	p_c Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T9
+R5	compound Arg1:T9 Arg2:T8
+R6	compound Arg1:T9 Arg2:T7
+R7	is-specialized-by Arg1:T11 Arg2:T10
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	c_co Arg1:T15 Arg2:T19
+R10	is-specialized-by Arg1:T18 Arg2:T17
+R11	is-specialized-by Arg1:T19 Arg2:T18
+R12	is-specialized-by Arg1:T21 Arg2:T22
+R13	c_co Arg1:T22 Arg2:T24

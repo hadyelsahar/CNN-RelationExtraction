@@ -1,0 +1,30 @@
+T0	segment 0 3	The
+T1	segment 4 8	Free
+T2	segment 9 18	Knowledge
+T3	segment 19 29	Foundation
+T4	segment 30 32	is
+T5	segment 33 35	an
+T6	segment 36 48	organization
+T7	segment 49 55	aiming
+T8	segment 56 58	to
+T9	segment 59 66	promote
+T10	segment 67 71	Free
+T11	segment 72 81	Knowledge
+T12	segment 81 82	,
+T13	segment 83 92	including
+T14	segment 93 97	Free
+T15	segment 98 106	Software
+T16	segment 107 110	and
+T17	segment 111 115	Free
+T18	segment 116 125	Standards
+T19	segment 126 127	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T6
+R4	p_o Arg1:T9 Arg2:T11
+R5	compound Arg1:T11 Arg2:T10
+R6	is-specialized-by Arg1:T11 Arg2:T13
+R7	c_co Arg1:T13 Arg2:T15
+R8	compound Arg1:T15 Arg2:T14
+R9	compound Arg1:T18 Arg2:T17

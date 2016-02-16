@@ -1,0 +1,38 @@
+T0	segment 0 3	The
+T1	segment 4 13	Institute
+T2	segment 14 17	for
+T3	segment 18 24	Artist
+T4	segment 25 35	Management
+T5	segment 35 36	,
+T6	segment 37 44	branded
+T7	segment 45 47	as
+T8	segment 48 57	INSTITUTE
+T9	segment 57 58	,
+T10	segment 59 61	is
+T11	segment 62 64	an
+T12	segment 65 71	artist
+T13	segment 72 82	management
+T14	segment 83 90	company
+T15	segment 90 91	,
+T16	segment 92 97	which
+T17	segment 98 105	manages
+T18	segment 106 110	some
+T19	segment 111 113	23
+T20	segment 114 122	creative
+T21	segment 123 130	artists
+T22	segment 131 132	.
+R0	s_p Arg1:T1 Arg2:T10
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	c_co Arg1:T2 Arg2:T4
+R3	compound Arg1:T4 Arg2:T3
+R4	compound Arg1:T4 Arg2:T2
+R5	compound Arg1:T4 Arg2:T1
+R6	is-specialized-by Arg1:T6 Arg2:T7
+R7	c_co Arg1:T7 Arg2:T8
+R8	p_o Arg1:T10 Arg2:T14
+R9	compound Arg1:T14 Arg2:T12
+R10	compound Arg1:T14 Arg2:T13
+R11	s_p Arg1:T16 Arg2:T17
+R12	p_o Arg1:T17 Arg2:T21
+R13	is-specialized-by Arg1:T21 Arg2:T20
+R14	is-specialized-by Arg1:T21 Arg2:T19

@@ -1,0 +1,51 @@
+T0	segment 0 8	Sukabumi
+T1	segment 9 11	is
+T2	segment 12 13	a
+T3	segment 14 18	city
+T4	segment 19 29	surrounded
+T5	segment 30 32	by
+T6	segment 33 36	the
+T7	segment 37 44	regency
+T8	segment 45 47	of
+T9	segment 48 51	the
+T10	segment 52 56	same
+T11	segment 57 61	name
+T12	segment 62 64	in
+T13	segment 65 68	the
+T14	segment 69 77	southern
+T15	segment 78 87	foothills
+T16	segment 88 90	of
+T17	segment 91 96	Mount
+T18	segment 97 101	Gede
+T19	segment 101 102	,
+T20	segment 103 105	in
+T21	segment 106 110	West
+T22	segment 111 115	Java
+T23	segment 115 116	,
+T24	segment 117 126	Indonesia
+T25	segment 126 127	,
+T26	segment 128 133	about
+T27	segment 134 136	80
+T28	segment 137 139	km
+T29	segment 140 143	was
+T30	segment 144 151	321,205
+T31	segment 152 153	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T4 Arg2:T20
+R3	is-specialized-by Arg1:T4 Arg2:T12
+R4	is-specialized-by Arg1:T4 Arg2:T5
+R5	c_co Arg1:T5 Arg2:T7
+R6	is-specialized-by Arg1:T7 Arg2:T8
+R7	c_co Arg1:T8 Arg2:T11
+R8	is-specialized-by Arg1:T11 Arg2:T10
+R9	c_co Arg1:T12 Arg2:T15
+R10	is-specialized-by Arg1:T15 Arg2:T16
+R11	is-specialized-by Arg1:T15 Arg2:T14
+R12	c_co Arg1:T16 Arg2:T18
+R13	compound Arg1:T18 Arg2:T17
+R14	c_co Arg1:T20 Arg2:T22
+R15	is-specialized-by Arg1:T22 Arg2:T26
+R16	compound Arg1:T22 Arg2:T21
+R17	c_co Arg1:T26 Arg2:T28
+R18	is-specialized-by Arg1:T28 Arg2:T27

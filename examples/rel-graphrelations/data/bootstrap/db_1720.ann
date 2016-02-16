@@ -1,0 +1,44 @@
+T0	segment 0 3	The
+T1	segment 4 8	Very
+T2	segment 9 17	Reverend
+T3	segment 18 23	David
+T4	segment 24 32	Giuliano
+T5	segment 33 34	,
+T6	segment 35 37	he
+T7	segment 38 41	was
+T8	segment 42 54	subsequently
+T9	segment 55 62	elected
+T10	segment 63 65	to
+T11	segment 66 73	succeed
+T12	segment 74 79	Peter
+T13	segment 80 85	Short
+T14	segment 86 88	as
+T15	segment 89 92	the
+T16	segment 93 97	39th
+T17	segment 98 107	Moderator
+T18	segment 108 110	of
+T19	segment 111 114	the
+T20	segment 115 121	United
+T21	segment 122 128	Church
+T22	segment 129 132	for
+T23	segment 133 134	a
+T24	segment 135 145	three-year
+T25	segment 146 150	term
+T26	segment 151 152	.
+R0	compound Arg1:T4 Arg2:T3
+R1	is-specialized-by Arg1:T4 Arg2:T1
+R2	s_p Arg1:T4 Arg2:T9
+R3	compound Arg1:T4 Arg2:T2
+R4	compound Arg1:T9 Arg2:T7
+R5	p_c Arg1:T9 Arg2:T8
+R6	p_o Arg1:T11 Arg2:T13
+R7	is-specialized-by Arg1:T11 Arg2:T22
+R8	compound Arg1:T13 Arg2:T12
+R9	is-specialized-by Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T17
+R11	is-specialized-by Arg1:T17 Arg2:T16
+R12	is-specialized-by Arg1:T17 Arg2:T18
+R13	c_co Arg1:T18 Arg2:T21
+R14	compound Arg1:T21 Arg2:T20
+R15	c_co Arg1:T22 Arg2:T25
+R16	is-specialized-by Arg1:T25 Arg2:T24

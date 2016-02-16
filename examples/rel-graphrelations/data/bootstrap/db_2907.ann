@@ -1,0 +1,38 @@
+T0	segment 0 3	The
+T1	segment 4 12	Nebraska
+T2	segment 13 22	Methodist
+T3	segment 23 29	Health
+T4	segment 30 36	System
+T5	segment 36 37	,
+T6	segment 38 42	also
+T7	segment 43 48	known
+T8	segment 49 51	as
+T9	segment 52 60	Bestcare
+T10	segment 60 61	,
+T11	segment 62 64	is
+T12	segment 65 66	a
+T13	segment 67 76	nonprofit
+T14	segment 77 86	Nebraskan
+T15	segment 87 97	healthcare
+T16	segment 98 110	organization
+T17	segment 111 115	that
+T18	segment 116 119	was
+T19	segment 120 127	founded
+T20	segment 128 130	in
+T21	segment 131 135	1982
+T22	segment 136 137	.
+R0	compound Arg1:T4 Arg2:T3
+R1	s_p Arg1:T4 Arg2:T11
+R2	compound Arg1:T4 Arg2:T2
+R3	compound Arg1:T4 Arg2:T1
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T7 Arg2:T6
+R6	c_co Arg1:T8 Arg2:T9
+R7	p_o Arg1:T11 Arg2:T16
+R8	compound Arg1:T16 Arg2:T14
+R9	compound Arg1:T16 Arg2:T15
+R10	is-specialized-by Arg1:T16 Arg2:T13
+R11	s_p Arg1:T17 Arg2:T19
+R12	p_c Arg1:T19 Arg2:T20
+R13	compound Arg1:T19 Arg2:T18
+R14	c_co Arg1:T20 Arg2:T21

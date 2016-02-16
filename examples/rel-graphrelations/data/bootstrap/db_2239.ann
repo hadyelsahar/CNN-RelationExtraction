@@ -1,0 +1,54 @@
+T0	segment 0 7	Eusebio
+T1	segment 8 17	SacristÃ¡n
+T2	segment 18 22	Mena
+T3	segment 23 24	,
+T4	segment 25 30	known
+T5	segment 31 33	as
+T6	segment 34 40	simply
+T7	segment 41 48	Eusebio
+T8	segment 49 51	in
+T9	segment 52 55	his
+T10	segment 56 63	playing
+T11	segment 64 68	days
+T12	segment 68 69	,
+T13	segment 70 72	is
+T14	segment 73 74	a
+T15	segment 75 82	Spanish
+T16	segment 83 90	retired
+T17	segment 91 101	footballer
+T18	segment 102 105	who
+T19	segment 106 112	played
+T20	segment 113 115	as
+T21	segment 116 117	a
+T22	segment 118 125	central
+T23	segment 126 136	midfielder
+T24	segment 136 137	,
+T25	segment 138 141	and
+T26	segment 142 145	the
+T27	segment 146 153	current
+T28	segment 154 159	coach
+T29	segment 160 162	of
+T30	segment 163 165	FC
+T31	segment 166 175	Barcelona
+T32	segment 176 177	B
+T33	segment 178 179	.
+R0	s_p Arg1:T2 Arg2:T13
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T7
+R5	is-specialized-by Arg1:T7 Arg2:T8
+R6	is-specialized-by Arg1:T7 Arg2:T6
+R7	c_co Arg1:T8 Arg2:T11
+R8	compound Arg1:T11 Arg2:T10
+R9	p_o Arg1:T13 Arg2:T17
+R10	is-specialized-by Arg1:T17 Arg2:T15
+R11	s_p Arg1:T18 Arg2:T19
+R12	p_c Arg1:T19 Arg2:T20
+R13	c_co Arg1:T20 Arg2:T23
+R14	is-specialized-by Arg1:T23 Arg2:T22
+R15	is-specialized-by Arg1:T28 Arg2:T27
+R16	is-specialized-by Arg1:T28 Arg2:T29
+R17	c_co Arg1:T29 Arg2:T32
+R18	compound Arg1:T32 Arg2:T30
+R19	compound Arg1:T32 Arg2:T31

@@ -1,0 +1,42 @@
+T0	segment 0 9	Greenwood
+T1	segment 10 14	Hall
+T2	segment 15 17	is
+T3	segment 18 19	a
+T4	segment 20 28	publicly
+T5	segment 29 35	traded
+T6	segment 36 47	educational
+T7	segment 48 58	technology
+T8	segment 59 66	company
+T9	segment 67 71	that
+T10	segment 72 80	provides
+T11	segment 81 92	cloud-based
+T12	segment 93 99	people
+T13	segment 100 103	and
+T14	segment 104 114	technology
+T15	segment 115 124	solutions
+T16	segment 125 133	designed
+T17	segment 134 136	to
+T18	segment 137 141	help
+T19	segment 142 156	post-secondary
+T20	segment 157 169	institutions
+T21	segment 170 176	better
+T22	segment 177 183	manage
+T23	segment 184 187	the
+T24	segment 188 195	student
+T25	segment 196 205	lifecycle
+T26	segment 206 207	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T7
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T7 Arg2:T5
+R5	s_p Arg1:T9 Arg2:T10
+R6	p_o Arg1:T10 Arg2:T12
+R7	is-specialized-by Arg1:T12 Arg2:T11
+R8	compound Arg1:T15 Arg2:T14
+R9	p_p Arg1:T18 Arg2:T22
+R10	s_p Arg1:T20 Arg2:T22
+R11	is-specialized-by Arg1:T20 Arg2:T19
+R12	p_o Arg1:T22 Arg2:T25
+R13	p_c Arg1:T22 Arg2:T21
+R14	compound Arg1:T25 Arg2:T24

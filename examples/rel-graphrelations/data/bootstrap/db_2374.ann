@@ -1,0 +1,65 @@
+T0	segment 0 8	Republic
+T1	segment 9 11	of
+T2	segment 12 19	PiÅczÃ³w
+T3	segment 20 22	in
+T4	segment 23 37	ÅwiÄtokrzyskie
+T5	segment 38 49	Voivodeship
+T6	segment 50 59	liberated
+T7	segment 60 62	by
+T8	segment 63 68	joint
+T9	segment 69 75	forces
+T10	segment 76 78	of
+T11	segment 79 85	Polish
+T12	segment 86 96	Resistance
+T13	segment 97 107	formations
+T14	segment 107 108	:
+T15	segment 109 113	Home
+T16	segment 114 118	Army
+T17	segment 118 119	,
+T18	segment 120 126	People
+T19	segment 126 128	's
+T20	segment 129 133	Army
+T21	segment 134 137	and
+T22	segment 138 146	Peasants
+T23	segment 146 147	'
+T24	segment 148 158	Battalions
+T25	segment 158 159	,
+T26	segment 160 166	during
+T27	segment 167 168	a
+T28	segment 169 175	period
+T29	segment 176 180	from
+T30	segment 181 185	July
+T31	segment 186 188	21
+T32	segment 189 191	to
+T33	segment 192 198	August
+T34	segment 199 201	12
+T35	segment 201 202	,
+T36	segment 203 207	1944
+T37	segment 208 209	.
+R0	is-specialized-by Arg1:T0 Arg2:T1
+R1	c_co Arg1:T1 Arg2:T2
+R2	is-specialized-by Arg1:T2 Arg2:T3
+R3	c_co Arg1:T3 Arg2:T5
+R4	compound Arg1:T5 Arg2:T4
+R5	is-specialized-by Arg1:T6 Arg2:T7
+R6	c_co Arg1:T7 Arg2:T9
+R7	is-specialized-by Arg1:T9 Arg2:T8
+R8	is-specialized-by Arg1:T9 Arg2:T10
+R9	c_co Arg1:T10 Arg2:T13
+R10	compound Arg1:T13 Arg2:T12
+R11	is-specialized-by Arg1:T13 Arg2:T11
+R12	is-specialized-by Arg1:T16 Arg2:T32
+R13	is-specialized-by Arg1:T16 Arg2:T26
+R14	compound Arg1:T16 Arg2:T15
+R15	compound Arg1:T20 Arg2:T19
+R16	compound Arg1:T20 Arg2:T18
+R17	c_co Arg1:T26 Arg2:T28
+R18	is-specialized-by Arg1:T28 Arg2:T29
+R19	c_co Arg1:T29 Arg2:T30
+R20	is-specialized-by Arg1:T30 Arg2:T31
+R21	compound Arg1:T31 Arg2:T30
+R22	c_co Arg1:T32 Arg2:T33
+R23	is-specialized-by Arg1:T33 Arg2:T34
+R24	compound Arg1:T36 Arg2:T35
+R25	compound Arg1:T36 Arg2:T34
+R26	compound Arg1:T36 Arg2:T33

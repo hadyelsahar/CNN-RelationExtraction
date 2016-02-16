@@ -1,0 +1,30 @@
+T0	segment 0 3	SÃ£o
+T1	segment 4 8	TomÃ©
+T2	segment 9 11	is
+T3	segment 12 15	the
+T4	segment 16 23	capital
+T5	segment 24 28	city
+T6	segment 29 31	of
+T7	segment 32 35	SÃ£o
+T8	segment 36 40	TomÃ©
+T9	segment 41 44	and
+T10	segment 45 53	PrÃ­ncipe
+T11	segment 54 57	and
+T12	segment 58 60	is
+T13	segment 61 63	by
+T14	segment 64 67	far
+T15	segment 68 72	that
+T16	segment 73 79	nation
+T17	segment 79 81	's
+T18	segment 82 89	largest
+T19	segment 90 94	town
+T20	segment 95 96	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	compound Arg1:T5 Arg2:T4
+R4	p_o Arg1:T5 Arg2:T19
+R5	is-specialized-by Arg1:T5 Arg2:T6
+R6	c_co Arg1:T6 Arg2:T8
+R7	compound Arg1:T8 Arg2:T7
+R8	is-specialized-by Arg1:T19 Arg2:T18

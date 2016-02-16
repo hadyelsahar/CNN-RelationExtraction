@@ -1,0 +1,64 @@
+T0	segment 0 3	The
+T1	segment 4 7	NWA
+T2	segment 8 15	Central
+T3	segment 16 22	States
+T4	segment 23 33	Television
+T5	segment 34 46	Championship
+T6	segment 47 50	was
+T7	segment 51 54	the
+T8	segment 55 64	secondary
+T9	segment 65 72	singles
+T10	segment 73 85	chamoionship
+T11	segment 86 89	for
+T12	segment 90 93	the
+T13	segment 94 99	Heart
+T14	segment 100 102	of
+T15	segment 103 110	America
+T16	segment 111 117	Sports
+T17	segment 118 129	Attractions
+T18	segment 130 131	/
+T19	segment 132 139	Central
+T20	segment 140 146	States
+T21	segment 147 156	Wrestling
+T22	segment 157 166	promotion
+T23	segment 167 171	from
+T24	segment 172 176	1977
+T25	segment 177 182	until
+T26	segment 183 186	the
+T27	segment 187 196	promotion
+T28	segment 197 203	ceased
+T29	segment 204 206	to
+T30	segment 207 212	exist
+T31	segment 213 215	in
+T32	segment 216 220	1988
+T33	segment 221 222	.
+R0	compound Arg1:T5 Arg2:T4
+R1	compound Arg1:T5 Arg2:T3
+R2	s_p Arg1:T5 Arg2:T6
+R3	compound Arg1:T5 Arg2:T2
+R4	compound Arg1:T5 Arg2:T1
+R5	p_o Arg1:T6 Arg2:T10
+R6	is-specialized-by Arg1:T10 Arg2:T8
+R7	is-specialized-by Arg1:T10 Arg2:T11
+R8	compound Arg1:T10 Arg2:T9
+R9	c_co Arg1:T11 Arg2:T13
+R10	is-specialized-by Arg1:T13 Arg2:T14
+R11	c_co Arg1:T14 Arg2:T17
+R12	compound Arg1:T17 Arg2:T16
+R13	compound Arg1:T17 Arg2:T15
+R14	compound Arg1:T21 Arg2:T19
+R15	compound Arg1:T21 Arg2:T16
+R16	compound Arg1:T21 Arg2:T17
+R17	compound Arg1:T21 Arg2:T20
+R18	compound Arg1:T21 Arg2:T14
+R19	compound Arg1:T21 Arg2:T15
+R20	compound Arg1:T21 Arg2:T13
+R21	compound Arg1:T21 Arg2:T18
+R22	compound Arg1:T22 Arg2:T20
+R23	compound Arg1:T22 Arg2:T19
+R24	compound Arg1:T22 Arg2:T21
+R25	is-specialized-by Arg1:T22 Arg2:T23
+R26	c_co Arg1:T23 Arg2:T24
+R27	s_p Arg1:T27 Arg2:T28
+R28	is-specialized-by Arg1:T30 Arg2:T31
+R29	c_co Arg1:T31 Arg2:T32

@@ -1,0 +1,79 @@
+T0	segment 0 7	Madison
+T1	segment 8 16	Dearborn
+T2	segment 17 25	Partners
+T3	segment 26 28	is
+T4	segment 29 31	an
+T5	segment 32 40	American
+T6	segment 41 48	private
+T7	segment 49 55	equity
+T8	segment 56 60	firm
+T9	segment 61 73	specializing
+T10	segment 74 76	in
+T11	segment 77 86	leveraged
+T12	segment 87 94	buyouts
+T13	segment 95 97	of
+T14	segment 98 107	privately
+T15	segment 108 112	held
+T16	segment 113 115	or
+T17	segment 116 124	publicly
+T18	segment 125 131	traded
+T19	segment 132 141	companies
+T20	segment 141 142	,
+T21	segment 143 145	or
+T22	segment 146 155	divisions
+T23	segment 156 158	of
+T24	segment 159 165	larger
+T25	segment 166 175	companies
+T26	segment 175 176	;
+T27	segment 177 194	recapitalizations
+T28	segment 195 197	of
+T29	segment 198 210	family-owned
+T30	segment 211 213	or
+T31	segment 214 221	closely
+T32	segment 222 226	held
+T33	segment 227 236	companies
+T34	segment 236 237	;
+T35	segment 238 245	balance
+T36	segment 246 251	sheet
+T37	segment 252 266	restructurings
+T38	segment 266 267	;
+T39	segment 268 279	acquisition
+T40	segment 280 290	financings
+T41	segment 290 291	;
+T42	segment 292 295	and
+T43	segment 296 302	growth
+T44	segment 303 310	capital
+T45	segment 311 322	investments
+T46	segment 323 325	in
+T47	segment 326 332	mature
+T48	segment 333 342	companies
+T49	segment 343 344	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T8
+R4	compound Arg1:T8 Arg2:T7
+R5	is-specialized-by Arg1:T8 Arg2:T5
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T12
+R8	is-specialized-by Arg1:T12 Arg2:T11
+R9	is-specialized-by Arg1:T12 Arg2:T13
+R10	c_co Arg1:T13 Arg2:T19
+R11	is-specialized-by Arg1:T15 Arg2:T14
+R12	is-specialized-by Arg1:T18 Arg2:T17
+R13	is-specialized-by Arg1:T19 Arg2:T15
+R14	is-specialized-by Arg1:T22 Arg2:T23
+R15	c_co Arg1:T23 Arg2:T25
+R16	is-specialized-by Arg1:T25 Arg2:T24
+R17	is-specialized-by Arg1:T27 Arg2:T28
+R18	c_co Arg1:T28 Arg2:T33
+R19	is-specialized-by Arg1:T32 Arg2:T31
+R20	compound Arg1:T33 Arg2:T29
+R21	compound Arg1:T37 Arg2:T36
+R22	compound Arg1:T37 Arg2:T35
+R23	compound Arg1:T40 Arg2:T39
+R24	compound Arg1:T45 Arg2:T44
+R25	compound Arg1:T45 Arg2:T43
+R26	is-specialized-by Arg1:T45 Arg2:T46
+R27	c_co Arg1:T46 Arg2:T48
+R28	is-specialized-by Arg1:T48 Arg2:T47

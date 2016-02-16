@@ -1,0 +1,35 @@
+T0	segment 0 6	Tuvalu
+T1	segment 7 11	have
+T2	segment 12 20	appeared
+T3	segment 21 23	in
+T4	segment 24 27	the
+T5	segment 28 34	finals
+T6	segment 35 37	of
+T7	segment 38 41	the
+T8	segment 42 50	Oceanian
+T9	segment 51 57	Futsal
+T10	segment 58 70	Championship
+T11	segment 71 73	on
+T12	segment 74 79	three
+T13	segment 80 89	occasions
+T14	segment 90 92	in
+T15	segment 93 97	2008
+T16	segment 97 98	,
+T17	segment 99 103	2010
+T18	segment 103 104	,
+T19	segment 105 109	2011
+T20	segment 110 111	.
+R0	s_p Arg1:T0 Arg2:T2
+R1	p_c Arg1:T2 Arg2:T11
+R2	p_c Arg1:T2 Arg2:T3
+R3	compound Arg1:T2 Arg2:T1
+R4	c_co Arg1:T3 Arg2:T5
+R5	is-specialized-by Arg1:T5 Arg2:T6
+R6	c_co Arg1:T6 Arg2:T10
+R7	compound Arg1:T10 Arg2:T8
+R8	compound Arg1:T10 Arg2:T9
+R9	c_co Arg1:T11 Arg2:T13
+R10	is-specialized-by Arg1:T13 Arg2:T12
+R11	is-specialized-by Arg1:T13 Arg2:T14
+R12	c_co Arg1:T14 Arg2:T15
+R13	is-specialized-by Arg1:T17 Arg2:T19

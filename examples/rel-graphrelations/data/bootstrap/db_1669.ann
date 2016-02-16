@@ -1,0 +1,62 @@
+T0	segment 0 8	Portland
+T1	segment 8 9	,
+T2	segment 10 16	Oregon
+T3	segment 16 17	,
+T4	segment 18 24	United
+T5	segment 25 31	States
+T6	segment 32 40	supports
+T7	segment 41 42	a
+T8	segment 43 52	multitude
+T9	segment 53 55	of
+T10	segment 56 61	media
+T11	segment 61 62	,
+T12	segment 63 72	including
+T13	segment 73 89	long-established
+T14	segment 90 100	newspapers
+T15	segment 100 101	,
+T16	segment 102 112	television
+T17	segment 113 116	and
+T18	segment 117 122	radio
+T19	segment 123 131	stations
+T20	segment 131 132	,
+T21	segment 133 134	a
+T22	segment 135 141	number
+T23	segment 142 144	of
+T24	segment 145 152	smaller
+T25	segment 153 158	local
+T26	segment 159 162	art
+T27	segment 162 163	,
+T28	segment 164 171	culture
+T29	segment 171 172	,
+T30	segment 173 185	neighborhood
+T31	segment 186 189	and
+T32	segment 190 199	political
+T33	segment 200 212	publications
+T34	segment 212 213	,
+T35	segment 214 224	filmmaking
+T36	segment 225 228	and
+T37	segment 228 229	,
+T38	segment 230 234	most
+T39	segment 235 243	recently
+T40	segment 243 244	,
+T41	segment 245 253	Internet
+T42	segment 254 259	media
+T43	segment 260 271	development
+T44	segment 272 273	.
+R0	s_p Arg1:T0 Arg2:T6
+R1	compound Arg1:T5 Arg2:T4
+R2	p_o Arg1:T6 Arg2:T8
+R3	is-specialized-by Arg1:T8 Arg2:T9
+R4	is-specialized-by Arg1:T8 Arg2:T12
+R5	c_co Arg1:T9 Arg2:T10
+R6	c_co Arg1:T12 Arg2:T14
+R7	is-specialized-by Arg1:T14 Arg2:T13
+R8	compound Arg1:T19 Arg2:T16
+R9	is-specialized-by Arg1:T22 Arg2:T23
+R10	c_co Arg1:T23 Arg2:T33
+R11	compound Arg1:T30 Arg2:T26
+R12	is-specialized-by Arg1:T33 Arg2:T24
+R13	compound Arg1:T33 Arg2:T30
+R14	is-specialized-by Arg1:T39 Arg2:T38
+R15	compound Arg1:T43 Arg2:T42
+R16	compound Arg1:T43 Arg2:T41

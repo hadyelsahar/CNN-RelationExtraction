@@ -1,0 +1,68 @@
+T0	segment 0 7	Walking
+T1	segment 8 14	Shadow
+T2	segment 15 22	Theatre
+T3	segment 23 30	Company
+T4	segment 31 33	is
+T5	segment 34 35	a
+T6	segment 36 53	Minneapolis-based
+T7	segment 54 66	professional
+T8	segment 67 77	non-profit
+T9	segment 78 85	theatre
+T10	segment 86 93	company
+T11	segment 94 99	which
+T12	segment 100 103	was
+T13	segment 104 111	founded
+T14	segment 112 114	in
+T15	segment 115 119	2004
+T16	segment 120 122	by
+T17	segment 123 127	John
+T18	segment 128 136	Heimbuch
+T19	segment 136 137	,
+T20	segment 138 141	Amy
+T21	segment 142 150	Rummenie
+T22	segment 151 154	and
+T23	segment 155 160	David
+T24	segment 161 165	Pisa
+T25	segment 166 170	with
+T26	segment 171 174	the
+T27	segment 175 184	following
+T28	segment 185 189	aims
+T29	segment 189 190	:
+T30	segment 191 193	to
+T31	segment 194 201	develop
+T32	segment 202 205	the
+T33	segment 206 213	talents
+T34	segment 214 216	of
+T35	segment 217 220	its
+T36	segment 221 228	artists
+T37	segment 228 229	,
+T38	segment 230 232	to
+T39	segment 233 240	nurture
+T40	segment 241 249	audience
+T41	segment 250 260	commitment
+T42	segment 261 263	to
+T43	segment 264 267	the
+T44	segment 268 272	arts
+T45	segment 272 273	,
+T46	segment 274 276	to
+T47	segment 277 287	facilitate
+T48	segment 288 296	dialogue
+T49	segment 297 303	within
+T50	segment 304 307	the
+T51	segment 308 317	community
+T52	segment 318 321	and
+T53	segment 322 324	to
+T54	segment 325 332	examine
+T55	segment 333 338	local
+T56	segment 339 346	culture
+T57	segment 347 349	in
+T58	segment 350 351	a
+T59	segment 352 358	global
+T60	segment 359 366	context
+T61	segment 367 368	.
+R0	compound Arg1:T3 Arg2:T0
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	compound Arg1:T18 Arg2:T17
+R4	compound Arg1:T21 Arg2:T20
+R5	compound Arg1:T24 Arg2:T23

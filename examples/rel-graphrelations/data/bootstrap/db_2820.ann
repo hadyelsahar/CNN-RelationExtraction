@@ -1,0 +1,50 @@
+T0	segment 0 5	X-Ray
+T1	segment 6 9	Kid
+T2	segment 10 17	Studios
+T3	segment 18 20	is
+T4	segment 21 22	a
+T5	segment 23 32	privately
+T6	segment 33 37	held
+T7	segment 38 51	entertainment
+T8	segment 52 59	company
+T9	segment 60 72	specializing
+T10	segment 73 75	in
+T11	segment 76 81	Video
+T12	segment 82 86	Game
+T13	segment 87 98	Development
+T14	segment 98 99	,
+T15	segment 100 105	Comic
+T16	segment 106 111	Books
+T17	segment 111 112	,
+T18	segment 113 123	Television
+T19	segment 124 134	Production
+T20	segment 135 138	and
+T21	segment 139 143	Film
+T22	segment 144 149	based
+T23	segment 150 152	in
+T24	segment 153 160	Newport
+T25	segment 161 166	Beach
+T26	segment 166 167	,
+T27	segment 168 178	California
+T28	segment 179 182	and
+T29	segment 183 190	Seattle
+T30	segment 190 191	,
+T31	segment 192 202	Washington
+T32	segment 202 203	,
+T33	segment 204 205	U
+T34	segment 206 207	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T8
+R4	is-specialized-by Arg1:T6 Arg2:T5
+R5	compound Arg1:T8 Arg2:T7
+R6	is-specialized-by Arg1:T8 Arg2:T6
+R7	is-specialized-by Arg1:T9 Arg2:T10
+R8	c_co Arg1:T10 Arg2:T13
+R9	compound Arg1:T13 Arg2:T12
+R10	compound Arg1:T13 Arg2:T11
+R11	is-specialized-by Arg1:T16 Arg2:T15
+R12	compound Arg1:T19 Arg2:T18
+R13	compound Arg1:T25 Arg2:T24
+R14	compound Arg1:T33 Arg2:T29

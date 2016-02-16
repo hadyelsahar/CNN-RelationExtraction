@@ -1,0 +1,29 @@
+T0	segment 0 4	Daei
+T1	segment 5 10	Sport
+T2	segment 10 12	's
+T3	segment 13 18	Wears
+T4	segment 19 20	&
+T5	segment 21 31	Equipments
+T6	segment 32 34	is
+T7	segment 35 36	a
+T8	segment 37 42	major
+T9	segment 43 50	Iranian
+T10	segment 51 63	manufacturer
+T11	segment 64 66	of
+T12	segment 67 74	apparel
+T13	segment 75 78	and
+T14	segment 79 85	sports
+T15	segment 86 95	equipment
+T16	segment 96 97	.
+R0	compound Arg1:T1 Arg2:T0
+R1	s_p Arg1:T3 Arg2:T6
+R2	compound Arg1:T5 Arg2:T4
+R3	compound Arg1:T5 Arg2:T3
+R4	compound Arg1:T5 Arg2:T0
+R5	compound Arg1:T5 Arg2:T2
+R6	compound Arg1:T5 Arg2:T1
+R7	p_o Arg1:T6 Arg2:T10
+R8	is-specialized-by Arg1:T10 Arg2:T8
+R9	is-specialized-by Arg1:T10 Arg2:T11
+R10	c_co Arg1:T11 Arg2:T12
+R11	compound Arg1:T15 Arg2:T14

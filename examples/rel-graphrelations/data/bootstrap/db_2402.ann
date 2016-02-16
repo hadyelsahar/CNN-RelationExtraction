@@ -1,0 +1,41 @@
+T0	segment 0 8	Tanzania
+T1	segment 9 10	,
+T2	segment 11 21	officially
+T3	segment 22 25	the
+T4	segment 26 32	United
+T5	segment 33 41	Republic
+T6	segment 42 44	of
+T7	segment 45 53	Tanzania
+T8	segment 54 55	,
+T9	segment 56 58	is
+T10	segment 59 60	a
+T11	segment 61 68	country
+T12	segment 69 71	in
+T13	segment 72 76	East
+T14	segment 77 83	Africa
+T15	segment 84 90	within
+T16	segment 91 94	the
+T17	segment 95 102	African
+T18	segment 103 108	Great
+T19	segment 109 114	Lakes
+T20	segment 115 121	region
+T21	segment 122 123	.
+R0	s_p Arg1:T0 Arg2:T9
+R1	compound Arg1:T5 Arg2:T4
+R2	is-specialized-by Arg1:T5 Arg2:T2
+R3	is-specialized-by Arg1:T5 Arg2:T6
+R4	c_co Arg1:T6 Arg2:T7
+R5	compound Arg1:T7 Arg2:T4
+R6	compound Arg1:T7 Arg2:T6
+R7	compound Arg1:T7 Arg2:T5
+R8	p_o Arg1:T9 Arg2:T11
+R9	is-specialized-by Arg1:T11 Arg2:T12
+R10	c_co Arg1:T12 Arg2:T14
+R11	is-specialized-by Arg1:T14 Arg2:T15
+R12	compound Arg1:T14 Arg2:T13
+R13	c_co Arg1:T15 Arg2:T20
+R14	compound Arg1:T19 Arg2:T18
+R15	compound Arg1:T19 Arg2:T17
+R16	compound Arg1:T20 Arg2:T19
+R17	compound Arg1:T20 Arg2:T18
+R18	compound Arg1:T20 Arg2:T17

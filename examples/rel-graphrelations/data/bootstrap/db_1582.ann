@@ -1,0 +1,40 @@
+T0	segment 0 3	Eli
+T1	segment 4 10	Siegel
+T2	segment 11 14	was
+T3	segment 15 18	the
+T4	segment 19 23	poet
+T5	segment 23 24	,
+T6	segment 25 31	critic
+T7	segment 31 32	,
+T8	segment 33 36	and
+T9	segment 37 45	educator
+T10	segment 46 49	who
+T11	segment 50 57	founded
+T12	segment 58 67	Aesthetic
+T13	segment 68 75	Realism
+T14	segment 75 76	,
+T15	segment 77 80	the
+T16	segment 81 91	philosophy
+T17	segment 92 96	that
+T18	segment 97 101	sees
+T19	segment 102 109	reality
+T20	segment 110 112	as
+T21	segment 113 116	the
+T22	segment 117 126	aesthetic
+T23	segment 127 134	oneness
+T24	segment 135 137	of
+T25	segment 138 147	opposites
+T26	segment 148 149	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T4
+R3	s_p Arg1:T10 Arg2:T11
+R4	p_o Arg1:T11 Arg2:T13
+R5	is-specialized-by Arg1:T13 Arg2:T12
+R6	s_p Arg1:T17 Arg2:T18
+R7	p_c Arg1:T18 Arg2:T20
+R8	p_o Arg1:T18 Arg2:T19
+R9	c_co Arg1:T20 Arg2:T23
+R10	is-specialized-by Arg1:T23 Arg2:T24
+R11	is-specialized-by Arg1:T23 Arg2:T22
+R12	c_co Arg1:T24 Arg2:T25

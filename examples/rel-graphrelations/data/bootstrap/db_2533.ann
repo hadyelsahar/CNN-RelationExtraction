@@ -1,0 +1,33 @@
+T0	segment 0 10	Freedonian
+T1	segment 11 14	was
+T2	segment 15 23	probably
+T3	segment 24 29	first
+T4	segment 30 34	used
+T5	segment 35 37	by
+T6	segment 38 47	Americans
+T7	segment 48 59	immediately
+T8	segment 60 65	after
+T9	segment 66 69	the
+T10	segment 70 78	American
+T11	segment 79 89	Revolution
+T12	segment 90 92	in
+T13	segment 93 98	place
+T14	segment 99 101	of
+T15	segment 102 105	the
+T16	segment 106 113	demonym
+T17	segment 114 115	''
+T18	segment 115 116	``
+T19	segment 116 124	American
+T20	segment 124 125	''
+T21	segment 125 126	''
+T22	segment 127 128	.
+R0	s_p Arg1:T0 Arg2:T4
+R1	p_c Arg1:T4 Arg2:T2
+R2	p_c Arg1:T4 Arg2:T5
+R3	compound Arg1:T4 Arg2:T1
+R4	c_co Arg1:T5 Arg2:T6
+R5	is-specialized-by Arg1:T11 Arg2:T12
+R6	compound Arg1:T11 Arg2:T10
+R7	c_co Arg1:T12 Arg2:T13
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T16

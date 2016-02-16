@@ -1,0 +1,33 @@
+T0	segment 0 5	Frank
+T1	segment 6 14	Spotnitz
+T2	segment 15 17	is
+T3	segment 18 20	an
+T4	segment 21 29	American
+T5	segment 30 40	television
+T6	segment 41 47	writer
+T7	segment 48 51	and
+T8	segment 52 60	producer
+T9	segment 60 61	,
+T10	segment 62 66	best
+T11	segment 67 72	known
+T12	segment 73 76	for
+T13	segment 77 80	his
+T14	segment 81 85	work
+T15	segment 86 88	on
+T16	segment 89 92	The
+T17	segment 93 100	X-Files
+T18	segment 101 111	television
+T19	segment 112 118	series
+T20	segment 119 120	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T6
+R3	compound Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T6 Arg2:T4
+R5	is-specialized-by Arg1:T11 Arg2:T10
+R6	is-specialized-by Arg1:T11 Arg2:T12
+R7	c_co Arg1:T12 Arg2:T14
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	c_co Arg1:T15 Arg2:T19
+R10	compound Arg1:T19 Arg2:T18
+R11	compound Arg1:T19 Arg2:T17

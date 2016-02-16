@@ -1,0 +1,29 @@
+T0	segment 0 6	Kutkai
+T1	segment 7 9	is
+T2	segment 10 11	a
+T3	segment 12 16	town
+T4	segment 17 20	and
+T5	segment 21 25	seat
+T6	segment 26 28	of
+T7	segment 29 35	Kutkai
+T8	segment 36 44	Township
+T9	segment 44 45	,
+T10	segment 46 48	in
+T11	segment 49 52	the
+T12	segment 53 57	Shan
+T13	segment 58 63	State
+T14	segment 64 66	of
+T15	segment 67 82	eastern-central
+T16	segment 83 88	Burma
+T17	segment 89 90	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T10
+R3	is-specialized-by Arg1:T3 Arg2:T6
+R4	c_co Arg1:T6 Arg2:T8
+R5	compound Arg1:T8 Arg2:T7
+R6	c_co Arg1:T10 Arg2:T13
+R7	compound Arg1:T13 Arg2:T12
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T16
+R10	is-specialized-by Arg1:T16 Arg2:T15

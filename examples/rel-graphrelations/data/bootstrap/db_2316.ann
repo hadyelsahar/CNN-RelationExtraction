@@ -1,0 +1,51 @@
+T0	segment 0 3	The
+T1	segment 4 9	Taifa
+T2	segment 10 12	of
+T3	segment 13 20	Badajoz
+T4	segment 21 23	in
+T5	segment 24 34	succession
+T6	segment 34 35	,
+T7	segment 36 37	a
+T8	segment 38 44	second
+T9	segment 45 56	independent
+T10	segment 57 62	taifa
+T11	segment 63 66	was
+T12	segment 67 74	shortly
+T13	segment 75 84	recreated
+T14	segment 85 87	in
+T15	segment 88 95	Badajoz
+T16	segment 95 96	,
+T17	segment 97 105	existing
+T18	segment 106 110	from
+T19	segment 111 115	1144
+T20	segment 116 118	to
+T21	segment 119 123	1151
+T22	segment 123 124	,
+T23	segment 125 129	when
+T24	segment 130 132	it
+T25	segment 133 137	fell
+T26	segment 138 143	again
+T27	segment 144 149	under
+T28	segment 150 157	Almohad
+T29	segment 158 166	dominion
+T30	segment 167 168	.
+R0	s_p Arg1:T1 Arg2:T13
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	c_co Arg1:T2 Arg2:T3
+R3	is-specialized-by Arg1:T3 Arg2:T4
+R4	c_co Arg1:T4 Arg2:T5
+R5	compound Arg1:T8 Arg2:T7
+R6	is-specialized-by Arg1:T10 Arg2:T8
+R7	p_c Arg1:T13 Arg2:T14
+R8	compound Arg1:T13 Arg2:T11
+R9	p_c Arg1:T13 Arg2:T12
+R10	c_co Arg1:T14 Arg2:T15
+R11	is-specialized-by Arg1:T17 Arg2:T18
+R12	c_co Arg1:T18 Arg2:T21
+R13	compound Arg1:T21 Arg2:T20
+R14	compound Arg1:T21 Arg2:T19
+R15	s_p Arg1:T24 Arg2:T25
+R16	p_c Arg1:T25 Arg2:T23
+R17	p_c Arg1:T25 Arg2:T27
+R18	c_co Arg1:T27 Arg2:T29
+R19	compound Arg1:T29 Arg2:T28

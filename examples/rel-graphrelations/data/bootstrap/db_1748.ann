@@ -1,0 +1,34 @@
+T0	segment 0 9	Nasrollah
+T1	segment 10 15	Moein
+T2	segment 16 26	Najafabadi
+T3	segment 27 28	,
+T4	segment 29 33	Born
+T5	segment 34 36	on
+T6	segment 37 44	January
+T7	segment 45 47	19
+T8	segment 47 48	,
+T9	segment 49 53	1952
+T10	segment 54 56	in
+T11	segment 57 66	Najafabad
+T12	segment 67 69	in
+T13	segment 70 77	Isfahan
+T14	segment 78 80	is
+T15	segment 81 83	an
+T16	segment 84 91	Iranian
+T17	segment 92 98	singer
+T18	segment 99 100	.
+R0	s_p Arg1:T2 Arg2:T14
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	is-specialized-by Arg1:T4 Arg2:T10
+R4	is-specialized-by Arg1:T4 Arg2:T5
+R5	c_co Arg1:T5 Arg2:T6
+R6	is-specialized-by Arg1:T6 Arg2:T7
+R7	compound Arg1:T9 Arg2:T6
+R8	compound Arg1:T9 Arg2:T8
+R9	compound Arg1:T9 Arg2:T7
+R10	c_co Arg1:T10 Arg2:T11
+R11	is-specialized-by Arg1:T11 Arg2:T12
+R12	c_co Arg1:T12 Arg2:T13
+R13	p_o Arg1:T14 Arg2:T17
+R14	is-specialized-by Arg1:T17 Arg2:T16

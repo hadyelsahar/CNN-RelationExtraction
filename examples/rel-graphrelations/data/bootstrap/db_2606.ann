@@ -1,0 +1,47 @@
+T0	segment 0 2	In
+T1	segment 3 8	Greek
+T2	segment 9 18	mythology
+T3	segment 18 19	,
+T4	segment 20 25	Rhoeo
+T5	segment 26 27	;
+T6	segment 28 31	she
+T7	segment 32 36	then
+T8	segment 37 40	put
+T9	segment 41 44	him
+T10	segment 45 47	on
+T11	segment 48 51	the
+T12	segment 52 57	altar
+T13	segment 58 60	of
+T14	segment 61 67	Apollo
+T15	segment 68 71	and
+T16	segment 72 78	prayed
+T17	segment 79 81	to
+T18	segment 82 85	the
+T19	segment 86 89	god
+T20	segment 90 94	that
+T21	segment 95 98	the
+T22	segment 99 103	baby
+T23	segment 104 106	be
+T24	segment 107 112	saved
+T25	segment 113 115	if
+T26	segment 116 118	it
+T27	segment 119 122	was
+T28	segment 123 126	his
+T29	segment 127 128	.
+R0	c_co Arg1:T0 Arg2:T2
+R1	is-specialized-by Arg1:T2 Arg2:T1
+R2	s_p Arg1:T6 Arg2:T8
+R3	p_c Arg1:T8 Arg2:T7
+R4	p_c Arg1:T8 Arg2:T10
+R5	p_o Arg1:T8 Arg2:T9
+R6	p_c Arg1:T8 Arg2:T0
+R7	c_co Arg1:T10 Arg2:T12
+R8	is-specialized-by Arg1:T12 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T14
+R10	is-specialized-by Arg1:T16 Arg2:T17
+R11	p_p Arg1:T16 Arg2:T24
+R12	c_co Arg1:T17 Arg2:T19
+R13	s_p Arg1:T22 Arg2:T24
+R14	compound Arg1:T24 Arg2:T23
+R15	s_p Arg1:T26 Arg2:T27
+R16	p_o Arg1:T27 Arg2:T28

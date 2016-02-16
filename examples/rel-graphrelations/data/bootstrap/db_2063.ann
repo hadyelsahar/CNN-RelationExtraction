@@ -1,0 +1,30 @@
+T0	segment 0 3	KIT
+T1	segment 4 11	digital
+T2	segment 12 15	was
+T3	segment 16 17	a
+T4	segment 18 23	video
+T5	segment 24 34	management
+T6	segment 35 43	software
+T7	segment 44 47	and
+T8	segment 48 56	services
+T9	segment 57 64	company
+T10	segment 65 71	before
+T11	segment 72 78	filing
+T12	segment 79 89	bankruptcy
+T13	segment 90 92	in
+T14	segment 93 98	April
+T15	segment 99 103	2013
+T16	segment 104 105	.
+R0	s_p Arg1:T0 Arg2:T2
+R1	is-specialized-by Arg1:T0 Arg2:T1
+R2	p_o Arg1:T2 Arg2:T6
+R3	compound Arg1:T6 Arg2:T4
+R4	is-specialized-by Arg1:T6 Arg2:T10
+R5	compound Arg1:T6 Arg2:T5
+R6	compound Arg1:T9 Arg2:T8
+R7	c_co Arg1:T10 Arg2:T12
+R8	is-specialized-by Arg1:T12 Arg2:T11
+R9	is-specialized-by Arg1:T12 Arg2:T13
+R10	c_co Arg1:T13 Arg2:T14
+R11	is-specialized-by Arg1:T14 Arg2:T15
+R12	compound Arg1:T15 Arg2:T14

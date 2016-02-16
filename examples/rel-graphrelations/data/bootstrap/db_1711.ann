@@ -1,0 +1,55 @@
+T0	segment 0 1	A
+T1	segment 2 11	temporary
+T2	segment 12 19	capital
+T3	segment 20 22	or
+T4	segment 23 24	a
+T5	segment 25 36	provisional
+T6	segment 37 44	capital
+T7	segment 45 47	is
+T8	segment 48 49	a
+T9	segment 50 54	city
+T10	segment 55 57	or
+T11	segment 58 62	town
+T12	segment 63 69	chosen
+T13	segment 70 72	by
+T14	segment 73 74	a
+T15	segment 75 85	government
+T16	segment 86 88	as
+T17	segment 89 91	an
+T18	segment 92 99	interim
+T19	segment 100 104	base
+T20	segment 105 107	of
+T21	segment 108 118	operations
+T22	segment 119 122	due
+T23	segment 123 125	to
+T24	segment 126 130	some
+T25	segment 131 141	difficulty
+T26	segment 142 144	in
+T27	segment 145 154	retaining
+T28	segment 155 157	or
+T29	segment 158 170	establishing
+T30	segment 171 178	control
+T31	segment 179 181	of
+T32	segment 182 183	a
+T33	segment 184 193	different
+T34	segment 194 206	metropolitan
+T35	segment 207 211	area
+T36	segment 212 213	.
+R0	is-specialized-by Arg1:T2 Arg2:T1
+R1	s_p Arg1:T2 Arg2:T7
+R2	is-specialized-by Arg1:T6 Arg2:T5
+R3	p_o Arg1:T7 Arg2:T9
+R4	is-specialized-by Arg1:T12 Arg2:T22
+R5	is-specialized-by Arg1:T12 Arg2:T13
+R6	c_co Arg1:T13 Arg2:T15
+R7	is-specialized-by Arg1:T15 Arg2:T16
+R8	c_co Arg1:T16 Arg2:T19
+R9	is-specialized-by Arg1:T19 Arg2:T18
+R10	is-specialized-by Arg1:T19 Arg2:T20
+R11	c_co Arg1:T20 Arg2:T21
+R12	c_co Arg1:T22 Arg2:T25
+R13	compound Arg1:T22 Arg2:T23
+R14	p_o Arg1:T27 Arg2:T30
+R15	is-specialized-by Arg1:T30 Arg2:T31
+R16	c_co Arg1:T31 Arg2:T35
+R17	is-specialized-by Arg1:T35 Arg2:T33

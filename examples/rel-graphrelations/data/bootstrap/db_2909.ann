@@ -1,0 +1,80 @@
+T0	segment 0 3	The
+T1	segment 4 14	Azerbaijan
+T2	segment 15 20	Rural
+T3	segment 21 31	Investment
+T4	segment 32 39	Project
+T5	segment 40 43	The
+T6	segment 44 53	objective
+T7	segment 54 56	of
+T8	segment 57 60	the
+T9	segment 61 68	project
+T10	segment 69 71	is
+T11	segment 72 74	to
+T12	segment 75 82	improve
+T13	segment 83 86	the
+T14	segment 87 93	living
+T15	segment 94 103	standards
+T16	segment 104 106	of
+T17	segment 107 118	communities
+T18	segment 119 123	that
+T19	segment 124 135	participate
+T20	segment 136 138	by
+T21	segment 139 149	increasing
+T22	segment 150 155	their
+T23	segment 156 162	access
+T24	segment 163 165	to
+T25	segment 166 180	infrastructure
+T26	segment 181 189	services
+T27	segment 189 190	,
+T28	segment 191 193	by
+T29	segment 194 197	the
+T30	segment 198 206	building
+T31	segment 207 213	and/or
+T32	segment 214 220	repair
+T33	segment 221 223	of
+T34	segment 224 229	roads
+T35	segment 229 230	,
+T36	segment 231 237	health
+T37	segment 238 245	clinics
+T38	segment 245 246	,
+T39	segment 247 254	schools
+T40	segment 254 255	,
+T41	segment 256 267	footbridges
+T42	segment 267 268	,
+T43	segment 269 279	electrical
+T44	segment 280 289	resources
+T45	segment 289 290	,
+T46	segment 291 298	potable
+T47	segment 299 304	water
+T48	segment 305 314	resources
+T49	segment 314 315	,
+T50	segment 316 319	and
+T51	segment 320 330	irrigation
+T52	segment 331 334	and
+T53	segment 335 343	drainage
+T54	segment 344 351	systems
+T55	segment 352 353	.
+R0	s_p Arg1:T4 Arg2:T10
+R1	compound Arg1:T4 Arg2:T3
+R2	is-specialized-by Arg1:T4 Arg2:T7
+R3	compound Arg1:T4 Arg2:T2
+R4	compound Arg1:T4 Arg2:T1
+R5	c_co Arg1:T7 Arg2:T9
+R6	p_o Arg1:T12 Arg2:T15
+R7	is-specialized-by Arg1:T15 Arg2:T16
+R8	compound Arg1:T15 Arg2:T14
+R9	c_co Arg1:T16 Arg2:T17
+R10	s_p Arg1:T18 Arg2:T19
+R11	is-specialized-by Arg1:T21 Arg2:T24
+R12	is-specialized-by Arg1:T21 Arg2:T28
+R13	p_o Arg1:T21 Arg2:T23
+R14	c_co Arg1:T24 Arg2:T26
+R15	compound Arg1:T26 Arg2:T25
+R16	c_co Arg1:T28 Arg2:T30
+R17	is-specialized-by Arg1:T32 Arg2:T33
+R18	c_co Arg1:T33 Arg2:T34
+R19	compound Arg1:T37 Arg2:T36
+R20	is-specialized-by Arg1:T44 Arg2:T43
+R21	compound Arg1:T48 Arg2:T47
+R22	is-specialized-by Arg1:T48 Arg2:T46
+R23	compound Arg1:T54 Arg2:T51

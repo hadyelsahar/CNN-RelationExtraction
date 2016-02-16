@@ -1,0 +1,41 @@
+T0	segment 0 6	Larian
+T1	segment 7 14	Studios
+T2	segment 15 17	is
+T3	segment 18 19	a
+T4	segment 20 27	Belgian
+T5	segment 28 32	game
+T6	segment 33 42	developer
+T7	segment 43 48	which
+T8	segment 49 52	was
+T9	segment 53 60	founded
+T10	segment 61 63	in
+T11	segment 64 68	1996
+T12	segment 69 71	by
+T13	segment 72 76	Swen
+T14	segment 77 83	Vincke
+T15	segment 84 87	who
+T16	segment 88 95	derived
+T17	segment 96 99	its
+T18	segment 100 104	name
+T19	segment 105 109	from
+T20	segment 110 113	his
+T21	segment 114 117	dog
+T22	segment 117 118	,
+T23	segment 119 124	Pilar
+T24	segment 125 126	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T6
+R3	compound Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T6 Arg2:T4
+R5	s_p Arg1:T7 Arg2:T9
+R6	p_c Arg1:T9 Arg2:T10
+R7	p_c Arg1:T9 Arg2:T12
+R8	compound Arg1:T9 Arg2:T8
+R9	c_co Arg1:T10 Arg2:T11
+R10	c_co Arg1:T12 Arg2:T14
+R11	compound Arg1:T14 Arg2:T13
+R12	s_p Arg1:T15 Arg2:T16
+R13	p_o Arg1:T16 Arg2:T18
+R14	p_c Arg1:T16 Arg2:T19
+R15	c_co Arg1:T19 Arg2:T21

@@ -1,0 +1,53 @@
+T0	segment 0 3	MTI
+T1	segment 4 13	ShowSpace
+T2	segment 14 16	is
+T3	segment 17 18	a
+T4	segment 19 29	non-profit
+T5	segment 30 36	social
+T6	segment 37 47	networking
+T7	segment 48 52	site
+T8	segment 53 56	for
+T9	segment 57 63	people
+T10	segment 64 72	involved
+T11	segment 73 75	in
+T12	segment 76 83	musical
+T13	segment 84 89	youth
+T14	segment 90 97	theatre
+T15	segment 98 101	and
+T16	segment 102 109	putting
+T17	segment 110 112	on
+T18	segment 113 117	live
+T19	segment 118 126	Broadway
+T20	segment 127 132	shows
+T21	segment 133 134	--
+T22	segment 135 139	like
+T23	segment 140 144	High
+T24	segment 145 151	School
+T25	segment 152 159	Musical
+T26	segment 159 160	,
+T27	segment 161 164	The
+T28	segment 165 170	Music
+T29	segment 171 174	Man
+T30	segment 174 175	,
+T31	segment 176 183	Aladdin
+T32	segment 183 184	,
+T33	segment 185 187	Jr
+T34	segment 188 189	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T7
+R3	is-specialized-by Arg1:T7 Arg2:T8
+R4	compound Arg1:T7 Arg2:T6
+R5	is-specialized-by Arg1:T7 Arg2:T4
+R6	c_co Arg1:T8 Arg2:T9
+R7	is-specialized-by Arg1:T10 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T14
+R9	compound Arg1:T14 Arg2:T13
+R10	is-specialized-by Arg1:T14 Arg2:T12
+R11	p_o Arg1:T16 Arg2:T20
+R12	compound Arg1:T20 Arg2:T19
+R13	is-specialized-by Arg1:T20 Arg2:T18
+R14	c_co Arg1:T22 Arg2:T24
+R15	compound Arg1:T24 Arg2:T23
+R16	is-specialized-by Arg1:T25 Arg2:T22
+R17	compound Arg1:T29 Arg2:T28

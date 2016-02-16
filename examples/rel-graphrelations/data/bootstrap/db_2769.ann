@@ -1,0 +1,32 @@
+T0	segment 0 9	Alexander
+T1	segment 10 21	Valterovich
+T2	segment 22 32	Litvinenko
+T3	segment 33 36	was
+T4	segment 37 38	a
+T5	segment 39 47	fugitive
+T6	segment 48 55	officer
+T7	segment 56 58	of
+T8	segment 59 62	the
+T9	segment 63 70	Russian
+T10	segment 71 74	FSB
+T11	segment 75 81	secret
+T12	segment 82 89	service
+T13	segment 90 93	who
+T14	segment 94 105	specialised
+T15	segment 106 108	in
+T16	segment 109 117	tackling
+T17	segment 118 127	organised
+T18	segment 128 133	crime
+T19	segment 134 135	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	is-specialized-by Arg1:T6 Arg2:T5
+R6	c_co Arg1:T7 Arg2:T12
+R7	is-specialized-by Arg1:T12 Arg2:T9
+R8	compound Arg1:T12 Arg2:T10
+R9	s_p Arg1:T13 Arg2:T14
+R10	p_o Arg1:T16 Arg2:T18
+R11	is-specialized-by Arg1:T18 Arg2:T17

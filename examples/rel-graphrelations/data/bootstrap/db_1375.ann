@@ -1,0 +1,28 @@
+T0	segment 0 11	Starhemberg
+T1	segment 12 14	is
+T2	segment 15 18	the
+T3	segment 19 23	name
+T4	segment 24 26	of
+T5	segment 27 29	an
+T6	segment 30 38	Austrian
+T7	segment 39 44	noble
+T8	segment 45 51	family
+T9	segment 52 63	originating
+T10	segment 64 68	from
+T11	segment 69 74	Upper
+T12	segment 75 82	Austria
+T13	segment 82 83	,
+T14	segment 84 96	specifically
+T15	segment 97 102	Steyr
+T16	segment 103 106	and
+T17	segment 107 116	Steinbach
+T18	segment 117 118	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T8
+R4	is-specialized-by Arg1:T8 Arg2:T6
+R5	is-specialized-by Arg1:T9 Arg2:T10
+R6	c_co Arg1:T10 Arg2:T12
+R7	compound Arg1:T12 Arg2:T11
+R8	is-specialized-by Arg1:T15 Arg2:T14

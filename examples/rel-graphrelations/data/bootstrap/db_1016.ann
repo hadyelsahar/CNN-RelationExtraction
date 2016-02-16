@@ -1,0 +1,26 @@
+T0	segment 0 11	Mosgortrans
+T1	segment 12 14	is
+T2	segment 15 16	a
+T3	segment 17 28	state-owned
+T4	segment 29 36	company
+T5	segment 37 46	operating
+T6	segment 47 50	bus
+T7	segment 50 51	,
+T8	segment 52 62	trolleybus
+T9	segment 63 66	and
+T10	segment 67 71	tram
+T11	segment 72 80	networks
+T12	segment 81 83	in
+T13	segment 84 90	Moscow
+T14	segment 91 94	and
+T15	segment 95 101	Moscow
+T16	segment 102 108	region
+T17	segment 109 110	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	p_o Arg1:T5 Arg2:T11
+R4	is-specialized-by Arg1:T5 Arg2:T12
+R5	compound Arg1:T11 Arg2:T6
+R6	c_co Arg1:T12 Arg2:T13
+R7	compound Arg1:T16 Arg2:T15

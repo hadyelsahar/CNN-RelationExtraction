@@ -1,0 +1,32 @@
+T0	segment 0 3	The
+T1	segment 4 10	County
+T2	segment 11 13	of
+T3	segment 14 20	Sicily
+T4	segment 21 24	was
+T5	segment 25 26	a
+T6	segment 27 33	Norman
+T7	segment 34 39	state
+T8	segment 40 50	comprising
+T9	segment 51 54	the
+T10	segment 55 62	islands
+T11	segment 63 65	of
+T12	segment 66 72	Sicily
+T13	segment 73 76	and
+T14	segment 77 82	Malta
+T15	segment 83 87	from
+T16	segment 88 92	1071
+T17	segment 93 98	until
+T18	segment 99 103	1130
+T19	segment 104 105	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T7
+R4	compound Arg1:T7 Arg2:T6
+R5	p_o Arg1:T8 Arg2:T10
+R6	is-specialized-by Arg1:T8 Arg2:T15
+R7	is-specialized-by Arg1:T8 Arg2:T17
+R8	is-specialized-by Arg1:T10 Arg2:T11
+R9	c_co Arg1:T11 Arg2:T12
+R10	c_co Arg1:T15 Arg2:T16
+R11	c_co Arg1:T17 Arg2:T18

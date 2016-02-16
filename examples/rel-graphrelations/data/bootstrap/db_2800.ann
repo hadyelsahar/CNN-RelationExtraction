@@ -1,0 +1,38 @@
+T0	segment 0 3	The
+T1	segment 4 9	Duchy
+T2	segment 10 12	of
+T3	segment 13 21	OÅwiÄcim
+T4	segment 22 23	,
+T5	segment 24 27	was
+T6	segment 28 31	one
+T7	segment 32 34	of
+T8	segment 35 39	many
+T9	segment 40 47	Duchies
+T10	segment 48 50	of
+T11	segment 51 58	Silesia
+T12	segment 58 59	,
+T13	segment 60 66	formed
+T14	segment 67 69	in
+T15	segment 70 73	the
+T16	segment 74 83	aftermath
+T17	segment 84 86	of
+T18	segment 87 90	the
+T19	segment 91 104	fragmentation
+T20	segment 105 107	of
+T21	segment 108 114	Poland
+T22	segment 115 116	.
+R0	s_p Arg1:T1 Arg2:T5
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T5 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	is-specialized-by Arg1:T6 Arg2:T10
+R6	c_co Arg1:T7 Arg2:T9
+R7	is-specialized-by Arg1:T9 Arg2:T8
+R8	c_co Arg1:T10 Arg2:T11
+R9	is-specialized-by Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T16
+R11	is-specialized-by Arg1:T16 Arg2:T17
+R12	c_co Arg1:T17 Arg2:T19
+R13	is-specialized-by Arg1:T19 Arg2:T20
+R14	c_co Arg1:T20 Arg2:T21

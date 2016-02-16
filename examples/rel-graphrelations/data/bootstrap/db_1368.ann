@@ -1,0 +1,43 @@
+T0	segment 0 15	Caernarfonshire
+T1	segment 16 17	,
+T2	segment 18 30	historically
+T3	segment 31 38	spelled
+T4	segment 39 41	as
+T5	segment 42 57	Caernarvonshire
+T6	segment 58 60	or
+T7	segment 61 75	Carnarvonshire
+T8	segment 76 78	in
+T9	segment 79 86	English
+T10	segment 86 87	,
+T11	segment 88 90	is
+T12	segment 91 94	one
+T13	segment 95 97	of
+T14	segment 98 101	the
+T15	segment 102 110	thirteen
+T16	segment 111 119	historic
+T17	segment 120 128	counties
+T18	segment 128 129	,
+T19	segment 130 131	a
+T20	segment 132 143	vice-county
+T21	segment 144 147	and
+T22	segment 148 149	a
+T23	segment 150 156	former
+T24	segment 157 171	administrative
+T25	segment 172 178	county
+T26	segment 179 181	of
+T27	segment 182 187	Wales
+T28	segment 188 189	.
+R0	s_p Arg1:T0 Arg2:T11
+R1	is-specialized-by Arg1:T3 Arg2:T8
+R2	is-specialized-by Arg1:T3 Arg2:T2
+R3	is-specialized-by Arg1:T3 Arg2:T4
+R4	c_co Arg1:T4 Arg2:T5
+R5	c_co Arg1:T8 Arg2:T9
+R6	p_o Arg1:T11 Arg2:T12
+R7	is-specialized-by Arg1:T12 Arg2:T26
+R8	is-specialized-by Arg1:T12 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T17
+R10	is-specialized-by Arg1:T17 Arg2:T16
+R11	is-specialized-by Arg1:T17 Arg2:T15
+R12	is-specialized-by Arg1:T25 Arg2:T23
+R13	c_co Arg1:T26 Arg2:T27

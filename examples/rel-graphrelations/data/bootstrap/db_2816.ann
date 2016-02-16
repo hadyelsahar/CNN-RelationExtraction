@@ -1,0 +1,80 @@
+T0	segment 0 3	The
+T1	segment 4 11	Billung
+T2	segment 12 17	March
+T3	segment 18 19	,
+T4	segment 20 28	granting
+T5	segment 29 32	him
+T6	segment 33 40	control
+T7	segment 41 43	of
+T8	segment 44 47	the
+T9	segment 48 54	border
+T10	segment 55 59	with
+T11	segment 60 64	rule
+T12	segment 65 69	over
+T13	segment 70 73	the
+T14	segment 74 78	West
+T15	segment 79 85	Slavic
+T16	segment 86 94	Obotrite
+T17	segment 95 101	tribes
+T18	segment 101 102	,
+T19	segment 103 112	including
+T20	segment 113 116	the
+T21	segment 117 126	Polabians
+T22	segment 126 127	,
+T23	segment 128 135	Warnabi
+T24	segment 136 139	and
+T25	segment 140 145	Wagri
+T26	segment 145 146	,
+T27	segment 147 149	as
+T28	segment 150 154	well
+T29	segment 155 157	as
+T30	segment 158 161	the
+T31	segment 162 169	Redarii
+T32	segment 169 170	,
+T33	segment 171 180	Circipani
+T34	segment 180 181	,
+T35	segment 182 185	and
+T36	segment 186 193	Kissini
+T37	segment 194 200	tribes
+T38	segment 201 203	of
+T39	segment 204 207	the
+T40	segment 208 214	Veleti
+T41	segment 215 228	confederation
+T42	segment 228 229	,
+T43	segment 230 233	and
+T44	segment 234 237	the
+T45	segment 238 243	Danes
+T46	segment 243 244	,
+T47	segment 245 248	who
+T48	segment 249 252	had
+T49	segment 253 263	repeatedly
+T50	segment 264 274	campaigned
+T51	segment 275 278	the
+T52	segment 279 288	territory
+T53	segment 289 290	.
+R0	s_p Arg1:T1 Arg2:T4
+R1	p_o Arg1:T4 Arg2:T5
+R2	p_o Arg1:T4 Arg2:T6
+R3	is-specialized-by Arg1:T6 Arg2:T7
+R4	c_co Arg1:T7 Arg2:T9
+R5	is-specialized-by Arg1:T9 Arg2:T10
+R6	is-specialized-by Arg1:T9 Arg2:T19
+R7	c_co Arg1:T10 Arg2:T11
+R8	is-specialized-by Arg1:T11 Arg2:T12
+R9	c_co Arg1:T12 Arg2:T17
+R10	compound Arg1:T16 Arg2:T14
+R11	compound Arg1:T16 Arg2:T15
+R12	compound Arg1:T17 Arg2:T14
+R13	compound Arg1:T17 Arg2:T16
+R14	compound Arg1:T17 Arg2:T15
+R15	c_co Arg1:T19 Arg2:T21
+R16	compound Arg1:T27 Arg2:T28
+R17	compound Arg1:T27 Arg2:T29
+R18	compound Arg1:T37 Arg2:T36
+R19	is-specialized-by Arg1:T37 Arg2:T38
+R20	c_co Arg1:T38 Arg2:T41
+R21	compound Arg1:T41 Arg2:T40
+R22	s_p Arg1:T47 Arg2:T50
+R23	p_c Arg1:T50 Arg2:T49
+R24	compound Arg1:T50 Arg2:T48
+R25	p_o Arg1:T50 Arg2:T52

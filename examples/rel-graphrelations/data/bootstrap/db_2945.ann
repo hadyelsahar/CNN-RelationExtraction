@@ -1,0 +1,46 @@
+T0	segment 0 3	The
+T1	segment 4 8	Holy
+T2	segment 9 14	Roman
+T3	segment 15 21	Empire
+T4	segment 22 25	was
+T5	segment 26 27	a
+T6	segment 28 40	multi-ethnic
+T7	segment 41 48	complex
+T8	segment 49 51	of
+T9	segment 52 63	territories
+T10	segment 64 66	in
+T11	segment 67 74	central
+T12	segment 75 81	Europe
+T13	segment 82 86	that
+T14	segment 87 96	developed
+T15	segment 97 103	during
+T16	segment 104 107	the
+T17	segment 108 113	Early
+T18	segment 114 120	Middle
+T19	segment 121 125	Ages
+T20	segment 126 129	and
+T21	segment 130 139	continued
+T22	segment 140 145	until
+T23	segment 146 149	its
+T24	segment 150 161	dissolution
+T25	segment 162 164	in
+T26	segment 165 169	1806
+T27	segment 170 171	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T7 Arg2:T6
+R6	c_co Arg1:T8 Arg2:T9
+R7	is-specialized-by Arg1:T9 Arg2:T10
+R8	c_co Arg1:T10 Arg2:T12
+R9	is-specialized-by Arg1:T12 Arg2:T11
+R10	s_p Arg1:T13 Arg2:T14
+R11	p_c Arg1:T14 Arg2:T15
+R12	c_co Arg1:T15 Arg2:T18
+R13	is-specialized-by Arg1:T18 Arg2:T17
+R14	is-specialized-by Arg1:T21 Arg2:T25
+R15	is-specialized-by Arg1:T21 Arg2:T22
+R16	c_co Arg1:T22 Arg2:T24
+R17	c_co Arg1:T25 Arg2:T26

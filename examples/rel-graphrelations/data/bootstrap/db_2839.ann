@@ -1,0 +1,33 @@
+T0	segment 0 3	The
+T1	segment 4 11	Singing
+T2	segment 12 19	Machine
+T3	segment 20 27	Company
+T4	segment 28 30	is
+T5	segment 31 32	a
+T6	segment 33 39	public
+T7	segment 40 47	company
+T8	segment 48 54	listed
+T9	segment 55 57	on
+T10	segment 58 61	the
+T11	segment 62 65	OTC
+T12	segment 66 74	Bulletin
+T13	segment 75 80	Board
+T14	segment 81 86	under
+T15	segment 87 90	the
+T16	segment 91 97	ticker
+T17	segment 98 104	symbol
+T18	segment 105 109	SMDM
+T19	segment 110 111	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T6
+R5	is-specialized-by Arg1:T8 Arg2:T9
+R6	is-specialized-by Arg1:T8 Arg2:T14
+R7	c_co Arg1:T9 Arg2:T13
+R8	compound Arg1:T13 Arg2:T12
+R9	compound Arg1:T13 Arg2:T11
+R10	c_co Arg1:T14 Arg2:T18
+R11	compound Arg1:T18 Arg2:T16
+R12	compound Arg1:T18 Arg2:T17

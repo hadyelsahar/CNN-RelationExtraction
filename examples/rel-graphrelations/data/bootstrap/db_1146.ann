@@ -1,0 +1,46 @@
+T0	segment 0 3	The
+T1	segment 4 9	Kuban
+T2	segment 10 16	People
+T3	segment 16 18	's
+T4	segment 19 27	Republic
+T5	segment 28 31	was
+T6	segment 32 34	an
+T7	segment 35 49	anti-Bolshevik
+T8	segment 50 55	state
+T9	segment 56 60	that
+T10	segment 61 70	comprised
+T11	segment 71 74	the
+T12	segment 75 84	territory
+T13	segment 85 87	of
+T14	segment 88 91	the
+T15	segment 92 97	Kuban
+T16	segment 98 100	in
+T17	segment 101 104	the
+T18	segment 105 115	modern-day
+T19	segment 116 123	Russian
+T20	segment 124 134	Federation
+T21	segment 135 141	during
+T22	segment 142 145	the
+T23	segment 146 153	Russian
+T24	segment 154 159	Civil
+T25	segment 160 163	War
+T26	segment 164 165	.
+R0	compound Arg1:T2 Arg2:T1
+R1	compound Arg1:T4 Arg2:T3
+R2	s_p Arg1:T4 Arg2:T5
+R3	compound Arg1:T4 Arg2:T2
+R4	compound Arg1:T4 Arg2:T1
+R5	p_o Arg1:T5 Arg2:T8
+R6	is-specialized-by Arg1:T8 Arg2:T7
+R7	s_p Arg1:T9 Arg2:T10
+R8	p_c Arg1:T10 Arg2:T16
+R9	p_o Arg1:T10 Arg2:T12
+R10	p_c Arg1:T10 Arg2:T21
+R11	is-specialized-by Arg1:T12 Arg2:T13
+R12	c_co Arg1:T13 Arg2:T15
+R13	c_co Arg1:T16 Arg2:T20
+R14	compound Arg1:T20 Arg2:T19
+R15	is-specialized-by Arg1:T20 Arg2:T18
+R16	c_co Arg1:T21 Arg2:T25
+R17	compound Arg1:T25 Arg2:T24
+R18	compound Arg1:T25 Arg2:T23

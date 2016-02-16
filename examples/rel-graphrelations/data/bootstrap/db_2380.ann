@@ -1,0 +1,54 @@
+T0	segment 0 3	The
+T1	segment 4 11	Lincoln
+T2	segment 12 17	Group
+T3	segment 18 20	of
+T4	segment 21 28	Schools
+T5	segment 29 31	is
+T6	segment 32 33	a
+T7	segment 34 39	group
+T8	segment 40 42	of
+T9	segment 43 53	for-profit
+T10	segment 54 62	tertiary
+T11	segment 63 68	level
+T12	segment 69 79	vocational
+T13	segment 80 92	institutions
+T14	segment 93 103	consisting
+T15	segment 104 106	of
+T16	segment 107 109	31
+T17	segment 110 118	campuses
+T18	segment 119 122	and
+T19	segment 123 124	5
+T20	segment 125 133	training
+T21	segment 134 139	sites
+T22	segment 140 142	in
+T23	segment 143 145	15
+T24	segment 146 152	states
+T25	segment 153 155	in
+T26	segment 156 159	the
+T27	segment 160 166	United
+T28	segment 167 173	States
+T29	segment 174 175	.
+R0	s_p Arg1:T2 Arg2:T5
+R1	is-specialized-by Arg1:T2 Arg2:T3
+R2	compound Arg1:T2 Arg2:T1
+R3	c_co Arg1:T3 Arg2:T4
+R4	compound Arg1:T4 Arg2:T3
+R5	compound Arg1:T4 Arg2:T2
+R6	compound Arg1:T4 Arg2:T1
+R7	p_o Arg1:T5 Arg2:T7
+R8	is-specialized-by Arg1:T7 Arg2:T8
+R9	c_co Arg1:T8 Arg2:T13
+R10	compound Arg1:T13 Arg2:T12
+R11	compound Arg1:T13 Arg2:T11
+R12	is-specialized-by Arg1:T13 Arg2:T9
+R13	is-specialized-by Arg1:T14 Arg2:T15
+R14	is-specialized-by Arg1:T14 Arg2:T22
+R15	c_co Arg1:T15 Arg2:T17
+R16	is-specialized-by Arg1:T17 Arg2:T16
+R17	compound Arg1:T21 Arg2:T20
+R18	is-specialized-by Arg1:T21 Arg2:T19
+R19	c_co Arg1:T22 Arg2:T24
+R20	is-specialized-by Arg1:T24 Arg2:T23
+R21	is-specialized-by Arg1:T24 Arg2:T25
+R22	c_co Arg1:T25 Arg2:T28
+R23	compound Arg1:T28 Arg2:T27

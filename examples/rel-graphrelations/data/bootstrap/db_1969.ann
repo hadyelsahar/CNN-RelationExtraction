@@ -1,0 +1,35 @@
+T0	segment 0 4	Duki
+T1	segment 5 9	Dror
+T2	segment 10 14	×××§×
+T3	segment 15 17	is
+T4	segment 18 19	a
+T5	segment 20 28	director
+T6	segment 28 29	,
+T7	segment 30 38	producer
+T8	segment 39 42	and
+T9	segment 43 54	documentary
+T10	segment 55 64	filmmaker
+T11	segment 65 70	whose
+T12	segment 71 76	films
+T13	segment 77 81	deal
+T14	segment 82 89	largely
+T15	segment 90 94	with
+T16	segment 95 101	issues
+T17	segment 102 104	of
+T18	segment 105 114	migration
+T19	segment 114 115	,
+T20	segment 116 124	identity
+T21	segment 125 128	and
+T22	segment 129 141	displacement
+T23	segment 142 143	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T10
+R4	compound Arg1:T10 Arg2:T5
+R5	s_p Arg1:T12 Arg2:T13
+R6	p_c Arg1:T13 Arg2:T14
+R7	p_c Arg1:T13 Arg2:T15
+R8	c_co Arg1:T15 Arg2:T16
+R9	is-specialized-by Arg1:T16 Arg2:T17
+R10	c_co Arg1:T17 Arg2:T18

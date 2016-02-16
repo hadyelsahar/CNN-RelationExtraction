@@ -1,0 +1,44 @@
+T0	segment 0 3	The
+T1	segment 4 12	Republic
+T2	segment 13 15	of
+T3	segment 16 19	New
+T4	segment 20 27	Granada
+T5	segment 28 31	was
+T6	segment 32 33	a
+T7	segment 34 44	centralist
+T8	segment 45 53	republic
+T9	segment 54 64	consisting
+T10	segment 65 74	primarily
+T11	segment 75 77	of
+T12	segment 78 89	present-day
+T13	segment 90 98	Colombia
+T14	segment 99 102	and
+T15	segment 103 109	Panama
+T16	segment 110 114	with
+T17	segment 115 122	smaller
+T18	segment 123 131	portions
+T19	segment 132 134	of
+T20	segment 135 140	today
+T21	segment 140 142	's
+T22	segment 143 150	Ecuador
+T23	segment 150 151	,
+T24	segment 152 155	and
+T25	segment 156 165	Venezuela
+T26	segment 166 167	.
+R0	s_p Arg1:T1 Arg2:T5
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	c_co Arg1:T2 Arg2:T4
+R3	compound Arg1:T4 Arg2:T3
+R4	compound Arg1:T4 Arg2:T2
+R5	compound Arg1:T4 Arg2:T1
+R6	p_o Arg1:T5 Arg2:T8
+R7	is-specialized-by Arg1:T8 Arg2:T7
+R8	is-specialized-by Arg1:T9 Arg2:T10
+R9	is-specialized-by Arg1:T9 Arg2:T11
+R10	c_co Arg1:T11 Arg2:T13
+R11	is-specialized-by Arg1:T13 Arg2:T12
+R12	is-specialized-by Arg1:T15 Arg2:T16
+R13	c_co Arg1:T16 Arg2:T18
+R14	is-specialized-by Arg1:T18 Arg2:T17
+R15	is-specialized-by Arg1:T18 Arg2:T19
+R16	c_co Arg1:T19 Arg2:T22

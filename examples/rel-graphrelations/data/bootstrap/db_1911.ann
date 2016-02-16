@@ -1,0 +1,27 @@
+T0	segment 0 7	Beverly
+T1	segment 8 13	Lewis
+T2	segment 14 16	is
+T3	segment 17 18	a
+T4	segment 19 28	Christian
+T5	segment 29 36	fiction
+T6	segment 37 45	novelist
+T7	segment 46 49	and
+T8	segment 50 55	adult
+T9	segment 56 59	and
+T10	segment 60 68	children
+T11	segment 68 70	's
+T12	segment 71 77	author
+T13	segment 78 80	of
+T14	segment 81 85	over
+T15	segment 86 88	80
+T16	segment 89 94	books
+T17	segment 95 96	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T6
+R3	compound Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T6 Arg2:T4
+R5	is-specialized-by Arg1:T12 Arg2:T13
+R6	c_co Arg1:T13 Arg2:T16
+R7	is-specialized-by Arg1:T16 Arg2:T15
+R8	is-specialized-by Arg1:T16 Arg2:T14

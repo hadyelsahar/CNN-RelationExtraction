@@ -1,0 +1,32 @@
+T0	segment 0 2	La
+T1	segment 3 8	Monte
+T2	segment 9 17	Thornton
+T3	segment 18 23	Young
+T4	segment 24 26	is
+T5	segment 27 29	an
+T6	segment 30 38	American
+T7	segment 39 50	avant-garde
+T8	segment 51 57	artist
+T9	segment 57 58	,
+T10	segment 59 67	composer
+T11	segment 68 71	and
+T12	segment 72 80	musician
+T13	segment 80 81	,
+T14	segment 82 91	generally
+T15	segment 92 102	recognized
+T16	segment 103 105	as
+T17	segment 106 109	the
+T18	segment 110 115	first
+T19	segment 116 126	minimalist
+T20	segment 127 135	composer
+T21	segment 136 137	.
+R0	compound Arg1:T3 Arg2:T0
+R1	s_p Arg1:T3 Arg2:T4
+R2	compound Arg1:T3 Arg2:T2
+R3	compound Arg1:T3 Arg2:T1
+R4	p_o Arg1:T4 Arg2:T8
+R5	is-specialized-by Arg1:T8 Arg2:T6
+R6	is-specialized-by Arg1:T15 Arg2:T16
+R7	is-specialized-by Arg1:T15 Arg2:T14
+R8	c_co Arg1:T16 Arg2:T20
+R9	is-specialized-by Arg1:T20 Arg2:T18

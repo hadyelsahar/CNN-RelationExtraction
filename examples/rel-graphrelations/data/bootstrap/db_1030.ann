@@ -1,0 +1,56 @@
+T0	segment 0 5	Nigel
+T1	segment 6 10	John
+T2	segment 11 15	Hess
+T3	segment 16 18	is
+T4	segment 19 20	a
+T5	segment 21 28	British
+T6	segment 29 37	composer
+T7	segment 37 38	,
+T8	segment 39 43	best
+T9	segment 44 49	known
+T10	segment 50 53	for
+T11	segment 54 57	his
+T12	segment 58 68	television
+T13	segment 68 69	,
+T14	segment 70 77	theatre
+T15	segment 78 81	and
+T16	segment 82 86	film
+T17	segment 87 98	soundtracks
+T18	segment 98 99	,
+T19	segment 100 109	including
+T20	segment 110 113	the
+T21	segment 114 119	theme
+T22	segment 120 125	tunes
+T23	segment 126 128	to
+T24	segment 129 137	Wycliffe
+T25	segment 137 138	,
+T26	segment 139 150	Dangerfield
+T27	segment 150 151	,
+T28	segment 152 157	Hetty
+T29	segment 158 168	Wainthropp
+T30	segment 169 181	Investigates
+T31	segment 182 185	and
+T32	segment 186 192	Ladies
+T33	segment 193 195	in
+T34	segment 196 204	Lavender
+T35	segment 205 206	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T19
+R5	is-specialized-by Arg1:T6 Arg2:T5
+R6	is-specialized-by Arg1:T9 Arg2:T8
+R7	is-specialized-by Arg1:T9 Arg2:T10
+R8	c_co Arg1:T10 Arg2:T17
+R9	compound Arg1:T17 Arg2:T12
+R10	c_co Arg1:T19 Arg2:T22
+R11	is-specialized-by Arg1:T22 Arg2:T23
+R12	compound Arg1:T22 Arg2:T21
+R13	c_co Arg1:T23 Arg2:T26
+R14	compound Arg1:T26 Arg2:T24
+R15	compound Arg1:T29 Arg2:T28
+R16	s_p Arg1:T29 Arg2:T30
+R17	p_p Arg1:T30 Arg2:T3
+R18	is-specialized-by Arg1:T32 Arg2:T33
+R19	c_co Arg1:T33 Arg2:T34

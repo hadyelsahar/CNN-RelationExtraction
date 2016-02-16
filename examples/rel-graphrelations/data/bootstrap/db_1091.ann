@@ -1,0 +1,60 @@
+T0	segment 0 3	Kai
+T1	segment 4 8	Owen
+T2	segment 9 11	is
+T3	segment 12 13	a
+T4	segment 14 19	Welsh
+T5	segment 20 25	actor
+T6	segment 26 28	of
+T7	segment 29 34	stage
+T8	segment 35 38	and
+T9	segment 39 45	screen
+T10	segment 45 46	,
+T11	segment 47 52	known
+T12	segment 53 55	to
+T13	segment 56 61	Welsh
+T14	segment 62 71	audiences
+T15	segment 72 75	for
+T16	segment 76 79	his
+T17	segment 80 88	numerous
+T18	segment 89 94	roles
+T19	segment 95 97	on
+T20	segment 98 103	Welsh
+T21	segment 104 112	language
+T22	segment 113 123	television
+T23	segment 124 127	and
+T24	segment 128 130	to
+T25	segment 131 140	worldwide
+T26	segment 141 150	audiences
+T27	segment 151 154	for
+T28	segment 155 158	his
+T29	segment 159 168	portrayal
+T30	segment 169 171	of
+T31	segment 172 176	Rhys
+T32	segment 177 185	Williams
+T33	segment 186 188	in
+T34	segment 189 198	Torchwood
+T35	segment 199 200	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T7
+R6	is-specialized-by Arg1:T11 Arg2:T12
+R7	c_co Arg1:T12 Arg2:T14
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	compound Arg1:T14 Arg2:T13
+R10	c_co Arg1:T15 Arg2:T18
+R11	is-specialized-by Arg1:T18 Arg2:T17
+R12	is-specialized-by Arg1:T18 Arg2:T19
+R13	c_co Arg1:T19 Arg2:T22
+R14	compound Arg1:T22 Arg2:T20
+R15	compound Arg1:T22 Arg2:T21
+R16	is-specialized-by Arg1:T26 Arg2:T25
+R17	is-specialized-by Arg1:T26 Arg2:T27
+R18	c_co Arg1:T27 Arg2:T29
+R19	is-specialized-by Arg1:T29 Arg2:T30
+R20	c_co Arg1:T30 Arg2:T32
+R21	is-specialized-by Arg1:T32 Arg2:T33
+R22	compound Arg1:T32 Arg2:T31
+R23	c_co Arg1:T33 Arg2:T34

@@ -1,0 +1,27 @@
+T0	segment 0 3	Mah
+T1	segment 4 8	Sing
+T2	segment 9 14	Group
+T3	segment 15 21	Berhad
+T4	segment 22 24	is
+T5	segment 25 26	a
+T6	segment 27 32	Bursa
+T7	segment 33 48	Malaysia-listed
+T8	segment 49 58	Malaysian
+T9	segment 59 63	real
+T10	segment 64 70	estate
+T11	segment 71 80	developer
+T12	segment 81 84	and
+T13	segment 85 92	plastic
+T14	segment 93 101	products
+T15	segment 102 114	manufacturer
+T16	segment 115 116	.
+R0	compound Arg1:T3 Arg2:T0
+R1	s_p Arg1:T3 Arg2:T4
+R2	compound Arg1:T3 Arg2:T2
+R3	compound Arg1:T3 Arg2:T1
+R4	p_o Arg1:T4 Arg2:T11
+R5	is-specialized-by Arg1:T11 Arg2:T7
+R6	compound Arg1:T11 Arg2:T6
+R7	compound Arg1:T11 Arg2:T10
+R8	compound Arg1:T15 Arg2:T14
+R9	compound Arg1:T15 Arg2:T13

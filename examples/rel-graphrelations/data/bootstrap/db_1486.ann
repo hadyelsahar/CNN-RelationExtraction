@@ -1,0 +1,27 @@
+T0	segment 0 2	Ho
+T1	segment 3 5	is
+T2	segment 6 7	a
+T3	segment 8 12	town
+T4	segment 13 16	and
+T5	segment 17 20	the
+T6	segment 21 28	capital
+T7	segment 29 31	of
+T8	segment 32 34	Ho
+T9	segment 35 44	Municipal
+T10	segment 45 53	District
+T11	segment 54 57	and
+T12	segment 58 61	the
+T13	segment 62 67	Volta
+T14	segment 68 74	Region
+T15	segment 75 77	of
+T16	segment 78 83	Ghana
+T17	segment 84 85	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T6 Arg2:T7
+R3	c_co Arg1:T7 Arg2:T10
+R4	compound Arg1:T10 Arg2:T8
+R5	compound Arg1:T10 Arg2:T9
+R6	is-specialized-by Arg1:T14 Arg2:T15
+R7	compound Arg1:T14 Arg2:T13
+R8	c_co Arg1:T15 Arg2:T16

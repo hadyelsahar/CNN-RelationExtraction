@@ -1,0 +1,33 @@
+T0	segment 0 3	The
+T1	segment 4 11	Kingdom
+T2	segment 12 14	of
+T3	segment 15 22	Redonda
+T4	segment 23 25	is
+T5	segment 26 29	the
+T6	segment 30 34	name
+T7	segment 35 38	for
+T8	segment 39 42	the
+T9	segment 43 54	micronation
+T10	segment 55 65	associated
+T11	segment 66 70	with
+T12	segment 71 74	the
+T13	segment 75 79	tiny
+T14	segment 80 91	uninhabited
+T15	segment 92 101	Caribbean
+T16	segment 102 108	island
+T17	segment 109 111	of
+T18	segment 112 119	Redonda
+T19	segment 120 121	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	compound Arg1:T3 Arg2:T2
+R4	compound Arg1:T3 Arg2:T1
+R5	p_o Arg1:T4 Arg2:T6
+R6	is-specialized-by Arg1:T6 Arg2:T7
+R7	c_co Arg1:T7 Arg2:T9
+R8	is-specialized-by Arg1:T10 Arg2:T11
+R9	c_co Arg1:T11 Arg2:T16
+R10	is-specialized-by Arg1:T16 Arg2:T17
+R11	is-specialized-by Arg1:T16 Arg2:T13
+R12	c_co Arg1:T17 Arg2:T18

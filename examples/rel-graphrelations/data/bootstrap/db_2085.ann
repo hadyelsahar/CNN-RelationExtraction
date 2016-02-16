@@ -1,0 +1,39 @@
+T0	segment 0 4	Amin
+T1	segment 5 11	Jensen
+T2	segment 12 14	is
+T3	segment 15 16	a
+T4	segment 17 23	Danish
+T5	segment 24 29	actor
+T6	segment 30 33	and
+T7	segment 34 42	comedian
+T8	segment 43 47	best
+T9	segment 48 53	known
+T10	segment 54 56	as
+T11	segment 57 67	television
+T12	segment 68 72	host
+T13	segment 73 76	for
+T14	segment 77 80	the
+T15	segment 81 88	popular
+T16	segment 89 95	Danish
+T17	segment 96 103	musical
+T18	segment 104 108	game
+T19	segment 109 113	show
+T20	segment 113 114	,
+T21	segment 115 118	Hit
+T22	segment 119 122	Med
+T23	segment 123 129	Sangen
+T24	segment 130 131	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T9 Arg2:T8
+R5	is-specialized-by Arg1:T9 Arg2:T10
+R6	is-specialized-by Arg1:T9 Arg2:T13
+R7	c_co Arg1:T10 Arg2:T12
+R8	compound Arg1:T12 Arg2:T11
+R9	c_co Arg1:T13 Arg2:T19
+R10	is-specialized-by Arg1:T19 Arg2:T15
+R11	compound Arg1:T19 Arg2:T18
+R12	p_o Arg1:T21 Arg2:T23
+R13	compound Arg1:T23 Arg2:T22

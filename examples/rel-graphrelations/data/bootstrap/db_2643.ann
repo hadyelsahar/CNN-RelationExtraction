@@ -1,0 +1,33 @@
+T0	segment 0 6	Sachin
+T1	segment 7 9	is
+T2	segment 10 13	one
+T3	segment 14 16	of
+T4	segment 17 20	the
+T5	segment 21 26	major
+T6	segment 27 37	Industrial
+T7	segment 38 42	city
+T8	segment 43 45	in
+T9	segment 46 51	Surat
+T10	segment 52 64	Metropolitan
+T11	segment 65 71	Region
+T12	segment 72 74	in
+T13	segment 75 78	the
+T14	segment 79 85	Indian
+T15	segment 86 91	state
+T16	segment 92 94	of
+T17	segment 95 102	Gujarat
+T18	segment 103 104	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T2
+R2	is-specialized-by Arg1:T2 Arg2:T3
+R3	c_co Arg1:T3 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T7 Arg2:T5
+R6	c_co Arg1:T8 Arg2:T11
+R7	is-specialized-by Arg1:T11 Arg2:T12
+R8	compound Arg1:T11 Arg2:T10
+R9	compound Arg1:T11 Arg2:T9
+R10	c_co Arg1:T12 Arg2:T15
+R11	is-specialized-by Arg1:T15 Arg2:T16
+R12	is-specialized-by Arg1:T15 Arg2:T14
+R13	c_co Arg1:T16 Arg2:T17

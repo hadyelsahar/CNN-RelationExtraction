@@ -1,0 +1,30 @@
+T0	segment 0 3	The
+T1	segment 4 9	Arena
+T2	segment 10 14	Rock
+T3	segment 15 24	Recording
+T4	segment 25 32	Company
+T5	segment 33 35	is
+T6	segment 36 38	an
+T7	segment 39 50	independent
+T8	segment 51 57	record
+T9	segment 58 63	label
+T10	segment 64 69	based
+T11	segment 70 72	in
+T12	segment 73 81	Portland
+T13	segment 81 82	,
+T14	segment 83 89	Oregon
+T15	segment 89 90	,
+T16	segment 91 97	United
+T17	segment 98 104	States
+T18	segment 105 106	.
+R0	compound Arg1:T4 Arg2:T3
+R1	s_p Arg1:T4 Arg2:T5
+R2	compound Arg1:T4 Arg2:T2
+R3	compound Arg1:T4 Arg2:T1
+R4	p_o Arg1:T5 Arg2:T9
+R5	is-specialized-by Arg1:T9 Arg2:T7
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	compound Arg1:T9 Arg2:T8
+R8	c_co Arg1:T10 Arg2:T12
+R9	compound Arg1:T17 Arg2:T14
+R10	compound Arg1:T17 Arg2:T16

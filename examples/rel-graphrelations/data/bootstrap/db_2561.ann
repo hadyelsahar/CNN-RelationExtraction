@@ -1,0 +1,52 @@
+T0	segment 0 6	Nautic
+T1	segment 7 15	Partners
+T2	segment 16 18	is
+T3	segment 19 20	a
+T4	segment 21 28	private
+T5	segment 29 35	equity
+T6	segment 36 40	firm
+T7	segment 41 48	focused
+T8	segment 49 51	on
+T9	segment 52 61	leveraged
+T10	segment 62 68	buyout
+T11	segment 69 80	investments
+T12	segment 81 83	in
+T13	segment 84 90	middle
+T14	segment 91 97	market
+T15	segment 98 107	companies
+T16	segment 108 114	across
+T17	segment 115 116	a
+T18	segment 117 122	range
+T19	segment 123 125	of
+T20	segment 126 136	industries
+T21	segment 137 141	that
+T22	segment 142 150	includes
+T23	segment 151 159	business
+T24	segment 160 168	services
+T25	segment 168 169	,
+T26	segment 170 183	manufacturing
+T27	segment 183 184	,
+T28	segment 185 195	healthcare
+T29	segment 196 199	and
+T30	segment 200 214	communications
+T31	segment 215 216	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T6
+R3	compound Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T6 Arg2:T4
+R5	is-specialized-by Arg1:T7 Arg2:T8
+R6	is-specialized-by Arg1:T7 Arg2:T16
+R7	is-specialized-by Arg1:T7 Arg2:T12
+R8	c_co Arg1:T8 Arg2:T11
+R9	is-specialized-by Arg1:T11 Arg2:T9
+R10	compound Arg1:T11 Arg2:T10
+R11	c_co Arg1:T12 Arg2:T15
+R12	compound Arg1:T15 Arg2:T14
+R13	is-specialized-by Arg1:T15 Arg2:T13
+R14	c_co Arg1:T16 Arg2:T18
+R15	is-specialized-by Arg1:T18 Arg2:T19
+R16	c_co Arg1:T19 Arg2:T20
+R17	s_p Arg1:T21 Arg2:T22
+R18	p_o Arg1:T22 Arg2:T24
+R19	compound Arg1:T24 Arg2:T23

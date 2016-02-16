@@ -1,0 +1,42 @@
+T0	segment 0 10	Bayerische
+T1	segment 11 18	Motoren
+T2	segment 19 24	Werke
+T3	segment 25 27	AG
+T4	segment 28 29	,
+T5	segment 30 38	commonly
+T6	segment 39 44	known
+T7	segment 45 47	as
+T8	segment 48 51	BMW
+T9	segment 52 54	or
+T10	segment 55 58	BMW
+T11	segment 59 61	AG
+T12	segment 61 62	,
+T13	segment 63 65	is
+T14	segment 66 67	a
+T15	segment 68 74	German
+T16	segment 75 85	automobile
+T17	segment 85 86	,
+T18	segment 87 97	motorcycle
+T19	segment 98 101	and
+T20	segment 102 108	engine
+T21	segment 109 122	manufacturing
+T22	segment 123 130	company
+T23	segment 131 138	founded
+T24	segment 139 141	in
+T25	segment 142 146	1916
+T26	segment 147 148	.
+R0	s_p Arg1:T3 Arg2:T13
+R1	compound Arg1:T3 Arg2:T0
+R2	compound Arg1:T3 Arg2:T2
+R3	compound Arg1:T3 Arg2:T1
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	is-specialized-by Arg1:T6 Arg2:T5
+R6	c_co Arg1:T7 Arg2:T11
+R7	compound Arg1:T11 Arg2:T8
+R8	compound Arg1:T11 Arg2:T10
+R9	p_o Arg1:T13 Arg2:T22
+R10	is-specialized-by Arg1:T22 Arg2:T15
+R11	compound Arg1:T22 Arg2:T21
+R12	compound Arg1:T22 Arg2:T16
+R13	is-specialized-by Arg1:T23 Arg2:T24
+R14	c_co Arg1:T24 Arg2:T25

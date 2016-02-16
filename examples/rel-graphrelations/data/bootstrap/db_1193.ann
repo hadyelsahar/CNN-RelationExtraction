@@ -1,0 +1,38 @@
+T0	segment 0 3	Fan
+T1	segment 4 8	Milk
+T2	segment 9 11	is
+T3	segment 12 13	a
+T4	segment 14 26	manufacturer
+T5	segment 27 30	and
+T6	segment 31 39	retailer
+T7	segment 40 42	of
+T8	segment 43 51	icecream
+T9	segment 52 55	and
+T10	segment 56 62	frozen
+T11	segment 63 68	dairy
+T12	segment 69 77	products
+T13	segment 78 83	which
+T14	segment 84 87	has
+T15	segment 88 89	a
+T16	segment 90 97	leading
+T17	segment 98 106	position
+T18	segment 107 109	on
+T19	segment 110 113	the
+T20	segment 114 118	West
+T21	segment 119 126	African
+T22	segment 127 133	market
+T23	segment 134 135	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T4
+R3	is-specialized-by Arg1:T4 Arg2:T7
+R4	c_co Arg1:T7 Arg2:T12
+R5	compound Arg1:T12 Arg2:T11
+R6	compound Arg1:T12 Arg2:T8
+R7	s_p Arg1:T13 Arg2:T14
+R8	p_o Arg1:T14 Arg2:T17
+R9	is-specialized-by Arg1:T17 Arg2:T16
+R10	is-specialized-by Arg1:T17 Arg2:T18
+R11	c_co Arg1:T18 Arg2:T22
+R12	compound Arg1:T21 Arg2:T20
+R13	is-specialized-by Arg1:T22 Arg2:T21

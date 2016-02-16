@@ -1,0 +1,63 @@
+T0	segment 0 3	The
+T1	segment 4 11	Kingdom
+T2	segment 12 14	of
+T3	segment 15 19	Bora
+T4	segment 20 24	Bora
+T5	segment 25 28	was
+T6	segment 29 40	established
+T7	segment 41 47	during
+T8	segment 48 51	the
+T9	segment 52 57	early
+T10	segment 58 62	19th
+T11	segment 63 70	century
+T12	segment 71 75	with
+T13	segment 76 79	the
+T14	segment 80 91	unification
+T15	segment 92 94	of
+T16	segment 95 98	the
+T17	segment 99 105	island
+T18	segment 106 108	of
+T19	segment 109 113	Bora
+T20	segment 114 118	Bora
+T21	segment 119 122	and
+T22	segment 123 131	official
+T23	segment 132 143	recognition
+T24	segment 144 146	by
+T25	segment 147 153	France
+T26	segment 154 157	and
+T27	segment 158 163	Great
+T28	segment 164 171	Britain
+T29	segment 172 174	in
+T30	segment 175 179	1847
+T31	segment 180 187	through
+T32	segment 188 191	the
+T33	segment 192 198	Jarnac
+T34	segment 199 209	Convention
+T35	segment 210 211	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T6
+R2	c_co Arg1:T2 Arg2:T4
+R3	compound Arg1:T4 Arg2:T3
+R4	compound Arg1:T6 Arg2:T5
+R5	p_c Arg1:T6 Arg2:T7
+R6	p_c Arg1:T6 Arg2:T24
+R7	p_c Arg1:T6 Arg2:T31
+R8	c_co Arg1:T7 Arg2:T11
+R9	is-specialized-by Arg1:T11 Arg2:T12
+R10	compound Arg1:T11 Arg2:T8
+R11	compound Arg1:T11 Arg2:T10
+R12	compound Arg1:T11 Arg2:T9
+R13	c_co Arg1:T12 Arg2:T14
+R14	is-specialized-by Arg1:T14 Arg2:T15
+R15	c_co Arg1:T15 Arg2:T17
+R16	is-specialized-by Arg1:T17 Arg2:T18
+R17	c_co Arg1:T18 Arg2:T20
+R18	compound Arg1:T20 Arg2:T19
+R19	is-specialized-by Arg1:T23 Arg2:T22
+R20	c_co Arg1:T24 Arg2:T28
+R21	compound Arg1:T28 Arg2:T27
+R22	is-specialized-by Arg1:T28 Arg2:T29
+R23	compound Arg1:T28 Arg2:T25
+R24	c_co Arg1:T29 Arg2:T30
+R25	c_co Arg1:T31 Arg2:T34
+R26	compound Arg1:T34 Arg2:T33

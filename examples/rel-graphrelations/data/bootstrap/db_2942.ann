@@ -1,0 +1,48 @@
+T0	segment 0 6	Vantec
+T1	segment 7 14	Thermal
+T2	segment 15 27	Technologies
+T3	segment 28 30	is
+T4	segment 31 32	a
+T5	segment 33 42	privately
+T6	segment 43 47	held
+T7	segment 48 61	multinational
+T8	segment 62 73	corporation
+T9	segment 74 78	with
+T10	segment 79 91	headquarters
+T11	segment 92 95	and
+T12	segment 96 98	an
+T13	segment 99 102	R&D
+T14	segment 103 107	team
+T15	segment 108 110	in
+T16	segment 111 114	the
+T17	segment 115 117	US
+T18	segment 117 118	,
+T19	segment 119 135	sales/purchasing
+T20	segment 136 142	office
+T21	segment 143 145	in
+T22	segment 146 152	Taiwan
+T23	segment 153 156	and
+T24	segment 157 166	factories
+T25	segment 167 169	in
+T26	segment 170 176	Taiwan
+T27	segment 176 177	,
+T28	segment 178 183	Korea
+T29	segment 184 187	and
+T30	segment 188 193	China
+T31	segment 194 195	.
+R0	s_p Arg1:T0 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T8
+R4	is-specialized-by Arg1:T6 Arg2:T5
+R5	is-specialized-by Arg1:T8 Arg2:T9
+R6	is-specialized-by Arg1:T8 Arg2:T6
+R7	c_co Arg1:T9 Arg2:T10
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	compound Arg1:T14 Arg2:T13
+R10	c_co Arg1:T15 Arg2:T17
+R11	p_o Arg1:T19 Arg2:T20
+R12	is-specialized-by Arg1:T20 Arg2:T21
+R13	c_co Arg1:T21 Arg2:T22
+R14	is-specialized-by Arg1:T24 Arg2:T25
+R15	c_co Arg1:T25 Arg2:T26

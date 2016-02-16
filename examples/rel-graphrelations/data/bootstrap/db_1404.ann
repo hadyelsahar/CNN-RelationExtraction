@@ -1,0 +1,42 @@
+T0	segment 0 3	The
+T1	segment 4 10	Treaty
+T2	segment 11 13	of
+T3	segment 14 18	Fort
+T4	segment 19 25	Harmar
+T5	segment 26 29	was
+T6	segment 30 32	an
+T7	segment 33 42	agreement
+T8	segment 43 50	between
+T9	segment 51 54	the
+T10	segment 55 61	United
+T11	segment 62 68	States
+T12	segment 69 79	government
+T13	segment 80 83	and
+T14	segment 84 92	numerous
+T15	segment 93 99	Native
+T16	segment 100 108	American
+T17	segment 109 115	tribes
+T18	segment 116 120	with
+T19	segment 121 127	claims
+T20	segment 128 130	to
+T21	segment 131 134	the
+T22	segment 135 144	Northwest
+T23	segment 145 154	Territory
+T24	segment 155 156	.
+R0	s_p Arg1:T1 Arg2:T5
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	c_co Arg1:T2 Arg2:T4
+R3	compound Arg1:T4 Arg2:T3
+R4	p_o Arg1:T5 Arg2:T7
+R5	is-specialized-by Arg1:T7 Arg2:T8
+R6	c_co Arg1:T8 Arg2:T12
+R7	compound Arg1:T11 Arg2:T10
+R8	compound Arg1:T12 Arg2:T11
+R9	compound Arg1:T12 Arg2:T10
+R10	compound Arg1:T16 Arg2:T15
+R11	is-specialized-by Arg1:T17 Arg2:T18
+R12	is-specialized-by Arg1:T17 Arg2:T14
+R13	c_co Arg1:T18 Arg2:T19
+R14	is-specialized-by Arg1:T19 Arg2:T20
+R15	c_co Arg1:T20 Arg2:T23
+R16	compound Arg1:T23 Arg2:T22

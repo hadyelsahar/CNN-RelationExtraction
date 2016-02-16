@@ -1,0 +1,41 @@
+T0	segment 0 6	Energy
+T1	segment 7 14	Company
+T2	segment 15 17	of
+T3	segment 18 25	Ukraine
+T4	segment 26 28	is
+T5	segment 29 30	a
+T6	segment 31 40	dissolved
+T7	segment 41 52	state-owned
+T8	segment 53 60	holding
+T9	segment 61 68	company
+T10	segment 69 72	for
+T11	segment 73 84	electricity
+T12	segment 85 91	assets
+T13	segment 92 94	in
+T14	segment 95 102	Ukraine
+T15	segment 103 108	under
+T16	segment 109 117	Ministry
+T17	segment 118 120	of
+T18	segment 121 125	Fuel
+T19	segment 126 129	and
+T20	segment 130 136	Energy
+T21	segment 137 138	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	s_p Arg1:T1 Arg2:T4
+R3	c_co Arg1:T2 Arg2:T3
+R4	p_o Arg1:T4 Arg2:T9
+R5	is-specialized-by Arg1:T9 Arg2:T10
+R6	is-specialized-by Arg1:T9 Arg2:T6
+R7	c_co Arg1:T10 Arg2:T12
+R8	compound Arg1:T12 Arg2:T11
+R9	is-specialized-by Arg1:T12 Arg2:T13
+R10	c_co Arg1:T13 Arg2:T14
+R11	is-specialized-by Arg1:T14 Arg2:T15
+R12	c_co Arg1:T15 Arg2:T16
+R13	is-specialized-by Arg1:T16 Arg2:T17
+R14	c_co Arg1:T17 Arg2:T18
+R15	compound Arg1:T20 Arg2:T19
+R16	compound Arg1:T20 Arg2:T16
+R17	compound Arg1:T20 Arg2:T18
+R18	compound Arg1:T20 Arg2:T17

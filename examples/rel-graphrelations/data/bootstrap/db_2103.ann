@@ -1,0 +1,30 @@
+T0	segment 0 6	AdlÃ¨ne
+T1	segment 7 16	Guedioura
+T2	segment 17 19	is
+T3	segment 20 21	a
+T4	segment 22 28	French
+T5	segment 29 33	born
+T6	segment 34 42	Algerian
+T7	segment 43 56	international
+T8	segment 57 67	footballer
+T9	segment 68 71	who
+T10	segment 72 77	plays
+T11	segment 78 80	as
+T12	segment 81 82	a
+T13	segment 83 93	midfielder
+T14	segment 94 97	for
+T15	segment 98 105	Crystal
+T16	segment 106 112	Palace
+T17	segment 113 114	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T4
+R3	p_o Arg1:T5 Arg2:T8
+R4	is-specialized-by Arg1:T8 Arg2:T7
+R5	compound Arg1:T8 Arg2:T6
+R6	s_p Arg1:T9 Arg2:T10
+R7	p_c Arg1:T10 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T13
+R9	is-specialized-by Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T16
+R11	compound Arg1:T16 Arg2:T15

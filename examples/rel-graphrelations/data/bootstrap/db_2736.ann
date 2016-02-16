@@ -1,0 +1,42 @@
+T0	segment 0 3	The
+T1	segment 4 9	Kilwa
+T2	segment 10 19	Sultanate
+T3	segment 20 23	was
+T4	segment 24 25	a
+T5	segment 26 34	Medieval
+T6	segment 35 44	sultanate
+T7	segment 44 45	,
+T8	segment 46 54	centered
+T9	segment 55 57	at
+T10	segment 58 63	Kilwa
+T11	segment 64 65	,
+T12	segment 66 71	whose
+T13	segment 72 81	authority
+T14	segment 81 82	,
+T15	segment 83 85	at
+T16	segment 86 89	its
+T17	segment 90 96	height
+T18	segment 96 97	,
+T19	segment 98 107	stretched
+T20	segment 108 112	over
+T21	segment 113 116	the
+T22	segment 117 123	entire
+T23	segment 124 130	length
+T24	segment 131 133	of
+T25	segment 134 137	the
+T26	segment 138 145	Swahili
+T27	segment 146 151	Coast
+T28	segment 152 153	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T6
+R3	is-specialized-by Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T8 Arg2:T9
+R5	c_co Arg1:T9 Arg2:T10
+R6	s_p Arg1:T13 Arg2:T19
+R7	p_c Arg1:T19 Arg2:T20
+R8	c_co Arg1:T20 Arg2:T23
+R9	is-specialized-by Arg1:T23 Arg2:T24
+R10	is-specialized-by Arg1:T23 Arg2:T22
+R11	c_co Arg1:T24 Arg2:T27
+R12	compound Arg1:T27 Arg2:T26

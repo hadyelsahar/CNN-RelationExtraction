@@ -1,0 +1,65 @@
+T0	segment 0 3	The
+T1	segment 4 15	Association
+T2	segment 16 18	of
+T3	segment 19 24	Youth
+T4	segment 25 38	Organizations
+T5	segment 39 44	Nepal
+T6	segment 45 47	is
+T7	segment 48 49	a
+T8	segment 50 63	non-political
+T9	segment 63 64	,
+T10	segment 65 78	non-religious
+T11	segment 78 79	,
+T12	segment 80 96	non-governmental
+T13	segment 96 97	,
+T14	segment 98 112	not-for-profit
+T15	segment 112 113	,
+T16	segment 114 124	autonomous
+T17	segment 125 132	network
+T18	segment 133 135	of
+T19	segment 136 141	Youth
+T20	segment 142 155	Organizations
+T21	segment 156 159	and
+T22	segment 160 162	as
+T23	segment 163 167	such
+T24	segment 167 168	,
+T25	segment 169 170	a
+T26	segment 171 179	platform
+T27	segment 180 183	for
+T28	segment 184 197	collaboration
+T29	segment 197 198	,
+T30	segment 199 210	cooperation
+T31	segment 210 211	,
+T32	segment 212 217	joint
+T33	segment 218 224	action
+T34	segment 225 228	and
+T35	segment 229 239	collective
+T36	segment 240 248	endeavor
+T37	segment 249 256	between
+T38	segment 257 262	Youth
+T39	segment 263 276	Organizations
+T40	segment 277 279	in
+T41	segment 280 285	Nepal
+T42	segment 286 287	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T6
+R2	c_co Arg1:T2 Arg2:T5
+R3	compound Arg1:T5 Arg2:T4
+R4	compound Arg1:T5 Arg2:T3
+R5	compound Arg1:T5 Arg2:T2
+R6	compound Arg1:T5 Arg2:T1
+R7	p_o Arg1:T6 Arg2:T17
+R8	is-specialized-by Arg1:T17 Arg2:T8
+R9	is-specialized-by Arg1:T17 Arg2:T18
+R10	c_co Arg1:T18 Arg2:T20
+R11	compound Arg1:T20 Arg2:T19
+R12	is-specialized-by Arg1:T23 Arg2:T22
+R13	is-specialized-by Arg1:T26 Arg2:T27
+R14	is-specialized-by Arg1:T26 Arg2:T37
+R15	c_co Arg1:T27 Arg2:T28
+R16	is-specialized-by Arg1:T33 Arg2:T32
+R17	is-specialized-by Arg1:T36 Arg2:T35
+R18	c_co Arg1:T37 Arg2:T39
+R19	is-specialized-by Arg1:T39 Arg2:T40
+R20	compound Arg1:T39 Arg2:T38
+R21	c_co Arg1:T40 Arg2:T41

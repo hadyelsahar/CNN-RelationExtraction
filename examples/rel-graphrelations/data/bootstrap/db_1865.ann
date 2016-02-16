@@ -1,0 +1,65 @@
+T0	segment 0 3	The
+T1	segment 4 8	Zulu
+T2	segment 9 16	Kingdom
+T3	segment 16 17	,
+T4	segment 18 27	sometimes
+T5	segment 28 36	referred
+T6	segment 37 39	to
+T7	segment 40 42	as
+T8	segment 43 46	the
+T9	segment 47 51	Zulu
+T10	segment 52 58	Empire
+T11	segment 59 62	was
+T12	segment 63 64	a
+T13	segment 65 73	monarchy
+T14	segment 74 76	in
+T15	segment 77 85	Southern
+T16	segment 86 92	Africa
+T17	segment 93 97	that
+T18	segment 98 106	extended
+T19	segment 107 112	along
+T20	segment 113 116	the
+T21	segment 117 122	coast
+T22	segment 123 125	of
+T23	segment 126 129	the
+T24	segment 130 136	Indian
+T25	segment 137 142	Ocean
+T26	segment 143 147	from
+T27	segment 148 151	the
+T28	segment 152 158	Tugela
+T29	segment 159 164	River
+T30	segment 165 167	in
+T31	segment 168 171	the
+T32	segment 172 177	south
+T33	segment 178 180	to
+T34	segment 181 188	Pongola
+T35	segment 189 194	River
+T36	segment 195 197	in
+T37	segment 198 201	the
+T38	segment 202 207	north
+T39	segment 208 209	.
+R0	s_p Arg1:T2 Arg2:T5
+R1	compound Arg1:T2 Arg2:T1
+R2	p_c Arg1:T5 Arg2:T4
+R3	s_p Arg1:T10 Arg2:T11
+R4	compound Arg1:T10 Arg2:T9
+R5	p_o Arg1:T11 Arg2:T13
+R6	is-specialized-by Arg1:T13 Arg2:T14
+R7	c_co Arg1:T14 Arg2:T16
+R8	compound Arg1:T16 Arg2:T15
+R9	s_p Arg1:T17 Arg2:T18
+R10	p_c Arg1:T18 Arg2:T33
+R11	p_c Arg1:T18 Arg2:T26
+R12	p_c Arg1:T18 Arg2:T19
+R13	c_co Arg1:T19 Arg2:T21
+R14	is-specialized-by Arg1:T21 Arg2:T22
+R15	c_co Arg1:T22 Arg2:T25
+R16	compound Arg1:T25 Arg2:T24
+R17	c_co Arg1:T26 Arg2:T29
+R18	compound Arg1:T29 Arg2:T28
+R19	is-specialized-by Arg1:T29 Arg2:T30
+R20	c_co Arg1:T30 Arg2:T32
+R21	c_co Arg1:T33 Arg2:T35
+R22	is-specialized-by Arg1:T35 Arg2:T36
+R23	compound Arg1:T35 Arg2:T34
+R24	c_co Arg1:T36 Arg2:T38

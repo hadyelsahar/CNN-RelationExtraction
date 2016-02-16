@@ -1,0 +1,33 @@
+T0	segment 0 6	Nadeem
+T1	segment 7 9	is
+T2	segment 10 11	a
+T3	segment 12 21	Pakistani
+T4	segment 22 27	actor
+T5	segment 27 28	,
+T6	segment 29 35	singer
+T7	segment 35 36	,
+T8	segment 37 45	producer
+T9	segment 46 49	who
+T10	segment 50 53	has
+T11	segment 54 59	acted
+T12	segment 60 62	in
+T13	segment 63 70	several
+T14	segment 71 76	films
+T15	segment 76 77	,
+T16	segment 78 87	telefilms
+T17	segment 87 88	,
+T18	segment 89 92	and
+T19	segment 93 95	TV
+T20	segment 96 101	drama
+T21	segment 102 109	serials
+T22	segment 110 111	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	s_p Arg1:T9 Arg2:T11
+R4	p_c Arg1:T11 Arg2:T12
+R5	compound Arg1:T11 Arg2:T10
+R6	c_co Arg1:T12 Arg2:T14
+R7	is-specialized-by Arg1:T14 Arg2:T13
+R8	compound Arg1:T21 Arg2:T20
+R9	compound Arg1:T21 Arg2:T19

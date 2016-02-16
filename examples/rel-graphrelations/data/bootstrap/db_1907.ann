@@ -1,0 +1,42 @@
+T0	segment 0 10	Russobit-M
+T1	segment 11 13	is
+T2	segment 14 17	one
+T3	segment 18 20	of
+T4	segment 21 24	the
+T5	segment 25 32	largest
+T6	segment 33 45	distributors
+T7	segment 46 48	of
+T8	segment 49 51	PC
+T9	segment 52 57	games
+T10	segment 58 60	in
+T11	segment 61 67	Russia
+T12	segment 68 71	and
+T13	segment 72 75	the
+T14	segment 76 79	CIS
+T15	segment 79 80	,
+T16	segment 81 84	and
+T17	segment 85 87	is
+T18	segment 88 89	a
+T19	segment 90 93	key
+T20	segment 94 100	player
+T21	segment 101 103	in
+T22	segment 104 107	the
+T23	segment 108 110	PC
+T24	segment 111 115	game
+T25	segment 116 124	industry
+T26	segment 125 126	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T2
+R2	is-specialized-by Arg1:T2 Arg2:T3
+R3	c_co Arg1:T3 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	is-specialized-by Arg1:T6 Arg2:T5
+R6	c_co Arg1:T7 Arg2:T9
+R7	is-specialized-by Arg1:T9 Arg2:T10
+R8	compound Arg1:T9 Arg2:T8
+R9	c_co Arg1:T10 Arg2:T11
+R10	is-specialized-by Arg1:T20 Arg2:T19
+R11	is-specialized-by Arg1:T20 Arg2:T21
+R12	c_co Arg1:T21 Arg2:T25
+R13	compound Arg1:T25 Arg2:T24
+R14	compound Arg1:T25 Arg2:T23

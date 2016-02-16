@@ -1,0 +1,27 @@
+T0	segment 0 8	Kingston
+T1	segment 9 11	is
+T2	segment 12 13	a
+T3	segment 14 18	city
+T4	segment 19 21	in
+T5	segment 22 25	and
+T6	segment 26 29	the
+T7	segment 30 36	county
+T8	segment 37 41	seat
+T9	segment 42 44	of
+T10	segment 45 51	Ulster
+T11	segment 52 58	County
+T12	segment 58 59	,
+T13	segment 60 63	New
+T14	segment 64 68	York
+T15	segment 68 69	,
+T16	segment 70 73	USA
+T17	segment 74 75	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T16
+R4	is-specialized-by Arg1:T8 Arg2:T9
+R5	compound Arg1:T8 Arg2:T7
+R6	c_co Arg1:T9 Arg2:T11
+R7	compound Arg1:T11 Arg2:T10
+R8	compound Arg1:T14 Arg2:T13

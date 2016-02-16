@@ -1,0 +1,71 @@
+T0	segment 0 3	The
+T1	segment 4 14	Birmingham
+T2	segment 15 19	Mint
+T3	segment 19 20	,
+T4	segment 21 22	a
+T5	segment 23 30	coining
+T6	segment 31 35	mint
+T7	segment 35 36	,
+T8	segment 37 47	originally
+T9	segment 48 53	known
+T10	segment 54 56	as
+T11	segment 57 63	Heaton
+T12	segment 63 65	's
+T13	segment 66 70	Mint
+T14	segment 71 73	or
+T15	segment 74 79	Ralph
+T16	segment 80 86	Heaton
+T17	segment 87 88	&
+T18	segment 89 93	Sons
+T19	segment 93 94	,
+T20	segment 95 97	in
+T21	segment 98 108	Birmingham
+T22	segment 108 109	,
+T23	segment 110 117	England
+T24	segment 117 118	,
+T25	segment 119 126	started
+T26	segment 127 136	producing
+T27	segment 137 143	tokens
+T28	segment 144 147	and
+T29	segment 148 153	coins
+T30	segment 154 156	in
+T31	segment 157 161	1850
+T32	segment 162 164	as
+T33	segment 165 166	a
+T34	segment 167 174	private
+T35	segment 175 185	enterprise
+T36	segment 185 186	,
+T37	segment 187 195	separate
+T38	segment 196 200	from
+T39	segment 200 201	,
+T40	segment 202 205	but
+T41	segment 206 208	in
+T42	segment 209 220	cooperation
+T43	segment 221 225	with
+T44	segment 226 229	the
+T45	segment 230 235	Royal
+T46	segment 236 240	Mint
+T47	segment 241 242	.
+R0	s_p Arg1:T2 Arg2:T25
+R1	compound Arg1:T2 Arg2:T1
+R2	is-specialized-by Arg1:T6 Arg2:T20
+R3	is-specialized-by Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T9 Arg2:T8
+R5	is-specialized-by Arg1:T9 Arg2:T10
+R6	c_co Arg1:T10 Arg2:T13
+R7	compound Arg1:T16 Arg2:T15
+R8	compound Arg1:T18 Arg2:T16
+R9	compound Arg1:T18 Arg2:T15
+R10	compound Arg1:T18 Arg2:T17
+R11	c_co Arg1:T20 Arg2:T23
+R12	compound Arg1:T23 Arg2:T21
+R13	is-specialized-by Arg1:T26 Arg2:T32
+R14	p_o Arg1:T26 Arg2:T27
+R15	is-specialized-by Arg1:T26 Arg2:T30
+R16	c_co Arg1:T30 Arg2:T31
+R17	c_co Arg1:T32 Arg2:T35
+R18	is-specialized-by Arg1:T35 Arg2:T34
+R19	is-specialized-by Arg1:T35 Arg2:T43
+R20	is-specialized-by Arg1:T37 Arg2:T38
+R21	c_co Arg1:T43 Arg2:T46
+R22	compound Arg1:T46 Arg2:T45

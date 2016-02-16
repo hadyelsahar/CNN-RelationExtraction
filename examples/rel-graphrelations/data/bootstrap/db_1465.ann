@@ -1,0 +1,38 @@
+T0	segment 0 7	Lavalys
+T1	segment 8 10	is
+T2	segment 11 12	a
+T3	segment 13 21	Canadian
+T4	segment 22 30	software
+T5	segment 31 42	development
+T6	segment 43 50	company
+T7	segment 51 58	founded
+T8	segment 59 61	in
+T9	segment 62 66	2003
+T10	segment 66 67	,
+T11	segment 68 72	that
+T12	segment 73 84	specialized
+T13	segment 85 87	in
+T14	segment 88 96	computer
+T15	segment 97 108	diagnostics
+T16	segment 109 112	and
+T17	segment 113 119	system
+T18	segment 120 129	profiling
+T19	segment 130 138	software
+T20	segment 139 146	popular
+T21	segment 147 154	amongst
+T22	segment 155 163	computer
+T23	segment 164 175	enthusiasts
+T24	segment 176 177	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T6
+R2	compound Arg1:T6 Arg2:T4
+R3	compound Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T6 Arg2:T3
+R5	is-specialized-by Arg1:T7 Arg2:T8
+R6	c_co Arg1:T8 Arg2:T9
+R7	compound Arg1:T15 Arg2:T14
+R8	compound Arg1:T19 Arg2:T18
+R9	compound Arg1:T19 Arg2:T17
+R10	is-specialized-by Arg1:T20 Arg2:T21
+R11	c_co Arg1:T21 Arg2:T23
+R12	compound Arg1:T23 Arg2:T22

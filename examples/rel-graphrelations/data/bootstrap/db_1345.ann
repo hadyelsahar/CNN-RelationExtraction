@@ -1,0 +1,29 @@
+T0	segment 0 7	Managua
+T1	segment 8 10	is
+T2	segment 11 14	the
+T3	segment 15 22	capital
+T4	segment 23 27	city
+T5	segment 28 30	of
+T6	segment 31 40	Nicaragua
+T7	segment 41 43	as
+T8	segment 44 48	well
+T9	segment 49 51	as
+T10	segment 52 55	the
+T11	segment 56 66	department
+T12	segment 67 70	and
+T13	segment 71 83	municipality
+T14	segment 84 86	by
+T15	segment 87 90	the
+T16	segment 91 95	same
+T17	segment 96 100	name
+T18	segment 101 102	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	compound Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T6
+R5	compound Arg1:T7 Arg2:T8
+R6	compound Arg1:T7 Arg2:T9
+R7	is-specialized-by Arg1:T11 Arg2:T14
+R8	c_co Arg1:T14 Arg2:T17
+R9	is-specialized-by Arg1:T17 Arg2:T16

@@ -1,0 +1,75 @@
+T0	segment 0 3	The
+T1	segment 4 10	Lachin
+T2	segment 11 18	Kurdish
+T3	segment 19 27	Republic
+T4	segment 28 31	was
+T5	segment 32 47	self-proclaimed
+T6	segment 48 50	on
+T7	segment 51 53	20
+T8	segment 54 57	May
+T9	segment 57 58	,
+T10	segment 59 63	1992
+T11	segment 63 64	,
+T12	segment 65 67	in
+T13	segment 68 74	Lachin
+T14	segment 74 75	,
+T15	segment 76 80	just
+T16	segment 81 84	two
+T17	segment 85 89	days
+T18	segment 90 95	after
+T19	segment 96 100	this
+T20	segment 101 105	area
+T21	segment 106 108	of
+T22	segment 109 119	Azerbaijan
+T23	segment 120 123	had
+T24	segment 124 128	been
+T25	segment 129 137	captured
+T26	segment 138 140	by
+T27	segment 141 149	Armenian
+T28	segment 150 156	forces
+T29	segment 157 160	and
+T30	segment 161 168	largely
+T31	segment 169 176	emptied
+T32	segment 177 179	of
+T33	segment 180 183	its
+T34	segment 184 194	population
+T35	segment 195 197	as
+T36	segment 198 202	part
+T37	segment 203 205	of
+T38	segment 206 209	the
+T39	segment 210 217	ongoing
+T40	segment 218 234	Nagorno-Karabakh
+T41	segment 235 238	War
+T42	segment 239 240	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T5
+R4	is-specialized-by Arg1:T5 Arg2:T12
+R5	is-specialized-by Arg1:T5 Arg2:T6
+R6	c_co Arg1:T6 Arg2:T8
+R7	is-specialized-by Arg1:T8 Arg2:T7
+R8	is-specialized-by Arg1:T8 Arg2:T10
+R9	compound Arg1:T10 Arg2:T8
+R10	compound Arg1:T10 Arg2:T7
+R11	compound Arg1:T10 Arg2:T9
+R12	c_co Arg1:T12 Arg2:T13
+R13	is-specialized-by Arg1:T17 Arg2:T15
+R14	compound Arg1:T17 Arg2:T16
+R15	s_p Arg1:T20 Arg2:T25
+R16	is-specialized-by Arg1:T20 Arg2:T21
+R17	c_co Arg1:T21 Arg2:T22
+R18	p_c Arg1:T25 Arg2:T26
+R19	compound Arg1:T25 Arg2:T24
+R20	compound Arg1:T25 Arg2:T23
+R21	c_co Arg1:T26 Arg2:T28
+R22	is-specialized-by Arg1:T28 Arg2:T27
+R23	is-specialized-by Arg1:T31 Arg2:T32
+R24	is-specialized-by Arg1:T31 Arg2:T35
+R25	is-specialized-by Arg1:T31 Arg2:T30
+R26	c_co Arg1:T32 Arg2:T34
+R27	c_co Arg1:T35 Arg2:T36
+R28	is-specialized-by Arg1:T36 Arg2:T37
+R29	c_co Arg1:T37 Arg2:T41
+R30	is-specialized-by Arg1:T41 Arg2:T39
+R31	compound Arg1:T41 Arg2:T40

@@ -1,0 +1,42 @@
+T0	segment 0 10	Sedimental
+T1	segment 11 13	is
+T2	segment 14 16	an
+T3	segment 17 28	independent
+T4	segment 29 38	recording
+T5	segment 39 44	label
+T6	segment 45 50	based
+T7	segment 51 53	in
+T8	segment 54 64	Greenfield
+T9	segment 64 65	,
+T10	segment 66 79	Massachusetts
+T11	segment 80 89	releasing
+T12	segment 90 96	mainly
+T13	segment 97 109	experimental
+T14	segment 109 110	,
+T15	segment 111 116	sound
+T16	segment 117 120	art
+T17	segment 120 121	,
+T18	segment 122 127	noise
+T19	segment 127 128	,
+T20	segment 129 133	free
+T21	segment 134 138	jazz
+T22	segment 138 139	,
+T23	segment 140 145	avant
+T24	segment 146 151	garde
+T25	segment 152 155	and
+T26	segment 156 161	drone
+T27	segment 162 167	music
+T28	segment 168 169	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T5
+R2	compound Arg1:T5 Arg2:T4
+R3	is-specialized-by Arg1:T5 Arg2:T3
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T10
+R6	compound Arg1:T10 Arg2:T8
+R7	p_o Arg1:T11 Arg2:T13
+R8	is-specialized-by Arg1:T13 Arg2:T12
+R9	is-specialized-by Arg1:T16 Arg2:T15
+R10	is-specialized-by Arg1:T21 Arg2:T20
+R11	is-specialized-by Arg1:T24 Arg2:T23
+R12	compound Arg1:T27 Arg2:T26

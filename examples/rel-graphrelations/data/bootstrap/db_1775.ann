@@ -1,0 +1,40 @@
+T0	segment 0 3	Ili
+T1	segment 4 6	or
+T2	segment 7 11	Yili
+T3	segment 12 18	Kazakh
+T4	segment 19 29	Autonomous
+T5	segment 30 40	Prefecture
+T6	segment 41 43	in
+T7	segment 44 56	northernmost
+T8	segment 57 65	Xinjiang
+T9	segment 66 68	is
+T10	segment 69 72	the
+T11	segment 73 77	only
+T12	segment 78 84	Kazakh
+T13	segment 85 95	autonomous
+T14	segment 96 106	prefecture
+T15	segment 107 109	of
+T16	segment 110 113	the
+T17	segment 114 120	People
+T18	segment 120 122	's
+T19	segment 123 131	Republic
+T20	segment 132 134	of
+T21	segment 135 140	China
+T22	segment 141 142	.
+R0	s_p Arg1:T0 Arg2:T9
+R1	compound Arg1:T5 Arg2:T4
+R2	compound Arg1:T5 Arg2:T3
+R3	is-specialized-by Arg1:T5 Arg2:T6
+R4	compound Arg1:T5 Arg2:T2
+R5	c_co Arg1:T6 Arg2:T8
+R6	is-specialized-by Arg1:T8 Arg2:T7
+R7	p_o Arg1:T9 Arg2:T14
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	is-specialized-by Arg1:T14 Arg2:T11
+R10	c_co Arg1:T15 Arg2:T19
+R11	is-specialized-by Arg1:T19 Arg2:T20
+R12	c_co Arg1:T20 Arg2:T21
+R13	compound Arg1:T21 Arg2:T20
+R14	compound Arg1:T21 Arg2:T19
+R15	compound Arg1:T21 Arg2:T18
+R16	compound Arg1:T21 Arg2:T17

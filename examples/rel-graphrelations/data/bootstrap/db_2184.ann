@@ -1,0 +1,30 @@
+T0	segment 0 10	Takfarinas
+T1	segment 11 13	is
+T2	segment 14 17	the
+T3	segment 18 23	stage
+T4	segment 24 28	name
+T5	segment 29 31	of
+T6	segment 32 34	an
+T7	segment 35 43	Algerian
+T8	segment 44 50	Kabyle
+T9	segment 51 54	Yal
+T10	segment 55 63	musician
+T11	segment 64 67	who
+T12	segment 68 71	was
+T13	segment 72 76	born
+T14	segment 77 79	in
+T15	segment 80 84	1958
+T16	segment 85 86	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	compound Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T10
+R5	compound Arg1:T9 Arg2:T8
+R6	compound Arg1:T10 Arg2:T8
+R7	compound Arg1:T10 Arg2:T7
+R8	compound Arg1:T10 Arg2:T9
+R9	s_p Arg1:T11 Arg2:T13
+R10	compound Arg1:T13 Arg2:T12
+R11	p_c Arg1:T13 Arg2:T14
+R12	c_co Arg1:T14 Arg2:T15

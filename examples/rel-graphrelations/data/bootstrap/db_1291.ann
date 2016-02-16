@@ -1,0 +1,58 @@
+T0	segment 0 6	Kahlur
+T1	segment 7 8	,
+T2	segment 9 17	covering
+T3	segment 18 20	an
+T4	segment 21 25	area
+T5	segment 26 28	of
+T6	segment 29 33	1173
+T7	segment 34 36	km
+T8	segment 36 37	Â²
+T9	segment 37 38	,
+T10	segment 39 42	and
+T11	segment 43 52	currently
+T12	segment 53 54	a
+T13	segment 55 59	part
+T14	segment 60 62	of
+T15	segment 63 71	Himachal
+T16	segment 72 79	Pradesh
+T17	segment 80 85	state
+T18	segment 85 86	,
+T19	segment 87 90	was
+T20	segment 91 94	one
+T21	segment 95 97	of
+T22	segment 98 101	the
+T23	segment 102 110	Princely
+T24	segment 111 117	states
+T25	segment 118 120	of
+T26	segment 121 126	India
+T27	segment 127 133	during
+T28	segment 134 137	the
+T29	segment 138 144	period
+T30	segment 145 147	of
+T31	segment 148 151	the
+T32	segment 152 159	British
+T33	segment 160 163	Raj
+T34	segment 164 165	.
+R0	s_p Arg1:T0 Arg2:T19
+R1	p_o Arg1:T2 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T11
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T8
+R5	compound Arg1:T8 Arg2:T7
+R6	is-specialized-by Arg1:T8 Arg2:T6
+R7	is-specialized-by Arg1:T13 Arg2:T14
+R8	c_co Arg1:T14 Arg2:T17
+R9	compound Arg1:T16 Arg2:T15
+R10	is-specialized-by Arg1:T17 Arg2:T16
+R11	compound Arg1:T17 Arg2:T15
+R12	p_o Arg1:T19 Arg2:T20
+R13	is-specialized-by Arg1:T20 Arg2:T27
+R14	is-specialized-by Arg1:T20 Arg2:T21
+R15	c_co Arg1:T21 Arg2:T24
+R16	is-specialized-by Arg1:T24 Arg2:T23
+R17	is-specialized-by Arg1:T24 Arg2:T25
+R18	c_co Arg1:T25 Arg2:T26
+R19	c_co Arg1:T27 Arg2:T29
+R20	is-specialized-by Arg1:T29 Arg2:T30
+R21	c_co Arg1:T30 Arg2:T33
+R22	is-specialized-by Arg1:T33 Arg2:T32

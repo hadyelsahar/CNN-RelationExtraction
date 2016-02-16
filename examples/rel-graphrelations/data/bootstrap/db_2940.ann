@@ -1,0 +1,49 @@
+T0	segment 0 14	BioInformatics
+T1	segment 14 15	,
+T2	segment 16 19	LLC
+T3	segment 20 22	is
+T4	segment 23 24	a
+T5	segment 25 29	life
+T6	segment 30 37	science
+T7	segment 38 48	consulting
+T8	segment 49 53	firm
+T9	segment 53 54	,
+T10	segment 55 60	based
+T11	segment 61 63	in
+T12	segment 64 67	the
+T13	segment 68 74	United
+T14	segment 75 81	States
+T15	segment 81 82	,
+T16	segment 83 87	that
+T17	segment 88 96	provides
+T18	segment 97 103	market
+T19	segment 104 116	intelligence
+T20	segment 117 119	to
+T21	segment 120 129	companies
+T22	segment 130 137	serving
+T23	segment 138 141	the
+T24	segment 142 146	life
+T25	segment 147 154	science
+T26	segment 154 155	,
+T27	segment 156 163	medical
+T28	segment 164 170	device
+T29	segment 171 174	and
+T30	segment 175 189	pharmaceutical
+T31	segment 190 200	industries
+T32	segment 201 202	.
+R0	s_p Arg1:T0 Arg2:T3
+R1	p_o Arg1:T3 Arg2:T6
+R2	compound Arg1:T6 Arg2:T5
+R3	p_o Arg1:T7 Arg2:T8
+R4	is-specialized-by Arg1:T10 Arg2:T11
+R5	c_co Arg1:T11 Arg2:T14
+R6	compound Arg1:T14 Arg2:T13
+R7	s_p Arg1:T16 Arg2:T17
+R8	p_c Arg1:T17 Arg2:T20
+R9	p_o Arg1:T17 Arg2:T19
+R10	compound Arg1:T19 Arg2:T18
+R11	c_co Arg1:T20 Arg2:T21
+R12	p_o Arg1:T22 Arg2:T25
+R13	compound Arg1:T25 Arg2:T24
+R14	is-specialized-by Arg1:T28 Arg2:T27
+R15	is-specialized-by Arg1:T31 Arg2:T30

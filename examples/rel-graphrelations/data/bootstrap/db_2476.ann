@@ -1,0 +1,39 @@
+T0	segment 0 3	The
+T1	segment 4 9	Lincs
+T2	segment 10 12	FM
+T3	segment 13 18	Group
+T4	segment 19 24	based
+T5	segment 25 27	in
+T6	segment 28 40	Lincolnshire
+T7	segment 40 41	,
+T8	segment 42 44	in
+T9	segment 45 48	the
+T10	segment 49 51	UK
+T11	segment 52 54	is
+T12	segment 55 58	the
+T13	segment 59 65	parent
+T14	segment 66 73	company
+T15	segment 74 76	of
+T16	segment 77 84	several
+T17	segment 85 96	Independent
+T18	segment 97 102	Local
+T19	segment 103 108	Radio
+T20	segment 109 117	stations
+T21	segment 118 119	.
+R0	s_p Arg1:T3 Arg2:T11
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	is-specialized-by Arg1:T4 Arg2:T8
+R4	is-specialized-by Arg1:T4 Arg2:T5
+R5	c_co Arg1:T5 Arg2:T6
+R6	c_co Arg1:T8 Arg2:T10
+R7	p_o Arg1:T11 Arg2:T14
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	compound Arg1:T14 Arg2:T13
+R10	c_co Arg1:T15 Arg2:T20
+R11	compound Arg1:T19 Arg2:T18
+R12	compound Arg1:T19 Arg2:T17
+R13	is-specialized-by Arg1:T20 Arg2:T16
+R14	compound Arg1:T20 Arg2:T19
+R15	compound Arg1:T20 Arg2:T18
+R16	compound Arg1:T20 Arg2:T17

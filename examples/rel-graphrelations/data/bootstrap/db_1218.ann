@@ -1,0 +1,33 @@
+T0	segment 0 6	Layher
+T1	segment 7 9	is
+T2	segment 10 11	a
+T3	segment 12 20	producer
+T4	segment 21 24	and
+T5	segment 25 33	inventor
+T6	segment 34 36	of
+T7	segment 37 44	modular
+T8	segment 45 56	scaffolding
+T9	segment 57 64	systems
+T10	segment 64 65	,
+T11	segment 66 79	headquartered
+T12	segment 80 82	in
+T13	segment 83 86	the
+T14	segment 87 93	German
+T15	segment 94 98	town
+T16	segment 99 101	of
+T17	segment 102 112	Eibensbach
+T18	segment 112 113	,
+T19	segment 114 123	GÃ¼glingen
+T20	segment 124 125	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T6
+R3	c_co Arg1:T6 Arg2:T9
+R4	is-specialized-by Arg1:T9 Arg2:T7
+R5	compound Arg1:T9 Arg2:T8
+R6	is-specialized-by Arg1:T11 Arg2:T12
+R7	c_co Arg1:T12 Arg2:T15
+R8	is-specialized-by Arg1:T15 Arg2:T16
+R9	is-specialized-by Arg1:T15 Arg2:T14
+R10	c_co Arg1:T16 Arg2:T19
+R11	compound Arg1:T19 Arg2:T17

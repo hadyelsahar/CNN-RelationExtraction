@@ -1,0 +1,77 @@
+T0	segment 0 10	Purvanchal
+T1	segment 11 13	or
+T2	segment 14 25	Uttaranchal
+T3	segment 26 28	in
+T4	segment 29 34	Uttar
+T5	segment 35 42	Pradesh
+T6	segment 43 45	to
+T7	segment 46 49	its
+T8	segment 50 59	southwest
+T9	segment 60 69	Gorakhpur
+T10	segment 70 72	is
+T11	segment 73 76	the
+T12	segment 77 84	largest
+T13	segment 85 89	city
+T14	segment 90 92	of
+T15	segment 93 103	Purvanchal
+T16	segment 104 107	and
+T17	segment 108 110	it
+T18	segment 111 113	is
+T19	segment 114 118	also
+T20	segment 119 125	called
+T21	segment 126 129	the
+T22	segment 130 136	centre
+T23	segment 137 140	and
+T24	segment 141 145	main
+T25	segment 146 150	city
+T26	segment 151 153	of
+T27	segment 154 164	Purvanchal
+T28	segment 165 172	because
+T29	segment 173 175	it
+T30	segment 176 178	is
+T31	segment 179 187	situated
+T32	segment 188 190	in
+T33	segment 191 194	the
+T34	segment 195 200	heart
+T35	segment 201 203	of
+T36	segment 204 219	purvanchalThere
+T37	segment 220 223	has
+T38	segment 224 228	been
+T39	segment 229 230	a
+T40	segment 231 240	political
+T41	segment 241 247	demand
+T42	segment 248 250	to
+T43	segment 251 257	create
+T44	segment 258 259	a
+T45	segment 260 268	separate
+T46	segment 269 274	state
+T47	segment 275 276	.
+R0	s_p Arg1:T0 Arg2:T38
+R1	is-specialized-by Arg1:T2 Arg2:T3
+R2	c_co Arg1:T3 Arg2:T5
+R3	compound Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T8
+R6	s_p Arg1:T9 Arg2:T10
+R7	p_o Arg1:T10 Arg2:T13
+R8	is-specialized-by Arg1:T13 Arg2:T12
+R9	is-specialized-by Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T15
+R11	s_p Arg1:T17 Arg2:T20
+R12	p_o Arg1:T20 Arg2:T25
+R13	compound Arg1:T20 Arg2:T18
+R14	p_c Arg1:T20 Arg2:T19
+R15	compound Arg1:T25 Arg2:T22
+R16	is-specialized-by Arg1:T25 Arg2:T26
+R17	c_co Arg1:T26 Arg2:T27
+R18	s_p Arg1:T29 Arg2:T31
+R19	compound Arg1:T31 Arg2:T30
+R20	p_c Arg1:T31 Arg2:T32
+R21	c_co Arg1:T32 Arg2:T34
+R22	is-specialized-by Arg1:T34 Arg2:T35
+R23	c_co Arg1:T35 Arg2:T36
+R24	p_o Arg1:T38 Arg2:T41
+R25	is-specialized-by Arg1:T41 Arg2:T40
+R26	compound Arg1:T41 Arg2:T37
+R27	p_o Arg1:T43 Arg2:T46
+R28	is-specialized-by Arg1:T46 Arg2:T45

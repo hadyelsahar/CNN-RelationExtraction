@@ -1,0 +1,26 @@
+T0	segment 0 9	Heraklion
+T1	segment 10 12	is
+T2	segment 13 16	the
+T3	segment 17 24	largest
+T4	segment 25 29	city
+T5	segment 30 33	and
+T6	segment 34 37	the
+T7	segment 38 52	administrative
+T8	segment 53 60	capital
+T9	segment 61 63	of
+T10	segment 64 67	the
+T11	segment 68 74	island
+T12	segment 75 77	of
+T13	segment 78 83	Crete
+T14	segment 83 84	,
+T15	segment 85 91	Greece
+T16	segment 92 93	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T8 Arg2:T7
+R4	is-specialized-by Arg1:T8 Arg2:T9
+R5	c_co Arg1:T9 Arg2:T11
+R6	is-specialized-by Arg1:T11 Arg2:T12
+R7	c_co Arg1:T12 Arg2:T15
+R8	compound Arg1:T15 Arg2:T13

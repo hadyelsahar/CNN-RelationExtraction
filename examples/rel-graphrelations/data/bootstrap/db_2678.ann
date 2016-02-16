@@ -1,0 +1,37 @@
+T0	segment 0 3	The
+T1	segment 4 12	Southern
+T2	segment 13 18	Court
+T3	segment 19 24	whose
+T4	segment 25 31	claims
+T5	segment 32 34	to
+T6	segment 35 46	sovereignty
+T7	segment 47 53	during
+T8	segment 54 57	the
+T9	segment 58 69	Nanboku-chÅ
+T10	segment 70 76	period
+T11	segment 77 85	spanning
+T12	segment 86 90	from
+T13	segment 91 95	1336
+T14	segment 96 103	through
+T15	segment 104 108	1392
+T16	segment 109 113	were
+T17	segment 114 121	usurped
+T18	segment 122 124	by
+T19	segment 125 128	the
+T20	segment 129 137	Northern
+T21	segment 138 143	Court
+T22	segment 144 145	.
+R0	s_p Arg1:T2 Arg2:T17
+R1	compound Arg1:T2 Arg2:T1
+R2	s_p Arg1:T4 Arg2:T6
+R3	p_c Arg1:T6 Arg2:T7
+R4	c_co Arg1:T7 Arg2:T10
+R5	is-specialized-by Arg1:T10 Arg2:T9
+R6	is-specialized-by Arg1:T11 Arg2:T12
+R7	is-specialized-by Arg1:T11 Arg2:T14
+R8	c_co Arg1:T12 Arg2:T13
+R9	c_co Arg1:T14 Arg2:T15
+R10	p_c Arg1:T17 Arg2:T18
+R11	compound Arg1:T17 Arg2:T16
+R12	c_co Arg1:T18 Arg2:T21
+R13	compound Arg1:T21 Arg2:T20

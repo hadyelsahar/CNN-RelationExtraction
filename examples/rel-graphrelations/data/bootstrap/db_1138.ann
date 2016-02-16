@@ -1,0 +1,44 @@
+T0	segment 0 5	Jason
+T1	segment 6 13	Swedlow
+T2	segment 14 16	is
+T3	segment 17 19	an
+T4	segment 20 33	American-born
+T5	segment 34 38	cell
+T6	segment 39 48	biologist
+T7	segment 49 52	and
+T8	segment 53 58	light
+T9	segment 59 71	microscopist
+T10	segment 72 75	who
+T11	segment 76 78	is
+T12	segment 79 88	Professor
+T13	segment 89 91	of
+T14	segment 92 104	Quantitative
+T15	segment 105 109	Cell
+T16	segment 110 117	Biology
+T17	segment 118 120	at
+T18	segment 121 124	the
+T19	segment 125 135	University
+T20	segment 136 138	of
+T21	segment 139 145	Dundee
+T22	segment 145 146	,
+T23	segment 147 155	Scotland
+T24	segment 156 157	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T6
+R3	compound Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T6 Arg2:T4
+R5	is-specialized-by Arg1:T9 Arg2:T8
+R6	s_p Arg1:T10 Arg2:T11
+R7	p_o Arg1:T11 Arg2:T12
+R8	is-specialized-by Arg1:T12 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T16
+R10	is-specialized-by Arg1:T16 Arg2:T17
+R11	compound Arg1:T16 Arg2:T15
+R12	is-specialized-by Arg1:T16 Arg2:T14
+R13	c_co Arg1:T17 Arg2:T19
+R14	is-specialized-by Arg1:T19 Arg2:T20
+R15	c_co Arg1:T20 Arg2:T23
+R16	compound Arg1:T21 Arg2:T20
+R17	compound Arg1:T21 Arg2:T19
+R18	compound Arg1:T23 Arg2:T21

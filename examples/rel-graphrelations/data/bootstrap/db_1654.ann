@@ -1,0 +1,60 @@
+T0	segment 0 11	Communicaid
+T1	segment 12 14	is
+T2	segment 15 16	a
+T3	segment 17 24	British
+T4	segment 25 32	company
+T5	segment 33 46	headquartered
+T6	segment 47 49	in
+T7	segment 50 53	the
+T8	segment 54 58	City
+T9	segment 59 61	of
+T10	segment 62 68	London
+T11	segment 69 74	which
+T12	segment 75 81	offers
+T13	segment 82 89	culture
+T14	segment 90 93	and
+T15	segment 94 107	communication
+T16	segment 108 114	skills
+T17	segment 115 123	training
+T18	segment 124 127	and
+T19	segment 128 139	consultancy
+T20	segment 139 140	,
+T21	segment 141 150	including
+T22	segment 151 159	language
+T23	segment 160 168	training
+T24	segment 168 169	,
+T25	segment 170 178	language
+T26	segment 179 186	testing
+T27	segment 186 187	,
+T28	segment 188 193	cross
+T29	segment 194 202	cultural
+T30	segment 203 212	awareness
+T31	segment 212 213	,
+T32	segment 214 227	communication
+T33	segment 228 234	skills
+T34	segment 234 235	,
+T35	segment 236 239	and
+T36	segment 240 253	international
+T37	segment 254 264	management
+T38	segment 265 273	training
+T39	segment 274 275	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T5 Arg2:T6
+R4	c_co Arg1:T6 Arg2:T8
+R5	is-specialized-by Arg1:T8 Arg2:T9
+R6	c_co Arg1:T9 Arg2:T10
+R7	s_p Arg1:T11 Arg2:T12
+R8	p_o Arg1:T12 Arg2:T16
+R9	p_o Arg1:T12 Arg2:T17
+R10	compound Arg1:T16 Arg2:T13
+R11	is-specialized-by Arg1:T17 Arg2:T21
+R12	c_co Arg1:T21 Arg2:T23
+R13	compound Arg1:T23 Arg2:T22
+R14	compound Arg1:T26 Arg2:T25
+R15	p_o Arg1:T28 Arg2:T30
+R16	is-specialized-by Arg1:T30 Arg2:T29
+R17	compound Arg1:T33 Arg2:T32
+R18	compound Arg1:T38 Arg2:T37
+R19	is-specialized-by Arg1:T38 Arg2:T36

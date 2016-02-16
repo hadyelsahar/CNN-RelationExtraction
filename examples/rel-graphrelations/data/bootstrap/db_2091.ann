@@ -1,0 +1,38 @@
+T0	segment 0 8	Bonefish
+T1	segment 9 14	Grill
+T2	segment 15 17	is
+T3	segment 18 20	an
+T4	segment 21 29	American
+T5	segment 30 36	casual
+T6	segment 37 43	dining
+T7	segment 44 51	seafood
+T8	segment 52 62	restaurant
+T9	segment 63 68	chain
+T10	segment 69 74	owned
+T11	segment 75 78	and
+T12	segment 79 87	operated
+T13	segment 88 90	by
+T14	segment 91 98	Bloomin
+T15	segment 98 99	'
+T16	segment 100 106	Brands
+T17	segment 106 107	,
+T18	segment 108 121	headquartered
+T19	segment 122 124	in
+T20	segment 125 130	Tampa
+T21	segment 130 131	,
+T22	segment 132 139	Florida
+T23	segment 140 141	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T9
+R3	is-specialized-by Arg1:T9 Arg2:T4
+R4	compound Arg1:T9 Arg2:T6
+R5	compound Arg1:T9 Arg2:T8
+R6	compound Arg1:T9 Arg2:T7
+R7	is-specialized-by Arg1:T10 Arg2:T13
+R8	c_co Arg1:T13 Arg2:T14
+R9	compound Arg1:T16 Arg2:T14
+R10	compound Arg1:T16 Arg2:T15
+R11	is-specialized-by Arg1:T18 Arg2:T19
+R12	c_co Arg1:T19 Arg2:T22
+R13	compound Arg1:T22 Arg2:T20

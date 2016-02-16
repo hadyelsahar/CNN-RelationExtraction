@@ -1,0 +1,34 @@
+T0	segment 0 6	Soldak
+T1	segment 7 20	Entertainment
+T2	segment 21 23	is
+T3	segment 24 25	a
+T4	segment 26 31	small
+T5	segment 32 43	independent
+T6	segment 44 51	company
+T7	segment 52 56	that
+T8	segment 57 60	was
+T9	segment 61 68	founded
+T10	segment 69 71	by
+T11	segment 72 78	Steven
+T12	segment 79 85	Peeler
+T13	segment 86 88	on
+T14	segment 89 97	November
+T15	segment 98 100	22
+T16	segment 100 101	,
+T17	segment 102 106	2004
+T18	segment 107 108	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T6
+R3	is-specialized-by Arg1:T6 Arg2:T4
+R4	s_p Arg1:T7 Arg2:T9
+R5	p_c Arg1:T9 Arg2:T10
+R6	compound Arg1:T9 Arg2:T8
+R7	c_co Arg1:T10 Arg2:T12
+R8	compound Arg1:T12 Arg2:T11
+R9	is-specialized-by Arg1:T12 Arg2:T13
+R10	c_co Arg1:T13 Arg2:T14
+R11	is-specialized-by Arg1:T14 Arg2:T15
+R12	compound Arg1:T17 Arg2:T14
+R13	compound Arg1:T17 Arg2:T16
+R14	compound Arg1:T17 Arg2:T15

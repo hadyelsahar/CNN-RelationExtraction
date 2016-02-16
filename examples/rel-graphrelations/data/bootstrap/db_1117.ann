@@ -1,0 +1,45 @@
+T0	segment 0 4	Adam
+T1	segment 5 12	Rudolph
+T2	segment 13 15	is
+T3	segment 16 17	a
+T4	segment 18 22	jazz
+T5	segment 23 31	composer
+T6	segment 32 35	and
+T7	segment 36 49	percussionist
+T8	segment 50 60	performing
+T9	segment 61 63	in
+T10	segment 64 67	the
+T11	segment 68 76	post-bop
+T12	segment 77 80	and
+T13	segment 81 86	world
+T14	segment 87 93	fusion
+T15	segment 94 99	media
+T16	segment 99 100	,
+T17	segment 101 109	probably
+T18	segment 110 114	most
+T19	segment 115 122	notable
+T20	segment 123 125	to
+T21	segment 126 130	date
+T22	segment 131 134	for
+T23	segment 135 138	his
+T24	segment 139 143	work
+T25	segment 144 148	with
+T26	segment 149 154	Yusef
+T27	segment 155 161	Lateef
+T28	segment 162 163	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	compound Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T8 Arg2:T9
+R5	is-specialized-by Arg1:T8 Arg2:T25
+R6	p_o Arg1:T8 Arg2:T15
+R7	c_co Arg1:T9 Arg2:T14
+R8	is-specialized-by Arg1:T14 Arg2:T11
+R9	is-specialized-by Arg1:T19 Arg2:T17
+R10	is-specialized-by Arg1:T19 Arg2:T20
+R11	c_co Arg1:T20 Arg2:T21
+R12	is-specialized-by Arg1:T21 Arg2:T22
+R13	c_co Arg1:T22 Arg2:T24
+R14	c_co Arg1:T25 Arg2:T27
+R15	compound Arg1:T27 Arg2:T26

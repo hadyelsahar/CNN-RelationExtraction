@@ -1,0 +1,46 @@
+T0	segment 0 7	O'Brien
+T1	segment 8 9	&
+T2	segment 10 14	Gere
+T3	segment 15 17	is
+T4	segment 18 19	a
+T5	segment 20 28	national
+T6	segment 29 37	provider
+T7	segment 38 40	of
+T8	segment 41 52	engineering
+T9	segment 52 53	,
+T10	segment 54 66	construction
+T11	segment 66 67	,
+T12	segment 68 71	and
+T13	segment 72 83	operational
+T14	segment 84 92	services
+T15	segment 93 96	for
+T16	segment 96 97	:
+T17	segment 98 108	industrial
+T18	segment 108 109	,
+T19	segment 110 119	municipal
+T20	segment 119 120	,
+T21	segment 121 128	Federal
+T22	segment 128 129	,
+T23	segment 130 134	food
+T24	segment 135 138	and
+T25	segment 139 147	beverage
+T26	segment 147 148	,
+T27	segment 149 155	higher
+T28	segment 156 165	education
+T29	segment 165 166	,
+T30	segment 167 170	and
+T31	segment 171 175	life
+T32	segment 176 184	sciences
+T33	segment 185 192	clients
+T34	segment 193 194	.
+R0	s_p Arg1:T0 Arg2:T3
+R1	p_o Arg1:T3 Arg2:T6
+R2	is-specialized-by Arg1:T6 Arg2:T7
+R3	is-specialized-by Arg1:T6 Arg2:T5
+R4	c_co Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T14 Arg2:T15
+R6	is-specialized-by Arg1:T14 Arg2:T13
+R7	c_co Arg1:T15 Arg2:T17
+R8	is-specialized-by Arg1:T28 Arg2:T27
+R9	compound Arg1:T33 Arg2:T32
+R10	compound Arg1:T33 Arg2:T31

@@ -1,0 +1,35 @@
+T0	segment 0 1	''
+T1	segment 1 2	``
+T2	segment 2 5	The
+T3	segment 6 14	Buckskin
+T4	segment 15 18	Man
+T5	segment 19 24	Tales
+T6	segment 24 25	''
+T7	segment 25 26	''
+T8	segment 27 29	is
+T9	segment 30 31	a
+T10	segment 32 38	series
+T11	segment 39 41	of
+T12	segment 42 46	five
+T13	segment 47 53	novels
+T14	segment 54 56	by
+T15	segment 57 66	Frederick
+T16	segment 67 74	Manfred
+T17	segment 75 79	that
+T18	segment 80 85	trace
+T19	segment 86 92	themes
+T20	segment 93 100	through
+T21	segment 101 104	the
+T22	segment 105 117	19th-century
+T23	segment 118 123	Great
+T24	segment 124 130	Plains
+T25	segment 131 132	.
+R0	s_p Arg1:T3 Arg2:T8
+R1	compound Arg1:T5 Arg2:T4
+R2	compound Arg1:T5 Arg2:T3
+R3	p_o Arg1:T8 Arg2:T10
+R4	is-specialized-by Arg1:T13 Arg2:T12
+R5	compound Arg1:T16 Arg2:T15
+R6	compound Arg1:T22 Arg2:T21
+R7	compound Arg1:T24 Arg2:T23
+R8	is-specialized-by Arg1:T24 Arg2:T22

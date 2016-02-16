@@ -1,0 +1,35 @@
+T0	segment 0 3	Bob
+T1	segment 3 5	's
+T2	segment 6 12	Stores
+T3	segment 13 15	is
+T4	segment 16 17	a
+T5	segment 18 23	chain
+T6	segment 24 26	of
+T7	segment 27 29	35
+T8	segment 30 36	retail
+T9	segment 37 43	stores
+T10	segment 44 46	in
+T11	segment 47 50	the
+T12	segment 51 63	northeastern
+T13	segment 64 70	United
+T14	segment 71 77	States
+T15	segment 78 83	owned
+T16	segment 84 86	by
+T17	segment 87 92	Versa
+T18	segment 93 100	Capital
+T19	segment 101 111	Management
+T20	segment 112 113	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	p_o Arg1:T3 Arg2:T5
+R2	is-specialized-by Arg1:T5 Arg2:T6
+R3	c_co Arg1:T6 Arg2:T9
+R4	is-specialized-by Arg1:T9 Arg2:T8
+R5	is-specialized-by Arg1:T9 Arg2:T7
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T14
+R8	compound Arg1:T14 Arg2:T13
+R9	is-specialized-by Arg1:T14 Arg2:T12
+R10	is-specialized-by Arg1:T15 Arg2:T16
+R11	c_co Arg1:T16 Arg2:T19
+R12	compound Arg1:T19 Arg2:T18
+R13	compound Arg1:T19 Arg2:T17

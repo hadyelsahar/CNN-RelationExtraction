@@ -1,0 +1,29 @@
+T0	segment 0 4	Mina
+T1	segment 5 11	Assadi
+T2	segment 12 14	is
+T3	segment 15 16	a
+T4	segment 17 21	poet
+T5	segment 21 22	,
+T6	segment 23 29	author
+T7	segment 29 30	,
+T8	segment 31 41	journalist
+T9	segment 42 45	and
+T10	segment 46 56	songwriter
+T11	segment 57 60	who
+T12	segment 61 66	lives
+T13	segment 67 69	in
+T14	segment 70 75	exile
+T15	segment 76 78	in
+T16	segment 79 88	Stockholm
+T17	segment 88 89	,
+T18	segment 90 96	Sweden
+T19	segment 97 98	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T4
+R3	s_p Arg1:T11 Arg2:T12
+R4	p_c Arg1:T12 Arg2:T13
+R5	c_co Arg1:T13 Arg2:T14
+R6	is-specialized-by Arg1:T14 Arg2:T15
+R7	c_co Arg1:T15 Arg2:T18
+R8	compound Arg1:T18 Arg2:T16

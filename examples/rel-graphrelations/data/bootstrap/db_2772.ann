@@ -1,0 +1,31 @@
+T0	segment 0 7	Tirelli
+T1	segment 8 15	Costumi
+T2	segment 16 20	Roma
+T3	segment 21 23	is
+T4	segment 24 25	a
+T5	segment 26 36	Rome-based
+T6	segment 37 44	costume
+T7	segment 45 50	house
+T8	segment 50 51	,
+T9	segment 52 57	which
+T10	segment 58 66	supplies
+T11	segment 67 73	period
+T12	segment 74 82	costumes
+T13	segment 83 85	to
+T14	segment 86 92	motion
+T15	segment 93 100	picture
+T16	segment 101 112	productions
+T17	segment 113 114	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T7
+R4	compound Arg1:T7 Arg2:T6
+R5	is-specialized-by Arg1:T7 Arg2:T5
+R6	s_p Arg1:T9 Arg2:T10
+R7	p_c Arg1:T10 Arg2:T13
+R8	p_o Arg1:T10 Arg2:T12
+R9	compound Arg1:T12 Arg2:T11
+R10	c_co Arg1:T13 Arg2:T16
+R11	compound Arg1:T16 Arg2:T14
+R12	compound Arg1:T16 Arg2:T15

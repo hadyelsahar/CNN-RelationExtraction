@@ -1,0 +1,39 @@
+T0	segment 0 3	The
+T1	segment 4 14	Ecuadorian
+T2	segment 15 23	national
+T3	segment 24 32	football
+T4	segment 33 37	team
+T5	segment 38 41	has
+T6	segment 42 50	appeared
+T7	segment 51 53	at
+T8	segment 54 59	three
+T9	segment 60 64	FIFA
+T10	segment 65 70	World
+T11	segment 71 75	Cups
+T12	segment 75 76	,
+T13	segment 77 80	the
+T14	segment 81 86	world
+T15	segment 86 88	's
+T16	segment 89 96	premier
+T17	segment 97 105	football
+T18	segment 106 116	tournament
+T19	segment 117 120	for
+T20	segment 121 129	national
+T21	segment 130 138	football
+T22	segment 139 144	teams
+T23	segment 145 146	.
+R0	compound Arg1:T4 Arg2:T3
+R1	is-specialized-by Arg1:T4 Arg2:T1
+R2	s_p Arg1:T4 Arg2:T6
+R3	compound Arg1:T6 Arg2:T5
+R4	p_c Arg1:T6 Arg2:T7
+R5	c_co Arg1:T7 Arg2:T11
+R6	is-specialized-by Arg1:T11 Arg2:T8
+R7	compound Arg1:T11 Arg2:T10
+R8	compound Arg1:T11 Arg2:T9
+R9	is-specialized-by Arg1:T18 Arg2:T16
+R10	is-specialized-by Arg1:T18 Arg2:T19
+R11	compound Arg1:T18 Arg2:T17
+R12	c_co Arg1:T19 Arg2:T22
+R13	compound Arg1:T22 Arg2:T21
+R14	is-specialized-by Arg1:T22 Arg2:T20

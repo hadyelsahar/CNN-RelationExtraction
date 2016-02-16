@@ -1,0 +1,29 @@
+T0	segment 0 3	Rob
+T1	segment 4 8	Moir
+T2	segment 9 11	is
+T3	segment 12 13	a
+T4	segment 14 23	professor
+T5	segment 24 26	of
+T6	segment 27 36	economics
+T7	segment 37 40	and
+T8	segment 41 47	social
+T9	segment 48 56	activist
+T10	segment 57 61	from
+T11	segment 62 69	Clifton
+T12	segment 70 75	Royal
+T13	segment 75 76	,
+T14	segment 77 80	New
+T15	segment 81 90	Brunswick
+T16	segment 90 91	,
+T17	segment 92 98	Canada
+T18	segment 99 100	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T4
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T6
+R5	is-specialized-by Arg1:T9 Arg2:T8
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T12
+R8	compound Arg1:T12 Arg2:T11
+R9	compound Arg1:T15 Arg2:T14

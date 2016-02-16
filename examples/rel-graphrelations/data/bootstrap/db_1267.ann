@@ -1,0 +1,30 @@
+T0	segment 0 7	Michael
+T1	segment 8 18	Waddington
+T2	segment 19 21	is
+T3	segment 22 24	an
+T4	segment 25 33	American
+T5	segment 34 41	defense
+T6	segment 42 48	lawyer
+T7	segment 49 61	specializing
+T8	segment 62 64	in
+T9	segment 65 78	Court-martial
+T10	segment 79 84	cases
+T11	segment 84 85	,
+T12	segment 86 89	war
+T13	segment 90 96	crimes
+T14	segment 96 97	,
+T15	segment 98 101	and
+T16	segment 102 107	other
+T17	segment 108 115	serious
+T18	segment 116 124	felonies
+T19	segment 125 126	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T6
+R3	compound Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T6 Arg2:T4
+R5	is-specialized-by Arg1:T7 Arg2:T8
+R6	c_co Arg1:T8 Arg2:T10
+R7	is-specialized-by Arg1:T10 Arg2:T9
+R8	compound Arg1:T13 Arg2:T12
+R9	is-specialized-by Arg1:T18 Arg2:T16

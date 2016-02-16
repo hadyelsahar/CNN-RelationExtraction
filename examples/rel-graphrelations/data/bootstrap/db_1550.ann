@@ -1,0 +1,28 @@
+T0	segment 0 3	The
+T1	segment 4 10	Eyalet
+T2	segment 11 13	of
+T3	segment 14 20	Cyprus
+T4	segment 21 22	;
+T5	segment 23 26	and
+T6	segment 27 32	again
+T7	segment 33 35	an
+T8	segment 36 42	eyalet
+T9	segment 43 46	for
+T10	segment 47 50	the
+T11	segment 51 56	short
+T12	segment 57 63	period
+T13	segment 64 68	from
+T14	segment 69 73	1745
+T15	segment 74 76	to
+T16	segment 77 81	1748
+T17	segment 82 83	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	c_co Arg1:T2 Arg2:T3
+R2	is-specialized-by Arg1:T8 Arg2:T9
+R3	is-specialized-by Arg1:T8 Arg2:T6
+R4	c_co Arg1:T9 Arg2:T12
+R5	is-specialized-by Arg1:T12 Arg2:T11
+R6	is-specialized-by Arg1:T12 Arg2:T13
+R7	c_co Arg1:T13 Arg2:T16
+R8	compound Arg1:T16 Arg2:T14
+R9	compound Arg1:T16 Arg2:T15

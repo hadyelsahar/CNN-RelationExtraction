@@ -1,0 +1,30 @@
+T0	segment 0 4	Dave
+T1	segment 5 11	Carnie
+T2	segment 12 13	,
+T3	segment 14 16	is
+T4	segment 17 18	a
+T5	segment 19 25	former
+T6	segment 26 41	editor-in-chief
+T7	segment 42 44	of
+T8	segment 45 48	Big
+T9	segment 49 56	Brother
+T10	segment 57 65	Magazine
+T11	segment 66 69	and
+T12	segment 70 77	current
+T13	segment 78 84	writer
+T14	segment 85 88	for
+T15	segment 89 97	numerous
+T16	segment 98 110	publications
+T17	segment 111 112	.
+R0	s_p Arg1:T1 Arg2:T3
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T3 Arg2:T6
+R3	is-specialized-by Arg1:T6 Arg2:T7
+R4	is-specialized-by Arg1:T6 Arg2:T5
+R5	c_co Arg1:T7 Arg2:T10
+R6	is-specialized-by Arg1:T10 Arg2:T8
+R7	compound Arg1:T10 Arg2:T9
+R8	is-specialized-by Arg1:T13 Arg2:T12
+R9	is-specialized-by Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T16
+R11	is-specialized-by Arg1:T16 Arg2:T15

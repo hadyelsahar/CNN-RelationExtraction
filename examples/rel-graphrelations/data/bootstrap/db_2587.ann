@@ -1,0 +1,61 @@
+T0	segment 0 6	Kaduna
+T1	segment 7 9	is
+T2	segment 10 13	the
+T3	segment 14 19	state
+T4	segment 20 27	capital
+T5	segment 28 30	of
+T6	segment 31 37	Kaduna
+T7	segment 38 43	State
+T8	segment 44 46	in
+T9	segment 47 60	north-western
+T10	segment 61 68	Nigeria
+T11	segment 68 69	,
+T12	segment 70 72	on
+T13	segment 73 76	the
+T14	segment 77 83	Kaduna
+T15	segment 84 89	River
+T16	segment 89 90	,
+T17	segment 91 93	is
+T18	segment 94 95	a
+T19	segment 96 101	trade
+T20	segment 102 108	center
+T21	segment 109 112	and
+T22	segment 113 114	a
+T23	segment 115 120	major
+T24	segment 121 135	transportation
+T25	segment 136 139	hub
+T26	segment 140 143	for
+T27	segment 144 147	the
+T28	segment 148 159	surrounding
+T29	segment 160 172	agricultural
+T30	segment 173 178	areas
+T31	segment 179 183	with
+T32	segment 184 187	its
+T33	segment 188 192	rail
+T34	segment 193 196	and
+T35	segment 197 201	road
+T36	segment 202 210	junction
+T37	segment 211 212	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	compound Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T12
+R4	is-specialized-by Arg1:T4 Arg2:T5
+R5	c_co Arg1:T5 Arg2:T7
+R6	is-specialized-by Arg1:T7 Arg2:T8
+R7	compound Arg1:T7 Arg2:T6
+R8	c_co Arg1:T8 Arg2:T10
+R9	is-specialized-by Arg1:T10 Arg2:T9
+R10	c_co Arg1:T12 Arg2:T15
+R11	compound Arg1:T15 Arg2:T14
+R12	p_p Arg1:T17 Arg2:T1
+R13	compound Arg1:T20 Arg2:T19
+R14	s_p Arg1:T20 Arg2:T17
+R15	is-specialized-by Arg1:T25 Arg2:T23
+R16	is-specialized-by Arg1:T25 Arg2:T26
+R17	compound Arg1:T25 Arg2:T24
+R18	c_co Arg1:T26 Arg2:T30
+R19	is-specialized-by Arg1:T30 Arg2:T31
+R20	is-specialized-by Arg1:T30 Arg2:T28
+R21	c_co Arg1:T31 Arg2:T33
+R22	compound Arg1:T36 Arg2:T35

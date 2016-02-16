@@ -1,0 +1,35 @@
+T0	segment 0 3	Mel
+T1	segment 4 7	Ash
+T2	segment 8 10	is
+T3	segment 11 12	a
+T4	segment 13 16	Zen
+T5	segment 17 24	teacher
+T6	segment 24 25	,
+T7	segment 26 32	writer
+T8	segment 32 33	,
+T9	segment 34 40	artist
+T10	segment 40 41	,
+T11	segment 42 45	and
+T12	segment 46 55	performer
+T13	segment 56 60	with
+T14	segment 61 62	a
+T15	segment 63 71	lifelong
+T16	segment 72 79	passion
+T17	segment 80 83	for
+T18	segment 84 98	transformative
+T19	segment 99 109	experience
+T20	segment 110 113	and
+T21	segment 114 122	cultural
+T22	segment 123 129	change
+T23	segment 130 131	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	compound Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T7 Arg2:T13
+R5	c_co Arg1:T13 Arg2:T16
+R6	is-specialized-by Arg1:T16 Arg2:T15
+R7	is-specialized-by Arg1:T16 Arg2:T17
+R8	c_co Arg1:T17 Arg2:T19
+R9	is-specialized-by Arg1:T19 Arg2:T18
+R10	is-specialized-by Arg1:T22 Arg2:T21

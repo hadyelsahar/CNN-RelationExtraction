@@ -1,0 +1,53 @@
+T0	segment 0 6	Rodney
+T1	segment 7 16	Martineau
+T2	segment 17 18	''
+T3	segment 18 19	``
+T4	segment 19 22	Rod
+T5	segment 22 23	''
+T6	segment 23 24	''
+T7	segment 25 33	Burstall
+T8	segment 34 36	is
+T9	segment 37 38	a
+T10	segment 39 46	British
+T11	segment 47 55	computer
+T12	segment 56 65	scientist
+T13	segment 66 69	and
+T14	segment 70 73	one
+T15	segment 74 76	of
+T16	segment 77 81	four
+T17	segment 82 90	founders
+T18	segment 91 93	of
+T19	segment 94 97	the
+T20	segment 98 108	Laboratory
+T21	segment 109 112	for
+T22	segment 113 124	Foundations
+T23	segment 125 127	of
+T24	segment 128 136	Computer
+T25	segment 137 144	Science
+T26	segment 145 147	at
+T27	segment 148 151	the
+T28	segment 152 162	University
+T29	segment 163 165	of
+T30	segment 166 175	Edinburgh
+T31	segment 176 177	.
+R0	s_p Arg1:T1 Arg2:T8
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T8 Arg2:T12
+R3	compound Arg1:T12 Arg2:T11
+R4	is-specialized-by Arg1:T12 Arg2:T10
+R5	is-specialized-by Arg1:T14 Arg2:T15
+R6	c_co Arg1:T15 Arg2:T17
+R7	is-specialized-by Arg1:T17 Arg2:T16
+R8	is-specialized-by Arg1:T17 Arg2:T18
+R9	c_co Arg1:T18 Arg2:T20
+R10	is-specialized-by Arg1:T20 Arg2:T21
+R11	c_co Arg1:T21 Arg2:T22
+R12	is-specialized-by Arg1:T22 Arg2:T23
+R13	c_co Arg1:T23 Arg2:T25
+R14	is-specialized-by Arg1:T25 Arg2:T26
+R15	compound Arg1:T25 Arg2:T24
+R16	c_co Arg1:T26 Arg2:T28
+R17	is-specialized-by Arg1:T28 Arg2:T29
+R18	c_co Arg1:T29 Arg2:T30
+R19	compound Arg1:T30 Arg2:T28
+R20	compound Arg1:T30 Arg2:T29

@@ -1,0 +1,35 @@
+T0	segment 0 5	Heidi
+T1	segment 6 7	''
+T2	segment 7 8	``
+T3	segment 8 14	Pepper
+T4	segment 14 15	''
+T5	segment 15 16	''
+T6	segment 17 24	Steiger
+T7	segment 25 27	is
+T8	segment 28 29	a
+T9	segment 30 39	fictional
+T10	segment 40 49	character
+T11	segment 50 54	from
+T12	segment 55 58	the
+T13	segment 59 69	Australian
+T14	segment 70 74	soap
+T15	segment 75 80	opera
+T16	segment 81 91	Neighbours
+T17	segment 91 92	,
+T18	segment 93 99	played
+T19	segment 100 102	by
+T20	segment 103 108	Nicky
+T21	segment 109 115	Whelan
+T22	segment 116 117	.
+R0	s_p Arg1:T3 Arg2:T7
+R1	p_o Arg1:T7 Arg2:T10
+R2	is-specialized-by Arg1:T10 Arg2:T9
+R3	p_p Arg1:T10 Arg2:T0
+R4	is-specialized-by Arg1:T10 Arg2:T11
+R5	c_co Arg1:T11 Arg2:T16
+R6	compound Arg1:T16 Arg2:T14
+R7	compound Arg1:T16 Arg2:T15
+R8	is-specialized-by Arg1:T16 Arg2:T13
+R9	is-specialized-by Arg1:T18 Arg2:T19
+R10	c_co Arg1:T19 Arg2:T21
+R11	compound Arg1:T21 Arg2:T20

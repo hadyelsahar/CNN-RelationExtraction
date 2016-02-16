@@ -1,0 +1,11 @@
+T0	segment 0 3	She
+T1	segment 4 7	was
+T2	segment 8 14	killed
+T3	segment 15 17	by
+T4	segment 18 21	200
+T5	segment 22 25	men
+R0	s_p Arg1:T0 Arg2:T2
+R1	p_c Arg1:T2 Arg2:T3
+R2	compound Arg1:T2 Arg2:T1
+R3	c_co Arg1:T3 Arg2:T5
+R4	is-specialized-by Arg1:T5 Arg2:T4

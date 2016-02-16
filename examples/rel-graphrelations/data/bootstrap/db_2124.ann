@@ -1,0 +1,34 @@
+T0	segment 0 4	Gary
+T1	segment 5 9	Owen
+T2	segment 10 14	Lane
+T3	segment 15 18	for
+T4	segment 19 24	three
+T5	segment 25 32	seasons
+T6	segment 33 37	with
+T7	segment 38 41	the
+T8	segment 42 51	Cleveland
+T9	segment 52 58	Browns
+T10	segment 59 62	and
+T11	segment 63 66	the
+T12	segment 67 70	New
+T13	segment 71 75	York
+T14	segment 76 82	Giants
+T15	segment 83 87	from
+T16	segment 88 92	1966
+T17	segment 93 95	to
+T18	segment 96 100	1968
+T19	segment 101 102	.
+R0	compound Arg1:T2 Arg2:T0
+R1	is-specialized-by Arg1:T2 Arg2:T3
+R2	compound Arg1:T2 Arg2:T1
+R3	c_co Arg1:T3 Arg2:T5
+R4	is-specialized-by Arg1:T5 Arg2:T4
+R5	is-specialized-by Arg1:T5 Arg2:T6
+R6	c_co Arg1:T6 Arg2:T9
+R7	compound Arg1:T9 Arg2:T8
+R8	compound Arg1:T14 Arg2:T12
+R9	is-specialized-by Arg1:T14 Arg2:T15
+R10	compound Arg1:T14 Arg2:T13
+R11	c_co Arg1:T15 Arg2:T18
+R12	compound Arg1:T18 Arg2:T16
+R13	compound Arg1:T18 Arg2:T17

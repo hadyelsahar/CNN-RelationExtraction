@@ -1,0 +1,59 @@
+T0	segment 0 3	The
+T1	segment 4 17	Massachusetts
+T2	segment 18 21	Bay
+T3	segment 22 28	Colony
+T4	segment 29 32	was
+T5	segment 33 35	an
+T6	segment 36 43	English
+T7	segment 44 54	settlement
+T8	segment 55 57	on
+T9	segment 58 61	the
+T10	segment 62 66	east
+T11	segment 67 72	coast
+T12	segment 73 75	of
+T13	segment 76 81	North
+T14	segment 82 89	America
+T15	segment 90 91	,
+T16	segment 92 97	after
+T17	segment 98 103	which
+T18	segment 104 108	most
+T19	segment 109 111	of
+T20	segment 112 115	the
+T21	segment 116 123	natives
+T22	segment 124 126	in
+T23	segment 127 135	southern
+T24	segment 136 139	New
+T25	segment 140 147	England
+T26	segment 148 151	had
+T27	segment 152 156	been
+T28	segment 157 165	pacified
+T29	segment 165 166	,
+T30	segment 167 173	killed
+T31	segment 173 174	,
+T32	segment 175 177	or
+T33	segment 178 184	driven
+T34	segment 185 189	away
+T35	segment 190 191	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T7 Arg2:T6
+R6	c_co Arg1:T8 Arg2:T11
+R7	is-specialized-by Arg1:T11 Arg2:T10
+R8	is-specialized-by Arg1:T11 Arg2:T12
+R9	c_co Arg1:T12 Arg2:T14
+R10	compound Arg1:T14 Arg2:T13
+R11	c_co Arg1:T16 Arg2:T17
+R12	is-specialized-by Arg1:T18 Arg2:T19
+R13	s_p Arg1:T18 Arg2:T28
+R14	c_co Arg1:T19 Arg2:T21
+R15	is-specialized-by Arg1:T21 Arg2:T22
+R16	c_co Arg1:T22 Arg2:T25
+R17	is-specialized-by Arg1:T25 Arg2:T23
+R18	compound Arg1:T25 Arg2:T24
+R19	compound Arg1:T28 Arg2:T27
+R20	p_c Arg1:T28 Arg2:T16
+R21	compound Arg1:T28 Arg2:T26
+R22	is-specialized-by Arg1:T33 Arg2:T34

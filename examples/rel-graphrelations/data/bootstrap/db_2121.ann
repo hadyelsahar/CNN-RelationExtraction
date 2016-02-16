@@ -1,0 +1,36 @@
+T0	segment 0 3	The
+T1	segment 4 22	Reichskommissariat
+T2	segment 23 31	Norwegen
+T3	segment 32 35	was
+T4	segment 36 39	the
+T5	segment 40 48	civilian
+T6	segment 49 59	occupation
+T7	segment 60 66	regime
+T8	segment 67 70	set
+T9	segment 71 73	up
+T10	segment 74 76	by
+T11	segment 77 81	Nazi
+T12	segment 82 89	Germany
+T13	segment 90 92	in
+T14	segment 93 108	German-occupied
+T15	segment 109 115	Norway
+T16	segment 116 122	during
+T17	segment 123 128	World
+T18	segment 129 132	War
+T19	segment 133 135	II
+T20	segment 136 137	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T7
+R3	compound Arg1:T7 Arg2:T6
+R4	is-specialized-by Arg1:T7 Arg2:T5
+R5	is-specialized-by Arg1:T8 Arg2:T16
+R6	is-specialized-by Arg1:T8 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T12
+R8	compound Arg1:T12 Arg2:T11
+R9	is-specialized-by Arg1:T12 Arg2:T13
+R10	c_co Arg1:T13 Arg2:T15
+R11	is-specialized-by Arg1:T15 Arg2:T14
+R12	c_co Arg1:T16 Arg2:T19
+R13	compound Arg1:T19 Arg2:T18
+R14	compound Arg1:T19 Arg2:T17

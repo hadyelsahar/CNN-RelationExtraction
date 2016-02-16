@@ -1,0 +1,47 @@
+T0	segment 0 3	The
+T1	segment 4 12	Southern
+T2	segment 13 19	United
+T3	segment 20 26	States
+T4	segment 26 27	--
+T5	segment 27 35	commonly
+T6	segment 36 44	referred
+T7	segment 45 47	to
+T8	segment 48 50	as
+T9	segment 51 54	the
+T10	segment 55 63	American
+T11	segment 64 69	South
+T12	segment 69 70	,
+T13	segment 71 76	Dixie
+T14	segment 76 77	,
+T15	segment 78 80	or
+T16	segment 81 87	simply
+T17	segment 88 91	the
+T18	segment 92 97	South
+T19	segment 97 98	--
+T20	segment 98 100	is
+T21	segment 101 102	a
+T22	segment 103 109	region
+T23	segment 110 112	of
+T24	segment 113 116	the
+T25	segment 117 123	United
+T26	segment 124 130	States
+T27	segment 131 133	of
+T28	segment 134 141	America
+T29	segment 142 143	.
+R0	s_p Arg1:T3 Arg2:T20
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	is-specialized-by Arg1:T6 Arg2:T8
+R4	is-specialized-by Arg1:T6 Arg2:T5
+R5	c_co Arg1:T8 Arg2:T11
+R6	compound Arg1:T11 Arg2:T10
+R7	is-specialized-by Arg1:T18 Arg2:T16
+R8	p_o Arg1:T20 Arg2:T22
+R9	is-specialized-by Arg1:T22 Arg2:T23
+R10	is-specialized-by Arg1:T22 Arg2:T27
+R11	c_co Arg1:T23 Arg2:T26
+R12	compound Arg1:T26 Arg2:T25
+R13	c_co Arg1:T27 Arg2:T28
+R14	compound Arg1:T28 Arg2:T27
+R15	compound Arg1:T28 Arg2:T26
+R16	compound Arg1:T28 Arg2:T25

@@ -1,0 +1,30 @@
+T0	segment 0 10	Guanajuato
+T1	segment 11 13	is
+T2	segment 14 15	a
+T3	segment 16 20	city
+T4	segment 21 24	and
+T5	segment 25 37	municipality
+T6	segment 38 40	in
+T7	segment 41 48	central
+T8	segment 49 55	Mexico
+T9	segment 56 59	and
+T10	segment 60 63	the
+T11	segment 64 71	capital
+T12	segment 72 74	of
+T13	segment 75 78	the
+T14	segment 79 84	state
+T15	segment 85 87	of
+T16	segment 88 91	the
+T17	segment 92 96	same
+T18	segment 97 101	name
+T19	segment 102 103	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T6
+R3	c_co Arg1:T6 Arg2:T8
+R4	is-specialized-by Arg1:T8 Arg2:T7
+R5	is-specialized-by Arg1:T11 Arg2:T12
+R6	c_co Arg1:T12 Arg2:T14
+R7	is-specialized-by Arg1:T14 Arg2:T15
+R8	c_co Arg1:T15 Arg2:T18
+R9	is-specialized-by Arg1:T18 Arg2:T17

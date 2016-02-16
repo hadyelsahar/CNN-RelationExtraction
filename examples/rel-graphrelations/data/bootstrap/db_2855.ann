@@ -1,0 +1,38 @@
+T0	segment 0 3	The
+T1	segment 4 10	Little
+T2	segment 11 14	App
+T3	segment 15 22	Factory
+T4	segment 23 25	is
+T5	segment 26 27	a
+T6	segment 28 36	software
+T7	segment 37 44	company
+T8	segment 45 50	based
+T9	segment 51 53	in
+T10	segment 54 60	Sydney
+T11	segment 60 61	,
+T12	segment 62 71	Australia
+T13	segment 72 77	which
+T14	segment 78 86	develops
+T15	segment 87 95	software
+T16	segment 96 99	for
+T17	segment 100 103	the
+T18	segment 104 107	Mac
+T19	segment 108 110	OS
+T20	segment 111 112	X
+T21	segment 113 121	platform
+T22	segment 122 123	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	compound Arg1:T7 Arg2:T6
+R6	c_co Arg1:T8 Arg2:T12
+R7	compound Arg1:T12 Arg2:T10
+R8	s_p Arg1:T13 Arg2:T14
+R9	p_o Arg1:T14 Arg2:T15
+R10	is-specialized-by Arg1:T15 Arg2:T16
+R11	c_co Arg1:T16 Arg2:T21
+R12	compound Arg1:T21 Arg2:T20
+R13	compound Arg1:T21 Arg2:T19
+R14	compound Arg1:T21 Arg2:T18

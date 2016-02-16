@@ -1,0 +1,47 @@
+T0	segment 0 4	Kibi
+T1	segment 5 8	was
+T2	segment 9 10	a
+T3	segment 11 18	kingdom
+T4	segment 19 21	of
+T5	segment 22 28	fourth
+T6	segment 29 36	century
+T7	segment 37 44	Western
+T8	segment 45 50	Japan
+T9	segment 51 55	that
+T10	segment 56 61	acted
+T11	segment 62 64	as
+T12	segment 65 66	a
+T13	segment 67 75	cultural
+T14	segment 76 82	bridge
+T15	segment 83 90	between
+T16	segment 91 94	the
+T17	segment 95 101	Yamato
+T18	segment 102 107	state
+T19	segment 108 111	and
+T20	segment 112 115	the
+T21	segment 116 123	various
+T22	segment 124 132	kingdoms
+T23	segment 133 135	of
+T24	segment 136 139	the
+T25	segment 140 146	Korean
+T26	segment 147 156	peninsula
+T27	segment 157 158	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T8
+R4	compound Arg1:T6 Arg2:T5
+R5	compound Arg1:T8 Arg2:T6
+R6	compound Arg1:T8 Arg2:T7
+R7	is-specialized-by Arg1:T8 Arg2:T5
+R8	s_p Arg1:T9 Arg2:T10
+R9	p_c Arg1:T10 Arg2:T11
+R10	c_co Arg1:T11 Arg2:T14
+R11	is-specialized-by Arg1:T14 Arg2:T15
+R12	is-specialized-by Arg1:T14 Arg2:T13
+R13	c_co Arg1:T15 Arg2:T18
+R14	is-specialized-by Arg1:T18 Arg2:T17
+R15	is-specialized-by Arg1:T22 Arg2:T23
+R16	is-specialized-by Arg1:T22 Arg2:T21
+R17	c_co Arg1:T23 Arg2:T26
+R18	is-specialized-by Arg1:T26 Arg2:T25

@@ -1,0 +1,66 @@
+T0	segment 0 3	The
+T1	segment 4 11	Shaanxi
+T2	segment 12 18	Diesel
+T3	segment 19 25	Engine
+T4	segment 26 33	Factory
+T5	segment 34 36	of
+T6	segment 37 44	Shaanxi
+T7	segment 44 45	,
+T8	segment 46 51	China
+T9	segment 52 54	is
+T10	segment 55 56	a
+T11	segment 57 62	major
+T12	segment 63 71	producer
+T13	segment 72 74	of
+T14	segment 75 89	diesel-powered
+T15	segment 90 100	electrical
+T16	segment 101 111	generators
+T17	segment 112 115	and
+T18	segment 116 126	high-speed
+T19	segment 127 132	prime
+T20	segment 133 139	movers
+T21	segment 140 143	for
+T22	segment 144 155	large-scale
+T23	segment 156 162	marine
+T24	segment 163 175	applications
+T25	segment 176 179	and
+T26	segment 180 182	is
+T27	segment 183 186	one
+T28	segment 187 189	of
+T29	segment 190 195	China
+T30	segment 195 197	's
+T31	segment 198 201	key
+T32	segment 202 207	state
+T33	segment 208 219	enterprises
+T34	segment 220 223	for
+T35	segment 224 227	the
+T36	segment 228 238	production
+T37	segment 239 241	of
+T38	segment 242 246	such
+T39	segment 247 254	engines
+T40	segment 255 256	.
+R0	compound Arg1:T4 Arg2:T3
+R1	is-specialized-by Arg1:T4 Arg2:T5
+R2	s_p Arg1:T4 Arg2:T9
+R3	compound Arg1:T4 Arg2:T2
+R4	compound Arg1:T4 Arg2:T1
+R5	c_co Arg1:T5 Arg2:T8
+R6	compound Arg1:T8 Arg2:T6
+R7	p_o Arg1:T9 Arg2:T12
+R8	is-specialized-by Arg1:T12 Arg2:T11
+R9	is-specialized-by Arg1:T12 Arg2:T13
+R10	c_co Arg1:T13 Arg2:T16
+R11	is-specialized-by Arg1:T16 Arg2:T14
+R12	is-specialized-by Arg1:T20 Arg2:T18
+R13	is-specialized-by Arg1:T20 Arg2:T21
+R14	c_co Arg1:T21 Arg2:T24
+R15	is-specialized-by Arg1:T24 Arg2:T22
+R16	is-specialized-by Arg1:T27 Arg2:T34
+R17	is-specialized-by Arg1:T27 Arg2:T28
+R18	c_co Arg1:T28 Arg2:T33
+R19	is-specialized-by Arg1:T33 Arg2:T31
+R20	compound Arg1:T33 Arg2:T32
+R21	c_co Arg1:T34 Arg2:T36
+R22	is-specialized-by Arg1:T36 Arg2:T37
+R23	c_co Arg1:T37 Arg2:T39
+R24	is-specialized-by Arg1:T39 Arg2:T38

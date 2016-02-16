@@ -1,0 +1,41 @@
+T0	segment 0 3	The
+T1	segment 4 7	RAD
+T2	segment 8 13	Group
+T3	segment 14 16	is
+T4	segment 17 18	a
+T5	segment 19 29	collection
+T6	segment 30 32	of
+T7	segment 33 44	independent
+T8	segment 45 54	companies
+T9	segment 55 59	that
+T10	segment 60 67	develop
+T11	segment 67 68	,
+T12	segment 69 80	manufacture
+T13	segment 81 84	and
+T14	segment 85 91	market
+T15	segment 92 101	solutions
+T16	segment 102 105	for
+T17	segment 106 113	diverse
+T18	segment 114 122	segments
+T19	segment 123 125	of
+T20	segment 126 129	the
+T21	segment 130 140	networking
+T22	segment 141 144	and
+T23	segment 145 163	telecommunications
+T24	segment 164 172	industry
+T25	segment 173 174	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T6
+R4	c_co Arg1:T6 Arg2:T8
+R5	is-specialized-by Arg1:T8 Arg2:T7
+R6	s_p Arg1:T9 Arg2:T10
+R7	p_c Arg1:T10 Arg2:T19
+R8	p_o Arg1:T10 Arg2:T15
+R9	is-specialized-by Arg1:T15 Arg2:T16
+R10	compound Arg1:T15 Arg2:T14
+R11	c_co Arg1:T16 Arg2:T18
+R12	is-specialized-by Arg1:T18 Arg2:T17
+R13	c_co Arg1:T19 Arg2:T24
+R14	compound Arg1:T24 Arg2:T21

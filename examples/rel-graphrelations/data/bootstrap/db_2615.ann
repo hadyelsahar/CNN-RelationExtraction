@@ -1,0 +1,55 @@
+T0	segment 0 3	The
+T1	segment 4 9	Dutch
+T2	segment 10 14	Gold
+T3	segment 15 20	Coast
+T4	segment 21 23	or
+T5	segment 24 29	Dutch
+T6	segment 30 36	Guinea
+T7	segment 36 37	,
+T8	segment 38 48	officially
+T9	segment 49 54	Dutch
+T10	segment 55 66	possessions
+T11	segment 67 69	on
+T12	segment 70 73	the
+T13	segment 74 79	Coast
+T14	segment 80 82	of
+T15	segment 83 89	Guinea
+T16	segment 90 93	was
+T17	segment 94 95	a
+T18	segment 96 103	portion
+T19	segment 104 106	of
+T20	segment 107 119	contemporary
+T21	segment 120 125	Ghana
+T22	segment 126 130	that
+T23	segment 131 134	was
+T24	segment 135 144	gradually
+T25	segment 145 154	colonized
+T26	segment 155 157	by
+T27	segment 158 161	the
+T28	segment 162 167	Dutch
+T29	segment 167 168	,
+T30	segment 169 178	beginning
+T31	segment 179 181	in
+T32	segment 182 186	1598
+T33	segment 187 188	.
+R0	s_p Arg1:T3 Arg2:T16
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	compound Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T10 Arg2:T8
+R5	is-specialized-by Arg1:T10 Arg2:T9
+R6	is-specialized-by Arg1:T10 Arg2:T11
+R7	c_co Arg1:T11 Arg2:T13
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T15
+R10	p_o Arg1:T16 Arg2:T18
+R11	is-specialized-by Arg1:T18 Arg2:T19
+R12	c_co Arg1:T19 Arg2:T21
+R13	is-specialized-by Arg1:T21 Arg2:T20
+R14	s_p Arg1:T22 Arg2:T25
+R15	p_c Arg1:T25 Arg2:T26
+R16	compound Arg1:T25 Arg2:T23
+R17	p_c Arg1:T25 Arg2:T24
+R18	c_co Arg1:T26 Arg2:T28
+R19	compound Arg1:T32 Arg2:T30
+R20	compound Arg1:T32 Arg2:T31

@@ -1,0 +1,28 @@
+T0	segment 0 8	Cristina
+T1	segment 9 17	Goettsch
+T2	segment 18 29	Mittermeier
+T3	segment 30 32	in
+T4	segment 33 39	Mexico
+T5	segment 40 44	City
+T6	segment 44 45	,
+T7	segment 46 52	Mexico
+T8	segment 53 55	is
+T9	segment 56 57	a
+T10	segment 58 64	marine
+T11	segment 65 74	biologist
+T12	segment 74 75	,
+T13	segment 76 88	photographer
+T14	segment 89 92	and
+T15	segment 93 104	biochemical
+T16	segment 105 113	engineer
+T17	segment 114 115	.
+R0	s_p Arg1:T2 Arg2:T8
+R1	compound Arg1:T2 Arg2:T0
+R2	is-specialized-by Arg1:T2 Arg2:T3
+R3	compound Arg1:T2 Arg2:T1
+R4	c_co Arg1:T3 Arg2:T5
+R5	compound Arg1:T5 Arg2:T4
+R6	p_o Arg1:T8 Arg2:T16
+R7	compound Arg1:T13 Arg2:T11
+R8	is-specialized-by Arg1:T16 Arg2:T10
+R9	compound Arg1:T16 Arg2:T13

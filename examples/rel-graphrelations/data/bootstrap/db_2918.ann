@@ -1,0 +1,38 @@
+T0	segment 0 3	The
+T1	segment 4 9	Conch
+T2	segment 10 18	Republic
+T3	segment 19 23	have
+T4	segment 24 28	been
+T5	segment 29 38	described
+T6	segment 39 41	by
+T7	segment 42 46	some
+T8	segment 47 49	as
+T9	segment 50 51	''
+T10	segment 51 52	``
+T11	segment 52 67	tongue-in-cheek
+T12	segment 67 68	''
+T13	segment 68 69	''
+T14	segment 69 70	,
+T15	segment 71 75	they
+T16	segment 76 80	were
+T17	segment 81 90	motivated
+T18	segment 91 93	by
+T19	segment 94 106	frustrations
+T20	segment 107 111	over
+T21	segment 112 119	genuine
+T22	segment 120 128	concerns
+T23	segment 129 130	.
+R0	s_p Arg1:T2 Arg2:T5
+R1	compound Arg1:T2 Arg2:T1
+R2	compound Arg1:T5 Arg2:T4
+R3	compound Arg1:T5 Arg2:T3
+R4	p_c Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T7
+R6	s_p Arg1:T15 Arg2:T17
+R7	p_c Arg1:T17 Arg2:T18
+R8	compound Arg1:T17 Arg2:T16
+R9	p_p Arg1:T17 Arg2:T5
+R10	c_co Arg1:T18 Arg2:T19
+R11	is-specialized-by Arg1:T19 Arg2:T20
+R12	c_co Arg1:T20 Arg2:T22
+R13	is-specialized-by Arg1:T22 Arg2:T21

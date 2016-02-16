@@ -1,0 +1,30 @@
+T0	segment 0 3	The
+T1	segment 4 14	Autonomist
+T2	segment 15 26	Association
+T3	segment 27 30	was
+T4	segment 31 32	a
+T5	segment 33 42	political
+T6	segment 43 48	party
+T7	segment 49 51	in
+T8	segment 52 57	Fiume
+T9	segment 57 58	,
+T10	segment 59 63	that
+T11	segment 64 71	existed
+T12	segment 72 84	continuously
+T13	segment 85 89	from
+T14	segment 90 94	1896
+T15	segment 95 97	to
+T16	segment 98 102	1914
+T17	segment 103 104	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T6
+R3	is-specialized-by Arg1:T6 Arg2:T7
+R4	is-specialized-by Arg1:T6 Arg2:T5
+R5	c_co Arg1:T7 Arg2:T8
+R6	s_p Arg1:T10 Arg2:T11
+R7	p_c Arg1:T11 Arg2:T12
+R8	p_c Arg1:T11 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T16
+R10	compound Arg1:T16 Arg2:T14
+R11	compound Arg1:T16 Arg2:T15

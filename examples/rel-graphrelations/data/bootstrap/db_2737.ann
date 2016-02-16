@@ -1,0 +1,29 @@
+T0	segment 0 3	The
+T1	segment 4 12	Princely
+T2	segment 13 18	State
+T3	segment 19 21	of
+T4	segment 22 26	Beja
+T5	segment 27 30	was
+T6	segment 31 32	a
+T7	segment 33 47	semi-sovereign
+T8	segment 48 55	kingdom
+T9	segment 56 58	of
+T10	segment 59 64	India
+T11	segment 65 69	with
+T12	segment 70 73	the
+T13	segment 74 79	title
+T14	segment 80 82	of
+T15	segment 83 89	Thakur
+T16	segment 90 91	.
+R0	s_p Arg1:T2 Arg2:T5
+R1	is-specialized-by Arg1:T2 Arg2:T1
+R2	is-specialized-by Arg1:T2 Arg2:T3
+R3	c_co Arg1:T3 Arg2:T4
+R4	p_o Arg1:T5 Arg2:T8
+R5	is-specialized-by Arg1:T8 Arg2:T7
+R6	is-specialized-by Arg1:T8 Arg2:T9
+R7	is-specialized-by Arg1:T8 Arg2:T11
+R8	c_co Arg1:T9 Arg2:T10
+R9	c_co Arg1:T11 Arg2:T13
+R10	is-specialized-by Arg1:T13 Arg2:T14
+R11	c_co Arg1:T14 Arg2:T15

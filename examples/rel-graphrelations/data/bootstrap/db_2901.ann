@@ -1,0 +1,37 @@
+T0	segment 0 5	Ensto
+T1	segment 6 8	is
+T2	segment 9 10	a
+T3	segment 11 20	Cleantech
+T4	segment 21 28	company
+T5	segment 29 41	specializing
+T6	segment 42 44	in
+T7	segment 45 55	electrical
+T8	segment 56 63	systems
+T9	segment 64 67	and
+T10	segment 68 76	supplies
+T11	segment 77 80	for
+T12	segment 81 84	the
+T13	segment 85 97	distribution
+T14	segment 98 100	of
+T15	segment 101 111	electrical
+T16	segment 112 117	power
+T17	segment 118 120	as
+T18	segment 121 125	well
+T19	segment 126 128	as
+T20	segment 129 139	electrical
+T21	segment 140 152	applications
+T22	segment 153 154	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T5 Arg2:T11
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T8
+R6	is-specialized-by Arg1:T8 Arg2:T7
+R7	c_co Arg1:T11 Arg2:T13
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T16
+R10	is-specialized-by Arg1:T16 Arg2:T15
+R11	compound Arg1:T17 Arg2:T19
+R12	compound Arg1:T17 Arg2:T18
+R13	is-specialized-by Arg1:T21 Arg2:T20

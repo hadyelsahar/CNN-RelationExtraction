@@ -1,0 +1,50 @@
+T0	segment 0 7	LÄhainÄ
+T1	segment 8 10	is
+T2	segment 11 14	the
+T3	segment 15 22	largest
+T4	segment 23 40	census-designated
+T5	segment 41 46	place
+T6	segment 47 49	in
+T7	segment 50 54	West
+T8	segment 55 59	Maui
+T9	segment 59 60	,
+T10	segment 61 65	Maui
+T11	segment 66 72	County
+T12	segment 72 73	,
+T13	segment 74 80	Hawaii
+T14	segment 80 81	,
+T15	segment 82 88	United
+T16	segment 89 95	States
+T17	segment 95 96	,
+T18	segment 97 100	and
+T19	segment 101 104	the
+T20	segment 105 112	gateway
+T21	segment 113 115	to
+T22	segment 116 119	the
+T23	segment 120 126	famous
+T24	segment 127 136	Kaanapali
+T25	segment 137 140	and
+T26	segment 141 148	Kapalua
+T27	segment 149 154	beach
+T28	segment 155 162	resorts
+T29	segment 163 168	north
+T30	segment 169 171	of
+T31	segment 172 175	the
+T32	segment 176 185	community
+T33	segment 186 187	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T5
+R2	is-specialized-by Arg1:T5 Arg2:T3
+R3	is-specialized-by Arg1:T5 Arg2:T6
+R4	c_co Arg1:T6 Arg2:T8
+R5	compound Arg1:T8 Arg2:T7
+R6	compound Arg1:T11 Arg2:T10
+R7	compound Arg1:T16 Arg2:T15
+R8	is-specialized-by Arg1:T20 Arg2:T21
+R9	c_co Arg1:T21 Arg2:T24
+R10	is-specialized-by Arg1:T24 Arg2:T23
+R11	compound Arg1:T28 Arg2:T27
+R12	compound Arg1:T28 Arg2:T26
+R13	is-specialized-by Arg1:T29 Arg2:T20
+R14	is-specialized-by Arg1:T29 Arg2:T30
+R15	c_co Arg1:T30 Arg2:T32

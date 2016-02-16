@@ -1,0 +1,48 @@
+T0	segment 0 5	Aaron
+T1	segment 6 11	Cohen
+T2	segment 12 14	is
+T3	segment 15 17	an
+T4	segment 18 34	Israeli-American
+T5	segment 35 41	writer
+T6	segment 41 42	,
+T7	segment 43 51	director
+T8	segment 51 52	,
+T9	segment 53 58	actor
+T10	segment 58 59	,
+T11	segment 60 66	author
+T12	segment 67 70	and
+T13	segment 71 77	former
+T14	segment 78 86	Duvdevan
+T15	segment 87 94	Special
+T16	segment 95 101	Forces
+T17	segment 102 110	operator
+T18	segment 111 123	specializing
+T19	segment 124 126	in
+T20	segment 127 144	counter-terrorism
+T21	segment 145 148	and
+T22	segment 149 153	best
+T23	segment 154 159	known
+T24	segment 160 163	for
+T25	segment 164 167	his
+T26	segment 168 181	international
+T27	segment 182 193	bestselling
+T28	segment 194 200	memoir
+T29	segment 201 212	Brotherhood
+T30	segment 213 215	of
+T31	segment 216 224	Warriors
+T32	segment 225 226	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T17
+R3	is-specialized-by Arg1:T14 Arg2:T13
+R4	is-specialized-by Arg1:T17 Arg2:T4
+R5	compound Arg1:T17 Arg2:T16
+R6	is-specialized-by Arg1:T18 Arg2:T19
+R7	c_co Arg1:T19 Arg2:T20
+R8	is-specialized-by Arg1:T23 Arg2:T24
+R9	p_o Arg1:T23 Arg2:T29
+R10	is-specialized-by Arg1:T23 Arg2:T22
+R11	c_co Arg1:T24 Arg2:T28
+R12	is-specialized-by Arg1:T28 Arg2:T26
+R13	is-specialized-by Arg1:T29 Arg2:T30
+R14	c_co Arg1:T30 Arg2:T31

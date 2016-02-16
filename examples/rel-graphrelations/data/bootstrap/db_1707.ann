@@ -1,0 +1,44 @@
+T0	segment 0 6	Pawnee
+T1	segment 7 9	is
+T2	segment 10 11	a
+T3	segment 12 17	ghost
+T4	segment 18 22	town
+T5	segment 23 25	in
+T6	segment 26 31	Geary
+T7	segment 32 38	County
+T8	segment 38 39	,
+T9	segment 40 46	Kansas
+T10	segment 46 47	,
+T11	segment 48 54	United
+T12	segment 55 61	States
+T13	segment 61 62	,
+T14	segment 63 68	which
+T15	segment 69 75	served
+T16	segment 76 78	as
+T17	segment 79 82	the
+T18	segment 83 88	first
+T19	segment 89 97	official
+T20	segment 98 105	capital
+T21	segment 106 108	of
+T22	segment 109 112	the
+T23	segment 113 119	Kansas
+T24	segment 120 129	Territory
+T25	segment 130 132	in
+T26	segment 133 137	1855
+T27	segment 138 139	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	compound Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T7
+R5	compound Arg1:T7 Arg2:T6
+R6	compound Arg1:T12 Arg2:T11
+R7	s_p Arg1:T14 Arg2:T15
+R8	p_c Arg1:T15 Arg2:T25
+R9	p_c Arg1:T15 Arg2:T16
+R10	c_co Arg1:T16 Arg2:T20
+R11	is-specialized-by Arg1:T20 Arg2:T18
+R12	is-specialized-by Arg1:T20 Arg2:T21
+R13	c_co Arg1:T21 Arg2:T24
+R14	compound Arg1:T24 Arg2:T23
+R15	c_co Arg1:T25 Arg2:T26

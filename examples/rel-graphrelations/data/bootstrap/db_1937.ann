@@ -1,0 +1,57 @@
+T0	segment 0 13	Hesse-Homburg
+T1	segment 14 17	was
+T2	segment 18 24	formed
+T3	segment 25 29	into
+T4	segment 30 31	a
+T5	segment 32 40	separate
+T6	segment 41 53	landgraviate
+T7	segment 54 56	in
+T8	segment 57 61	1622
+T9	segment 62 64	by
+T10	segment 65 68	the
+T11	segment 69 78	landgrave
+T12	segment 79 81	of
+T13	segment 82 97	Hesse-Darmstadt
+T14	segment 97 98	;
+T15	segment 99 101	it
+T16	segment 102 105	was
+T17	segment 106 108	to
+T18	segment 109 111	be
+T19	segment 112 117	ruled
+T20	segment 118 120	by
+T21	segment 121 124	his
+T22	segment 125 128	son
+T23	segment 128 129	,
+T24	segment 130 138	although
+T25	segment 139 141	it
+T26	segment 142 145	did
+T27	segment 146 149	not
+T28	segment 150 156	become
+T29	segment 157 168	independent
+T30	segment 169 171	of
+T31	segment 172 187	Hesse-Darmstadt
+T32	segment 188 193	until
+T33	segment 194 198	1668
+T34	segment 199 200	.
+R0	s_p Arg1:T0 Arg2:T2
+R1	p_c Arg1:T2 Arg2:T9
+R2	p_c Arg1:T2 Arg2:T3
+R3	compound Arg1:T2 Arg2:T1
+R4	c_co Arg1:T3 Arg2:T6
+R5	is-specialized-by Arg1:T6 Arg2:T7
+R6	is-specialized-by Arg1:T6 Arg2:T5
+R7	c_co Arg1:T7 Arg2:T8
+R8	c_co Arg1:T9 Arg2:T11
+R9	is-specialized-by Arg1:T11 Arg2:T12
+R10	c_co Arg1:T12 Arg2:T13
+R11	s_p Arg1:T15 Arg2:T16
+R12	is-specialized-by Arg1:T19 Arg2:T20
+R13	compound Arg1:T19 Arg2:T18
+R14	c_co Arg1:T20 Arg2:T22
+R15	s_p Arg1:T25 Arg2:T28
+R16	compound Arg1:T28 Arg2:T27
+R17	p_c Arg1:T28 Arg2:T32
+R18	compound Arg1:T28 Arg2:T26
+R19	is-specialized-by Arg1:T29 Arg2:T30
+R20	c_co Arg1:T30 Arg2:T31
+R21	c_co Arg1:T32 Arg2:T33

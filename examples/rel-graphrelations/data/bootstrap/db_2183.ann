@@ -1,0 +1,43 @@
+T0	segment 0 6	Declan
+T1	segment 7 12	Lally
+T2	segment 12 13	,
+T3	segment 14 16	or
+T4	segment 17 24	DÃ©aglÃ¡n
+T5	segment 25 26	Ã
+T6	segment 27 37	Maolalaidh
+T7	segment 37 38	,
+T8	segment 39 41	is
+T9	segment 42 44	an
+T10	segment 45 50	Irish
+T11	segment 51 57	Gaelic
+T12	segment 58 68	footballer
+T13	segment 69 72	who
+T14	segment 73 78	plays
+T15	segment 79 82	the
+T16	segment 83 87	left
+T17	segment 88 92	half
+T18	segment 93 100	forward
+T19	segment 101 109	position
+T20	segment 110 113	for
+T21	segment 114 117	the
+T22	segment 118 124	Dublin
+T23	segment 125 131	senior
+T24	segment 132 140	football
+T25	segment 141 145	team
+T26	segment 146 147	.
+R0	s_p Arg1:T1 Arg2:T8
+R1	compound Arg1:T1 Arg2:T0
+R2	compound Arg1:T6 Arg2:T4
+R3	compound Arg1:T6 Arg2:T5
+R4	p_o Arg1:T8 Arg2:T12
+R5	compound Arg1:T11 Arg2:T10
+R6	is-specialized-by Arg1:T12 Arg2:T10
+R7	s_p Arg1:T13 Arg2:T14
+R8	p_c Arg1:T14 Arg2:T18
+R9	p_o Arg1:T14 Arg2:T17
+R10	is-specialized-by Arg1:T17 Arg2:T16
+R11	is-specialized-by Arg1:T19 Arg2:T20
+R12	c_co Arg1:T20 Arg2:T25
+R13	is-specialized-by Arg1:T25 Arg2:T23
+R14	compound Arg1:T25 Arg2:T22
+R15	compound Arg1:T25 Arg2:T24

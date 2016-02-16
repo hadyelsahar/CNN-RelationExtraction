@@ -1,0 +1,57 @@
+T0	segment 0 10	Karunakara
+T1	segment 11 15	Guru
+T2	segment 16 17	,
+T3	segment 18 26	provides
+T4	segment 27 31	free
+T5	segment 32 42	vegetarian
+T6	segment 43 47	food
+T7	segment 48 50	to
+T8	segment 51 54	the
+T9	segment 55 63	visitors
+T10	segment 63 64	,
+T11	segment 65 73	services
+T12	segment 74 76	of
+T13	segment 77 85	ayurveda
+T14	segment 86 89	and
+T15	segment 90 96	siddha
+T16	segment 97 106	hospitals
+T17	segment 107 110	and
+T18	segment 111 122	panchakarma
+T19	segment 123 130	centres
+T20	segment 131 134	run
+T21	segment 135 137	by
+T22	segment 138 141	the
+T23	segment 142 148	ashram
+T24	segment 149 152	for
+T25	segment 153 165	rejuvenation
+T26	segment 166 188	treatmentAccommodation
+T27	segment 188 189	:
+T28	segment 190 192	AC
+T29	segment 193 196	and
+T30	segment 197 200	Non
+T31	segment 201 203	AC
+T32	segment 204 209	Rooms
+T33	segment 210 217	ranging
+T34	segment 218 222	from
+T35	segment 223 225	Rs
+T36	segment 226 227	.
+R0	s_p Arg1:T1 Arg2:T3
+R1	compound Arg1:T1 Arg2:T0
+R2	p_c Arg1:T3 Arg2:T7
+R3	p_o Arg1:T3 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T4
+R5	c_co Arg1:T7 Arg2:T9
+R6	is-specialized-by Arg1:T11 Arg2:T12
+R7	c_co Arg1:T12 Arg2:T16
+R8	compound Arg1:T16 Arg2:T13
+R9	compound Arg1:T19 Arg2:T18
+R10	is-specialized-by Arg1:T20 Arg2:T21
+R11	c_co Arg1:T21 Arg2:T23
+R12	is-specialized-by Arg1:T23 Arg2:T24
+R13	c_co Arg1:T24 Arg2:T26
+R14	compound Arg1:T26 Arg2:T25
+R15	compound Arg1:T32 Arg2:T28
+R16	compound Arg1:T32 Arg2:T31
+R17	s_p Arg1:T32 Arg2:T33
+R18	p_c Arg1:T33 Arg2:T34
+R19	c_co Arg1:T34 Arg2:T35

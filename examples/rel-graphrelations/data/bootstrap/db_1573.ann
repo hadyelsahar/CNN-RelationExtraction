@@ -1,0 +1,43 @@
+T0	segment 0 1	A
+T1	segment 2 8	family
+T2	segment 9 15	called
+T3	segment 16 24	Salviati
+T4	segment 25 29	were
+T5	segment 30 35	glass
+T6	segment 36 42	makers
+T7	segment 43 46	and
+T8	segment 47 57	mosaicists
+T9	segment 58 60	in
+T10	segment 61 67	Murano
+T11	segment 67 68	,
+T12	segment 69 75	Venice
+T13	segment 76 79	and
+T14	segment 80 84	also
+T15	segment 85 87	in
+T16	segment 88 94	London
+T17	segment 94 95	,
+T18	segment 96 103	working
+T19	segment 104 106	as
+T20	segment 107 110	the
+T21	segment 111 115	firm
+T22	segment 116 124	Salviati
+T23	segment 124 125	,
+T24	segment 126 133	Jesurum
+T25	segment 134 135	&
+T26	segment 136 138	Co
+T27	segment 139 140	.
+R0	s_p Arg1:T1 Arg2:T4
+R1	p_o Arg1:T2 Arg2:T3
+R2	p_o Arg1:T4 Arg2:T6
+R3	is-specialized-by Arg1:T6 Arg2:T9
+R4	compound Arg1:T6 Arg2:T5
+R5	c_co Arg1:T9 Arg2:T12
+R6	compound Arg1:T12 Arg2:T10
+R7	is-specialized-by Arg1:T16 Arg2:T14
+R8	is-specialized-by Arg1:T18 Arg2:T19
+R9	c_co Arg1:T19 Arg2:T22
+R10	compound Arg1:T22 Arg2:T21
+R11	compound Arg1:T26 Arg2:T22
+R12	compound Arg1:T26 Arg2:T24
+R13	compound Arg1:T26 Arg2:T23
+R14	compound Arg1:T26 Arg2:T25

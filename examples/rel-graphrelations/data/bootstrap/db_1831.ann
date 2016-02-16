@@ -1,0 +1,37 @@
+T0	segment 0 7	Honiara
+T1	segment 8 10	is
+T2	segment 11 14	the
+T3	segment 15 22	capital
+T4	segment 23 27	city
+T5	segment 28 30	of
+T6	segment 31 38	Solomon
+T7	segment 39 46	Islands
+T8	segment 46 47	,
+T9	segment 48 60	administered
+T10	segment 61 63	as
+T11	segment 64 65	a
+T12	segment 66 76	provincial
+T13	segment 77 81	town
+T14	segment 82 84	on
+T15	segment 85 88	the
+T16	segment 89 101	northwestern
+T17	segment 102 107	coast
+T18	segment 108 110	of
+T19	segment 111 122	Guadalcanal
+T20	segment 123 129	Island
+T21	segment 130 131	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	compound Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T7
+R5	compound Arg1:T7 Arg2:T6
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T13
+R8	is-specialized-by Arg1:T13 Arg2:T12
+R9	is-specialized-by Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T17
+R11	is-specialized-by Arg1:T17 Arg2:T16
+R12	is-specialized-by Arg1:T17 Arg2:T18
+R13	c_co Arg1:T18 Arg2:T20
+R14	compound Arg1:T20 Arg2:T19

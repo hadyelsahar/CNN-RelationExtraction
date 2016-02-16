@@ -1,0 +1,73 @@
+T0	segment 0 5	Rolta
+T1	segment 6 8	is
+T2	segment 9 11	an
+T3	segment 12 18	Indian
+T4	segment 19 26	company
+T5	segment 27 30	for
+T6	segment 31 34	CAD
+T7	segment 34 35	,
+T8	segment 36 39	CAM
+T9	segment 39 40	,
+T10	segment 41 49	business
+T11	segment 50 62	intelligence
+T12	segment 63 66	and
+T13	segment 67 70	big
+T14	segment 71 75	data
+T15	segment 76 85	solutions
+T16	segment 85 86	,
+T17	segment 87 97	geographic
+T18	segment 98 109	information
+T19	segment 110 116	system
+T20	segment 117 120	are
+T21	segment 121 127	listed
+T22	segment 128 130	on
+T23	segment 131 134	the
+T24	segment 135 139	Main
+T25	segment 140 145	Board
+T26	segment 146 148	of
+T27	segment 149 152	the
+T28	segment 153 159	London
+T29	segment 160 165	Stock
+T30	segment 166 174	Exchange
+T31	segment 175 178	and
+T32	segment 179 182	its
+T33	segment 183 190	foreign
+T34	segment 191 199	currency
+T35	segment 200 211	convertible
+T36	segment 212 217	bonds
+T37	segment 218 220	on
+T38	segment 221 224	the
+T39	segment 225 234	Singapore
+T40	segment 235 240	Stock
+T41	segment 241 249	Exchange
+T42	segment 250 251	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T6
+R5	compound Arg1:T11 Arg2:T10
+R6	compound Arg1:T15 Arg2:T14
+R7	is-specialized-by Arg1:T15 Arg2:T13
+R8	s_p Arg1:T19 Arg2:T21
+R9	is-specialized-by Arg1:T19 Arg2:T17
+R10	compound Arg1:T19 Arg2:T18
+R11	compound Arg1:T21 Arg2:T20
+R12	p_c Arg1:T21 Arg2:T22
+R13	p_p Arg1:T21 Arg2:T1
+R14	p_c Arg1:T21 Arg2:T37
+R15	c_co Arg1:T22 Arg2:T25
+R16	is-specialized-by Arg1:T25 Arg2:T26
+R17	compound Arg1:T25 Arg2:T24
+R18	c_co Arg1:T26 Arg2:T30
+R19	compound Arg1:T30 Arg2:T28
+R20	compound Arg1:T30 Arg2:T29
+R21	compound Arg1:T30 Arg2:T26
+R22	compound Arg1:T30 Arg2:T27
+R23	compound Arg1:T30 Arg2:T24
+R24	compound Arg1:T30 Arg2:T25
+R25	is-specialized-by Arg1:T34 Arg2:T33
+R26	is-specialized-by Arg1:T36 Arg2:T35
+R27	c_co Arg1:T37 Arg2:T41
+R28	compound Arg1:T41 Arg2:T40
+R29	compound Arg1:T41 Arg2:T39

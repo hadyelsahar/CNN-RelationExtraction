@@ -1,0 +1,66 @@
+T0	segment 0 7	Founded
+T1	segment 8 10	in
+T2	segment 11 15	1991
+T3	segment 15 16	,
+T4	segment 17 19	by
+T5	segment 20 25	Ralph
+T6	segment 26 32	Herzka
+T7	segment 33 41	Meridian
+T8	segment 42 49	Capital
+T9	segment 50 55	Group
+T10	segment 56 58	is
+T11	segment 59 60	a
+T12	segment 61 71	commercial
+T13	segment 72 80	mortgage
+T14	segment 81 90	brokerage
+T15	segment 91 95	firm
+T16	segment 95 96	,
+T17	segment 97 110	headquartered
+T18	segment 111 113	in
+T19	segment 114 123	Manhattan
+T20	segment 124 128	with
+T21	segment 129 132	key
+T22	segment 133 140	offices
+T23	segment 141 143	in
+T24	segment 144 149	major
+T25	segment 150 157	markets
+T26	segment 158 162	such
+T27	segment 163 165	as
+T28	segment 166 169	New
+T29	segment 170 176	Jersey
+T30	segment 176 177	,
+T31	segment 178 190	Pennsylvania
+T32	segment 190 191	,
+T33	segment 192 200	Maryland
+T34	segment 200 201	,
+T35	segment 202 209	Florida
+T36	segment 209 210	,
+T37	segment 211 219	Illinois
+T38	segment 219 220	,
+T39	segment 221 231	California
+T40	segment 232 235	and
+T41	segment 236 241	Texas
+T42	segment 242 243	.
+R0	is-specialized-by Arg1:T0 Arg2:T1
+R1	is-specialized-by Arg1:T0 Arg2:T4
+R2	c_co Arg1:T1 Arg2:T2
+R3	c_co Arg1:T4 Arg2:T9
+R4	compound Arg1:T9 Arg2:T6
+R5	compound Arg1:T9 Arg2:T5
+R6	compound Arg1:T9 Arg2:T8
+R7	compound Arg1:T9 Arg2:T7
+R8	compound Arg1:T15 Arg2:T14
+R9	compound Arg1:T15 Arg2:T13
+R10	is-specialized-by Arg1:T15 Arg2:T12
+R11	is-specialized-by Arg1:T17 Arg2:T18
+R12	is-specialized-by Arg1:T17 Arg2:T20
+R13	c_co Arg1:T18 Arg2:T19
+R14	c_co Arg1:T20 Arg2:T22
+R15	is-specialized-by Arg1:T22 Arg2:T23
+R16	is-specialized-by Arg1:T22 Arg2:T21
+R17	c_co Arg1:T23 Arg2:T25
+R18	is-specialized-by Arg1:T25 Arg2:T24
+R19	is-specialized-by Arg1:T25 Arg2:T26
+R20	compound Arg1:T26 Arg2:T27
+R21	c_co Arg1:T26 Arg2:T29
+R22	compound Arg1:T29 Arg2:T28

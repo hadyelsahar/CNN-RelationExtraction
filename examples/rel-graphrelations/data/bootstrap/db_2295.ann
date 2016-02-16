@@ -1,0 +1,40 @@
+T0	segment 0 3	The
+T1	segment 4 13	Navegante
+T2	segment 14 19	Group
+T3	segment 20 22	is
+T4	segment 23 24	a
+T5	segment 25 31	gaming
+T6	segment 32 39	company
+T7	segment 40 45	based
+T8	segment 46 48	in
+T9	segment 49 57	Paradise
+T10	segment 57 58	,
+T11	segment 59 65	Nevada
+T12	segment 65 66	,
+T13	segment 67 79	specializing
+T14	segment 80 82	in
+T15	segment 83 88	areas
+T16	segment 89 91	of
+T17	segment 92 98	casino
+T18	segment 99 109	management
+T19	segment 109 110	,
+T20	segment 111 122	development
+T21	segment 122 123	,
+T22	segment 124 134	consulting
+T23	segment 135 138	and
+T24	segment 139 148	executive
+T25	segment 149 160	recruitment
+T26	segment 161 162	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T6
+R3	is-specialized-by Arg1:T6 Arg2:T7
+R4	compound Arg1:T6 Arg2:T5
+R5	c_co Arg1:T7 Arg2:T11
+R6	compound Arg1:T11 Arg2:T9
+R7	is-specialized-by Arg1:T13 Arg2:T14
+R8	c_co Arg1:T14 Arg2:T15
+R9	is-specialized-by Arg1:T15 Arg2:T16
+R10	c_co Arg1:T16 Arg2:T18
+R11	compound Arg1:T18 Arg2:T17
+R12	compound Arg1:T25 Arg2:T20

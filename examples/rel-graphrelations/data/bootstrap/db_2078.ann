@@ -1,0 +1,25 @@
+T0	segment 0 6	Steven
+T1	segment 7 13	Leslie
+T2	segment 14 15	''
+T3	segment 15 16	``
+T4	segment 16 21	Steve
+T5	segment 21 22	''
+T6	segment 22 23	''
+T7	segment 24 29	Kagen
+T8	segment 30 32	is
+T9	segment 33 35	an
+T10	segment 36 44	American
+T11	segment 45 55	politician
+T12	segment 56 59	and
+T13	segment 60 69	physician
+T14	segment 70 73	who
+T15	segment 74 77	was
+T16	segment 78 81	the
+T17	segment 82 83	U
+T18	segment 84 85	.
+R0	s_p Arg1:T1 Arg2:T8
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T8 Arg2:T11
+R3	is-specialized-by Arg1:T11 Arg2:T10
+R4	s_p Arg1:T14 Arg2:T15
+R5	p_o Arg1:T15 Arg2:T17

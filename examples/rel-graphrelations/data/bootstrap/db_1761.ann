@@ -1,0 +1,32 @@
+T0	segment 0 3	The
+T1	segment 4 11	Marsden
+T2	segment 12 20	Building
+T3	segment 21 28	Society
+T4	segment 29 31	is
+T5	segment 32 33	a
+T6	segment 34 36	UK
+T7	segment 37 45	building
+T8	segment 46 53	society
+T9	segment 53 54	,
+T10	segment 55 60	which
+T11	segment 61 64	has
+T12	segment 65 68	its
+T13	segment 69 73	head
+T14	segment 74 80	office
+T15	segment 81 83	in
+T16	segment 84 90	Nelson
+T17	segment 90 91	,
+T18	segment 92 102	Lancashire
+T19	segment 103 104	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T8
+R4	compound Arg1:T8 Arg2:T6
+R5	compound Arg1:T8 Arg2:T7
+R6	s_p Arg1:T10 Arg2:T11
+R7	p_c Arg1:T11 Arg2:T15
+R8	p_o Arg1:T11 Arg2:T14
+R9	compound Arg1:T14 Arg2:T13
+R10	c_co Arg1:T15 Arg2:T18
+R11	compound Arg1:T18 Arg2:T16

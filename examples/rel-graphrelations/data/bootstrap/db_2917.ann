@@ -1,0 +1,35 @@
+T0	segment 0 3	The
+T1	segment 4 12	District
+T2	segment 13 15	of
+T3	segment 16 24	Columbia
+T4	segment 25 34	statehood
+T5	segment 35 43	movement
+T6	segment 44 46	is
+T7	segment 47 48	a
+T8	segment 49 58	political
+T9	segment 59 67	movement
+T10	segment 68 72	that
+T11	segment 73 82	advocates
+T12	segment 83 89	making
+T13	segment 90 93	the
+T14	segment 94 102	District
+T15	segment 103 105	of
+T16	segment 106 114	Columbia
+T17	segment 115 116	a
+T18	segment 117 118	U
+T19	segment 119 120	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	c_co Arg1:T2 Arg2:T3
+R2	compound Arg1:T3 Arg2:T2
+R3	compound Arg1:T3 Arg2:T1
+R4	compound Arg1:T5 Arg2:T4
+R5	s_p Arg1:T5 Arg2:T6
+R6	p_o Arg1:T6 Arg2:T9
+R7	is-specialized-by Arg1:T9 Arg2:T8
+R8	s_p Arg1:T10 Arg2:T11
+R9	p_o Arg1:T12 Arg2:T14
+R10	is-specialized-by Arg1:T14 Arg2:T15
+R11	c_co Arg1:T15 Arg2:T18
+R12	compound Arg1:T16 Arg2:T14
+R13	compound Arg1:T16 Arg2:T15
+R14	compound Arg1:T18 Arg2:T16

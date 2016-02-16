@@ -1,0 +1,50 @@
+T0	segment 0 8	Battelle
+T1	segment 9 12	for
+T2	segment 13 17	Kids
+T3	segment 18 20	is
+T4	segment 21 22	a
+T5	segment 23 29	United
+T6	segment 30 36	States
+T7	segment 37 51	not-for-profit
+T8	segment 52 64	organization
+T9	segment 65 76	established
+T10	segment 77 84	through
+T11	segment 85 86	a
+T12	segment 87 98	partnership
+T13	segment 99 103	with
+T14	segment 104 107	the
+T15	segment 108 112	Ohio
+T16	segment 113 121	Business
+T17	segment 122 132	Roundtable
+T18	segment 133 136	and
+T19	segment 137 146	supported
+T20	segment 147 149	by
+T21	segment 150 152	an
+T22	segment 153 160	initial
+T23	segment 161 166	grant
+T24	segment 167 171	from
+T25	segment 172 180	Battelle
+T26	segment 181 189	Memorial
+T27	segment 190 199	Institute
+T28	segment 200 201	.
+R0	is-specialized-by Arg1:T0 Arg2:T1
+R1	s_p Arg1:T0 Arg2:T9
+R2	c_co Arg1:T1 Arg2:T2
+R3	compound Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T8 Arg2:T7
+R5	compound Arg1:T8 Arg2:T6
+R6	compound Arg1:T8 Arg2:T5
+R7	compound Arg1:T9 Arg2:T3
+R8	p_c Arg1:T9 Arg2:T10
+R9	c_co Arg1:T10 Arg2:T12
+R10	is-specialized-by Arg1:T12 Arg2:T13
+R11	c_co Arg1:T13 Arg2:T17
+R12	compound Arg1:T17 Arg2:T16
+R13	compound Arg1:T17 Arg2:T15
+R14	is-specialized-by Arg1:T19 Arg2:T20
+R15	c_co Arg1:T20 Arg2:T23
+R16	is-specialized-by Arg1:T23 Arg2:T24
+R17	is-specialized-by Arg1:T23 Arg2:T22
+R18	c_co Arg1:T24 Arg2:T27
+R19	compound Arg1:T27 Arg2:T26
+R20	compound Arg1:T27 Arg2:T25

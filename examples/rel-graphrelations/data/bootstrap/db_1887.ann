@@ -1,0 +1,47 @@
+T0	segment 0 8	Interros
+T1	segment 9 11	is
+T2	segment 12 13	a
+T3	segment 14 21	Russian
+T4	segment 22 34	conglomerate
+T5	segment 35 45	controlled
+T6	segment 46 48	by
+T7	segment 49 56	Russian
+T8	segment 57 65	oligarch
+T9	segment 66 74	Vladimir
+T10	segment 75 82	Potanin
+T11	segment 83 87	with
+T12	segment 88 93	large
+T13	segment 94 100	stakes
+T14	segment 101 103	in
+T15	segment 104 110	mining
+T16	segment 110 111	,
+T17	segment 112 118	metals
+T18	segment 118 119	,
+T19	segment 120 126	energy
+T20	segment 126 127	,
+T21	segment 128 135	finance
+T22	segment 135 136	,
+T23	segment 137 143	retail
+T24	segment 143 144	,
+T25	segment 145 149	real
+T26	segment 150 156	estate
+T27	segment 157 160	and
+T28	segment 161 166	other
+T29	segment 167 174	sectors
+T30	segment 175 176	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T5 Arg2:T11
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T10
+R6	is-specialized-by Arg1:T10 Arg2:T7
+R7	compound Arg1:T10 Arg2:T8
+R8	compound Arg1:T10 Arg2:T9
+R9	c_co Arg1:T11 Arg2:T13
+R10	is-specialized-by Arg1:T13 Arg2:T12
+R11	is-specialized-by Arg1:T13 Arg2:T14
+R12	c_co Arg1:T14 Arg2:T26
+R13	is-specialized-by Arg1:T26 Arg2:T25
+R14	compound Arg1:T26 Arg2:T15
+R15	is-specialized-by Arg1:T29 Arg2:T28

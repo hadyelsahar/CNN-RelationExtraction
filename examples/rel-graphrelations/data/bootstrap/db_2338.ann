@@ -1,0 +1,38 @@
+T0	segment 0 7	Adriana
+T1	segment 8 15	ReverÃ³n
+T2	segment 16 22	Moreno
+T3	segment 23 25	is
+T4	segment 26 27	a
+T5	segment 28 35	Spanish
+T6	segment 36 42	beauty
+T7	segment 43 48	queen
+T8	segment 49 53	from
+T9	segment 54 57	who
+T10	segment 58 69	represented
+T11	segment 70 73	her
+T12	segment 74 81	country
+T13	segment 82 84	in
+T14	segment 85 88	the
+T15	segment 89 93	Miss
+T16	segment 94 102	Universe
+T17	segment 103 107	2010
+T18	segment 108 111	and
+T19	segment 112 116	Miss
+T20	segment 117 122	Earth
+T21	segment 123 127	2008
+T22	segment 128 140	competitions
+T23	segment 141 142	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T7
+R4	compound Arg1:T7 Arg2:T6
+R5	is-specialized-by Arg1:T7 Arg2:T5
+R6	s_p Arg1:T9 Arg2:T10
+R7	p_c Arg1:T10 Arg2:T13
+R8	p_o Arg1:T10 Arg2:T12
+R9	c_co Arg1:T13 Arg2:T16
+R10	is-specialized-by Arg1:T16 Arg2:T17
+R11	compound Arg1:T16 Arg2:T15
+R12	compound Arg1:T20 Arg2:T19
+R13	is-specialized-by Arg1:T22 Arg2:T21

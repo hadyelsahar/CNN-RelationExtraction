@@ -1,0 +1,48 @@
+T0	segment 0 6	Kajeet
+T1	segment 7 9	is
+T2	segment 10 11	a
+T3	segment 12 19	prepaid
+T4	segment 20 28	wireless
+T5	segment 29 37	provider
+T6	segment 38 47	operating
+T7	segment 48 50	as
+T8	segment 51 52	a
+T9	segment 53 65	Sprint-based
+T10	segment 66 72	mobile
+T11	segment 73 80	virtual
+T12	segment 81 88	network
+T13	segment 89 97	operator
+T14	segment 98 102	that
+T15	segment 103 108	began
+T16	segment 109 116	selling
+T17	segment 117 123	phones
+T18	segment 124 126	to
+T19	segment 127 130	the
+T20	segment 131 138	general
+T21	segment 139 145	public
+T22	segment 146 148	in
+T23	segment 149 154	March
+T24	segment 155 159	2007
+T25	segment 160 167	through
+T26	segment 168 171	its
+T27	segment 172 179	website
+T28	segment 180 181	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T6
+R2	is-specialized-by Arg1:T6 Arg2:T7
+R3	compound Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T6 Arg2:T3
+R5	c_co Arg1:T7 Arg2:T13
+R6	compound Arg1:T13 Arg2:T12
+R7	is-specialized-by Arg1:T13 Arg2:T9
+R8	s_p Arg1:T14 Arg2:T15
+R9	is-specialized-by Arg1:T16 Arg2:T18
+R10	is-specialized-by Arg1:T16 Arg2:T25
+R11	p_o Arg1:T16 Arg2:T17
+R12	c_co Arg1:T18 Arg2:T21
+R13	is-specialized-by Arg1:T21 Arg2:T20
+R14	is-specialized-by Arg1:T21 Arg2:T22
+R15	c_co Arg1:T22 Arg2:T23
+R16	is-specialized-by Arg1:T23 Arg2:T24
+R17	compound Arg1:T24 Arg2:T23
+R18	c_co Arg1:T25 Arg2:T27

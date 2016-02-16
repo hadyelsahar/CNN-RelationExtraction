@@ -1,0 +1,26 @@
+T0	segment 0 3	The
+T1	segment 4 12	National
+T2	segment 13 20	Student
+T3	segment 21 27	Travel
+T4	segment 28 38	Foundation
+T5	segment 39 40	--
+T6	segment 41 45	NSTF
+T7	segment 46 47	-
+T8	segment 48 51	was
+T9	segment 52 59	founded
+T10	segment 60 62	by
+T11	segment 63 69	public
+T12	segment 70 74	deed
+T13	segment 75 77	in
+T14	segment 78 82	1977
+T15	segment 83 84	.
+R0	compound Arg1:T4 Arg2:T3
+R1	s_p Arg1:T4 Arg2:T9
+R2	compound Arg1:T4 Arg2:T2
+R3	compound Arg1:T4 Arg2:T1
+R4	p_c Arg1:T9 Arg2:T10
+R5	compound Arg1:T9 Arg2:T8
+R6	c_co Arg1:T10 Arg2:T12
+R7	is-specialized-by Arg1:T12 Arg2:T11
+R8	is-specialized-by Arg1:T12 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T14

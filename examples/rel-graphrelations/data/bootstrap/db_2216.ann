@@ -1,0 +1,73 @@
+T0	segment 0 5	China
+T1	segment 6 14	National
+T2	segment 15 24	Materials
+T3	segment 25 30	Group
+T4	segment 31 42	Corporation
+T5	segment 43 45	or
+T6	segment 46 52	Sinoma
+T7	segment 52 53	,
+T8	segment 54 65	established
+T9	segment 66 68	in
+T10	segment 69 73	1983
+T11	segment 73 74	,
+T12	segment 75 77	is
+T13	segment 78 79	a
+T14	segment 80 87	central
+T15	segment 88 111	government-administered
+T16	segment 112 122	enterprise
+T17	segment 123 131	directly
+T18	segment 132 137	under
+T19	segment 138 141	the
+T20	segment 142 156	administration
+T21	segment 157 159	of
+T22	segment 160 163	the
+T23	segment 164 175	State-owned
+T24	segment 176 182	Assets
+T25	segment 183 194	Supervision
+T26	segment 195 198	and
+T27	segment 199 213	Administration
+T28	segment 214 224	Commission
+T29	segment 225 227	of
+T30	segment 228 231	the
+T31	segment 232 237	State
+T32	segment 238 245	Council
+T33	segment 246 248	of
+T34	segment 249 252	the
+T35	segment 253 259	People
+T36	segment 259 261	's
+T37	segment 262 270	Republic
+T38	segment 271 273	of
+T39	segment 274 279	China
+T40	segment 280 281	.
+R0	compound Arg1:T4 Arg2:T3
+R1	compound Arg1:T4 Arg2:T0
+R2	s_p Arg1:T4 Arg2:T12
+R3	compound Arg1:T4 Arg2:T2
+R4	compound Arg1:T4 Arg2:T1
+R5	is-specialized-by Arg1:T8 Arg2:T9
+R6	c_co Arg1:T9 Arg2:T10
+R7	p_o Arg1:T12 Arg2:T16
+R8	is-specialized-by Arg1:T16 Arg2:T18
+R9	is-specialized-by Arg1:T16 Arg2:T14
+R10	c_co Arg1:T18 Arg2:T20
+R11	is-specialized-by Arg1:T20 Arg2:T17
+R12	is-specialized-by Arg1:T20 Arg2:T21
+R13	c_co Arg1:T21 Arg2:T37
+R14	is-specialized-by Arg1:T25 Arg2:T23
+R15	compound Arg1:T25 Arg2:T24
+R16	is-specialized-by Arg1:T25 Arg2:T29
+R17	compound Arg1:T28 Arg2:T27
+R18	c_co Arg1:T29 Arg2:T32
+R19	compound Arg1:T32 Arg2:T30
+R20	compound Arg1:T32 Arg2:T31
+R21	compound Arg1:T32 Arg2:T28
+R22	compound Arg1:T32 Arg2:T29
+R23	compound Arg1:T32 Arg2:T27
+R24	is-specialized-by Arg1:T32 Arg2:T33
+R25	c_co Arg1:T33 Arg2:T35
+R26	is-specialized-by Arg1:T37 Arg2:T38
+R27	c_co Arg1:T38 Arg2:T39
+R28	compound Arg1:T39 Arg2:T36
+R29	compound Arg1:T39 Arg2:T35
+R30	compound Arg1:T39 Arg2:T38
+R31	compound Arg1:T39 Arg2:T37

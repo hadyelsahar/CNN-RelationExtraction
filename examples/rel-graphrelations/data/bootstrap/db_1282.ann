@@ -1,0 +1,24 @@
+T0	segment 0 4	Gary
+T1	segment 5 10	Nixon
+T2	segment 11 14	was
+T3	segment 15 17	an
+T4	segment 18 26	American
+T5	segment 27 39	professional
+T6	segment 40 50	motorcycle
+T7	segment 51 56	racer
+T8	segment 57 60	who
+T9	segment 61 65	most
+T10	segment 66 73	notably
+T11	segment 74 77	won
+T12	segment 78 81	the
+T13	segment 82 83	A
+T14	segment 84 85	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T7
+R3	compound Arg1:T7 Arg2:T6
+R4	is-specialized-by Arg1:T7 Arg2:T4
+R5	s_p Arg1:T8 Arg2:T11
+R6	is-specialized-by Arg1:T10 Arg2:T9
+R7	p_o Arg1:T11 Arg2:T13
+R8	p_c Arg1:T11 Arg2:T10

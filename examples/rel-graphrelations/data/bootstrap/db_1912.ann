@@ -1,0 +1,27 @@
+T0	segment 0 6	Andrew
+T1	segment 7 15	Geoffrey
+T2	segment 16 17	''
+T3	segment 17 18	``
+T4	segment 18 22	Andy
+T5	segment 22 23	''
+T6	segment 23 24	''
+T7	segment 25 32	Kaufman
+T8	segment 33 36	was
+T9	segment 37 38	a
+T10	segment 39 46	popular
+T11	segment 47 50	and
+T12	segment 51 60	eccentric
+T13	segment 61 69	American
+T14	segment 70 81	entertainer
+T15	segment 81 82	,
+T16	segment 83 88	actor
+T17	segment 88 89	,
+T18	segment 90 93	and
+T19	segment 94 105	performance
+T20	segment 106 112	artist
+T21	segment 113 114	.
+R0	s_p Arg1:T1 Arg2:T8
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T8 Arg2:T14
+R3	is-specialized-by Arg1:T14 Arg2:T10
+R4	compound Arg1:T20 Arg2:T19

@@ -1,0 +1,52 @@
+T0	segment 0 5	Henri
+T1	segment 6 26	Bellery-Desfontaines
+T2	segment 27 30	was
+T3	segment 31 32	a
+T4	segment 33 39	French
+T5	segment 40 43	Art
+T6	segment 44 51	Nouveau
+T7	segment 52 59	painter
+T8	segment 59 60	,
+T9	segment 61 70	decorator
+T10	segment 71 74	and
+T11	segment 75 86	illustrator
+T12	segment 87 95	renowned
+T13	segment 96 99	for
+T14	segment 100 103	his
+T15	segment 104 111	posters
+T16	segment 111 112	,
+T17	segment 113 124	lithographs
+T18	segment 124 125	,
+T19	segment 126 136	tapestries
+T20	segment 136 137	,
+T21	segment 138 147	furniture
+T22	segment 147 148	,
+T23	segment 149 153	bank
+T24	segment 154 158	note
+T25	segment 159 166	designs
+T26	segment 166 167	,
+T27	segment 168 178	typography
+T28	segment 178 179	,
+T29	segment 180 183	and
+T30	segment 184 189	other
+T31	segment 190 195	works
+T32	segment 196 198	of
+T33	segment 199 209	decorative
+T34	segment 210 214	arts
+T35	segment 215 216	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T7
+R3	compound Arg1:T6 Arg2:T4
+R4	compound Arg1:T6 Arg2:T5
+R5	compound Arg1:T7 Arg2:T6
+R6	compound Arg1:T7 Arg2:T5
+R7	is-specialized-by Arg1:T7 Arg2:T4
+R8	is-specialized-by Arg1:T12 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T25
+R10	compound Arg1:T25 Arg2:T24
+R11	compound Arg1:T25 Arg2:T15
+R12	is-specialized-by Arg1:T31 Arg2:T32
+R13	is-specialized-by Arg1:T31 Arg2:T30
+R14	c_co Arg1:T32 Arg2:T34
+R15	is-specialized-by Arg1:T34 Arg2:T33

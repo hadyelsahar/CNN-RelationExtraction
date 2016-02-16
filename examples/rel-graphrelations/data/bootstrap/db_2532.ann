@@ -1,0 +1,54 @@
+T0	segment 0 9	NzÃ©rÃ©korÃ©
+T1	segment 9 10	,
+T2	segment 11 15	also
+T3	segment 16 23	spelled
+T4	segment 24 34	N'ZÃ©rÃ©korÃ©
+T5	segment 34 35	,
+T6	segment 36 38	is
+T7	segment 39 42	the
+T8	segment 43 49	second
+T9	segment 50 57	largest
+T10	segment 58 62	city
+T11	segment 63 65	in
+T12	segment 66 72	Guinea
+T13	segment 73 75	by
+T14	segment 76 86	population
+T15	segment 86 87	,
+T16	segment 88 93	after
+T17	segment 94 97	the
+T18	segment 98 105	capital
+T19	segment 106 113	Conakry
+T20	segment 114 117	and
+T21	segment 118 121	the
+T22	segment 122 129	largest
+T23	segment 130 134	city
+T24	segment 135 137	in
+T25	segment 138 141	the
+T26	segment 142 148	GuinÃ©e
+T27	segment 149 159	ForestiÃ¨re
+T28	segment 160 166	region
+T29	segment 167 169	of
+T30	segment 170 183	south-eastern
+T31	segment 184 190	Guinea
+T32	segment 191 192	.
+R0	s_p Arg1:T0 Arg2:T6
+R1	is-specialized-by Arg1:T3 Arg2:T2
+R2	p_o Arg1:T3 Arg2:T4
+R3	p_o Arg1:T6 Arg2:T10
+R4	is-specialized-by Arg1:T10 Arg2:T8
+R5	is-specialized-by Arg1:T10 Arg2:T11
+R6	c_co Arg1:T11 Arg2:T12
+R7	is-specialized-by Arg1:T12 Arg2:T19
+R8	c_co Arg1:T13 Arg2:T14
+R9	c_co Arg1:T16 Arg2:T18
+R10	is-specialized-by Arg1:T19 Arg2:T16
+R11	is-specialized-by Arg1:T19 Arg2:T13
+R12	is-specialized-by Arg1:T23 Arg2:T24
+R13	is-specialized-by Arg1:T23 Arg2:T22
+R14	c_co Arg1:T24 Arg2:T28
+R15	compound Arg1:T27 Arg2:T26
+R16	compound Arg1:T28 Arg2:T27
+R17	compound Arg1:T28 Arg2:T26
+R18	is-specialized-by Arg1:T28 Arg2:T29
+R19	c_co Arg1:T29 Arg2:T31
+R20	is-specialized-by Arg1:T31 Arg2:T30

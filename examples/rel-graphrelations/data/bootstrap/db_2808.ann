@@ -1,0 +1,33 @@
+T0	segment 0 6	Bahgat
+T1	segment 7 12	Group
+T2	segment 13 15	is
+T3	segment 16 17	a
+T4	segment 18 23	group
+T5	segment 24 26	of
+T6	segment 27 36	companies
+T7	segment 37 39	in
+T8	segment 40 45	Egypt
+T9	segment 46 50	that
+T10	segment 51 62	manufacture
+T11	segment 63 74	electronics
+T12	segment 74 75	,
+T13	segment 76 85	household
+T14	segment 86 96	appliances
+T15	segment 96 97	,
+T16	segment 98 107	furniture
+T17	segment 107 108	,
+T18	segment 109 112	and
+T19	segment 113 120	medical
+T20	segment 121 130	equipment
+T21	segment 131 132	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T4
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T6
+R5	is-specialized-by Arg1:T6 Arg2:T7
+R6	c_co Arg1:T7 Arg2:T8
+R7	s_p Arg1:T9 Arg2:T10
+R8	p_o Arg1:T10 Arg2:T11
+R9	compound Arg1:T14 Arg2:T13
+R10	is-specialized-by Arg1:T20 Arg2:T19

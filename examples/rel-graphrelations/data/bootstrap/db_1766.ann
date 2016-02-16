@@ -1,0 +1,28 @@
+T0	segment 0 3	The
+T1	segment 4 9	Duchy
+T2	segment 10 12	of
+T3	segment 13 18	Milan
+T4	segment 19 22	was
+T5	segment 23 24	a
+T6	segment 25 36	constituent
+T7	segment 37 42	state
+T8	segment 43 45	of
+T9	segment 46 49	the
+T10	segment 50 54	Holy
+T11	segment 55 60	Roman
+T12	segment 61 67	Empire
+T13	segment 68 70	in
+T14	segment 71 79	northern
+T15	segment 80 85	Italy
+T16	segment 86 87	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T7 Arg2:T6
+R6	c_co Arg1:T8 Arg2:T12
+R7	is-specialized-by Arg1:T12 Arg2:T10
+R8	is-specialized-by Arg1:T12 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T15
+R10	is-specialized-by Arg1:T15 Arg2:T14

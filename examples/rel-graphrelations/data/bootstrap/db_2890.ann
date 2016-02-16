@@ -1,0 +1,42 @@
+T0	segment 0 3	The
+T1	segment 4 10	Merton
+T2	segment 11 17	Parkas
+T3	segment 18 22	were
+T4	segment 23 24	a
+T5	segment 25 28	mod
+T6	segment 29 36	revival
+T7	segment 37 41	band
+T8	segment 41 42	,
+T9	segment 43 49	formed
+T10	segment 50 52	in
+T11	segment 53 56	the
+T12	segment 57 63	Merton
+T13	segment 64 68	area
+T14	segment 69 71	of
+T15	segment 72 77	South
+T16	segment 78 84	London
+T17	segment 85 87	in
+T18	segment 88 91	the
+T19	segment 92 101	mid-1970s
+T20	segment 101 102	,
+T21	segment 103 105	by
+T22	segment 106 111	Danny
+T23	segment 112 118	Talbot
+T24	segment 119 120	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T7
+R3	compound Arg1:T7 Arg2:T6
+R4	compound Arg1:T7 Arg2:T5
+R5	is-specialized-by Arg1:T7 Arg2:T21
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T13
+R8	compound Arg1:T13 Arg2:T12
+R9	is-specialized-by Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T16
+R11	is-specialized-by Arg1:T16 Arg2:T17
+R12	compound Arg1:T16 Arg2:T15
+R13	c_co Arg1:T17 Arg2:T19
+R14	compound Arg1:T19 Arg2:T18
+R15	c_co Arg1:T21 Arg2:T23
+R16	compound Arg1:T23 Arg2:T22

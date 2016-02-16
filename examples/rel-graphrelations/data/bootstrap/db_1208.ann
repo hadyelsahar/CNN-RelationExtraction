@@ -1,0 +1,48 @@
+T0	segment 0 8	Gamerang
+T1	segment 9 11	is
+T2	segment 12 14	an
+T3	segment 15 23	American
+T4	segment 24 42	subscription-based
+T5	segment 43 49	online
+T6	segment 50 55	video
+T7	segment 56 60	game
+T8	segment 61 67	rental
+T9	segment 68 75	service
+T10	segment 76 80	that
+T11	segment 81 92	specializes
+T12	segment 93 95	in
+T13	segment 96 105	providing
+T14	segment 106 110	game
+T15	segment 111 117	titles
+T16	segment 118 121	for
+T17	segment 122 129	popular
+T18	segment 130 136	gaming
+T19	segment 137 146	platforms
+T20	segment 146 147	,
+T21	segment 148 157	including
+T22	segment 158 166	handheld
+T23	segment 167 171	game
+T24	segment 172 180	consoles
+T25	segment 181 184	and
+T26	segment 185 190	other
+T27	segment 191 197	mobile
+T28	segment 198 205	devices
+T29	segment 206 207	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T7
+R2	compound Arg1:T7 Arg2:T6
+R3	compound Arg1:T7 Arg2:T5
+R4	is-specialized-by Arg1:T7 Arg2:T3
+R5	is-specialized-by Arg1:T9 Arg2:T8
+R6	s_p Arg1:T9 Arg2:T24
+R7	s_p Arg1:T10 Arg2:T11
+R8	p_o Arg1:T13 Arg2:T15
+R9	is-specialized-by Arg1:T15 Arg2:T16
+R10	compound Arg1:T15 Arg2:T14
+R11	is-specialized-by Arg1:T15 Arg2:T21
+R12	c_co Arg1:T16 Arg2:T19
+R13	is-specialized-by Arg1:T19 Arg2:T17
+R14	compound Arg1:T19 Arg2:T18
+R15	c_co Arg1:T21 Arg2:T23
+R16	is-specialized-by Arg1:T23 Arg2:T22
+R17	is-specialized-by Arg1:T28 Arg2:T26

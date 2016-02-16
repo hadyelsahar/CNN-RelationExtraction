@@ -1,0 +1,65 @@
+T0	segment 0 9	Cockaigne
+T1	segment 10 12	or
+T2	segment 13 21	Cockayne
+T3	segment 22 24	is
+T4	segment 25 26	a
+T5	segment 27 31	land
+T6	segment 32 34	of
+T7	segment 35 41	plenty
+T8	segment 42 44	in
+T9	segment 45 53	medieval
+T10	segment 54 58	myth
+T11	segment 58 59	,
+T12	segment 60 62	an
+T13	segment 63 72	imaginary
+T14	segment 73 78	place
+T15	segment 79 81	of
+T16	segment 82 89	extreme
+T17	segment 90 96	luxury
+T18	segment 97 100	and
+T19	segment 101 105	ease
+T20	segment 106 111	where
+T21	segment 112 120	physical
+T22	segment 121 129	comforts
+T23	segment 130 133	and
+T24	segment 134 143	pleasures
+T25	segment 144 147	are
+T26	segment 148 154	always
+T27	segment 155 166	immediately
+T28	segment 167 169	at
+T29	segment 170 174	hand
+T30	segment 175 178	and
+T31	segment 179 184	where
+T32	segment 185 188	the
+T33	segment 189 198	harshness
+T34	segment 199 201	of
+T35	segment 202 210	medieval
+T36	segment 211 218	peasant
+T37	segment 219 223	life
+T38	segment 224 228	does
+T39	segment 229 232	not
+T40	segment 233 238	exist
+T41	segment 239 240	.
+R0	s_p Arg1:T0 Arg2:T3
+R1	p_o Arg1:T3 Arg2:T5
+R2	is-specialized-by Arg1:T5 Arg2:T6
+R3	c_co Arg1:T6 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	c_co Arg1:T8 Arg2:T10
+R6	is-specialized-by Arg1:T10 Arg2:T9
+R7	is-specialized-by Arg1:T14 Arg2:T15
+R8	is-specialized-by Arg1:T14 Arg2:T13
+R9	c_co Arg1:T15 Arg2:T17
+R10	is-specialized-by Arg1:T17 Arg2:T16
+R11	s_p Arg1:T22 Arg2:T25
+R12	is-specialized-by Arg1:T22 Arg2:T21
+R13	p_o Arg1:T25 Arg2:T29
+R14	is-specialized-by Arg1:T29 Arg2:T20
+R15	s_p Arg1:T33 Arg2:T40
+R16	is-specialized-by Arg1:T33 Arg2:T34
+R17	c_co Arg1:T34 Arg2:T37
+R18	compound Arg1:T37 Arg2:T36
+R19	is-specialized-by Arg1:T37 Arg2:T35
+R20	compound Arg1:T40 Arg2:T38
+R21	p_c Arg1:T40 Arg2:T31
+R22	compound Arg1:T40 Arg2:T39

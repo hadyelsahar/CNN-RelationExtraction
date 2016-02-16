@@ -1,0 +1,29 @@
+T0	segment 0 7	Colombo
+T1	segment 8 10	is
+T2	segment 11 14	the
+T3	segment 15 25	commercial
+T4	segment 26 33	capital
+T5	segment 34 37	and
+T6	segment 38 45	largest
+T7	segment 46 50	city
+T8	segment 51 53	of
+T9	segment 54 57	Sri
+T10	segment 58 63	Lanka
+T11	segment 63 64	,
+T12	segment 65 69	with
+T13	segment 70 71	a
+T14	segment 72 82	population
+T15	segment 83 85	of
+T16	segment 86 87	4
+T17	segment 88 89	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T12
+R3	is-specialized-by Arg1:T4 Arg2:T3
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T7 Arg2:T6
+R6	c_co Arg1:T8 Arg2:T10
+R7	compound Arg1:T10 Arg2:T9
+R8	c_co Arg1:T12 Arg2:T14
+R9	is-specialized-by Arg1:T14 Arg2:T15
+R10	c_co Arg1:T15 Arg2:T16

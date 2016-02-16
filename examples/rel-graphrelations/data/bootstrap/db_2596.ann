@@ -1,0 +1,37 @@
+T0	segment 0 5	Arigo
+T1	segment 6 13	Padovan
+T2	segment 14 17	was
+T3	segment 18 20	an
+T4	segment 21 28	Italian
+T5	segment 29 41	professional
+T6	segment 42 46	road
+T7	segment 47 54	bicycle
+T8	segment 55 60	racer
+T9	segment 60 61	,
+T10	segment 62 65	who
+T11	segment 66 69	won
+T12	segment 70 76	stages
+T13	segment 77 79	in
+T14	segment 80 84	both
+T15	segment 85 88	the
+T16	segment 89 93	Tour
+T17	segment 94 96	de
+T18	segment 97 103	France
+T19	segment 104 107	and
+T20	segment 108 111	the
+T21	segment 112 116	Giro
+T22	segment 117 125	d'Italia
+T23	segment 126 127	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T8
+R3	compound Arg1:T8 Arg2:T6
+R4	is-specialized-by Arg1:T8 Arg2:T4
+R5	compound Arg1:T8 Arg2:T7
+R6	s_p Arg1:T10 Arg2:T11
+R7	p_c Arg1:T11 Arg2:T13
+R8	p_o Arg1:T11 Arg2:T12
+R9	c_co Arg1:T13 Arg2:T18
+R10	compound Arg1:T18 Arg2:T16
+R11	compound Arg1:T18 Arg2:T17
+R12	compound Arg1:T22 Arg2:T21

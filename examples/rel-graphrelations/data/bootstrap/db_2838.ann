@@ -1,0 +1,49 @@
+T0	segment 0 27	Palatinate-Simmern-Sponheim
+T1	segment 28 31	was
+T2	segment 32 33	a
+T3	segment 34 39	state
+T4	segment 40 42	of
+T5	segment 43 46	the
+T6	segment 47 51	Holy
+T7	segment 52 57	Roman
+T8	segment 58 64	Empire
+T9	segment 65 70	based
+T10	segment 71 73	in
+T11	segment 74 77	the
+T12	segment 78 84	County
+T13	segment 85 93	Palatine
+T14	segment 94 96	of
+T15	segment 97 104	Simmern
+T16	segment 105 108	and
+T17	segment 109 112	the
+T18	segment 113 123	Palatinian
+T19	segment 124 131	portion
+T20	segment 132 134	of
+T21	segment 135 138	the
+T22	segment 139 145	County
+T23	segment 146 148	of
+T24	segment 149 157	Sponheim
+T25	segment 158 160	in
+T26	segment 161 167	modern
+T27	segment 168 188	Rhineland-Palatinate
+T28	segment 188 189	,
+T29	segment 190 197	Germany
+T30	segment 198 199	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T8
+R4	is-specialized-by Arg1:T8 Arg2:T6
+R5	is-specialized-by Arg1:T9 Arg2:T10
+R6	is-specialized-by Arg1:T9 Arg2:T25
+R7	c_co Arg1:T10 Arg2:T13
+R8	compound Arg1:T13 Arg2:T12
+R9	is-specialized-by Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T15
+R11	is-specialized-by Arg1:T19 Arg2:T18
+R12	is-specialized-by Arg1:T19 Arg2:T20
+R13	c_co Arg1:T20 Arg2:T22
+R14	is-specialized-by Arg1:T22 Arg2:T23
+R15	c_co Arg1:T23 Arg2:T24
+R16	c_co Arg1:T25 Arg2:T27
+R17	is-specialized-by Arg1:T27 Arg2:T26

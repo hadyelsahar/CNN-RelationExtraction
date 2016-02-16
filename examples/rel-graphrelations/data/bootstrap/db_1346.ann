@@ -1,0 +1,45 @@
+T0	segment 0 3	The
+T1	segment 4 9	Helix
+T2	segment 10 19	Universal
+T3	segment 20 25	Media
+T4	segment 26 32	Server
+T5	segment 33 35	is
+T6	segment 36 45	developed
+T7	segment 46 48	by
+T8	segment 49 61	RealNetworks
+T9	segment 62 65	and
+T10	segment 66 76	originates
+T11	segment 77 81	from
+T12	segment 82 85	the
+T13	segment 86 90	very
+T14	segment 91 96	first
+T15	segment 97 106	streaming
+T16	segment 107 112	media
+T17	segment 113 119	server
+T18	segment 120 130	originally
+T19	segment 131 140	developed
+T20	segment 141 143	by
+T21	segment 144 155	Progressive
+T22	segment 156 164	Networks
+T23	segment 165 167	in
+T24	segment 168 172	1994
+T25	segment 173 174	.
+R0	compound Arg1:T4 Arg2:T3
+R1	s_p Arg1:T4 Arg2:T6
+R2	compound Arg1:T4 Arg2:T2
+R3	compound Arg1:T4 Arg2:T1
+R4	compound Arg1:T6 Arg2:T5
+R5	p_c Arg1:T6 Arg2:T7
+R6	c_co Arg1:T7 Arg2:T8
+R7	is-specialized-by Arg1:T10 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T17
+R9	is-specialized-by Arg1:T14 Arg2:T13
+R10	compound Arg1:T17 Arg2:T16
+R11	compound Arg1:T17 Arg2:T15
+R12	is-specialized-by Arg1:T17 Arg2:T14
+R13	is-specialized-by Arg1:T19 Arg2:T18
+R14	is-specialized-by Arg1:T19 Arg2:T20
+R15	c_co Arg1:T20 Arg2:T22
+R16	is-specialized-by Arg1:T22 Arg2:T23
+R17	compound Arg1:T22 Arg2:T21
+R18	c_co Arg1:T23 Arg2:T24

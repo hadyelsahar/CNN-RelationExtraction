@@ -1,0 +1,31 @@
+T0	segment 0 8	Nesodden
+T1	segment 8 9	--
+T2	segment 9 19	Bundefjord
+T3	segment 20 36	Dampskipsselskap
+T4	segment 36 37	,
+T5	segment 38 50	NesoddbÃ¥tene
+T6	segment 51 53	or
+T7	segment 54 58	NBDS
+T8	segment 59 61	is
+T9	segment 62 63	a
+T10	segment 64 73	Norwegian
+T11	segment 74 82	shipping
+T12	segment 83 90	company
+T13	segment 91 95	that
+T14	segment 96 104	operates
+T15	segment 105 108	the
+T16	segment 109 118	passenger
+T17	segment 119 124	ferry
+T18	segment 125 127	in
+T19	segment 128 137	Oslofjord
+T20	segment 138 139	.
+R0	s_p Arg1:T3 Arg2:T8
+R1	compound Arg1:T3 Arg2:T2
+R2	p_o Arg1:T8 Arg2:T12
+R3	compound Arg1:T12 Arg2:T11
+R4	is-specialized-by Arg1:T12 Arg2:T10
+R5	s_p Arg1:T13 Arg2:T14
+R6	p_o Arg1:T14 Arg2:T17
+R7	is-specialized-by Arg1:T17 Arg2:T18
+R8	compound Arg1:T17 Arg2:T16
+R9	c_co Arg1:T18 Arg2:T19

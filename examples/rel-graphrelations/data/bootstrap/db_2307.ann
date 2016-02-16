@@ -1,0 +1,26 @@
+T0	segment 0 3	Ben
+T1	segment 4 12	Granfelt
+T2	segment 13 19	second
+T3	segment 20 26	degree
+T4	segment 27 32	black
+T5	segment 33 37	belt
+T6	segment 38 40	in
+T7	segment 41 47	karate
+T8	segment 48 51	and
+T9	segment 52 57	brown
+T10	segment 58 62	belt
+T11	segment 63 65	in
+T12	segment 66 75	Brazilian
+T13	segment 76 85	Jiu-Jitsu
+T14	segment 86 87	.
+R0	s_p Arg1:T1 Arg2:T3
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T3 Arg2:T5
+R3	p_c Arg1:T3 Arg2:T2
+R4	p_c Arg1:T3 Arg2:T11
+R5	is-specialized-by Arg1:T5 Arg2:T4
+R6	is-specialized-by Arg1:T5 Arg2:T6
+R7	c_co Arg1:T6 Arg2:T10
+R8	compound Arg1:T10 Arg2:T7
+R9	c_co Arg1:T11 Arg2:T13
+R10	is-specialized-by Arg1:T13 Arg2:T12

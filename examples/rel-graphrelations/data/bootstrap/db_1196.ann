@@ -1,0 +1,76 @@
+T0	segment 0 3	Ali
+T1	segment 4 9	Akbar
+T2	segment 10 19	Javanfekr
+T3	segment 20 22	is
+T4	segment 23 24	a
+T5	segment 25 31	senior
+T6	segment 32 39	Iranian
+T7	segment 40 50	politician
+T8	segment 51 54	and
+T9	segment 55 58	the
+T10	segment 59 71	presidential
+T11	segment 72 79	advisor
+T12	segment 80 83	for
+T13	segment 84 89	press
+T14	segment 90 97	affairs
+T15	segment 98 101	and
+T16	segment 102 104	as
+T17	segment 105 107	of
+T18	segment 108 110	19
+T19	segment 111 119	December
+T20	segment 120 124	2010
+T21	segment 124 125	,
+T22	segment 126 128	He
+T23	segment 129 131	is
+T24	segment 132 135	the
+T25	segment 136 153	Managing-Director
+T26	segment 154 156	of
+T27	segment 157 161	IRNA
+T28	segment 162 167	since
+T29	segment 168 169	1
+T30	segment 170 178	November
+T31	segment 179 183	2010
+T32	segment 184 186	On
+T33	segment 187 189	20
+T34	segment 190 198	November
+T35	segment 199 203	2011
+T36	segment 203 204	,
+T37	segment 205 207	he
+T38	segment 208 211	was
+T39	segment 212 221	sentenced
+T40	segment 222 224	to
+T41	segment 225 226	a
+T42	segment 227 231	year
+T43	segment 232 234	in
+T44	segment 235 241	prison
+T45	segment 242 244	on
+T46	segment 245 252	charges
+T47	segment 253 255	of
+T48	segment 256 257	''
+T49	segment 257 258	``
+T50	segment 258 268	publishing
+T51	segment 269 278	materials
+T52	segment 279 287	contrary
+T53	segment 288 290	to
+T54	segment 291 298	Islamic
+T55	segment 299 304	norms
+T56	segment 304 305	''
+T57	segment 305 306	''
+T58	segment 306 307	,
+T59	segment 308 312	this
+T60	segment 313 316	was
+T61	segment 317 322	later
+T62	segment 323 329	uphold
+T63	segment 330 332	by
+T64	segment 333 336	the
+T65	segment 337 342	court
+T66	segment 343 344	.
+R0	compound Arg1:T2 Arg2:T0
+R1	compound Arg1:T2 Arg2:T1
+R2	compound Arg1:T20 Arg2:T19
+R3	compound Arg1:T20 Arg2:T18
+R4	compound Arg1:T31 Arg2:T30
+R5	compound Arg1:T31 Arg2:T29
+R6	compound Arg1:T35 Arg2:T34
+R7	compound Arg1:T35 Arg2:T33
+R8	compound Arg1:T42 Arg2:T41

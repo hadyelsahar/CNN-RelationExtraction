@@ -1,0 +1,31 @@
+T0	segment 0 4	Wied
+T1	segment 5 8	was
+T2	segment 9 10	a
+T3	segment 11 17	County
+T4	segment 18 20	of
+T5	segment 21 41	Rhineland-Palatinate
+T6	segment 41 42	,
+T7	segment 43 50	Germany
+T8	segment 50 51	,
+T9	segment 52 59	located
+T10	segment 60 62	on
+T11	segment 63 66	the
+T12	segment 67 72	river
+T13	segment 73 77	Wied
+T14	segment 78 83	where
+T15	segment 84 86	it
+T16	segment 87 92	meets
+T17	segment 93 96	the
+T18	segment 97 102	Rhine
+T19	segment 103 104	.
+R0	p_p Arg1:T0 Arg2:T1
+R1	is-specialized-by Arg1:T3 Arg2:T4
+R2	c_co Arg1:T4 Arg2:T5
+R3	s_p Arg1:T7 Arg2:T13
+R4	is-specialized-by Arg1:T7 Arg2:T9
+R5	is-specialized-by Arg1:T9 Arg2:T10
+R6	c_co Arg1:T10 Arg2:T12
+R7	p_p Arg1:T13 Arg2:T0
+R8	s_p Arg1:T15 Arg2:T16
+R9	p_o Arg1:T16 Arg2:T18
+R10	p_c Arg1:T16 Arg2:T14

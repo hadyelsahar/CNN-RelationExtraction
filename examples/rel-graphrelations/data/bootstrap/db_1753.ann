@@ -1,0 +1,23 @@
+T0	segment 0 6	Beylik
+T1	segment 7 9	of
+T2	segment 10 21	TanrÄ±bermiÅ
+T3	segment 22 25	was
+T4	segment 26 27	a
+T5	segment 28 33	small
+T6	segment 34 37	and
+T7	segment 38 49	short-lived
+T8	segment 50 62	principality
+T9	segment 63 65	in
+T10	segment 66 73	western
+T11	segment 74 82	Anatolia
+T12	segment 83 86	and
+T13	segment 87 94	Ephesus
+T14	segment 95 96	.
+R0	is-specialized-by Arg1:T0 Arg2:T1
+R1	s_p Arg1:T0 Arg2:T3
+R2	c_co Arg1:T1 Arg2:T2
+R3	p_o Arg1:T3 Arg2:T8
+R4	is-specialized-by Arg1:T8 Arg2:T9
+R5	is-specialized-by Arg1:T8 Arg2:T5
+R6	c_co Arg1:T9 Arg2:T11
+R7	is-specialized-by Arg1:T11 Arg2:T10

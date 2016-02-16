@@ -1,0 +1,38 @@
+T0	segment 0 7	Chitral
+T1	segment 8 11	was
+T2	segment 12 13	a
+T3	segment 14 22	princely
+T4	segment 23 28	state
+T5	segment 29 31	in
+T6	segment 32 40	alliance
+T7	segment 41 45	with
+T8	segment 46 53	British
+T9	segment 54 59	India
+T10	segment 60 65	until
+T11	segment 66 70	1947
+T12	segment 70 71	,
+T13	segment 72 76	then
+T14	segment 77 78	a
+T15	segment 79 87	princely
+T16	segment 88 93	state
+T17	segment 94 96	of
+T18	segment 97 105	Pakistan
+T19	segment 106 111	until
+T20	segment 112 116	1969
+T21	segment 117 118	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T10
+R3	is-specialized-by Arg1:T4 Arg2:T19
+R4	is-specialized-by Arg1:T4 Arg2:T3
+R5	is-specialized-by Arg1:T4 Arg2:T5
+R6	c_co Arg1:T5 Arg2:T6
+R7	is-specialized-by Arg1:T6 Arg2:T7
+R8	c_co Arg1:T7 Arg2:T9
+R9	is-specialized-by Arg1:T9 Arg2:T8
+R10	c_co Arg1:T10 Arg2:T11
+R11	is-specialized-by Arg1:T16 Arg2:T15
+R12	is-specialized-by Arg1:T16 Arg2:T17
+R13	is-specialized-by Arg1:T16 Arg2:T13
+R14	c_co Arg1:T17 Arg2:T18
+R15	c_co Arg1:T19 Arg2:T20

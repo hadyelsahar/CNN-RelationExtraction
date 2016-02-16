@@ -1,0 +1,39 @@
+T0	segment 0 3	The
+T1	segment 4 9	Theme
+T2	segment 10 12	of
+T3	segment 13 24	Paphlagonia
+T4	segment 25 27	of
+T5	segment 28 31	the
+T6	segment 32 41	Byzantine
+T7	segment 42 48	Empire
+T8	segment 49 51	in
+T9	segment 52 55	the
+T10	segment 56 64	namesake
+T11	segment 65 71	region
+T12	segment 72 77	along
+T13	segment 78 81	the
+T14	segment 82 90	northern
+T15	segment 91 96	coast
+T16	segment 97 99	of
+T17	segment 100 108	Anatolia
+T18	segment 108 109	,
+T19	segment 110 112	in
+T20	segment 113 119	modern
+T21	segment 120 126	Turkey
+T22	segment 127 128	.
+R0	is-specialized-by Arg1:T1 Arg2:T12
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	is-specialized-by Arg1:T1 Arg2:T4
+R3	c_co Arg1:T2 Arg2:T3
+R4	c_co Arg1:T4 Arg2:T7
+R5	is-specialized-by Arg1:T7 Arg2:T8
+R6	is-specialized-by Arg1:T7 Arg2:T6
+R7	c_co Arg1:T8 Arg2:T11
+R8	compound Arg1:T11 Arg2:T10
+R9	c_co Arg1:T12 Arg2:T15
+R10	is-specialized-by Arg1:T15 Arg2:T16
+R11	is-specialized-by Arg1:T15 Arg2:T19
+R12	is-specialized-by Arg1:T15 Arg2:T14
+R13	c_co Arg1:T16 Arg2:T17
+R14	c_co Arg1:T19 Arg2:T21
+R15	is-specialized-by Arg1:T21 Arg2:T20

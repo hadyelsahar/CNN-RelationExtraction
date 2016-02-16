@@ -1,0 +1,41 @@
+T0	segment 0 1	''
+T1	segment 1 2	``
+T2	segment 2 9	Toronto
+T3	segment 9 11	's
+T4	segment 12 24	enterprising
+T5	segment 25 28	One
+T6	segment 29 35	Little
+T7	segment 36 40	Goat
+T8	segment 41 48	Theatre
+T9	segment 49 56	Company
+T10	segment 56 57	''
+T11	segment 57 58	''
+T12	segment 59 61	is
+T13	segment 62 67	North
+T14	segment 68 75	America
+T15	segment 75 77	's
+T16	segment 78 82	only
+T17	segment 83 90	theatre
+T18	segment 91 98	company
+T19	segment 99 106	devoted
+T20	segment 107 109	to
+T21	segment 110 116	modern
+T22	segment 117 120	and
+T23	segment 121 133	contemporary
+T24	segment 134 135	``
+T25	segment 135 141	poetic
+T26	segment 142 149	theatre
+T27	segment 150 151	.
+R0	s_p Arg1:T0 Arg2:T12
+R1	is-specialized-by Arg1:T2 Arg2:T4
+R2	compound Arg1:T9 Arg2:T6
+R3	compound Arg1:T9 Arg2:T8
+R4	compound Arg1:T9 Arg2:T7
+R5	p_o Arg1:T12 Arg2:T18
+R6	compound Arg1:T14 Arg2:T13
+R7	is-specialized-by Arg1:T18 Arg2:T16
+R8	compound Arg1:T18 Arg2:T17
+R9	p_o Arg1:T19 Arg2:T26
+R10	is-specialized-by Arg1:T19 Arg2:T20
+R11	c_co Arg1:T20 Arg2:T21
+R12	is-specialized-by Arg1:T26 Arg2:T25

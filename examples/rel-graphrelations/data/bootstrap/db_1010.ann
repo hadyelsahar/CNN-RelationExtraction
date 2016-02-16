@@ -1,0 +1,38 @@
+T0	segment 0 4	Mali
+T1	segment 5 6	,
+T2	segment 7 17	officially
+T3	segment 18 21	the
+T4	segment 22 30	Republic
+T5	segment 31 33	of
+T6	segment 34 38	Mali
+T7	segment 39 45	joined
+T8	segment 46 50	with
+T9	segment 51 58	Senegal
+T10	segment 59 61	in
+T11	segment 62 66	1959
+T12	segment 66 67	,
+T13	segment 68 77	achieving
+T14	segment 78 90	independence
+T15	segment 91 93	in
+T16	segment 94 98	1960
+T17	segment 99 101	as
+T18	segment 102 105	the
+T19	segment 106 110	Mali
+T20	segment 111 121	Federation
+T21	segment 122 123	.
+R0	s_p Arg1:T0 Arg2:T7
+R1	is-specialized-by Arg1:T4 Arg2:T2
+R2	is-specialized-by Arg1:T4 Arg2:T5
+R3	c_co Arg1:T5 Arg2:T6
+R4	compound Arg1:T6 Arg2:T4
+R5	compound Arg1:T6 Arg2:T5
+R6	p_c Arg1:T7 Arg2:T10
+R7	p_c Arg1:T7 Arg2:T8
+R8	c_co Arg1:T8 Arg2:T9
+R9	c_co Arg1:T10 Arg2:T11
+R10	is-specialized-by Arg1:T13 Arg2:T17
+R11	p_o Arg1:T13 Arg2:T14
+R12	is-specialized-by Arg1:T14 Arg2:T15
+R13	c_co Arg1:T15 Arg2:T16
+R14	c_co Arg1:T17 Arg2:T20
+R15	compound Arg1:T20 Arg2:T19

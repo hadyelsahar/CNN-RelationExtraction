@@ -1,0 +1,59 @@
+T0	segment 0 6	Volker
+T1	segment 7 14	Kriegel
+T2	segment 15 18	was
+T3	segment 19 20	a
+T4	segment 21 27	German
+T5	segment 28 32	jazz
+T6	segment 33 42	guitarist
+T7	segment 43 46	and
+T8	segment 47 55	composer
+T9	segment 56 60	born
+T10	segment 61 63	in
+T11	segment 64 73	Darmstadt
+T12	segment 73 74	,
+T13	segment 75 82	Germany
+T14	segment 82 83	,
+T15	segment 84 91	perhaps
+T16	segment 92 96	most
+T17	segment 97 107	noteworthy
+T18	segment 108 111	for
+T19	segment 112 115	his
+T20	segment 116 129	contributions
+T21	segment 130 132	to
+T22	segment 133 136	the
+T23	segment 137 145	European
+T24	segment 146 150	jazz
+T25	segment 151 155	rock
+T26	segment 156 161	genre
+T27	segment 162 165	and
+T28	segment 166 169	for
+T29	segment 170 173	his
+T30	segment 174 188	collaborations
+T31	segment 189 193	with
+T32	segment 194 197	the
+T33	segment 198 206	American
+T34	segment 207 219	vibraphonist
+T35	segment 220 224	Dave
+T36	segment 225 229	Pike
+T37	segment 230 231	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T6
+R3	compound Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T6 Arg2:T4
+R5	is-specialized-by Arg1:T9 Arg2:T31
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	is-specialized-by Arg1:T9 Arg2:T21
+R8	c_co Arg1:T10 Arg2:T13
+R9	compound Arg1:T13 Arg2:T11
+R10	is-specialized-by Arg1:T17 Arg2:T15
+R11	is-specialized-by Arg1:T17 Arg2:T18
+R12	c_co Arg1:T18 Arg2:T20
+R13	c_co Arg1:T21 Arg2:T26
+R14	is-specialized-by Arg1:T26 Arg2:T23
+R15	compound Arg1:T26 Arg2:T24
+R16	compound Arg1:T26 Arg2:T25
+R17	c_co Arg1:T31 Arg2:T36
+R18	compound Arg1:T36 Arg2:T35
+R19	is-specialized-by Arg1:T36 Arg2:T33
+R20	compound Arg1:T36 Arg2:T34

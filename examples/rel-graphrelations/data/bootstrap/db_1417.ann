@@ -1,0 +1,32 @@
+T0	segment 0 11	Diversitech
+T1	segment 12 14	is
+T2	segment 15 17	an
+T3	segment 18 26	American
+T4	segment 27 34	company
+T5	segment 35 39	that
+T6	segment 40 52	manufactures
+T7	segment 53 63	components
+T8	segment 64 67	and
+T9	segment 68 76	products
+T10	segment 77 84	related
+T11	segment 85 87	to
+T12	segment 88 91	the
+T13	segment 92 99	heating
+T14	segment 99 100	,
+T15	segment 101 112	ventilating
+T16	segment 112 113	,
+T17	segment 114 117	air
+T18	segment 118 130	conditioning
+T19	segment 131 134	and
+T20	segment 135 148	refrigeration
+T21	segment 149 157	industry
+T22	segment 158 159	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	s_p Arg1:T5 Arg2:T6
+R4	s_p Arg1:T7 Arg2:T10
+R5	p_c Arg1:T10 Arg2:T11
+R6	c_co Arg1:T11 Arg2:T13
+R7	compound Arg1:T18 Arg2:T17
+R8	compound Arg1:T21 Arg2:T20

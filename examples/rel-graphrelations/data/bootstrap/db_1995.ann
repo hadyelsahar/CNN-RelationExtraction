@@ -1,0 +1,27 @@
+T0	segment 0 3	The
+T1	segment 4 13	Bishopric
+T2	segment 14 16	of
+T3	segment 17 27	Regensburg
+T4	segment 28 30	of
+T5	segment 31 34	the
+T6	segment 35 39	Holy
+T7	segment 40 45	Roman
+T8	segment 46 52	Empire
+T9	segment 52 53	,
+T10	segment 54 61	located
+T11	segment 62 64	in
+T12	segment 65 69	what
+T13	segment 70 72	is
+T14	segment 73 76	now
+T15	segment 77 85	southern
+T16	segment 86 93	Germany
+T17	segment 94 95	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	c_co Arg1:T2 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T8
+R4	is-specialized-by Arg1:T8 Arg2:T6
+R5	s_p Arg1:T12 Arg2:T13
+R6	p_o Arg1:T13 Arg2:T15
+R7	is-specialized-by Arg1:T15 Arg2:T14
+R8	is-specialized-by Arg1:T16 Arg2:T10

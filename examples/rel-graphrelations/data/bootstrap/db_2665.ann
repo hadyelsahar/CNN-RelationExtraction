@@ -1,0 +1,27 @@
+T0	segment 0 6	MANWEB
+T1	segment 7 10	was
+T2	segment 11 14	the
+T3	segment 15 23	regional
+T4	segment 24 35	electricity
+T5	segment 36 44	supplier
+T6	segment 45 48	and
+T7	segment 49 60	distributor
+T8	segment 61 64	for
+T9	segment 65 75	Merseyside
+T10	segment 75 76	,
+T11	segment 77 82	North
+T12	segment 83 88	Wales
+T13	segment 89 92	and
+T14	segment 93 98	parts
+T15	segment 99 101	of
+T16	segment 102 110	Cheshire
+T17	segment 111 112	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T5
+R2	compound Arg1:T5 Arg2:T4
+R3	is-specialized-by Arg1:T5 Arg2:T8
+R4	is-specialized-by Arg1:T5 Arg2:T3
+R5	is-specialized-by Arg1:T5 Arg2:T15
+R6	c_co Arg1:T8 Arg2:T9
+R7	compound Arg1:T12 Arg2:T11
+R8	c_co Arg1:T15 Arg2:T16

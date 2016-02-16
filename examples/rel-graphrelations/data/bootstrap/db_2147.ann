@@ -1,0 +1,31 @@
+T0	segment 0 7	Patusan
+T1	segment 8 10	is
+T2	segment 11 12	a
+T3	segment 13 22	fictional
+T4	segment 23 30	country
+T5	segment 31 42	originating
+T6	segment 43 45	in
+T7	segment 46 49	the
+T8	segment 50 55	novel
+T9	segment 56 60	Lord
+T10	segment 61 64	Jim
+T11	segment 65 67	by
+T12	segment 68 74	Joseph
+T13	segment 75 81	Conrad
+T14	segment 81 82	,
+T15	segment 83 92	published
+T16	segment 93 95	in
+T17	segment 96 100	1900
+T18	segment 101 102	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T5 Arg2:T11
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T10
+R6	is-specialized-by Arg1:T10 Arg2:T8
+R7	compound Arg1:T10 Arg2:T9
+R8	c_co Arg1:T11 Arg2:T13
+R9	compound Arg1:T13 Arg2:T12
+R10	is-specialized-by Arg1:T15 Arg2:T16
+R11	c_co Arg1:T16 Arg2:T17

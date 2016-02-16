@@ -1,0 +1,55 @@
+T0	segment 0 2	US
+T1	segment 3 10	Bellows
+T2	segment 11 13	is
+T3	segment 14 15	a
+T4	segment 16 28	manufacturer
+T5	segment 29 31	of
+T6	segment 32 37	metal
+T7	segment 38 45	bellows
+T8	segment 45 46	,
+T9	segment 47 53	fabric
+T10	segment 54 63	expansion
+T11	segment 64 70	joints
+T12	segment 70 71	,
+T13	segment 72 75	and
+T14	segment 76 84	metallic
+T15	segment 85 94	expansion
+T16	segment 95 101	joints
+T17	segment 102 111	including
+T18	segment 112 122	refractory
+T19	segment 123 128	lined
+T20	segment 128 129	,
+T21	segment 130 136	hinged
+T22	segment 136 137	,
+T23	segment 138 144	gimbal
+T24	segment 144 145	,
+T25	segment 146 155	slip-type
+T26	segment 155 156	,
+T27	segment 157 164	in-line
+T28	segment 165 173	pressure
+T29	segment 174 182	balanced
+T30	segment 182 183	,
+T31	segment 184 187	and
+T32	segment 188 193	elbow
+T33	segment 194 202	pressure
+T34	segment 203 211	balanced
+T35	segment 212 221	expansion
+T36	segment 222 228	joints
+T37	segment 229 230	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T4
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T7
+R5	compound Arg1:T7 Arg2:T6
+R6	compound Arg1:T11 Arg2:T10
+R7	compound Arg1:T11 Arg2:T9
+R8	is-specialized-by Arg1:T16 Arg2:T17
+R9	compound Arg1:T16 Arg2:T15
+R10	is-specialized-by Arg1:T16 Arg2:T14
+R11	c_co Arg1:T17 Arg2:T18
+R12	p_o Arg1:T19 Arg2:T23
+R13	is-specialized-by Arg1:T28 Arg2:T27
+R14	compound Arg1:T33 Arg2:T32
+R15	compound Arg1:T36 Arg2:T35
+R16	is-specialized-by Arg1:T36 Arg2:T34

@@ -1,0 +1,39 @@
+T0	segment 0 3	The
+T1	segment 4 8	USWA
+T2	segment 9 19	Television
+T3	segment 20 32	Championship
+T4	segment 33 36	was
+T5	segment 37 38	a
+T6	segment 39 48	secondary
+T7	segment 49 54	title
+T8	segment 55 57	in
+T9	segment 58 61	the
+T10	segment 62 68	United
+T11	segment 69 75	States
+T12	segment 76 85	Wrestling
+T13	segment 86 97	Association
+T14	segment 98 102	that
+T15	segment 103 106	was
+T16	segment 107 116	primarily
+T17	segment 117 125	defended
+T18	segment 126 128	on
+T19	segment 129 134	their
+T20	segment 135 145	television
+T21	segment 146 150	show
+T22	segment 151 152	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T7 Arg2:T6
+R6	c_co Arg1:T8 Arg2:T13
+R7	compound Arg1:T13 Arg2:T12
+R8	compound Arg1:T13 Arg2:T11
+R9	compound Arg1:T13 Arg2:T10
+R10	s_p Arg1:T14 Arg2:T17
+R11	p_c Arg1:T17 Arg2:T18
+R12	compound Arg1:T17 Arg2:T15
+R13	p_c Arg1:T17 Arg2:T16
+R14	c_co Arg1:T18 Arg2:T21
+R15	compound Arg1:T21 Arg2:T20

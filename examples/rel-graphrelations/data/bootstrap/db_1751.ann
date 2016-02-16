@@ -1,0 +1,31 @@
+T0	segment 0 3	Abu
+T1	segment 4 9	Basir
+T2	segment 10 20	al-Tartusi
+T3	segment 21 23	is
+T4	segment 24 27	the
+T5	segment 28 35	assumed
+T6	segment 36 40	name
+T7	segment 41 43	of
+T8	segment 44 50	Abd-al
+T9	segment 51 54	Mun
+T10	segment 54 57	'em
+T11	segment 58 65	Mustafa
+T12	segment 66 72	Halima
+T13	segment 72 73	,
+T14	segment 74 75	a
+T15	segment 76 82	Syrian
+T16	segment 83 89	cleric
+T17	segment 90 93	and
+T18	segment 94 102	jihadist
+T19	segment 103 115	theoretician
+T20	segment 116 117	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	is-specialized-by Arg1:T6 Arg2:T5
+R6	c_co Arg1:T7 Arg2:T8
+R7	compound Arg1:T12 Arg2:T11
+R8	compound Arg1:T12 Arg2:T9
+R9	is-specialized-by Arg1:T19 Arg2:T15

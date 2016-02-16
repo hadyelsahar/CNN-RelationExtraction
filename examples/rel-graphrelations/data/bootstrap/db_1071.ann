@@ -1,0 +1,42 @@
+T0	segment 0 16	Sekondi-Takoradi
+T1	segment 16 17	,
+T2	segment 18 19	a
+T3	segment 20 24	city
+T4	segment 25 35	comprising
+T5	segment 36 39	the
+T6	segment 40 44	twin
+T7	segment 45 51	cities
+T8	segment 52 54	of
+T9	segment 55 62	Sekondi
+T10	segment 63 66	and
+T11	segment 67 75	Takoradi
+T12	segment 75 76	,
+T13	segment 77 79	is
+T14	segment 80 83	the
+T15	segment 84 91	capital
+T16	segment 92 94	of
+T17	segment 95 102	Sekondi
+T18	segment 103 111	Takoradi
+T19	segment 112 124	Metropolitan
+T20	segment 125 133	District
+T21	segment 134 137	and
+T22	segment 138 141	the
+T23	segment 142 149	Western
+T24	segment 150 156	Region
+T25	segment 157 159	of
+T26	segment 160 165	Ghana
+T27	segment 166 167	.
+R0	s_p Arg1:T0 Arg2:T13
+R1	p_o Arg1:T4 Arg2:T7
+R2	is-specialized-by Arg1:T7 Arg2:T8
+R3	is-specialized-by Arg1:T7 Arg2:T6
+R4	c_co Arg1:T8 Arg2:T9
+R5	p_o Arg1:T13 Arg2:T15
+R6	is-specialized-by Arg1:T15 Arg2:T16
+R7	c_co Arg1:T16 Arg2:T20
+R8	compound Arg1:T20 Arg2:T19
+R9	compound Arg1:T20 Arg2:T18
+R10	compound Arg1:T20 Arg2:T17
+R11	is-specialized-by Arg1:T24 Arg2:T23
+R12	is-specialized-by Arg1:T24 Arg2:T25
+R13	c_co Arg1:T25 Arg2:T26

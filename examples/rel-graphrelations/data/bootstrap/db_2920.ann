@@ -1,0 +1,42 @@
+T0	segment 0 3	The
+T1	segment 4 10	Banner
+T2	segment 11 13	of
+T3	segment 14 17	the
+T4	segment 18 22	Holy
+T5	segment 23 28	Roman
+T6	segment 29 35	Church
+T7	segment 36 39	was
+T8	segment 40 43	the
+T9	segment 44 50	battle
+T10	segment 51 59	standard
+T11	segment 60 62	of
+T12	segment 63 66	the
+T13	segment 67 72	Papal
+T14	segment 73 79	States
+T15	segment 80 86	during
+T16	segment 87 90	the
+T17	segment 91 102	Renaissance
+T18	segment 103 106	and
+T19	segment 107 108	a
+T20	segment 109 115	symbol
+T21	segment 116 118	of
+T22	segment 119 122	the
+T23	segment 123 128	Roman
+T24	segment 129 137	Catholic
+T25	segment 138 144	Church
+T26	segment 145 146	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T7
+R2	c_co Arg1:T2 Arg2:T6
+R3	is-specialized-by Arg1:T6 Arg2:T4
+R4	p_o Arg1:T7 Arg2:T10
+R5	is-specialized-by Arg1:T10 Arg2:T15
+R6	is-specialized-by Arg1:T10 Arg2:T11
+R7	compound Arg1:T10 Arg2:T9
+R8	c_co Arg1:T11 Arg2:T14
+R9	compound Arg1:T14 Arg2:T13
+R10	c_co Arg1:T15 Arg2:T17
+R11	is-specialized-by Arg1:T20 Arg2:T21
+R12	c_co Arg1:T21 Arg2:T25
+R13	compound Arg1:T25 Arg2:T24
+R14	compound Arg1:T25 Arg2:T23

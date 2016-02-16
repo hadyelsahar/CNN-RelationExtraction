@@ -1,0 +1,30 @@
+T0	segment 0 7	Kingdom
+T1	segment 8 10	of
+T2	segment 11 18	Balhara
+T3	segment 19 21	is
+T4	segment 22 23	a
+T5	segment 24 30	fringe
+T6	segment 31 37	theory
+T7	segment 38 40	of
+T8	segment 41 45	some
+T9	segment 46 55	Bulgarian
+T10	segment 56 66	scientists
+T11	segment 67 72	place
+T12	segment 73 76	the
+T13	segment 77 81	date
+T14	segment 82 87	7/6th
+T15	segment 88 95	century
+T16	segment 96 98	BC
+T17	segment 99 100	.
+R0	is-specialized-by Arg1:T0 Arg2:T1
+R1	s_p Arg1:T0 Arg2:T3
+R2	c_co Arg1:T1 Arg2:T2
+R3	p_o Arg1:T3 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	compound Arg1:T6 Arg2:T5
+R6	c_co Arg1:T7 Arg2:T10
+R7	is-specialized-by Arg1:T10 Arg2:T9
+R8	p_o Arg1:T11 Arg2:T16
+R9	compound Arg1:T16 Arg2:T13
+R10	compound Arg1:T16 Arg2:T15
+R11	is-specialized-by Arg1:T16 Arg2:T14

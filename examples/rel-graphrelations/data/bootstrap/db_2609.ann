@@ -1,0 +1,32 @@
+T0	segment 0 3	The
+T1	segment 4 8	Twin
+T2	segment 9 13	City
+T3	segment 14 19	Rapid
+T4	segment 20 27	Transit
+T5	segment 28 35	Company
+T6	segment 36 37	,
+T7	segment 38 41	was
+T8	segment 42 43	a
+T9	segment 44 58	transportation
+T10	segment 59 66	company
+T11	segment 67 71	that
+T12	segment 72 80	operated
+T13	segment 81 91	streetcars
+T14	segment 91 92	,
+T15	segment 93 96	and
+T16	segment 97 102	buses
+T17	segment 103 105	in
+T18	segment 106 109	the
+T19	segment 110 124	Minneapolis-St
+T20	segment 125 126	.
+R0	compound Arg1:T5 Arg2:T4
+R1	compound Arg1:T5 Arg2:T3
+R2	s_p Arg1:T5 Arg2:T7
+R3	compound Arg1:T5 Arg2:T2
+R4	compound Arg1:T5 Arg2:T1
+R5	p_o Arg1:T7 Arg2:T10
+R6	compound Arg1:T10 Arg2:T9
+R7	s_p Arg1:T11 Arg2:T12
+R8	p_o Arg1:T12 Arg2:T13
+R9	is-specialized-by Arg1:T16 Arg2:T17
+R10	c_co Arg1:T17 Arg2:T19

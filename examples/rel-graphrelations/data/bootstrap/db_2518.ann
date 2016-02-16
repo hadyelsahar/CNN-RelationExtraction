@@ -1,0 +1,30 @@
+T0	segment 0 9	RiverCity
+T1	segment 10 18	Motorway
+T2	segment 19 24	Group
+T3	segment 25 27	is
+T4	segment 28 29	a
+T5	segment 30 40	Queensland
+T6	segment 41 48	company
+T7	segment 49 53	that
+T8	segment 54 62	operates
+T9	segment 63 71	Brisbane
+T10	segment 71 73	's
+T11	segment 74 79	first
+T12	segment 80 87	private
+T13	segment 88 95	tollway
+T14	segment 95 96	--
+T15	segment 96 99	the
+T16	segment 100 104	Clem
+T17	segment 105 110	Jones
+T18	segment 111 117	Tunnel
+T19	segment 118 119	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T6
+R4	compound Arg1:T6 Arg2:T5
+R5	s_p Arg1:T7 Arg2:T8
+R6	p_o Arg1:T8 Arg2:T13
+R7	is-specialized-by Arg1:T13 Arg2:T11
+R8	compound Arg1:T18 Arg2:T16
+R9	compound Arg1:T18 Arg2:T17

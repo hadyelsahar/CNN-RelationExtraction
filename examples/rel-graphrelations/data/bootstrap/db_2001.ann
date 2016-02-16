@@ -1,0 +1,41 @@
+T0	segment 0 6	Palopo
+T1	segment 7 9	or
+T2	segment 10 14	Kota
+T3	segment 15 21	Palopo
+T4	segment 22 24	is
+T5	segment 25 28	one
+T6	segment 29 31	of
+T7	segment 32 35	the
+T8	segment 36 46	autonomous
+T9	segment 47 53	cities
+T10	segment 54 56	in
+T11	segment 57 62	South
+T12	segment 63 71	Sulawesi
+T13	segment 72 80	Province
+T14	segment 81 83	of
+T15	segment 84 93	Indonesia
+T16	segment 93 94	,
+T17	segment 95 98	and
+T18	segment 99 102	the
+T19	segment 103 116	third-largest
+T20	segment 117 121	city
+T21	segment 122 124	in
+T22	segment 125 128	the
+T23	segment 129 137	province
+T24	segment 138 139	.
+R0	s_p Arg1:T0 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	p_o Arg1:T4 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T6
+R4	c_co Arg1:T6 Arg2:T9
+R5	is-specialized-by Arg1:T9 Arg2:T8
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T13
+R8	compound Arg1:T12 Arg2:T11
+R9	compound Arg1:T13 Arg2:T12
+R10	compound Arg1:T13 Arg2:T11
+R11	is-specialized-by Arg1:T13 Arg2:T14
+R12	c_co Arg1:T14 Arg2:T15
+R13	is-specialized-by Arg1:T20 Arg2:T19
+R14	is-specialized-by Arg1:T20 Arg2:T21
+R15	c_co Arg1:T21 Arg2:T23

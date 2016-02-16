@@ -1,0 +1,38 @@
+T0	segment 0 6	Perlon
+T1	segment 7 9	is
+T2	segment 10 12	an
+T3	segment 13 23	electronic
+T4	segment 24 29	music
+T5	segment 30 36	record
+T6	segment 37 42	label
+T7	segment 43 50	founded
+T8	segment 51 53	in
+T9	segment 54 63	Frankfurt
+T10	segment 63 64	,
+T11	segment 65 72	Germany
+T12	segment 72 73	,
+T13	segment 74 79	based
+T14	segment 80 82	in
+T15	segment 83 89	Berlin
+T16	segment 89 90	,
+T17	segment 91 94	and
+T18	segment 95 98	run
+T19	segment 99 101	by
+T20	segment 102 105	Zip
+T21	segment 106 109	and
+T22	segment 110 116	Markus
+T23	segment 117 124	Nikolai
+T24	segment 125 126	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T6
+R2	compound Arg1:T6 Arg2:T4
+R3	compound Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T6 Arg2:T3
+R5	is-specialized-by Arg1:T7 Arg2:T8
+R6	c_co Arg1:T8 Arg2:T11
+R7	compound Arg1:T11 Arg2:T9
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T15
+R10	is-specialized-by Arg1:T18 Arg2:T19
+R11	c_co Arg1:T19 Arg2:T20
+R12	compound Arg1:T23 Arg2:T22

@@ -1,0 +1,69 @@
+T0	segment 0 3	The
+T1	segment 4 8	Aden
+T2	segment 9 21	Protectorate
+T3	segment 22 25	was
+T4	segment 26 27	a
+T5	segment 28 35	British
+T6	segment 36 48	protectorate
+T7	segment 49 51	in
+T8	segment 52 60	southern
+T9	segment 61 67	Arabia
+T10	segment 68 73	which
+T11	segment 74 81	evolved
+T12	segment 82 84	in
+T13	segment 85 88	the
+T14	segment 89 99	hinterland
+T15	segment 100 102	of
+T16	segment 103 106	the
+T17	segment 107 111	port
+T18	segment 112 114	of
+T19	segment 115 119	Aden
+T20	segment 120 123	and
+T21	segment 124 126	in
+T22	segment 127 130	the
+T23	segment 131 140	Hadramaut
+T24	segment 141 150	following
+T25	segment 151 154	the
+T26	segment 155 163	conquest
+T27	segment 164 166	of
+T28	segment 167 171	Aden
+T29	segment 172 174	by
+T30	segment 175 180	Great
+T31	segment 181 188	Britain
+T32	segment 189 191	in
+T33	segment 192 196	1839
+T34	segment 196 197	,
+T35	segment 198 201	and
+T36	segment 202 204	it
+T37	segment 205 214	continued
+T38	segment 215 220	until
+T39	segment 221 224	the
+T40	segment 225 230	1960s
+T41	segment 231 232	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T6
+R3	is-specialized-by Arg1:T6 Arg2:T7
+R4	is-specialized-by Arg1:T6 Arg2:T5
+R5	c_co Arg1:T7 Arg2:T9
+R6	is-specialized-by Arg1:T9 Arg2:T8
+R7	s_p Arg1:T10 Arg2:T11
+R8	p_c Arg1:T11 Arg2:T12
+R9	p_c Arg1:T11 Arg2:T29
+R10	c_co Arg1:T12 Arg2:T14
+R11	is-specialized-by Arg1:T14 Arg2:T15
+R12	c_co Arg1:T15 Arg2:T17
+R13	is-specialized-by Arg1:T17 Arg2:T18
+R14	c_co Arg1:T18 Arg2:T19
+R15	is-specialized-by Arg1:T23 Arg2:T24
+R16	c_co Arg1:T24 Arg2:T26
+R17	is-specialized-by Arg1:T26 Arg2:T27
+R18	c_co Arg1:T27 Arg2:T28
+R19	c_co Arg1:T29 Arg2:T31
+R20	is-specialized-by Arg1:T31 Arg2:T32
+R21	compound Arg1:T31 Arg2:T30
+R22	c_co Arg1:T32 Arg2:T33
+R23	s_p Arg1:T36 Arg2:T37
+R24	p_c Arg1:T37 Arg2:T38
+R25	c_co Arg1:T38 Arg2:T40
+R26	compound Arg1:T40 Arg2:T39

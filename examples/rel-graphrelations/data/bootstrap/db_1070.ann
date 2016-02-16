@@ -1,0 +1,40 @@
+T0	segment 0 3	The
+T1	segment 4 7	New
+T2	segment 8 12	York
+T3	segment 13 27	Knickerbockers
+T4	segment 27 28	,
+T5	segment 29 37	commonly
+T6	segment 38 46	referred
+T7	segment 47 49	to
+T8	segment 50 52	as
+T9	segment 53 56	the
+T10	segment 57 63	Knicks
+T11	segment 63 64	,
+T12	segment 65 68	are
+T13	segment 69 70	a
+T14	segment 71 83	professional
+T15	segment 84 94	basketball
+T16	segment 95 99	team
+T17	segment 100 105	based
+T18	segment 106 108	in
+T19	segment 109 112	New
+T20	segment 113 117	York
+T21	segment 118 122	City
+T22	segment 122 123	,
+T23	segment 124 127	New
+T24	segment 128 132	York
+T25	segment 133 134	.
+R0	s_p Arg1:T3 Arg2:T12
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	is-specialized-by Arg1:T6 Arg2:T8
+R4	is-specialized-by Arg1:T6 Arg2:T5
+R5	c_co Arg1:T8 Arg2:T10
+R6	p_o Arg1:T12 Arg2:T16
+R7	is-specialized-by Arg1:T16 Arg2:T17
+R8	compound Arg1:T16 Arg2:T15
+R9	is-specialized-by Arg1:T16 Arg2:T14
+R10	c_co Arg1:T17 Arg2:T21
+R11	compound Arg1:T21 Arg2:T20
+R12	compound Arg1:T21 Arg2:T19
+R13	compound Arg1:T24 Arg2:T23

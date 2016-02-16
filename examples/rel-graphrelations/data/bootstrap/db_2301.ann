@@ -1,0 +1,54 @@
+T0	segment 0 19	Palatinate-Sulzbach
+T1	segment 20 23	was
+T2	segment 24 27	the
+T3	segment 28 32	name
+T4	segment 33 35	of
+T5	segment 36 39	two
+T6	segment 40 48	separate
+T7	segment 49 55	states
+T8	segment 56 58	of
+T9	segment 59 62	the
+T10	segment 63 67	Holy
+T11	segment 68 73	Roman
+T12	segment 74 80	Empire
+T13	segment 81 88	located
+T14	segment 89 91	in
+T15	segment 92 98	modern
+T16	segment 99 114	Amberg-Sulzbach
+T17	segment 114 115	,
+T18	segment 116 123	Bavaria
+T19	segment 123 124	,
+T20	segment 125 132	Germany
+T21	segment 132 133	,
+T22	segment 134 139	ruled
+T23	segment 140 142	by
+T24	segment 143 144	a
+T25	segment 145 151	branch
+T26	segment 152 154	of
+T27	segment 155 158	the
+T28	segment 159 164	House
+T29	segment 165 167	of
+T30	segment 168 179	Wittelsbach
+T31	segment 180 181	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T7 Arg2:T6
+R6	is-specialized-by Arg1:T7 Arg2:T5
+R7	c_co Arg1:T8 Arg2:T12
+R8	is-specialized-by Arg1:T12 Arg2:T10
+R9	is-specialized-by Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T16
+R11	is-specialized-by Arg1:T16 Arg2:T15
+R12	s_p Arg1:T18 Arg2:T22
+R13	p_p Arg1:T22 Arg2:T1
+R14	p_c Arg1:T22 Arg2:T23
+R15	c_co Arg1:T23 Arg2:T25
+R16	is-specialized-by Arg1:T25 Arg2:T26
+R17	c_co Arg1:T26 Arg2:T28
+R18	is-specialized-by Arg1:T28 Arg2:T29
+R19	c_co Arg1:T29 Arg2:T30
+R20	compound Arg1:T30 Arg2:T28
+R21	compound Arg1:T30 Arg2:T29

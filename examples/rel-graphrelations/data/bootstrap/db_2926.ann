@@ -1,0 +1,41 @@
+T0	segment 0 6	Doosan
+T1	segment 7 13	Engine
+T2	segment 14 21	started
+T3	segment 22 25	out
+T4	segment 26 28	in
+T5	segment 29 33	1984
+T6	segment 34 38	with
+T7	segment 39 41	an
+T8	segment 42 48	annual
+T9	segment 49 57	capacity
+T10	segment 58 60	of
+T11	segment 61 68	200,000
+T12	segment 69 72	bhp
+T13	segment 73 74	,
+T14	segment 75 77	as
+T15	segment 78 82	well
+T16	segment 83 85	as
+T17	segment 86 92	diesel
+T18	segment 93 102	generator
+T19	segment 103 110	engines
+T20	segment 111 113	up
+T21	segment 114 116	to
+T22	segment 117 122	200MW
+T23	segment 123 124	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_c Arg1:T2 Arg2:T6
+R3	p_c Arg1:T2 Arg2:T4
+R4	p_c Arg1:T2 Arg2:T20
+R5	c_co Arg1:T4 Arg2:T5
+R6	c_co Arg1:T6 Arg2:T9
+R7	is-specialized-by Arg1:T9 Arg2:T8
+R8	is-specialized-by Arg1:T9 Arg2:T10
+R9	c_co Arg1:T10 Arg2:T12
+R10	is-specialized-by Arg1:T12 Arg2:T11
+R11	compound Arg1:T14 Arg2:T16
+R12	compound Arg1:T14 Arg2:T15
+R13	compound Arg1:T19 Arg2:T18
+R14	compound Arg1:T19 Arg2:T17
+R15	is-specialized-by Arg1:T20 Arg2:T21
+R16	c_co Arg1:T21 Arg2:T22

@@ -1,0 +1,52 @@
+T0	segment 0 3	The
+T1	segment 4 9	Essex
+T2	segment 10 13	was
+T3	segment 14 15	a
+T4	segment 16 21	brand
+T5	segment 22 24	of
+T6	segment 25 35	automobile
+T7	segment 36 44	produced
+T8	segment 45 47	by
+T9	segment 48 51	the
+T10	segment 52 57	Essex
+T11	segment 58 63	Motor
+T12	segment 64 71	Company
+T13	segment 72 79	between
+T14	segment 80 84	1918
+T15	segment 85 88	and
+T16	segment 89 93	1922
+T17	segment 94 97	and
+T18	segment 98 100	by
+T19	segment 101 107	Hudson
+T20	segment 108 113	Motor
+T21	segment 114 121	Company
+T22	segment 122 124	of
+T23	segment 125 132	Detroit
+T24	segment 132 133	,
+T25	segment 134 142	Michigan
+T26	segment 143 150	between
+T27	segment 151 155	1922
+T28	segment 156 159	and
+T29	segment 160 164	1932
+T30	segment 165 166	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	p_o Arg1:T2 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T5
+R3	c_co Arg1:T5 Arg2:T6
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	c_co Arg1:T8 Arg2:T12
+R6	compound Arg1:T12 Arg2:T11
+R7	compound Arg1:T12 Arg2:T10
+R8	is-specialized-by Arg1:T12 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T14
+R10	compound Arg1:T16 Arg2:T14
+R11	compound Arg1:T16 Arg2:T15
+R12	compound Arg1:T21 Arg2:T20
+R13	compound Arg1:T21 Arg2:T19
+R14	is-specialized-by Arg1:T21 Arg2:T22
+R15	c_co Arg1:T22 Arg2:T25
+R16	is-specialized-by Arg1:T25 Arg2:T26
+R17	compound Arg1:T25 Arg2:T23
+R18	c_co Arg1:T26 Arg2:T27
+R19	compound Arg1:T29 Arg2:T28
+R20	compound Arg1:T29 Arg2:T27

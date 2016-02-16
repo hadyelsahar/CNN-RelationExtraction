@@ -1,0 +1,33 @@
+T0	segment 0 3	Tom
+T1	segment 4 9	Smith
+T2	segment 10 12	is
+T3	segment 13 14	a
+T4	segment 15 20	rugby
+T5	segment 21 26	union
+T6	segment 27 32	coach
+T7	segment 33 36	and
+T8	segment 37 43	former
+T9	segment 44 50	player
+T10	segment 51 55	born
+T11	segment 56 58	in
+T12	segment 59 65	London
+T13	segment 65 66	,
+T14	segment 67 74	England
+T15	segment 75 78	who
+T16	segment 79 90	represented
+T17	segment 91 99	Scotland
+T18	segment 100 103	and
+T19	segment 104 107	the
+T20	segment 108 113	Lions
+T21	segment 114 115	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T6
+R3	compound Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T6 Arg2:T4
+R5	is-specialized-by Arg1:T9 Arg2:T8
+R6	is-specialized-by Arg1:T10 Arg2:T11
+R7	c_co Arg1:T11 Arg2:T14
+R8	compound Arg1:T14 Arg2:T12
+R9	s_p Arg1:T15 Arg2:T16
+R10	p_o Arg1:T16 Arg2:T17

@@ -1,0 +1,38 @@
+T0	segment 0 3	BDP
+T1	segment 3 4	,
+T2	segment 5 13	formerly
+T3	segment 14 19	known
+T4	segment 20 22	as
+T5	segment 23 31	Building
+T6	segment 32 38	Design
+T7	segment 39 50	Partnership
+T8	segment 50 51	,
+T9	segment 52 54	is
+T10	segment 55 56	a
+T11	segment 57 61	firm
+T12	segment 62 64	of
+T13	segment 65 75	architects
+T14	segment 76 79	and
+T15	segment 80 89	engineers
+T16	segment 90 99	employing
+T17	segment 100 104	over
+T18	segment 105 108	800
+T19	segment 109 114	staff
+T20	segment 115 117	in
+T21	segment 118 121	the
+T22	segment 122 124	UK
+T23	segment 125 128	and
+T24	segment 129 144	internationally
+T25	segment 145 146	.
+R0	s_p Arg1:T0 Arg2:T9
+R1	is-specialized-by Arg1:T3 Arg2:T2
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T7
+R4	compound Arg1:T7 Arg2:T6
+R5	compound Arg1:T7 Arg2:T5
+R6	p_o Arg1:T9 Arg2:T11
+R7	is-specialized-by Arg1:T11 Arg2:T12
+R8	c_co Arg1:T12 Arg2:T13
+R9	is-specialized-by Arg1:T19 Arg2:T18
+R10	is-specialized-by Arg1:T19 Arg2:T20
+R11	c_co Arg1:T20 Arg2:T22

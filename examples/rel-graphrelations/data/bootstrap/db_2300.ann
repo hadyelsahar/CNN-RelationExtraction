@@ -1,0 +1,54 @@
+T0	segment 0 5	Inini
+T1	segment 6 9	was
+T2	segment 10 12	an
+T3	segment 13 19	inland
+T4	segment 20 29	territory
+T5	segment 30 32	of
+T6	segment 33 39	French
+T7	segment 40 46	Guiana
+T8	segment 46 47	,
+T9	segment 48 60	administered
+T10	segment 61 71	separately
+T11	segment 72 79	between
+T12	segment 80 81	6
+T13	segment 82 86	July
+T14	segment 87 91	1930
+T15	segment 92 95	and
+T16	segment 96 98	19
+T17	segment 99 104	March
+T18	segment 105 109	1946
+T19	segment 109 110	,
+T20	segment 111 116	after
+T21	segment 117 122	which
+T22	segment 123 126	all
+T23	segment 127 129	of
+T24	segment 130 136	French
+T25	segment 137 143	Guiana
+T26	segment 144 150	became
+T27	segment 151 152	a
+T28	segment 153 163	department
+T29	segment 164 166	of
+T30	segment 167 173	France
+T31	segment 174 175	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T7
+R5	compound Arg1:T7 Arg2:T6
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	is-specialized-by Arg1:T9 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T13
+R9	is-specialized-by Arg1:T13 Arg2:T12
+R10	compound Arg1:T14 Arg2:T12
+R11	compound Arg1:T14 Arg2:T13
+R12	is-specialized-by Arg1:T17 Arg2:T18
+R13	compound Arg1:T18 Arg2:T16
+R14	compound Arg1:T18 Arg2:T17
+R15	s_p Arg1:T22 Arg2:T26
+R16	is-specialized-by Arg1:T22 Arg2:T23
+R17	c_co Arg1:T23 Arg2:T25
+R18	is-specialized-by Arg1:T25 Arg2:T24
+R19	p_o Arg1:T28 Arg2:T21
+R20	is-specialized-by Arg1:T28 Arg2:T29
+R21	c_co Arg1:T29 Arg2:T30

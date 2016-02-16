@@ -1,0 +1,43 @@
+T0	segment 0 3	The
+T1	segment 4 11	Vermont
+T2	segment 12 19	Housing
+T3	segment 20 27	Finance
+T4	segment 28 34	Agency
+T5	segment 35 37	is
+T6	segment 38 47	chartered
+T7	segment 48 50	as
+T8	segment 51 52	a
+T9	segment 53 60	private
+T10	segment 61 71	non-profit
+T11	segment 72 78	agency
+T12	segment 79 81	to
+T13	segment 82 89	finance
+T14	segment 90 93	and
+T15	segment 94 101	promote
+T16	segment 102 112	affordable
+T17	segment 113 120	housing
+T18	segment 121 134	opportunities
+T19	segment 135 138	for
+T20	segment 139 142	low
+T21	segment 142 143	-
+T22	segment 144 147	and
+T23	segment 148 156	moderate
+T24	segment 156 157	-
+T25	segment 158 164	income
+T26	segment 165 175	Vermonters
+T27	segment 176 177	.
+R0	compound Arg1:T4 Arg2:T3
+R1	s_p Arg1:T4 Arg2:T6
+R2	compound Arg1:T4 Arg2:T2
+R3	compound Arg1:T4 Arg2:T1
+R4	compound Arg1:T6 Arg2:T5
+R5	p_c Arg1:T6 Arg2:T7
+R6	c_co Arg1:T7 Arg2:T11
+R7	is-specialized-by Arg1:T11 Arg2:T9
+R8	p_o Arg1:T13 Arg2:T18
+R9	is-specialized-by Arg1:T18 Arg2:T16
+R10	is-specialized-by Arg1:T18 Arg2:T19
+R11	compound Arg1:T18 Arg2:T17
+R12	c_co Arg1:T19 Arg2:T26
+R13	is-specialized-by Arg1:T26 Arg2:T20
+R14	compound Arg1:T26 Arg2:T25

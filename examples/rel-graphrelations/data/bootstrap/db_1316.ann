@@ -1,0 +1,51 @@
+T0	segment 0 3	Jan
+T1	segment 4 11	Fischer
+T2	segment 12 14	is
+T3	segment 15 16	a
+T4	segment 17 23	German
+T5	segment 24 26	DJ
+T6	segment 26 27	,
+T7	segment 28 35	fashion
+T8	segment 36 41	model
+T9	segment 42 45	and
+T10	segment 46 50	film
+T11	segment 51 59	producer
+T12	segment 59 60	,
+T13	segment 61 64	who
+T14	segment 65 69	came
+T15	segment 70 72	to
+T16	segment 73 83	prominence
+T17	segment 84 86	as
+T18	segment 87 88	a
+T19	segment 89 99	television
+T20	segment 100 109	presenter
+T21	segment 110 113	and
+T22	segment 114 124	adult-film
+T23	segment 125 130	actor
+T24	segment 131 133	in
+T25	segment 134 137	gay
+T26	segment 138 149	pornography
+T27	segment 150 152	in
+T28	segment 153 156	the
+T29	segment 157 162	early
+T30	segment 163 168	2000s
+T31	segment 169 170	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T11
+R3	compound Arg1:T8 Arg2:T7
+R4	is-specialized-by Arg1:T11 Arg2:T4
+R5	s_p Arg1:T13 Arg2:T14
+R6	p_c Arg1:T14 Arg2:T17
+R7	p_c Arg1:T14 Arg2:T15
+R8	p_c Arg1:T14 Arg2:T24
+R9	c_co Arg1:T15 Arg2:T16
+R10	c_co Arg1:T17 Arg2:T20
+R11	compound Arg1:T20 Arg2:T19
+R12	is-specialized-by Arg1:T23 Arg2:T22
+R13	c_co Arg1:T24 Arg2:T26
+R14	is-specialized-by Arg1:T26 Arg2:T25
+R15	is-specialized-by Arg1:T26 Arg2:T27
+R16	c_co Arg1:T27 Arg2:T30
+R17	compound Arg1:T30 Arg2:T28
+R18	compound Arg1:T30 Arg2:T29

@@ -1,0 +1,23 @@
+T0	segment 0 4	Rehe
+T1	segment 5 6	,
+T2	segment 7 11	also
+T3	segment 12 17	known
+T4	segment 18 20	as
+T5	segment 21 26	Jehol
+T6	segment 26 27	,
+T7	segment 28 30	is
+T8	segment 31 32	a
+T9	segment 33 39	former
+T10	segment 40 47	Chinese
+T11	segment 48 55	Special
+T12	segment 56 70	administrative
+T13	segment 71 79	district
+T14	segment 80 83	and
+T15	segment 84 92	province
+T16	segment 93 94	.
+R0	s_p Arg1:T0 Arg2:T7
+R1	is-specialized-by Arg1:T3 Arg2:T2
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T5
+R4	p_o Arg1:T7 Arg2:T13
+R5	is-specialized-by Arg1:T13 Arg2:T9

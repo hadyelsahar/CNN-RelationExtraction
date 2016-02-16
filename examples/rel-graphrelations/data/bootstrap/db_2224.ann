@@ -1,0 +1,43 @@
+T0	segment 0 4	Mime
+T1	segment 5 10	Radio
+T2	segment 11 13	or
+T3	segment 14 15	''
+T4	segment 15 16	``
+T5	segment 16 19	The
+T6	segment 20 24	Mime
+T7	segment 25 30	Radio
+T8	segment 31 40	Recording
+T9	segment 41 48	Company
+T10	segment 48 49	''
+T11	segment 49 50	''
+T12	segment 51 54	was
+T13	segment 55 56	a
+T14	segment 57 69	Peterborough
+T15	segment 69 70	,
+T16	segment 71 77	Canada
+T17	segment 78 87	recording
+T18	segment 88 94	studio
+T19	segment 95 98	and
+T20	segment 99 110	independent
+T21	segment 111 117	record
+T22	segment 118 123	label
+T23	segment 124 127	run
+T24	segment 128 130	by
+T25	segment 131 139	engineer
+T26	segment 140 143	and
+T27	segment 144 152	producer
+T28	segment 153 158	Damon
+T29	segment 159 161	de
+T30	segment 162 169	Szegheo
+T31	segment 170 171	.
+R0	compound Arg1:T9 Arg2:T6
+R1	compound Arg1:T9 Arg2:T8
+R2	compound Arg1:T9 Arg2:T7
+R3	p_o Arg1:T17 Arg2:T22
+R4	compound Arg1:T22 Arg2:T21
+R5	compound Arg1:T22 Arg2:T18
+R6	is-specialized-by Arg1:T23 Arg2:T24
+R7	c_co Arg1:T24 Arg2:T25
+R8	compound Arg1:T30 Arg2:T28
+R9	compound Arg1:T30 Arg2:T27
+R10	compound Arg1:T30 Arg2:T29

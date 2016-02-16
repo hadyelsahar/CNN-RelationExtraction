@@ -1,0 +1,33 @@
+T0	segment 0 6	Sandur
+T1	segment 7 12	State
+T2	segment 13 16	was
+T3	segment 17 18	a
+T4	segment 19 27	princely
+T5	segment 28 33	state
+T6	segment 34 36	of
+T7	segment 37 42	India
+T8	segment 43 49	during
+T9	segment 50 53	the
+T10	segment 54 61	British
+T11	segment 62 65	Raj
+T12	segment 65 66	,
+T13	segment 67 71	part
+T14	segment 72 74	of
+T15	segment 75 78	the
+T16	segment 79 85	Madras
+T17	segment 86 92	States
+T18	segment 93 99	Agency
+T19	segment 100 101	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T8
+R4	is-specialized-by Arg1:T5 Arg2:T4
+R5	is-specialized-by Arg1:T5 Arg2:T6
+R6	c_co Arg1:T6 Arg2:T7
+R7	c_co Arg1:T8 Arg2:T11
+R8	is-specialized-by Arg1:T11 Arg2:T10
+R9	is-specialized-by Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T18
+R11	compound Arg1:T18 Arg2:T16
+R12	compound Arg1:T18 Arg2:T17

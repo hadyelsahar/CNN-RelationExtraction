@@ -1,0 +1,66 @@
+T0	segment 0 9	Chobanids
+T1	segment 10 13	was
+T2	segment 14 16	an
+T3	segment 17 26	Anatolian
+T4	segment 27 33	beylik
+T5	segment 34 41	founded
+T6	segment 42 44	by
+T7	segment 45 48	the
+T8	segment 49 56	dynasty
+T9	segment 57 59	of
+T10	segment 60 63	the
+T11	segment 64 68	same
+T12	segment 69 73	name
+T13	segment 74 77	and
+T14	segment 78 88	controlled
+T15	segment 89 92	the
+T16	segment 93 99	region
+T17	segment 100 102	in
+T18	segment 103 106	and
+T19	segment 107 113	around
+T20	segment 114 117	the
+T21	segment 118 126	northern
+T22	segment 127 134	Central
+T23	segment 135 144	Anatolian
+T24	segment 145 149	city
+T25	segment 150 152	of
+T26	segment 153 162	Kastamonu
+T27	segment 163 165	in
+T28	segment 166 169	the
+T29	segment 170 174	13th
+T30	segment 175 182	century
+T31	segment 182 183	,
+T32	segment 184 190	ruling
+T33	segment 191 193	as
+T34	segment 194 196	an
+T35	segment 197 208	independent
+T36	segment 209 215	entity
+T37	segment 216 218	in
+T38	segment 219 228	intervals
+T39	segment 229 230	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T5 Arg2:T6
+R4	c_co Arg1:T6 Arg2:T8
+R5	is-specialized-by Arg1:T8 Arg2:T9
+R6	c_co Arg1:T9 Arg2:T12
+R7	is-specialized-by Arg1:T12 Arg2:T11
+R8	p_o Arg1:T14 Arg2:T16
+R9	is-specialized-by Arg1:T14 Arg2:T17
+R10	is-specialized-by Arg1:T14 Arg2:T27
+R11	c_co Arg1:T17 Arg2:T24
+R12	compound Arg1:T23 Arg2:T22
+R13	compound Arg1:T24 Arg2:T22
+R14	is-specialized-by Arg1:T24 Arg2:T25
+R15	compound Arg1:T24 Arg2:T23
+R16	is-specialized-by Arg1:T24 Arg2:T21
+R17	c_co Arg1:T25 Arg2:T26
+R18	c_co Arg1:T27 Arg2:T30
+R19	compound Arg1:T30 Arg2:T28
+R20	compound Arg1:T30 Arg2:T29
+R21	is-specialized-by Arg1:T32 Arg2:T33
+R22	c_co Arg1:T33 Arg2:T36
+R23	is-specialized-by Arg1:T36 Arg2:T35
+R24	is-specialized-by Arg1:T36 Arg2:T37
+R25	c_co Arg1:T37 Arg2:T38

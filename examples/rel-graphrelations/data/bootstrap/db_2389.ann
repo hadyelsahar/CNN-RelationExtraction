@@ -1,0 +1,41 @@
+T0	segment 0 3	The
+T1	segment 4 10	Hanley
+T2	segment 11 19	Economic
+T3	segment 20 28	Building
+T4	segment 29 36	Society
+T5	segment 37 39	is
+T6	segment 40 41	a
+T7	segment 42 44	UK
+T8	segment 45 53	building
+T9	segment 54 61	society
+T10	segment 61 62	,
+T11	segment 63 68	which
+T12	segment 69 72	has
+T13	segment 73 76	its
+T14	segment 77 81	head
+T15	segment 82 88	office
+T16	segment 89 91	in
+T17	segment 92 98	Hanley
+T18	segment 98 99	,
+T19	segment 100 105	Stoke
+T20	segment 106 108	on
+T21	segment 109 114	Trent
+T22	segment 114 115	,
+T23	segment 116 129	Staffordshire
+T24	segment 130 131	.
+R0	compound Arg1:T4 Arg2:T3
+R1	s_p Arg1:T4 Arg2:T5
+R2	compound Arg1:T4 Arg2:T2
+R3	compound Arg1:T4 Arg2:T1
+R4	p_o Arg1:T5 Arg2:T9
+R5	compound Arg1:T9 Arg2:T8
+R6	compound Arg1:T9 Arg2:T7
+R7	s_p Arg1:T11 Arg2:T12
+R8	p_c Arg1:T12 Arg2:T16
+R9	p_o Arg1:T12 Arg2:T15
+R10	compound Arg1:T15 Arg2:T14
+R11	c_co Arg1:T16 Arg2:T19
+R12	is-specialized-by Arg1:T19 Arg2:T20
+R13	compound Arg1:T19 Arg2:T17
+R14	c_co Arg1:T20 Arg2:T23
+R15	compound Arg1:T23 Arg2:T21

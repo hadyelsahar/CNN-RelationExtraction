@@ -1,0 +1,54 @@
+T0	segment 0 11	Mesopotamia
+T1	segment 12 15	was
+T2	segment 16 19	the
+T3	segment 20 24	name
+T4	segment 25 27	of
+T5	segment 28 31	two
+T6	segment 32 40	distinct
+T7	segment 41 46	Roman
+T8	segment 47 56	provinces
+T9	segment 56 57	,
+T10	segment 58 61	the
+T11	segment 62 65	one
+T12	segment 66 67	a
+T13	segment 68 79	short-lived
+T14	segment 80 88	creation
+T15	segment 89 91	of
+T16	segment 92 95	the
+T17	segment 96 101	Roman
+T18	segment 102 109	Emperor
+T19	segment 110 116	Trajan
+T20	segment 117 119	in
+T21	segment 120 123	116
+T22	segment 123 124	--
+T23	segment 124 127	117
+T24	segment 128 131	and
+T25	segment 132 135	the
+T26	segment 136 141	other
+T27	segment 142 153	established
+T28	segment 154 156	by
+T29	segment 157 164	Emperor
+T30	segment 165 174	Septimius
+T31	segment 175 182	Severus
+T32	segment 183 185	in
+T33	segment 186 188	ca
+T34	segment 189 190	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T8
+R4	is-specialized-by Arg1:T8 Arg2:T6
+R5	is-specialized-by Arg1:T8 Arg2:T5
+R6	is-specialized-by Arg1:T14 Arg2:T15
+R7	s_p Arg1:T14 Arg2:T33
+R8	is-specialized-by Arg1:T14 Arg2:T13
+R9	c_co Arg1:T15 Arg2:T19
+R10	is-specialized-by Arg1:T19 Arg2:T20
+R11	compound Arg1:T19 Arg2:T18
+R12	compound Arg1:T19 Arg2:T17
+R13	c_co Arg1:T20 Arg2:T23
+R14	is-specialized-by Arg1:T23 Arg2:T21
+R15	is-specialized-by Arg1:T27 Arg2:T28
+R16	c_co Arg1:T28 Arg2:T31
+R17	compound Arg1:T31 Arg2:T30
+R18	compound Arg1:T31 Arg2:T29

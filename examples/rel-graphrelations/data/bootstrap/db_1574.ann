@@ -1,0 +1,29 @@
+T0	segment 0 8	BaneTele
+T1	segment 9 11	is
+T2	segment 12 13	a
+T3	segment 14 23	Norwegian
+T4	segment 24 28	part
+T5	segment 29 34	state
+T6	segment 35 40	owned
+T7	segment 41 59	telecommunications
+T8	segment 60 67	company
+T9	segment 68 78	previously
+T10	segment 79 83	part
+T11	segment 84 86	of
+T12	segment 87 90	the
+T13	segment 91 100	Norwegian
+T14	segment 101 106	State
+T15	segment 107 115	Railways
+T16	segment 116 117	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T5
+R2	compound Arg1:T5 Arg2:T4
+R3	is-specialized-by Arg1:T5 Arg2:T3
+R4	p_c Arg1:T6 Arg2:T9
+R5	p_o Arg1:T6 Arg2:T8
+R6	compound Arg1:T8 Arg2:T7
+R7	s_p Arg1:T10 Arg2:T6
+R8	is-specialized-by Arg1:T10 Arg2:T11
+R9	c_co Arg1:T11 Arg2:T15
+R10	compound Arg1:T15 Arg2:T14
+R11	is-specialized-by Arg1:T15 Arg2:T13

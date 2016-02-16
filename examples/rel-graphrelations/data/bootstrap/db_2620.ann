@@ -1,0 +1,37 @@
+T0	segment 0 7	Guitars
+T1	segment 8 10	in
+T2	segment 11 14	the
+T3	segment 15 24	Classroom
+T4	segment 25 26	,
+T5	segment 27 30	The
+T6	segment 31 40	D'Addario
+T7	segment 41 46	Music
+T8	segment 47 57	Foundation
+T9	segment 57 58	,
+T10	segment 59 62	The
+T11	segment 63 67	Bill
+T12	segment 68 74	Graham
+T13	segment 75 83	Memorial
+T14	segment 84 94	Foundation
+T15	segment 94 95	,
+T16	segment 96 99	The
+T17	segment 100 108	Wishlist
+T18	segment 109 119	Foundation
+T19	segment 119 120	,
+T20	segment 121 123	as
+T21	segment 124 128	well
+T22	segment 129 131	as
+T23	segment 132 142	individual
+T24	segment 143 149	donors
+T25	segment 150 151	.
+R0	is-specialized-by Arg1:T0 Arg2:T1
+R1	c_co Arg1:T1 Arg2:T3
+R2	compound Arg1:T8 Arg2:T6
+R3	compound Arg1:T8 Arg2:T7
+R4	compound Arg1:T14 Arg2:T12
+R5	compound Arg1:T14 Arg2:T11
+R6	compound Arg1:T14 Arg2:T13
+R7	compound Arg1:T18 Arg2:T17
+R8	compound Arg1:T20 Arg2:T22
+R9	compound Arg1:T20 Arg2:T21
+R10	is-specialized-by Arg1:T24 Arg2:T23

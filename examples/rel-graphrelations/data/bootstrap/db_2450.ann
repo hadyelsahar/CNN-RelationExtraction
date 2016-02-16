@@ -1,0 +1,64 @@
+T0	segment 0 5	Boyer
+T1	segment 6 9	Coe
+T2	segment 10 11	;
+T3	segment 12 16	1981
+T4	segment 17 22	World
+T5	segment 23 26	Inv
+T6	segment 27 30	Cup
+T7	segment 31 34	1st
+T8	segment 34 35	;
+T9	segment 36 40	1981
+T10	segment 41 46	Grand
+T11	segment 47 51	Prix
+T12	segment 52 59	Belgium
+T13	segment 60 63	1st
+T14	segment 63 64	;
+T15	segment 65 69	1981
+T16	segment 70 75	Grand
+T17	segment 76 80	Prix
+T18	segment 81 86	Wales
+T19	segment 87 90	1st
+T20	segment 90 91	;
+T21	segment 92 96	1981
+T22	segment 97 102	Grand
+T23	segment 103 107	Prix
+T24	segment 108 113	World
+T25	segment 114 117	1st
+T26	segment 117 118	;
+T27	segment 119 123	1982
+T28	segment 124 129	Grand
+T29	segment 130 134	Prix
+T30	segment 135 143	Montreal
+T31	segment 144 147	1st
+T32	segment 147 148	;
+T33	segment 149 153	1994
+T34	segment 154 161	Masters
+T35	segment 162 169	Olympia
+T36	segment 170 173	3rd
+T37	segment 173 174	;
+T38	segment 175 179	1995
+T39	segment 180 187	Masters
+T40	segment 188 195	Olympia
+T41	segment 196 200	10th
+T42	segment 201 202	.
+R0	compound Arg1:T1 Arg2:T0
+R1	compound Arg1:T6 Arg2:T4
+R2	is-specialized-by Arg1:T6 Arg2:T7
+R3	compound Arg1:T6 Arg2:T5
+R4	compound Arg1:T12 Arg2:T11
+R5	compound Arg1:T12 Arg2:T10
+R6	is-specialized-by Arg1:T12 Arg2:T13
+R7	compound Arg1:T18 Arg2:T16
+R8	is-specialized-by Arg1:T18 Arg2:T19
+R9	compound Arg1:T18 Arg2:T17
+R10	compound Arg1:T24 Arg2:T22
+R11	is-specialized-by Arg1:T24 Arg2:T25
+R12	compound Arg1:T24 Arg2:T23
+R13	compound Arg1:T30 Arg2:T28
+R14	is-specialized-by Arg1:T30 Arg2:T31
+R15	compound Arg1:T30 Arg2:T29
+R16	is-specialized-by Arg1:T34 Arg2:T33
+R17	compound Arg1:T36 Arg2:T35
+R18	is-specialized-by Arg1:T40 Arg2:T41
+R19	compound Arg1:T40 Arg2:T39
+R20	is-specialized-by Arg1:T40 Arg2:T38

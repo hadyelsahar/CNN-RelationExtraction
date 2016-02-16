@@ -1,0 +1,44 @@
+T0	segment 0 3	The
+T1	segment 4 10	United
+T2	segment 11 18	Nations
+T3	segment 19 31	Transitional
+T4	segment 32 41	Authority
+T5	segment 42 44	in
+T6	segment 45 53	Cambodia
+T7	segment 54 55	,
+T8	segment 56 59	had
+T9	segment 60 63	its
+T10	segment 64 67	own
+T11	segment 68 73	radio
+T12	segment 74 81	station
+T13	segment 82 85	and
+T14	segment 86 90	jail
+T15	segment 90 91	,
+T16	segment 92 95	and
+T17	segment 96 100	been
+T18	segment 101 112	responsible
+T19	segment 113 116	for
+T20	segment 117 126	promoting
+T21	segment 127 130	and
+T22	segment 131 143	safeguarding
+T23	segment 144 149	human
+T24	segment 150 156	rights
+T25	segment 157 159	at
+T26	segment 160 163	the
+T27	segment 164 172	national
+T28	segment 173 178	level
+T29	segment 179 180	.
+R0	compound Arg1:T4 Arg2:T3
+R1	s_p Arg1:T4 Arg2:T8
+R2	is-specialized-by Arg1:T4 Arg2:T5
+R3	compound Arg1:T4 Arg2:T2
+R4	compound Arg1:T4 Arg2:T1
+R5	c_co Arg1:T5 Arg2:T6
+R6	p_o Arg1:T8 Arg2:T12
+R7	compound Arg1:T12 Arg2:T11
+R8	is-specialized-by Arg1:T12 Arg2:T10
+R9	p_o Arg1:T20 Arg2:T24
+R10	is-specialized-by Arg1:T20 Arg2:T25
+R11	is-specialized-by Arg1:T24 Arg2:T23
+R12	c_co Arg1:T25 Arg2:T28
+R13	is-specialized-by Arg1:T28 Arg2:T27

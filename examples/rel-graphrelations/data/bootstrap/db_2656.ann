@@ -1,0 +1,39 @@
+T0	segment 0 7	Pacitan
+T1	segment 8 10	in
+T2	segment 11 14	the
+T3	segment 15 19	west
+T4	segment 19 20	,
+T5	segment 21 29	Ponorogo
+T6	segment 30 37	Regency
+T7	segment 38 41	and
+T8	segment 42 50	Wonogiri
+T9	segment 51 58	Regency
+T10	segment 59 61	in
+T11	segment 62 65	the
+T12	segment 66 71	north
+T13	segment 71 72	,
+T14	segment 73 83	Trenggalek
+T15	segment 84 91	Regency
+T16	segment 92 94	in
+T17	segment 95 98	the
+T18	segment 99 103	east
+T19	segment 103 104	,
+T20	segment 105 108	and
+T21	segment 109 115	Indian
+T22	segment 116 121	Ocean
+T23	segment 122 124	in
+T24	segment 125 128	the
+T25	segment 129 134	south
+T26	segment 135 136	.
+R0	is-specialized-by Arg1:T0 Arg2:T10
+R1	is-specialized-by Arg1:T0 Arg2:T1
+R2	c_co Arg1:T1 Arg2:T3
+R3	compound Arg1:T6 Arg2:T5
+R4	compound Arg1:T9 Arg2:T8
+R5	c_co Arg1:T10 Arg2:T12
+R6	is-specialized-by Arg1:T15 Arg2:T16
+R7	compound Arg1:T15 Arg2:T14
+R8	c_co Arg1:T16 Arg2:T18
+R9	is-specialized-by Arg1:T18 Arg2:T23
+R10	compound Arg1:T22 Arg2:T21
+R11	c_co Arg1:T23 Arg2:T25

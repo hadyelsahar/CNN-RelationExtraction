@@ -1,0 +1,26 @@
+T0	segment 0 3	The
+T1	segment 4 10	County
+T2	segment 11 13	of
+T3	segment 14 18	Mark
+T4	segment 19 21	is
+T5	segment 22 23	--
+T6	segment 24 27	for
+T7	segment 28 31	the
+T8	segment 32 36	most
+T9	segment 37 41	part
+T10	segment 42 43	--
+T11	segment 44 50	merged
+T12	segment 51 53	in
+T13	segment 54 57	the
+T14	segment 58 65	present
+T15	segment 66 70	Ruhr
+T16	segment 71 75	area
+T17	segment 76 77	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	is-specialized-by Arg1:T9 Arg2:T8
+R4	is-specialized-by Arg1:T11 Arg2:T12
+R5	c_co Arg1:T12 Arg2:T16
+R6	compound Arg1:T16 Arg2:T15
+R7	is-specialized-by Arg1:T16 Arg2:T14

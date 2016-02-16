@@ -1,0 +1,50 @@
+T0	segment 0 3	The
+T1	segment 4 11	Kingdom
+T2	segment 12 14	of
+T3	segment 15 21	Mysore
+T4	segment 22 25	was
+T5	segment 26 27	a
+T6	segment 28 35	kingdom
+T7	segment 36 38	of
+T8	segment 39 47	southern
+T9	segment 48 53	India
+T10	segment 53 54	,
+T11	segment 55 68	traditionally
+T12	segment 69 77	believed
+T13	segment 78 80	to
+T14	segment 81 85	have
+T15	segment 86 90	been
+T16	segment 91 98	founded
+T17	segment 99 101	in
+T18	segment 102 106	1399
+T19	segment 107 109	in
+T20	segment 110 113	the
+T21	segment 114 122	vicinity
+T22	segment 123 125	of
+T23	segment 126 129	the
+T24	segment 130 136	modern
+T25	segment 137 141	city
+T26	segment 142 144	of
+T27	segment 145 151	Mysore
+T28	segment 152 153	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	compound Arg1:T3 Arg2:T2
+R4	compound Arg1:T3 Arg2:T1
+R5	p_o Arg1:T4 Arg2:T6
+R6	is-specialized-by Arg1:T6 Arg2:T7
+R7	c_co Arg1:T7 Arg2:T9
+R8	is-specialized-by Arg1:T9 Arg2:T8
+R9	is-specialized-by Arg1:T12 Arg2:T11
+R10	compound Arg1:T16 Arg2:T14
+R11	is-specialized-by Arg1:T16 Arg2:T17
+R12	compound Arg1:T16 Arg2:T15
+R13	is-specialized-by Arg1:T16 Arg2:T19
+R14	c_co Arg1:T17 Arg2:T18
+R15	c_co Arg1:T19 Arg2:T21
+R16	is-specialized-by Arg1:T21 Arg2:T22
+R17	c_co Arg1:T22 Arg2:T25
+R18	is-specialized-by Arg1:T25 Arg2:T24
+R19	is-specialized-by Arg1:T25 Arg2:T26
+R20	c_co Arg1:T26 Arg2:T27

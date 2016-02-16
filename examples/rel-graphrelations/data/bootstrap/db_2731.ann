@@ -1,0 +1,23 @@
+T0	segment 0 6	Georgi
+T1	segment 7 17	Bliznashki
+T2	segment 18 20	is
+T3	segment 21 22	a
+T4	segment 23 32	Bulgarian
+T5	segment 33 43	politician
+T6	segment 44 47	and
+T7	segment 48 49	a
+T8	segment 50 56	former
+T9	segment 57 63	Member
+T10	segment 64 66	of
+T11	segment 67 70	the
+T12	segment 71 79	European
+T13	segment 80 90	Parliament
+T14	segment 91 92	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T9 Arg2:T8
+R5	is-specialized-by Arg1:T9 Arg2:T10
+R6	c_co Arg1:T10 Arg2:T13
+R7	compound Arg1:T13 Arg2:T12

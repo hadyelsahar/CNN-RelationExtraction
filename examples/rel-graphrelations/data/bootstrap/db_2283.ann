@@ -1,0 +1,40 @@
+T0	segment 0 3	The
+T1	segment 4 9	Duchy
+T2	segment 10 12	of
+T3	segment 13 20	Masovia
+T4	segment 21 25	with
+T5	segment 26 29	its
+T6	segment 30 37	capital
+T7	segment 38 40	at
+T8	segment 41 46	PÅock
+T9	segment 47 50	was
+T10	segment 51 52	a
+T11	segment 53 61	medieval
+T12	segment 62 67	duchy
+T13	segment 68 74	formed
+T14	segment 75 79	when
+T15	segment 80 83	the
+T16	segment 84 90	Polish
+T17	segment 91 98	Kingdom
+T18	segment 99 101	of
+T19	segment 102 105	the
+T20	segment 106 112	Piasts
+T21	segment 113 123	fragmented
+T22	segment 124 126	in
+T23	segment 127 131	1138
+T24	segment 132 133	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T9
+R2	c_co Arg1:T2 Arg2:T3
+R3	is-specialized-by Arg1:T3 Arg2:T4
+R4	c_co Arg1:T4 Arg2:T6
+R5	is-specialized-by Arg1:T6 Arg2:T7
+R6	c_co Arg1:T7 Arg2:T8
+R7	p_o Arg1:T9 Arg2:T12
+R8	is-specialized-by Arg1:T12 Arg2:T11
+R9	is-specialized-by Arg1:T17 Arg2:T16
+R10	is-specialized-by Arg1:T17 Arg2:T18
+R11	c_co Arg1:T18 Arg2:T20
+R12	is-specialized-by Arg1:T21 Arg2:T14
+R13	is-specialized-by Arg1:T21 Arg2:T22
+R14	c_co Arg1:T22 Arg2:T23

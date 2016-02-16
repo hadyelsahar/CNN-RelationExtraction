@@ -1,0 +1,32 @@
+T0	segment 0 3	Ken
+T1	segment 4 10	Pentel
+T2	segment 11 13	is
+T3	segment 14 16	an
+T4	segment 17 25	American
+T5	segment 26 36	politician
+T6	segment 36 37	,
+T7	segment 38 41	and
+T8	segment 42 43	a
+T9	segment 44 53	candidate
+T10	segment 54 57	for
+T11	segment 58 66	Governor
+T12	segment 67 69	of
+T13	segment 70 79	Minnesota
+T14	segment 80 83	for
+T15	segment 84 87	the
+T16	segment 88 95	Ecology
+T17	segment 96 105	Democracy
+T18	segment 106 111	Party
+T19	segment 112 113	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T9 Arg2:T10
+R5	c_co Arg1:T10 Arg2:T11
+R6	is-specialized-by Arg1:T11 Arg2:T12
+R7	c_co Arg1:T12 Arg2:T13
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T18
+R10	compound Arg1:T18 Arg2:T16
+R11	compound Arg1:T18 Arg2:T17

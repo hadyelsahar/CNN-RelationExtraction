@@ -1,0 +1,52 @@
+T0	segment 0 8	Hellenic
+T1	segment 9 17	Register
+T2	segment 18 20	of
+T3	segment 21 29	Shipping
+T4	segment 30 33	was
+T5	segment 34 41	founded
+T6	segment 42 44	in
+T7	segment 45 49	1919
+T8	segment 50 53	and
+T9	segment 54 56	is
+T10	segment 57 63	active
+T11	segment 64 66	in
+T12	segment 67 70	the
+T13	segment 71 79	industry
+T14	segment 80 91	inspections
+T15	segment 92 95	and
+T16	segment 96 110	certifications
+T17	segment 111 113	of
+T18	segment 114 124	facilities
+T19	segment 125 128	and
+T20	segment 129 138	equipment
+T21	segment 139 141	as
+T22	segment 142 146	well
+T23	segment 147 149	as
+T24	segment 150 153	the
+T25	segment 154 167	Certification
+T26	segment 168 170	of
+T27	segment 171 181	Management
+T28	segment 182 189	Systems
+T29	segment 190 191	.
+R0	s_p Arg1:T1 Arg2:T5
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	compound Arg1:T1 Arg2:T0
+R3	c_co Arg1:T2 Arg2:T3
+R4	compound Arg1:T3 Arg2:T0
+R5	compound Arg1:T3 Arg2:T2
+R6	compound Arg1:T3 Arg2:T1
+R7	compound Arg1:T5 Arg2:T4
+R8	p_c Arg1:T5 Arg2:T6
+R9	c_co Arg1:T6 Arg2:T7
+R10	is-specialized-by Arg1:T10 Arg2:T11
+R11	c_co Arg1:T11 Arg2:T14
+R12	compound Arg1:T14 Arg2:T13
+R13	is-specialized-by Arg1:T14 Arg2:T17
+R14	c_co Arg1:T17 Arg2:T18
+R15	compound Arg1:T21 Arg2:T22
+R16	compound Arg1:T21 Arg2:T23
+R17	is-specialized-by Arg1:T25 Arg2:T26
+R18	c_co Arg1:T26 Arg2:T28
+R19	compound Arg1:T28 Arg2:T27
+R20	compound Arg1:T28 Arg2:T26
+R21	compound Arg1:T28 Arg2:T25

@@ -1,0 +1,64 @@
+T0	segment 0 9	Westshore
+T1	segment 10 19	Terminals
+T2	segment 20 26	Income
+T3	segment 27 31	Fund
+T4	segment 32 34	is
+T5	segment 35 36	a
+T6	segment 37 44	leading
+T7	segment 45 53	operator
+T8	segment 54 56	of
+T9	segment 57 61	coal
+T10	segment 62 68	export
+T11	segment 69 79	facilities
+T12	segment 80 82	in
+T13	segment 83 86	the
+T14	segment 87 92	Metro
+T15	segment 93 102	Vancouver
+T16	segment 103 107	area
+T17	segment 107 108	,
+T18	segment 109 113	with
+T19	segment 114 116	an
+T20	segment 117 123	export
+T21	segment 124 132	capacity
+T22	segment 133 135	of
+T23	segment 136 138	29
+T24	segment 139 146	million
+T25	segment 147 152	tones
+T26	segment 153 156	per
+T27	segment 157 161	year
+T28	segment 161 162	,
+T29	segment 163 170	handing
+T30	segment 171 177	around
+T31	segment 178 181	200
+T32	segment 182 187	ships
+T33	segment 188 191	per
+T34	segment 192 196	year
+T35	segment 197 198	.
+R0	compound Arg1:T1 Arg2:T0
+R1	s_p Arg1:T1 Arg2:T4
+R2	compound Arg1:T3 Arg2:T2
+R3	p_o Arg1:T4 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T7 Arg2:T18
+R6	is-specialized-by Arg1:T7 Arg2:T12
+R7	is-specialized-by Arg1:T7 Arg2:T6
+R8	c_co Arg1:T8 Arg2:T11
+R9	compound Arg1:T11 Arg2:T10
+R10	compound Arg1:T11 Arg2:T9
+R11	c_co Arg1:T12 Arg2:T16
+R12	compound Arg1:T15 Arg2:T14
+R13	compound Arg1:T16 Arg2:T14
+R14	compound Arg1:T16 Arg2:T15
+R15	c_co Arg1:T18 Arg2:T21
+R16	compound Arg1:T21 Arg2:T20
+R17	is-specialized-by Arg1:T21 Arg2:T22
+R18	c_co Arg1:T22 Arg2:T25
+R19	compound Arg1:T24 Arg2:T23
+R20	is-specialized-by Arg1:T25 Arg2:T24
+R21	is-specialized-by Arg1:T25 Arg2:T26
+R22	c_co Arg1:T26 Arg2:T27
+R23	p_o Arg1:T29 Arg2:T32
+R24	is-specialized-by Arg1:T31 Arg2:T30
+R25	is-specialized-by Arg1:T32 Arg2:T31
+R26	is-specialized-by Arg1:T32 Arg2:T33
+R27	c_co Arg1:T33 Arg2:T34

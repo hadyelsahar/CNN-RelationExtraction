@@ -1,0 +1,63 @@
+T0	segment 0 5	Vongo
+T1	segment 6 9	was
+T2	segment 10 11	a
+T3	segment 12 17	video
+T4	segment 18 20	on
+T5	segment 21 27	demand
+T6	segment 28 35	service
+T7	segment 35 36	,
+T8	segment 37 42	owned
+T9	segment 43 45	by
+T10	segment 46 53	Liberty
+T11	segment 54 63	Media/The
+T12	segment 64 73	Weinstein
+T13	segment 74 81	Company
+T14	segment 81 83	's
+T15	segment 84 89	Starz
+T16	segment 90 103	Entertainment
+T17	segment 103 104	,
+T18	segment 105 111	parent
+T19	segment 112 119	company
+T20	segment 120 122	of
+T21	segment 123 126	the
+T22	segment 127 132	Starz
+T23	segment 133 140	network
+T24	segment 140 141	,
+T25	segment 142 146	that
+T26	segment 147 154	allowed
+T27	segment 155 160	users
+T28	segment 161 163	to
+T29	segment 164 172	download
+T30	segment 173 176	and
+T31	segment 177 181	view
+T32	segment 182 188	movies
+T33	segment 189 192	for
+T34	segment 193 194	a
+T35	segment 195 200	fixed
+T36	segment 201 206	price
+T37	segment 207 210	per
+T38	segment 211 216	month
+T39	segment 217 218	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T6
+R4	compound Arg1:T6 Arg2:T5
+R5	is-specialized-by Arg1:T8 Arg2:T9
+R6	c_co Arg1:T9 Arg2:T16
+R7	compound Arg1:T13 Arg2:T12
+R8	compound Arg1:T13 Arg2:T11
+R9	compound Arg1:T13 Arg2:T10
+R10	compound Arg1:T16 Arg2:T15
+R11	is-specialized-by Arg1:T19 Arg2:T20
+R12	compound Arg1:T19 Arg2:T18
+R13	c_co Arg1:T20 Arg2:T23
+R14	compound Arg1:T23 Arg2:T22
+R15	s_p Arg1:T25 Arg2:T26
+R16	p_o Arg1:T26 Arg2:T27
+R17	p_o Arg1:T29 Arg2:T32
+R18	is-specialized-by Arg1:T32 Arg2:T33
+R19	c_co Arg1:T33 Arg2:T36
+R20	is-specialized-by Arg1:T36 Arg2:T35
+R21	is-specialized-by Arg1:T36 Arg2:T37
+R22	c_co Arg1:T37 Arg2:T38

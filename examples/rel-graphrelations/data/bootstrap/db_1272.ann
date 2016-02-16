@@ -1,0 +1,51 @@
+T0	segment 0 3	The
+T1	segment 4 10	Nordic
+T2	segment 11 19	Passport
+T3	segment 20 25	Union
+T4	segment 26 32	allows
+T5	segment 33 41	citizens
+T6	segment 42 44	of
+T7	segment 45 48	the
+T8	segment 49 55	Nordic
+T9	segment 56 65	countries
+T10	segment 65 66	:
+T11	segment 67 74	Denmark
+T12	segment 75 76	,
+T13	segment 77 83	Sweden
+T14	segment 83 84	,
+T15	segment 85 91	Norway
+T16	segment 91 92	,
+T17	segment 93 100	Finland
+T18	segment 100 101	,
+T19	segment 102 105	and
+T20	segment 106 113	Iceland
+T21	segment 114 116	to
+T22	segment 117 123	travel
+T23	segment 124 127	and
+T24	segment 128 134	reside
+T25	segment 135 137	in
+T26	segment 138 143	other
+T27	segment 144 150	Nordic
+T28	segment 151 160	countries
+T29	segment 161 168	without
+T30	segment 169 170	a
+T31	segment 171 179	passport
+T32	segment 180 182	or
+T33	segment 183 184	a
+T34	segment 185 194	residence
+T35	segment 195 201	permit
+T36	segment 202 203	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T5
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T9
+R6	is-specialized-by Arg1:T9 Arg2:T8
+R7	compound Arg1:T17 Arg2:T11
+R8	is-specialized-by Arg1:T22 Arg2:T25
+R9	is-specialized-by Arg1:T22 Arg2:T29
+R10	c_co Arg1:T25 Arg2:T28
+R11	is-specialized-by Arg1:T28 Arg2:T26
+R12	c_co Arg1:T29 Arg2:T31
+R13	compound Arg1:T35 Arg2:T34

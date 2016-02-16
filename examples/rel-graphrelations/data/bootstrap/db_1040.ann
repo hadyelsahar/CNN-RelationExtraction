@@ -1,0 +1,44 @@
+T0	segment 0 6	Maritz
+T1	segment 7 9	is
+T2	segment 10 11	a
+T3	segment 12 17	sales
+T4	segment 18 21	and
+T5	segment 22 31	marketing
+T6	segment 32 40	services
+T7	segment 41 48	company
+T8	segment 49 53	that
+T9	segment 54 61	designs
+T10	segment 62 65	and
+T11	segment 66 74	operates
+T12	segment 75 83	employee
+T13	segment 84 95	recognition
+T14	segment 96 99	and
+T15	segment 100 106	reward
+T16	segment 107 115	programs
+T17	segment 115 116	,
+T18	segment 117 122	sales
+T19	segment 123 130	channel
+T20	segment 131 140	incentive
+T21	segment 141 149	programs
+T22	segment 149 150	,
+T23	segment 151 152	,
+T24	segment 153 156	the
+T25	segment 157 163	Maritz
+T26	segment 164 173	Institute
+T27	segment 173 174	,
+T28	segment 175 178	and
+T29	segment 179 185	Maritz
+T30	segment 186 192	Travel
+T31	segment 193 194	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	compound Arg1:T7 Arg2:T6
+R3	compound Arg1:T7 Arg2:T5
+R4	s_p Arg1:T8 Arg2:T9
+R5	p_o Arg1:T9 Arg2:T13
+R6	compound Arg1:T13 Arg2:T12
+R7	compound Arg1:T16 Arg2:T15
+R8	compound Arg1:T21 Arg2:T20
+R9	compound Arg1:T21 Arg2:T19
+R10	compound Arg1:T26 Arg2:T25
+R11	compound Arg1:T30 Arg2:T29

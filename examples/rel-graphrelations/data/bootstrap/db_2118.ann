@@ -1,0 +1,30 @@
+T0	segment 0 5	Derek
+T1	segment 6 9	Lam
+T2	segment 10 12	is
+T3	segment 13 15	an
+T4	segment 16 24	American
+T5	segment 25 32	fashion
+T6	segment 33 41	designer
+T7	segment 41 42	,
+T8	segment 43 48	known
+T9	segment 49 52	for
+T10	segment 53 58	using
+T11	segment 59 65	pretty
+T12	segment 65 66	,
+T13	segment 67 75	feminine
+T14	segment 76 83	fabrics
+T15	segment 84 92	combined
+T16	segment 93 97	with
+T17	segment 98 103	clean
+T18	segment 104 115	silhouettes
+T19	segment 116 117	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T6
+R3	compound Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T6 Arg2:T4
+R5	is-specialized-by Arg1:T10 Arg2:T11
+R6	is-specialized-by Arg1:T14 Arg2:T13
+R7	is-specialized-by Arg1:T15 Arg2:T16
+R8	c_co Arg1:T16 Arg2:T18
+R9	is-specialized-by Arg1:T18 Arg2:T17

@@ -1,0 +1,35 @@
+T0	segment 0 3	The
+T1	segment 4 11	Abdulla
+T2	segment 12 17	Fouad
+T3	segment 18 23	Group
+T4	segment 24 26	of
+T5	segment 27 36	Companies
+T6	segment 37 40	was
+T7	segment 41 48	founded
+T8	segment 49 51	in
+T9	segment 52 55	the
+T10	segment 56 61	1950s
+T11	segment 62 64	in
+T12	segment 65 68	Ras
+T13	segment 69 75	Tanura
+T14	segment 75 76	,
+T15	segment 77 82	Saudi
+T16	segment 83 89	Arabia
+T17	segment 90 91	.
+R0	s_p Arg1:T3 Arg2:T7
+R1	is-specialized-by Arg1:T3 Arg2:T4
+R2	compound Arg1:T3 Arg2:T2
+R3	compound Arg1:T3 Arg2:T1
+R4	c_co Arg1:T4 Arg2:T5
+R5	compound Arg1:T5 Arg2:T4
+R6	compound Arg1:T5 Arg2:T3
+R7	compound Arg1:T5 Arg2:T2
+R8	compound Arg1:T5 Arg2:T1
+R9	compound Arg1:T7 Arg2:T6
+R10	p_c Arg1:T7 Arg2:T8
+R11	c_co Arg1:T8 Arg2:T10
+R12	is-specialized-by Arg1:T10 Arg2:T11
+R13	compound Arg1:T10 Arg2:T9
+R14	c_co Arg1:T11 Arg2:T13
+R15	compound Arg1:T13 Arg2:T12
+R16	compound Arg1:T16 Arg2:T15

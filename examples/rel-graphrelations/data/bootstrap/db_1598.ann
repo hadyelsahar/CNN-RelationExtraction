@@ -1,0 +1,57 @@
+T0	segment 0 3	The
+T1	segment 4 11	Kingdom
+T2	segment 12 14	of
+T3	segment 15 19	Luba
+T4	segment 20 22	or
+T5	segment 23 27	Luba
+T6	segment 28 34	Empire
+T7	segment 35 38	was
+T8	segment 39 40	a
+T9	segment 41 53	pre-colonial
+T10	segment 54 61	Central
+T11	segment 62 69	African
+T12	segment 70 75	state
+T13	segment 76 80	that
+T14	segment 81 86	arose
+T15	segment 87 89	in
+T16	segment 90 93	the
+T17	segment 94 100	marshy
+T18	segment 101 111	grasslands
+T19	segment 112 114	of
+T20	segment 115 118	the
+T21	segment 119 125	Upemba
+T22	segment 126 136	Depression
+T23	segment 137 139	in
+T24	segment 140 144	what
+T25	segment 145 147	is
+T26	segment 148 151	now
+T27	segment 152 160	southern
+T28	segment 161 171	Democratic
+T29	segment 172 180	Republic
+T30	segment 181 183	of
+T31	segment 184 189	Congo
+T32	segment 190 191	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T7
+R2	c_co Arg1:T2 Arg2:T6
+R3	compound Arg1:T6 Arg2:T3
+R4	compound Arg1:T6 Arg2:T5
+R5	p_o Arg1:T7 Arg2:T12
+R6	compound Arg1:T11 Arg2:T10
+R7	is-specialized-by Arg1:T12 Arg2:T9
+R8	s_p Arg1:T13 Arg2:T14
+R9	p_c Arg1:T14 Arg2:T15
+R10	c_co Arg1:T15 Arg2:T18
+R11	is-specialized-by Arg1:T18 Arg2:T17
+R12	is-specialized-by Arg1:T18 Arg2:T19
+R13	c_co Arg1:T19 Arg2:T22
+R14	compound Arg1:T22 Arg2:T21
+R15	s_p Arg1:T24 Arg2:T25
+R16	p_o Arg1:T25 Arg2:T29
+R17	is-specialized-by Arg1:T29 Arg2:T26
+R18	is-specialized-by Arg1:T29 Arg2:T27
+R19	is-specialized-by Arg1:T29 Arg2:T30
+R20	c_co Arg1:T30 Arg2:T31
+R21	compound Arg1:T31 Arg2:T28
+R22	compound Arg1:T31 Arg2:T30
+R23	compound Arg1:T31 Arg2:T29

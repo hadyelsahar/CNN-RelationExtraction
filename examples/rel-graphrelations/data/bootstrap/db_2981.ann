@@ -1,0 +1,43 @@
+T0	segment 0 3	The
+T1	segment 4 11	Kingdom
+T2	segment 12 14	of
+T3	segment 15 20	Cusco
+T4	segment 21 24	was
+T5	segment 25 26	a
+T6	segment 27 32	small
+T7	segment 33 40	kingdom
+T8	segment 41 43	in
+T9	segment 44 47	the
+T10	segment 48 53	Andes
+T11	segment 54 58	that
+T12	segment 59 64	began
+T13	segment 65 67	as
+T14	segment 68 69	a
+T15	segment 70 75	small
+T16	segment 76 86	city-state
+T17	segment 87 94	founded
+T18	segment 95 97	by
+T19	segment 98 101	the
+T20	segment 102 107	Incas
+T21	segment 108 114	around
+T22	segment 115 118	the
+T23	segment 119 123	12th
+T24	segment 124 131	century
+T25	segment 132 133	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T7 Arg2:T6
+R6	c_co Arg1:T8 Arg2:T10
+R7	s_p Arg1:T11 Arg2:T12
+R8	p_c Arg1:T12 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T16
+R10	is-specialized-by Arg1:T16 Arg2:T15
+R11	is-specialized-by Arg1:T17 Arg2:T18
+R12	is-specialized-by Arg1:T17 Arg2:T21
+R13	c_co Arg1:T18 Arg2:T20
+R14	c_co Arg1:T21 Arg2:T24
+R15	compound Arg1:T24 Arg2:T22
+R16	compound Arg1:T24 Arg2:T23

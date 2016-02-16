@@ -1,0 +1,60 @@
+T0	segment 0 3	The
+T1	segment 4 8	Palo
+T2	segment 9 13	Alto
+T3	segment 14 21	Medical
+T4	segment 22 32	Foundation
+T5	segment 33 36	for
+T6	segment 37 43	Health
+T7	segment 44 48	Care
+T8	segment 48 49	,
+T9	segment 50 58	Research
+T10	segment 59 62	and
+T11	segment 63 72	Education
+T12	segment 73 75	is
+T13	segment 76 77	a
+T14	segment 78 92	not-for-profit
+T15	segment 93 99	health
+T16	segment 100 104	care
+T17	segment 105 117	organization
+T18	segment 118 122	with
+T19	segment 123 130	medical
+T20	segment 131 138	offices
+T21	segment 139 141	in
+T22	segment 142 146	more
+T23	segment 147 151	than
+T24	segment 152 154	15
+T25	segment 155 161	cities
+T26	segment 162 164	in
+T27	segment 165 168	the
+T28	segment 169 172	Bay
+T29	segment 173 177	Area
+T30	segment 178 179	.
+R0	compound Arg1:T4 Arg2:T3
+R1	is-specialized-by Arg1:T4 Arg2:T5
+R2	s_p Arg1:T4 Arg2:T12
+R3	compound Arg1:T4 Arg2:T2
+R4	compound Arg1:T4 Arg2:T1
+R5	c_co Arg1:T5 Arg2:T7
+R6	compound Arg1:T7 Arg2:T4
+R7	compound Arg1:T7 Arg2:T5
+R8	compound Arg1:T7 Arg2:T2
+R9	compound Arg1:T7 Arg2:T3
+R10	compound Arg1:T7 Arg2:T1
+R11	compound Arg1:T7 Arg2:T6
+R12	compound Arg1:T11 Arg2:T10
+R13	compound Arg1:T11 Arg2:T9
+R14	p_o Arg1:T12 Arg2:T17
+R15	is-specialized-by Arg1:T17 Arg2:T18
+R16	compound Arg1:T17 Arg2:T16
+R17	compound Arg1:T17 Arg2:T15
+R18	is-specialized-by Arg1:T17 Arg2:T14
+R19	c_co Arg1:T18 Arg2:T20
+R20	is-specialized-by Arg1:T20 Arg2:T19
+R21	is-specialized-by Arg1:T20 Arg2:T21
+R22	c_co Arg1:T21 Arg2:T25
+R23	compound Arg1:T22 Arg2:T23
+R24	is-specialized-by Arg1:T24 Arg2:T22
+R25	is-specialized-by Arg1:T25 Arg2:T24
+R26	is-specialized-by Arg1:T25 Arg2:T26
+R27	c_co Arg1:T26 Arg2:T29
+R28	compound Arg1:T29 Arg2:T28

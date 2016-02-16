@@ -1,0 +1,43 @@
+T0	segment 0 6	Rengat
+T1	segment 7 9	is
+T2	segment 10 11	a
+T3	segment 12 16	town
+T4	segment 17 19	in
+T5	segment 20 24	Riau
+T6	segment 25 33	province
+T7	segment 34 36	of
+T8	segment 37 46	Indonesia
+T9	segment 47 50	and
+T10	segment 51 53	it
+T11	segment 54 56	is
+T12	segment 57 60	the
+T13	segment 61 68	capital
+T14	segment 69 73	near
+T15	segment 74 77	the
+T16	segment 78 82	town
+T17	segment 82 83	,
+T18	segment 84 87	but
+T19	segment 88 91	the
+T20	segment 92 104	conservation
+T21	segment 105 109	area
+T22	segment 110 112	is
+T23	segment 113 115	no
+T24	segment 116 122	longer
+T25	segment 123 137	well-protected
+T26	segment 138 139	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T7
+R3	is-specialized-by Arg1:T3 Arg2:T4
+R4	c_co Arg1:T4 Arg2:T6
+R5	compound Arg1:T6 Arg2:T5
+R6	c_co Arg1:T7 Arg2:T8
+R7	s_p Arg1:T10 Arg2:T11
+R8	p_o Arg1:T11 Arg2:T13
+R9	is-specialized-by Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T16
+R11	compound Arg1:T21 Arg2:T20
+R12	s_p Arg1:T21 Arg2:T22
+R13	p_o Arg1:T22 Arg2:T25
+R14	compound Arg1:T24 Arg2:T23
+R15	is-specialized-by Arg1:T25 Arg2:T24

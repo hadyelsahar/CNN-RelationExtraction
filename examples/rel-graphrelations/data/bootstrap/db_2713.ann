@@ -1,0 +1,72 @@
+T0	segment 0 8	Dredging
+T1	segment 8 9	,
+T2	segment 10 23	Environmental
+T3	segment 24 27	and
+T4	segment 28 34	Marine
+T5	segment 35 46	Engineering
+T6	segment 47 49	NV
+T7	segment 50 52	is
+T8	segment 53 55	an
+T9	segment 56 69	international
+T10	segment 70 75	group
+T11	segment 76 78	of
+T12	segment 79 90	specialised
+T13	segment 91 100	companies
+T14	segment 101 103	in
+T15	segment 104 107	the
+T16	segment 108 113	field
+T17	segment 114 116	of
+T18	segment 117 124	capital
+T19	segment 125 128	and
+T20	segment 129 140	maintenance
+T21	segment 141 149	dredging
+T22	segment 149 150	,
+T23	segment 151 155	land
+T24	segment 156 167	reclamation
+T25	segment 167 168	,
+T26	segment 169 173	port
+T27	segment 174 188	infrastructure
+T28	segment 189 200	development
+T29	segment 200 201	,
+T30	segment 202 210	offshore
+T31	segment 211 218	related
+T32	segment 219 227	services
+T33	segment 228 231	for
+T34	segment 232 235	the
+T35	segment 236 239	oil
+T36	segment 240 241	&
+T37	segment 242 245	gas
+T38	segment 246 254	industry
+T39	segment 254 255	,
+T40	segment 256 264	farshore
+T41	segment 265 273	windfarm
+T42	segment 274 286	installation
+T43	segment 286 287	,
+T44	segment 288 301	environmental
+T45	segment 302 313	remediation
+T46	segment 314 315	a
+T47	segment 316 317	.
+R0	s_p Arg1:T0 Arg2:T7
+R1	compound Arg1:T6 Arg2:T4
+R2	compound Arg1:T6 Arg2:T5
+R3	p_o Arg1:T7 Arg2:T10
+R4	is-specialized-by Arg1:T10 Arg2:T9
+R5	is-specialized-by Arg1:T10 Arg2:T11
+R6	c_co Arg1:T11 Arg2:T13
+R7	is-specialized-by Arg1:T13 Arg2:T12
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T16
+R10	is-specialized-by Arg1:T16 Arg2:T17
+R11	c_co Arg1:T17 Arg2:T18
+R12	compound Arg1:T21 Arg2:T20
+R13	compound Arg1:T24 Arg2:T23
+R14	compound Arg1:T28 Arg2:T27
+R15	compound Arg1:T28 Arg2:T26
+R16	is-specialized-by Arg1:T32 Arg2:T31
+R17	is-specialized-by Arg1:T32 Arg2:T33
+R18	is-specialized-by Arg1:T32 Arg2:T30
+R19	c_co Arg1:T33 Arg2:T35
+R20	compound Arg1:T38 Arg2:T37
+R21	compound Arg1:T42 Arg2:T40
+R22	compound Arg1:T42 Arg2:T41
+R23	is-specialized-by Arg1:T45 Arg2:T44

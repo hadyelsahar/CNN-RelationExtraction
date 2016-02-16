@@ -1,0 +1,35 @@
+T0	segment 0 3	San
+T1	segment 4 8	JosÃ©
+T2	segment 9 11	de
+T3	segment 12 16	Ocoa
+T4	segment 17 19	is
+T5	segment 20 21	a
+T6	segment 22 30	province
+T7	segment 31 33	of
+T8	segment 34 37	the
+T9	segment 38 47	Dominican
+T10	segment 48 56	Republic
+T11	segment 56 57	,
+T12	segment 58 61	and
+T13	segment 62 66	also
+T14	segment 67 70	the
+T15	segment 71 75	name
+T16	segment 76 78	of
+T17	segment 79 82	the
+T18	segment 83 91	province
+T19	segment 91 93	's
+T20	segment 94 101	capital
+T21	segment 102 106	city
+T22	segment 107 108	.
+R0	compound Arg1:T3 Arg2:T0
+R1	s_p Arg1:T3 Arg2:T4
+R2	compound Arg1:T3 Arg2:T2
+R3	compound Arg1:T3 Arg2:T1
+R4	p_o Arg1:T4 Arg2:T6
+R5	is-specialized-by Arg1:T6 Arg2:T7
+R6	c_co Arg1:T7 Arg2:T10
+R7	compound Arg1:T10 Arg2:T9
+R8	is-specialized-by Arg1:T15 Arg2:T16
+R9	is-specialized-by Arg1:T15 Arg2:T13
+R10	c_co Arg1:T16 Arg2:T21
+R11	compound Arg1:T21 Arg2:T20

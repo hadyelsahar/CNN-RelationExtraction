@@ -1,0 +1,28 @@
+T0	segment 0 10	FareFuturo
+T1	segment 11 13	is
+T2	segment 14 15	a
+T3	segment 16 36	liberal-conservative
+T4	segment 37 42	think
+T5	segment 43 47	tank
+T6	segment 48 53	close
+T7	segment 54 56	to
+T8	segment 57 63	Future
+T9	segment 64 67	and
+T10	segment 68 75	Freedom
+T11	segment 75 76	,
+T12	segment 77 78	a
+T13	segment 79 88	political
+T14	segment 89 94	party
+T15	segment 95 97	in
+T16	segment 98 103	Italy
+T17	segment 104 105	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T6
+R2	compound Arg1:T6 Arg2:T4
+R3	is-specialized-by Arg1:T6 Arg2:T7
+R4	compound Arg1:T6 Arg2:T5
+R5	is-specialized-by Arg1:T6 Arg2:T3
+R6	c_co Arg1:T7 Arg2:T8
+R7	is-specialized-by Arg1:T14 Arg2:T15
+R8	is-specialized-by Arg1:T14 Arg2:T13
+R9	c_co Arg1:T15 Arg2:T16

@@ -1,0 +1,37 @@
+T0	segment 0 9	Romstrade
+T1	segment 10 12	is
+T2	segment 13 14	a
+T3	segment 15 27	construction
+T4	segment 28 35	company
+T5	segment 36 41	based
+T6	segment 42 44	in
+T7	segment 45 54	Bucharest
+T8	segment 54 55	,
+T9	segment 56 63	Romania
+T10	segment 64 69	which
+T11	segment 70 81	specialises
+T12	segment 82 84	in
+T13	segment 85 93	building
+T14	segment 94 106	construction
+T15	segment 107 110	and
+T16	segment 111 116	civil
+T17	segment 117 128	engineering
+T18	segment 128 129	,
+T19	segment 130 144	infrastructure
+T20	segment 145 157	construction
+T21	segment 157 158	,
+T22	segment 159 162	and
+T23	segment 163 171	facility
+T24	segment 172 182	management
+T25	segment 183 184	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	compound Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T9
+R5	compound Arg1:T9 Arg2:T7
+R6	s_p Arg1:T10 Arg2:T11
+R7	p_o Arg1:T13 Arg2:T17
+R8	compound Arg1:T17 Arg2:T14
+R9	compound Arg1:T20 Arg2:T19
+R10	compound Arg1:T24 Arg2:T23

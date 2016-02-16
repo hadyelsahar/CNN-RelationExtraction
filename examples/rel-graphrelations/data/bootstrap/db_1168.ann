@@ -1,0 +1,34 @@
+T0	segment 0 6	Vassos
+T1	segment 7 17	Lyssarides
+T2	segment 18 20	is
+T3	segment 21 22	a
+T4	segment 23 30	Cypriot
+T5	segment 31 41	politician
+T6	segment 42 45	who
+T7	segment 46 49	has
+T8	segment 50 54	been
+T9	segment 55 56	a
+T10	segment 57 64	central
+T11	segment 65 71	figure
+T12	segment 72 74	in
+T13	segment 75 81	Cyprus
+T14	segment 82 90	politics
+T15	segment 91 96	since
+T16	segment 97 100	the
+T17	segment 101 107	island
+T18	segment 107 109	's
+T19	segment 110 122	independence
+T20	segment 123 124	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	compound Arg1:T5 Arg2:T4
+R4	s_p Arg1:T6 Arg2:T8
+R5	p_o Arg1:T8 Arg2:T11
+R6	is-specialized-by Arg1:T11 Arg2:T15
+R7	is-specialized-by Arg1:T11 Arg2:T10
+R8	is-specialized-by Arg1:T11 Arg2:T12
+R9	compound Arg1:T11 Arg2:T7
+R10	c_co Arg1:T12 Arg2:T14
+R11	compound Arg1:T14 Arg2:T13
+R12	c_co Arg1:T15 Arg2:T19

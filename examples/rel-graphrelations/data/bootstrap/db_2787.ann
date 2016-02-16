@@ -1,0 +1,28 @@
+T0	segment 0 8	Accelrys
+T1	segment 9 11	is
+T2	segment 12 13	a
+T3	segment 14 22	software
+T4	segment 23 30	company
+T5	segment 31 44	headquartered
+T6	segment 45 47	in
+T7	segment 48 51	the
+T8	segment 52 58	United
+T9	segment 59 65	States
+T10	segment 65 66	,
+T11	segment 67 71	with
+T12	segment 72 86	representation
+T13	segment 87 89	in
+T14	segment 90 96	Europe
+T15	segment 97 100	and
+T16	segment 101 105	Asia
+T17	segment 106 107	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	compound Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T5 Arg2:T11
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T9
+R6	compound Arg1:T9 Arg2:T8
+R7	c_co Arg1:T11 Arg2:T12
+R8	is-specialized-by Arg1:T12 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T14

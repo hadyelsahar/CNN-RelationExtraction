@@ -1,0 +1,54 @@
+T0	segment 0 4	Fort
+T1	segment 5 14	Vancouver
+T2	segment 15 18	was
+T3	segment 19 20	a
+T4	segment 21 33	19th-century
+T5	segment 34 37	fur
+T6	segment 38 45	trading
+T7	segment 46 53	outpost
+T8	segment 54 59	along
+T9	segment 60 63	the
+T10	segment 64 72	Columbia
+T11	segment 73 78	River
+T12	segment 79 83	that
+T13	segment 84 90	served
+T14	segment 91 93	as
+T15	segment 94 97	the
+T16	segment 98 110	headquarters
+T17	segment 111 113	of
+T18	segment 114 117	the
+T19	segment 118 124	Hudson
+T20	segment 124 126	's
+T21	segment 127 130	Bay
+T22	segment 131 138	Company
+T23	segment 138 140	's
+T24	segment 141 149	Columbia
+T25	segment 150 160	Department
+T26	segment 160 161	,
+T27	segment 162 169	located
+T28	segment 170 172	in
+T29	segment 173 176	the
+T30	segment 177 183	Oregon
+T31	segment 184 191	Country
+T32	segment 192 193	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T7
+R3	is-specialized-by Arg1:T7 Arg2:T8
+R4	compound Arg1:T7 Arg2:T6
+R5	compound Arg1:T7 Arg2:T5
+R6	is-specialized-by Arg1:T7 Arg2:T4
+R7	c_co Arg1:T8 Arg2:T11
+R8	compound Arg1:T11 Arg2:T10
+R9	s_p Arg1:T12 Arg2:T13
+R10	p_c Arg1:T13 Arg2:T14
+R11	c_co Arg1:T14 Arg2:T16
+R12	is-specialized-by Arg1:T16 Arg2:T17
+R13	c_co Arg1:T17 Arg2:T25
+R14	compound Arg1:T22 Arg2:T20
+R15	compound Arg1:T22 Arg2:T19
+R16	compound Arg1:T22 Arg2:T21
+R17	compound Arg1:T25 Arg2:T24
+R18	is-specialized-by Arg1:T27 Arg2:T28
+R19	c_co Arg1:T28 Arg2:T31
+R20	compound Arg1:T31 Arg2:T30

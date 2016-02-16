@@ -1,0 +1,27 @@
+T0	segment 0 3	The
+T1	segment 4 10	United
+T2	segment 11 18	Kingdom
+T3	segment 19 32	Accreditation
+T4	segment 33 40	Service
+T5	segment 41 43	is
+T6	segment 44 47	the
+T7	segment 48 52	sole
+T8	segment 53 61	national
+T9	segment 62 75	accreditation
+T10	segment 76 80	body
+T11	segment 81 91	recognised
+T12	segment 92 94	by
+T13	segment 95 98	the
+T14	segment 99 106	British
+T15	segment 107 117	government
+T16	segment 118 119	.
+R0	compound Arg1:T4 Arg2:T3
+R1	s_p Arg1:T4 Arg2:T5
+R2	compound Arg1:T4 Arg2:T2
+R3	compound Arg1:T4 Arg2:T1
+R4	p_o Arg1:T5 Arg2:T10
+R5	is-specialized-by Arg1:T10 Arg2:T7
+R6	compound Arg1:T10 Arg2:T9
+R7	is-specialized-by Arg1:T11 Arg2:T12
+R8	c_co Arg1:T12 Arg2:T15
+R9	is-specialized-by Arg1:T15 Arg2:T14

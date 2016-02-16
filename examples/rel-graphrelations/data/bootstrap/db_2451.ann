@@ -1,0 +1,39 @@
+T0	segment 0 3	The
+T1	segment 4 12	Mosquito
+T2	segment 13 18	Coast
+T3	segment 18 19	,
+T4	segment 20 24	also
+T5	segment 25 30	known
+T6	segment 31 33	as
+T7	segment 34 37	the
+T8	segment 38 45	Miskito
+T9	segment 46 51	Coast
+T10	segment 51 52	,
+T11	segment 53 65	historically
+T12	segment 66 75	comprised
+T13	segment 76 78	an
+T14	segment 79 83	area
+T15	segment 84 89	along
+T16	segment 90 93	the
+T17	segment 94 101	eastern
+T18	segment 102 107	coast
+T19	segment 108 110	of
+T20	segment 111 122	present-day
+T21	segment 123 132	Nicaragua
+T22	segment 133 136	and
+T23	segment 137 145	Honduras
+T24	segment 146 147	.
+R0	s_p Arg1:T2 Arg2:T12
+R1	compound Arg1:T2 Arg2:T1
+R2	is-specialized-by Arg1:T5 Arg2:T4
+R3	is-specialized-by Arg1:T5 Arg2:T6
+R4	c_co Arg1:T6 Arg2:T9
+R5	compound Arg1:T9 Arg2:T8
+R6	p_c Arg1:T12 Arg2:T15
+R7	p_o Arg1:T12 Arg2:T14
+R8	p_c Arg1:T12 Arg2:T11
+R9	c_co Arg1:T15 Arg2:T18
+R10	is-specialized-by Arg1:T18 Arg2:T17
+R11	is-specialized-by Arg1:T18 Arg2:T19
+R12	c_co Arg1:T19 Arg2:T21
+R13	is-specialized-by Arg1:T21 Arg2:T20

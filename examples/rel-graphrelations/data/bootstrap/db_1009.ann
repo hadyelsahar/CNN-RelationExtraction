@@ -1,0 +1,32 @@
+T0	segment 0 18	Isenburg-Kempenich
+T1	segment 19 22	was
+T2	segment 23 26	the
+T3	segment 27 31	name
+T4	segment 32 34	of
+T5	segment 35 36	a
+T6	segment 37 42	state
+T7	segment 43 45	of
+T8	segment 46 49	the
+T9	segment 50 54	Holy
+T10	segment 55 60	Roman
+T11	segment 61 67	Empire
+T12	segment 67 68	,
+T13	segment 69 74	based
+T14	segment 75 81	around
+T15	segment 82 91	Kempenich
+T16	segment 92 94	in
+T17	segment 95 101	modern
+T18	segment 102 122	Rhineland-Palatinate
+T19	segment 122 123	,
+T20	segment 124 131	Germany
+T21	segment 132 133	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	c_co Arg1:T7 Arg2:T11
+R6	is-specialized-by Arg1:T11 Arg2:T9
+R7	is-specialized-by Arg1:T15 Arg2:T16
+R8	c_co Arg1:T16 Arg2:T18
+R9	is-specialized-by Arg1:T18 Arg2:T17

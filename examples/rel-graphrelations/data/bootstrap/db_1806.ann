@@ -1,0 +1,28 @@
+T0	segment 0 8	Ahlstrom
+T1	segment 9 11	is
+T2	segment 12 13	a
+T3	segment 14 21	Finnish
+T4	segment 22 26	high
+T5	segment 27 38	performance
+T6	segment 39 50	fiber-based
+T7	segment 51 60	materials
+T8	segment 61 68	company
+T9	segment 68 69	,
+T10	segment 70 80	partnering
+T11	segment 81 85	with
+T12	segment 86 93	leading
+T13	segment 94 104	businesses
+T14	segment 105 111	around
+T15	segment 112 115	the
+T16	segment 116 121	world
+T17	segment 122 123	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T8
+R2	compound Arg1:T8 Arg2:T5
+R3	compound Arg1:T8 Arg2:T7
+R4	is-specialized-by Arg1:T8 Arg2:T3
+R5	is-specialized-by Arg1:T10 Arg2:T11
+R6	c_co Arg1:T11 Arg2:T13
+R7	is-specialized-by Arg1:T13 Arg2:T12
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T16

@@ -1,0 +1,35 @@
+T0	segment 0 3	The
+T1	segment 4 12	Westland
+T2	segment 13 21	Province
+T3	segment 22 25	was
+T4	segment 26 27	a
+T5	segment 28 36	province
+T6	segment 37 39	of
+T7	segment 40 43	New
+T8	segment 44 51	Zealand
+T9	segment 52 56	from
+T10	segment 57 61	1873
+T11	segment 62 67	until
+T12	segment 68 71	the
+T13	segment 72 81	abolition
+T14	segment 82 84	of
+T15	segment 85 95	provincial
+T16	segment 96 106	government
+T17	segment 107 109	in
+T18	segment 110 114	1876
+T19	segment 115 116	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T11
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T8
+R6	is-specialized-by Arg1:T8 Arg2:T9
+R7	compound Arg1:T8 Arg2:T7
+R8	c_co Arg1:T9 Arg2:T10
+R9	c_co Arg1:T11 Arg2:T13
+R10	is-specialized-by Arg1:T13 Arg2:T14
+R11	c_co Arg1:T14 Arg2:T16
+R12	is-specialized-by Arg1:T16 Arg2:T15
+R13	is-specialized-by Arg1:T16 Arg2:T17
+R14	c_co Arg1:T17 Arg2:T18

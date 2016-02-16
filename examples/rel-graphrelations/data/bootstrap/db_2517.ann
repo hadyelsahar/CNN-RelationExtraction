@@ -1,0 +1,62 @@
+T0	segment 0 3	The
+T1	segment 4 9	Spicy
+T2	segment 10 16	Effect
+T3	segment 16 17	,
+T4	segment 18 26	commonly
+T5	segment 27 35	referred
+T6	segment 36 38	to
+T7	segment 39 41	as
+T8	segment 42 47	Spicy
+T9	segment 48 50	or
+T10	segment 51 56	Spicy
+T11	segment 57 62	Music
+T12	segment 62 63	,
+T13	segment 64 66	is
+T14	segment 67 68	a
+T15	segment 69 74	Greek
+T16	segment 75 86	independent
+T17	segment 87 93	record
+T18	segment 94 99	label
+T19	segment 100 107	founded
+T20	segment 108 110	in
+T21	segment 111 115	2009
+T22	segment 116 118	by
+T23	segment 119 129	songwriter
+T24	segment 130 133	and
+T25	segment 134 140	record
+T26	segment 141 149	producer
+T27	segment 150 157	Phoebus
+T28	segment 157 158	,
+T29	segment 159 161	in
+T30	segment 162 173	association
+T31	segment 174 178	with
+T32	segment 179 182	the
+T33	segment 183 193	investment
+T34	segment 194 197	arm
+T35	segment 198 200	of
+T36	segment 201 204	Nea
+T37	segment 205 214	Tileorasi
+T38	segment 215 216	.
+R0	s_p Arg1:T2 Arg2:T13
+R1	compound Arg1:T2 Arg2:T1
+R2	is-specialized-by Arg1:T5 Arg2:T7
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	c_co Arg1:T7 Arg2:T11
+R5	compound Arg1:T11 Arg2:T8
+R6	p_o Arg1:T13 Arg2:T18
+R7	is-specialized-by Arg1:T18 Arg2:T15
+R8	compound Arg1:T18 Arg2:T17
+R9	is-specialized-by Arg1:T19 Arg2:T31
+R10	is-specialized-by Arg1:T19 Arg2:T20
+R11	is-specialized-by Arg1:T19 Arg2:T22
+R12	c_co Arg1:T20 Arg2:T21
+R13	c_co Arg1:T22 Arg2:T27
+R14	compound Arg1:T27 Arg2:T23
+R15	compound Arg1:T27 Arg2:T26
+R16	is-specialized-by Arg1:T27 Arg2:T29
+R17	c_co Arg1:T29 Arg2:T30
+R18	c_co Arg1:T31 Arg2:T34
+R19	is-specialized-by Arg1:T34 Arg2:T35
+R20	compound Arg1:T34 Arg2:T33
+R21	c_co Arg1:T35 Arg2:T37
+R22	compound Arg1:T37 Arg2:T36

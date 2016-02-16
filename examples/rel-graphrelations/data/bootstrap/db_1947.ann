@@ -1,0 +1,24 @@
+T0	segment 0 6	Oliver
+T1	segment 7 12	James
+T2	segment 13 19	Fisher
+T3	segment 20 22	is
+T4	segment 23 25	an
+T5	segment 26 33	English
+T6	segment 34 46	professional
+T7	segment 47 53	golfer
+T8	segment 54 57	who
+T9	segment 58 63	plays
+T10	segment 64 66	on
+T11	segment 67 70	the
+T12	segment 71 79	European
+T13	segment 80 84	Tour
+T14	segment 85 86	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T5
+R5	s_p Arg1:T8 Arg2:T9
+R6	p_c Arg1:T9 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T13
+R8	compound Arg1:T13 Arg2:T12

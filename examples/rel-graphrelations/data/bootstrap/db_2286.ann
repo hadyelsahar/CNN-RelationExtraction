@@ -1,0 +1,52 @@
+T0	segment 0 6	Formed
+T1	segment 7 9	in
+T2	segment 10 14	1998
+T3	segment 14 15	,
+T4	segment 16 22	Canada
+T5	segment 22 24	's
+T6	segment 25 32	D-Trash
+T7	segment 33 40	Records
+T8	segment 41 48	started
+T9	segment 49 51	as
+T10	segment 52 54	an
+T11	segment 55 61	online
+T12	segment 62 72	collective
+T13	segment 73 75	by
+T14	segment 76 83	members
+T15	segment 84 86	of
+T16	segment 87 93	Cpuwar
+T17	segment 94 97	and
+T18	segment 98 100	DJ
+T19	segment 101 107	Rabies
+T20	segment 108 110	as
+T21	segment 111 114	the
+T22	segment 115 125	beginnings
+T23	segment 126 128	of
+T24	segment 129 131	an
+T25	segment 132 145	international
+T26	segment 146 153	network
+T27	segment 154 156	of
+T28	segment 157 167	electronic
+T29	segment 168 173	music
+T30	segment 174 181	artists
+T31	segment 182 183	.
+R0	is-specialized-by Arg1:T0 Arg2:T1
+R1	c_co Arg1:T1 Arg2:T2
+R2	compound Arg1:T7 Arg2:T6
+R3	s_p Arg1:T7 Arg2:T8
+R4	p_c Arg1:T8 Arg2:T9
+R5	p_c Arg1:T8 Arg2:T20
+R6	c_co Arg1:T9 Arg2:T19
+R7	is-specialized-by Arg1:T12 Arg2:T13
+R8	c_co Arg1:T13 Arg2:T14
+R9	is-specialized-by Arg1:T14 Arg2:T15
+R10	c_co Arg1:T15 Arg2:T16
+R11	is-specialized-by Arg1:T19 Arg2:T11
+R12	c_co Arg1:T20 Arg2:T22
+R13	is-specialized-by Arg1:T22 Arg2:T23
+R14	c_co Arg1:T23 Arg2:T26
+R15	is-specialized-by Arg1:T26 Arg2:T25
+R16	is-specialized-by Arg1:T26 Arg2:T27
+R17	c_co Arg1:T27 Arg2:T30
+R18	compound Arg1:T30 Arg2:T29
+R19	is-specialized-by Arg1:T30 Arg2:T28

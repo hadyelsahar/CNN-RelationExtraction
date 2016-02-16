@@ -1,0 +1,59 @@
+T0	segment 0 3	The
+T1	segment 4 10	United
+T2	segment 11 20	Provinces
+T3	segment 21 23	of
+T4	segment 24 31	Central
+T5	segment 32 37	Italy
+T6	segment 37 38	,
+T7	segment 39 43	also
+T8	segment 44 49	known
+T9	segment 50 52	as
+T10	segment 53 66	Confederation
+T11	segment 67 69	of
+T12	segment 70 77	Central
+T13	segment 78 83	Italy
+T14	segment 84 86	or
+T15	segment 87 97	Government
+T16	segment 98 105	General
+T17	segment 106 108	of
+T18	segment 109 116	Central
+T19	segment 117 122	Italy
+T20	segment 122 123	,
+T21	segment 124 127	was
+T22	segment 128 129	a
+T23	segment 130 141	short-lived
+T24	segment 142 150	military
+T25	segment 151 161	government
+T26	segment 162 173	established
+T27	segment 174 176	by
+T28	segment 177 180	the
+T29	segment 181 188	Kingdom
+T30	segment 189 191	of
+T31	segment 192 209	Piedmont-Sardinia
+T32	segment 210 211	.
+R0	s_p Arg1:T2 Arg2:T21
+R1	is-specialized-by Arg1:T2 Arg2:T3
+R2	compound Arg1:T2 Arg2:T1
+R3	c_co Arg1:T3 Arg2:T5
+R4	compound Arg1:T5 Arg2:T4
+R5	compound Arg1:T5 Arg2:T3
+R6	compound Arg1:T5 Arg2:T2
+R7	compound Arg1:T5 Arg2:T1
+R8	is-specialized-by Arg1:T8 Arg2:T7
+R9	is-specialized-by Arg1:T8 Arg2:T9
+R10	c_co Arg1:T9 Arg2:T10
+R11	is-specialized-by Arg1:T10 Arg2:T11
+R12	c_co Arg1:T11 Arg2:T13
+R13	compound Arg1:T13 Arg2:T12
+R14	is-specialized-by Arg1:T16 Arg2:T17
+R15	compound Arg1:T16 Arg2:T15
+R16	c_co Arg1:T17 Arg2:T19
+R17	compound Arg1:T19 Arg2:T18
+R18	p_o Arg1:T21 Arg2:T25
+R19	is-specialized-by Arg1:T25 Arg2:T23
+R20	is-specialized-by Arg1:T26 Arg2:T27
+R21	c_co Arg1:T27 Arg2:T29
+R22	is-specialized-by Arg1:T29 Arg2:T30
+R23	c_co Arg1:T30 Arg2:T31
+R24	compound Arg1:T31 Arg2:T30
+R25	compound Arg1:T31 Arg2:T29

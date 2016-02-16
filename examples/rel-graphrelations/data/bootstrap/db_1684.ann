@@ -1,0 +1,35 @@
+T0	segment 0 5	Swell
+T1	segment 6 11	Music
+T2	segment 12 14	is
+T3	segment 15 16	a
+T4	segment 17 22	music
+T5	segment 22 23	,
+T6	segment 24 29	sound
+T7	segment 30 36	design
+T8	segment 36 37	,
+T9	segment 38 41	and
+T10	segment 42 47	audio
+T11	segment 48 52	post
+T12	segment 53 58	house
+T13	segment 59 64	based
+T14	segment 65 67	in
+T15	segment 68 71	Los
+T16	segment 72 79	Angeles
+T17	segment 80 83	and
+T18	segment 84 87	San
+T19	segment 88 97	Francisco
+T20	segment 97 98	,
+T21	segment 99 109	California
+T22	segment 110 111	.
+R0	p_p Arg1:T0 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T2
+R2	p_o Arg1:T2 Arg2:T4
+R3	is-specialized-by Arg1:T7 Arg2:T6
+R4	compound Arg1:T12 Arg2:T11
+R5	is-specialized-by Arg1:T12 Arg2:T10
+R6	is-specialized-by Arg1:T13 Arg2:T14
+R7	c_co Arg1:T14 Arg2:T16
+R8	compound Arg1:T16 Arg2:T15
+R9	compound Arg1:T19 Arg2:T18
+R10	compound Arg1:T21 Arg2:T19
+R11	compound Arg1:T21 Arg2:T18

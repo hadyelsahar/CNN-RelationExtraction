@@ -1,0 +1,39 @@
+T0	segment 0 3	The
+T1	segment 4 8	term
+T2	segment 9 16	Vermont
+T3	segment 17 25	Republic
+T4	segment 26 29	has
+T5	segment 30 34	been
+T6	segment 35 39	used
+T7	segment 40 42	by
+T8	segment 43 48	later
+T9	segment 49 59	historians
+T10	segment 60 63	for
+T11	segment 64 67	the
+T12	segment 68 78	government
+T13	segment 79 81	of
+T14	segment 82 86	what
+T15	segment 87 93	became
+T16	segment 94 100	modern
+T17	segment 101 108	Vermont
+T18	segment 109 113	from
+T19	segment 114 118	1777
+T20	segment 119 121	to
+T21	segment 122 126	1791
+T22	segment 127 128	.
+R0	s_p Arg1:T3 Arg2:T6
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	compound Arg1:T6 Arg2:T4
+R4	compound Arg1:T6 Arg2:T5
+R5	p_c Arg1:T6 Arg2:T10
+R6	p_c Arg1:T6 Arg2:T7
+R7	c_co Arg1:T7 Arg2:T9
+R8	is-specialized-by Arg1:T9 Arg2:T8
+R9	c_co Arg1:T10 Arg2:T12
+R10	s_p Arg1:T14 Arg2:T15
+R11	p_c Arg1:T15 Arg2:T18
+R12	is-specialized-by Arg1:T17 Arg2:T16
+R13	c_co Arg1:T18 Arg2:T21
+R14	compound Arg1:T21 Arg2:T20
+R15	compound Arg1:T21 Arg2:T19

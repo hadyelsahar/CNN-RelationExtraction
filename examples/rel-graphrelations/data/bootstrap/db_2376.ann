@@ -1,0 +1,44 @@
+T0	segment 0 4	Jean
+T1	segment 5 12	McClain
+T2	segment 13 14	,
+T3	segment 15 21	better
+T4	segment 22 27	known
+T5	segment 28 30	as
+T6	segment 31 37	Pepper
+T7	segment 38 44	Mashay
+T8	segment 44 45	,
+T9	segment 46 48	is
+T10	segment 49 51	an
+T11	segment 52 62	urban/soul
+T12	segment 62 63	,
+T13	segment 64 69	house
+T14	segment 70 73	and
+T15	segment 74 79	dance
+T16	segment 80 85	music
+T17	segment 86 103	singer-songwriter
+T18	segment 104 107	who
+T19	segment 108 111	has
+T20	segment 112 115	had
+T21	segment 116 123	success
+T22	segment 124 126	as
+T23	segment 127 128	a
+T24	segment 129 136	touring
+T25	segment 137 140	and
+T26	segment 141 147	studio
+T27	segment 148 157	performer
+T28	segment 158 159	.
+R0	compound Arg1:T1 Arg2:T0
+R1	s_p Arg1:T1 Arg2:T9
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T7
+R5	compound Arg1:T7 Arg2:T6
+R6	p_o Arg1:T9 Arg2:T17
+R7	compound Arg1:T17 Arg2:T11
+R8	compound Arg1:T17 Arg2:T16
+R9	s_p Arg1:T18 Arg2:T20
+R10	p_c Arg1:T20 Arg2:T22
+R11	compound Arg1:T20 Arg2:T19
+R12	p_o Arg1:T20 Arg2:T21
+R13	c_co Arg1:T22 Arg2:T27
+R14	compound Arg1:T27 Arg2:T24

@@ -1,0 +1,45 @@
+T0	segment 0 6	Nexton
+T1	segment 7 9	is
+T2	segment 10 11	a
+T3	segment 12 20	Japanese
+T4	segment 21 29	software
+T5	segment 30 37	company
+T6	segment 38 50	specializing
+T7	segment 51 53	in
+T8	segment 54 57	the
+T9	segment 58 68	publishing
+T10	segment 69 72	and
+T11	segment 73 85	distribution
+T12	segment 86 88	of
+T13	segment 89 95	visual
+T14	segment 96 101	novel
+T15	segment 102 107	video
+T16	segment 108 113	games
+T17	segment 114 117	for
+T18	segment 118 121	ten
+T19	segment 122 126	game
+T20	segment 127 137	developers
+T21	segment 138 142	that
+T22	segment 143 149	Nexton
+T23	segment 150 152	is
+T24	segment 153 161	partners
+T25	segment 162 166	with
+T26	segment 167 168	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T5
+R2	compound Arg1:T5 Arg2:T4
+R3	is-specialized-by Arg1:T5 Arg2:T3
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	is-specialized-by Arg1:T6 Arg2:T17
+R6	c_co Arg1:T7 Arg2:T9
+R7	is-specialized-by Arg1:T9 Arg2:T12
+R8	c_co Arg1:T12 Arg2:T16
+R9	compound Arg1:T16 Arg2:T15
+R10	is-specialized-by Arg1:T16 Arg2:T13
+R11	c_co Arg1:T17 Arg2:T20
+R12	compound Arg1:T20 Arg2:T19
+R13	is-specialized-by Arg1:T20 Arg2:T18
+R14	s_p Arg1:T22 Arg2:T23
+R15	p_o Arg1:T23 Arg2:T24
+R16	is-specialized-by Arg1:T24 Arg2:T25
+R17	c_co Arg1:T25 Arg2:T21

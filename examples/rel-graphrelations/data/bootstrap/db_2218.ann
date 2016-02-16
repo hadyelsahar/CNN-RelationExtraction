@@ -1,0 +1,40 @@
+T0	segment 0 3	The
+T1	segment 4 8	city
+T2	segment 9 11	of
+T3	segment 12 20	Savannah
+T4	segment 20 21	,
+T5	segment 22 29	Georgia
+T6	segment 29 30	,
+T7	segment 31 34	the
+T8	segment 35 42	largest
+T9	segment 43 47	city
+T10	segment 48 51	and
+T11	segment 52 55	the
+T12	segment 56 62	county
+T13	segment 63 67	seat
+T14	segment 68 70	of
+T15	segment 71 78	Chatham
+T16	segment 79 85	County
+T17	segment 85 86	,
+T18	segment 87 94	Georgia
+T19	segment 94 95	,
+T20	segment 96 98	is
+T21	segment 99 109	referenced
+T22	segment 110 120	frequently
+T23	segment 121 123	in
+T24	segment 124 131	popular
+T25	segment 132 139	culture
+T26	segment 140 141	.
+R0	s_p Arg1:T1 Arg2:T21
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	c_co Arg1:T2 Arg2:T3
+R3	is-specialized-by Arg1:T9 Arg2:T8
+R4	compound Arg1:T13 Arg2:T12
+R5	is-specialized-by Arg1:T13 Arg2:T14
+R6	c_co Arg1:T14 Arg2:T16
+R7	compound Arg1:T16 Arg2:T15
+R8	compound Arg1:T21 Arg2:T20
+R9	p_c Arg1:T21 Arg2:T22
+R10	p_c Arg1:T21 Arg2:T23
+R11	c_co Arg1:T23 Arg2:T25
+R12	is-specialized-by Arg1:T25 Arg2:T24

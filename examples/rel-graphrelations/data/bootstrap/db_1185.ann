@@ -1,0 +1,39 @@
+T0	segment 0 10	Kefamenanu
+T1	segment 11 13	is
+T2	segment 14 15	a
+T3	segment 16 20	town
+T4	segment 21 24	and
+T5	segment 25 32	capital
+T6	segment 33 35	of
+T7	segment 36 39	the
+T8	segment 40 51	subdistrict
+T9	segment 52 61	kecamatan
+T10	segment 62 64	of
+T11	segment 65 69	Kota
+T12	segment 70 80	Kefamenanu
+T13	segment 81 84	and
+T14	segment 85 88	the
+T15	segment 89 94	North
+T16	segment 95 102	Central
+T17	segment 103 108	Timor
+T18	segment 109 116	Regency
+T19	segment 117 119	in
+T20	segment 120 124	West
+T21	segment 125 130	Timor
+T22	segment 130 131	,
+T23	segment 132 141	Indonesia
+T24	segment 142 143	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T6
+R3	c_co Arg1:T6 Arg2:T9
+R4	is-specialized-by Arg1:T9 Arg2:T10
+R5	compound Arg1:T9 Arg2:T8
+R6	c_co Arg1:T10 Arg2:T12
+R7	compound Arg1:T12 Arg2:T11
+R8	is-specialized-by Arg1:T18 Arg2:T19
+R9	compound Arg1:T18 Arg2:T16
+R10	compound Arg1:T18 Arg2:T15
+R11	compound Arg1:T18 Arg2:T17
+R12	c_co Arg1:T19 Arg2:T21
+R13	compound Arg1:T21 Arg2:T20

@@ -1,0 +1,41 @@
+T0	segment 0 8	Situated
+T1	segment 9 16	between
+T2	segment 17 22	three
+T3	segment 23 28	major
+T4	segment 29 35	United
+T5	segment 36 42	States
+T6	segment 43 49	cities
+T7	segment 50 53	and
+T8	segment 54 56	on
+T9	segment 57 60	the
+T10	segment 61 67	border
+T11	segment 68 72	with
+T12	segment 73 79	Canada
+T13	segment 79 80	,
+T14	segment 81 86	there
+T15	segment 87 90	are
+T16	segment 91 95	many
+T17	segment 96 103	sources
+T18	segment 104 106	of
+T19	segment 107 112	media
+T20	segment 113 115	in
+T21	segment 116 120	Erie
+T22	segment 120 121	,
+T23	segment 122 134	Pennsylvania
+T24	segment 135 136	.
+R0	p_o Arg1:T0 Arg2:T6
+R1	is-specialized-by Arg1:T2 Arg2:T1
+R2	compound Arg1:T5 Arg2:T4
+R3	compound Arg1:T6 Arg2:T4
+R4	is-specialized-by Arg1:T6 Arg2:T2
+R5	compound Arg1:T6 Arg2:T5
+R6	is-specialized-by Arg1:T6 Arg2:T3
+R7	is-specialized-by Arg1:T10 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T12
+R9	is-specialized-by Arg1:T17 Arg2:T16
+R10	is-specialized-by Arg1:T17 Arg2:T18
+R11	s_p Arg1:T17 Arg2:T15
+R12	c_co Arg1:T18 Arg2:T19
+R13	is-specialized-by Arg1:T19 Arg2:T20
+R14	c_co Arg1:T20 Arg2:T23
+R15	compound Arg1:T23 Arg2:T21

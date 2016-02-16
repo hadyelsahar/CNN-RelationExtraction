@@ -1,0 +1,23 @@
+T0	segment 0 6	Serowe
+T1	segment 7 9	is
+T2	segment 10 11	a
+T3	segment 12 16	town
+T4	segment 17 19	in
+T5	segment 20 28	Botswana
+T6	segment 28 30	's
+T7	segment 31 38	Central
+T8	segment 39 47	District
+T9	segment 48 51	and
+T10	segment 52 54	is
+T11	segment 55 56	a
+T12	segment 57 62	trade
+T13	segment 63 66	and
+T14	segment 67 75	commerce
+T15	segment 76 82	centre
+T16	segment 83 84	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T8
+R4	compound Arg1:T8 Arg2:T7
+R5	compound Arg1:T15 Arg2:T12

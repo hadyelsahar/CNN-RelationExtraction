@@ -1,0 +1,33 @@
+T0	segment 0 8	Licchavi
+T1	segment 9 12	was
+T2	segment 13 15	an
+T3	segment 16 23	ancient
+T4	segment 24 31	kingdom
+T5	segment 32 34	in
+T6	segment 35 40	Nepal
+T7	segment 40 41	,
+T8	segment 42 47	which
+T9	segment 48 55	existed
+T10	segment 56 58	in
+T11	segment 59 62	the
+T12	segment 63 72	Kathmandu
+T13	segment 73 79	Valley
+T14	segment 80 84	from
+T15	segment 85 98	approximately
+T16	segment 99 102	400
+T17	segment 103 105	to
+T18	segment 106 109	750
+T19	segment 110 111	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T6
+R5	s_p Arg1:T8 Arg2:T9
+R6	p_c Arg1:T9 Arg2:T14
+R7	p_c Arg1:T9 Arg2:T10
+R8	c_co Arg1:T10 Arg2:T13
+R9	compound Arg1:T13 Arg2:T12
+R10	c_co Arg1:T14 Arg2:T18
+R11	is-specialized-by Arg1:T18 Arg2:T15
+R12	compound Arg1:T18 Arg2:T16

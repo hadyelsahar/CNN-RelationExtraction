@@ -1,0 +1,35 @@
+T0	segment 0 7	Sailana
+T1	segment 8 13	State
+T2	segment 14 17	was
+T3	segment 18 19	a
+T4	segment 20 28	princely
+T5	segment 29 34	state
+T6	segment 35 37	in
+T7	segment 38 43	India
+T8	segment 44 50	during
+T9	segment 51 54	the
+T10	segment 55 62	British
+T11	segment 63 66	Raj
+T12	segment 67 71	with
+T13	segment 72 74	an
+T14	segment 75 79	area
+T15	segment 80 82	of
+T16	segment 83 86	769
+T17	segment 87 89	km
+T18	segment 89 90	Â²
+T19	segment 91 92	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T8
+R4	is-specialized-by Arg1:T5 Arg2:T4
+R5	is-specialized-by Arg1:T5 Arg2:T6
+R6	c_co Arg1:T6 Arg2:T7
+R7	c_co Arg1:T8 Arg2:T11
+R8	is-specialized-by Arg1:T11 Arg2:T10
+R9	is-specialized-by Arg1:T11 Arg2:T12
+R10	c_co Arg1:T12 Arg2:T14
+R11	is-specialized-by Arg1:T14 Arg2:T15
+R12	c_co Arg1:T15 Arg2:T18
+R13	is-specialized-by Arg1:T18 Arg2:T16
+R14	compound Arg1:T18 Arg2:T17

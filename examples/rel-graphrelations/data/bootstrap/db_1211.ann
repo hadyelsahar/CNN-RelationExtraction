@@ -1,0 +1,37 @@
+T0	segment 0 6	Maptek
+T1	segment 7 15	provides
+T2	segment 16 18	3D
+T3	segment 19 28	modelling
+T4	segment 28 29	,
+T5	segment 30 37	spatial
+T6	segment 38 46	analysis
+T7	segment 47 50	and
+T8	segment 51 57	design
+T9	segment 58 68	technology
+T10	segment 69 71	to
+T11	segment 72 75	the
+T12	segment 76 82	global
+T13	segment 83 89	mining
+T14	segment 90 98	industry
+T15	segment 99 103	with
+T16	segment 104 105	3
+T17	segment 106 114	products
+T18	segment 114 115	;
+T19	segment 116 122	Vulcan
+T20	segment 122 123	,
+T21	segment 124 130	I-Site
+T22	segment 131 134	and
+T23	segment 135 144	MineSuite
+T24	segment 145 146	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	p_c Arg1:T1 Arg2:T10
+R3	compound Arg1:T3 Arg2:T2
+R4	is-specialized-by Arg1:T6 Arg2:T5
+R5	compound Arg1:T9 Arg2:T8
+R6	c_co Arg1:T10 Arg2:T14
+R7	is-specialized-by Arg1:T14 Arg2:T15
+R8	compound Arg1:T14 Arg2:T13
+R9	is-specialized-by Arg1:T14 Arg2:T12
+R10	c_co Arg1:T15 Arg2:T17
+R11	is-specialized-by Arg1:T17 Arg2:T16

@@ -1,0 +1,39 @@
+T0	segment 0 1	''
+T1	segment 1 2	``
+T2	segment 2 6	Asia
+T3	segment 7 14	Society
+T4	segment 15 23	provides
+T5	segment 24 30	public
+T6	segment 31 34	and
+T7	segment 35 42	private
+T8	segment 43 49	forums
+T9	segment 50 53	for
+T10	segment 54 62	visiting
+T11	segment 63 72	political
+T12	segment 73 76	and
+T13	segment 77 85	business
+T14	segment 86 93	leaders
+T15	segment 94 98	from
+T16	segment 99 102	the
+T17	segment 103 108	Asian
+T18	segment 109 115	region
+T19	segment 116 118	as
+T20	segment 119 123	well
+T21	segment 124 126	as
+T22	segment 127 132	those
+T23	segment 133 137	from
+T24	segment 138 144	within
+T25	segment 145 154	Australia
+T26	segment 155 156	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	is-specialized-by Arg1:T8 Arg2:T7
+R3	is-specialized-by Arg1:T10 Arg2:T15
+R4	p_o Arg1:T10 Arg2:T14
+R5	is-specialized-by Arg1:T10 Arg2:T23
+R6	is-specialized-by Arg1:T14 Arg2:T11
+R7	c_co Arg1:T15 Arg2:T18
+R8	is-specialized-by Arg1:T18 Arg2:T17
+R9	compound Arg1:T19 Arg2:T20
+R10	compound Arg1:T19 Arg2:T21
+R11	c_co Arg1:T23 Arg2:T25

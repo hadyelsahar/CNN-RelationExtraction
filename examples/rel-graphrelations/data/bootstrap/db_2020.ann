@@ -1,0 +1,58 @@
+T0	segment 0 3	The
+T1	segment 4 9	Alamo
+T2	segment 10 15	Plaza
+T3	segment 16 21	Hotel
+T4	segment 22 28	Courts
+T5	segment 29 34	brand
+T6	segment 35 38	was
+T7	segment 39 42	the
+T8	segment 43 48	first
+T9	segment 49 54	motel
+T10	segment 55 60	chain
+T11	segment 61 63	in
+T12	segment 64 67	the
+T13	segment 68 74	United
+T14	segment 75 81	States
+T15	segment 82 84	of
+T16	segment 85 92	America
+T17	segment 92 93	,
+T18	segment 94 101	founded
+T19	segment 102 104	by
+T20	segment 105 110	Edgar
+T21	segment 111 114	Lee
+T22	segment 115 123	Torrance
+T23	segment 124 126	in
+T24	segment 127 131	Waco
+T25	segment 131 132	,
+T26	segment 133 138	Texas
+T27	segment 139 141	in
+T28	segment 142 146	1929
+T29	segment 147 148	.
+R0	compound Arg1:T4 Arg2:T3
+R1	compound Arg1:T4 Arg2:T2
+R2	compound Arg1:T4 Arg2:T1
+R3	compound Arg1:T5 Arg2:T4
+R4	compound Arg1:T5 Arg2:T3
+R5	s_p Arg1:T5 Arg2:T6
+R6	compound Arg1:T5 Arg2:T2
+R7	compound Arg1:T5 Arg2:T1
+R8	p_o Arg1:T6 Arg2:T10
+R9	is-specialized-by Arg1:T10 Arg2:T8
+R10	is-specialized-by Arg1:T10 Arg2:T15
+R11	is-specialized-by Arg1:T10 Arg2:T11
+R12	compound Arg1:T10 Arg2:T9
+R13	c_co Arg1:T11 Arg2:T14
+R14	compound Arg1:T14 Arg2:T13
+R15	c_co Arg1:T15 Arg2:T16
+R16	compound Arg1:T16 Arg2:T14
+R17	compound Arg1:T16 Arg2:T13
+R18	compound Arg1:T16 Arg2:T15
+R19	is-specialized-by Arg1:T18 Arg2:T19
+R20	is-specialized-by Arg1:T18 Arg2:T27
+R21	c_co Arg1:T19 Arg2:T22
+R22	compound Arg1:T22 Arg2:T20
+R23	is-specialized-by Arg1:T22 Arg2:T23
+R24	compound Arg1:T22 Arg2:T21
+R25	c_co Arg1:T23 Arg2:T26
+R26	compound Arg1:T26 Arg2:T24
+R27	c_co Arg1:T27 Arg2:T28

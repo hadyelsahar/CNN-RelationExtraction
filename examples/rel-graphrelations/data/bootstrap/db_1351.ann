@@ -1,0 +1,53 @@
+T0	segment 0 7	Guangxi
+T1	segment 8 9	,
+T2	segment 10 15	which
+T3	segment 16 21	comes
+T4	segment 22 26	from
+T5	segment 27 30	the
+T6	segment 31 35	city
+T7	segment 36 38	of
+T8	segment 39 45	Guilin
+T9	segment 45 46	,
+T10	segment 47 50	the
+T11	segment 51 57	former
+T12	segment 58 65	capital
+T13	segment 65 66	,
+T14	segment 67 73	center
+T15	segment 74 76	of
+T16	segment 77 81	much
+T17	segment 82 84	of
+T18	segment 85 92	Guangxi
+T19	segment 92 94	's
+T20	segment 95 102	culture
+T21	segment 102 103	,
+T22	segment 104 112	politics
+T23	segment 112 113	,
+T24	segment 114 117	and
+T25	segment 118 125	history
+T26	segment 125 126	,
+T27	segment 127 130	and
+T28	segment 131 140	currently
+T29	segment 141 144	the
+T30	segment 145 150	third
+T31	segment 151 158	largest
+T32	segment 159 163	city
+T33	segment 164 166	in
+T34	segment 167 170	the
+T35	segment 171 181	autonomous
+T36	segment 182 188	region
+T37	segment 189 190	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	p_c Arg1:T3 Arg2:T4
+R2	c_co Arg1:T4 Arg2:T6
+R3	is-specialized-by Arg1:T6 Arg2:T7
+R4	c_co Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T12 Arg2:T11
+R6	is-specialized-by Arg1:T14 Arg2:T15
+R7	c_co Arg1:T15 Arg2:T16
+R8	is-specialized-by Arg1:T16 Arg2:T17
+R9	c_co Arg1:T17 Arg2:T20
+R10	is-specialized-by Arg1:T32 Arg2:T33
+R11	is-specialized-by Arg1:T32 Arg2:T28
+R12	is-specialized-by Arg1:T32 Arg2:T30
+R13	c_co Arg1:T33 Arg2:T36
+R14	is-specialized-by Arg1:T36 Arg2:T35

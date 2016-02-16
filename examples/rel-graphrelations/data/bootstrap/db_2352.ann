@@ -1,0 +1,48 @@
+T0	segment 0 6	Stheno
+T1	segment 7 8	,
+T2	segment 9 11	in
+T3	segment 12 17	Greek
+T4	segment 18 27	mythology
+T5	segment 27 28	,
+T6	segment 29 32	was
+T7	segment 33 36	the
+T8	segment 37 43	eldest
+T9	segment 44 46	of
+T10	segment 47 50	the
+T11	segment 51 58	Gorgons
+T12	segment 58 59	,
+T13	segment 60 67	vicious
+T14	segment 68 74	female
+T15	segment 75 83	monsters
+T16	segment 84 88	with
+T17	segment 89 94	brass
+T18	segment 95 100	hands
+T19	segment 100 101	,
+T20	segment 102 107	sharp
+T21	segment 108 113	fangs
+T22	segment 114 117	and
+T23	segment 118 119	''
+T24	segment 119 120	``
+T25	segment 120 124	hair
+T26	segment 124 125	''
+T27	segment 125 126	''
+T28	segment 127 131	made
+T29	segment 132 134	of
+T30	segment 135 141	living
+T31	segment 142 150	venomous
+T32	segment 151 157	snakes
+T33	segment 158 159	.
+R0	s_p Arg1:T0 Arg2:T6
+R1	c_co Arg1:T2 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	p_o Arg1:T6 Arg2:T8
+R4	is-specialized-by Arg1:T8 Arg2:T2
+R5	is-specialized-by Arg1:T8 Arg2:T9
+R6	c_co Arg1:T9 Arg2:T11
+R7	is-specialized-by Arg1:T15 Arg2:T16
+R8	is-specialized-by Arg1:T15 Arg2:T13
+R9	c_co Arg1:T16 Arg2:T18
+R10	compound Arg1:T18 Arg2:T17
+R11	is-specialized-by Arg1:T21 Arg2:T20
+R12	p_o Arg1:T30 Arg2:T32
+R13	is-specialized-by Arg1:T32 Arg2:T31

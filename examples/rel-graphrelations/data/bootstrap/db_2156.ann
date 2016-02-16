@@ -1,0 +1,30 @@
+T0	segment 0 8	NedTrain
+T1	segment 9 12	are
+T2	segment 13 16	the
+T3	segment 17 27	locomotive
+T4	segment 28 31	and
+T5	segment 32 39	rolling
+T6	segment 40 45	stock
+T7	segment 46 57	maintenance
+T8	segment 58 61	and
+T9	segment 62 68	repair
+T10	segment 69 76	company
+T11	segment 77 79	of
+T12	segment 80 83	the
+T13	segment 84 89	Dutch
+T14	segment 90 98	Railways
+T15	segment 99 106	company
+T16	segment 106 107	,
+T17	segment 108 119	Nederlandse
+T18	segment 120 130	Spoorwegen
+T19	segment 131 132	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	compound Arg1:T7 Arg2:T6
+R3	is-specialized-by Arg1:T7 Arg2:T11
+R4	is-specialized-by Arg1:T7 Arg2:T5
+R5	compound Arg1:T10 Arg2:T9
+R6	c_co Arg1:T11 Arg2:T15
+R7	compound Arg1:T15 Arg2:T14
+R8	compound Arg1:T15 Arg2:T13
+R9	compound Arg1:T18 Arg2:T17

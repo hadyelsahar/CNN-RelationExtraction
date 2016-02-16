@@ -1,0 +1,38 @@
+T0	segment 0 8	Tadawale
+T1	segment 9 15	Sammat
+T2	segment 16 23	Wagholi
+T3	segment 24 26	is
+T4	segment 27 28	a
+T5	segment 29 34	small
+T6	segment 35 39	town
+T7	segment 40 43	and
+T8	segment 44 48	gram
+T9	segment 49 58	panchayat
+T10	segment 59 61	in
+T11	segment 62 70	Koregaon
+T12	segment 71 77	taluka
+T13	segment 77 78	,
+T14	segment 79 85	Satara
+T15	segment 86 94	district
+T16	segment 94 95	,
+T17	segment 96 98	in
+T18	segment 99 102	the
+T19	segment 103 109	Indian
+T20	segment 110 118	province
+T21	segment 119 121	of
+T22	segment 122 133	Maharashtra
+T23	segment 134 135	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T10
+R5	is-specialized-by Arg1:T6 Arg2:T5
+R6	compound Arg1:T9 Arg2:T8
+R7	c_co Arg1:T10 Arg2:T11
+R8	is-specialized-by Arg1:T11 Arg2:T17
+R9	compound Arg1:T15 Arg2:T14
+R10	c_co Arg1:T17 Arg2:T12
+R11	is-specialized-by Arg1:T20 Arg2:T19
+R12	is-specialized-by Arg1:T20 Arg2:T21
+R13	c_co Arg1:T21 Arg2:T22

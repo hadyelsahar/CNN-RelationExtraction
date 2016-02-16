@@ -1,0 +1,30 @@
+T0	segment 0 10	TransNexus
+T1	segment 10 11	,
+T2	segment 12 19	founded
+T3	segment 20 22	in
+T4	segment 23 27	1997
+T5	segment 27 28	,
+T6	segment 29 31	is
+T7	segment 32 33	a
+T8	segment 34 44	commercial
+T9	segment 45 52	company
+T10	segment 53 62	providing
+T11	segment 63 71	software
+T12	segment 72 80	products
+T13	segment 81 84	for
+T14	segment 85 93	managing
+T15	segment 94 101	peering
+T16	segment 102 107	among
+T17	segment 108 112	VoIP
+T18	segment 113 121	networks
+T19	segment 122 123	.
+R0	s_p Arg1:T0 Arg2:T6
+R1	is-specialized-by Arg1:T2 Arg2:T3
+R2	c_co Arg1:T3 Arg2:T4
+R3	p_o Arg1:T6 Arg2:T9
+R4	is-specialized-by Arg1:T9 Arg2:T8
+R5	p_o Arg1:T10 Arg2:T12
+R6	compound Arg1:T12 Arg2:T11
+R7	is-specialized-by Arg1:T15 Arg2:T16
+R8	c_co Arg1:T16 Arg2:T18
+R9	compound Arg1:T18 Arg2:T17

@@ -1,0 +1,26 @@
+T0	segment 0 11	Firstsource
+T1	segment 12 14	is
+T2	segment 15 16	a
+T3	segment 17 25	provider
+T4	segment 26 28	of
+T5	segment 29 37	Business
+T6	segment 38 45	Process
+T7	segment 46 57	Outsourcing
+T8	segment 58 66	services
+T9	segment 67 80	headquartered
+T10	segment 81 83	in
+T11	segment 84 90	Mumbai
+T12	segment 90 91	,
+T13	segment 92 103	Maharashtra
+T14	segment 103 104	,
+T15	segment 105 110	India
+T16	segment 111 112	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T5
+R4	p_o Arg1:T6 Arg2:T8
+R5	compound Arg1:T8 Arg2:T7
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T11
+R8	compound Arg1:T15 Arg2:T13

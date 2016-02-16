@@ -1,0 +1,36 @@
+T0	segment 0 8	Aeningia
+T1	segment 9 11	is
+T2	segment 12 14	an
+T3	segment 15 21	island
+T4	segment 22 31	mentioned
+T5	segment 32 34	in
+T6	segment 35 38	the
+T7	segment 39 46	Natural
+T8	segment 47 54	History
+T9	segment 55 57	by
+T10	segment 58 63	Pliny
+T11	segment 64 67	the
+T12	segment 68 73	Elder
+T13	segment 73 74	,
+T14	segment 75 82	written
+T15	segment 83 85	in
+T16	segment 86 89	the
+T17	segment 90 92	1s
+T18	segment 93 100	century
+T19	segment 101 103	CE
+T20	segment 104 105	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T4 Arg2:T9
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T8
+R5	is-specialized-by Arg1:T8 Arg2:T7
+R6	c_co Arg1:T9 Arg2:T12
+R7	compound Arg1:T12 Arg2:T11
+R8	compound Arg1:T12 Arg2:T10
+R9	is-specialized-by Arg1:T14 Arg2:T15
+R10	c_co Arg1:T15 Arg2:T19
+R11	compound Arg1:T18 Arg2:T16
+R12	compound Arg1:T18 Arg2:T17
+R13	is-specialized-by Arg1:T19 Arg2:T17
+R14	compound Arg1:T19 Arg2:T18

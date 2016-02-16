@@ -1,0 +1,36 @@
+T0	segment 0 7	Kgalema
+T1	segment 8 14	Petrus
+T2	segment 15 24	Motlanthe
+T3	segment 25 26	,
+T4	segment 27 28	a
+T5	segment 29 37	position
+T6	segment 38 40	he
+T7	segment 41 45	held
+T8	segment 46 50	from
+T9	segment 51 55	2007
+T10	segment 56 61	until
+T11	segment 62 66	2012
+T12	segment 66 67	,
+T13	segment 68 72	when
+T14	segment 73 75	he
+T15	segment 76 84	declined
+T16	segment 85 87	to
+T17	segment 88 91	run
+T18	segment 92 95	for
+T19	segment 96 97	a
+T20	segment 98 104	second
+T21	segment 105 109	term
+T22	segment 110 111	.
+R0	compound Arg1:T2 Arg2:T0
+R1	compound Arg1:T2 Arg2:T1
+R2	s_p Arg1:T6 Arg2:T7
+R3	p_c Arg1:T7 Arg2:T10
+R4	p_c Arg1:T7 Arg2:T8
+R5	c_co Arg1:T8 Arg2:T9
+R6	c_co Arg1:T10 Arg2:T11
+R7	s_p Arg1:T14 Arg2:T15
+R8	p_c Arg1:T15 Arg2:T13
+R9	is-specialized-by Arg1:T17 Arg2:T18
+R10	c_co Arg1:T18 Arg2:T21
+R11	compound Arg1:T20 Arg2:T19
+R12	is-specialized-by Arg1:T21 Arg2:T20

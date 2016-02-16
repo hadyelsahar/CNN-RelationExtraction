@@ -1,0 +1,34 @@
+T0	segment 0 4	Mane
+T1	segment 5 7	SA
+T2	segment 8 10	is
+T3	segment 11 12	a
+T4	segment 13 18	major
+T5	segment 19 27	producer
+T6	segment 28 30	of
+T7	segment 31 39	flavours
+T8	segment 40 43	and
+T9	segment 44 54	fragrances
+T10	segment 55 59	with
+T11	segment 60 65	sales
+T12	segment 66 68	of
+T13	segment 69 70	$
+T14	segment 70 73	723
+T15	segment 74 81	million
+T16	segment 82 84	in
+T17	segment 85 89	2013
+T18	segment 90 91	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T7
+R6	is-specialized-by Arg1:T7 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T11
+R8	is-specialized-by Arg1:T11 Arg2:T12
+R9	c_co Arg1:T12 Arg2:T13
+R10	is-specialized-by Arg1:T13 Arg2:T16
+R11	is-specialized-by Arg1:T13 Arg2:T15
+R12	compound Arg1:T15 Arg2:T14
+R13	compound Arg1:T15 Arg2:T13
+R14	c_co Arg1:T16 Arg2:T17

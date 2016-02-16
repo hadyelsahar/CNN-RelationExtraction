@@ -1,0 +1,41 @@
+T0	segment 0 3	The
+T1	segment 4 9	Frost
+T2	segment 10 14	Belt
+T3	segment 15 17	is
+T4	segment 18 19	a
+T5	segment 20 26	region
+T6	segment 27 29	of
+T7	segment 30 33	the
+T8	segment 34 40	United
+T9	segment 41 47	States
+T10	segment 48 57	generally
+T11	segment 58 68	considered
+T12	segment 69 71	to
+T13	segment 72 79	include
+T14	segment 80 83	New
+T15	segment 84 91	England
+T16	segment 91 92	,
+T17	segment 93 96	the
+T18	segment 97 102	Great
+T19	segment 103 108	Lakes
+T20	segment 109 115	Region
+T21	segment 115 116	,
+T22	segment 117 120	and
+T23	segment 121 125	much
+T24	segment 126 128	of
+T25	segment 129 132	the
+T26	segment 133 140	Midwest
+T27	segment 141 142	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T6
+R4	c_co Arg1:T6 Arg2:T9
+R5	compound Arg1:T9 Arg2:T8
+R6	is-specialized-by Arg1:T11 Arg2:T10
+R7	p_o Arg1:T13 Arg2:T15
+R8	compound Arg1:T15 Arg2:T14
+R9	compound Arg1:T20 Arg2:T19
+R10	compound Arg1:T20 Arg2:T18
+R11	is-specialized-by Arg1:T23 Arg2:T24
+R12	c_co Arg1:T24 Arg2:T26

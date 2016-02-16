@@ -1,0 +1,28 @@
+T0	segment 0 7	Estonia
+T1	segment 8 11	has
+T2	segment 12 24	participated
+T3	segment 25 27	in
+T4	segment 28 31	the
+T5	segment 32 42	Eurovision
+T6	segment 43 47	Song
+T7	segment 48 55	Contest
+T8	segment 56 58	20
+T9	segment 59 64	times
+T10	segment 65 70	since
+T11	segment 71 77	making
+T12	segment 78 81	its
+T13	segment 82 87	debut
+T14	segment 88 90	in
+T15	segment 91 95	1994
+T16	segment 96 97	.
+R0	s_p Arg1:T0 Arg2:T2
+R1	p_c Arg1:T2 Arg2:T9
+R2	p_c Arg1:T2 Arg2:T3
+R3	compound Arg1:T2 Arg2:T1
+R4	c_co Arg1:T3 Arg2:T7
+R5	compound Arg1:T7 Arg2:T6
+R6	compound Arg1:T7 Arg2:T5
+R7	is-specialized-by Arg1:T9 Arg2:T8
+R8	p_o Arg1:T11 Arg2:T13
+R9	is-specialized-by Arg1:T11 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T15

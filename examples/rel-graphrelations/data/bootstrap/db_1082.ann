@@ -1,0 +1,30 @@
+T0	segment 0 7	Alberto
+T1	segment 8 15	Pizango
+T2	segment 16 21	Chota
+T3	segment 22 24	is
+T4	segment 25 28	the
+T5	segment 29 36	current
+T6	segment 37 46	president
+T7	segment 47 49	of
+T8	segment 50 57	AIDESEP
+T9	segment 57 58	,
+T10	segment 59 62	the
+T11	segment 63 70	premier
+T12	segment 71 81	indigenous
+T13	segment 82 88	rights
+T14	segment 89 101	organization
+T15	segment 102 104	in
+T16	segment 105 109	Peru
+T17	segment 110 111	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	is-specialized-by Arg1:T6 Arg2:T5
+R6	c_co Arg1:T7 Arg2:T8
+R7	compound Arg1:T14 Arg2:T11
+R8	compound Arg1:T14 Arg2:T13
+R9	is-specialized-by Arg1:T14 Arg2:T12
+R10	is-specialized-by Arg1:T14 Arg2:T15
+R11	c_co Arg1:T15 Arg2:T16

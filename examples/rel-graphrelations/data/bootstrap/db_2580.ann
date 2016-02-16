@@ -1,0 +1,31 @@
+T0	segment 0 10	RedPrairie
+T1	segment 11 13	is
+T2	segment 14 15	a
+T3	segment 16 25	privately
+T4	segment 26 30	held
+T5	segment 31 37	supply
+T6	segment 38 43	chain
+T7	segment 43 44	,
+T8	segment 45 54	workforce
+T9	segment 55 58	and
+T10	segment 59 70	all-channel
+T11	segment 71 79	commerce
+T12	segment 80 88	software
+T13	segment 89 97	provider
+T14	segment 98 111	headquartered
+T15	segment 112 114	in
+T16	segment 115 125	Alpharetta
+T17	segment 125 126	,
+T18	segment 127 129	GA
+T19	segment 130 131	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T6
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	compound Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T6 Arg2:T4
+R5	compound Arg1:T13 Arg2:T12
+R6	compound Arg1:T13 Arg2:T11
+R7	compound Arg1:T13 Arg2:T10
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	c_co Arg1:T15 Arg2:T18
+R10	compound Arg1:T18 Arg2:T16

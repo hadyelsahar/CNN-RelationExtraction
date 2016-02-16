@@ -1,0 +1,27 @@
+T0	segment 0 9	Satterley
+T1	segment 10 18	Property
+T2	segment 19 24	Group
+T3	segment 25 27	is
+T4	segment 28 30	an
+T5	segment 31 41	Australian
+T6	segment 42 51	privately
+T7	segment 52 57	owned
+T8	segment 58 62	real
+T9	segment 63 69	estate
+T10	segment 70 74	land
+T11	segment 75 86	development
+T12	segment 87 94	company
+T13	segment 95 100	based
+T14	segment 101 103	in
+T15	segment 104 109	Perth
+T16	segment 110 111	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T5
+R4	is-specialized-by Arg1:T7 Arg2:T6
+R5	p_o Arg1:T7 Arg2:T12
+R6	is-specialized-by Arg1:T12 Arg2:T8
+R7	compound Arg1:T12 Arg2:T11
+R8	compound Arg1:T12 Arg2:T10
+R9	compound Arg1:T12 Arg2:T9

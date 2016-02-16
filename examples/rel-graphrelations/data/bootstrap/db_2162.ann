@@ -1,0 +1,38 @@
+T0	segment 0 4	uniq
+T1	segment 5 7	is
+T2	segment 8 9	a
+T3	segment 10 14	Unix
+T4	segment 15 22	utility
+T5	segment 23 28	which
+T6	segment 28 29	,
+T7	segment 30 34	when
+T8	segment 35 38	fed
+T9	segment 39 40	a
+T10	segment 41 45	text
+T11	segment 46 50	file
+T12	segment 50 51	,
+T13	segment 52 59	outputs
+T14	segment 60 63	the
+T15	segment 64 68	file
+T16	segment 69 73	with
+T17	segment 74 82	adjacent
+T18	segment 83 92	identical
+T19	segment 93 98	lines
+T20	segment 99 108	collapsed
+T21	segment 109 111	to
+T22	segment 112 115	one
+T23	segment 116 117	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	compound Arg1:T4 Arg2:T3
+R3	s_p Arg1:T5 Arg2:T13
+R4	is-specialized-by Arg1:T8 Arg2:T7
+R5	p_o Arg1:T8 Arg2:T11
+R6	compound Arg1:T11 Arg2:T10
+R7	p_p Arg1:T13 Arg2:T20
+R8	is-specialized-by Arg1:T15 Arg2:T16
+R9	s_p Arg1:T15 Arg2:T20
+R10	c_co Arg1:T16 Arg2:T19
+R11	is-specialized-by Arg1:T19 Arg2:T17
+R12	p_c Arg1:T20 Arg2:T21
+R13	c_co Arg1:T21 Arg2:T22

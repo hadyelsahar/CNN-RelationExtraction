@@ -1,0 +1,32 @@
+T0	segment 0 8	Kutacane
+T1	segment 9 11	is
+T2	segment 12 13	a
+T3	segment 14 18	town
+T4	segment 19 21	in
+T5	segment 22 26	Aceh
+T6	segment 27 35	province
+T7	segment 36 38	of
+T8	segment 39 48	Indonesia
+T9	segment 49 52	and
+T10	segment 53 55	it
+T11	segment 56 58	is
+T12	segment 59 62	the
+T13	segment 63 67	seat
+T14	segment 68 70	of
+T15	segment 71 80	Southeast
+T16	segment 81 85	Aceh
+T17	segment 86 93	Regency
+T18	segment 94 95	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T7
+R3	is-specialized-by Arg1:T3 Arg2:T4
+R4	c_co Arg1:T4 Arg2:T6
+R5	compound Arg1:T6 Arg2:T5
+R6	c_co Arg1:T7 Arg2:T8
+R7	s_p Arg1:T10 Arg2:T11
+R8	p_o Arg1:T11 Arg2:T13
+R9	is-specialized-by Arg1:T13 Arg2:T14
+R10	c_co Arg1:T14 Arg2:T17
+R11	compound Arg1:T17 Arg2:T16
+R12	compound Arg1:T17 Arg2:T15

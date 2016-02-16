@@ -1,0 +1,74 @@
+T0	segment 0 8	Mercuria
+T1	segment 9 15	Energy
+T2	segment 16 21	Group
+T3	segment 22 25	Ltd
+T4	segment 26 28	is
+T5	segment 29 30	a
+T6	segment 31 36	Swiss
+T7	segment 37 46	privately
+T8	segment 47 51	held
+T9	segment 52 65	international
+T10	segment 66 75	commodity
+T11	segment 76 83	trading
+T12	segment 84 91	company
+T13	segment 92 98	active
+T14	segment 99 103	over
+T15	segment 104 105	a
+T16	segment 106 110	wide
+T17	segment 111 119	spectrum
+T18	segment 120 122	of
+T19	segment 123 129	global
+T20	segment 130 136	energy
+T21	segment 137 144	markets
+T22	segment 145 154	including
+T23	segment 155 160	crude
+T24	segment 161 164	oil
+T25	segment 165 168	and
+T26	segment 169 176	refined
+T27	segment 177 186	petroleum
+T28	segment 187 195	products
+T29	segment 195 196	,
+T30	segment 197 204	natural
+T31	segment 205 208	gas
+T32	segment 209 210	,
+T33	segment 211 216	power
+T34	segment 216 217	,
+T35	segment 218 222	coal
+T36	segment 222 223	,
+T37	segment 224 233	biodiesel
+T38	segment 233 234	,
+T39	segment 235 241	carbon
+T40	segment 242 251	emissions
+T41	segment 251 252	,
+T42	segment 253 257	base
+T43	segment 258 264	metals
+T44	segment 265 268	and
+T45	segment 269 281	agricultural
+T46	segment 282 290	products
+T47	segment 291 292	.
+R0	s_p Arg1:T3 Arg2:T13
+R1	compound Arg1:T3 Arg2:T0
+R2	compound Arg1:T3 Arg2:T2
+R3	compound Arg1:T3 Arg2:T1
+R4	is-specialized-by Arg1:T8 Arg2:T7
+R5	compound Arg1:T12 Arg2:T11
+R6	is-specialized-by Arg1:T12 Arg2:T6
+R7	compound Arg1:T12 Arg2:T10
+R8	compound Arg1:T13 Arg2:T4
+R9	p_c Arg1:T13 Arg2:T14
+R10	p_o Arg1:T13 Arg2:T12
+R11	c_co Arg1:T14 Arg2:T17
+R12	is-specialized-by Arg1:T17 Arg2:T16
+R13	is-specialized-by Arg1:T17 Arg2:T18
+R14	c_co Arg1:T18 Arg2:T21
+R15	compound Arg1:T21 Arg2:T20
+R16	is-specialized-by Arg1:T21 Arg2:T19
+R17	is-specialized-by Arg1:T21 Arg2:T22
+R18	c_co Arg1:T22 Arg2:T24
+R19	is-specialized-by Arg1:T24 Arg2:T23
+R20	p_o Arg1:T26 Arg2:T28
+R21	compound Arg1:T28 Arg2:T27
+R22	is-specialized-by Arg1:T31 Arg2:T30
+R23	compound Arg1:T40 Arg2:T39
+R24	compound Arg1:T43 Arg2:T42
+R25	is-specialized-by Arg1:T46 Arg2:T45

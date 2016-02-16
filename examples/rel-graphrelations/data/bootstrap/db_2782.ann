@@ -1,0 +1,46 @@
+T0	segment 0 3	The
+T1	segment 4 7	Fox
+T2	segment 8 20	Broadcasting
+T3	segment 21 28	Company
+T4	segment 29 30	,
+T5	segment 31 33	is
+T6	segment 34 36	an
+T7	segment 37 45	American
+T8	segment 46 56	commercial
+T9	segment 57 66	broadcast
+T10	segment 67 77	television
+T11	segment 78 85	network
+T12	segment 86 90	that
+T13	segment 91 93	is
+T14	segment 94 99	owned
+T15	segment 100 102	by
+T16	segment 103 106	the
+T17	segment 107 110	Fox
+T18	segment 111 124	Entertainment
+T19	segment 125 130	Group
+T20	segment 131 139	division
+T21	segment 140 142	of
+T22	segment 143 147	21st
+T23	segment 148 155	Century
+T24	segment 156 159	Fox
+T25	segment 160 161	.
+R0	s_p Arg1:T3 Arg2:T5
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T5 Arg2:T11
+R4	is-specialized-by Arg1:T11 Arg2:T7
+R5	compound Arg1:T11 Arg2:T10
+R6	compound Arg1:T11 Arg2:T9
+R7	s_p Arg1:T12 Arg2:T14
+R8	compound Arg1:T14 Arg2:T13
+R9	p_c Arg1:T14 Arg2:T15
+R10	c_co Arg1:T15 Arg2:T20
+R11	compound Arg1:T19 Arg2:T18
+R12	compound Arg1:T19 Arg2:T17
+R13	compound Arg1:T20 Arg2:T19
+R14	is-specialized-by Arg1:T20 Arg2:T21
+R15	compound Arg1:T20 Arg2:T18
+R16	compound Arg1:T20 Arg2:T17
+R17	c_co Arg1:T21 Arg2:T22
+R18	compound Arg1:T24 Arg2:T22
+R19	compound Arg1:T24 Arg2:T23

@@ -1,0 +1,40 @@
+T0	segment 0 9	Masayoshi
+T1	segment 10 11	''
+T2	segment 11 12	``
+T3	segment 12 16	Masa
+T4	segment 16 17	''
+T5	segment 17 18	''
+T6	segment 19 27	Takayama
+T7	segment 28 30	is
+T8	segment 31 34	the
+T9	segment 35 39	chef
+T10	segment 40 43	and
+T11	segment 44 49	owner
+T12	segment 50 52	of
+T13	segment 53 57	Masa
+T14	segment 57 58	,
+T15	segment 59 60	a
+T16	segment 61 83	three-Michelin-starred
+T17	segment 84 92	Japanese
+T18	segment 93 96	and
+T19	segment 97 102	sushi
+T20	segment 103 113	restaurant
+T21	segment 114 116	in
+T22	segment 117 126	Manhattan
+T23	segment 126 127	,
+T24	segment 128 131	New
+T25	segment 132 136	York
+T26	segment 137 141	City
+T27	segment 142 143	.
+R0	s_p Arg1:T3 Arg2:T7
+R1	p_o Arg1:T7 Arg2:T9
+R2	is-specialized-by Arg1:T9 Arg2:T12
+R3	p_p Arg1:T9 Arg2:T0
+R4	is-specialized-by Arg1:T9 Arg2:T21
+R5	c_co Arg1:T12 Arg2:T13
+R6	is-specialized-by Arg1:T17 Arg2:T16
+R7	compound Arg1:T20 Arg2:T19
+R8	c_co Arg1:T21 Arg2:T26
+R9	compound Arg1:T26 Arg2:T22
+R10	compound Arg1:T26 Arg2:T24
+R11	compound Arg1:T26 Arg2:T25

@@ -1,0 +1,62 @@
+T0	segment 0 3	The
+T1	segment 4 9	Mossi
+T2	segment 10 18	Kingdoms
+T3	segment 18 19	,
+T4	segment 20 29	sometimes
+T5	segment 30 40	mistakenly
+T6	segment 41 49	referred
+T7	segment 50 52	to
+T8	segment 53 55	as
+T9	segment 56 59	the
+T10	segment 60 65	Mossi
+T11	segment 66 72	Empire
+T12	segment 72 73	,
+T13	segment 74 78	were
+T14	segment 79 80	a
+T15	segment 81 87	number
+T16	segment 88 90	of
+T17	segment 91 100	different
+T18	segment 101 109	powerful
+T19	segment 110 118	kingdoms
+T20	segment 119 121	in
+T21	segment 122 132	modern-day
+T22	segment 133 140	Burkina
+T23	segment 141 145	Faso
+T24	segment 146 151	which
+T25	segment 152 161	dominated
+T26	segment 162 165	the
+T27	segment 166 172	region
+T28	segment 173 175	of
+T29	segment 176 179	the
+T30	segment 180 185	upper
+T31	segment 186 191	Volta
+T32	segment 192 197	river
+T33	segment 198 201	for
+T34	segment 202 210	hundreds
+T35	segment 211 213	of
+T36	segment 214 219	years
+T37	segment 220 221	.
+R0	s_p Arg1:T2 Arg2:T13
+R1	compound Arg1:T2 Arg2:T1
+R2	is-specialized-by Arg1:T6 Arg2:T4
+R3	compound Arg1:T11 Arg2:T10
+R4	p_o Arg1:T13 Arg2:T15
+R5	is-specialized-by Arg1:T15 Arg2:T16
+R6	c_co Arg1:T16 Arg2:T19
+R7	is-specialized-by Arg1:T19 Arg2:T17
+R8	is-specialized-by Arg1:T19 Arg2:T20
+R9	c_co Arg1:T20 Arg2:T23
+R10	compound Arg1:T23 Arg2:T22
+R11	is-specialized-by Arg1:T23 Arg2:T21
+R12	s_p Arg1:T24 Arg2:T25
+R13	p_c Arg1:T25 Arg2:T33
+R14	p_o Arg1:T25 Arg2:T27
+R15	is-specialized-by Arg1:T27 Arg2:T28
+R16	c_co Arg1:T28 Arg2:T32
+R17	compound Arg1:T32 Arg2:T31
+R18	is-specialized-by Arg1:T32 Arg2:T30
+R19	c_co Arg1:T33 Arg2:T34
+R20	is-specialized-by Arg1:T34 Arg2:T35
+R21	c_co Arg1:T35 Arg2:T36
+R22	compound Arg1:T36 Arg2:T35
+R23	compound Arg1:T36 Arg2:T34

@@ -1,0 +1,46 @@
+T0	segment 0 11	Tasikmalaya
+T1	segment 12 14	is
+T2	segment 15 16	a
+T3	segment 17 21	city
+T4	segment 22 24	in
+T5	segment 25 37	southeastern
+T6	segment 38 42	West
+T7	segment 43 47	Java
+T8	segment 47 48	,
+T9	segment 49 58	Indonesia
+T10	segment 58 59	,
+T11	segment 60 67	located
+T12	segment 68 75	between
+T13	segment 76 83	Bandung
+T14	segment 84 87	and
+T15	segment 88 98	Purwokerto
+T16	segment 99 101	on
+T17	segment 102 105	the
+T18	segment 106 115	southerly
+T19	segment 116 118	of
+T20	segment 119 122	the
+T21	segment 123 126	two
+T22	segment 127 132	major
+T23	segment 133 137	road
+T24	segment 138 144	routes
+T25	segment 145 151	across
+T26	segment 152 156	Java
+T27	segment 157 158	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	is-specialized-by Arg1:T3 Arg2:T11
+R4	c_co Arg1:T4 Arg2:T7
+R5	compound Arg1:T7 Arg2:T6
+R6	is-specialized-by Arg1:T7 Arg2:T5
+R7	is-specialized-by Arg1:T11 Arg2:T16
+R8	is-specialized-by Arg1:T11 Arg2:T12
+R9	c_co Arg1:T12 Arg2:T13
+R10	c_co Arg1:T16 Arg2:T18
+R11	is-specialized-by Arg1:T18 Arg2:T19
+R12	c_co Arg1:T19 Arg2:T24
+R13	is-specialized-by Arg1:T24 Arg2:T25
+R14	compound Arg1:T24 Arg2:T23
+R15	is-specialized-by Arg1:T24 Arg2:T22
+R16	is-specialized-by Arg1:T24 Arg2:T21
+R17	c_co Arg1:T25 Arg2:T26

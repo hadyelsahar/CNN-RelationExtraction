@@ -1,0 +1,23 @@
+T0	segment 0 3	The
+T1	segment 4 12	Province
+T2	segment 13 15	of
+T3	segment 16 21	Rieti
+T4	segment 22 26	with
+T5	segment 27 28	a
+T6	segment 29 34	total
+T7	segment 35 45	population
+T8	segment 46 48	of
+T9	segment 49 56	159,670
+T10	segment 57 63	people
+T11	segment 64 66	as
+T12	segment 67 69	of
+T13	segment 70 74	2013
+T14	segment 75 76	.
+R0	is-specialized-by Arg1:T1 Arg2:T12
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	is-specialized-by Arg1:T1 Arg2:T4
+R3	c_co Arg1:T2 Arg2:T3
+R4	c_co Arg1:T4 Arg2:T7
+R5	is-specialized-by Arg1:T7 Arg2:T6
+R6	is-specialized-by Arg1:T10 Arg2:T9
+R7	c_co Arg1:T12 Arg2:T13

@@ -1,0 +1,70 @@
+T0	segment 0 7	Iberian
+T1	segment 8 13	Union
+T2	segment 14 16	is
+T3	segment 17 20	the
+T4	segment 21 34	anachronistic
+T5	segment 35 45	historical
+T6	segment 46 57	designation
+T7	segment 58 60	of
+T8	segment 61 64	the
+T9	segment 65 74	political
+T10	segment 75 80	union
+T11	segment 81 83	of
+T12	segment 84 87	the
+T13	segment 88 93	Crown
+T14	segment 94 96	of
+T15	segment 97 105	Portugal
+T16	segment 106 110	with
+T17	segment 111 114	the
+T18	segment 115 120	other
+T19	segment 121 128	Iberian
+T20	segment 129 135	crowns
+T21	segment 136 137	-
+T22	segment 138 145	through
+T23	segment 146 147	a
+T24	segment 148 156	dynastic
+T25	segment 157 162	union
+T26	segment 162 163	,
+T27	segment 164 169	under
+T28	segment 170 173	the
+T29	segment 174 181	Spanish
+T30	segment 182 188	branch
+T31	segment 189 191	of
+T32	segment 192 195	the
+T33	segment 196 204	Habsburg
+T34	segment 205 213	monarchy
+T35	segment 213 214	,
+T36	segment 215 220	after
+T37	segment 221 224	the
+T38	segment 225 228	War
+T39	segment 229 231	of
+T40	segment 232 235	the
+T41	segment 236 246	Portuguese
+T42	segment 247 257	Succession
+T43	segment 258 259	-
+T44	segment 260 264	that
+T45	segment 265 273	included
+T46	segment 274 277	all
+T47	segment 278 281	the
+T48	segment 282 289	Iberian
+T49	segment 290 299	Peninsula
+T50	segment 299 300	,
+T51	segment 301 304	the
+T52	segment 305 312	Spanish
+T53	segment 313 319	Empire
+T54	segment 320 323	and
+T55	segment 324 327	the
+T56	segment 328 338	Portuguese
+T57	segment 339 345	Empire
+T58	segment 345 346	,
+T59	segment 347 351	from
+T60	segment 352 356	1580
+T61	segment 357 359	to
+T62	segment 360 364	1640
+T63	segment 365 366	.
+R0	compound Arg1:T1 Arg2:T0
+R1	compound Arg1:T49 Arg2:T48
+R2	compound Arg1:T53 Arg2:T52
+R3	compound Arg1:T57 Arg2:T56
+R4	compound Arg1:T62 Arg2:T60
+R5	compound Arg1:T62 Arg2:T61

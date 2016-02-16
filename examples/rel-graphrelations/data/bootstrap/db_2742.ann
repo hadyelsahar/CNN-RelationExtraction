@@ -1,0 +1,46 @@
+T0	segment 0 3	All
+T1	segment 4 6	By
+T2	segment 7 15	Students
+T3	segment 16 25	Notebooks
+T4	segment 26 28	is
+T5	segment 29 30	a
+T6	segment 31 38	college
+T7	segment 39 48	marketing
+T8	segment 49 56	company
+T9	segment 57 61	that
+T10	segment 62 70	partners
+T11	segment 71 75	with
+T12	segment 76 88	universities
+T13	segment 89 95	across
+T14	segment 96 99	the
+T15	segment 100 106	United
+T16	segment 107 113	States
+T17	segment 114 116	to
+T18	segment 117 126	spearhead
+T19	segment 127 128	a
+T20	segment 129 133	free
+T21	segment 134 140	school
+T22	segment 141 149	supplies
+T23	segment 150 160	initiative
+T24	segment 161 164	for
+T25	segment 165 173	students
+T26	segment 174 175	.
+R0	s_p Arg1:T0 Arg2:T4
+R1	c_co Arg1:T1 Arg2:T2
+R2	compound Arg1:T3 Arg2:T2
+R3	p_o Arg1:T4 Arg2:T8
+R4	compound Arg1:T8 Arg2:T6
+R5	is-specialized-by Arg1:T8 Arg2:T1
+R6	compound Arg1:T8 Arg2:T7
+R7	s_p Arg1:T10 Arg2:T18
+R8	is-specialized-by Arg1:T10 Arg2:T11
+R9	c_co Arg1:T11 Arg2:T12
+R10	is-specialized-by Arg1:T12 Arg2:T13
+R11	c_co Arg1:T13 Arg2:T16
+R12	compound Arg1:T16 Arg2:T15
+R13	p_c Arg1:T18 Arg2:T24
+R14	p_o Arg1:T18 Arg2:T23
+R15	compound Arg1:T23 Arg2:T22
+R16	compound Arg1:T23 Arg2:T21
+R17	is-specialized-by Arg1:T23 Arg2:T20
+R18	c_co Arg1:T24 Arg2:T25

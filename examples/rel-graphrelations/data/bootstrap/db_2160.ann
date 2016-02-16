@@ -1,0 +1,82 @@
+T0	segment 0 4	Play
+T1	segment 5 7	it
+T2	segment 8 10	by
+T3	segment 11 14	Ear
+T4	segment 15 26	Productions
+T5	segment 27 30	was
+T6	segment 31 33	an
+T7	segment 34 39	audio
+T8	segment 40 47	theatre
+T9	segment 48 58	production
+T10	segment 59 66	company
+T11	segment 67 74	devoted
+T12	segment 75 77	to
+T13	segment 78 81	the
+T14	segment 82 93	development
+T15	segment 94 97	and
+T16	segment 98 110	distribution
+T17	segment 111 113	of
+T18	segment 114 122	original
+T19	segment 123 128	plays
+T20	segment 129 132	for
+T21	segment 133 138	radio
+T22	segment 138 139	,
+T23	segment 140 143	the
+T24	segment 144 152	internet
+T25	segment 152 153	,
+T26	segment 154 157	and
+T27	segment 158 165	compact
+T28	segment 166 170	disc
+T29	segment 170 171	;
+T30	segment 172 175	the
+T31	segment 176 183	company
+T32	segment 184 187	was
+T33	segment 188 195	founded
+T34	segment 196 198	in
+T35	segment 199 203	2002
+T36	segment 204 206	by
+T37	segment 207 212	actor
+T38	segment 213 221	producer
+T39	segment 222 227	Lance
+T40	segment 228 233	Roger
+T41	segment 234 237	Axt
+T42	segment 238 240	in
+T43	segment 241 244	New
+T44	segment 245 249	York
+T45	segment 250 254	City
+T46	segment 254 255	,
+T47	segment 256 259	New
+T48	segment 260 264	York
+T49	segment 265 266	.
+R0	is-specialized-by Arg1:T0 Arg2:T2
+R1	p_o Arg1:T0 Arg2:T1
+R2	c_co Arg1:T2 Arg2:T3
+R3	compound Arg1:T4 Arg2:T3
+R4	s_p Arg1:T4 Arg2:T5
+R5	p_o Arg1:T5 Arg2:T10
+R6	is-specialized-by Arg1:T10 Arg2:T7
+R7	compound Arg1:T10 Arg2:T8
+R8	compound Arg1:T10 Arg2:T9
+R9	is-specialized-by Arg1:T11 Arg2:T20
+R10	is-specialized-by Arg1:T11 Arg2:T12
+R11	c_co Arg1:T12 Arg2:T14
+R12	is-specialized-by Arg1:T14 Arg2:T17
+R13	c_co Arg1:T17 Arg2:T19
+R14	is-specialized-by Arg1:T19 Arg2:T18
+R15	c_co Arg1:T20 Arg2:T21
+R16	is-specialized-by Arg1:T28 Arg2:T27
+R17	s_p Arg1:T31 Arg2:T33
+R18	p_c Arg1:T33 Arg2:T34
+R19	p_c Arg1:T33 Arg2:T36
+R20	compound Arg1:T33 Arg2:T32
+R21	c_co Arg1:T34 Arg2:T35
+R22	c_co Arg1:T36 Arg2:T41
+R23	is-specialized-by Arg1:T41 Arg2:T42
+R24	compound Arg1:T41 Arg2:T38
+R25	compound Arg1:T41 Arg2:T37
+R26	compound Arg1:T41 Arg2:T40
+R27	compound Arg1:T41 Arg2:T39
+R28	c_co Arg1:T42 Arg2:T45
+R29	compound Arg1:T45 Arg2:T44
+R30	compound Arg1:T45 Arg2:T43
+R31	compound Arg1:T48 Arg2:T47

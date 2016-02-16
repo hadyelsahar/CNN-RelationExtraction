@@ -1,0 +1,52 @@
+T0	segment 0 3	The
+T1	segment 4 9	State
+T2	segment 10 12	of
+T3	segment 13 19	Kharan
+T4	segment 20 23	was
+T5	segment 24 26	an
+T6	segment 27 37	autonomous
+T7	segment 38 46	princely
+T8	segment 47 52	state
+T9	segment 53 55	in
+T10	segment 56 57	a
+T11	segment 58 68	subsidiary
+T12	segment 69 77	alliance
+T13	segment 78 82	with
+T14	segment 83 90	British
+T15	segment 91 96	India
+T16	segment 96 97	,
+T17	segment 98 103	until
+T18	segment 104 107	the
+T19	segment 108 117	departure
+T20	segment 118 120	of
+T21	segment 121 124	the
+T22	segment 125 132	British
+T23	segment 133 137	from
+T24	segment 138 141	the
+T25	segment 142 154	subcontinent
+T26	segment 155 157	in
+T27	segment 158 164	August
+T28	segment 165 169	1947
+T29	segment 170 171	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T8
+R4	is-specialized-by Arg1:T7 Arg2:T6
+R5	is-specialized-by Arg1:T8 Arg2:T7
+R6	is-specialized-by Arg1:T8 Arg2:T9
+R7	is-specialized-by Arg1:T8 Arg2:T17
+R8	c_co Arg1:T9 Arg2:T12
+R9	compound Arg1:T12 Arg2:T11
+R10	is-specialized-by Arg1:T12 Arg2:T13
+R11	c_co Arg1:T13 Arg2:T15
+R12	is-specialized-by Arg1:T15 Arg2:T14
+R13	c_co Arg1:T17 Arg2:T19
+R14	is-specialized-by Arg1:T19 Arg2:T20
+R15	c_co Arg1:T20 Arg2:T22
+R16	is-specialized-by Arg1:T22 Arg2:T23
+R17	c_co Arg1:T23 Arg2:T25
+R18	is-specialized-by Arg1:T25 Arg2:T26
+R19	c_co Arg1:T26 Arg2:T27
+R20	is-specialized-by Arg1:T27 Arg2:T28
+R21	compound Arg1:T28 Arg2:T27

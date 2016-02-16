@@ -1,0 +1,26 @@
+T0	segment 0 6	SavaJe
+T1	segment 7 10	was
+T2	segment 11 14	the
+T3	segment 15 24	developer
+T4	segment 25 27	of
+T5	segment 28 31	the
+T6	segment 32 38	SavaJe
+T7	segment 39 41	OS
+T8	segment 41 42	,
+T9	segment 43 44	a
+T10	segment 45 49	Java
+T11	segment 50 52	OS
+T12	segment 53 56	for
+T13	segment 57 65	advanced
+T14	segment 66 72	mobile
+T15	segment 73 79	phones
+T16	segment 80 81	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T7
+R4	compound Arg1:T7 Arg2:T6
+R5	is-specialized-by Arg1:T11 Arg2:T12
+R6	compound Arg1:T11 Arg2:T10
+R7	c_co Arg1:T12 Arg2:T15
+R8	is-specialized-by Arg1:T15 Arg2:T13

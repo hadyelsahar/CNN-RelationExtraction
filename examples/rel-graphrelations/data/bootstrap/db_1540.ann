@@ -1,0 +1,34 @@
+T0	segment 0 8	Kuni-kyÅ
+T1	segment 9 12	was
+T2	segment 13 18	built
+T3	segment 19 21	in
+T4	segment 22 25	the
+T5	segment 26 37	present-day
+T6	segment 38 42	city
+T7	segment 43 45	of
+T8	segment 46 54	Kizugawa
+T9	segment 55 57	in
+T10	segment 58 63	Kyoto
+T11	segment 64 74	Prefecture
+T12	segment 75 77	by
+T13	segment 78 81	the
+T14	segment 82 87	order
+T15	segment 88 90	of
+T16	segment 91 98	Emperor
+T17	segment 99 104	ShÅmu
+T18	segment 105 106	.
+R0	s_p Arg1:T0 Arg2:T2
+R1	p_c Arg1:T2 Arg2:T9
+R2	p_c Arg1:T2 Arg2:T12
+R3	p_c Arg1:T2 Arg2:T3
+R4	compound Arg1:T2 Arg2:T1
+R5	c_co Arg1:T3 Arg2:T6
+R6	is-specialized-by Arg1:T6 Arg2:T7
+R7	is-specialized-by Arg1:T6 Arg2:T5
+R8	c_co Arg1:T7 Arg2:T8
+R9	c_co Arg1:T9 Arg2:T11
+R10	compound Arg1:T11 Arg2:T10
+R11	c_co Arg1:T12 Arg2:T14
+R12	is-specialized-by Arg1:T14 Arg2:T15
+R13	c_co Arg1:T15 Arg2:T17
+R14	compound Arg1:T17 Arg2:T16

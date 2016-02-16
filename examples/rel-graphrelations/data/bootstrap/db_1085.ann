@@ -1,0 +1,71 @@
+T0	segment 0 3	The
+T1	segment 4 11	Kingdom
+T2	segment 12 14	of
+T3	segment 15 21	Candia
+T4	segment 22 23	,
+T5	segment 24 27	the
+T6	segment 28 31	two
+T7	segment 32 38	states
+T8	segment 39 45	fought
+T9	segment 46 50	over
+T10	segment 51 54	the
+T11	segment 55 65	possession
+T12	segment 66 68	of
+T13	segment 69 74	Crete
+T14	segment 74 75	:
+T15	segment 76 79	the
+T16	segment 80 88	Ottomans
+T17	segment 89 96	quickly
+T18	segment 97 104	overran
+T19	segment 105 109	most
+T20	segment 110 112	of
+T21	segment 113 116	the
+T22	segment 117 123	island
+T23	segment 123 124	,
+T24	segment 125 128	but
+T25	segment 129 135	failed
+T26	segment 136 138	to
+T27	segment 139 143	take
+T28	segment 144 150	Candia
+T29	segment 150 151	,
+T30	segment 152 157	which
+T31	segment 158 162	held
+T32	segment 163 166	out
+T33	segment 166 167	,
+T34	segment 168 173	aided
+T35	segment 174 176	by
+T36	segment 177 185	Venetian
+T37	segment 186 191	naval
+T38	segment 192 203	superiority
+T39	segment 204 207	and
+T40	segment 208 215	Ottoman
+T41	segment 216 228	distractions
+T42	segment 229 238	elsewhere
+T43	segment 238 239	,
+T44	segment 240 245	until
+T45	segment 246 250	1669
+T46	segment 251 252	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	c_co Arg1:T2 Arg2:T3
+R2	compound Arg1:T3 Arg2:T2
+R3	compound Arg1:T3 Arg2:T1
+R4	is-specialized-by Arg1:T7 Arg2:T6
+R5	is-specialized-by Arg1:T8 Arg2:T9
+R6	c_co Arg1:T9 Arg2:T11
+R7	is-specialized-by Arg1:T11 Arg2:T12
+R8	c_co Arg1:T12 Arg2:T13
+R9	s_p Arg1:T16 Arg2:T18
+R10	p_c Arg1:T18 Arg2:T17
+R11	p_o Arg1:T18 Arg2:T19
+R12	is-specialized-by Arg1:T19 Arg2:T20
+R13	c_co Arg1:T20 Arg2:T22
+R14	is-specialized-by Arg1:T25 Arg2:T42
+R15	is-specialized-by Arg1:T25 Arg2:T44
+R16	p_p Arg1:T27 Arg2:T34
+R17	s_p Arg1:T28 Arg2:T34
+R18	s_p Arg1:T30 Arg2:T31
+R19	p_c Arg1:T34 Arg2:T35
+R20	c_co Arg1:T35 Arg2:T38
+R21	is-specialized-by Arg1:T38 Arg2:T36
+R22	compound Arg1:T41 Arg2:T40
+R23	c_co Arg1:T44 Arg2:T45

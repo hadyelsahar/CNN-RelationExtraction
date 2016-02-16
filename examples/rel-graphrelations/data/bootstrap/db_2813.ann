@@ -1,0 +1,44 @@
+T0	segment 0 13	Stolt-Nielsen
+T1	segment 14 21	Limited
+T2	segment 22 24	is
+T3	segment 25 28	the
+T4	segment 29 34	world
+T5	segment 34 36	's
+T6	segment 37 44	leading
+T7	segment 45 53	provider
+T8	segment 54 56	of
+T9	segment 57 67	integrated
+T10	segment 68 82	transportation
+T11	segment 83 86	and
+T12	segment 87 94	storage
+T13	segment 95 104	solutions
+T14	segment 105 108	for
+T15	segment 109 118	specialty
+T16	segment 119 122	and
+T17	segment 123 127	bulk
+T18	segment 128 134	liquid
+T19	segment 135 144	chemicals
+T20	segment 145 148	and
+T21	segment 149 150	a
+T22	segment 151 155	wide
+T23	segment 156 161	range
+T24	segment 162 164	of
+T25	segment 165 170	other
+T26	segment 171 177	liquid
+T27	segment 178 186	products
+T28	segment 187 188	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T7
+R3	is-specialized-by Arg1:T7 Arg2:T8
+R4	is-specialized-by Arg1:T7 Arg2:T6
+R5	c_co Arg1:T8 Arg2:T10
+R6	is-specialized-by Arg1:T10 Arg2:T9
+R7	is-specialized-by Arg1:T10 Arg2:T14
+R8	compound Arg1:T13 Arg2:T12
+R9	c_co Arg1:T14 Arg2:T15
+R10	is-specialized-by Arg1:T19 Arg2:T18
+R11	is-specialized-by Arg1:T23 Arg2:T24
+R12	is-specialized-by Arg1:T23 Arg2:T22
+R13	c_co Arg1:T24 Arg2:T27
+R14	is-specialized-by Arg1:T27 Arg2:T25

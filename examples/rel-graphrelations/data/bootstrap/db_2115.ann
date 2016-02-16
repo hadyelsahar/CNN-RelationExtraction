@@ -1,0 +1,30 @@
+T0	segment 0 7	Eugenio
+T1	segment 8 16	Tavolara
+T2	segment 17 20	was
+T3	segment 21 23	an
+T4	segment 24 30	artist
+T5	segment 31 35	born
+T6	segment 36 38	in
+T7	segment 39 46	Sassari
+T8	segment 46 47	,
+T9	segment 48 56	Sardinia
+T10	segment 56 57	,
+T11	segment 58 63	Italy
+T12	segment 63 64	,
+T13	segment 65 69	with
+T14	segment 70 79	interests
+T15	segment 80 82	in
+T16	segment 83 87	many
+T17	segment 88 99	disciplines
+T18	segment 100 101	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T4
+R3	is-specialized-by Arg1:T5 Arg2:T6
+R4	is-specialized-by Arg1:T5 Arg2:T13
+R5	c_co Arg1:T6 Arg2:T11
+R6	compound Arg1:T11 Arg2:T7
+R7	c_co Arg1:T13 Arg2:T14
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	c_co Arg1:T15 Arg2:T17
+R10	is-specialized-by Arg1:T17 Arg2:T16

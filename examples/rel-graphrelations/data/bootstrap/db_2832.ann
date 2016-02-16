@@ -1,0 +1,35 @@
+T0	segment 0 4	Alan
+T1	segment 5 9	Mark
+T2	segment 10 17	Grayson
+T3	segment 18 20	is
+T4	segment 21 24	the
+T5	segment 25 31	United
+T6	segment 32 38	States
+T7	segment 39 53	Representative
+T8	segment 54 57	for
+T9	segment 58 65	Florida
+T10	segment 65 67	's
+T11	segment 68 71	9th
+T12	segment 72 85	congressional
+T13	segment 86 94	district
+T14	segment 95 98	and
+T15	segment 99 100	a
+T16	segment 101 107	member
+T17	segment 108 110	of
+T18	segment 111 114	the
+T19	segment 115 125	Democratic
+T20	segment 126 131	Party
+T21	segment 132 133	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T7
+R4	compound Arg1:T6 Arg2:T5
+R5	is-specialized-by Arg1:T7 Arg2:T8
+R6	compound Arg1:T7 Arg2:T6
+R7	compound Arg1:T7 Arg2:T5
+R8	c_co Arg1:T8 Arg2:T13
+R9	is-specialized-by Arg1:T13 Arg2:T11
+R10	is-specialized-by Arg1:T16 Arg2:T17
+R11	c_co Arg1:T17 Arg2:T20
+R12	compound Arg1:T20 Arg2:T19

@@ -1,0 +1,33 @@
+T0	segment 0 5	Brett
+T1	segment 6 15	Chukerman
+T2	segment 16 17	,
+T3	segment 18 27	presented
+T4	segment 28 30	an
+T5	segment 31 44	instructional
+T6	segment 45 51	series
+T7	segment 52 55	for
+T8	segment 56 63	Comcast
+T9	segment 64 67	and
+T10	segment 68 70	is
+T11	segment 71 73	an
+T12	segment 74 87	entertainment
+T13	segment 88 101	correspondent
+T14	segment 102 105	for
+T15	segment 106 109	the
+T16	segment 110 118	Japanese
+T17	segment 119 126	network
+T18	segment 127 132	Super
+T19	segment 133 138	Drama
+T20	segment 139 140	.
+R0	s_p Arg1:T1 Arg2:T3
+R1	compound Arg1:T1 Arg2:T0
+R2	p_c Arg1:T3 Arg2:T7
+R3	p_o Arg1:T3 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T5
+R5	c_co Arg1:T7 Arg2:T8
+R6	compound Arg1:T13 Arg2:T12
+R7	is-specialized-by Arg1:T13 Arg2:T14
+R8	c_co Arg1:T14 Arg2:T19
+R9	is-specialized-by Arg1:T19 Arg2:T16
+R10	compound Arg1:T19 Arg2:T18
+R11	compound Arg1:T19 Arg2:T17

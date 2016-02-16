@@ -1,0 +1,44 @@
+T0	segment 0 11	Earth-Touch
+T1	segment 12 14	is
+T2	segment 15 16	a
+T3	segment 17 22	South
+T4	segment 23 35	Africa-based
+T5	segment 36 46	multimedia
+T6	segment 47 54	company
+T7	segment 55 59	that
+T8	segment 60 72	disseminates
+T9	segment 73 76	its
+T10	segment 77 84	content
+T11	segment 85 91	across
+T12	segment 92 100	multiple
+T13	segment 101 110	platforms
+T14	segment 110 111	,
+T15	segment 112 121	including
+T16	segment 122 132	television
+T17	segment 133 141	networks
+T18	segment 141 142	,
+T19	segment 143 148	video
+T20	segment 149 152	and
+T21	segment 153 156	DVD
+T22	segment 156 157	,
+T23	segment 158 161	the
+T24	segment 162 170	Internet
+T25	segment 171 174	and
+T26	segment 175 181	mobile
+T27	segment 182 188	phones
+T28	segment 189 190	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T6
+R2	compound Arg1:T4 Arg2:T3
+R3	compound Arg1:T6 Arg2:T3
+R4	compound Arg1:T6 Arg2:T5
+R5	is-specialized-by Arg1:T6 Arg2:T4
+R6	s_p Arg1:T7 Arg2:T8
+R7	p_o Arg1:T8 Arg2:T10
+R8	p_c Arg1:T8 Arg2:T11
+R9	c_co Arg1:T11 Arg2:T13
+R10	is-specialized-by Arg1:T13 Arg2:T15
+R11	is-specialized-by Arg1:T13 Arg2:T12
+R12	c_co Arg1:T15 Arg2:T17
+R13	compound Arg1:T17 Arg2:T16
+R14	is-specialized-by Arg1:T27 Arg2:T26

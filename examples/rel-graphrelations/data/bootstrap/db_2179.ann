@@ -1,0 +1,50 @@
+T0	segment 0 3	The
+T1	segment 4 14	Electorate
+T2	segment 15 17	of
+T3	segment 18 25	Bavaria
+T4	segment 26 29	was
+T5	segment 30 32	an
+T6	segment 33 44	independent
+T7	segment 45 55	hereditary
+T8	segment 56 66	electorate
+T9	segment 67 69	of
+T10	segment 70 73	the
+T11	segment 74 78	Holy
+T12	segment 79 84	Roman
+T13	segment 85 91	Empire
+T14	segment 92 96	from
+T15	segment 97 101	1623
+T16	segment 102 104	to
+T17	segment 105 109	1806
+T18	segment 109 110	,
+T19	segment 111 115	when
+T20	segment 116 118	it
+T21	segment 119 122	was
+T22	segment 123 132	succeeded
+T23	segment 133 135	by
+T24	segment 136 139	the
+T25	segment 140 147	Kingdom
+T26	segment 148 150	of
+T27	segment 151 158	Bavaria
+T28	segment 159 160	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T8
+R4	is-specialized-by Arg1:T8 Arg2:T9
+R5	is-specialized-by Arg1:T8 Arg2:T6
+R6	is-specialized-by Arg1:T8 Arg2:T14
+R7	c_co Arg1:T9 Arg2:T13
+R8	is-specialized-by Arg1:T13 Arg2:T11
+R9	c_co Arg1:T14 Arg2:T17
+R10	compound Arg1:T17 Arg2:T16
+R11	compound Arg1:T17 Arg2:T15
+R12	s_p Arg1:T20 Arg2:T22
+R13	p_c Arg1:T22 Arg2:T19
+R14	compound Arg1:T22 Arg2:T21
+R15	p_c Arg1:T22 Arg2:T23
+R16	c_co Arg1:T23 Arg2:T25
+R17	is-specialized-by Arg1:T25 Arg2:T26
+R18	c_co Arg1:T26 Arg2:T27
+R19	compound Arg1:T27 Arg2:T26
+R20	compound Arg1:T27 Arg2:T25

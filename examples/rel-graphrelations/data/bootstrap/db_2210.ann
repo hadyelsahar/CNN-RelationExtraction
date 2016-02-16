@@ -1,0 +1,26 @@
+T0	segment 0 9	Kingstown
+T1	segment 10 12	is
+T2	segment 13 16	the
+T3	segment 17 24	capital
+T4	segment 24 25	,
+T5	segment 26 31	chief
+T6	segment 32 36	port
+T7	segment 36 37	,
+T8	segment 38 41	and
+T9	segment 42 46	main
+T10	segment 47 57	commercial
+T11	segment 58 64	centre
+T12	segment 65 67	of
+T13	segment 68 73	Saint
+T14	segment 74 81	Vincent
+T15	segment 82 85	and
+T16	segment 86 89	the
+T17	segment 90 100	Grenadines
+T18	segment 101 102	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T6 Arg2:T5
+R3	is-specialized-by Arg1:T11 Arg2:T9
+R4	is-specialized-by Arg1:T11 Arg2:T12
+R5	c_co Arg1:T12 Arg2:T14
+R6	compound Arg1:T14 Arg2:T13

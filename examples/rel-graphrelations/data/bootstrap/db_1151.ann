@@ -1,0 +1,57 @@
+T0	segment 0 3	The
+T1	segment 4 7	MIT
+T2	segment 8 14	Center
+T3	segment 15 18	for
+T4	segment 19 24	Civic
+T5	segment 25 30	Media
+T6	segment 31 33	is
+T7	segment 34 35	a
+T8	segment 36 44	research
+T9	segment 45 48	and
+T10	segment 49 58	practical
+T11	segment 59 65	center
+T12	segment 66 70	that
+T13	segment 71 79	develops
+T14	segment 80 83	and
+T15	segment 84 94	implements
+T16	segment 95 100	tools
+T17	segment 101 105	that
+T18	segment 106 113	support
+T19	segment 114 123	political
+T20	segment 124 130	action
+T21	segment 131 134	and
+T22	segment 135 136	''
+T23	segment 136 137	``
+T24	segment 137 140	the
+T25	segment 141 152	information
+T26	segment 153 158	needs
+T27	segment 159 161	of
+T28	segment 162 163	-LSB-
+T29	segment 163 168	civic
+T30	segment 168 169	-RSB-
+T31	segment 170 181	communities
+T32	segment 181 182	''
+T33	segment 182 183	''
+T34	segment 184 185	.
+R0	s_p Arg1:T2 Arg2:T6
+R1	is-specialized-by Arg1:T2 Arg2:T3
+R2	compound Arg1:T2 Arg2:T1
+R3	c_co Arg1:T3 Arg2:T5
+R4	compound Arg1:T5 Arg2:T4
+R5	compound Arg1:T5 Arg2:T3
+R6	compound Arg1:T5 Arg2:T2
+R7	compound Arg1:T5 Arg2:T1
+R8	p_o Arg1:T6 Arg2:T11
+R9	p_o Arg1:T11 Arg2:T26
+R10	is-specialized-by Arg1:T11 Arg2:T8
+R11	p_p Arg1:T11 Arg2:T13
+R12	s_p Arg1:T12 Arg2:T13
+R13	p_o Arg1:T13 Arg2:T16
+R14	s_p Arg1:T17 Arg2:T18
+R15	p_c Arg1:T18 Arg2:T21
+R16	p_o Arg1:T18 Arg2:T20
+R17	is-specialized-by Arg1:T20 Arg2:T19
+R18	is-specialized-by Arg1:T26 Arg2:T27
+R19	compound Arg1:T26 Arg2:T25
+R20	c_co Arg1:T27 Arg2:T31
+R21	is-specialized-by Arg1:T31 Arg2:T29

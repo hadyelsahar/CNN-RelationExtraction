@@ -1,0 +1,32 @@
+T0	segment 0 10	Pagaruyung
+T1	segment 11 14	was
+T2	segment 15 18	the
+T3	segment 19 23	seat
+T4	segment 24 26	of
+T5	segment 27 30	the
+T6	segment 31 42	Minangkabau
+T7	segment 43 48	kings
+T8	segment 49 51	of
+T9	segment 52 59	Western
+T10	segment 60 67	Sumatra
+T11	segment 67 68	,
+T12	segment 69 75	though
+T13	segment 76 82	little
+T14	segment 83 85	is
+T15	segment 86 91	known
+T16	segment 92 97	about
+T17	segment 98 100	it
+T18	segment 101 102	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	compound Arg1:T7 Arg2:T6
+R6	c_co Arg1:T8 Arg2:T10
+R7	compound Arg1:T10 Arg2:T9
+R8	s_p Arg1:T13 Arg2:T15
+R9	compound Arg1:T15 Arg2:T14
+R10	p_c Arg1:T15 Arg2:T12
+R11	p_c Arg1:T15 Arg2:T16
+R12	c_co Arg1:T16 Arg2:T17

@@ -1,0 +1,35 @@
+T0	segment 0 10	Brainshark
+T1	segment 11 13	is
+T2	segment 14 15	a
+T3	segment 16 25	privately
+T4	segment 26 30	held
+T5	segment 31 41	technology
+T6	segment 42 49	company
+T7	segment 50 55	based
+T8	segment 56 58	in
+T9	segment 59 66	Waltham
+T10	segment 66 67	,
+T11	segment 68 81	Massachusetts
+T12	segment 82 86	that
+T13	segment 87 95	provides
+T14	segment 96 97	a
+T15	segment 98 103	sales
+T16	segment 104 114	enablement
+T17	segment 115 123	platform
+T18	segment 124 127	and
+T19	segment 128 135	product
+T20	segment 136 141	suite
+T21	segment 142 143	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T6
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T6 Arg2:T7
+R4	compound Arg1:T6 Arg2:T5
+R5	is-specialized-by Arg1:T6 Arg2:T4
+R6	c_co Arg1:T7 Arg2:T11
+R7	compound Arg1:T11 Arg2:T9
+R8	s_p Arg1:T12 Arg2:T13
+R9	p_o Arg1:T13 Arg2:T17
+R10	compound Arg1:T17 Arg2:T16
+R11	compound Arg1:T17 Arg2:T15
+R12	compound Arg1:T20 Arg2:T19

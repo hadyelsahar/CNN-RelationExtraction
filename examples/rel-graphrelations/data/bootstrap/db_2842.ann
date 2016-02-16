@@ -1,0 +1,36 @@
+T0	segment 0 2	In
+T1	segment 3 8	Greek
+T2	segment 9 18	mythology
+T3	segment 18 19	,
+T4	segment 20 28	Termerus
+T5	segment 29 30	,
+T6	segment 31 34	for
+T7	segment 35 37	it
+T8	segment 38 43	seems
+T9	segment 44 52	Termerus
+T10	segment 53 59	killed
+T11	segment 60 70	passengers
+T12	segment 71 75	that
+T13	segment 76 78	he
+T14	segment 79 82	met
+T15	segment 83 85	by
+T16	segment 86 93	running
+T17	segment 94 98	with
+T18	segment 99 102	his
+T19	segment 103 107	head
+T20	segment 108 115	against
+T21	segment 116 120	them
+T22	segment 121 122	.
+R0	c_co Arg1:T0 Arg2:T2
+R1	is-specialized-by Arg1:T2 Arg2:T1
+R2	s_p Arg1:T4 Arg2:T8
+R3	is-specialized-by Arg1:T4 Arg2:T6
+R4	c_co Arg1:T6 Arg2:T7
+R5	p_c Arg1:T8 Arg2:T0
+R6	p_o Arg1:T10 Arg2:T11
+R7	p_p Arg1:T10 Arg2:T14
+R8	s_p Arg1:T13 Arg2:T14
+R9	is-specialized-by Arg1:T16 Arg2:T17
+R10	c_co Arg1:T17 Arg2:T19
+R11	is-specialized-by Arg1:T19 Arg2:T20
+R12	c_co Arg1:T20 Arg2:T21

@@ -1,0 +1,47 @@
+T0	segment 0 13	Russification
+T1	segment 14 16	is
+T2	segment 17 18	a
+T3	segment 19 23	form
+T4	segment 24 26	of
+T5	segment 27 35	cultural
+T6	segment 36 48	assimilation
+T7	segment 49 56	process
+T8	segment 57 63	during
+T9	segment 64 69	which
+T10	segment 70 81	non-Russian
+T11	segment 82 93	communities
+T12	segment 93 94	,
+T13	segment 95 106	voluntarily
+T14	segment 107 109	or
+T15	segment 110 113	not
+T16	segment 113 114	,
+T17	segment 115 119	give
+T18	segment 120 122	up
+T19	segment 123 128	their
+T20	segment 129 136	culture
+T21	segment 137 140	and
+T22	segment 141 149	language
+T23	segment 150 152	in
+T24	segment 153 158	favor
+T25	segment 159 161	of
+T26	segment 162 165	the
+T27	segment 166 173	Russian
+T28	segment 174 177	one
+T29	segment 178 179	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T7
+R4	compound Arg1:T7 Arg2:T6
+R5	is-specialized-by Arg1:T7 Arg2:T5
+R6	c_co Arg1:T8 Arg2:T9
+R7	is-specialized-by Arg1:T11 Arg2:T10
+R8	s_p Arg1:T11 Arg2:T17
+R9	is-specialized-by Arg1:T15 Arg2:T13
+R10	p_c Arg1:T17 Arg2:T23
+R11	p_c Arg1:T17 Arg2:T8
+R12	p_o Arg1:T17 Arg2:T20
+R13	c_co Arg1:T23 Arg2:T24
+R14	is-specialized-by Arg1:T24 Arg2:T25
+R15	c_co Arg1:T25 Arg2:T28
+R16	is-specialized-by Arg1:T28 Arg2:T27

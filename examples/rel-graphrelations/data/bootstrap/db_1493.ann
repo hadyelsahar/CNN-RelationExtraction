@@ -1,0 +1,35 @@
+T0	segment 0 3	The
+T1	segment 4 13	Bishopric
+T2	segment 14 16	of
+T3	segment 17 23	LÃ¼beck
+T4	segment 24 27	was
+T5	segment 28 29	a
+T6	segment 30 44	Roman-Catholic
+T7	segment 45 48	and
+T8	segment 48 49	,
+T9	segment 50 55	later
+T10	segment 55 56	,
+T11	segment 57 67	Protestant
+T12	segment 68 75	diocese
+T13	segment 75 76	,
+T14	segment 77 79	as
+T15	segment 80 84	well
+T16	segment 85 87	as
+T17	segment 88 89	a
+T18	segment 90 95	state
+T19	segment 96 98	of
+T20	segment 99 102	the
+T21	segment 103 107	Holy
+T22	segment 108 113	Roman
+T23	segment 114 120	Empire
+T24	segment 121 122	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T6
+R4	is-specialized-by Arg1:T12 Arg2:T11
+R5	compound Arg1:T14 Arg2:T16
+R6	compound Arg1:T14 Arg2:T15
+R7	is-specialized-by Arg1:T18 Arg2:T19
+R8	c_co Arg1:T19 Arg2:T23
+R9	is-specialized-by Arg1:T23 Arg2:T21

@@ -1,0 +1,75 @@
+T0	segment 0 4	Todd
+T1	segment 5 12	Patrick
+T2	segment 13 14	,
+T3	segment 15 24	including
+T4	segment 25 30	Black
+T5	segment 31 35	Lips
+T6	segment 35 36	,
+T7	segment 37 46	Lightning
+T8	segment 47 51	Bolt
+T9	segment 51 52	,
+T10	segment 53 58	Black
+T11	segment 59 63	Dice
+T12	segment 63 64	,
+T13	segment 65 70	Mount
+T14	segment 71 76	Eerie
+T15	segment 76 77	,
+T16	segment 78 88	Deerhunter
+T17	segment 88 89	,
+T18	segment 90 93	Dan
+T19	segment 94 100	Deacon
+T20	segment 100 101	,
+T21	segment 102 106	Matt
+T22	segment 107 110	and
+T23	segment 111 114	Kim
+T24	segment 114 115	,
+T25	segment 116 120	Real
+T26	segment 121 127	Estate
+T27	segment 127 128	,
+T28	segment 129 141	Pictureplane
+T29	segment 141 142	,
+T30	segment 143 148	Woods
+T31	segment 148 149	,
+T32	segment 150 163	USAISAMONSTER
+T33	segment 163 164	,
+T34	segment 165 170	Dirty
+T35	segment 171 181	Projectors
+T36	segment 181 182	,
+T37	segment 183 189	Surfer
+T38	segment 190 195	Blood
+T39	segment 195 196	,
+T40	segment 197 199	TV
+T41	segment 200 202	on
+T42	segment 203 206	the
+T43	segment 207 212	Radio
+T44	segment 212 213	,
+T45	segment 214 218	Gang
+T46	segment 219 223	Gang
+T47	segment 224 229	Dance
+T48	segment 229 230	,
+T49	segment 231 235	DIIV
+T50	segment 235 236	,
+T51	segment 237 245	Teengirl
+T52	segment 246 253	Fantasy
+T53	segment 253 254	,
+T54	segment 255 260	Kitty
+T55	segment 260 261	,
+T56	segment 262 264	No
+T57	segment 265 268	Age
+T58	segment 268 269	,
+T59	segment 270 276	Vivian
+T60	segment 277 282	Girls
+T61	segment 282 283	,
+T62	segment 284 287	and
+T63	segment 288 294	others
+T64	segment 295 296	.
+R0	compound Arg1:T1 Arg2:T0
+R1	compound Arg1:T5 Arg2:T4
+R2	compound Arg1:T8 Arg2:T7
+R3	compound Arg1:T11 Arg2:T10
+R4	compound Arg1:T14 Arg2:T13
+R5	compound Arg1:T19 Arg2:T18
+R6	compound Arg1:T47 Arg2:T46
+R7	compound Arg1:T47 Arg2:T45
+R8	compound Arg1:T57 Arg2:T56
+R9	compound Arg1:T60 Arg2:T59

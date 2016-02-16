@@ -1,0 +1,90 @@
+T0	segment 0 3	The
+T1	segment 4 11	Oceanic
+T2	segment 12 17	Steam
+T3	segment 18 28	Navigation
+T4	segment 29 36	Company
+T5	segment 37 39	or
+T6	segment 40 45	White
+T7	segment 46 50	Star
+T8	segment 51 55	Line
+T9	segment 56 58	of
+T10	segment 59 65	Boston
+T11	segment 66 73	Packets
+T12	segment 73 74	,
+T13	segment 75 79	more
+T14	segment 80 88	commonly
+T15	segment 89 94	known
+T16	segment 95 97	as
+T17	segment 98 102	just
+T18	segment 103 108	White
+T19	segment 109 113	Star
+T20	segment 114 118	Line
+T21	segment 118 119	,
+T22	segment 120 123	was
+T23	segment 124 125	a
+T24	segment 126 135	prominent
+T25	segment 136 143	British
+T26	segment 144 152	shipping
+T27	segment 153 160	company
+T28	segment 160 161	,
+T29	segment 162 167	today
+T30	segment 168 172	most
+T31	segment 173 179	famous
+T32	segment 180 183	for
+T33	segment 184 189	their
+T34	segment 190 205	ground-breaking
+T35	segment 206 212	vessel
+T36	segment 213 220	Oceanic
+T37	segment 221 223	of
+T38	segment 224 228	1870
+T39	segment 228 229	,
+T40	segment 230 233	and
+T41	segment 234 237	the
+T42	segment 238 245	Olympic
+T43	segment 246 251	class
+T44	segment 252 257	ocean
+T45	segment 258 264	liners
+T46	segment 264 265	,
+T47	segment 266 275	including
+T48	segment 276 279	the
+T49	segment 280 289	ill-fated
+T50	segment 290 293	RMS
+T51	segment 294 301	Titanic
+T52	segment 302 303	.
+R0	compound Arg1:T4 Arg2:T3
+R1	is-specialized-by Arg1:T4 Arg2:T9
+R2	s_p Arg1:T4 Arg2:T22
+R3	compound Arg1:T4 Arg2:T2
+R4	compound Arg1:T4 Arg2:T1
+R5	compound Arg1:T8 Arg2:T6
+R6	compound Arg1:T8 Arg2:T7
+R7	c_co Arg1:T9 Arg2:T11
+R8	compound Arg1:T11 Arg2:T6
+R9	compound Arg1:T11 Arg2:T8
+R10	compound Arg1:T11 Arg2:T7
+R11	compound Arg1:T11 Arg2:T10
+R12	compound Arg1:T11 Arg2:T9
+R13	is-specialized-by Arg1:T14 Arg2:T13
+R14	is-specialized-by Arg1:T15 Arg2:T16
+R15	is-specialized-by Arg1:T15 Arg2:T14
+R16	c_co Arg1:T16 Arg2:T20
+R17	is-specialized-by Arg1:T18 Arg2:T17
+R18	compound Arg1:T20 Arg2:T19
+R19	compound Arg1:T20 Arg2:T18
+R20	p_o Arg1:T22 Arg2:T27
+R21	is-specialized-by Arg1:T27 Arg2:T24
+R22	compound Arg1:T27 Arg2:T26
+R23	is-specialized-by Arg1:T29 Arg2:T31
+R24	is-specialized-by Arg1:T31 Arg2:T30
+R25	c_co Arg1:T32 Arg2:T29
+R26	is-specialized-by Arg1:T35 Arg2:T34
+R27	is-specialized-by Arg1:T36 Arg2:T32
+R28	is-specialized-by Arg1:T36 Arg2:T47
+R29	is-specialized-by Arg1:T36 Arg2:T37
+R30	c_co Arg1:T37 Arg2:T38
+R31	compound Arg1:T45 Arg2:T44
+R32	compound Arg1:T45 Arg2:T43
+R33	compound Arg1:T45 Arg2:T42
+R34	c_co Arg1:T47 Arg2:T51
+R35	is-specialized-by Arg1:T51 Arg2:T49
+R36	compound Arg1:T51 Arg2:T50

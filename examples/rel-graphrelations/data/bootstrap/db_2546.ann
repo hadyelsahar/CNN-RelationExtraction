@@ -1,0 +1,44 @@
+T0	segment 0 3	The
+T1	segment 4 10	Battle
+T2	segment 11 13	of
+T3	segment 14 18	Four
+T4	segment 19 24	Lakes
+T5	segment 25 28	was
+T6	segment 29 30	a
+T7	segment 31 37	battle
+T8	segment 38 44	during
+T9	segment 45 46	a
+T10	segment 47 49	US
+T11	segment 50 54	Army
+T12	segment 55 65	expedition
+T13	segment 66 73	against
+T14	segment 74 75	a
+T15	segment 76 89	confederation
+T16	segment 90 92	of
+T17	segment 93 99	Native
+T18	segment 100 108	American
+T19	segment 109 115	tribes
+T20	segment 116 118	in
+T21	segment 119 129	Washington
+T22	segment 130 133	and
+T23	segment 134 139	Idaho
+T24	segment 140 141	.
+R0	s_p Arg1:T1 Arg2:T5
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	c_co Arg1:T2 Arg2:T4
+R3	compound Arg1:T2 Arg2:T1
+R4	is-specialized-by Arg1:T4 Arg2:T3
+R5	p_o Arg1:T5 Arg2:T7
+R6	is-specialized-by Arg1:T7 Arg2:T8
+R7	c_co Arg1:T8 Arg2:T12
+R8	compound Arg1:T11 Arg2:T10
+R9	compound Arg1:T12 Arg2:T11
+R10	compound Arg1:T12 Arg2:T10
+R11	is-specialized-by Arg1:T12 Arg2:T13
+R12	c_co Arg1:T13 Arg2:T15
+R13	is-specialized-by Arg1:T15 Arg2:T16
+R14	c_co Arg1:T16 Arg2:T19
+R15	compound Arg1:T18 Arg2:T17
+R16	is-specialized-by Arg1:T19 Arg2:T17
+R17	is-specialized-by Arg1:T19 Arg2:T20
+R18	c_co Arg1:T20 Arg2:T21

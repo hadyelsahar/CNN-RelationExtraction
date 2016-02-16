@@ -1,0 +1,41 @@
+T0	segment 0 7	Ronaldo
+T1	segment 8 13	Souza
+T2	segment 14 17	dos
+T3	segment 18 24	Santos
+T4	segment 25 26	,
+T5	segment 27 29	is
+T6	segment 30 31	a
+T7	segment 32 41	Brazilian
+T8	segment 42 47	mixed
+T9	segment 48 55	martial
+T10	segment 56 62	artist
+T11	segment 62 63	,
+T12	segment 64 74	submission
+T13	segment 75 83	grappler
+T14	segment 84 87	and
+T15	segment 88 97	Brazilian
+T16	segment 98 107	jiu-jitsu
+T17	segment 108 120	practitioner
+T18	segment 121 130	competing
+T19	segment 131 133	in
+T20	segment 134 137	the
+T21	segment 138 141	UFC
+T22	segment 141 143	's
+T23	segment 144 156	Middleweight
+T24	segment 157 165	division
+T25	segment 166 167	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T3
+R3	compound Arg1:T3 Arg2:T0
+R4	compound Arg1:T3 Arg2:T2
+R5	compound Arg1:T3 Arg2:T1
+R6	p_p Arg1:T5 Arg2:T2
+R7	s_p Arg1:T10 Arg2:T5
+R8	is-specialized-by Arg1:T10 Arg2:T7
+R9	compound Arg1:T13 Arg2:T12
+R10	is-specialized-by Arg1:T17 Arg2:T15
+R11	compound Arg1:T17 Arg2:T16
+R12	is-specialized-by Arg1:T18 Arg2:T19
+R13	c_co Arg1:T19 Arg2:T24
+R14	compound Arg1:T24 Arg2:T23

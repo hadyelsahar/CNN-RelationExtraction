@@ -1,0 +1,58 @@
+T0	segment 0 3	The
+T1	segment 4 10	Dhamra
+T2	segment 11 15	Port
+T3	segment 16 18	is
+T4	segment 19 20	a
+T5	segment 21 26	major
+T6	segment 27 32	newly
+T7	segment 33 42	developed
+T8	segment 43 47	Port
+T9	segment 48 50	in
+T10	segment 51 58	Bhadrak
+T11	segment 59 67	district
+T12	segment 67 68	,
+T13	segment 69 75	Odisha
+T14	segment 75 76	,
+T15	segment 77 82	India
+T16	segment 82 83	,
+T17	segment 84 86	on
+T18	segment 87 90	the
+T19	segment 91 96	shore
+T20	segment 97 99	of
+T21	segment 100 103	the
+T22	segment 104 107	Bay
+T23	segment 108 110	of
+T24	segment 111 117	Bengal
+T25	segment 118 123	about
+T26	segment 124 129	seven
+T27	segment 130 140	kilometers
+T28	segment 141 145	from
+T29	segment 146 149	the
+T30	segment 150 153	old
+T31	segment 154 158	port
+T32	segment 159 161	of
+T33	segment 162 168	Dhamra
+T34	segment 169 170	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T6
+R4	p_o Arg1:T7 Arg2:T11
+R5	is-specialized-by Arg1:T7 Arg2:T28
+R6	is-specialized-by Arg1:T7 Arg2:T25
+R7	is-specialized-by Arg1:T8 Arg2:T9
+R8	c_co Arg1:T9 Arg2:T10
+R9	is-specialized-by Arg1:T11 Arg2:T17
+R10	c_co Arg1:T17 Arg2:T19
+R11	is-specialized-by Arg1:T19 Arg2:T20
+R12	c_co Arg1:T20 Arg2:T22
+R13	is-specialized-by Arg1:T22 Arg2:T23
+R14	c_co Arg1:T23 Arg2:T24
+R15	compound Arg1:T24 Arg2:T22
+R16	compound Arg1:T24 Arg2:T23
+R17	c_co Arg1:T25 Arg2:T27
+R18	is-specialized-by Arg1:T27 Arg2:T26
+R19	c_co Arg1:T28 Arg2:T31
+R20	is-specialized-by Arg1:T31 Arg2:T32
+R21	is-specialized-by Arg1:T31 Arg2:T30
+R22	c_co Arg1:T32 Arg2:T33

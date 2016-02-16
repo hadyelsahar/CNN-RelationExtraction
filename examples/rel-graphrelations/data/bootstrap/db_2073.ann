@@ -1,0 +1,34 @@
+T0	segment 0 7	Sealion
+T1	segment 8 16	Shipping
+T2	segment 17 24	Limited
+T3	segment 25 27	is
+T4	segment 28 29	a
+T5	segment 30 37	British
+T6	segment 38 46	shipping
+T7	segment 47 50	and
+T8	segment 51 62	consultancy
+T9	segment 63 70	company
+T10	segment 71 82	specialized
+T11	segment 83 85	on
+T12	segment 86 89	the
+T13	segment 90 97	support
+T14	segment 98 100	of
+T15	segment 101 104	the
+T16	segment 105 113	offshore
+T17	segment 114 117	oil
+T18	segment 118 121	and
+T19	segment 122 125	gas
+T20	segment 126 134	industry
+T21	segment 135 136	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T5
+R5	compound Arg1:T9 Arg2:T8
+R6	is-specialized-by Arg1:T10 Arg2:T11
+R7	c_co Arg1:T11 Arg2:T13
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T17
+R10	is-specialized-by Arg1:T17 Arg2:T16
+R11	compound Arg1:T20 Arg2:T19

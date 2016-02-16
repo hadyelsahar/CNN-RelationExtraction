@@ -1,0 +1,40 @@
+T0	segment 0 13	Submissionist
+T1	segment 14 17	was
+T2	segment 18 21	the
+T3	segment 22 26	term
+T4	segment 27 31	used
+T5	segment 32 34	by
+T6	segment 35 43	southern
+T7	segment 44 57	secessionists
+T8	segment 58 60	in
+T9	segment 61 64	the
+T10	segment 65 69	year
+T11	segment 70 79	preceding
+T12	segment 80 83	the
+T13	segment 84 92	American
+T14	segment 93 98	Civil
+T15	segment 99 102	War
+T16	segment 103 105	to
+T17	segment 106 114	describe
+T18	segment 115 126	southerners
+T19	segment 127 130	who
+T20	segment 131 137	wanted
+T21	segment 138 140	to
+T22	segment 141 149	preserve
+T23	segment 150 153	the
+T24	segment 154 159	Union
+T25	segment 160 161	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T4 Arg2:T5
+R3	c_co Arg1:T5 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T7 Arg2:T6
+R6	c_co Arg1:T8 Arg2:T10
+R7	compound Arg1:T10 Arg2:T9
+R8	p_o Arg1:T11 Arg2:T15
+R9	compound Arg1:T15 Arg2:T14
+R10	compound Arg1:T15 Arg2:T13
+R11	p_o Arg1:T17 Arg2:T18
+R12	s_p Arg1:T19 Arg2:T20
+R13	p_o Arg1:T22 Arg2:T24

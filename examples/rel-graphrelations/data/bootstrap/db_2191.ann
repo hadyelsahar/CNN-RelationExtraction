@@ -1,0 +1,30 @@
+T0	segment 0 9	Ngerulmud
+T1	segment 10 12	is
+T2	segment 13 16	the
+T3	segment 17 24	capital
+T4	segment 25 27	of
+T5	segment 28 31	the
+T6	segment 32 40	Republic
+T7	segment 41 43	of
+T8	segment 44 49	Palau
+T9	segment 49 50	,
+T10	segment 51 53	an
+T11	segment 54 60	island
+T12	segment 61 67	nation
+T13	segment 68 70	in
+T14	segment 71 74	the
+T15	segment 75 82	Pacific
+T16	segment 83 88	Ocean
+T17	segment 89 90	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	c_co Arg1:T7 Arg2:T8
+R6	compound Arg1:T8 Arg2:T6
+R7	compound Arg1:T8 Arg2:T7
+R8	compound Arg1:T12 Arg2:T11
+R9	is-specialized-by Arg1:T12 Arg2:T13
+R10	c_co Arg1:T13 Arg2:T16
+R11	compound Arg1:T16 Arg2:T15

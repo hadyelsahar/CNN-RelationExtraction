@@ -1,0 +1,48 @@
+T0	segment 0 3	For
+T1	segment 4 10	people
+T2	segment 11 16	named
+T3	segment 17 21	Alan
+T4	segment 22 30	Marshall
+T5	segment 30 31	,
+T6	segment 32 35	see
+T7	segment 36 40	Alan
+T8	segment 41 49	Marshall
+T9	segment 50 53	was
+T10	segment 54 56	an
+T11	segment 57 72	Australian-born
+T12	segment 73 78	actor
+T13	segment 79 82	who
+T14	segment 83 93	co-starred
+T15	segment 94 98	with
+T16	segment 99 106	Marlene
+T17	segment 107 115	Dietrich
+T18	segment 115 116	,
+T19	segment 117 122	Irene
+T20	segment 123 128	Dunne
+T21	segment 128 129	,
+T22	segment 130 135	Greta
+T23	segment 136 141	Garbo
+T24	segment 141 142	,
+T25	segment 143 149	Ginger
+T26	segment 150 156	Rogers
+T27	segment 156 157	,
+T28	segment 158 161	and
+T29	segment 162 165	Mae
+T30	segment 166 170	West
+T31	segment 171 172	.
+R0	s_p Arg1:T1 Arg2:T6
+R1	p_o Arg1:T2 Arg2:T4
+R2	compound Arg1:T4 Arg2:T3
+R3	p_p Arg1:T6 Arg2:T9
+R4	compound Arg1:T8 Arg2:T7
+R5	s_p Arg1:T8 Arg2:T9
+R6	p_o Arg1:T9 Arg2:T12
+R7	is-specialized-by Arg1:T12 Arg2:T11
+R8	s_p Arg1:T13 Arg2:T14
+R9	p_c Arg1:T14 Arg2:T15
+R10	c_co Arg1:T15 Arg2:T17
+R11	compound Arg1:T17 Arg2:T16
+R12	compound Arg1:T20 Arg2:T19
+R13	compound Arg1:T23 Arg2:T22
+R14	compound Arg1:T26 Arg2:T25
+R15	compound Arg1:T30 Arg2:T29

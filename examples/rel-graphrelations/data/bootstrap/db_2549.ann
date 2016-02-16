@@ -1,0 +1,47 @@
+T0	segment 0 8	Daykundi
+T1	segment 9 10	,
+T2	segment 11 20	sometimes
+T3	segment 21 28	spelled
+T4	segment 29 31	as
+T5	segment 32 40	Daikundi
+T6	segment 40 41	,
+T7	segment 42 50	DÄykondÄ«
+T8	segment 50 51	,
+T9	segment 52 60	Daikondi
+T10	segment 61 63	or
+T11	segment 64 72	Daykundi
+T12	segment 72 73	,
+T13	segment 74 76	is
+T14	segment 77 80	one
+T15	segment 81 83	of
+T16	segment 84 87	the
+T17	segment 88 99	thirty-four
+T18	segment 100 109	provinces
+T19	segment 110 112	of
+T20	segment 113 124	Afghanistan
+T21	segment 124 125	,
+T22	segment 126 133	located
+T23	segment 134 136	in
+T24	segment 137 140	the
+T25	segment 141 148	central
+T26	segment 149 153	part
+T27	segment 154 156	of
+T28	segment 157 160	the
+T29	segment 161 168	country
+T30	segment 169 170	.
+R0	s_p Arg1:T0 Arg2:T13
+R1	is-specialized-by Arg1:T3 Arg2:T2
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T5
+R4	p_o Arg1:T13 Arg2:T14
+R5	is-specialized-by Arg1:T14 Arg2:T15
+R6	is-specialized-by Arg1:T14 Arg2:T19
+R7	is-specialized-by Arg1:T14 Arg2:T22
+R8	c_co Arg1:T15 Arg2:T18
+R9	is-specialized-by Arg1:T18 Arg2:T17
+R10	c_co Arg1:T19 Arg2:T20
+R11	is-specialized-by Arg1:T22 Arg2:T23
+R12	c_co Arg1:T23 Arg2:T26
+R13	is-specialized-by Arg1:T26 Arg2:T25
+R14	is-specialized-by Arg1:T26 Arg2:T27
+R15	c_co Arg1:T27 Arg2:T29

@@ -1,0 +1,45 @@
+T0	segment 0 3	YTB
+T1	segment 4 17	International
+T2	segment 17 18	,
+T3	segment 19 24	known
+T4	segment 25 27	as
+T5	segment 28 31	YTB
+T6	segment 32 38	Global
+T7	segment 39 45	Travel
+T8	segment 45 46	,
+T9	segment 47 51	Your
+T10	segment 52 58	Travel
+T11	segment 59 62	Biz
+T12	segment 63 65	or
+T13	segment 66 69	YTB
+T14	segment 69 70	,
+T15	segment 71 79	operates
+T16	segment 80 81	a
+T17	segment 82 93	multi-level
+T18	segment 94 103	marketing
+T19	segment 104 112	business
+T20	segment 113 120	through
+T21	segment 121 136	owner-affiliate
+T22	segment 137 145	websites
+T23	segment 146 154	offering
+T24	segment 155 161	travel
+T25	segment 161 162	,
+T26	segment 163 173	excursions
+T27	segment 173 174	,
+T28	segment 175 178	and
+T29	segment 179 186	lodging
+T30	segment 187 188	.
+R0	compound Arg1:T1 Arg2:T0
+R1	s_p Arg1:T1 Arg2:T15
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T7
+R4	compound Arg1:T7 Arg2:T6
+R5	compound Arg1:T7 Arg2:T5
+R6	compound Arg1:T11 Arg2:T10
+R7	p_c Arg1:T15 Arg2:T20
+R8	p_o Arg1:T15 Arg2:T19
+R9	is-specialized-by Arg1:T19 Arg2:T17
+R10	compound Arg1:T19 Arg2:T18
+R11	c_co Arg1:T20 Arg2:T22
+R12	is-specialized-by Arg1:T22 Arg2:T21
+R13	p_o Arg1:T23 Arg2:T24

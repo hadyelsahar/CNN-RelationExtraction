@@ -1,0 +1,65 @@
+T0	segment 0 6	PrepMe
+T1	segment 7 9	is
+T2	segment 10 11	a
+T3	segment 12 22	for-profit
+T4	segment 23 31	American
+T5	segment 32 39	company
+T6	segment 40 44	that
+T7	segment 45 51	offers
+T8	segment 52 58	online
+T9	segment 59 66	courses
+T10	segment 67 70	and
+T11	segment 71 79	tutoring
+T12	segment 80 83	for
+T13	segment 84 96	standardized
+T14	segment 97 108	achievement
+T15	segment 109 114	tests
+T16	segment 114 115	,
+T17	segment 116 118	in
+T18	segment 119 129	particular
+T19	segment 130 135	those
+T20	segment 136 143	offered
+T21	segment 144 146	by
+T22	segment 147 150	the
+T23	segment 151 162	Educational
+T24	segment 163 170	Testing
+T25	segment 171 178	Service
+T26	segment 179 180	,
+T27	segment 181 185	such
+T28	segment 186 188	as
+T29	segment 189 192	the
+T30	segment 193 197	PSAT
+T31	segment 198 201	and
+T32	segment 202 205	SAT
+T33	segment 205 206	;
+T34	segment 207 210	and
+T35	segment 211 214	the
+T36	segment 215 218	ACT
+T37	segment 219 226	offered
+T38	segment 227 229	by
+T39	segment 230 233	ACT
+T40	segment 233 234	,
+T41	segment 235 238	Inc
+T42	segment 239 240	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T5
+R2	is-specialized-by Arg1:T5 Arg2:T3
+R3	s_p Arg1:T6 Arg2:T7
+R4	p_o Arg1:T7 Arg2:T9
+R5	is-specialized-by Arg1:T9 Arg2:T8
+R6	is-specialized-by Arg1:T11 Arg2:T12
+R7	is-specialized-by Arg1:T11 Arg2:T27
+R8	c_co Arg1:T12 Arg2:T15
+R9	compound Arg1:T15 Arg2:T14
+R10	is-specialized-by Arg1:T15 Arg2:T17
+R11	is-specialized-by Arg1:T15 Arg2:T13
+R12	c_co Arg1:T17 Arg2:T18
+R13	is-specialized-by Arg1:T20 Arg2:T21
+R14	c_co Arg1:T21 Arg2:T25
+R15	compound Arg1:T25 Arg2:T24
+R16	compound Arg1:T25 Arg2:T23
+R17	compound Arg1:T27 Arg2:T28
+R18	c_co Arg1:T27 Arg2:T30
+R19	is-specialized-by Arg1:T37 Arg2:T38
+R20	c_co Arg1:T38 Arg2:T41
+R21	compound Arg1:T41 Arg2:T39

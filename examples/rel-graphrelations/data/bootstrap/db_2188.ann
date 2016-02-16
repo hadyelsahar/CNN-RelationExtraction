@@ -1,0 +1,48 @@
+T0	segment 0 3	The
+T1	segment 4 14	Lithuanian
+T2	segment 14 15	--
+T3	segment 15 27	Byelorussian
+T4	segment 28 34	Soviet
+T5	segment 35 44	Socialist
+T6	segment 45 53	Republic
+T7	segment 54 57	was
+T8	segment 58 59	a
+T9	segment 60 66	Soviet
+T10	segment 67 76	socialist
+T11	segment 77 85	republic
+T12	segment 86 90	that
+T13	segment 91 98	existed
+T14	segment 99 105	within
+T15	segment 106 109	the
+T16	segment 110 121	territories
+T17	segment 122 124	of
+T18	segment 125 131	modern
+T19	segment 132 139	Belarus
+T20	segment 140 143	and
+T21	segment 144 151	eastern
+T22	segment 152 161	Lithuania
+T23	segment 162 165	for
+T24	segment 166 179	approximately
+T25	segment 180 184	five
+T26	segment 185 191	months
+T27	segment 192 198	during
+T28	segment 199 203	1919
+T29	segment 204 205	.
+R0	compound Arg1:T4 Arg2:T3
+R1	is-specialized-by Arg1:T6 Arg2:T3
+R2	s_p Arg1:T6 Arg2:T7
+R3	p_o Arg1:T7 Arg2:T11
+R4	is-specialized-by Arg1:T11 Arg2:T9
+R5	s_p Arg1:T12 Arg2:T13
+R6	p_c Arg1:T13 Arg2:T14
+R7	p_c Arg1:T13 Arg2:T27
+R8	c_co Arg1:T14 Arg2:T16
+R9	is-specialized-by Arg1:T16 Arg2:T17
+R10	c_co Arg1:T17 Arg2:T19
+R11	is-specialized-by Arg1:T19 Arg2:T18
+R12	is-specialized-by Arg1:T22 Arg2:T23
+R13	is-specialized-by Arg1:T22 Arg2:T21
+R14	c_co Arg1:T23 Arg2:T26
+R15	is-specialized-by Arg1:T25 Arg2:T24
+R16	compound Arg1:T26 Arg2:T25
+R17	c_co Arg1:T27 Arg2:T28

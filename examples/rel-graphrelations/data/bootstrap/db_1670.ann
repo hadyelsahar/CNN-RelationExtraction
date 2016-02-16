@@ -1,0 +1,80 @@
+T0	segment 0 3	The
+T1	segment 4 16	Landgraviate
+T2	segment 17 19	of
+T3	segment 20 32	Hesse-Kassel
+T4	segment 33 34	,
+T5	segment 35 40	known
+T6	segment 41 43	as
+T7	segment 44 56	Hesse-Cassel
+T8	segment 57 63	during
+T9	segment 64 67	its
+T10	segment 68 77	existence
+T11	segment 77 78	,
+T12	segment 79 82	was
+T13	segment 83 84	a
+T14	segment 85 90	state
+T15	segment 91 93	in
+T16	segment 94 97	the
+T17	segment 98 102	Holy
+T18	segment 103 108	Roman
+T19	segment 109 115	Empire
+T20	segment 116 121	under
+T21	segment 122 130	directly
+T22	segment 131 138	subject
+T23	segment 139 141	to
+T24	segment 142 145	the
+T25	segment 146 153	Emperor
+T26	segment 154 158	that
+T27	segment 159 163	came
+T28	segment 164 168	into
+T29	segment 169 178	existence
+T30	segment 179 183	when
+T31	segment 184 187	the
+T32	segment 188 200	Landgraviate
+T33	segment 201 203	of
+T34	segment 204 209	Hesse
+T35	segment 210 213	was
+T36	segment 214 221	divided
+T37	segment 222 224	in
+T38	segment 225 229	1567
+T39	segment 230 234	upon
+T40	segment 235 238	the
+T41	segment 239 244	death
+T42	segment 245 247	of
+T43	segment 248 254	Philip
+T44	segment 255 256	I
+T45	segment 256 257	,
+T46	segment 258 267	Landgrave
+T47	segment 268 270	of
+T48	segment 271 276	Hesse
+T49	segment 277 278	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T12
+R2	c_co Arg1:T2 Arg2:T3
+R3	is-specialized-by Arg1:T5 Arg2:T8
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T7
+R6	c_co Arg1:T8 Arg2:T10
+R7	p_o Arg1:T12 Arg2:T14
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	c_co Arg1:T15 Arg2:T19
+R10	is-specialized-by Arg1:T19 Arg2:T17
+R11	is-specialized-by Arg1:T22 Arg2:T23
+R12	is-specialized-by Arg1:T22 Arg2:T21
+R13	c_co Arg1:T23 Arg2:T25
+R14	s_p Arg1:T26 Arg2:T27
+R15	p_c Arg1:T27 Arg2:T28
+R16	c_co Arg1:T28 Arg2:T29
+R17	is-specialized-by Arg1:T32 Arg2:T33
+R18	s_p Arg1:T32 Arg2:T36
+R19	c_co Arg1:T33 Arg2:T34
+R20	p_c Arg1:T36 Arg2:T30
+R21	compound Arg1:T36 Arg2:T35
+R22	p_c Arg1:T36 Arg2:T39
+R23	p_c Arg1:T36 Arg2:T37
+R24	c_co Arg1:T37 Arg2:T38
+R25	c_co Arg1:T39 Arg2:T41
+R26	is-specialized-by Arg1:T41 Arg2:T42
+R27	c_co Arg1:T42 Arg2:T43
+R28	is-specialized-by Arg1:T46 Arg2:T47
+R29	c_co Arg1:T47 Arg2:T48

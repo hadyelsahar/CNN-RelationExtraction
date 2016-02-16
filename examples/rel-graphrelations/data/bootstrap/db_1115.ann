@@ -1,0 +1,43 @@
+T0	segment 0 3	The
+T1	segment 4 7	NCR
+T2	segment 8 19	Corporation
+T3	segment 20 22	is
+T4	segment 23 24	a
+T5	segment 25 33	US-based
+T6	segment 34 42	computer
+T7	segment 43 51	hardware
+T8	segment 51 52	,
+T9	segment 53 61	software
+T10	segment 62 65	and
+T11	segment 66 77	electronics
+T12	segment 78 85	company
+T13	segment 86 90	that
+T14	segment 91 99	provides
+T15	segment 100 108	products
+T16	segment 109 112	and
+T17	segment 113 121	services
+T18	segment 122 126	that
+T19	segment 127 133	enable
+T20	segment 134 144	businesses
+T21	segment 145 147	to
+T22	segment 148 155	connect
+T23	segment 155 156	,
+T24	segment 157 165	interact
+T25	segment 166 169	and
+T26	segment 170 178	transact
+T27	segment 179 183	with
+T28	segment 184 189	their
+T29	segment 190 199	customers
+T30	segment 200 201	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T6
+R3	is-specialized-by Arg1:T6 Arg2:T5
+R4	s_p Arg1:T7 Arg2:T24
+R5	compound Arg1:T12 Arg2:T9
+R6	s_p Arg1:T13 Arg2:T14
+R7	p_o Arg1:T14 Arg2:T15
+R8	s_p Arg1:T18 Arg2:T19
+R9	p_o Arg1:T19 Arg2:T20
+R10	p_c Arg1:T24 Arg2:T27
+R11	c_co Arg1:T27 Arg2:T29

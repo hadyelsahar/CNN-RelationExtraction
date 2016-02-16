@@ -1,0 +1,38 @@
+T0	segment 0 3	The
+T1	segment 4 11	Kingdom
+T2	segment 12 14	of
+T3	segment 15 20	Gomma
+T4	segment 21 24	was
+T5	segment 25 28	one
+T6	segment 29 31	of
+T7	segment 32 35	the
+T8	segment 36 44	kingdoms
+T9	segment 45 47	in
+T10	segment 48 51	the
+T11	segment 52 56	Gibe
+T12	segment 57 63	region
+T13	segment 64 66	of
+T14	segment 67 75	Ethiopia
+T15	segment 76 80	that
+T16	segment 81 88	emerged
+T17	segment 89 91	in
+T18	segment 92 95	the
+T19	segment 96 100	18th
+T20	segment 101 108	century
+T21	segment 109 110	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T5
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T8
+R6	is-specialized-by Arg1:T8 Arg2:T9
+R7	c_co Arg1:T9 Arg2:T12
+R8	compound Arg1:T12 Arg2:T11
+R9	is-specialized-by Arg1:T12 Arg2:T13
+R10	c_co Arg1:T13 Arg2:T14
+R11	s_p Arg1:T15 Arg2:T16
+R12	p_c Arg1:T16 Arg2:T17
+R13	c_co Arg1:T17 Arg2:T20
+R14	compound Arg1:T20 Arg2:T19
+R15	compound Arg1:T20 Arg2:T18

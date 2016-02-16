@@ -1,0 +1,34 @@
+T0	segment 0 7	Newgate
+T1	segment 8 14	Clocks
+T2	segment 15 17	is
+T3	segment 18 19	a
+T4	segment 20 27	British
+T5	segment 28 35	company
+T6	segment 36 40	that
+T7	segment 41 47	design
+T8	segment 48 51	and
+T9	segment 52 63	manufacture
+T10	segment 64 74	decorative
+T11	segment 75 79	wall
+T12	segment 79 80	,
+T13	segment 81 87	mantel
+T14	segment 88 91	and
+T15	segment 92 97	alarm
+T16	segment 98 104	clocks
+T17	segment 105 108	for
+T18	segment 109 112	the
+T19	segment 113 117	home
+T20	segment 118 121	and
+T21	segment 122 126	gift
+T22	segment 127 135	industry
+T23	segment 136 137	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T11 Arg2:T10
+R5	compound Arg1:T11 Arg2:T7
+R6	compound Arg1:T16 Arg2:T13
+R7	is-specialized-by Arg1:T16 Arg2:T17
+R8	c_co Arg1:T17 Arg2:T22
+R9	compound Arg1:T22 Arg2:T19

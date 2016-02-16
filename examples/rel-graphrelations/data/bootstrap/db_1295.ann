@@ -1,0 +1,53 @@
+T0	segment 0 3	The
+T1	segment 4 17	International
+T2	segment 18 29	Association
+T3	segment 30 32	of
+T4	segment 33 36	the
+T5	segment 37 42	Congo
+T6	segment 42 43	,
+T7	segment 44 48	also
+T8	segment 49 54	known
+T9	segment 55 57	as
+T10	segment 58 61	the
+T11	segment 62 75	International
+T12	segment 76 81	Congo
+T13	segment 82 89	Society
+T14	segment 90 91	,
+T15	segment 92 97	which
+T16	segment 98 101	was
+T17	segment 102 106	part
+T18	segment 107 109	of
+T19	segment 110 113	the
+T20	segment 114 127	International
+T21	segment 128 135	African
+T22	segment 136 147	Association
+T23	segment 148 155	created
+T24	segment 156 159	for
+T25	segment 160 171	exploration
+T26	segment 172 174	of
+T27	segment 175 178	the
+T28	segment 179 184	Congo
+T29	segment 185 186	.
+R0	s_p Arg1:T2 Arg2:T23
+R1	is-specialized-by Arg1:T2 Arg2:T3
+R2	compound Arg1:T2 Arg2:T1
+R3	c_co Arg1:T3 Arg2:T5
+R4	compound Arg1:T5 Arg2:T4
+R5	compound Arg1:T5 Arg2:T3
+R6	compound Arg1:T5 Arg2:T2
+R7	compound Arg1:T5 Arg2:T1
+R8	is-specialized-by Arg1:T8 Arg2:T7
+R9	is-specialized-by Arg1:T8 Arg2:T9
+R10	c_co Arg1:T9 Arg2:T13
+R11	compound Arg1:T13 Arg2:T12
+R12	compound Arg1:T13 Arg2:T11
+R13	s_p Arg1:T15 Arg2:T16
+R14	p_o Arg1:T16 Arg2:T17
+R15	is-specialized-by Arg1:T17 Arg2:T18
+R16	c_co Arg1:T18 Arg2:T22
+R17	compound Arg1:T22 Arg2:T20
+R18	compound Arg1:T22 Arg2:T21
+R19	p_c Arg1:T23 Arg2:T24
+R20	c_co Arg1:T24 Arg2:T25
+R21	is-specialized-by Arg1:T25 Arg2:T26
+R22	c_co Arg1:T26 Arg2:T28

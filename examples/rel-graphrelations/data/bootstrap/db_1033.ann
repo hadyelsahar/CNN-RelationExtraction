@@ -1,0 +1,36 @@
+T0	segment 0 3	The
+T1	segment 4 14	Ramadanids
+T2	segment 14 15	,
+T3	segment 16 20	also
+T4	segment 21 26	known
+T5	segment 27 29	as
+T6	segment 30 33	the
+T7	segment 34 43	Ramadanid
+T8	segment 44 51	dynasty
+T9	segment 51 52	,
+T10	segment 53 60	Emirate
+T11	segment 61 63	of
+T12	segment 64 71	Ramadan
+T13	segment 72 75	and
+T14	segment 76 85	Ramadanid
+T15	segment 86 98	principality
+T16	segment 99 100	,
+T17	segment 101 104	was
+T18	segment 105 108	one
+T19	segment 109 111	of
+T20	segment 112 115	the
+T21	segment 116 125	Anatolian
+T22	segment 126 133	beyliks
+T23	segment 134 135	.
+R0	s_p Arg1:T1 Arg2:T17
+R1	is-specialized-by Arg1:T4 Arg2:T3
+R2	is-specialized-by Arg1:T4 Arg2:T5
+R3	c_co Arg1:T5 Arg2:T8
+R4	compound Arg1:T8 Arg2:T7
+R5	is-specialized-by Arg1:T10 Arg2:T11
+R6	c_co Arg1:T11 Arg2:T12
+R7	compound Arg1:T15 Arg2:T14
+R8	p_o Arg1:T17 Arg2:T18
+R9	is-specialized-by Arg1:T18 Arg2:T19
+R10	c_co Arg1:T19 Arg2:T22
+R11	is-specialized-by Arg1:T22 Arg2:T21

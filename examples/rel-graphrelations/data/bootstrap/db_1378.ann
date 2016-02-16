@@ -1,0 +1,38 @@
+T0	segment 0 4	Linh
+T1	segment 5 8	Dan
+T2	segment 9 13	Pham
+T3	segment 14 16	by
+T4	segment 17 20	the
+T5	segment 21 29	director
+T6	segment 30 33	Bui
+T7	segment 34 38	Thac
+T8	segment 39 45	Chuyen
+T9	segment 45 46	,
+T10	segment 47 52	which
+T11	segment 53 56	won
+T12	segment 57 60	the
+T13	segment 61 69	FIPRESCI
+T14	segment 70 75	award
+T15	segment 76 78	at
+T16	segment 79 82	the
+T17	segment 83 87	66th
+T18	segment 88 94	Venice
+T19	segment 95 108	International
+T20	segment 109 113	Film
+T21	segment 114 122	Festival
+T22	segment 123 124	.
+R0	compound Arg1:T2 Arg2:T0
+R1	is-specialized-by Arg1:T2 Arg2:T3
+R2	compound Arg1:T2 Arg2:T1
+R3	c_co Arg1:T3 Arg2:T5
+R4	compound Arg1:T8 Arg2:T6
+R5	compound Arg1:T8 Arg2:T7
+R6	s_p Arg1:T10 Arg2:T11
+R7	p_c Arg1:T11 Arg2:T15
+R8	p_o Arg1:T11 Arg2:T14
+R9	compound Arg1:T14 Arg2:T13
+R10	c_co Arg1:T15 Arg2:T21
+R11	compound Arg1:T21 Arg2:T20
+R12	compound Arg1:T21 Arg2:T19
+R13	is-specialized-by Arg1:T21 Arg2:T17
+R14	compound Arg1:T21 Arg2:T18

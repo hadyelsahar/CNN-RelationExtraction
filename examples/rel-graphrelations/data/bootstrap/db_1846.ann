@@ -1,0 +1,36 @@
+T0	segment 0 3	New
+T1	segment 4 9	Delhi
+T2	segment 10 12	is
+T3	segment 13 16	the
+T4	segment 17 24	capital
+T5	segment 25 27	of
+T6	segment 28 33	India
+T7	segment 34 37	and
+T8	segment 38 42	seat
+T9	segment 43 45	of
+T10	segment 46 49	the
+T11	segment 50 59	executive
+T12	segment 59 60	,
+T13	segment 61 72	legislative
+T14	segment 72 73	,
+T15	segment 74 77	and
+T16	segment 78 87	judiciary
+T17	segment 88 96	branches
+T18	segment 97 99	of
+T19	segment 100 103	the
+T20	segment 104 114	Government
+T21	segment 115 117	of
+T22	segment 118 123	India
+T23	segment 124 125	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T4
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T6
+R5	is-specialized-by Arg1:T8 Arg2:T9
+R6	c_co Arg1:T9 Arg2:T11
+R7	is-specialized-by Arg1:T17 Arg2:T18
+R8	compound Arg1:T17 Arg2:T16
+R9	c_co Arg1:T18 Arg2:T20
+R10	is-specialized-by Arg1:T20 Arg2:T21
+R11	c_co Arg1:T21 Arg2:T22

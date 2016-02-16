@@ -1,0 +1,29 @@
+T0	segment 0 7	Gujarat
+T1	segment 8 9	,
+T2	segment 10 14	most
+T3	segment 15 17	of
+T4	segment 18 23	which
+T5	segment 24 28	lies
+T6	segment 29 31	on
+T7	segment 32 35	the
+T8	segment 36 45	Kathiawar
+T9	segment 46 55	peninsula
+T10	segment 55 56	,
+T11	segment 57 60	and
+T12	segment 61 62	a
+T13	segment 63 73	population
+T14	segment 74 76	in
+T15	segment 77 83	excess
+T16	segment 84 86	of
+T17	segment 87 89	60
+T18	segment 90 97	million
+T19	segment 98 99	.
+R0	s_p Arg1:T4 Arg2:T5
+R1	p_c Arg1:T5 Arg2:T6
+R2	c_co Arg1:T6 Arg2:T9
+R3	compound Arg1:T9 Arg2:T8
+R4	is-specialized-by Arg1:T13 Arg2:T14
+R5	c_co Arg1:T14 Arg2:T15
+R6	is-specialized-by Arg1:T15 Arg2:T16
+R7	c_co Arg1:T16 Arg2:T18
+R8	compound Arg1:T18 Arg2:T17

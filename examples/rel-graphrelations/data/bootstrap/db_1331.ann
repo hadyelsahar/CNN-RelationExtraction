@@ -1,0 +1,56 @@
+T0	segment 0 3	Fox
+T1	segment 4 10	Sports
+T2	segment 11 18	Midwest
+T3	segment 19 21	is
+T4	segment 22 24	an
+T5	segment 25 33	American
+T6	segment 34 42	regional
+T7	segment 43 49	sports
+T8	segment 50 57	network
+T9	segment 58 65	serving
+T10	segment 66 73	eastern
+T11	segment 74 77	and
+T12	segment 78 85	central
+T13	segment 86 94	Missouri
+T14	segment 94 95	,
+T15	segment 96 103	central
+T16	segment 104 107	and
+T17	segment 108 116	southern
+T18	segment 117 125	Illinois
+T19	segment 125 126	,
+T20	segment 127 135	Southern
+T21	segment 136 143	Indiana
+T22	segment 143 144	,
+T23	segment 145 153	Nebraska
+T24	segment 153 154	,
+T25	segment 155 158	and
+T26	segment 159 163	Iowa
+T27	segment 164 168	that
+T28	segment 169 171	is
+T29	segment 172 180	operated
+T30	segment 181 183	as
+T31	segment 184 186	an
+T32	segment 187 196	affiliate
+T33	segment 197 199	of
+T34	segment 200 203	Fox
+T35	segment 204 210	Sports
+T36	segment 211 219	Networks
+T37	segment 220 221	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T8
+R4	compound Arg1:T8 Arg2:T7
+R5	is-specialized-by Arg1:T8 Arg2:T5
+R6	p_o Arg1:T9 Arg2:T10
+R7	is-specialized-by Arg1:T13 Arg2:T12
+R8	is-specialized-by Arg1:T18 Arg2:T15
+R9	compound Arg1:T21 Arg2:T20
+R10	s_p Arg1:T27 Arg2:T29
+R11	compound Arg1:T29 Arg2:T28
+R12	p_c Arg1:T29 Arg2:T30
+R13	c_co Arg1:T30 Arg2:T32
+R14	is-specialized-by Arg1:T32 Arg2:T33
+R15	c_co Arg1:T33 Arg2:T36
+R16	compound Arg1:T36 Arg2:T35
+R17	compound Arg1:T36 Arg2:T34

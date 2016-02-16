@@ -1,0 +1,22 @@
+T0	segment 0 6	Krafty
+T1	segment 7 11	Kuts
+T2	segment 12 14	is
+T3	segment 15 17	an
+T4	segment 18 25	English
+T5	segment 26 36	electronic
+T6	segment 37 42	music
+T7	segment 42 43	,
+T8	segment 44 49	dance
+T9	segment 50 55	music
+T10	segment 56 59	and
+T11	segment 60 69	breakbeat
+T12	segment 70 78	producer
+T13	segment 79 82	and
+T14	segment 83 85	DJ
+T15	segment 86 87	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T6
+R3	is-specialized-by Arg1:T6 Arg2:T4
+R4	compound Arg1:T9 Arg2:T8
+R5	compound Arg1:T12 Arg2:T11

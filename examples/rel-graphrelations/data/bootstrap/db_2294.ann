@@ -1,0 +1,56 @@
+T0	segment 0 3	The
+T1	segment 4 16	Parthenopean
+T2	segment 17 25	Republic
+T3	segment 26 29	was
+T4	segment 30 31	a
+T5	segment 32 38	French
+T6	segment 39 44	First
+T7	segment 45 63	Republic-supported
+T8	segment 64 72	republic
+T9	segment 73 75	in
+T10	segment 76 79	the
+T11	segment 80 89	territory
+T12	segment 90 92	of
+T13	segment 93 96	the
+T14	segment 97 104	Kingdom
+T15	segment 105 107	of
+T16	segment 108 114	Naples
+T17	segment 114 115	,
+T18	segment 116 122	formed
+T19	segment 123 129	during
+T20	segment 130 133	the
+T21	segment 134 140	French
+T22	segment 141 154	Revolutionary
+T23	segment 155 159	Wars
+T24	segment 160 165	after
+T25	segment 166 170	King
+T26	segment 171 180	Ferdinand
+T27	segment 181 183	IV
+T28	segment 184 188	fled
+T29	segment 189 195	before
+T30	segment 196 205	advancing
+T31	segment 206 212	French
+T32	segment 213 219	troops
+T33	segment 220 221	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T8
+R3	is-specialized-by Arg1:T8 Arg2:T9
+R4	is-specialized-by Arg1:T8 Arg2:T15
+R5	compound Arg1:T8 Arg2:T6
+R6	compound Arg1:T8 Arg2:T5
+R7	is-specialized-by Arg1:T8 Arg2:T7
+R8	c_co Arg1:T9 Arg2:T11
+R9	is-specialized-by Arg1:T11 Arg2:T12
+R10	c_co Arg1:T12 Arg2:T14
+R11	c_co Arg1:T15 Arg2:T16
+R12	is-specialized-by Arg1:T18 Arg2:T19
+R13	c_co Arg1:T19 Arg2:T23
+R14	compound Arg1:T23 Arg2:T22
+R15	compound Arg1:T23 Arg2:T21
+R16	is-specialized-by Arg1:T26 Arg2:T27
+R17	s_p Arg1:T26 Arg2:T28
+R18	compound Arg1:T26 Arg2:T25
+R19	compound Arg1:T27 Arg2:T26
+R20	p_o Arg1:T30 Arg2:T32
+R21	is-specialized-by Arg1:T32 Arg2:T31

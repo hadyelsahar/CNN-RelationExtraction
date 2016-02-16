@@ -1,0 +1,58 @@
+T0	segment 0 10	Charleston
+T1	segment 11 13	is
+T2	segment 14 17	the
+T3	segment 18 24	oldest
+T4	segment 25 28	and
+T5	segment 29 43	second-largest
+T6	segment 44 48	city
+T7	segment 49 51	in
+T8	segment 52 55	the
+T9	segment 56 61	State
+T10	segment 62 64	of
+T11	segment 65 70	South
+T12	segment 71 79	Carolina
+T13	segment 79 80	,
+T14	segment 81 84	the
+T15	segment 85 91	county
+T16	segment 92 96	seat
+T17	segment 97 99	of
+T18	segment 100 110	Charleston
+T19	segment 111 117	County
+T20	segment 117 118	,
+T21	segment 119 122	and
+T22	segment 123 126	the
+T23	segment 127 136	principal
+T24	segment 137 141	city
+T25	segment 142 144	in
+T26	segment 145 148	the
+T27	segment 149 159	Charleston
+T28	segment 159 160	--
+T29	segment 160 165	North
+T30	segment 166 176	Charleston
+T31	segment 176 177	--
+T32	segment 177 188	Summerville
+T33	segment 189 201	Metropolitan
+T34	segment 202 213	Statistical
+T35	segment 214 218	Area
+T36	segment 219 220	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T6 Arg2:T7
+R3	is-specialized-by Arg1:T6 Arg2:T5
+R4	c_co Arg1:T7 Arg2:T9
+R5	is-specialized-by Arg1:T9 Arg2:T10
+R6	c_co Arg1:T10 Arg2:T12
+R7	compound Arg1:T12 Arg2:T11
+R8	compound Arg1:T12 Arg2:T10
+R9	compound Arg1:T12 Arg2:T9
+R10	is-specialized-by Arg1:T16 Arg2:T17
+R11	compound Arg1:T16 Arg2:T15
+R12	c_co Arg1:T17 Arg2:T19
+R13	compound Arg1:T19 Arg2:T18
+R14	is-specialized-by Arg1:T24 Arg2:T23
+R15	is-specialized-by Arg1:T24 Arg2:T25
+R16	c_co Arg1:T25 Arg2:T27
+R17	compound Arg1:T30 Arg2:T29
+R18	compound Arg1:T35 Arg2:T32
+R19	compound Arg1:T35 Arg2:T34
+R20	compound Arg1:T35 Arg2:T33

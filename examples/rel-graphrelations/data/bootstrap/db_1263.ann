@@ -1,0 +1,82 @@
+T0	segment 0 3	The
+T1	segment 4 16	Metropolitan
+T2	segment 17 28	Association
+T3	segment 29 32	for
+T4	segment 33 42	Improving
+T5	segment 43 46	the
+T6	segment 47 56	Dwellings
+T7	segment 57 59	of
+T8	segment 60 63	the
+T9	segment 64 75	Industrious
+T10	segment 76 83	Classes
+T11	segment 84 87	was
+T12	segment 88 89	a
+T13	segment 90 103	Victorian-era
+T14	segment 103 104	,
+T15	segment 105 132	philanthropically-motivated
+T16	segment 133 138	Model
+T17	segment 139 148	Dwellings
+T18	segment 149 156	Company
+T19	segment 156 157	,
+T20	segment 158 159	a
+T21	segment 160 171	fore-runner
+T22	segment 172 174	of
+T23	segment 175 178	the
+T24	segment 179 185	modern
+T25	segment 186 193	housing
+T26	segment 194 205	association
+T27	segment 206 211	which
+T28	segment 212 218	sought
+T29	segment 219 221	to
+T30	segment 222 229	provide
+T31	segment 230 240	affordable
+T32	segment 241 248	housing
+T33	segment 249 252	for
+T34	segment 253 256	the
+T35	segment 257 264	working
+T36	segment 265 272	classes
+T37	segment 273 275	on
+T38	segment 276 277	a
+T39	segment 278 287	privately
+T40	segment 288 291	run
+T41	segment 292 297	basis
+T42	segment 297 298	,
+T43	segment 299 303	with
+T44	segment 304 305	a
+T45	segment 306 315	financial
+T46	segment 316 322	return
+T47	segment 323 326	for
+T48	segment 327 336	investors
+T49	segment 337 338	.
+R0	s_p Arg1:T2 Arg2:T11
+R1	compound Arg1:T2 Arg2:T1
+R2	c_co Arg1:T3 Arg2:T4
+R3	compound Arg1:T4 Arg2:T3
+R4	compound Arg1:T4 Arg2:T2
+R5	compound Arg1:T4 Arg2:T1
+R6	is-specialized-by Arg1:T6 Arg2:T7
+R7	c_co Arg1:T7 Arg2:T10
+R8	compound Arg1:T10 Arg2:T9
+R9	p_o Arg1:T11 Arg2:T13
+R10	is-specialized-by Arg1:T13 Arg2:T3
+R11	is-specialized-by Arg1:T13 Arg2:T43
+R12	is-specialized-by Arg1:T18 Arg2:T15
+R13	compound Arg1:T18 Arg2:T16
+R14	compound Arg1:T18 Arg2:T17
+R15	is-specialized-by Arg1:T21 Arg2:T22
+R16	c_co Arg1:T22 Arg2:T26
+R17	is-specialized-by Arg1:T26 Arg2:T24
+R18	compound Arg1:T26 Arg2:T25
+R19	s_p Arg1:T27 Arg2:T28
+R20	p_o Arg1:T30 Arg2:T32
+R21	is-specialized-by Arg1:T30 Arg2:T33
+R22	is-specialized-by Arg1:T32 Arg2:T31
+R23	c_co Arg1:T33 Arg2:T36
+R24	is-specialized-by Arg1:T36 Arg2:T35
+R25	is-specialized-by Arg1:T36 Arg2:T37
+R26	c_co Arg1:T37 Arg2:T41
+R27	is-specialized-by Arg1:T41 Arg2:T39
+R28	c_co Arg1:T43 Arg2:T46
+R29	is-specialized-by Arg1:T46 Arg2:T47
+R30	is-specialized-by Arg1:T46 Arg2:T45
+R31	c_co Arg1:T47 Arg2:T48

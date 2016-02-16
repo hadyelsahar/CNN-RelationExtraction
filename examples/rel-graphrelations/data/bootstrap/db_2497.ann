@@ -1,0 +1,32 @@
+T0	segment 0 6	Machel
+T1	segment 7 14	Montano
+T2	segment 15 16	,
+T3	segment 17 23	Destra
+T4	segment 23 24	,
+T5	segment 25 31	Walker
+T6	segment 32 39	Hornung
+T7	segment 39 40	,
+T8	segment 41 45	Vybz
+T9	segment 46 52	Kartel
+T10	segment 52 53	,
+T11	segment 54 61	Mohombi
+T12	segment 61 62	,
+T13	segment 63 69	G-Unit
+T14	segment 69 70	,
+T15	segment 71 76	Black
+T16	segment 77 83	Stalin
+T17	segment 83 84	,
+T18	segment 85 90	David
+T19	segment 91 97	Rudder
+T20	segment 97 98	,
+T21	segment 99 103	Buju
+T22	segment 104 110	Banton
+T23	segment 110 111	,
+T24	segment 112 114	Mr
+T25	segment 115 116	.
+R0	compound Arg1:T1 Arg2:T0
+R1	compound Arg1:T6 Arg2:T5
+R2	compound Arg1:T9 Arg2:T8
+R3	compound Arg1:T16 Arg2:T15
+R4	compound Arg1:T19 Arg2:T18
+R5	compound Arg1:T22 Arg2:T21

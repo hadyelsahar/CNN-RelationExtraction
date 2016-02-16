@@ -1,0 +1,26 @@
+T0	segment 0 8	Flaxwood
+T1	segment 9 11	is
+T2	segment 12 13	a
+T3	segment 14 21	Finnish
+T4	segment 22 34	manufacturer
+T5	segment 35 37	of
+T6	segment 38 45	guitars
+T7	segment 46 49	and
+T8	segment 50 60	instrument
+T9	segment 61 66	parts
+T10	segment 67 72	based
+T11	segment 73 75	in
+T12	segment 76 86	HeinÃ¤vaara
+T13	segment 86 87	,
+T14	segment 88 93	North
+T15	segment 94 101	Karelia
+T16	segment 102 103	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T6
+R5	compound Arg1:T9 Arg2:T8
+R6	is-specialized-by Arg1:T10 Arg2:T11
+R7	c_co Arg1:T11 Arg2:T12
+R8	compound Arg1:T15 Arg2:T14

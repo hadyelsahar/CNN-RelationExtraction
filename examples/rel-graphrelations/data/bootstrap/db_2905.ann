@@ -1,0 +1,38 @@
+T0	segment 0 3	The
+T1	segment 4 11	Chechen
+T2	segment 11 12	--
+T3	segment 12 18	Ingush
+T4	segment 19 29	Autonomous
+T5	segment 30 36	Soviet
+T6	segment 37 46	Socialist
+T7	segment 47 55	Republic
+T8	segment 55 56	,
+T9	segment 57 59	or
+T10	segment 60 67	Chechen
+T11	segment 67 68	--
+T12	segment 68 74	Ingush
+T13	segment 75 79	ASSR
+T14	segment 80 81	:
+T15	segment 82 89	611,405
+T16	segment 90 95	being
+T17	segment 96 104	Chechens
+T18	segment 104 105	,
+T19	segment 106 113	134,744
+T20	segment 114 122	Ingushes
+T21	segment 122 123	,
+T22	segment 124 127	the
+T23	segment 128 132	rest
+T24	segment 133 138	being
+T25	segment 139 147	Russians
+T26	segment 148 151	and
+T27	segment 152 157	other
+T28	segment 158 164	ethnic
+T29	segment 165 171	groups
+T30	segment 172 173	.
+R0	compound Arg1:T4 Arg2:T3
+R1	compound Arg1:T7 Arg2:T6
+R2	compound Arg1:T7 Arg2:T5
+R3	is-specialized-by Arg1:T13 Arg2:T12
+R4	compound Arg1:T13 Arg2:T1
+R5	is-specialized-by Arg1:T20 Arg2:T19
+R6	is-specialized-by Arg1:T29 Arg2:T27

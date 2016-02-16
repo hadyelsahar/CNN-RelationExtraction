@@ -1,0 +1,31 @@
+T0	segment 0 5	Bryan
+T1	segment 6 12	Sidney
+T2	segment 13 17	Pata
+T3	segment 18 21	was
+T4	segment 22 24	an
+T5	segment 25 33	American
+T6	segment 34 42	football
+T7	segment 43 52	defensive
+T8	segment 53 60	lineman
+T9	segment 61 64	for
+T10	segment 65 68	the
+T11	segment 69 74	Miami
+T12	segment 75 85	Hurricanes
+T13	segment 86 89	and
+T14	segment 90 93	was
+T15	segment 94 102	majoring
+T16	segment 103 105	in
+T17	segment 106 117	criminology
+T18	segment 118 119	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T8
+R4	compound Arg1:T8 Arg2:T6
+R5	is-specialized-by Arg1:T8 Arg2:T9
+R6	is-specialized-by Arg1:T8 Arg2:T5
+R7	c_co Arg1:T9 Arg2:T12
+R8	compound Arg1:T12 Arg2:T11
+R9	is-specialized-by Arg1:T15 Arg2:T16
+R10	compound Arg1:T15 Arg2:T14
+R11	c_co Arg1:T16 Arg2:T17

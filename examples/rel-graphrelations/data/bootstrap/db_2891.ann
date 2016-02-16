@@ -1,0 +1,56 @@
+T0	segment 0 5	Ramon
+T1	segment 6 9	Del
+T2	segment 10 16	Barrio
+T3	segment 17 19	on
+T4	segment 20 23	ABC
+T5	segment 23 25	's
+T6	segment 26 35	primetime
+T7	segment 36 39	hit
+T8	segment 40 46	Making
+T9	segment 47 50	the
+T10	segment 51 55	Band
+T11	segment 55 56	,
+T12	segment 57 66	Principal
+T13	segment 67 80	Choreographer
+T14	segment 81 84	and
+T15	segment 85 96	Co-Director
+T16	segment 97 100	for
+T17	segment 101 111	critically
+T18	segment 112 121	acclaimed
+T19	segment 122 129	musical
+T20	segment 130 140	Sisterella
+T21	segment 140 141	,
+T22	segment 142 148	winner
+T23	segment 149 151	of
+T24	segment 152 157	NAACP
+T25	segment 158 163	Award
+T26	segment 164 173	including
+T27	segment 174 178	Best
+T28	segment 179 186	Musical
+T29	segment 186 187	,
+T30	segment 188 192	Best
+T31	segment 193 201	Director
+T32	segment 202 205	and
+T33	segment 206 210	Best
+T34	segment 211 218	Musical
+T35	segment 219 226	Staging
+T36	segment 227 230	and
+T37	segment 231 243	Choreography
+T38	segment 244 245	.
+R0	s_p Arg1:T2 Arg2:T7
+R1	compound Arg1:T2 Arg2:T0
+R2	is-specialized-by Arg1:T2 Arg2:T3
+R3	compound Arg1:T2 Arg2:T1
+R4	c_co Arg1:T3 Arg2:T6
+R5	p_o Arg1:T8 Arg2:T13
+R6	is-specialized-by Arg1:T13 Arg2:T16
+R7	compound Arg1:T13 Arg2:T10
+R8	c_co Arg1:T16 Arg2:T20
+R9	is-specialized-by Arg1:T18 Arg2:T17
+R10	is-specialized-by Arg1:T20 Arg2:T18
+R11	is-specialized-by Arg1:T22 Arg2:T23
+R12	c_co Arg1:T23 Arg2:T25
+R13	is-specialized-by Arg1:T25 Arg2:T26
+R14	compound Arg1:T25 Arg2:T24
+R15	c_co Arg1:T26 Arg2:T27
+R16	is-specialized-by Arg1:T35 Arg2:T33

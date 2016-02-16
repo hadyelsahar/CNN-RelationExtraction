@@ -1,0 +1,63 @@
+T0	segment 0 2	GM
+T1	segment 3 13	Uzbekistan
+T2	segment 14 17	for
+T3	segment 18 21	the
+T4	segment 22 35	manufacturing
+T5	segment 36 38	of
+T6	segment 39 50	automobiles
+T7	segment 50 51	,
+T8	segment 52 55	and
+T9	segment 56 58	is
+T10	segment 59 66	located
+T11	segment 67 69	in
+T12	segment 70 75	Asaka
+T13	segment 75 76	,
+T14	segment 77 90	UzbekistanThe
+T15	segment 91 93	JV
+T16	segment 94 104	originally
+T17	segment 105 108	was
+T18	segment 109 116	founded
+T19	segment 117 119	in
+T20	segment 120 124	1996
+T21	segment 125 132	between
+T22	segment 133 136	the
+T23	segment 137 142	Uzbek
+T24	segment 143 153	government
+T25	segment 154 157	and
+T26	segment 158 161	the
+T27	segment 162 167	South
+T28	segment 168 173	Korea
+T29	segment 174 179	based
+T30	segment 180 186	Daewoo
+T31	segment 186 187	,
+T32	segment 188 191	and
+T33	segment 192 195	was
+T34	segment 196 205	initially
+T35	segment 206 211	known
+T36	segment 212 214	as
+T37	segment 215 223	UzDaewoo
+T38	segment 224 228	Auto
+T39	segment 229 230	.
+R0	s_p Arg1:T1 Arg2:T18
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	compound Arg1:T1 Arg2:T0
+R3	c_co Arg1:T2 Arg2:T4
+R4	is-specialized-by Arg1:T4 Arg2:T5
+R5	c_co Arg1:T5 Arg2:T6
+R6	is-specialized-by Arg1:T10 Arg2:T11
+R7	c_co Arg1:T11 Arg2:T12
+R8	compound Arg1:T15 Arg2:T14
+R9	p_c Arg1:T18 Arg2:T19
+R10	p_c Arg1:T18 Arg2:T16
+R11	compound Arg1:T18 Arg2:T17
+R12	c_co Arg1:T19 Arg2:T20
+R13	is-specialized-by Arg1:T20 Arg2:T21
+R14	c_co Arg1:T21 Arg2:T24
+R15	is-specialized-by Arg1:T24 Arg2:T23
+R16	compound Arg1:T28 Arg2:T27
+R17	p_o Arg1:T29 Arg2:T30
+R18	is-specialized-by Arg1:T35 Arg2:T34
+R19	is-specialized-by Arg1:T35 Arg2:T36
+R20	compound Arg1:T35 Arg2:T33
+R21	c_co Arg1:T36 Arg2:T38
+R22	compound Arg1:T38 Arg2:T37

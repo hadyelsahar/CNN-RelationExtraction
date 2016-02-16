@@ -1,0 +1,47 @@
+T0	segment 0 3	The
+T1	segment 4 16	Landgraviate
+T2	segment 17 19	of
+T3	segment 20 33	Hesse-Marburg
+T4	segment 34 37	was
+T5	segment 38 39	a
+T6	segment 40 46	German
+T7	segment 47 59	landgraviate
+T8	segment 59 60	,
+T9	segment 61 64	and
+T10	segment 65 76	independent
+T11	segment 77 89	principality
+T12	segment 89 90	,
+T13	segment 91 97	within
+T14	segment 98 101	the
+T15	segment 102 106	Holy
+T16	segment 107 112	Roman
+T17	segment 113 119	Empire
+T18	segment 119 120	,
+T19	segment 121 125	that
+T20	segment 126 133	existed
+T21	segment 134 141	between
+T22	segment 142 146	1485
+T23	segment 147 150	and
+T24	segment 151 155	1500
+T25	segment 155 156	,
+T26	segment 157 160	and
+T27	segment 161 168	between
+T28	segment 169 173	1567
+T29	segment 174 177	and
+T30	segment 178 187	1604/1650
+T31	segment 188 189	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T6
+R5	is-specialized-by Arg1:T7 Arg2:T13
+R6	is-specialized-by Arg1:T11 Arg2:T10
+R7	c_co Arg1:T13 Arg2:T17
+R8	is-specialized-by Arg1:T17 Arg2:T15
+R9	s_p Arg1:T19 Arg2:T20
+R10	p_o Arg1:T20 Arg2:T22
+R11	is-specialized-by Arg1:T22 Arg2:T21
+R12	compound Arg1:T24 Arg2:T22
+R13	compound Arg1:T24 Arg2:T23
+R14	is-specialized-by Arg1:T28 Arg2:T27

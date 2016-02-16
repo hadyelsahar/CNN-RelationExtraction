@@ -1,0 +1,31 @@
+T0	segment 0 1	''
+T1	segment 1 2	``
+T2	segment 2 12	Azerbaijan
+T3	segment 13 21	Railways
+T4	segment 21 22	''
+T5	segment 22 23	''
+T6	segment 24 30	Closed
+T7	segment 31 42	Joint-Stock
+T8	segment 43 50	Company
+T9	segment 51 54	are
+T10	segment 55 57	in
+T11	segment 58 64	common
+T12	segment 65 72	carrier
+T13	segment 73 80	service
+T14	segment 81 84	and
+T15	segment 85 89	does
+T16	segment 90 93	not
+T17	segment 94 101	include
+T18	segment 102 112	industrial
+T19	segment 113 118	lines
+T20	segment 119 120	.
+R0	s_p Arg1:T3 Arg2:T9
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T8 Arg2:T7
+R3	compound Arg1:T13 Arg2:T12
+R4	s_p Arg1:T13 Arg2:T17
+R5	is-specialized-by Arg1:T13 Arg2:T11
+R6	p_o Arg1:T17 Arg2:T19
+R7	compound Arg1:T17 Arg2:T16
+R8	compound Arg1:T17 Arg2:T15
+R9	is-specialized-by Arg1:T19 Arg2:T18

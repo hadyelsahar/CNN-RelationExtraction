@@ -1,0 +1,71 @@
+T0	segment 0 3	The
+T1	segment 4 13	Sultanate
+T2	segment 14 16	of
+T3	segment 17 21	Nejd
+T4	segment 22 25	was
+T5	segment 26 27	a
+T6	segment 28 34	result
+T7	segment 35 37	of
+T8	segment 38 52	transformation
+T9	segment 53 55	of
+T10	segment 56 59	the
+T11	segment 60 67	Emirate
+T12	segment 68 70	of
+T13	segment 71 77	Riyadh
+T14	segment 78 80	by
+T15	segment 81 86	Abdul
+T16	segment 87 91	Aziz
+T17	segment 92 95	ibn
+T18	segment 96 100	Saud
+T19	segment 100 101	,
+T20	segment 102 105	who
+T21	segment 106 108	in
+T22	segment 109 113	1921
+T23	segment 114 122	declared
+T24	segment 123 130	himself
+T25	segment 131 137	Sultan
+T26	segment 138 142	over
+T27	segment 143 147	Nejd
+T28	segment 148 151	and
+T29	segment 152 155	its
+T30	segment 156 168	dependencies
+T31	segment 168 169	,
+T32	segment 170 172	as
+T33	segment 173 174	a
+T34	segment 175 183	monarchy
+T35	segment 184 187	led
+T36	segment 188 190	by
+T37	segment 191 194	the
+T38	segment 195 200	House
+T39	segment 201 203	of
+T40	segment 204 208	Saud
+T41	segment 209 210	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	is-specialized-by Arg1:T6 Arg2:T14
+R6	c_co Arg1:T7 Arg2:T8
+R7	is-specialized-by Arg1:T8 Arg2:T9
+R8	c_co Arg1:T9 Arg2:T11
+R9	is-specialized-by Arg1:T11 Arg2:T12
+R10	c_co Arg1:T12 Arg2:T13
+R11	c_co Arg1:T14 Arg2:T18
+R12	compound Arg1:T18 Arg2:T16
+R13	compound Arg1:T18 Arg2:T15
+R14	compound Arg1:T18 Arg2:T17
+R15	s_p Arg1:T20 Arg2:T23
+R16	c_co Arg1:T21 Arg2:T22
+R17	p_c Arg1:T23 Arg2:T21
+R18	p_c Arg1:T23 Arg2:T32
+R19	s_p Arg1:T24 Arg2:T27
+R20	p_c Arg1:T27 Arg2:T26
+R21	compound Arg1:T27 Arg2:T25
+R22	c_co Arg1:T32 Arg2:T34
+R23	is-specialized-by Arg1:T35 Arg2:T36
+R24	c_co Arg1:T36 Arg2:T38
+R25	is-specialized-by Arg1:T38 Arg2:T39
+R26	c_co Arg1:T39 Arg2:T40
+R27	compound Arg1:T40 Arg2:T38
+R28	compound Arg1:T40 Arg2:T39

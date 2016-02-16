@@ -1,0 +1,69 @@
+T0	segment 0 3	The
+T1	segment 4 8	Banu
+T2	segment 9 13	Qasi
+T3	segment 13 14	,
+T4	segment 15 19	Banu
+T5	segment 20 24	Kasi
+T6	segment 24 25	,
+T7	segment 26 30	Beni
+T8	segment 31 35	Casi
+T9	segment 36 38	or
+T10	segment 39 43	Banu
+T11	segment 44 48	Musa
+T12	segment 49 53	were
+T13	segment 54 55	a
+T14	segment 56 62	Basque
+T15	segment 63 69	Muladi
+T16	segment 70 77	dynasty
+T17	segment 78 82	that
+T18	segment 83 88	ruled
+T19	segment 89 92	the
+T20	segment 93 98	upper
+T21	segment 99 103	Ebro
+T22	segment 104 110	valley
+T23	segment 111 113	in
+T24	segment 114 117	the
+T25	segment 118 121	9th
+T26	segment 122 129	century
+T27	segment 129 130	,
+T28	segment 131 137	before
+T29	segment 138 143	being
+T30	segment 144 153	displaced
+T31	segment 154 156	in
+T32	segment 157 160	the
+T33	segment 161 166	first
+T34	segment 167 174	quarter
+T35	segment 175 177	of
+T36	segment 178 181	the
+T37	segment 182 186	10th
+T38	segment 187 194	century
+T39	segment 195 196	.
+R0	s_p Arg1:T2 Arg2:T12
+R1	compound Arg1:T2 Arg2:T1
+R2	compound Arg1:T5 Arg2:T4
+R3	compound Arg1:T8 Arg2:T7
+R4	compound Arg1:T11 Arg2:T10
+R5	p_o Arg1:T12 Arg2:T16
+R6	compound Arg1:T15 Arg2:T14
+R7	compound Arg1:T16 Arg2:T15
+R8	is-specialized-by Arg1:T16 Arg2:T14
+R9	s_p Arg1:T17 Arg2:T18
+R10	p_c Arg1:T18 Arg2:T23
+R11	p_o Arg1:T18 Arg2:T22
+R12	compound Arg1:T22 Arg2:T21
+R13	is-specialized-by Arg1:T22 Arg2:T20
+R14	c_co Arg1:T23 Arg2:T26
+R15	compound Arg1:T26 Arg2:T24
+R16	compound Arg1:T26 Arg2:T25
+R17	is-specialized-by Arg1:T30 Arg2:T31
+R18	compound Arg1:T30 Arg2:T29
+R19	c_co Arg1:T31 Arg2:T34
+R20	is-specialized-by Arg1:T34 Arg2:T33
+R21	is-specialized-by Arg1:T34 Arg2:T35
+R22	c_co Arg1:T35 Arg2:T38
+R23	compound Arg1:T38 Arg2:T36
+R24	compound Arg1:T38 Arg2:T37
+R25	compound Arg1:T38 Arg2:T34
+R26	compound Arg1:T38 Arg2:T35
+R27	compound Arg1:T38 Arg2:T32
+R28	compound Arg1:T38 Arg2:T33

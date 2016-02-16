@@ -1,0 +1,50 @@
+T0	segment 0 6	Stefan
+T1	segment 7 12	Arndt
+T2	segment 13 15	is
+T3	segment 16 17	a
+T4	segment 18 24	German
+T5	segment 25 29	film
+T6	segment 30 38	producer
+T7	segment 39 42	and
+T8	segment 43 51	managing
+T9	segment 52 59	partner
+T10	segment 60 62	of
+T11	segment 63 64	X
+T12	segment 65 70	Filme
+T13	segment 71 79	Creative
+T14	segment 80 84	Pool
+T15	segment 84 85	,
+T16	segment 86 91	which
+T17	segment 92 94	he
+T18	segment 95 102	started
+T19	segment 103 107	with
+T20	segment 108 114	fellow
+T21	segment 115 122	friends
+T22	segment 123 126	Tom
+T23	segment 127 133	Tykwer
+T24	segment 133 134	,
+T25	segment 135 143	Wolfgang
+T26	segment 144 150	Becker
+T27	segment 151 154	and
+T28	segment 155 159	Dani
+T29	segment 160 164	Levy
+T30	segment 165 166	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T6
+R3	is-specialized-by Arg1:T6 Arg2:T10
+R4	compound Arg1:T6 Arg2:T5
+R5	is-specialized-by Arg1:T6 Arg2:T4
+R6	is-specialized-by Arg1:T9 Arg2:T8
+R7	c_co Arg1:T10 Arg2:T14
+R8	compound Arg1:T14 Arg2:T12
+R9	compound Arg1:T14 Arg2:T11
+R10	compound Arg1:T14 Arg2:T13
+R11	s_p Arg1:T17 Arg2:T18
+R12	p_o Arg1:T18 Arg2:T16
+R13	p_c Arg1:T18 Arg2:T19
+R14	c_co Arg1:T19 Arg2:T21
+R15	is-specialized-by Arg1:T21 Arg2:T20
+R16	compound Arg1:T23 Arg2:T22
+R17	compound Arg1:T26 Arg2:T25
+R18	compound Arg1:T29 Arg2:T28

@@ -1,0 +1,69 @@
+T0	segment 0 3	The
+T1	segment 4 20	Prince-Bishopric
+T2	segment 21 23	of
+T3	segment 24 30	Warmia
+T4	segment 31 32	,
+T5	segment 33 37	King
+T6	segment 38 47	Frederick
+T7	segment 48 50	II
+T8	segment 51 61	guaranteed
+T9	segment 62 65	the
+T10	segment 66 70	free
+T11	segment 71 79	exercise
+T12	segment 80 82	of
+T13	segment 83 91	religion
+T14	segment 92 95	for
+T15	segment 96 99	the
+T16	segment 100 109	Catholics
+T17	segment 109 110	,
+T18	segment 111 113	so
+T19	segment 114 117	the
+T20	segment 118 127	religious
+T21	segment 128 132	body
+T22	segment 133 135	of
+T23	segment 136 139	the
+T24	segment 140 145	Roman
+T25	segment 146 154	Catholic
+T26	segment 155 162	diocese
+T27	segment 163 172	continued
+T28	segment 173 175	to
+T29	segment 176 181	exist
+T30	segment 181 182	,
+T31	segment 183 188	known
+T32	segment 189 194	since
+T33	segment 195 199	1992
+T34	segment 200 202	as
+T35	segment 203 206	the
+T36	segment 207 212	Roman
+T37	segment 213 221	Catholic
+T38	segment 222 233	Archdiocese
+T39	segment 234 236	of
+T40	segment 237 243	Warmia
+T41	segment 244 245	.
+R0	s_p Arg1:T1 Arg2:T8
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	c_co Arg1:T2 Arg2:T7
+R3	compound Arg1:T7 Arg2:T3
+R4	compound Arg1:T7 Arg2:T6
+R5	p_c Arg1:T8 Arg2:T14
+R6	p_o Arg1:T8 Arg2:T11
+R7	is-specialized-by Arg1:T11 Arg2:T10
+R8	is-specialized-by Arg1:T11 Arg2:T12
+R9	c_co Arg1:T12 Arg2:T13
+R10	c_co Arg1:T14 Arg2:T16
+R11	s_p Arg1:T21 Arg2:T27
+R12	is-specialized-by Arg1:T21 Arg2:T20
+R13	is-specialized-by Arg1:T21 Arg2:T22
+R14	c_co Arg1:T22 Arg2:T26
+R15	compound Arg1:T25 Arg2:T24
+R16	compound Arg1:T26 Arg2:T24
+R17	compound Arg1:T26 Arg2:T25
+R18	is-specialized-by Arg1:T31 Arg2:T32
+R19	is-specialized-by Arg1:T31 Arg2:T34
+R20	c_co Arg1:T32 Arg2:T33
+R21	c_co Arg1:T34 Arg2:T38
+R22	compound Arg1:T37 Arg2:T36
+R23	compound Arg1:T38 Arg2:T36
+R24	is-specialized-by Arg1:T38 Arg2:T39
+R25	compound Arg1:T38 Arg2:T37
+R26	c_co Arg1:T39 Arg2:T40

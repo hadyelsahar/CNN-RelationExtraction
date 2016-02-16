@@ -1,0 +1,38 @@
+T0	segment 0 7	Cynergy
+T1	segment 8 12	Data
+T2	segment 13 15	is
+T3	segment 16 18	an
+T4	segment 19 27	American
+T5	segment 28 35	payment
+T6	segment 36 44	services
+T7	segment 45 53	provider
+T8	segment 53 54	,
+T9	segment 55 63	managing
+T10	segment 64 65	a
+T11	segment 66 75	portfolio
+T12	segment 76 78	of
+T13	segment 79 83	over
+T14	segment 84 91	100,000
+T15	segment 92 101	merchants
+T16	segment 102 112	processing
+T17	segment 113 114	$
+T18	segment 114 116	10
+T19	segment 117 124	billion
+T20	segment 125 133	annually
+T21	segment 134 135	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T7
+R3	compound Arg1:T7 Arg2:T6
+R4	compound Arg1:T7 Arg2:T5
+R5	is-specialized-by Arg1:T7 Arg2:T4
+R6	p_o Arg1:T9 Arg2:T11
+R7	is-specialized-by Arg1:T11 Arg2:T12
+R8	c_co Arg1:T12 Arg2:T15
+R9	is-specialized-by Arg1:T15 Arg2:T14
+R10	is-specialized-by Arg1:T15 Arg2:T13
+R11	is-specialized-by Arg1:T16 Arg2:T20
+R12	p_o Arg1:T16 Arg2:T17
+R13	is-specialized-by Arg1:T17 Arg2:T19
+R14	compound Arg1:T19 Arg2:T18
+R15	compound Arg1:T19 Arg2:T17

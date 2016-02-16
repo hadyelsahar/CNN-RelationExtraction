@@ -1,0 +1,31 @@
+T0	segment 0 3	The
+T1	segment 4 9	Saint
+T2	segment 10 15	Louis
+T3	segment 16 25	Billikens
+T4	segment 26 29	men
+T5	segment 29 31	's
+T6	segment 32 38	soccer
+T7	segment 39 43	team
+T8	segment 44 46	is
+T9	segment 47 49	an
+T10	segment 50 65	intercollegiate
+T11	segment 66 73	varsity
+T12	segment 74 80	sports
+T13	segment 81 85	team
+T14	segment 86 88	of
+T15	segment 89 94	Saint
+T16	segment 95 100	Louis
+T17	segment 101 111	University
+T18	segment 112 113	.
+R0	s_p Arg1:T3 Arg2:T8
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	compound Arg1:T7 Arg2:T6
+R4	p_o Arg1:T8 Arg2:T13
+R5	compound Arg1:T13 Arg2:T12
+R6	compound Arg1:T13 Arg2:T11
+R7	is-specialized-by Arg1:T13 Arg2:T10
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T17
+R10	compound Arg1:T17 Arg2:T16
+R11	compound Arg1:T17 Arg2:T15

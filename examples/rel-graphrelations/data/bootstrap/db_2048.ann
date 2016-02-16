@@ -1,0 +1,24 @@
+T0	segment 0 7	Ashmore
+T1	segment 8 13	Group
+T2	segment 14 17	plc
+T3	segment 18 20	is
+T4	segment 21 22	a
+T5	segment 23 28	large
+T6	segment 29 36	British
+T7	segment 37 47	investment
+T8	segment 48 55	manager
+T9	segment 56 65	dedicated
+T10	segment 66 68	to
+T11	segment 69 72	the
+T12	segment 73 81	emerging
+T13	segment 82 89	markets
+T14	segment 90 91	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T8
+R4	compound Arg1:T8 Arg2:T7
+R5	is-specialized-by Arg1:T8 Arg2:T5
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	c_co Arg1:T10 Arg2:T13
+R8	is-specialized-by Arg1:T13 Arg2:T12

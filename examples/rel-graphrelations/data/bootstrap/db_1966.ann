@@ -1,0 +1,55 @@
+T0	segment 0 7	Acision
+T1	segment 8 10	is
+T2	segment 11 12	a
+T3	segment 13 22	privately
+T4	segment 23 27	held
+T5	segment 28 34	mobile
+T6	segment 35 49	communications
+T7	segment 50 57	network
+T8	segment 58 72	infrastructure
+T9	segment 73 80	company
+T10	segment 81 93	specialising
+T11	segment 94 96	in
+T12	segment 97 106	messaging
+T13	segment 107 110	and
+T14	segment 111 119	charging
+T15	segment 120 127	systems
+T16	segment 128 132	that
+T17	segment 133 139	enable
+T18	segment 140 147	popular
+T19	segment 148 156	services
+T20	segment 157 161	such
+T21	segment 162 164	as
+T22	segment 165 170	Short
+T23	segment 171 178	message
+T24	segment 179 186	service
+T25	segment 187 188	,
+T26	segment 189 195	mobile
+T27	segment 196 204	internet
+T28	segment 205 213	browsing
+T29	segment 213 214	,
+T30	segment 215 221	Mobile
+T31	segment 222 231	Broadband
+T32	segment 232 235	and
+T33	segment 236 245	voicemail
+T34	segment 246 247	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T6
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T6 Arg2:T4
+R4	compound Arg1:T9 Arg2:T8
+R5	compound Arg1:T9 Arg2:T7
+R6	is-specialized-by Arg1:T10 Arg2:T11
+R7	c_co Arg1:T11 Arg2:T12
+R8	p_o Arg1:T14 Arg2:T15
+R9	s_p Arg1:T16 Arg2:T17
+R10	p_o Arg1:T17 Arg2:T19
+R11	is-specialized-by Arg1:T19 Arg2:T18
+R12	is-specialized-by Arg1:T19 Arg2:T20
+R13	compound Arg1:T20 Arg2:T21
+R14	c_co Arg1:T20 Arg2:T24
+R15	compound Arg1:T24 Arg2:T23
+R16	is-specialized-by Arg1:T24 Arg2:T22
+R17	compound Arg1:T28 Arg2:T27
+R18	is-specialized-by Arg1:T28 Arg2:T26
+R19	compound Arg1:T31 Arg2:T30

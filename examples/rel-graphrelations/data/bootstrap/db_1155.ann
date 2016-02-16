@@ -1,0 +1,49 @@
+T0	segment 0 3	The
+T1	segment 4 13	Hupmobile
+T2	segment 14 17	was
+T3	segment 18 20	an
+T4	segment 21 31	automobile
+T5	segment 32 37	built
+T6	segment 38 42	from
+T7	segment 43 47	1909
+T8	segment 48 55	through
+T9	segment 56 60	1940
+T10	segment 61 63	by
+T11	segment 64 67	the
+T12	segment 68 72	Hupp
+T13	segment 73 78	Motor
+T14	segment 79 86	Company
+T15	segment 86 87	,
+T16	segment 88 93	which
+T17	segment 94 97	was
+T18	segment 98 105	located
+T19	segment 106 108	at
+T20	segment 109 112	345
+T21	segment 113 121	Bellevue
+T22	segment 122 128	Avenue
+T23	segment 129 131	in
+T24	segment 132 139	Detroit
+T25	segment 139 140	,
+T26	segment 141 149	Michigan
+T27	segment 150 151	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	p_o Arg1:T2 Arg2:T4
+R2	is-specialized-by Arg1:T5 Arg2:T8
+R3	is-specialized-by Arg1:T5 Arg2:T10
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T7
+R6	c_co Arg1:T8 Arg2:T9
+R7	compound Arg1:T9 Arg2:T8
+R8	compound Arg1:T9 Arg2:T7
+R9	c_co Arg1:T10 Arg2:T14
+R10	compound Arg1:T14 Arg2:T12
+R11	compound Arg1:T14 Arg2:T13
+R12	s_p Arg1:T16 Arg2:T17
+R13	p_o Arg1:T17 Arg2:T18
+R14	is-specialized-by Arg1:T18 Arg2:T19
+R15	c_co Arg1:T19 Arg2:T22
+R16	is-specialized-by Arg1:T22 Arg2:T23
+R17	compound Arg1:T22 Arg2:T21
+R18	is-specialized-by Arg1:T22 Arg2:T20
+R19	c_co Arg1:T23 Arg2:T26
+R20	compound Arg1:T26 Arg2:T24

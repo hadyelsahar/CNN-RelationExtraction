@@ -1,0 +1,69 @@
+T0	segment 0 10	Archbishop
+T1	segment 11 16	Jovan
+T2	segment 17 19	is
+T3	segment 20 22	an
+T4	segment 23 31	orthodox
+T5	segment 32 42	Macedonian
+T6	segment 43 49	cleric
+T7	segment 50 53	and
+T8	segment 54 58	head
+T9	segment 59 61	of
+T10	segment 62 65	the
+T11	segment 66 74	Orthodox
+T12	segment 75 80	Ohrid
+T13	segment 81 94	Archbishopric
+T14	segment 94 95	,
+T15	segment 96 98	an
+T16	segment 99 109	autonomous
+T17	segment 110 116	church
+T18	segment 117 121	that
+T19	segment 122 127	split
+T20	segment 128 131	off
+T21	segment 132 136	from
+T22	segment 137 140	the
+T23	segment 141 153	unrecognized
+T24	segment 154 164	Macedonian
+T25	segment 165 173	Orthodox
+T26	segment 174 180	Church
+T27	segment 181 183	in
+T28	segment 184 188	2002
+T29	segment 189 191	to
+T30	segment 192 196	seek
+T31	segment 197 210	reunification
+T32	segment 211 215	with
+T33	segment 216 219	the
+T34	segment 220 227	Serbian
+T35	segment 228 240	Patriarchate
+T36	segment 241 243	of
+T37	segment 244 247	PeÄ
+T38	segment 248 251	and
+T39	segment 252 255	the
+T40	segment 256 261	other
+T41	segment 262 270	Orthodox
+T42	segment 271 279	churches
+T43	segment 280 281	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T31
+R3	is-specialized-by Arg1:T8 Arg2:T9
+R4	c_co Arg1:T9 Arg2:T13
+R5	compound Arg1:T13 Arg2:T12
+R6	compound Arg1:T13 Arg2:T11
+R7	is-specialized-by Arg1:T17 Arg2:T16
+R8	s_p Arg1:T18 Arg2:T19
+R9	p_c Arg1:T19 Arg2:T20
+R10	p_c Arg1:T19 Arg2:T27
+R11	is-specialized-by Arg1:T20 Arg2:T21
+R12	c_co Arg1:T21 Arg2:T26
+R13	is-specialized-by Arg1:T26 Arg2:T23
+R14	compound Arg1:T26 Arg2:T24
+R15	compound Arg1:T26 Arg2:T25
+R16	c_co Arg1:T27 Arg2:T28
+R17	is-specialized-by Arg1:T31 Arg2:T32
+R18	is-specialized-by Arg1:T31 Arg2:T4
+R19	c_co Arg1:T32 Arg2:T35
+R20	is-specialized-by Arg1:T35 Arg2:T36
+R21	compound Arg1:T35 Arg2:T34
+R22	c_co Arg1:T36 Arg2:T37
+R23	is-specialized-by Arg1:T42 Arg2:T40
+R24	compound Arg1:T42 Arg2:T41

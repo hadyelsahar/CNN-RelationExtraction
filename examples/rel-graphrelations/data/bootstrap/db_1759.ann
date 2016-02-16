@@ -1,0 +1,77 @@
+T0	segment 0 3	Not
+T1	segment 4 6	to
+T2	segment 7 9	be
+T3	segment 10 18	confused
+T4	segment 19 23	with
+T5	segment 24 27	the
+T6	segment 28 32	19th
+T7	segment 33 40	century
+T8	segment 41 46	Great
+T9	segment 47 52	North
+T10	segment 53 55	of
+T11	segment 56 63	England
+T12	segment 64 71	Railway
+T13	segment 72 77	Great
+T14	segment 78 83	North
+T15	segment 84 91	Eastern
+T16	segment 92 99	Railway
+T17	segment 100 105	often
+T18	segment 106 114	referred
+T19	segment 115 117	to
+T20	segment 118 120	as
+T21	segment 121 125	GNER
+T22	segment 125 126	,
+T23	segment 127 130	was
+T24	segment 131 132	a
+T25	segment 133 138	train
+T26	segment 139 148	operating
+T27	segment 149 156	company
+T28	segment 157 159	in
+T29	segment 160 163	the
+T30	segment 164 170	United
+T31	segment 171 178	Kingdom
+T32	segment 179 184	owned
+T33	segment 185 187	by
+T34	segment 188 191	Sea
+T35	segment 192 202	Containers
+T36	segment 203 207	that
+T37	segment 208 216	operated
+T38	segment 217 220	the
+T39	segment 221 230	InterCity
+T40	segment 231 235	East
+T41	segment 236 241	Coast
+T42	segment 242 251	franchise
+T43	segment 252 256	from
+T44	segment 257 262	April
+T45	segment 263 267	1996
+T46	segment 268 273	until
+T47	segment 274 282	December
+T48	segment 283 287	2007
+T49	segment 287 288	,
+T50	segment 289 293	when
+T51	segment 294 297	Sea
+T52	segment 298 308	Containers
+T53	segment 309 312	was
+T54	segment 313 321	stripped
+T55	segment 322 324	of
+T56	segment 325 328	the
+T57	segment 329 338	franchise
+T58	segment 339 342	due
+T59	segment 343 345	to
+T60	segment 346 350	poor
+T61	segment 351 360	financial
+T62	segment 361 371	management
+T63	segment 372 373	.
+R0	compound Arg1:T7 Arg2:T6
+R1	compound Arg1:T7 Arg2:T5
+R2	compound Arg1:T16 Arg2:T12
+R3	compound Arg1:T16 Arg2:T11
+R4	compound Arg1:T16 Arg2:T14
+R5	compound Arg1:T16 Arg2:T13
+R6	compound Arg1:T16 Arg2:T15
+R7	compound Arg1:T31 Arg2:T30
+R8	compound Arg1:T35 Arg2:T34
+R9	compound Arg1:T41 Arg2:T40
+R10	compound Arg1:T41 Arg2:T39
+R11	compound Arg1:T45 Arg2:T44
+R12	compound Arg1:T48 Arg2:T47

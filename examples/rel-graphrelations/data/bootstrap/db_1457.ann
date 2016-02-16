@@ -1,0 +1,65 @@
+T0	segment 0 6	Ibadan
+T1	segment 7 9	is
+T2	segment 10 13	the
+T3	segment 14 21	capital
+T4	segment 22 26	city
+T5	segment 27 29	of
+T6	segment 30 33	Oyo
+T7	segment 34 39	State
+T8	segment 40 43	and
+T9	segment 44 47	the
+T10	segment 48 53	third
+T11	segment 54 61	largest
+T12	segment 62 74	metropolitan
+T13	segment 75 79	area
+T14	segment 79 80	,
+T15	segment 81 83	by
+T16	segment 84 94	population
+T17	segment 94 95	,
+T18	segment 96 98	in
+T19	segment 99 106	Nigeria
+T20	segment 106 107	,
+T21	segment 108 113	after
+T22	segment 114 119	Lagos
+T23	segment 120 123	and
+T24	segment 124 128	Kano
+T25	segment 128 129	,
+T26	segment 130 134	with
+T27	segment 135 136	a
+T28	segment 137 147	population
+T29	segment 148 150	of
+T30	segment 151 155	over
+T31	segment 156 157	3
+T32	segment 158 165	million
+T33	segment 166 172	Ibadan
+T34	segment 173 175	is
+T35	segment 176 180	also
+T36	segment 181 184	the
+T37	segment 185 192	largest
+T38	segment 193 205	metropolitan
+T39	segment 206 218	geographical
+T40	segment 219 223	area
+T41	segment 224 225	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	compound Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T7
+R5	compound Arg1:T7 Arg2:T6
+R6	is-specialized-by Arg1:T13 Arg2:T10
+R7	c_co Arg1:T15 Arg2:T16
+R8	c_co Arg1:T18 Arg2:T19
+R9	c_co Arg1:T21 Arg2:T22
+R10	c_co Arg1:T26 Arg2:T28
+R11	is-specialized-by Arg1:T28 Arg2:T29
+R12	c_co Arg1:T29 Arg2:T32
+R13	compound Arg1:T32 Arg2:T31
+R14	is-specialized-by Arg1:T32 Arg2:T30
+R15	s_p Arg1:T33 Arg2:T34
+R16	p_o Arg1:T34 Arg2:T40
+R17	is-specialized-by Arg1:T40 Arg2:T18
+R18	is-specialized-by Arg1:T40 Arg2:T38
+R19	is-specialized-by Arg1:T40 Arg2:T26
+R20	is-specialized-by Arg1:T40 Arg2:T15
+R21	is-specialized-by Arg1:T40 Arg2:T35
+R22	is-specialized-by Arg1:T40 Arg2:T21

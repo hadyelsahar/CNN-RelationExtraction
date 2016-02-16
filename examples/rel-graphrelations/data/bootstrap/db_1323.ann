@@ -1,0 +1,44 @@
+T0	segment 0 4	Weda
+T1	segment 5 7	is
+T2	segment 8 9	a
+T3	segment 10 17	coastal
+T4	segment 18 25	fishing
+T5	segment 26 33	village
+T6	segment 34 36	in
+T7	segment 37 42	North
+T8	segment 43 49	Maluku
+T9	segment 49 50	,
+T10	segment 51 60	Indonesia
+T11	segment 60 61	,
+T12	segment 62 69	located
+T13	segment 70 72	on
+T14	segment 73 76	the
+T15	segment 77 81	east
+T16	segment 82 87	coast
+T17	segment 88 90	of
+T18	segment 91 100	Halmahera
+T19	segment 100 101	,
+T20	segment 102 105	the
+T21	segment 106 113	largest
+T22	segment 114 116	of
+T23	segment 117 120	all
+T24	segment 121 124	the
+T25	segment 125 132	islands
+T26	segment 133 138	group
+T27	segment 139 140	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T5
+R2	compound Arg1:T5 Arg2:T4
+R3	is-specialized-by Arg1:T5 Arg2:T3
+R4	is-specialized-by Arg1:T5 Arg2:T6
+R5	c_co Arg1:T6 Arg2:T8
+R6	compound Arg1:T8 Arg2:T7
+R7	is-specialized-by Arg1:T10 Arg2:T12
+R8	is-specialized-by Arg1:T12 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T16
+R10	is-specialized-by Arg1:T16 Arg2:T15
+R11	is-specialized-by Arg1:T16 Arg2:T17
+R12	c_co Arg1:T17 Arg2:T18
+R13	is-specialized-by Arg1:T21 Arg2:T22
+R14	c_co Arg1:T22 Arg2:T26
+R15	compound Arg1:T26 Arg2:T25

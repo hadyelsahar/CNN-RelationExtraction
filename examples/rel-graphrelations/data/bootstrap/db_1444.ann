@@ -1,0 +1,31 @@
+T0	segment 0 11	Khorramabad
+T1	segment 12 17	About
+T2	segment 18 22	this
+T3	segment 23 28	sound
+T4	segment 29 42	pronunciation
+T5	segment 43 44	,
+T6	segment 45 46	a
+T7	segment 47 52	relic
+T8	segment 53 55	of
+T9	segment 56 59	the
+T10	segment 60 68	Sassanid
+T11	segment 69 72	era
+T12	segment 72 73	,
+T13	segment 74 76	is
+T14	segment 77 80	now
+T15	segment 81 82	a
+T16	segment 83 93	nationally
+T17	segment 94 101	popular
+T18	segment 102 108	museum
+T19	segment 109 110	.
+R0	s_p Arg1:T0 Arg2:T13
+R1	c_co Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T7 Arg2:T8
+R4	c_co Arg1:T8 Arg2:T11
+R5	compound Arg1:T11 Arg2:T10
+R6	p_o Arg1:T13 Arg2:T18
+R7	is-specialized-by Arg1:T17 Arg2:T16
+R8	is-specialized-by Arg1:T18 Arg2:T1
+R9	is-specialized-by Arg1:T18 Arg2:T14
+R10	is-specialized-by Arg1:T18 Arg2:T17

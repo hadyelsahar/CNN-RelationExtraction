@@ -1,0 +1,54 @@
+T0	segment 0 6	NebuAd
+T1	segment 7 10	was
+T2	segment 11 13	an
+T3	segment 14 22	American
+T4	segment 23 29	online
+T5	segment 30 41	advertising
+T6	segment 42 49	company
+T7	segment 50 55	based
+T8	segment 56 58	in
+T9	segment 59 66	Redwood
+T10	segment 67 71	City
+T11	segment 71 72	,
+T12	segment 73 83	California
+T13	segment 83 84	,
+T14	segment 85 89	with
+T15	segment 90 97	offices
+T16	segment 98 100	in
+T17	segment 101 104	New
+T18	segment 105 109	York
+T19	segment 110 113	and
+T20	segment 114 120	London
+T21	segment 121 124	and
+T22	segment 125 128	was
+T23	segment 129 135	funded
+T24	segment 136 138	by
+T25	segment 139 142	the
+T26	segment 143 153	investment
+T27	segment 154 163	companies
+T28	segment 164 170	Sierra
+T29	segment 171 179	Ventures
+T30	segment 180 183	and
+T31	segment 184 189	Menlo
+T32	segment 190 198	Ventures
+T33	segment 199 200	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T6
+R2	compound Arg1:T6 Arg2:T4
+R3	compound Arg1:T6 Arg2:T5
+R4	is-specialized-by Arg1:T6 Arg2:T3
+R5	is-specialized-by Arg1:T7 Arg2:T8
+R6	is-specialized-by Arg1:T7 Arg2:T14
+R7	c_co Arg1:T8 Arg2:T10
+R8	compound Arg1:T10 Arg2:T9
+R9	c_co Arg1:T14 Arg2:T15
+R10	is-specialized-by Arg1:T15 Arg2:T16
+R11	c_co Arg1:T16 Arg2:T18
+R12	compound Arg1:T18 Arg2:T17
+R13	is-specialized-by Arg1:T23 Arg2:T24
+R14	compound Arg1:T23 Arg2:T22
+R15	c_co Arg1:T24 Arg2:T29
+R16	compound Arg1:T29 Arg2:T28
+R17	compound Arg1:T29 Arg2:T27
+R18	compound Arg1:T29 Arg2:T26
+R19	compound Arg1:T32 Arg2:T31

@@ -1,0 +1,41 @@
+T0	segment 0 9	Wiltshire
+T1	segment 10 14	Farm
+T2	segment 15 20	Foods
+T3	segment 21 23	is
+T4	segment 24 25	a
+T5	segment 26 32	frozen
+T6	segment 33 38	meals
+T7	segment 39 47	delivery
+T8	segment 48 55	company
+T9	segment 56 60	that
+T10	segment 61 72	specialises
+T11	segment 73 75	in
+T12	segment 76 86	delivering
+T13	segment 87 93	frozen
+T14	segment 94 99	ready
+T15	segment 100 105	meals
+T16	segment 106 108	to
+T17	segment 109 118	customers
+T18	segment 118 119	'
+T19	segment 120 125	homes
+T20	segment 126 136	throughout
+T21	segment 137 140	the
+T22	segment 141 147	United
+T23	segment 148 155	Kingdom
+T24	segment 156 157	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T8
+R4	compound Arg1:T8 Arg2:T6
+R5	compound Arg1:T8 Arg2:T7
+R6	is-specialized-by Arg1:T8 Arg2:T5
+R7	s_p Arg1:T9 Arg2:T10
+R8	is-specialized-by Arg1:T12 Arg2:T16
+R9	is-specialized-by Arg1:T12 Arg2:T20
+R10	p_o Arg1:T12 Arg2:T15
+R11	is-specialized-by Arg1:T14 Arg2:T13
+R12	is-specialized-by Arg1:T15 Arg2:T14
+R13	c_co Arg1:T16 Arg2:T19
+R14	c_co Arg1:T20 Arg2:T23
+R15	compound Arg1:T23 Arg2:T22

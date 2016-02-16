@@ -1,0 +1,46 @@
+T0	segment 0 5	Frank
+T1	segment 6 12	Arnold
+T2	segment 13 15	is
+T3	segment 16 17	a
+T4	segment 18 24	former
+T5	segment 25 28	men
+T6	segment 28 30	's
+T7	segment 31 41	basketball
+T8	segment 42 47	coach
+T9	segment 48 51	who
+T10	segment 52 59	coached
+T11	segment 60 62	at
+T12	segment 63 70	Brigham
+T13	segment 71 76	Young
+T14	segment 77 87	University
+T15	segment 88 92	from
+T16	segment 93 97	1975
+T17	segment 97 98	--
+T18	segment 98 102	1983
+T19	segment 103 106	and
+T20	segment 107 109	at
+T21	segment 110 113	the
+T22	segment 114 124	University
+T23	segment 125 127	of
+T24	segment 128 134	Hawaii
+T25	segment 135 139	from
+T26	segment 140 149	1985-1987
+T27	segment 150 151	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T8
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	compound Arg1:T8 Arg2:T7
+R5	s_p Arg1:T9 Arg2:T10
+R6	p_c Arg1:T10 Arg2:T25
+R7	p_c Arg1:T10 Arg2:T11
+R8	c_co Arg1:T11 Arg2:T14
+R9	compound Arg1:T14 Arg2:T12
+R10	is-specialized-by Arg1:T14 Arg2:T15
+R11	compound Arg1:T14 Arg2:T13
+R12	c_co Arg1:T15 Arg2:T16
+R13	is-specialized-by Arg1:T22 Arg2:T23
+R14	c_co Arg1:T23 Arg2:T24
+R15	compound Arg1:T24 Arg2:T22
+R16	compound Arg1:T24 Arg2:T23
+R17	c_co Arg1:T25 Arg2:T26

@@ -1,0 +1,24 @@
+T0	segment 0 5	BjÃ¸rn
+T1	segment 6 11	Odmar
+T2	segment 12 20	Andersen
+T3	segment 21 24	was
+T4	segment 25 26	a
+T5	segment 27 36	Norwegian
+T6	segment 37 47	footballer
+T7	segment 48 51	who
+T8	segment 52 58	played
+T9	segment 59 62	for
+T10	segment 63 73	Ãrn-Horten
+T11	segment 73 74	,
+T12	segment 75 80	Brann
+T13	segment 81 84	and
+T14	segment 85 97	StrÃ¸msgodset
+T15	segment 98 99	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T6
+R4	is-specialized-by Arg1:T6 Arg2:T5
+R5	s_p Arg1:T7 Arg2:T8
+R6	p_c Arg1:T8 Arg2:T9
+R7	c_co Arg1:T9 Arg2:T10

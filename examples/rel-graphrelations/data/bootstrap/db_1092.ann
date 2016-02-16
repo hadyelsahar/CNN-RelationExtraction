@@ -1,0 +1,31 @@
+T0	segment 0 7	Namibia
+T1	segment 8 9	,
+T2	segment 10 20	officially
+T3	segment 21 24	the
+T4	segment 25 33	Republic
+T5	segment 34 36	of
+T6	segment 37 44	Namibia
+T7	segment 45 47	as
+T8	segment 48 51	the
+T9	segment 52 60	official
+T10	segment 61 75	representative
+T11	segment 76 78	of
+T12	segment 79 82	the
+T13	segment 83 91	Namibian
+T14	segment 92 98	people
+T15	segment 99 101	in
+T16	segment 102 106	1973
+T17	segment 107 108	.
+R0	is-specialized-by Arg1:T4 Arg2:T2
+R1	is-specialized-by Arg1:T4 Arg2:T5
+R2	c_co Arg1:T5 Arg2:T6
+R3	compound Arg1:T6 Arg2:T4
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	compound Arg1:T6 Arg2:T5
+R6	c_co Arg1:T7 Arg2:T10
+R7	is-specialized-by Arg1:T10 Arg2:T9
+R8	is-specialized-by Arg1:T10 Arg2:T11
+R9	c_co Arg1:T11 Arg2:T14
+R10	is-specialized-by Arg1:T14 Arg2:T15
+R11	is-specialized-by Arg1:T14 Arg2:T13
+R12	c_co Arg1:T15 Arg2:T16

@@ -1,0 +1,30 @@
+T0	segment 0 3	The
+T1	segment 4 10	County
+T2	segment 11 13	of
+T3	segment 14 19	Santa
+T4	segment 20 25	Fiora
+T5	segment 26 29	was
+T6	segment 30 31	a
+T7	segment 32 37	small
+T8	segment 38 48	historical
+T9	segment 49 54	state
+T10	segment 55 57	of
+T11	segment 58 66	southern
+T12	segment 67 74	Tuscany
+T13	segment 74 75	,
+T14	segment 76 78	in
+T15	segment 79 86	central
+T16	segment 87 92	Italy
+T17	segment 93 94	.
+R0	s_p Arg1:T1 Arg2:T5
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	c_co Arg1:T2 Arg2:T4
+R3	compound Arg1:T4 Arg2:T3
+R4	p_o Arg1:T5 Arg2:T9
+R5	is-specialized-by Arg1:T9 Arg2:T7
+R6	is-specialized-by Arg1:T9 Arg2:T10
+R7	is-specialized-by Arg1:T9 Arg2:T14
+R8	c_co Arg1:T10 Arg2:T12
+R9	is-specialized-by Arg1:T12 Arg2:T11
+R10	c_co Arg1:T14 Arg2:T16
+R11	is-specialized-by Arg1:T16 Arg2:T15

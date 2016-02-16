@@ -1,0 +1,33 @@
+T0	segment 0 7	ORGMENT
+T1	segment 8 10	is
+T2	segment 11 13	an
+T3	segment 14 27	international
+T4	segment 28 40	professional
+T5	segment 41 49	services
+T6	segment 50 53	and
+T7	segment 54 64	investment
+T8	segment 65 70	group
+T9	segment 71 75	that
+T10	segment 76 86	specialize
+T11	segment 87 89	in
+T12	segment 90 97	helping
+T13	segment 98 107	companies
+T14	segment 108 110	to
+T15	segment 111 112	'
+T16	segment 113 117	grow
+T17	segment 117 118	,
+T18	segment 119 127	innovate
+T19	segment 128 131	and
+T20	segment 132 138	evolve
+T21	segment 139 140	'
+T22	segment 141 148	digital
+T23	segment 149 159	businesses
+T24	segment 160 161	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T5
+R2	is-specialized-by Arg1:T5 Arg2:T3
+R3	compound Arg1:T8 Arg2:T7
+R4	s_p Arg1:T9 Arg2:T10
+R5	p_o Arg1:T12 Arg2:T13
+R6	p_o Arg1:T20 Arg2:T23
+R7	is-specialized-by Arg1:T23 Arg2:T22

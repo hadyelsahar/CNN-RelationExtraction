@@ -1,0 +1,40 @@
+T0	segment 0 3	The
+T1	segment 4 12	Croatian
+T2	segment 13 21	Republic
+T3	segment 22 24	of
+T4	segment 25 38	Herzeg-Bosnia
+T5	segment 39 48	concluded
+T6	segment 49 53	that
+T7	segment 54 67	Herzeg-Bosnia
+T8	segment 68 71	was
+T9	segment 72 79	founded
+T10	segment 80 84	with
+T11	segment 85 88	the
+T12	segment 89 98	intention
+T13	segment 99 101	to
+T14	segment 102 108	secede
+T15	segment 109 113	from
+T16	segment 114 120	Bosnia
+T17	segment 121 124	and
+T18	segment 125 136	Herzegovina
+T19	segment 137 140	and
+T20	segment 141 146	unite
+T21	segment 147 151	with
+T22	segment 152 159	Croatia
+T23	segment 160 161	.
+R0	s_p Arg1:T2 Arg2:T5
+R1	is-specialized-by Arg1:T2 Arg2:T1
+R2	is-specialized-by Arg1:T2 Arg2:T3
+R3	c_co Arg1:T3 Arg2:T4
+R4	compound Arg1:T4 Arg2:T3
+R5	compound Arg1:T4 Arg2:T2
+R6	compound Arg1:T4 Arg2:T1
+R7	p_p Arg1:T5 Arg2:T9
+R8	s_p Arg1:T7 Arg2:T9
+R9	p_c Arg1:T9 Arg2:T10
+R10	compound Arg1:T9 Arg2:T8
+R11	c_co Arg1:T10 Arg2:T12
+R12	is-specialized-by Arg1:T14 Arg2:T15
+R13	c_co Arg1:T15 Arg2:T16
+R14	is-specialized-by Arg1:T20 Arg2:T21
+R15	c_co Arg1:T21 Arg2:T22

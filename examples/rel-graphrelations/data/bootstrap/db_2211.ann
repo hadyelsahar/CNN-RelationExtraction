@@ -1,0 +1,29 @@
+T0	segment 0 3	See
+T1	segment 4 10	Albani
+T2	segment 11 14	for
+T3	segment 15 20	other
+T4	segment 21 25	uses
+T5	segment 26 28	of
+T6	segment 29 33	that
+T7	segment 34 44	nameAlbani
+T8	segment 45 57	Bryggerierne
+T9	segment 58 61	A/S
+T10	segment 62 63	,
+T11	segment 64 65	a
+T12	segment 66 71	group
+T13	segment 72 74	of
+T14	segment 75 81	Danish
+T15	segment 82 90	regional
+T16	segment 91 100	breweries
+T17	segment 101 102	.
+R0	p_o Arg1:T0 Arg2:T1
+R1	is-specialized-by Arg1:T1 Arg2:T2
+R2	c_co Arg1:T2 Arg2:T4
+R3	is-specialized-by Arg1:T4 Arg2:T3
+R4	is-specialized-by Arg1:T4 Arg2:T5
+R5	c_co Arg1:T5 Arg2:T9
+R6	compound Arg1:T9 Arg2:T8
+R7	compound Arg1:T9 Arg2:T7
+R8	is-specialized-by Arg1:T12 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T16
+R10	is-specialized-by Arg1:T16 Arg2:T14

@@ -1,0 +1,41 @@
+T0	segment 0 5	Santa
+T1	segment 6 13	BÃ¡rbara
+T2	segment 14 22	Sistemas
+T3	segment 23 25	is
+T4	segment 26 27	a
+T5	segment 28 35	Spanish
+T6	segment 36 43	defense
+T7	segment 44 54	contractor
+T8	segment 55 60	based
+T9	segment 61 63	in
+T10	segment 64 70	Madrid
+T11	segment 70 71	,
+T12	segment 72 82	integrated
+T13	segment 83 88	under
+T14	segment 89 92	the
+T15	segment 93 101	European
+T16	segment 102 106	Land
+T17	segment 107 114	Systems
+T18	segment 115 117	of
+T19	segment 118 125	General
+T20	segment 126 134	Dynamics
+T21	segment 135 136	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	compound Arg1:T7 Arg2:T6
+R6	is-specialized-by Arg1:T7 Arg2:T5
+R7	c_co Arg1:T8 Arg2:T10
+R8	is-specialized-by Arg1:T12 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T17
+R10	is-specialized-by Arg1:T17 Arg2:T15
+R11	is-specialized-by Arg1:T17 Arg2:T18
+R12	compound Arg1:T17 Arg2:T16
+R13	c_co Arg1:T18 Arg2:T20
+R14	compound Arg1:T20 Arg2:T19
+R15	compound Arg1:T20 Arg2:T16
+R16	compound Arg1:T20 Arg2:T15
+R17	compound Arg1:T20 Arg2:T18
+R18	compound Arg1:T20 Arg2:T17

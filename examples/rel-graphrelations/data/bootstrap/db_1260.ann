@@ -1,0 +1,44 @@
+T0	segment 0 3	For
+T1	segment 4 7	the
+T2	segment 8 16	American
+T3	segment 17 20	ice
+T4	segment 21 27	hockey
+T5	segment 28 33	coach
+T6	segment 33 34	,
+T7	segment 35 38	see
+T8	segment 39 43	Jeff
+T9	segment 44 48	Pyle
+T10	segment 49 51	is
+T11	segment 52 53	a
+T12	segment 54 64	Republican
+T13	segment 65 71	member
+T14	segment 72 74	of
+T15	segment 75 78	the
+T16	segment 79 91	Pennsylvania
+T17	segment 92 97	House
+T18	segment 98 100	of
+T19	segment 101 116	Representatives
+T20	segment 117 120	and
+T21	segment 121 124	was
+T22	segment 125 132	elected
+T23	segment 133 135	in
+T24	segment 136 140	2004
+T25	segment 141 142	.
+R0	c_co Arg1:T0 Arg2:T5
+R1	compound Arg1:T5 Arg2:T4
+R2	compound Arg1:T5 Arg2:T3
+R3	is-specialized-by Arg1:T5 Arg2:T2
+R4	is-specialized-by Arg1:T7 Arg2:T0
+R5	p_p Arg1:T7 Arg2:T10
+R6	s_p Arg1:T9 Arg2:T10
+R7	compound Arg1:T9 Arg2:T8
+R8	p_o Arg1:T10 Arg2:T13
+R9	is-specialized-by Arg1:T13 Arg2:T12
+R10	is-specialized-by Arg1:T13 Arg2:T14
+R11	c_co Arg1:T14 Arg2:T17
+R12	is-specialized-by Arg1:T17 Arg2:T18
+R13	compound Arg1:T17 Arg2:T16
+R14	c_co Arg1:T18 Arg2:T19
+R15	is-specialized-by Arg1:T22 Arg2:T23
+R16	compound Arg1:T22 Arg2:T21
+R17	c_co Arg1:T23 Arg2:T24

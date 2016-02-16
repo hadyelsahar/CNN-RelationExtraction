@@ -1,0 +1,55 @@
+T0	segment 0 4	Moss
+T1	segment 5 10	Adams
+T2	segment 11 14	LLP
+T3	segment 15 17	is
+T4	segment 18 21	one
+T5	segment 22 24	of
+T6	segment 25 28	the
+T7	segment 29 31	15
+T8	segment 32 39	largest
+T9	segment 40 46	public
+T10	segment 47 57	accounting
+T11	segment 58 63	firms
+T12	segment 64 66	in
+T13	segment 67 70	the
+T14	segment 71 77	United
+T15	segment 78 84	States
+T16	segment 85 88	and
+T17	segment 89 97	provides
+T18	segment 98 108	accounting
+T19	segment 108 109	,
+T20	segment 110 113	tax
+T21	segment 114 117	and
+T22	segment 118 128	consulting
+T23	segment 129 137	services
+T24	segment 138 140	to
+T25	segment 141 147	public
+T26	segment 148 151	and
+T27	segment 152 159	private
+T28	segment 160 173	middle-market
+T29	segment 174 185	enterprises
+T30	segment 186 188	in
+T31	segment 189 193	many
+T32	segment 194 203	different
+T33	segment 204 214	industries
+T34	segment 215 216	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T4
+R4	is-specialized-by Arg1:T4 Arg2:T12
+R5	is-specialized-by Arg1:T4 Arg2:T5
+R6	c_co Arg1:T5 Arg2:T11
+R7	is-specialized-by Arg1:T11 Arg2:T8
+R8	is-specialized-by Arg1:T11 Arg2:T7
+R9	compound Arg1:T11 Arg2:T10
+R10	c_co Arg1:T12 Arg2:T15
+R11	compound Arg1:T15 Arg2:T14
+R12	is-specialized-by Arg1:T17 Arg2:T24
+R13	p_o Arg1:T17 Arg2:T23
+R14	compound Arg1:T23 Arg2:T18
+R15	c_co Arg1:T24 Arg2:T29
+R16	is-specialized-by Arg1:T29 Arg2:T25
+R17	is-specialized-by Arg1:T29 Arg2:T30
+R18	c_co Arg1:T30 Arg2:T33
+R19	is-specialized-by Arg1:T33 Arg2:T31

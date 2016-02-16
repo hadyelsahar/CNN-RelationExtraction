@@ -1,0 +1,55 @@
+T0	segment 0 3	The
+T1	segment 4 9	Duchy
+T2	segment 10 12	of
+T3	segment 13 21	Normandy
+T4	segment 22 26	grew
+T5	segment 27 30	out
+T6	segment 31 34	the
+T7	segment 35 38	911
+T8	segment 39 45	treaty
+T9	segment 46 48	of
+T10	segment 49 69	Saint-Clair-sur-Epte
+T11	segment 70 77	between
+T12	segment 78 82	King
+T13	segment 83 90	Charles
+T14	segment 91 94	III
+T15	segment 95 97	of
+T16	segment 98 102	West
+T17	segment 103 110	Francia
+T18	segment 111 114	and
+T19	segment 115 120	Rollo
+T20	segment 120 121	,
+T21	segment 122 128	leader
+T22	segment 129 131	of
+T23	segment 132 135	the
+T24	segment 136 143	Vikings
+T25	segment 143 144	,
+T26	segment 145 150	known
+T27	segment 151 153	as
+T28	segment 154 162	Northmen
+T29	segment 162 163	,
+T30	segment 164 166	or
+T31	segment 167 176	Nortmanni
+T32	segment 177 179	in
+T33	segment 180 185	Latin
+T34	segment 186 187	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T8
+R4	p_c Arg1:T4 Arg2:T11
+R5	is-specialized-by Arg1:T8 Arg2:T7
+R6	is-specialized-by Arg1:T8 Arg2:T9
+R7	c_co Arg1:T9 Arg2:T10
+R8	c_co Arg1:T11 Arg2:T14
+R9	compound Arg1:T14 Arg2:T12
+R10	is-specialized-by Arg1:T14 Arg2:T15
+R11	compound Arg1:T14 Arg2:T13
+R12	c_co Arg1:T15 Arg2:T17
+R13	compound Arg1:T17 Arg2:T16
+R14	is-specialized-by Arg1:T21 Arg2:T22
+R15	c_co Arg1:T22 Arg2:T24
+R16	is-specialized-by Arg1:T26 Arg2:T27
+R17	c_co Arg1:T27 Arg2:T28
+R18	is-specialized-by Arg1:T31 Arg2:T32
+R19	c_co Arg1:T32 Arg2:T33

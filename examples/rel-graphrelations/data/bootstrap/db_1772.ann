@@ -1,0 +1,31 @@
+T0	segment 0 8	Sardhana
+T1	segment 9 11	is
+T2	segment 12 13	a
+T3	segment 14 18	town
+T4	segment 19 22	and
+T5	segment 23 24	a
+T6	segment 25 34	municipal
+T7	segment 35 40	board
+T8	segment 41 43	in
+T9	segment 44 50	Meerut
+T10	segment 51 59	district
+T11	segment 60 62	in
+T12	segment 63 66	the
+T13	segment 67 73	Indian
+T14	segment 74 79	state
+T15	segment 80 82	of
+T16	segment 83 88	Uttar
+T17	segment 89 96	Pradesh
+T18	segment 97 98	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T7 Arg2:T8
+R3	is-specialized-by Arg1:T7 Arg2:T11
+R4	is-specialized-by Arg1:T7 Arg2:T6
+R5	c_co Arg1:T8 Arg2:T10
+R6	compound Arg1:T10 Arg2:T9
+R7	c_co Arg1:T11 Arg2:T14
+R8	is-specialized-by Arg1:T14 Arg2:T15
+R9	is-specialized-by Arg1:T14 Arg2:T13
+R10	c_co Arg1:T15 Arg2:T17
+R11	compound Arg1:T17 Arg2:T16

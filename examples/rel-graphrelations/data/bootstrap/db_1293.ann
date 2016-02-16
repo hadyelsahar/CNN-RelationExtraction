@@ -1,0 +1,35 @@
+T0	segment 0 7	William
+T1	segment 8 14	Coupon
+T2	segment 15 17	is
+T3	segment 18 20	an
+T4	segment 21 29	American
+T5	segment 30 42	photographer
+T6	segment 42 43	,
+T7	segment 44 49	known
+T8	segment 50 61	principally
+T9	segment 62 65	for
+T10	segment 66 69	his
+T11	segment 70 76	formal
+T12	segment 77 86	painterly
+T13	segment 87 95	backdrop
+T14	segment 96 105	portraits
+T15	segment 106 108	of
+T16	segment 109 115	tribal
+T17	segment 116 122	people
+T18	segment 122 123	,
+T19	segment 124 135	politicians
+T20	segment 136 139	and
+T21	segment 140 151	celebrities
+T22	segment 152 153	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T5
+R3	is-specialized-by Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	is-specialized-by Arg1:T7 Arg2:T9
+R6	c_co Arg1:T9 Arg2:T14
+R7	is-specialized-by Arg1:T14 Arg2:T15
+R8	compound Arg1:T14 Arg2:T13
+R9	is-specialized-by Arg1:T14 Arg2:T11
+R10	c_co Arg1:T15 Arg2:T17
+R11	is-specialized-by Arg1:T17 Arg2:T16

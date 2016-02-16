@@ -1,0 +1,45 @@
+T0	segment 0 3	The
+T1	segment 4 10	Sanjak
+T2	segment 11 13	of
+T3	segment 14 23	Smederevo
+T4	segment 24 25	,
+T5	segment 26 28	to
+T6	segment 29 34	Budin
+T7	segment 35 41	Eyalet
+T8	segment 42 49	between
+T9	segment 50 54	1541
+T10	segment 55 58	and
+T11	segment 59 63	1686
+T12	segment 63 64	,
+T13	segment 65 68	and
+T14	segment 69 71	to
+T15	segment 72 80	TemeÈvar
+T16	segment 81 87	Eyalet
+T17	segment 88 95	between
+T18	segment 96 100	1686
+T19	segment 101 104	and
+T20	segment 105 109	1688
+T21	segment 110 113	and
+T22	segment 114 119	again
+T23	segment 120 127	between
+T24	segment 128 132	1690
+T25	segment 133 136	and
+T26	segment 137 141	1716
+T27	segment 142 143	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	is-specialized-by Arg1:T1 Arg2:T5
+R2	c_co Arg1:T2 Arg2:T3
+R3	c_co Arg1:T5 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	compound Arg1:T7 Arg2:T6
+R6	c_co Arg1:T8 Arg2:T9
+R7	compound Arg1:T11 Arg2:T10
+R8	compound Arg1:T11 Arg2:T9
+R9	is-specialized-by Arg1:T16 Arg2:T17
+R10	compound Arg1:T16 Arg2:T15
+R11	c_co Arg1:T17 Arg2:T18
+R12	compound Arg1:T20 Arg2:T19
+R13	compound Arg1:T20 Arg2:T18
+R14	is-specialized-by Arg1:T24 Arg2:T22
+R15	compound Arg1:T26 Arg2:T24
+R16	compound Arg1:T26 Arg2:T25

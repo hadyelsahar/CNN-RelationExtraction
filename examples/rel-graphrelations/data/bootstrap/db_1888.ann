@@ -1,0 +1,39 @@
+T0	segment 0 3	The
+T1	segment 4 9	Taifa
+T2	segment 10 12	of
+T3	segment 13 20	CÃ³rdoba
+T4	segment 21 24	was
+T5	segment 25 26	a
+T6	segment 27 37	republican
+T7	segment 38 43	taifa
+T8	segment 44 48	that
+T9	segment 49 57	replaced
+T10	segment 58 61	the
+T11	segment 62 71	teetering
+T12	segment 72 79	Umayyad
+T13	segment 80 86	Caliph
+T14	segment 87 89	as
+T15	segment 90 93	the
+T16	segment 94 104	government
+T17	segment 105 107	of
+T18	segment 108 115	CÃ³rdoba
+T19	segment 116 119	and
+T20	segment 120 123	its
+T21	segment 124 132	vicinity
+T22	segment 133 135	in
+T23	segment 136 140	1031
+T24	segment 141 142	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T4
+R2	c_co Arg1:T2 Arg2:T3
+R3	p_o Arg1:T4 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T6
+R5	s_p Arg1:T8 Arg2:T9
+R6	p_o Arg1:T11 Arg2:T13
+R7	compound Arg1:T13 Arg2:T12
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	c_co Arg1:T14 Arg2:T16
+R10	is-specialized-by Arg1:T16 Arg2:T17
+R11	c_co Arg1:T17 Arg2:T18
+R12	is-specialized-by Arg1:T21 Arg2:T22
+R13	c_co Arg1:T22 Arg2:T23

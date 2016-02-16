@@ -1,0 +1,25 @@
+T0	segment 0 3	The
+T1	segment 4 12	Beauvoir
+T2	segment 13 19	estate
+T3	segment 20 22	is
+T4	segment 23 30	notable
+T5	segment 31 33	as
+T6	segment 34 37	the
+T7	segment 38 46	historic
+T8	segment 47 55	post-war
+T9	segment 56 60	home
+T10	segment 61 64	was
+T11	segment 65 74	completed
+T12	segment 75 78	and
+T13	segment 79 85	opened
+T14	segment 86 88	on
+T15	segment 89 93	site
+T16	segment 94 95	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T1
+R2	p_o Arg1:T3 Arg2:T4
+R3	is-specialized-by Arg1:T9 Arg2:T7
+R4	s_p Arg1:T9 Arg2:T11
+R5	p_c Arg1:T11 Arg2:T14
+R6	compound Arg1:T11 Arg2:T10
+R7	c_co Arg1:T14 Arg2:T15

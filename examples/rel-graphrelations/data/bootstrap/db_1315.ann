@@ -1,0 +1,53 @@
+T0	segment 0 3	The
+T1	segment 4 9	Duchy
+T2	segment 10 12	of
+T3	segment 13 18	Bytom
+T4	segment 19 20	,
+T5	segment 21 29	formerly
+T6	segment 30 34	part
+T7	segment 35 37	of
+T8	segment 38 44	Lesser
+T9	segment 45 51	Poland
+T10	segment 52 57	until
+T11	segment 58 60	in
+T12	segment 61 65	1177
+T13	segment 66 69	the
+T14	segment 70 76	Polish
+T15	segment 77 81	High
+T16	segment 82 86	Duke
+T17	segment 87 94	Casimir
+T18	segment 95 97	II
+T19	segment 98 101	the
+T20	segment 102 106	Just
+T21	segment 107 110	had
+T22	segment 111 119	attached
+T23	segment 120 122	it
+T24	segment 123 125	to
+T25	segment 126 129	the
+T26	segment 130 138	Silesian
+T27	segment 139 144	Duchy
+T28	segment 145 147	of
+T29	segment 148 156	RacibÃ³rz
+T30	segment 157 158	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T22
+R2	c_co Arg1:T2 Arg2:T3
+R3	is-specialized-by Arg1:T6 Arg2:T7
+R4	is-specialized-by Arg1:T6 Arg2:T11
+R5	is-specialized-by Arg1:T6 Arg2:T5
+R6	c_co Arg1:T7 Arg2:T9
+R7	compound Arg1:T9 Arg2:T8
+R8	c_co Arg1:T11 Arg2:T12
+R9	compound Arg1:T17 Arg2:T16
+R10	compound Arg1:T18 Arg2:T14
+R11	compound Arg1:T18 Arg2:T16
+R12	compound Arg1:T18 Arg2:T15
+R13	compound Arg1:T18 Arg2:T17
+R14	p_c Arg1:T22 Arg2:T20
+R15	compound Arg1:T22 Arg2:T21
+R16	p_c Arg1:T22 Arg2:T24
+R17	p_o Arg1:T22 Arg2:T23
+R18	c_co Arg1:T24 Arg2:T27
+R19	is-specialized-by Arg1:T27 Arg2:T26
+R20	is-specialized-by Arg1:T27 Arg2:T28
+R21	c_co Arg1:T28 Arg2:T29

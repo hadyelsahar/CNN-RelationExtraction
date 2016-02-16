@@ -1,0 +1,37 @@
+T0	segment 0 3	The
+T1	segment 4 9	Bench
+T2	segment 10 12	of
+T3	segment 13 19	Counts
+T4	segment 20 22	of
+T5	segment 23 33	Westphalia
+T6	segment 34 37	was
+T7	segment 38 41	one
+T8	segment 42 44	of
+T9	segment 45 48	the
+T10	segment 49 53	four
+T11	segment 54 61	comital
+T12	segment 62 69	benches
+T13	segment 70 72	of
+T14	segment 73 76	the
+T15	segment 77 86	Reichstag
+T16	segment 87 89	in
+T17	segment 90 93	the
+T18	segment 94 98	Holy
+T19	segment 99 104	Roman
+T20	segment 105 111	Empire
+T21	segment 112 113	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T6
+R2	c_co Arg1:T2 Arg2:T3
+R3	is-specialized-by Arg1:T3 Arg2:T4
+R4	c_co Arg1:T4 Arg2:T5
+R5	p_o Arg1:T6 Arg2:T7
+R6	is-specialized-by Arg1:T7 Arg2:T8
+R7	c_co Arg1:T8 Arg2:T12
+R8	is-specialized-by Arg1:T12 Arg2:T10
+R9	is-specialized-by Arg1:T12 Arg2:T11
+R10	is-specialized-by Arg1:T12 Arg2:T13
+R11	c_co Arg1:T13 Arg2:T15
+R12	is-specialized-by Arg1:T15 Arg2:T16
+R13	c_co Arg1:T16 Arg2:T20
+R14	is-specialized-by Arg1:T20 Arg2:T18

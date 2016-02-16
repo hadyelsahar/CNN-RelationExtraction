@@ -1,0 +1,24 @@
+T0	segment 0 6	Bakata
+T1	segment 7 10	was
+T2	segment 11 14	the
+T3	segment 15 22	capital
+T4	segment 23 25	of
+T5	segment 26 29	the
+T6	segment 30 34	Ahom
+T7	segment 35 42	kingdom
+T8	segment 43 54	established
+T9	segment 55 57	by
+T10	segment 58 61	the
+T11	segment 62 66	Ahom
+T12	segment 67 71	king
+T13	segment 72 82	Suhungmung
+T14	segment 83 84	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T3
+R2	is-specialized-by Arg1:T3 Arg2:T4
+R3	c_co Arg1:T4 Arg2:T7
+R4	compound Arg1:T7 Arg2:T6
+R5	is-specialized-by Arg1:T8 Arg2:T9
+R6	c_co Arg1:T9 Arg2:T13
+R7	compound Arg1:T13 Arg2:T12
+R8	compound Arg1:T13 Arg2:T11

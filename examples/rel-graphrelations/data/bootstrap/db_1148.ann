@@ -1,0 +1,38 @@
+T0	segment 0 3	The
+T1	segment 4 14	California
+T2	segment 15 29	Sustainability
+T3	segment 30 38	Alliance
+T4	segment 39 41	is
+T5	segment 42 44	an
+T6	segment 45 57	organization
+T7	segment 58 64	funded
+T8	segment 65 67	by
+T9	segment 68 71	the
+T10	segment 72 82	California
+T11	segment 83 87	IOUs
+T12	segment 88 90	to
+T13	segment 91 96	bring
+T14	segment 97 105	together
+T15	segment 106 109	key
+T16	segment 110 122	stakeholders
+T17	segment 123 129	needed
+T18	segment 130 132	to
+T19	segment 133 141	overcome
+T20	segment 142 145	the
+T21	segment 146 155	obstacles
+T22	segment 156 158	of
+T23	segment 159 173	sustainability
+T24	segment 174 175	.
+R0	s_p Arg1:T3 Arg2:T4
+R1	compound Arg1:T3 Arg2:T2
+R2	compound Arg1:T3 Arg2:T1
+R3	p_o Arg1:T4 Arg2:T6
+R4	is-specialized-by Arg1:T7 Arg2:T8
+R5	c_co Arg1:T8 Arg2:T11
+R6	compound Arg1:T11 Arg2:T10
+R7	p_o Arg1:T13 Arg2:T16
+R8	is-specialized-by Arg1:T13 Arg2:T14
+R9	is-specialized-by Arg1:T16 Arg2:T15
+R10	p_o Arg1:T19 Arg2:T21
+R11	is-specialized-by Arg1:T21 Arg2:T22
+R12	c_co Arg1:T22 Arg2:T23

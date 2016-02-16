@@ -1,0 +1,92 @@
+T0	segment 0 6	Maggie
+T1	segment 7 16	O'Farrell
+T2	segment 17 19	is
+T3	segment 20 21	a
+T4	segment 22 30	Northern
+T5	segment 31 36	Irish
+T6	segment 37 43	author
+T7	segment 44 46	of
+T8	segment 47 59	contemporary
+T9	segment 60 67	fiction
+T10	segment 67 68	,
+T11	segment 69 72	who
+T12	segment 73 81	features
+T13	segment 82 84	in
+T14	segment 85 96	Waterstones
+T15	segment 96 97	'
+T16	segment 98 100	25
+T17	segment 101 108	Authors
+T18	segment 109 112	for
+T19	segment 113 116	the
+T20	segment 117 123	Future
+T21	segment 124 126	It
+T22	segment 127 129	is
+T23	segment 130 138	possible
+T24	segment 139 141	to
+T25	segment 142 150	identify
+T26	segment 151 158	several
+T27	segment 159 165	common
+T28	segment 166 172	themes
+T29	segment 173 175	in
+T30	segment 176 179	her
+T31	segment 180 186	novels
+T32	segment 187 188	--
+T33	segment 189 192	the
+T34	segment 193 205	relationship
+T35	segment 206 213	between
+T36	segment 214 221	sisters
+T37	segment 222 224	is
+T38	segment 225 228	one
+T39	segment 228 229	,
+T40	segment 230 237	another
+T41	segment 238 240	is
+T42	segment 241 245	loss
+T43	segment 246 249	and
+T44	segment 250 253	the
+T45	segment 254 267	psychological
+T46	segment 268 274	impact
+T47	segment 275 277	of
+T48	segment 278 283	those
+T49	segment 284 290	losses
+T50	segment 291 293	on
+T51	segment 294 297	the
+T52	segment 298 303	lives
+T53	segment 304 306	of
+T54	segment 307 310	her
+T55	segment 311 321	characters
+T56	segment 322 323	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T6
+R3	compound Arg1:T5 Arg2:T4
+R4	is-specialized-by Arg1:T6 Arg2:T7
+R5	is-specialized-by Arg1:T6 Arg2:T4
+R6	c_co Arg1:T7 Arg2:T9
+R7	is-specialized-by Arg1:T9 Arg2:T8
+R8	s_p Arg1:T11 Arg2:T12
+R9	p_c Arg1:T12 Arg2:T13
+R10	c_co Arg1:T13 Arg2:T17
+R11	is-specialized-by Arg1:T17 Arg2:T16
+R12	is-specialized-by Arg1:T17 Arg2:T18
+R13	c_co Arg1:T18 Arg2:T20
+R14	compound Arg1:T20 Arg2:T19
+R15	s_p Arg1:T21 Arg2:T22
+R16	p_o Arg1:T22 Arg2:T23
+R17	p_o Arg1:T25 Arg2:T28
+R18	is-specialized-by Arg1:T25 Arg2:T29
+R19	is-specialized-by Arg1:T28 Arg2:T26
+R20	c_co Arg1:T29 Arg2:T31
+R21	s_p Arg1:T34 Arg2:T37
+R22	is-specialized-by Arg1:T34 Arg2:T35
+R23	c_co Arg1:T35 Arg2:T36
+R24	p_o Arg1:T37 Arg2:T38
+R25	s_p Arg1:T40 Arg2:T41
+R26	p_o Arg1:T41 Arg2:T42
+R27	p_p Arg1:T42 Arg2:T2
+R28	is-specialized-by Arg1:T46 Arg2:T47
+R29	is-specialized-by Arg1:T46 Arg2:T45
+R30	c_co Arg1:T47 Arg2:T49
+R31	is-specialized-by Arg1:T49 Arg2:T50
+R32	c_co Arg1:T50 Arg2:T52
+R33	is-specialized-by Arg1:T52 Arg2:T53
+R34	c_co Arg1:T53 Arg2:T55

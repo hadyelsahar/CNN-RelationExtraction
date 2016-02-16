@@ -1,0 +1,39 @@
+T0	segment 0 3	New
+T1	segment 4 10	Castle
+T2	segment 11 13	is
+T3	segment 14 15	a
+T4	segment 16 20	city
+T5	segment 21 23	in
+T6	segment 24 27	New
+T7	segment 28 34	Castle
+T8	segment 35 41	County
+T9	segment 41 42	,
+T10	segment 43 51	Delaware
+T11	segment 51 52	,
+T12	segment 53 56	six
+T13	segment 57 62	miles
+T14	segment 63 68	south
+T15	segment 69 71	of
+T16	segment 72 82	Wilmington
+T17	segment 82 83	,
+T18	segment 84 92	situated
+T19	segment 93 95	on
+T20	segment 96 99	the
+T21	segment 100 108	Delaware
+T22	segment 109 114	River
+T23	segment 115 116	.
+R0	s_p Arg1:T1 Arg2:T2
+R1	compound Arg1:T1 Arg2:T0
+R2	p_o Arg1:T2 Arg2:T4
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T8
+R5	is-specialized-by Arg1:T8 Arg2:T15
+R6	compound Arg1:T8 Arg2:T6
+R7	compound Arg1:T8 Arg2:T7
+R8	is-specialized-by Arg1:T8 Arg2:T14
+R9	is-specialized-by Arg1:T13 Arg2:T12
+R10	is-specialized-by Arg1:T14 Arg2:T13
+R11	c_co Arg1:T15 Arg2:T16
+R12	is-specialized-by Arg1:T18 Arg2:T19
+R13	c_co Arg1:T19 Arg2:T22
+R14	compound Arg1:T22 Arg2:T21

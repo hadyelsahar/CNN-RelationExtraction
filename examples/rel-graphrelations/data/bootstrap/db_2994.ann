@@ -1,0 +1,26 @@
+T0	segment 0 5	Minsk
+T1	segment 6 7	,
+T2	segment 8 12	when
+T3	segment 13 15	it
+T4	segment 16 19	was
+T5	segment 20 25	noted
+T6	segment 26 28	as
+T7	segment 29 30	a
+T8	segment 31 41	provincial
+T9	segment 42 46	city
+T10	segment 47 53	within
+T11	segment 54 57	the
+T12	segment 58 70	principality
+T13	segment 71 73	of
+T14	segment 74 81	Polotsk
+T15	segment 82 83	.
+R0	s_p Arg1:T3 Arg2:T5
+R1	compound Arg1:T5 Arg2:T4
+R2	p_c Arg1:T5 Arg2:T6
+R3	p_c Arg1:T5 Arg2:T10
+R4	p_c Arg1:T5 Arg2:T2
+R5	c_co Arg1:T6 Arg2:T9
+R6	is-specialized-by Arg1:T9 Arg2:T8
+R7	c_co Arg1:T10 Arg2:T12
+R8	is-specialized-by Arg1:T12 Arg2:T13
+R9	c_co Arg1:T13 Arg2:T14

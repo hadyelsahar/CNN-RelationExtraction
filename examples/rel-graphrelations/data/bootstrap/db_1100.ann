@@ -1,0 +1,60 @@
+T0	segment 0 4	Moss
+T1	segment 5 6	&
+T2	segment 7 17	Associates
+T3	segment 18 20	is
+T4	segment 21 24	one
+T5	segment 25 27	of
+T6	segment 28 31	the
+T7	segment 32 41	southeast
+T8	segment 42 45	USA
+T9	segment 45 47	's
+T10	segment 48 55	largest
+T11	segment 56 65	privately
+T12	segment 66 70	held
+T13	segment 71 78	general
+T14	segment 79 90	contractors
+T15	segment 91 100	providing
+T16	segment 101 102	a
+T17	segment 103 110	variety
+T18	segment 111 113	of
+T19	segment 114 122	services
+T20	segment 123 132	including
+T21	segment 133 145	design/build
+T22	segment 145 146	,
+T23	segment 147 154	general
+T24	segment 155 167	construction
+T25	segment 167 168	,
+T26	segment 169 181	construction
+T27	segment 182 192	management
+T28	segment 193 196	and
+T29	segment 197 212	preconstruction
+T30	segment 213 223	consulting
+T31	segment 224 227	for
+T32	segment 228 238	commercial
+T33	segment 238 239	,
+T34	segment 240 253	institutional
+T35	segment 254 257	and
+T36	segment 258 269	residential
+T37	segment 270 278	projects
+T38	segment 279 280	.
+R0	s_p Arg1:T0 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T4
+R4	is-specialized-by Arg1:T4 Arg2:T5
+R5	c_co Arg1:T5 Arg2:T7
+R6	is-specialized-by Arg1:T8 Arg2:T10
+R7	p_o Arg1:T12 Arg2:T14
+R8	is-specialized-by Arg1:T12 Arg2:T11
+R9	is-specialized-by Arg1:T14 Arg2:T13
+R10	p_o Arg1:T15 Arg2:T17
+R11	is-specialized-by Arg1:T17 Arg2:T18
+R12	c_co Arg1:T18 Arg2:T19
+R13	is-specialized-by Arg1:T19 Arg2:T20
+R14	c_co Arg1:T20 Arg2:T21
+R15	is-specialized-by Arg1:T24 Arg2:T23
+R16	compound Arg1:T27 Arg2:T26
+R17	is-specialized-by Arg1:T30 Arg2:T31
+R18	compound Arg1:T30 Arg2:T29
+R19	c_co Arg1:T31 Arg2:T37
+R20	is-specialized-by Arg1:T37 Arg2:T32

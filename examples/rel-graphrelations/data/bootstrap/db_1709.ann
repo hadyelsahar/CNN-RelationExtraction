@@ -1,0 +1,63 @@
+T0	segment 0 14	LogoSportswear
+T1	segment 15 17	is
+T2	segment 18 20	an
+T3	segment 21 27	online
+T4	segment 28 36	retailer
+T5	segment 37 39	of
+T6	segment 40 46	custom
+T7	segment 47 51	caps
+T8	segment 51 52	,
+T9	segment 53 59	custom
+T10	segment 60 66	shirts
+T11	segment 66 67	,
+T12	segment 68 72	team
+T13	segment 73 81	uniforms
+T14	segment 81 82	,
+T15	segment 83 89	custom
+T16	segment 90 98	workwear
+T17	segment 98 99	,
+T18	segment 100 104	logo
+T19	segment 105 109	golf
+T20	segment 110 116	shirts
+T21	segment 117 120	and
+T22	segment 121 125	golf
+T23	segment 126 136	tournament
+T24	segment 137 142	gifts
+T25	segment 142 143	,
+T26	segment 144 155	promotional
+T27	segment 156 160	logo
+T28	segment 161 166	items
+T29	segment 167 170	and
+T30	segment 171 176	signs
+T31	segment 177 180	and
+T32	segment 181 188	banners
+T33	segment 189 198	customers
+T34	segment 199 202	can
+T35	segment 203 209	design
+T36	segment 210 216	online
+T37	segment 217 220	any
+T38	segment 221 224	way
+T39	segment 225 229	they
+T40	segment 230 234	like
+T41	segment 235 236	.
+R0	s_p Arg1:T0 Arg2:T1
+R1	p_o Arg1:T1 Arg2:T4
+R2	is-specialized-by Arg1:T4 Arg2:T3
+R3	is-specialized-by Arg1:T4 Arg2:T5
+R4	c_co Arg1:T5 Arg2:T7
+R5	compound Arg1:T7 Arg2:T6
+R6	compound Arg1:T10 Arg2:T9
+R7	compound Arg1:T13 Arg2:T12
+R8	compound Arg1:T16 Arg2:T15
+R9	compound Arg1:T20 Arg2:T19
+R10	compound Arg1:T20 Arg2:T18
+R11	compound Arg1:T24 Arg2:T22
+R12	compound Arg1:T24 Arg2:T23
+R13	compound Arg1:T28 Arg2:T27
+R14	is-specialized-by Arg1:T28 Arg2:T26
+R15	s_p Arg1:T33 Arg2:T35
+R16	compound Arg1:T33 Arg2:T32
+R17	p_o Arg1:T35 Arg2:T38
+R18	compound Arg1:T35 Arg2:T34
+R19	is-specialized-by Arg1:T38 Arg2:T36
+R20	s_p Arg1:T39 Arg2:T40

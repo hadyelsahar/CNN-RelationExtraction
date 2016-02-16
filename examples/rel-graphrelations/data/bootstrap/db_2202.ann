@@ -1,0 +1,85 @@
+T0	segment 0 6	Andrei
+T1	segment 7 17	Romanovich
+T2	segment 18 27	Chikatilo
+T3	segment 28 31	was
+T4	segment 32 33	a
+T5	segment 34 40	Soviet
+T6	segment 41 47	serial
+T7	segment 48 54	killer
+T8	segment 54 55	,
+T9	segment 56 65	nicknamed
+T10	segment 66 69	the
+T11	segment 70 77	Butcher
+T12	segment 78 80	of
+T13	segment 81 87	Rostov
+T14	segment 87 88	,
+T15	segment 89 92	the
+T16	segment 93 96	Red
+T17	segment 97 103	Ripper
+T18	segment 103 104	,
+T19	segment 105 108	and
+T20	segment 109 112	the
+T21	segment 113 119	Rostov
+T22	segment 120 126	Ripper
+T23	segment 126 127	,
+T24	segment 128 131	who
+T25	segment 132 141	committed
+T26	segment 142 145	the
+T27	segment 146 152	sexual
+T28	segment 153 160	assault
+T29	segment 160 161	,
+T30	segment 162 168	murder
+T31	segment 169 172	and
+T32	segment 173 183	mutilation
+T33	segment 184 186	of
+T34	segment 187 188	a
+T35	segment 189 196	minimum
+T36	segment 197 199	of
+T37	segment 200 202	52
+T38	segment 203 208	women
+T39	segment 209 212	and
+T40	segment 213 221	children
+T41	segment 222 229	between
+T42	segment 230 234	1978
+T43	segment 235 238	and
+T44	segment 239 243	1990
+T45	segment 244 246	in
+T46	segment 247 250	the
+T47	segment 251 258	Russian
+T48	segment 259 263	SFSR
+T49	segment 263 264	,
+T50	segment 265 268	the
+T51	segment 269 278	Ukrainian
+T52	segment 279 282	SSR
+T53	segment 283 286	and
+T54	segment 287 290	the
+T55	segment 291 296	Uzbek
+T56	segment 297 300	SSR
+T57	segment 301 302	.
+R0	s_p Arg1:T2 Arg2:T3
+R1	compound Arg1:T2 Arg2:T0
+R2	compound Arg1:T2 Arg2:T1
+R3	p_o Arg1:T3 Arg2:T7
+R4	is-specialized-by Arg1:T7 Arg2:T5
+R5	p_o Arg1:T9 Arg2:T11
+R6	is-specialized-by Arg1:T11 Arg2:T12
+R7	c_co Arg1:T12 Arg2:T13
+R8	compound Arg1:T17 Arg2:T16
+R9	compound Arg1:T22 Arg2:T21
+R10	s_p Arg1:T24 Arg2:T25
+R11	p_c Arg1:T25 Arg2:T45
+R12	p_o Arg1:T25 Arg2:T28
+R13	is-specialized-by Arg1:T28 Arg2:T33
+R14	is-specialized-by Arg1:T28 Arg2:T27
+R15	c_co Arg1:T33 Arg2:T35
+R16	is-specialized-by Arg1:T35 Arg2:T36
+R17	c_co Arg1:T36 Arg2:T38
+R18	is-specialized-by Arg1:T38 Arg2:T41
+R19	is-specialized-by Arg1:T38 Arg2:T37
+R20	c_co Arg1:T41 Arg2:T42
+R21	compound Arg1:T44 Arg2:T43
+R22	compound Arg1:T44 Arg2:T42
+R23	c_co Arg1:T45 Arg2:T48
+R24	is-specialized-by Arg1:T48 Arg2:T47
+R25	is-specialized-by Arg1:T52 Arg2:T51
+R26	is-specialized-by Arg1:T56 Arg2:T55

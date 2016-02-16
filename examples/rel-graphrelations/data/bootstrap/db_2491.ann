@@ -1,0 +1,40 @@
+T0	segment 0 3	The
+T1	segment 4 9	Duchy
+T2	segment 10 12	of
+T3	segment 13 19	Naples
+T4	segment 20 21	,
+T5	segment 22 25	and
+T6	segment 26 33	rapidly
+T7	segment 34 40	became
+T8	segment 41 42	a
+T9	segment 43 45	de
+T10	segment 46 51	facto
+T11	segment 52 63	independent
+T12	segment 64 69	state
+T13	segment 69 70	,
+T14	segment 71 78	lasting
+T15	segment 79 83	more
+T16	segment 84 88	than
+T17	segment 89 93	five
+T18	segment 94 103	centuries
+T19	segment 104 110	during
+T20	segment 111 114	the
+T21	segment 115 120	Early
+T22	segment 121 124	and
+T23	segment 125 129	High
+T24	segment 130 136	Middle
+T25	segment 137 141	Ages
+T26	segment 142 143	.
+R0	is-specialized-by Arg1:T1 Arg2:T2
+R1	s_p Arg1:T1 Arg2:T7
+R2	c_co Arg1:T2 Arg2:T3
+R3	is-specialized-by Arg1:T12 Arg2:T9
+R4	p_o Arg1:T14 Arg2:T18
+R5	is-specialized-by Arg1:T14 Arg2:T19
+R6	compound Arg1:T15 Arg2:T16
+R7	is-specialized-by Arg1:T17 Arg2:T15
+R8	compound Arg1:T18 Arg2:T16
+R9	compound Arg1:T18 Arg2:T15
+R10	compound Arg1:T18 Arg2:T17
+R11	c_co Arg1:T19 Arg2:T24
+R12	is-specialized-by Arg1:T24 Arg2:T21

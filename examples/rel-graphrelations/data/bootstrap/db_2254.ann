@@ -1,0 +1,44 @@
+T0	segment 0 5	Based
+T1	segment 6 8	in
+T2	segment 9 14	Santa
+T3	segment 15 21	Monica
+T4	segment 21 22	,
+T5	segment 23 33	California
+T6	segment 33 34	,
+T7	segment 35 41	Myriad
+T8	segment 42 50	Pictures
+T9	segment 51 53	is
+T10	segment 54 55	a
+T11	segment 56 63	leading
+T12	segment 64 75	independent
+T13	segment 76 89	entertainment
+T14	segment 90 97	company
+T15	segment 98 110	specializing
+T16	segment 111 113	in
+T17	segment 114 124	production
+T18	segment 124 125	,
+T19	segment 126 135	financing
+T20	segment 136 139	and
+T21	segment 140 149	worldwide
+T22	segment 150 162	distribution
+T23	segment 163 165	of
+T24	segment 166 173	feature
+T25	segment 174 179	films
+T26	segment 180 183	and
+T27	segment 184 194	television
+T28	segment 195 206	programming
+T29	segment 207 208	.
+R0	compound Arg1:T3 Arg2:T2
+R1	compound Arg1:T8 Arg2:T7
+R2	s_p Arg1:T8 Arg2:T9
+R3	p_o Arg1:T9 Arg2:T14
+R4	compound Arg1:T14 Arg2:T13
+R5	is-specialized-by Arg1:T14 Arg2:T11
+R6	is-specialized-by Arg1:T15 Arg2:T16
+R7	c_co Arg1:T16 Arg2:T22
+R8	compound Arg1:T19 Arg2:T17
+R9	compound Arg1:T22 Arg2:T19
+R10	is-specialized-by Arg1:T22 Arg2:T23
+R11	c_co Arg1:T23 Arg2:T25
+R12	compound Arg1:T25 Arg2:T24
+R13	compound Arg1:T28 Arg2:T27
