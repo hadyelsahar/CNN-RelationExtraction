@@ -184,7 +184,7 @@ class Batcher:
     """
     a helper class to create batches given a dataset
     """
-    def __init__(self, X, y, batchsize=10):
+    def __init__(self, X, y, batchsize=50):
         """
 
         :param X: array(any) : array of whole training inputs
