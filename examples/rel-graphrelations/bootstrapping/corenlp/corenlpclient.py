@@ -42,6 +42,7 @@ class Parse:
         """
 
         self.tokens = [i['originalText'] for i in parsed["sentences"][0]["tokens"]]
+        self.positions = [(i['characterOffsetBegin'],i['characterOffsetEnd']) for i in parsed["sentences"][0]["tokens"]]
         self.postags = [i['pos'] for i in parsed["sentences"][0]["tokens"]]
         self.ner = [i['ner'] for i in parsed["sentences"][0]["tokens"]]
 
