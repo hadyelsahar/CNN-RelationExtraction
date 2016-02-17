@@ -153,7 +153,6 @@ class CNN(BaseEstimator, ClassifierMixin):
                     # divide dataset into small batches of 100 sentences (to fit in memory size of the GPU)
                     acc = []
                     y_test_batches = Batcher.chunks(y_test, 100)
-
                     for c, t in enumerate(Batcher.chunks(X_test, 100)):
                         y_pred = self.predict(t)
                         acc.append(accuracy_score(y_test_batches[c], y_pred))
