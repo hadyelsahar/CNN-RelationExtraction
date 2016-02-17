@@ -9,6 +9,14 @@ from CNN import *
 import pickle as pk
 import os
 import numpy as np
+import argparse
+
+
+parser = argparse.ArgumentParser(description='relation extraction using bootstrapped training set and CNN')
+parser.add_argument('-bs', '--boot_size', help='size of the bootstrapping', required=False)
+parser.add_argument('-smp', '--saved_model_path', help='saved model file name', required=True)
+args = parser.parse_args()
+
 
 ###########################################
 # Preprocessing:
@@ -18,7 +26,8 @@ import numpy as np
 #######################################
 
 fout = open('experiment-results-%s.txt' % time.strftime("%d-%m-%Y-%I:%M:%S"), 'w')
-saved_model_path = "/dev/dataset.p"
+
+saved_model_path = args.saved_model_path
 
 if not os.path.exists(saved_model_path):
     print "preprocessed data file doesn't exist.. running extraciton process"
@@ -28,8 +37,9 @@ if not os.path.exists(saved_model_path):
     vectorizer = RelationMentionVectorizer()
 
     # debug with small size bootstrapping data
-    # p_bootstrap.X = p_bootstrap.X[0:10000]
-    # p_bootstrap.y = p_bootstrap.y[0:10000]
+    if args.boot_size is not None :
+        p_bootstrap.X = p_bootstrap.X[0:int(args.boot_size)]
+        p_bootstrap.y = p_bootstrap.y[0:int(args.boot_size)]
 
     print "fitting dataset.."
     vectorizer.fit(np.concatenate([p.X, p_bootstrap.X], 0))
