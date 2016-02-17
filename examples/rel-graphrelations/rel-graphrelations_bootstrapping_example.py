@@ -1,6 +1,6 @@
 __author__ = 'hadyelsahar'
 
-
+import time
 from relationpreprocessor import *
 sys.path.append('../../')
 from Vectorizers.relationmentionvectorizer import *
