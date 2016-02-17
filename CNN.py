@@ -102,7 +102,7 @@ class CNN(BaseEstimator, ClassifierMixin):
 
         cross_entropy = -tf.reduce_sum(self.y_ * tf.log(self.y_conv))
 
-        self.train_step = tf.train.AdamOptimizer(1e-4).minimize(cross_entropy)
+        self.train_step = tf.train.AdamOptimizer(1e-3).minimize(cross_entropy)
         # self.train_step = tf.train.AdagradOptimizer(1e-3).minimize(cross_entropy)
 
         self.correct_prediction = tf.equal(tf.argmax(self.y_conv, 1), tf.argmax(self.y_, 1))
