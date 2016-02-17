@@ -17,7 +17,10 @@ import numpy as np
 # y: array(string) : labels of realations
 #######################################
 
-if not os.path.exists("/mnt/dataset.p"):
+fout = open('experiment-results-%s.txt' % time.strftime("%d-%m-%Y-%I:%M:%S"), 'w')
+saved_model_path = "/dev/dataset.p"
+
+if not os.path.exists(saved_model_path):
     print "preprocessed data file doesn't exist.. running extraciton process"
     p = RelationPreprocessor()
     p_bootstrap = RelationPreprocessor(inputdir='./data/bootstrap')
@@ -25,8 +28,8 @@ if not os.path.exists("/mnt/dataset.p"):
     vectorizer = RelationMentionVectorizer()
 
     # debug with small size bootstrapping data
-    p_bootstrap.X = p_bootstrap.X[0:10000]
-    p_bootstrap.y = p_bootstrap.y[0:10000]
+    # p_bootstrap.X = p_bootstrap.X[0:10000]
+    # p_bootstrap.y = p_bootstrap.y[0:10000]
 
     print "fitting dataset.."
     vectorizer.fit(np.concatenate([p.X, p_bootstrap.X], 0))
@@ -41,21 +44,21 @@ if not os.path.exists("/mnt/dataset.p"):
     y_bootstrap = p_bootstrap.y
     y = p.y
     print "saving models ..."
-    pk.dump((X, y, X_bootstrap, y_bootstrap), file=open("/mnt/dataset.p", 'w'))
+    pk.dump((X, y, X_bootstrap, y_bootstrap), file=open(saved_model_path, 'w'))
     print "models saved"
 else:
     print "preprocessed file exists.. loading.."
-    X, y, X_bootstrap, y_bootstrap = pk.load(open("/mnt/dataset.p", 'r'))
+    X, y, X_bootstrap, y_bootstrap = pk.load(open(saved_model_path, 'r'))
 
 # todo use scikit learn cv vectorizer as RelationMentionVectorizer implements scikitlearn interface
 
 y = np.array(y)
 
-x_train = np.concatenate([X[0:1700], X_bootstrap], 0)
-x_test = X[1700:]
+x_train = np.concatenate([X[0:2200], X_bootstrap], 0)
+x_test = X[2200:]
 
-y_train = np.concatenate([y[0:1700], y_bootstrap], 0)
-y_test = y[1700:]
+y_train = np.concatenate([y[0:2200], y_bootstrap], 0)
+y_test = y[2200:]
 
 print "size of dataset is : %s \n" \
       "bootstrapping size  : %s \n" \
@@ -86,9 +89,18 @@ print "testing"
 
 # Testing :
 ###########
-y_pred = cnn.predict(x_test)
+y_pred = np.array([])
 
-print classification_report(y_test, y_pred)
+for c, t in enumerate(Batcher.chunks(x_test, 100)):
+    y_pred = np.append(y_pred, cnn.predict(t))
+
+classification_rep = classification_report(y_test, y_pred)
+print classification_rep
+
+fout.write(classification_rep+"\n")
+fout.flush()
+
+fout.close()
 
 
 
