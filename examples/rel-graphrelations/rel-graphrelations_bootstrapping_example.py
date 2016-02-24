@@ -14,7 +14,7 @@ import argparse
 
 parser = argparse.ArgumentParser(description='relation extraction using bootstrapped training set and CNN')
 parser.add_argument('-bs', '--boot_size', help='size of the bootstrapping', required=False)
-parser.add_argument('-smp', '--saved_model_path', help='saved model file name', required=True)
+parser.add_argument('-smp', '--saved_model_path', help='saved model file name', required=False)
 args = parser.parse_args()
 
 
