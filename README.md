@@ -2,7 +2,7 @@
 Convolution neural network for relation classification between two given entities
 
  The CNN architecture implemented is inspired be Nguyen et al. 2015 in which for each: 
-![CNN architecture showing the two embeddings included: word vector embeddings and position embeddings](http://i.imgur.com/4B19ERa.png)
+![CNN architecture showing the two embeddings included: word vector embeddings and position embeddings](http://i.imgur.com/JbhMRzP.png)
 
 ##Future work: 
 
