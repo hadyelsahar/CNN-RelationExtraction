@@ -4,11 +4,11 @@ Convolution neural network for relation classification between two given entitie
  The CNN architecture implemented is inspired be Nguyen et al. 2015 in which for each: 
 ![CNN architecture showing the two embeddings included: word vector embeddings and position embeddings](http://i.imgur.com/JbhMRzP.png)
 
-##Future work: 
+<!--##Future work: -->
 
-- Implementing additional crafted features to `vectorizers/relationmentionvectorizer.py` such as pos tags and dependency relations. 
-- Implementing sentence based features : in which additional sentence based features are added including two head words to find relations between them  
- ![CNN architecture showing two different features: Sentence level features and Word based features](http://i.imgur.com/IoDFAPz.png?1)
+<!--- Implementing additional crafted features to `vectorizers/relationmentionvectorizer.py` such as pos tags and dependency relations. -->
+<!--- Implementing sentence based features : in which additional sentence based features are added including two head words to find relations between them  -->
+<!-- ![CNN architecture showing two different features: Sentence level features and Word based features](http://i.imgur.com/IoDFAPz.png?1)-->
 
 ## References: 
 
