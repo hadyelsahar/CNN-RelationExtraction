@@ -95,7 +95,7 @@ class CNN(BaseEstimator, ClassifierMixin):
         self.keep_prob = tf.placeholder("float")
         h_fc1_drop = tf.nn.dropout(h_fc1, self.keep_prob)
 
-        W_fc2 = CNN.weight_variable([256, len(self.classes)])
+        W_fc2 = CNN.weight_variable([32, len(self.classes)])
         b_fc2 = CNN.bias_variable([len(self.classes)])
 
         self.y_conv = tf.nn.softmax(tf.matmul(h_fc1_drop, W_fc2) + b_fc2)
