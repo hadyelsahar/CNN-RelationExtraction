@@ -67,7 +67,7 @@ class CNN(BaseEstimator, ClassifierMixin):
 
         self.conv_width, self.conv_length = conv_shape
 
-        W_conv1 = CNN.weight_variable([self.conv_width, self.conv_length, 1, 5])
+        W_conv1 = CNN.weight_variable([self.conv_width, self.conv_length, 1, 7])
         b_conv1 = CNN.bias_variable([5])
 
         h_conv1 = tf.nn.relu(CNN.conv2d(self.x, W_conv1) + b_conv1)
