@@ -4,6 +4,39 @@ from sklearn.base import TransformerMixin
 import wordvectorizer
 import numpy as np
 from wordvectorizer import WordVectorizer
+import threading
+
+
+
+class Transform_Thread(threading.Thread):
+    def __init__(self, threadID, X, vectors_for_unique_segments, Wposlookup, X_out):
+        threading.Thread.__init__(self)
+        self.threadID = threadID
+
+        self.X = X
+        self.vectors_for_unique_segments = vectors_for_unique_segments
+        self.Wposlookup = Wposlookup
+        self.X_out = X_out
+
+    def run(self):
+        print "Starting Thread: %s" % self.threadID
+
+        for c, i in enumerate(self.X):
+            if c % 100 == 0 :
+                print "vectorizing %s out of %s" %(c, len(self.X))
+
+            x1 = self.vectors_for_unique_segments[" ".join(i["segments"])]
+
+            # position with respect to ent1
+            x2 = self.Wposlookup(i["ent1"])     # dimension m x _
+            # position with respect to ent2
+            x3 = self.Wposlookup(i["ent2"])     # dimension m x _
+
+            x = np.hstack([x1, x2, x3])         # merging different parts of vector representation of words
+
+            self.X_out = np.append(self.X_out, [x], axis=0)
+
+        print "Exiting Thread:" + self.name
 
 
 # inputs :
@@ -15,7 +48,7 @@ from wordvectorizer import WordVectorizer
 
 class RelationMentionVectorizer(TransformerMixin):
 
-    def __init__(self, position_vector=True, Wposition_size = 10, ner=False, pos=False, dependency=False):
+    def __init__(self, position_vector=True, Wposition_size = 10, ner=False, pos=False, dependency=False, threads=6):
 
         self.position_vector = position_vector
 
@@ -23,6 +56,7 @@ class RelationMentionVectorizer(TransformerMixin):
         self.Wposition = None
         self.Wposition_size = Wposition_size
         self.wordvectorizer = WordVectorizer(ner=ner, pos=pos, dependency=dependency)
+        self.threads = threads
 
         # sizes of the output sequence matrix m is number of words in the sequence
         # n is the size of the vector representation of each word in the sequence
@@ -38,27 +72,48 @@ class RelationMentionVectorizer(TransformerMixin):
 
         X_out = np.zeros([0, self.m, self.n], np.float32)
 
-        for i in X:
+        unique_segments = np.unique([x["segments"] for x in X])
+        vectors_for_unique_segments = {}
 
-            # padding with zeros
-            x1 = [self.wordvectorizer.word2vec(w) for w in i["segments"]]
+        for c, seg in enumerate(unique_segments):
+
+            x1 = [self.wordvectorizer.word2vec(w) for w in seg]
             x1 = np.array(x1, dtype=np.float32)
 
+            # padding with zeros
             padsize = self.m - x1.shape[0]
 
             if padsize > 0:
                 temp = np.zeros((padsize, self.wordvectorizer.model.vector_size))
-
                 x1 = np.vstack([x1, temp])
+                vectors_for_unique_segments[" ".join(seg)] = x1
+        #
+        # for c, i in enumerate(X):
+        #
+        #     print "vectorizing %s out of %s" %(c, len(X))
+        #
+        #     x1 = vectors_for_unique_segments[" ".join(i["segments"])]
+        #
+        #     # position with respect to ent1
+        #     x2 = self.Wposlookup(i["ent1"])     # dimension m x _
+        #     # position with respect to ent2
+        #     x3 = self.Wposlookup(i["ent2"])     # dimension m x _
+        #
+        #     x = np.hstack([x1, x2, x3])         # merging different parts of vector representation of words
+        #
+        #     X_out = np.append(X_out, [x], axis=0)
 
-            # position with respect to ent1
-            x2 = self.Wposlookup(i["ent1"])     # dimension m x _
-            # position with respect to ent2
-            x3 = self.Wposlookup(i["ent2"])     # dimension m x _
+        thread_obj = []
+        for c, X_thread in enumerate(np.array_split(X, self.threads)):
+            T = Transform_Thread(c, X_thread, vectors_for_unique_segments, self.Wposlookup, X_out)
+            thread_obj.append(T)
+            T.start()
 
-            x = np.hstack([x1, x2, x3])         # merging different parts of vector representation of words
+        for T in thread_obj:
+            T.join()
 
-            X_out = np.append(X_out, [x], axis=0)
+        for T in thread_obj:
+            X_out = np.append(X_out, T.X_out, axis=0)
 
         return X_out
 
