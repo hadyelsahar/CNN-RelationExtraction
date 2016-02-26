@@ -8,6 +8,7 @@ from sklearn.metrics import classification_report
 from CNN import *
 import pickle as pk
 import os
+from IPython.core.debugger import Tracer
 
 ###########################################
 # Preprocessing:
@@ -21,9 +22,11 @@ if not os.path.exists("./saved-models/dataset.p"):
     p = RelationPreprocessor()
     vectorizer = RelationMentionVectorizer()
     vectorizer.fit(p.X)
+    print "vectorizing data.."
     X = vectorizer.transform(p.X)
     y = p.y
-    pk.dump((X, y), file=open("./saved-models/dataset.p", 'w'))
+    print "done vectorizing.."
+    # pk.dump((X, y), file=open("./saved-models/dataset.p", 'w'))
 else:
     print "preprocessed file exists.. loading.."
     X, y = pk.load(open("./saved-models/dataset.p", 'r'))
