@@ -33,11 +33,17 @@ else:
     print "preprocessed file exists.. loading.."
     X, y = pk.load(open("./saved-models/dataset.p", 'r'))
 
-# todo use scikit learn cv vectorizer as RelationMentionVectorizer implements scikitlearn interface
 
 y = np.array(y)
 
 x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
+
+otherselector_indices = np.where((y_train != "NoEdge") & (y_train != "c_p") & (y_train != "conj") & (y_train != "coref") & (y_train != "poss"))[0]
+NoEdge_indices = np.where((y_train  == "NoEdge"))[0][0:len(otherselector_indices)/2]  # training with only half total size
+
+selector = np.append(otherselector_indices,NoEdge_indices)
+x_train = x_train[selector]
+y_train = y_train[selector]
 
 
 print "size of dataset is : %s" % len(y)
@@ -52,7 +58,7 @@ print max_w
 x_train = np.reshape(x_train, [-1, max_w, 320, 1])
 x_test = np.reshape(x_test, [-1, max_w, 320, 1])
 
-cnn = CNN(input_shape=[max_w, 320, 1], classes=np.unique(y), conv_shape=[4, 320], epochs=2500)
+cnn = CNN(input_shape=[max_w, 320, 1], classes=np.unique(y), conv_shape=[4, 55], epochs=2500)
 cnn.fit(x_train, y_train, x_test, y_test)
 
 print "done training"
