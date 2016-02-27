@@ -114,7 +114,7 @@ selector = np.append(otherselector_indices, NoEdge_indices)
 x_train = x_train[selector]
 y_train = y_train[selector]
 
-selector = np.where((y_train != "c_p") & (y_train != "conj") & (y_train != "coref") & (y_train != "poss"))[0]
+selector = np.where((y_test != "c_p") & (y_test != "conj") & (y_test != "coref") & (y_test != "poss"))[0]
 x_test = x_test[selector]
 y_test = y_test[selector]
 
