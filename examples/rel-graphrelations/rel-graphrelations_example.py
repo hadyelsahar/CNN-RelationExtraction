@@ -28,10 +28,13 @@ if not os.path.exists("./saved-models/dataset.p"):
     X = vectorizer.transform(p.X)
     y = p.y
     print "done vectorizing.."
-    pk.dump((X, y), file=open("./saved-models/dataset.p", 'w'), protocol=pk.HIGHEST_PROTOCOL)
+    np.save(open("./saved-models/dataset_X.p", 'w'), X)
+    np.save(open("./saved-models/dataset_y.p", 'w'), y)
+
 else:
     print "preprocessed file exists.. loading.."
-    X, y = pk.load(open("./saved-models/dataset.p", 'r'))
+    X = np.load(open("./saved-models/dataset_X.p", 'w'))
+    y = np.load(open("./saved-models/dataset_y.p", 'w'))
 
 
 y = np.array(y)
