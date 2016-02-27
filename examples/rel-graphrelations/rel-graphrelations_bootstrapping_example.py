@@ -6,7 +6,7 @@ sys.path.append('../../')
 from Vectorizers.relationmentionvectorizer import *
 from sklearn.metrics import classification_report
 from CNN import *
-import pickle as pk
+import cPickle as pk
 import os
 import numpy as np
 import argparse
@@ -53,7 +53,7 @@ if not os.path.exists(saved_model_path+"dataset.p"):
     X = vectorizer.transform(p.X)
     y = p.y
 
-    if int(args.bootstrap_size) > 0 :
+    if int(args.bootstrap_size) > 0:
         print "vectorization of bootstrapped data.."
         X_bootstrap = vectorizer.transform(p_bootstrap.X)
         y_bootstrap = p_bootstrap.y
@@ -61,11 +61,11 @@ if not os.path.exists(saved_model_path+"dataset.p"):
         X_bootstrap, y_bootstrap = [], []
 
     print "saving manual annotated data..."
-    pk.dump((X, y), file=open(saved_model_path+"dataset.p", 'w'))
+    pk.dump((X, y), file=open(saved_model_path+"dataset.p", 'w'), protocol=pk.HIGHEST_PROTOCOL)
 
     if int(args.bootstrap_size) > 0:
         print "saving bootstrapped data.."
-        pk.dump((X_bootstrap, y_bootstrap), file=open(saved_model_path+"dataset_bootstrapped.p", 'w'))
+        pk.dump((X_bootstrap, y_bootstrap), file=open(saved_model_path+"dataset_bootstrapped.p", 'w'), protocol=pk.HIGHEST_PROTOCOL)
 
     print "models saved"
 
