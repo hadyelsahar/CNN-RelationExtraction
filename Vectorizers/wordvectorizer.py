@@ -6,9 +6,7 @@ import numpy as np
 import gensim
 
 from sklearn.base import TransformerMixin
-from nltk.util import ngrams
 from nltk.tokenize import TreebankWordTokenizer
-from scipy.sparse import *
 from os import path
 
 _W2V_BINARY_PATH = path.dirname(path.abspath(__file__)) + "/word2vec/GoogleNews-vectors-negative300.bin.gz"
