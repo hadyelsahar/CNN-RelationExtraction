@@ -48,7 +48,6 @@ print "now training..."
 ####################
 max_w = X.shape[1]
 print max_w
-# max_w = 27
 
 x_train = np.reshape(x_train, [-1, max_w, 320, 1])
 x_test = np.reshape(x_test, [-1, max_w, 320, 1])
