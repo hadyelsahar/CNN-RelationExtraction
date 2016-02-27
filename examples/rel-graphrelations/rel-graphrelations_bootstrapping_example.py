@@ -110,12 +110,13 @@ y_train = np.concatenate([y_train, y_bootstrap_limited], 0)
 otherselector_indices = np.where((y_train != "NoEdge") & (y_train != "c_p") & (y_train != "conj") & (y_train != "coref") & (y_train != "poss"))[0]
 NoEdge_indices = np.where((y_train  == "NoEdge"))[0][0:len(otherselector_indices)/5]  # training with only half total size
 
-selector = np.append(otherselector_indices,NoEdge_indices)
+selector = np.append(otherselector_indices, NoEdge_indices)
 x_train = x_train[selector]
 y_train = y_train[selector]
 
-
-
+selector = np.where((y_train != "c_p") & (y_train != "conj") & (y_train != "coref") & (y_train != "poss"))[0]
+x_test = x_test[selector]
+y_test = y_test[selector]
 
 
 print "size of dataset is : %s \n" \
@@ -138,9 +139,9 @@ x_train = np.reshape(x_train, [-1, max_w, 320, 1])
 x_test = np.reshape(x_test, [-1, max_w, 320, 1])
 
 
-y_classes = np.unique(np.concatenate([y, y_bootstrap], 0))
+y_classes = np.unique(y_train)
 
-cnn = CNN(input_shape=[max_w, 320, 1], classes=y_classes, conv_shape=[4, 55], epochs=10000)
+cnn = CNN(input_shape=[max_w, 320, 1], classes=y_classes, conv_shape=[4, 55], epochs=1500)
 cnn.fit(x_train, y_train, x_test, y_test)
 
 print "done training"

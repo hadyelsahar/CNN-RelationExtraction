@@ -85,7 +85,7 @@ class CNN(BaseEstimator, ClassifierMixin):
         # max pooling : reduces size into half
         h_pool2_l = np.ceil(np.ceil(self.m/2.0)/2.0)
         h_pool2_w = np.ceil(np.ceil(self.n/2.0)/2.0)
-        h_pool2_flat_shape = int(h_pool2_l * h_pool2_w * 32)
+        h_pool2_flat_shape = int(h_pool2_l * h_pool2_w * 65)
 
         W_fc1 = CNN.weight_variable([h_pool2_flat_shape, 256])
         b_fc1 = CNN.bias_variable([256])
@@ -103,8 +103,8 @@ class CNN(BaseEstimator, ClassifierMixin):
 
         cross_entropy = -tf.reduce_sum(self.y_ * tf.log(self.y_conv))
 
-        self.train_step = tf.train.AdamOptimizer(1e-2).minimize(cross_entropy)
-        # self.train_step = tf.train.AdagradOptimizer(1e-3).minimize(cross_entropy)
+        # self.train_step = tf.train.AdamOptimizer(1e-3).minimize(cross_entropy)
+        self.train_step = tf.train.AdagradOptimizer(1e-3).minimize(cross_entropy)
 
         self.correct_prediction = tf.equal(tf.argmax(self.y_conv, 1), tf.argmax(self.y_, 1))
         self.accuracy = tf.reduce_mean(tf.cast(self.correct_prediction, "float"))
@@ -153,15 +153,15 @@ class CNN(BaseEstimator, ClassifierMixin):
 
                     # divide dataset into small batches of 100 sentences (to fit in memory size of the GPU)
                     acc = []
-                    # y_pred_all = []
+                    y_pred_all = []
                     y_test_batches = Batcher.chunks(y_test, 100)
                     for c, t in enumerate(Batcher.chunks(X_test, 100)):
                         y_pred = self.predict(t)
-                        # y_pred_all = np.append(y_pred_all, y_pred)
+                        y_pred_all = np.append(y_pred_all, y_pred)
                         acc.append(accuracy_score(y_test_batches[c], y_pred))
 
                     print "step %d, test accuracy %g" % (i, np.average(acc))
-                    # print classification_report(y_test, y_pred_all)
+                    print classification_report(y_test, y_pred_all)
 
             self.train_step.run(feed_dict={self.x: batch[0], self.y_: batch[1], self.keep_prob: self.dropout})
 
