@@ -23,11 +23,8 @@ y = p.y
 
 y = np.array(y)
 
-x_train = X[0:1700]
-x_test = X[1700:]
 
-y_train = y[0:1700]
-y_test = y[1700:]
+x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 
 
 print "size of dataset is : %s" % len(y)
