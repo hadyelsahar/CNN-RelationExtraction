@@ -19,8 +19,8 @@ __RELATIONS__ = {
     "poss": "poss",
     "is-specialized-by": "is-specialized-by",
     "conj": "conj",
-    "compound": "compound"
-    "NoEdge" : "NoEdge"
+    "compound": "compound",
+    "NoEdge": "NoEdge"
 }
 
 __DEPRELATIONS__ = {
