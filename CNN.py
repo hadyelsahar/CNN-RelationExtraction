@@ -74,24 +74,24 @@ class CNN(BaseEstimator, ClassifierMixin):
         h_conv1 = tf.nn.relu(CNN.conv2d(self.x, W_conv1) + b_conv1)
         h_pool1 = CNN.max_pool_2x2(h_conv1)
 
-        W_conv2 = CNN.weight_variable([3, 3, 16, 8])
-        b_conv2 = CNN.bias_variable([8])
-
-        h_conv2 = tf.nn.relu(CNN.conv2d(h_pool1, W_conv2) + b_conv2)
-        h_pool2 = CNN.max_pool_2x2(h_conv2)
+        # W_conv2 = CNN.weight_variable([3, 3, 16, 8])
+        # b_conv2 = CNN.bias_variable([8])
+        #
+        # h_conv2 = tf.nn.relu(CNN.conv2d(h_pool1, W_conv2) + b_conv2)
+        # h_pool2 = CNN.max_pool_2x2(h_conv2)
 
         # calculating shape of h_pool2
         # conv2d with our conf. keeps original size
         # max pooling : reduces size into half
-        h_pool2_l = np.ceil(np.ceil(self.m/2.0)/2.0)
-        h_pool2_w = np.ceil(np.ceil(self.n/2.0)/2.0)
-        h_pool2_flat_shape = int(h_pool2_l * h_pool2_w * 8)
+        h_pool1_l = np.ceil(self.m/2.0)
+        h_pool1_w = np.ceil(self.n/2.0)
+        h_pool1_flat_shape = int(h_pool1_l * h_pool1_w * 16)
 
-        W_fc1 = CNN.weight_variable([h_pool2_flat_shape, 128])
+        W_fc1 = CNN.weight_variable([h_pool1_flat_shape, 128])
         b_fc1 = CNN.bias_variable([128])
 
-        h_pool2_flat = tf.reshape(h_pool2, [-1, h_pool2_flat_shape])
-        h_fc1 = tf.nn.relu(tf.matmul(h_pool2_flat, W_fc1) + b_fc1)
+        h_pool1_flat = tf.reshape(h_pool1, [-1, h_pool1_flat_shape])
+        h_fc1 = tf.nn.relu(tf.matmul(h_pool1_flat, W_fc1) + b_fc1)
 
         self.keep_prob = tf.placeholder("float")
         h_fc1_drop = tf.nn.dropout(h_fc1, self.keep_prob)
