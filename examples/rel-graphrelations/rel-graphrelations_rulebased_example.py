@@ -3,7 +3,7 @@ __author__ = 'hadyelsahar'
 
 from relationpreprocessor import *
 sys.path.append('../../')
-
+from sklearn.cross_validation import train_test_split
 from sklearn.metrics import classification_report
 from CNN import *
 from bootstrapping.rulebased_relextractor import RuleBasedRelationExtractor
