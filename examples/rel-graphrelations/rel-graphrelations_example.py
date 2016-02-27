@@ -6,7 +6,7 @@ sys.path.append('../../')
 from Vectorizers.relationmentionvectorizer import *
 from sklearn.metrics import classification_report
 from CNN import *
-import pickle as pk
+import cPickle as pk
 import os
 from IPython.core.debugger import Tracer
 from sklearn.cross_validation import train_test_split
