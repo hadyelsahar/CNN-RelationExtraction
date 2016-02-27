@@ -7,7 +7,6 @@ from corenlp.corenlpclient import *
 from unicodedata import normalize
 import codecs
 
-
 # Predifine relations tags here for easy change
 __RELATIONS__ = {
     "s_p": "s_p",
@@ -21,6 +20,7 @@ __RELATIONS__ = {
     "is-specialized-by": "is-specialized-by",
     "conj": "conj",
     "compound": "compound"
+    "NoEdge" : "NoEdge"
 }
 
 __DEPRELATIONS__ = {
@@ -84,7 +84,7 @@ class RuleBasedRelationExtractor(BaseEstimator, ClassifierMixin):
             return rel[0]
 
         else:
-            return "0"
+            return __RELATIONS__["NoEdge"]
 
     def predict(self, X):
         """
