@@ -90,7 +90,8 @@ else:
         y_bootstrap = np.load(open(saved_model_path+"dataset_y_boot.p", 'r'))
 
     else:
-        X_bootstrap, y_bootstrap = [], []
+        X_bootstrap = np.zeros(shape=(0, X.shape[1]))
+        y_bootstrap = np.zeros(shape=(0, y.shape[1]))
 
 
 y = np.array(y)
@@ -138,7 +139,7 @@ x_test = np.reshape(x_test, [-1, max_w, 320, 1])
 
 y_classes = np.unique(np.concatenate([y, y_bootstrap], 0))
 
-cnn = CNN(input_shape=[max_w, 320, 1], classes=y_classes, conv_shape=[4, 55], epochs=20000)
+cnn = CNN(input_shape=[max_w, 320, 1], classes=y_classes, conv_shape=[4, 55], epochs=10000)
 cnn.fit(x_train, y_train, x_test, y_test)
 
 print "done training"
