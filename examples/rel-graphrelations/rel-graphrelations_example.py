@@ -9,6 +9,8 @@ from CNN import *
 import pickle as pk
 import os
 from IPython.core.debugger import Tracer
+from sklearn.cross_validation import train_test_split
+
 
 ###########################################
 # Preprocessing:
@@ -20,13 +22,13 @@ from IPython.core.debugger import Tracer
 if not os.path.exists("./saved-models/dataset.p"):
     print "preprocessed data file doesn't exist.. running extraciton process"
     p = RelationPreprocessor()
-    vectorizer = RelationMentionVectorizer()
+    vectorizer = RelationMentionVectorizer(threads=7)
     vectorizer.fit(p.X)
     print "vectorizing data.."
     X = vectorizer.transform(p.X)
     y = p.y
     print "done vectorizing.."
-    # pk.dump((X, y), file=open("./saved-models/dataset.p", 'w'))
+    pk.dump((X, y), file=open("./saved-models/dataset.p", 'w'))
 else:
     print "preprocessed file exists.. loading.."
     X, y = pk.load(open("./saved-models/dataset.p", 'r'))
@@ -35,11 +37,7 @@ else:
 
 y = np.array(y)
 
-x_train = X[0:1700]
-x_test = X[1700:]
-
-y_train = y[0:1700]
-y_test = y[1700:]
+x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 
 
 print "size of dataset is : %s" % len(y)
