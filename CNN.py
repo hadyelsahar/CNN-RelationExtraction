@@ -5,6 +5,7 @@ import numpy as np
 from sklearn.base import BaseEstimator, ClassifierMixin
 from sklearn.metrics import accuracy_score
 import tensorflow as tf
+from sklearn.metrics import classification_report
 import pickle as pk
 
 
@@ -152,12 +153,15 @@ class CNN(BaseEstimator, ClassifierMixin):
 
                     # divide dataset into small batches of 100 sentences (to fit in memory size of the GPU)
                     acc = []
+                    y_pred_all = []
                     y_test_batches = Batcher.chunks(y_test, 100)
                     for c, t in enumerate(Batcher.chunks(X_test, 100)):
                         y_pred = self.predict(t)
+                        y_pred_all = np.append(y_pred_all, y_pred)
                         acc.append(accuracy_score(y_test_batches[c], y_pred))
 
                     print "step %d, test accuracy %g" % (i, np.average(acc))
+                    print classification_report(y_test, y_pred_all)
 
             self.train_step.run(feed_dict={self.x: batch[0], self.y_: batch[1], self.keep_prob: self.dropout})
 
