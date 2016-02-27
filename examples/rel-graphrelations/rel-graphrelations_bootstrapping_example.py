@@ -69,7 +69,6 @@ if not os.path.exists(saved_model_path+"dataset.p"):
         X_bootstrap, y_bootstrap = [], []
 
     print "saving manual annotated data..."
-    pk.dump((X, y), file=open(saved_model_path+"dataset.p", 'w'), protocol=pk.HIGHEST_PROTOCOL)
     np.save(open(saved_model_path+"dataset_X.p", 'w'), X)
     np.save(open(saved_model_path+"dataset_y.p", 'w'), y)
 
