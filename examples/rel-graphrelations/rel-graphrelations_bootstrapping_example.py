@@ -38,6 +38,14 @@ if not os.path.exists(saved_model_path+"dataset.p"):
     if int(args.bootstrap_size) > 0:
 
         p_bootstrap = RelationPreprocessor(inputdir='./data/bootstrap')
+
+        print "reducing bootstrapping sizes for experiments time"
+        selector = np.where((p_bootstrap.y  != "NoEdge") & (p_bootstrap.y  != "c_p") & (p_bootstrap.y  != "conj") & (p_bootstrap.y  != "coref") & (p_bootstrap.y  != "poss"))[0]
+        selector = selector[:10000]
+
+        p_bootstrap.y = p_bootstrap.y[selector]
+        p_bootstrap.X = p_bootstrap.X[selector]
+
         print "fitting dataset.."
         vectorizer.fit(np.concatenate([p.X, p_bootstrap.X], 0))
         print "done fitting dataset"
@@ -95,6 +103,17 @@ y_bootstrap_limited = y_bootstrap[0:args.bootstrap_size]
 # addition of bootstrapping data
 x_train = np.concatenate([x_train, X_bootstrap_limited], 0)
 y_train = np.concatenate([y_train, y_bootstrap_limited], 0)
+
+
+otherselector_indices = np.where((y_train != "NoEdge") & (y_train != "c_p") & (y_train != "conj") & (y_train != "coref") & (y_train != "poss"))[0]
+NoEdge_indices = np.where((y_train  == "NoEdge"))[0][0:len(otherselector_indices)/5]  # training with only half total size
+
+selector = np.append(otherselector_indices,NoEdge_indices)
+x_train = x_train[selector]
+y_train = y_train[selector]
+
+
+
 
 
 print "size of dataset is : %s \n" \
