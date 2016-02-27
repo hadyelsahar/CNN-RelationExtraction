@@ -7,7 +7,9 @@ import sys
 import numpy as np
 import cPickle as pickle
 from bootstrapping.corenlp.corenlpclient import CoreNlPClient
-from nltk.tokenize import TreebankWordTokenizer
+
+__NO_RELATION__ = "NoEdge"
+__BAN_LIST__ = ["the","a","an"]
 
 class RelationPreprocessor:
     """
@@ -66,7 +68,11 @@ class RelationPreprocessor:
         y = []
 
         # for every training example
-        for f in file_names:
+        for fid, f in enumerate(file_names):
+
+            if fid % 10 == 0:
+                print "Finished processing files %s out of %s" % (fid, len(file_names))
+
             try:
 
                 # collect text sentences tokens
@@ -185,9 +191,10 @@ class RelationPreprocessor:
                 splitted_tags.append([t[0], t[1], t[2]+parse.positions[govid][0], t[2]+parse.positions[govid][1], parse.tokens[govid]])
 
                 for depid in depids:
-                    splitted_tags.append(["T%s" % str(len(tags)+c), "segment", t[2]+parse.positions[depid][0], t[2]+parse.positions[depid][1], parse.tokens[depid]])
-                    c += 1
-                    compound_relations_ids.append((govid, depid))
+                    if parse.tokens[depid].lower() not in __BAN_LIST__:
+                        splitted_tags.append(["T%s" % str(len(tags)+c), "segment", t[2]+parse.positions[depid][0], t[2]+parse.positions[depid][1], parse.tokens[depid]])
+                        c += 1
+                        compound_relations_ids.append((govid, depid))
 
             else:
                 splitted_tags.append(t)
@@ -219,14 +226,16 @@ class RelationPreprocessor:
         rels = [t.split("\t")[1] for t in rels]
         rels = [t.split(" ") for t in rels]
 
+        rels = [[r[0].strip(), r[1].replace("Arg1:", "").strip(), r[2].replace("Arg2:", "").strip()] for r in rels]
+
+        segments = [i[-1] for i in tags]
+        segment_labels = [i[1] for i in tags]
+
+
         for rel in rels:
-            y.append(rel[0].strip())
-
-            arg1 = rel[1].replace("Arg1:", "").strip()
-            arg2 = rel[2].replace("Arg2:", "").strip()
-
-            segments = [i[-1] for i in tags]
-            segment_labels = [i[1] for i in tags]
+            y.append(rel[0])
+            arg1 = rel[1]
+            arg2 = rel[2]
 
             for c, t in enumerate(tags):
                 if t[0] == arg1:
@@ -237,30 +246,23 @@ class RelationPreprocessor:
             x = {"sentence_id": f, "segments": segments, "segment_labels": segment_labels, "ent1": ent1, "ent2": ent2}
             X.append(x)
 
+        # Addition of NoEdge relations
+        exist = [(r[1], r[2]) for r in rels]
+        allrels = set([r[1] for r in rels] + [r[2] for r in rels])
+
+        for arg1 in allrels:
+            for arg2 in allrels:
+
+                if arg1 != arg2 and (arg1, arg2) not in exist:
+
+                    for c, t in enumerate(tags):
+                        if t[0] == arg1:
+                            ent1 = c
+                        if t[0] == arg2:
+                            ent2 = c
+
+                    x = {"sentence_id": f, "segments": segments, "segment_labels": segment_labels, "ent1": ent1, "ent2": ent2}
+                    X.append(x)
+                    y.append(__NO_RELATION__)
+
         return X, y
-
-    # def tokenize(self, text, returnids = True):
-    #     """
-    #     adaptation of Treebanktokenizer to allow start and end positions of each token of sentences
-    #     :param s: seting sentence
-    #     :param returnids: if true return a tuple of array of tokens and array of tuples containing start and
-    #                     end positions of each tokens [tokens],ids[(start,end)])
-    #                     eg.  sentence : "hello hi a" ["hello","hi","a"] [(0,5),(6,8),(9,10)]
-    #     :return:
-    #     """
-    #     if returnids:
-    #
-    #         tokens = TreebankWordTokenizer().tokenize(text)
-    #         positions = []
-    #         start = 0
-    #         for token in tokens:
-    #             positions.append((start, start+len(token)))
-    #             start = start+len(token)+1
-    #
-    #         return tokens, positions
-    #
-    #     else:
-    #         TreebankWordTokenizer().tokenize(s)
-    #
-
-# p = RelationPreprocessor()
