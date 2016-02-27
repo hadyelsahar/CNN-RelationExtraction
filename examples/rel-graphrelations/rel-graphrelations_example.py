@@ -19,7 +19,7 @@ from sklearn.cross_validation import train_test_split
 # y: array(string) : labels of realations
 #######################################
 
-if not os.path.exists("./saved-models/dataset.p"):
+if not os.path.exists("./saved-models/dataset_X.p"):
     print "preprocessed data file doesn't exist.. running extraciton process"
     p = RelationPreprocessor()
     vectorizer = RelationMentionVectorizer(threads=32)
