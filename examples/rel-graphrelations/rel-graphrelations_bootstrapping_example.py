@@ -62,18 +62,25 @@ if not os.path.exists(saved_model_path+"dataset.p"):
 
     print "saving manual annotated data..."
     pk.dump((X, y), file=open(saved_model_path+"dataset.p", 'w'), protocol=pk.HIGHEST_PROTOCOL)
+    np.save(open(saved_model_path+"dataset_X.p", 'w'), X)
+    np.save(open(saved_model_path+"dataset_y.p", 'w'), y)
 
     if int(args.bootstrap_size) > 0:
         print "saving bootstrapped data.."
-        pk.dump((X_bootstrap, y_bootstrap), file=open(saved_model_path+"dataset_bootstrapped.p", 'w'), protocol=pk.HIGHEST_PROTOCOL)
+        np.save(open(saved_model_path+"dataset_X_boot.p", 'w'), X_bootstrap)
+        np.save(open(saved_model_path+"dataset_y_boot.p", 'w'), y_bootstrap)
 
     print "models saved"
 
 else:
     print "preprocessed file exists.. loading.."
-    X, y = pk.load(open(saved_model_path+"dataset.p", 'r'))
+    X = np.load(open(saved_model_path+"dataset_X.p", 'r'))
+    y = np.load(open(saved_model_path+"dataset_y.p", 'r'))
+
     if int(args.bootstrap_size) > 0:
-        X_bootstrap, y_bootstrap = pk.load(open(saved_model_path+"dataset_bootstrapped.p", 'r'))
+        X_bootstrap = np.load(open(saved_model_path+"dataset_X_boot.p", 'r'))
+        y_bootstrap = np.load(open(saved_model_path+"dataset_y_boot.p", 'r'))
+
     else:
         X_bootstrap, y_bootstrap = [], []
 
