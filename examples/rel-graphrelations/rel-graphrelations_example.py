@@ -33,8 +33,8 @@ if not os.path.exists("./saved-models/dataset.p"):
 
 else:
     print "preprocessed file exists.. loading.."
-    X = np.load(open("./saved-models/dataset_X.p", 'w'))
-    y = np.load(open("./saved-models/dataset_y.p", 'w'))
+    X = np.load(open("./saved-models/dataset_X.p", 'r'))
+    y = np.load(open("./saved-models/dataset_y.p", 'r'))
 
 
 y = np.array(y)
