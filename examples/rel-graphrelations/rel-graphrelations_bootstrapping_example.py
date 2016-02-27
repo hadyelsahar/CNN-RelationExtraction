@@ -5,6 +5,7 @@ from relationpreprocessor import *
 sys.path.append('../../')
 from Vectorizers.relationmentionvectorizer import *
 from sklearn.metrics import classification_report
+from sklearn.cross_validation import train_test_split
 from CNN import *
 import cPickle as pk
 import os
