@@ -74,8 +74,8 @@ class CNN(BaseEstimator, ClassifierMixin):
         h_conv1 = tf.nn.relu(CNN.conv2d(self.x, W_conv1) + b_conv1)
         h_pool1 = CNN.max_pool_2x2(h_conv1)
 
-        W_conv2 = CNN.weight_variable([3, 3, 64, 65])
-        b_conv2 = CNN.bias_variable([65])
+        W_conv2 = CNN.weight_variable([3, 3, 64, 32])
+        b_conv2 = CNN.bias_variable([32])
 
         h_conv2 = tf.nn.relu(CNN.conv2d(h_pool1, W_conv2) + b_conv2)
         h_pool2 = CNN.max_pool_2x2(h_conv2)
@@ -85,7 +85,7 @@ class CNN(BaseEstimator, ClassifierMixin):
         # max pooling : reduces size into half
         h_pool2_l = np.ceil(np.ceil(self.m/2.0)/2.0)
         h_pool2_w = np.ceil(np.ceil(self.n/2.0)/2.0)
-        h_pool2_flat_shape = int(h_pool2_l * h_pool2_w * 65)
+        h_pool2_flat_shape = int(h_pool2_l * h_pool2_w * 32)
 
         W_fc1 = CNN.weight_variable([h_pool2_flat_shape, 256])
         b_fc1 = CNN.bias_variable([256])
@@ -103,7 +103,7 @@ class CNN(BaseEstimator, ClassifierMixin):
 
         cross_entropy = -tf.reduce_sum(self.y_ * tf.log(self.y_conv))
 
-        self.train_step = tf.train.AdamOptimizer(1e-3).minimize(cross_entropy)
+        self.train_step = tf.train.AdamOptimizer(1e-2).minimize(cross_entropy)
         # self.train_step = tf.train.AdagradOptimizer(1e-3).minimize(cross_entropy)
 
         self.correct_prediction = tf.equal(tf.argmax(self.y_conv, 1), tf.argmax(self.y_, 1))
