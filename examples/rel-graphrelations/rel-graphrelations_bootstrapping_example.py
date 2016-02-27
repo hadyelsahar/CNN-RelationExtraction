@@ -91,7 +91,7 @@ else:
 
     else:
         X_bootstrap = np.zeros(shape=(0, X.shape[1]))
-        y_bootstrap = np.zeros(shape=(0, y.shape[1]))
+        y_bootstrap = []
 
 
 y = np.array(y)
