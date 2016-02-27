@@ -13,8 +13,8 @@ import argparse
 
 
 parser = argparse.ArgumentParser(description='relation extraction using bootstrapped training set and CNN')
-parser.add_argument('-bs', '--boot_size', help='size of the bootstrapping', required=False)
-parser.add_argument('-smp', '--saved_model_path', help='saved model file name', required=True)
+parser.add_argument('-bs', '--bootstrap_size', help='size of the bootstrapping 0 for no bootstrapping', required=False)
+parser.add_argument('-smp', '--saved_model_path', help='saved model folder name', required=True)
 args = parser.parse_args()
 
 
@@ -27,54 +27,75 @@ args = parser.parse_args()
 
 fout = open('experiment-results-%s.txt' % time.strftime("%d-%m-%Y-%I:%M:%S"), 'w')
 
-saved_model_path = args.saved_model_path
+saved_model_path = args.saved_model_path if args.saved_model_path.endswith("/") else args.saved_model_path+"/"
 
-if not os.path.exists(saved_model_path):
+if not os.path.exists(saved_model_path+"dataset.p"):
     print "preprocessed data file doesn't exist.. running extraciton process"
+
     p = RelationPreprocessor()
-    p_bootstrap = RelationPreprocessor(inputdir='./data/bootstrap')
+    vectorizer = RelationMentionVectorizer(threads=30)
 
-    vectorizer = RelationMentionVectorizer()
+    if int(args.bootstrap_size) > 0:
 
-    # debug with small size bootstrapping data
-    if args.boot_size is not None :
-        p_bootstrap.X = p_bootstrap.X[0:int(args.boot_size)]
-        p_bootstrap.y = p_bootstrap.y[0:int(args.boot_size)]
+        p_bootstrap = RelationPreprocessor(inputdir='./data/bootstrap')
+        print "fitting dataset.."
+        vectorizer.fit(np.concatenate([p.X, p_bootstrap.X], 0))
+        print "done fitting dataset"
 
-    print "fitting dataset.."
-    vectorizer.fit(np.concatenate([p.X, p_bootstrap.X], 0))
-    print "done fitting dataset"
+    else:
+        print "fitting dataset.."
+        vectorizer.fit(p.X)
+        print "done fitting dataset"
+
     print "max width of the datasets is %s" % vectorizer.m
 
     print "vectorization of manual annotated data.."
     X = vectorizer.transform(p.X)
-
-    print "vectorization of bootstrapped data.."
-    X_bootstrap = vectorizer.transform(p_bootstrap.X)
-    y_bootstrap = p_bootstrap.y
     y = p.y
-    print "saving models ..."
-    pk.dump((X, y, X_bootstrap, y_bootstrap), file=open(saved_model_path, 'w'))
+
+    if int(args.bootstrap_size) > 0 :
+        print "vectorization of bootstrapped data.."
+        X_bootstrap = vectorizer.transform(p_bootstrap.X)
+        y_bootstrap = p_bootstrap.y
+    else:
+        X_bootstrap, y_bootstrap = [], []
+
+    print "saving manual annotated data..."
+    pk.dump((X, y), file=open(saved_model_path+"dataset.p", 'w'))
+
+    if int(args.bootstrap_size) > 0:
+        print "saving bootstrapped data.."
+        pk.dump((X_bootstrap, y_bootstrap), file=open(saved_model_path+"dataset_bootstrapped.p", 'w'))
+
     print "models saved"
+
 else:
     print "preprocessed file exists.. loading.."
-    X, y, X_bootstrap, y_bootstrap = pk.load(open(saved_model_path, 'r'))
+    X, y = pk.load(open(saved_model_path+"dataset.p", 'r'))
+    if int(args.bootstrap_size) > 0:
+        X_bootstrap, y_bootstrap = pk.load(open(saved_model_path+"dataset_bootstrapped.p", 'r'))
+    else:
+        X_bootstrap, y_bootstrap = [], []
 
-# todo use scikit learn cv vectorizer as RelationMentionVectorizer implements scikitlearn interface
 
 y = np.array(y)
+x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 
-x_train = np.concatenate([X[0:2200], X_bootstrap], 0)
-x_test = X[2200:]
 
-y_train = np.concatenate([y[0:2200], y_bootstrap], 0)
-y_test = y[2200:]
+X_bootstrap_limited = X_bootstrap[0:args.bootstrap_size]
+y_bootstrap_limited = y_bootstrap[0:args.bootstrap_size]
+
+# addition of bootstrapping data
+x_train = np.concatenate([x_train, X_bootstrap_limited], 0)
+y_train = np.concatenate([y_train, y_bootstrap_limited], 0)
+
 
 print "size of dataset is : %s \n" \
       "bootstrapping size  : %s \n" \
+      "limited to  : %s ]n" \
       "training size: %s \n " \
       "testing size: %s " \
-      % (len(y), len(y_bootstrap), len(y_train), len(y_test))
+      % (len(y), len(y_bootstrap), args.bootstrap_size, len(y_train), len(y_test))
 
 print "now training..."
 
