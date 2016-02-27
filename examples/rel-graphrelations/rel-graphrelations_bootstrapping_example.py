@@ -67,7 +67,8 @@ if not os.path.exists(saved_model_path+"dataset.p"):
         X_bootstrap = vectorizer.transform(p_bootstrap.X)
         y_bootstrap = p_bootstrap.y
     else:
-        X_bootstrap, y_bootstrap = [], []
+        X_bootstrap = np.zeros(shape=(0, X.shape[1], X.shape[2]))
+        y_bootstrap = []
 
     print "saving manual annotated data..."
     np.save(open(saved_model_path+"dataset_X.p", 'w'), X)
@@ -90,7 +91,7 @@ else:
         y_bootstrap = np.load(open(saved_model_path+"dataset_y_boot.p", 'r'))
 
     else:
-        X_bootstrap = np.zeros(shape=(0, X.shape[1]))
+        X_bootstrap = np.zeros(shape=(0, X.shape[1], X.shape[2]))
         y_bootstrap = []
 
 
