@@ -22,13 +22,13 @@ from sklearn.cross_validation import train_test_split
 if not os.path.exists("./saved-models/dataset.p"):
     print "preprocessed data file doesn't exist.. running extraciton process"
     p = RelationPreprocessor()
-    vectorizer = RelationMentionVectorizer(threads=7)
+    vectorizer = RelationMentionVectorizer(threads=32)
     vectorizer.fit(p.X)
     print "vectorizing data.."
     X = vectorizer.transform(p.X)
     y = p.y
     print "done vectorizing.."
-    pk.dump((X, y), file=open("./saved-models/dataset.p", 'w'))
+    pk.dump((X, y), file=open("./saved-models/dataset.p", 'w'), protocol=pk.HIGHEST_PROTOCOL)
 else:
     print "preprocessed file exists.. loading.."
     X, y = pk.load(open("./saved-models/dataset.p", 'r'))
