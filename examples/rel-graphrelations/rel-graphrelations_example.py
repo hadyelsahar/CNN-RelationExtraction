@@ -42,7 +42,7 @@ y = np.array(y)
 x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 
 otherselector_indices = np.where((y_train != "NoEdge") & (y_train != "c_p") & (y_train != "conj") & (y_train != "coref") & (y_train != "poss"))[0]
-NoEdge_indices = np.where((y_train  == "NoEdge"))[0][0:len(otherselector_indices)/2]  # training with only half total size
+NoEdge_indices = np.where((y_train  == "NoEdge"))[0][0:len(otherselector_indices)/5]  # training with only half total size
 
 selector = np.append(otherselector_indices,NoEdge_indices)
 x_train = x_train[selector]
@@ -61,7 +61,7 @@ print max_w
 x_train = np.reshape(x_train, [-1, max_w, 320, 1])
 x_test = np.reshape(x_test, [-1, max_w, 320, 1])
 
-cnn = CNN(input_shape=[max_w, 320, 1], classes=np.unique(y), conv_shape=[4, 55], epochs=2500)
+cnn = CNN(input_shape=[max_w, 320, 1], classes=np.unique(y), conv_shape=[4, 55], epochs=25000)
 cnn.fit(x_train, y_train, x_test, y_test)
 
 print "done training"
@@ -69,9 +69,13 @@ print "testing"
 
 # Testing :
 ###########
-y_pred = cnn.predict(x_test)
+y_pred = np.array([])
 
-print classification_report(y_test, y_pred)
+for c, t in enumerate(Batcher.chunks(x_test, 100)):
+    y_pred = np.append(y_pred, cnn.predict(t))
+
+classification_rep = classification_report(y_test, y_pred)
+print classification_rep
 
 
 
