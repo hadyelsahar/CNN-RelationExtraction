@@ -9,7 +9,7 @@ import threading
 
 
 class Transform_Thread(threading.Thread):
-    def __init__(self, threadID, X, vectors_for_unique_segments, Wposlookup, X_out):
+    def __init__(self, threadID, X, vectors_for_unique_segments, Wposlookup, X_out, sentence_ids):
         threading.Thread.__init__(self)
         self.threadID = threadID
 
@@ -17,15 +17,16 @@ class Transform_Thread(threading.Thread):
         self.vectors_for_unique_segments = vectors_for_unique_segments
         self.Wposlookup = Wposlookup
         self.X_out = X_out
+        self.sentence_ids = sentence_ids
 
     def run(self):
         print "Starting Thread: %s" % self.threadID
 
         for c, i in enumerate(self.X):
-            if c % 100 == 0 :
+            if c % 100 == 0:
                 print "vectorizing %s out of %s" %(c, len(self.X))
 
-            x1 = self.vectors_for_unique_segments[" ".join(i["segments"])]
+            x1 = self.vectors_for_unique_segments[self.sentence_ids[c]]
 
             # position with respect to ent1
             x2 = self.Wposlookup(i["ent1"])     # dimension m x _
@@ -72,8 +73,8 @@ class RelationMentionVectorizer(TransformerMixin):
 
         X_out = np.zeros([0, self.m, self.n], np.float32)
 
-        unique_segments = np.unique([x["segments"] for x in X])
-        vectors_for_unique_segments = {}
+        unique_segments, sentence_ids = np.unique([x["segments"] for x in X], return_inverse=True)
+        vectors_for_unique_segments = []
 
         for c, seg in enumerate(unique_segments):
 
@@ -86,7 +87,7 @@ class RelationMentionVectorizer(TransformerMixin):
             if padsize > 0:
                 temp = np.zeros((padsize, self.wordvectorizer.model.vector_size))
                 x1 = np.vstack([x1, temp])
-                vectors_for_unique_segments[" ".join(seg)] = x1
+                vectors_for_unique_segments.append(x1)
         #
         # for c, i in enumerate(X):
         #
@@ -105,7 +106,7 @@ class RelationMentionVectorizer(TransformerMixin):
 
         thread_obj = []
         for c, X_thread in enumerate(np.array_split(X, self.threads)):
-            T = Transform_Thread(c, X_thread, vectors_for_unique_segments, self.Wposlookup, X_out)
+            T = Transform_Thread(c, X_thread, vectors_for_unique_segments, self.Wposlookup, X_out, sentence_ids)
             thread_obj.append(T)
             T.start()
 
