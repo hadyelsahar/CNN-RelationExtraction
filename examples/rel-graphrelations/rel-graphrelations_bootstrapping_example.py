@@ -97,8 +97,8 @@ y = np.array(y)
 x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 
 
-X_bootstrap_limited = X_bootstrap[0:args.bootstrap_size]
-y_bootstrap_limited = y_bootstrap[0:args.bootstrap_size]
+X_bootstrap_limited = X_bootstrap[0:int(args.bootstrap_size)]
+y_bootstrap_limited = y_bootstrap[0:int(args.bootstrap_size)]
 
 # addition of bootstrapping data
 x_train = np.concatenate([x_train, X_bootstrap_limited], 0)
